@@ -1,0 +1,1 @@
+Submitted **PROVEN_INFEASIBLE**. Using the amm Ti6Al4V properties, the theoretical bulk-modulus upper bound at 22% solid fraction is **9.94 GPa**, below the required **18.1 GPa**. Achieving that target requires at least **35.67% solid fraction** theoretically; an actual design may require more.

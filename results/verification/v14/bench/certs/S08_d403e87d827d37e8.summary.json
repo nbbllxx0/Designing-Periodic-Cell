@@ -1,0 +1,69 @@
+{
+ "verdict": "certified",
+ "passed": true,
+ "seconds": 90.1,
+ "timing": {
+  "static": 90.1
+ },
+ "static_verdict": "certified",
+ "static_rung": [
+  32,
+  48,
+  64
+ ],
+ "bounds": {
+  "density": {
+   "lower": 0.31650028059644697,
+   "upper": 0.3165956191195714,
+   "extrapolated": 0.3165649353579359,
+   "converged": true
+  },
+  "E100": {
+   "lower": 0.1573652837448618,
+   "upper": 0.1588999320802965,
+   "extrapolated": 0.15805776137930377,
+   "converged": true
+  },
+  "G": {
+   "lower": 0.0156063316150514,
+   "upper": 0.016481480854445174,
+   "extrapolated": 0.016026906112413877,
+   "converged": true
+  },
+  "bulk": {
+   "lower": 0.07027786000293008,
+   "upper": 0.07120444452763115,
+   "extrapolated": 0.07070087066900295,
+   "converged": true
+  },
+  "nu100": {
+   "lower": 0.12681116688488073,
+   "upper": 0.12806644740967446,
+   "extrapolated": 0.12740382425759847,
+   "converged": true
+  }
+ },
+ "checker": "f141e46cb67a78db",
+ "spec_hash": "d403e87d827d37e8",
+ "slack_by_target": {
+  "density_max": 0.34042579350089286,
+  "E100_min": 0.34647889399738896,
+  "nu100_max": 0.6798338814758139
+ },
+ "certified_slack": 0.34042579350089286,
+ "target_id": "S08",
+ "spec": {
+  "family": "tpms",
+  "kind": "iwp",
+  "params": {
+   "density": 0.316558,
+   "mode": "network"
+  }
+ },
+ "methods": [
+  "M5"
+ ],
+ "wall_seconds_v3": 90.1,
+ "finished": "2026-11-07 23:39:35",
+ "verdict_before_rules": "certified"
+}

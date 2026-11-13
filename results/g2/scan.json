@@ -1,0 +1,2950 @@
+[
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.1
+   }
+  },
+  "density": 0.08221966063505431,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.25859929334657183,
+    "f_hi": 0.5329422452085336,
+    "rel": 0.6931864936936916,
+    "lo_path": 0.25859929334657183,
+    "hi_path": 0.5329422452085336,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 12,
+    "f_lo": 0.6836680154300725,
+    "f_hi": 0.9573562457387665,
+    "rel": 0.333557811160886,
+    "lo_path": 0.6836680154300725,
+    "hi_path": 0.9573562457387665,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 15,
+    "f_lo": 0.9689225257656802,
+    "f_hi": 1.1399488717776542,
+    "rel": 0.16219703696603407,
+    "lo_path": 0.9689225257656802,
+    "hi_path": 1.1399488717776542,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.15
+   }
+  },
+  "density": 0.10443262862832936,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.36631736780025254,
+    "f_hi": 0.5291910727343656,
+    "rel": 0.36375693977128243,
+    "lo_path": 0.36631736780025254,
+    "hi_path": 0.5291910727343656,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.75,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 15,
+    "f_lo": 0.915173509129749,
+    "f_hi": 1.0447672861180033,
+    "rel": 0.13224254253238557,
+    "lo_path": 0.915173509129749,
+    "hi_path": 1.0447672861180033,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 12,
+    "f_lo": 0.8304890393679696,
+    "f_hi": 0.8568413078726635,
+    "rel": 0.031235458483620603,
+    "lo_path": 0.8304890393679696,
+    "hi_path": 0.8568413078726635,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   }
+  },
+  "density": 0.1361799667231093,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.5105363842321041,
+    "f_hi": 0.5540308527676606,
+    "rel": 0.08171295719777277,
+    "lo_path": 0.5105363842321041,
+    "hi_path": 0.5540308527676606,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.125,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.25
+   }
+  },
+  "density": 0.1764387724910097,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.3
+   }
+  },
+  "density": 0.22602194391145694,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.5,
+    "w": 0.1
+   }
+  },
+  "density": 0.14019391357981148,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.1990074853667976,
+    "f_hi": 0.5972070763799111,
+    "rel": 1.0002318725232975,
+    "lo_path": 0.1990074853667976,
+    "hi_path": 0.5972070763799111,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 12,
+    "f_lo": 0.6657751320534667,
+    "f_hi": 0.9403910449848918,
+    "rel": 0.34195205559339414,
+    "lo_path": 0.6657751320534667,
+    "hi_path": 0.9403910449848918,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 17,
+    "f_lo": 1.0174568963453774,
+    "f_hi": 1.1660837444237953,
+    "rel": 0.13613380516339982,
+    "lo_path": 1.0174568963453774,
+    "hi_path": 1.1660837444237953,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 14,
+    "f_lo": 0.9566429140134847,
+    "f_hi": 1.000562597149283,
+    "rel": 0.04487999127869399,
+    "lo_path": 0.9566429140134847,
+    "hi_path": 1.0005650138876616,
+    "interior_excess": 5.502631635700976e-05,
+    "k_lo": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.935,
+     0.922,
+     0.862
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.5,
+    "w": 0.15
+   }
+  },
+  "density": 0.1587271477419504,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.2886822456537614,
+    "f_hi": 0.6253862405099251,
+    "rel": 0.7367150272717499,
+    "lo_path": 0.2886822456537614,
+    "hi_path": 0.6253862405099251,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     0.625,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 12,
+    "f_lo": 0.7874538399011849,
+    "f_hi": 0.909017956203134,
+    "rel": 0.14331404339418077,
+    "lo_path": 0.7874538399011849,
+    "hi_path": 0.909017956203134,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 17,
+    "f_lo": 1.0487873614804253,
+    "f_hi": 1.0744845671431882,
+    "rel": 0.024205289314422215,
+    "lo_path": 1.0487873614804253,
+    "hi_path": 1.0744845671431882,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.5,
+    "w": 0.2
+   }
+  },
+  "density": 0.18519554884264158,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.38936360466944536,
+    "f_hi": 0.6229405970535273,
+    "rel": 0.4614758922990279,
+    "lo_path": 0.38936360466944536,
+    "hi_path": 0.6229405970535273,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.875,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 15,
+    "f_lo": 0.9546847699285789,
+    "f_hi": 0.9866144036962365,
+    "rel": 0.03289511910525188,
+    "lo_path": 0.9546847699285789,
+    "hi_path": 0.9866144036962365,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.5,
+    "w": 0.25
+   }
+  },
+  "density": 0.21875,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.5317397799610539,
+    "f_hi": 0.6312821620688109,
+    "rel": 0.17117885486153775,
+    "lo_path": 0.5317397799610539,
+    "hi_path": 0.6312821620688109,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.875,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.5,
+    "w": 0.3
+   }
+  },
+  "density": 0.2601027613135154,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.1
+   }
+  },
+  "density": 0.2283596461000704,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.1842065593919633,
+    "f_hi": 0.7852417221414398,
+    "rel": 1.239953021111766,
+    "lo_path": 0.1842065593919633,
+    "hi_path": 0.7852417221414398,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     0.875,
+     0.875,
+     0.0
+    ]
+   },
+   {
+    "below_band": 8,
+    "f_lo": 0.7866664879890988,
+    "f_hi": 0.8939612544638725,
+    "rel": 0.12768415487200155,
+    "lo_path": 0.7866664879890988,
+    "hi_path": 0.8939612544638725,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.25,
+     0.0
+    ],
+    "k_hi": [
+     0.125,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.15
+   }
+  },
+  "density": 0.24321048960195885,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.26410040275576785,
+    "f_hi": 0.7965167321505,
+    "rel": 1.003974595303487,
+    "lo_path": 0.26410040275576785,
+    "hi_path": 0.7965167321505,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 8,
+    "f_lo": 0.803251881776411,
+    "f_hi": 0.8235180852435419,
+    "rel": 0.024915881013289256,
+    "lo_path": 0.8031942131561226,
+    "hi_path": 0.8235180852435419,
+    "interior_excess": 0.002845556168523303,
+    "k_lo": [
+     0.176,
+     0.074,
+     0.071
+    ],
+    "k_hi": [
+     0.875,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 14,
+    "f_lo": 1.0328035227959933,
+    "f_hi": 1.056579840543065,
+    "rel": 0.022759172073692293,
+    "lo_path": 1.0328035227959933,
+    "hi_path": 1.056579840543065,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.2
+   }
+  },
+  "density": 0.26437149376531,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.3674673063955631,
+    "f_hi": 0.7899485097932618,
+    "rel": 0.7300422155779037,
+    "lo_path": 0.3674673063955631,
+    "hi_path": 0.7899485097932618,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.25
+   }
+  },
+  "density": 0.2912402144962157,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.49654917408822924,
+    "f_hi": 0.7692253695800724,
+    "rel": 0.43084480858906954,
+    "lo_path": 0.49654917408822924,
+    "hi_path": 0.7692253695800724,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.3
+   }
+  },
+  "density": 0.3243163761905226,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.6125366246246606,
+    "f_hi": 0.7482527192754344,
+    "rel": 0.19946672166289034,
+    "lo_path": 0.6125366246246606,
+    "hi_path": 0.7482527192754344,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.1
+   }
+  },
+  "density": 0.35236966650259377,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.18409708805435232,
+    "f_hi": 0.665238463379643,
+    "rel": 1.1329830112796868,
+    "lo_path": 0.18408728990919304,
+    "hi_path": 0.6652854798846111,
+    "interior_excess": 9.771869013819734e-05,
+    "k_lo": [
+     0.972,
+     0.791,
+     0.775
+    ],
+    "k_hi": [
+     0.924,
+     0.813,
+     0.664
+    ]
+   },
+   {
+    "below_band": 8,
+    "f_lo": 0.6663210066930658,
+    "f_hi": 0.8646341124887416,
+    "rel": 0.25907109008089113,
+    "lo_path": 0.6663210066930658,
+    "hi_path": 0.8646341124887416,
+    "interior_excess": 0.0,
+    "k_lo": [
+     0.125,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 14,
+    "f_lo": 0.9063612041804062,
+    "f_hi": 0.9982985621477166,
+    "rel": 0.09653940256694854,
+    "lo_path": 0.9063612041804062,
+    "hi_path": 0.9982985621477166,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.15
+   }
+  },
+  "density": 0.36347505771550326,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.24695273267420265,
+    "f_hi": 0.6704662306264138,
+    "rel": 0.9232717327501672,
+    "lo_path": 0.24695273267420265,
+    "hi_path": 0.6704662306264138,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 8,
+    "f_lo": 0.6735425318316582,
+    "f_hi": 0.8371899799427887,
+    "rel": 0.21664649014393234,
+    "lo_path": 0.6735425318316582,
+    "hi_path": 0.8371899799427887,
+    "interior_excess": 0.0,
+    "k_lo": [
+     0.125,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.75,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 14,
+    "f_lo": 0.9233226907498204,
+    "f_hi": 0.9728999308084576,
+    "rel": 0.052290526961328604,
+    "lo_path": 0.9233226907498204,
+    "hi_path": 0.9728999308084576,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.2
+   }
+  },
+  "density": 0.37926425631619015,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.35801563313117923,
+    "f_hi": 0.697329040340624,
+    "rel": 0.643038081754265,
+    "lo_path": 0.35801563313117923,
+    "hi_path": 0.697329040340624,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 8,
+    "f_lo": 0.7074180821635867,
+    "f_hi": 0.8267940161701082,
+    "rel": 0.15561855383121467,
+    "lo_path": 0.7074180821635867,
+    "hi_path": 0.8267940161701082,
+    "interior_excess": 0.0,
+    "k_lo": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.25
+   }
+  },
+  "density": 0.3995200599213562,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.4515582869760876,
+    "f_hi": 0.7183590332258337,
+    "rel": 0.45610188282997266,
+    "lo_path": 0.4515582869760876,
+    "hi_path": 0.7183590332258337,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 8,
+    "f_lo": 0.7422292059318639,
+    "f_hi": 0.8085357982919238,
+    "rel": 0.08551468749870152,
+    "lo_path": 0.7422292059318639,
+    "hi_path": 0.8085357982919238,
+    "interior_excess": 0.0,
+    "k_lo": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.3
+   }
+  },
+  "density": 0.4242300616173922,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.5288657124616432,
+    "f_hi": 0.7314093336345588,
+    "rel": 0.32142764676696567,
+    "lo_path": 0.5288657124616432,
+    "hi_path": 0.7314093336345588,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.8,
+    "w": 0.1
+   }
+  },
+  "density": 0.518279429379889,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.1786379612618568,
+    "f_hi": 0.5782285388073315,
+    "rel": 1.0559076865178902,
+    "lo_path": 0.1786379612618568,
+    "hi_path": 0.5782306297596234,
+    "interior_excess": 5.2327367294557e-06,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     0.906,
+     0.904,
+     0.888
+    ]
+   },
+   {
+    "below_band": 8,
+    "f_lo": 0.5787498208661672,
+    "f_hi": 0.7699343835830885,
+    "rel": 0.28351271867233413,
+    "lo_path": 0.5787498208661672,
+    "hi_path": 0.7699343835830885,
+    "interior_excess": 0.0,
+    "k_lo": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 14,
+    "f_lo": 0.7972344845552708,
+    "f_hi": 0.8832135153420895,
+    "rel": 0.10232870138447625,
+    "lo_path": 0.7972344845552708,
+    "hi_path": 0.8832135153420895,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.8,
+    "w": 0.15
+   }
+  },
+  "density": 0.525639661398114,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.24755623086994938,
+    "f_hi": 0.5831469478639503,
+    "rel": 0.8079678171100418,
+    "lo_path": 0.24755623086994938,
+    "hi_path": 0.5831469478639503,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 8,
+    "f_lo": 0.5853434120472638,
+    "f_hi": 0.7664747006099657,
+    "rel": 0.2679817452758602,
+    "lo_path": 0.5853434120472638,
+    "hi_path": 0.7664747006099657,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 14,
+    "f_lo": 0.8220345628364013,
+    "f_hi": 0.874994631537705,
+    "rel": 0.06241503549482098,
+    "lo_path": 0.8220345628364013,
+    "hi_path": 0.874994631537705,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.8,
+    "w": 0.2
+   }
+  },
+  "density": 0.536214348293601,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.31410278567904576,
+    "f_hi": 0.5933823385815866,
+    "rel": 0.6155022169208164,
+    "lo_path": 0.31410278567904576,
+    "hi_path": 0.5933823385815866,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 8,
+    "f_lo": 0.5997308798466627,
+    "f_hi": 0.7655205682105796,
+    "rel": 0.24287055487080592,
+    "lo_path": 0.5997181030570441,
+    "hi_path": 0.7655205682105796,
+    "interior_excess": 7.706625028810396e-05,
+    "k_lo": [
+     0.614,
+     0.17,
+     0.039
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.8,
+    "w": 0.25
+   }
+  },
+  "density": 0.5496860519815234,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.39742557539637985,
+    "f_hi": 0.6089033622759716,
+    "rel": 0.42029554942291925,
+    "lo_path": 0.39742557539637985,
+    "hi_path": 0.6089033622759716,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 8,
+    "f_lo": 0.625387043952949,
+    "f_hi": 0.7692147549112772,
+    "rel": 0.20626348119651444,
+    "lo_path": 0.625387043952949,
+    "hi_path": 0.7692147549112772,
+    "interior_excess": 0.0,
+    "k_lo": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.8,
+    "w": 0.3
+   }
+  },
+  "density": 0.5660370074218095,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.47619733451078083,
+    "f_hi": 0.6242238579569187,
+    "rel": 0.2690361190049198,
+    "lo_path": 0.47619733451078083,
+    "hi_path": 0.6242238579569187,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 8,
+    "f_lo": 0.6594921098458674,
+    "f_hi": 0.7728400870450144,
+    "rel": 0.1582705149618055,
+    "lo_path": 0.6594921098458674,
+    "hi_path": 0.7728400870450144,
+    "interior_excess": 0.0,
+    "k_lo": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.2,
+    "w": 0.1
+   }
+  },
+  "density": 0.0479741073070802,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.29737720492287095,
+    "f_hi": 0.4339786296173446,
+    "rel": 0.3735566689786551,
+    "lo_path": 0.29737720492287095,
+    "hi_path": 0.4339786296173446,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 12,
+    "f_lo": 0.6731482721558518,
+    "f_hi": 0.9047939175085964,
+    "rel": 0.2936047300972469,
+    "lo_path": 0.6731482721558518,
+    "hi_path": 0.906406141959452,
+    "interior_excess": 0.006959873769267574,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     0.935,
+     0.922,
+     0.862
+    ]
+   },
+   {
+    "below_band": 15,
+    "f_lo": 0.9164818171994358,
+    "f_hi": 0.9850729790888789,
+    "rel": 0.07214218809084827,
+    "lo_path": 0.9164818171994358,
+    "hi_path": 0.9850729790888789,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.2,
+    "w": 0.15
+   }
+  },
+  "density": 0.06614896552327257,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 15,
+    "f_lo": 0.8764992632097656,
+    "f_hi": 0.941404456772419,
+    "rel": 0.07140663485004532,
+    "lo_path": 0.8764992632097656,
+    "hi_path": 0.941404456772419,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 6,
+    "f_lo": 0.39244101286132343,
+    "f_hi": 0.4174726163970707,
+    "rel": 0.06181301963931064,
+    "lo_path": 0.39244101286132343,
+    "hi_path": 0.417520004749515,
+    "interior_excess": 0.0018931408999291028,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     0.386,
+     0.082,
+     0.02
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.2,
+    "w": 0.2
+   }
+  },
+  "density": 0.09245578335672294,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.2,
+    "w": 0.25
+   }
+  },
+  "density": 0.12789500663484887,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.1
+   }
+  },
+  "density": 0.07750637755202232,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.23900801685339154,
+    "f_hi": 0.5442412945647561,
+    "rel": 0.7794026072201979,
+    "lo_path": 0.23900801685339154,
+    "hi_path": 0.5455024147977221,
+    "interior_excess": 0.004131660356373488,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     0.176,
+     0.074,
+     0.071
+    ]
+   },
+   {
+    "below_band": 12,
+    "f_lo": 0.6801714786900427,
+    "f_hi": 0.9908791240012038,
+    "rel": 0.3718710191190654,
+    "lo_path": 0.6801714786900427,
+    "hi_path": 0.9908791240012038,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 15,
+    "f_lo": 0.9977672620398937,
+    "f_hi": 1.194735138746984,
+    "rel": 0.17967403514486416,
+    "lo_path": 0.996828953166948,
+    "hi_path": 1.194735138746984,
+    "interior_excess": 0.004763765993889062,
+    "k_lo": [
+     0.529,
+     0.459,
+     0.04
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.15
+   }
+  },
+  "density": 0.0926425344756409,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.34485314048764204,
+    "f_hi": 0.5595027797563701,
+    "rel": 0.47470168428998966,
+    "lo_path": 0.34485314048764204,
+    "hi_path": 0.5595027797563701,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 15,
+    "f_lo": 0.9684722624669398,
+    "f_hi": 1.1153377417971022,
+    "rel": 0.14095860853881653,
+    "lo_path": 0.9684722624669398,
+    "hi_path": 1.1153377417971022,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 12,
+    "f_lo": 0.8568767851001993,
+    "f_hi": 0.9326734270855389,
+    "rel": 0.08471027129522385,
+    "lo_path": 0.8568767851001993,
+    "hi_path": 0.9326734270855389,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.2
+   }
+  },
+  "density": 0.114524567068408,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.47560134240273544,
+    "f_hi": 0.5447965678766804,
+    "rel": 0.13562400466891827,
+    "lo_path": 0.47560134240273544,
+    "hi_path": 0.5447965678766804,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.25
+   }
+  },
+  "density": 0.14379808351197873,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.1
+   }
+  },
+  "density": 0.12272234752109182,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.21875868902158047,
+    "f_hi": 0.8473446152852758,
+    "rel": 1.179221420146297,
+    "lo_path": 0.21875868902158047,
+    "hi_path": 0.8473446152852758,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     0.375,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 12,
+    "f_lo": 1.0168000293160688,
+    "f_hi": 1.265844557914168,
+    "rel": 0.21820701303332551,
+    "lo_path": 1.0168000293160688,
+    "hi_path": 1.265844557914168,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.15
+   }
+  },
+  "density": 0.134857314398182,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.3339634960756287,
+    "f_hi": 0.7472335475682548,
+    "rel": 0.7644675943615432,
+    "lo_path": 0.3339634960756287,
+    "hi_path": 0.7472335475682548,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.625,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 12,
+    "f_lo": 1.0263475726086764,
+    "f_hi": 1.1705776404382273,
+    "rel": 0.13130175480986814,
+    "lo_path": 1.0263475726086764,
+    "hi_path": 1.1705776404382273,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.2
+   }
+  },
+  "density": 0.15236469038027423,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.4545797249981472,
+    "f_hi": 0.6863190117779626,
+    "rel": 0.4062398866960828,
+    "lo_path": 0.4545797249981472,
+    "hi_path": 0.6863190117779626,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.25
+   }
+  },
+  "density": 0.1758905512458999,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.5558854641093769,
+    "f_hi": 0.6358468885008155,
+    "rel": 0.13419359509088272,
+    "lo_path": 0.5558854641093769,
+    "hi_path": 0.6358468885008155,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.1
+   }
+  },
+  "density": 0.18666687033854748,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.20640899620331288,
+    "f_hi": 0.9911124202274363,
+    "rel": 1.3105459547653973,
+    "lo_path": 0.20640899620331288,
+    "hi_path": 0.9911124202274363,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.125,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.15
+   }
+  },
+  "density": 0.1958257873400455,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.29403162883818357,
+    "f_hi": 0.8867833830660609,
+    "rel": 1.003970559744112,
+    "lo_path": 0.29403162883818357,
+    "hi_path": 0.8867833830660609,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.375,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.2
+   }
+  },
+  "density": 0.20919109838250097,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.40166055887434265,
+    "f_hi": 0.8177948239128098,
+    "rel": 0.6824919893130694,
+    "lo_path": 0.40166055887434265,
+    "hi_path": 0.8177948239128098,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.875,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.25
+   }
+  },
+  "density": 0.22697909637806027,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.5239323845825775,
+    "f_hi": 0.7676459292536834,
+    "rel": 0.3773887220933976,
+    "lo_path": 0.5239323845825775,
+    "hi_path": 0.7676459292536834,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.375,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.4,
+    "w": 0.1
+   }
+  },
+  "density": 0.2729410060088506,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.24282293438792452,
+    "f_hi": 0.9738499767161561,
+    "rel": 1.2016821212282185,
+    "lo_path": 0.24282293438792452,
+    "hi_path": 0.9738499767161561,
+    "interior_excess": 0.0,
+    "k_lo": [
+     0.875,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.75,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 16,
+    "f_lo": 1.1288396274910493,
+    "f_hi": 1.3870873980346168,
+    "rel": 0.20529035057335213,
+    "lo_path": 1.1288396274910493,
+    "hi_path": 1.3870873980346168,
+    "interior_excess": 0.0,
+    "k_lo": [
+     0.625,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.4,
+    "w": 0.15
+   }
+  },
+  "density": 0.27908896653143817,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.34463786491185877,
+    "f_hi": 0.93652009997508,
+    "rel": 0.9239801043822952,
+    "lo_path": 0.34463786491185877,
+    "hi_path": 0.93652009997508,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.125,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 16,
+    "f_lo": 1.181561894367006,
+    "f_hi": 1.3314124293251655,
+    "rel": 0.1192614930804326,
+    "lo_path": 1.181561894367006,
+    "hi_path": 1.3314124293251655,
+    "interior_excess": 0.0,
+    "k_lo": [
+     0.125,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   }
+  },
+  "density": 0.28809818992113007,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.44077270540123453,
+    "f_hi": 0.8945605991171872,
+    "rel": 0.6796623617196577,
+    "lo_path": 0.44077270540123453,
+    "hi_path": 0.8945605991171872,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.25,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 16,
+    "f_lo": 1.2354753761564339,
+    "f_hi": 1.2610416687603327,
+    "rel": 0.02048156863655721,
+    "lo_path": 1.2354753761564339,
+    "hi_path": 1.2610416687603327,
+    "interior_excess": 0.0,
+    "k_lo": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.4,
+    "w": 0.25
+   }
+  },
+  "density": 0.30038722459990796,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.5434636637714824,
+    "f_hi": 0.854173926589369,
+    "rel": 0.4446220750798,
+    "lo_path": 0.5434636637714824,
+    "hi_path": 0.854173926589369,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "gyroid",
+   "params": {
+    "density": 0.15,
+    "mode": "network"
+   }
+  },
+  "density": 0.14963222239408008,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "gyroid",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.14959607638234804,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "gyroid",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   }
+  },
+  "density": 0.2498943891340166,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "gyroid",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.25000086758333956,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "gyroid",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   }
+  },
+  "density": 0.3497241232763082,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "gyroid",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.34936535959503767,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "gyroid",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   }
+  },
+  "density": 0.4999143551215305,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "gyroid",
+   "params": {
+    "density": 0.5,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.4999995322277756,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.15,
+    "mode": "network"
+   }
+  },
+  "density": 0.14976962511924594,
+  "percolates": false
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.1498261535799523,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   }
+  },
+  "density": 0.24995565590213267,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.5058133755684883,
+    "f_hi": 0.8537933215718204,
+    "rel": 0.5118832479058042,
+    "lo_path": 0.5058133755684883,
+    "hi_path": 0.8537933215718204,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.875,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.24943230343951203,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   }
+  },
+  "density": 0.3499998383300667,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.7323060638042024,
+    "f_hi": 0.7993773143915733,
+    "rel": 0.08757847939353702,
+    "lo_path": 0.7323060638042024,
+    "hi_path": 0.7993773143915733,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.34942092689868337,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   }
+  },
+  "density": 0.49988214325693503,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.5,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.5000000904634421,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "diamond",
+   "params": {
+    "density": 0.15,
+    "mode": "network"
+   }
+  },
+  "density": 0.14999353872124993,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "diamond",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.14973514974168342,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "diamond",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   }
+  },
+  "density": 0.25000081454862927,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "diamond",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.24989416047054713,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "diamond",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   }
+  },
+  "density": 0.34976645284348606,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "diamond",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.3499995977019176,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "diamond",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   }
+  },
+  "density": 0.5000009388884042,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "diamond",
+   "params": {
+    "density": 0.5,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.49973085752551266,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "iwp",
+   "params": {
+    "density": 0.15,
+    "mode": "network"
+   }
+  },
+  "density": 0.14926538057690303,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "iwp",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.1500004804254903,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "iwp",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   }
+  },
+  "density": 0.2499139675020116,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "iwp",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.2499401060940617,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "iwp",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   }
+  },
+  "density": 0.34976654474390834,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "iwp",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.34982586220408796,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "iwp",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   }
+  },
+  "density": 0.4998655232925931,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "tpms",
+   "kind": "iwp",
+   "params": {
+    "density": 0.5,
+    "mode": "sheet"
+   }
+  },
+  "density": 0.49999979579414916,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "sc",
+   "params": {
+    "r": 0.06,
+    "R": 0.0
+   }
+  },
+  "density": 0.031568642405223786,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "sc",
+   "params": {
+    "r": 0.06,
+    "R": 0.15
+   }
+  },
+  "density": 0.038385365952206325,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "sc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   }
+  },
+  "density": 0.06383886560905275,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 6,
+    "f_lo": 0.31701713413478305,
+    "f_hi": 0.4952915812416483,
+    "rel": 0.4389327449829249,
+    "lo_path": 0.31701713413478305,
+    "hi_path": 0.4952915812416483,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "below_band": 12,
+    "f_lo": 0.7664433564819008,
+    "f_hi": 0.9282263874994959,
+    "rel": 0.1909316332485029,
+    "lo_path": 0.7664433564819008,
+    "hi_path": 0.9282263874994959,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "below_band": 15,
+    "f_lo": 0.945944485925765,
+    "f_hi": 1.0668080427369553,
+    "rel": 0.12009778161003479,
+    "lo_path": 0.945944485925765,
+    "hi_path": 1.0668080427369553,
+    "interior_excess": 0.0,
+    "k_lo": [
+     1.0,
+     1.0,
+     0.0
+    ],
+    "k_hi": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   }
+  },
+  "density": 0.08284620616135327,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   }
+  },
+  "density": 0.08346878333429052,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   }
+  },
+  "density": 0.09949241255762778,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "bcc",
+   "params": {
+    "r": 0.06,
+    "R": 0.0
+   }
+  },
+  "density": 0.07002691169241036,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "bcc",
+   "params": {
+    "r": 0.06,
+    "R": 0.15
+   }
+  },
+  "density": 0.08070654325294396,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "bcc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   }
+  },
+  "density": 0.12860468622222807,
+  "percolates": true,
+  "gaps": [
+   {
+    "below_band": 12,
+    "f_lo": 0.41552258455826363,
+    "f_hi": 0.6339968717891263,
+    "rel": 0.41633203826675497,
+    "lo_path": 0.41552258455826363,
+    "hi_path": 0.6339968717891263,
+    "interior_excess": 0.0,
+    "k_lo": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "k_hi": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   }
+  },
+  "density": 0.1786290640355835,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   }
+  },
+  "density": 0.17917091871336002,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   }
+  },
+  "density": 0.20232954868574032,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.0
+   }
+  },
+  "density": 0.15851165052231342,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.15
+   }
+  },
+  "density": 0.17048239957378264,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   }
+  },
+  "density": 0.2528070472143963,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   }
+  },
+  "density": 0.3783656051694707,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   }
+  },
+  "density": 0.3784031237678495,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ },
+ {
+  "spec": {
+   "family": "struts",
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   }
+  },
+  "density": 0.39762213335437346,
+  "percolates": true,
+  "gaps": [],
+  "path_only_gaps_closed_inside": []
+ }
+]

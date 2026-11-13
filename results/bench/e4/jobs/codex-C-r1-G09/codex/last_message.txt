@@ -1,0 +1,1 @@
+Released a certified 10 mm PA12 sphere-and-ligament unit cell with normalized parameters **c = 0.40087, w = 0.108696**. Its complete elastic band gap covers **28.3–31.3 kHz** across all directions and polarizations, with robustness verified for ±0.1 mm geometric offsets. SLS manufacturability was not evaluated.

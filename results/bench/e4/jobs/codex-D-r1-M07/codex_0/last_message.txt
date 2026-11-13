@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":[12,"mm"],"targets":{"density_max":0.1,"E100_min":{"value":3,"unit":"GPa"},"gap":{"f_lo":92.8,"f_hi":114,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without homogenization and full Bloch-spectrum analysis, I cannot certify a design meeting both the stiffness target and the complete band gap; infeasibility is unproven."}

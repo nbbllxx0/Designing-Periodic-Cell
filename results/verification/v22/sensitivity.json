@@ -1,0 +1,534 @@
+{
+ "gap_order_cap_1": {
+  "benchmark": {
+   "n_with_gap": 46,
+   "changed": [
+    {
+     "cert": "M06_f0130d50f82fcef3.json",
+     "base": "certified",
+     "cap1": "undetermined"
+    }
+   ]
+  },
+  "witnesses": {
+   "n_with_gap": 66,
+   "changed": [
+    {
+     "cert": "G09_a0354a81d4776542.json",
+     "base": "certified",
+     "cap1": "undetermined"
+    },
+    {
+     "cert": "G10_3b38516996b00b5b.json",
+     "base": "certified",
+     "cap1": "undetermined"
+    },
+    {
+     "cert": "M01_612ed424c27bb2fb.json",
+     "base": "certified",
+     "cap1": "undetermined"
+    },
+    {
+     "cert": "M03_9d51b6ff9a2378a2.json",
+     "base": "certified",
+     "cap1": "undetermined"
+    },
+    {
+     "cert": "M07_ab0c3edc85e6c4a9.json",
+     "base": "certified",
+     "cap1": "undetermined"
+    },
+    {
+     "cert": "M10_99db7faca58ae4c8.json",
+     "base": "certified",
+     "cap1": "undetermined"
+    }
+   ]
+  },
+  "engineering": {
+   "n_with_gap": 9,
+   "changed": []
+  },
+  "heldout": {
+   "n_with_gap": 20,
+   "changed": []
+  },
+  "twelve_gaps_and_comparisons": {
+   "n": 12,
+   "changed": [],
+   "rows": [
+    {
+     "case": "cb_c0.5_w0.2_nu0.3",
+     "src": "DOLFINx comparison",
+     "cap2": {
+      "passed": false,
+      "safe": [
+       0.37961783163993407,
+       null
+      ]
+     },
+     "cap1": {
+      "passed": false,
+      "safe": [
+       0.37961783163993407,
+       null
+      ]
+     },
+     "changed": false
+    },
+    {
+     "case": "cb_c0.6_w0.2_nu0.342",
+     "src": "DOLFINx comparison",
+     "cap2": {
+      "passed": true,
+      "safe": [
+       0.3323544730129028,
+       0.6800007840228858
+      ]
+     },
+     "cap1": {
+      "passed": true,
+      "safe": [
+       0.3323544730129028,
+       0.6640408822780369
+      ]
+     },
+     "changed": false
+    },
+    {
+     "case": "cb_c0.6_w0.3_nu0.3",
+     "src": "DOLFINx comparison",
+     "cap2": {
+      "passed": false,
+      "safe": [
+       0.5543142776018493,
+       null
+      ]
+     },
+     "cap1": {
+      "passed": false,
+      "safe": [
+       0.5543142776018493,
+       null
+      ]
+     },
+     "changed": false
+    },
+    {
+     "case": "cb_c0.7_w0.3_nu0.3",
+     "src": "DOLFINx comparison",
+     "cap2": {
+      "passed": true,
+      "safe": [
+       0.49844297227797213,
+       0.6824410343430832
+      ]
+     },
+     "cap1": {
+      "passed": true,
+      "safe": [
+       0.49844297227797213,
+       0.6824410343430832
+      ]
+     },
+     "changed": false
+    },
+    {
+     "case": "cb_c0.8_w0.3_nu0.3",
+     "src": "DOLFINx comparison",
+     "cap2": {
+      "passed": false,
+      "safe": [
+       0.4383446822008791,
+       null
+      ]
+     },
+     "cap1": {
+      "passed": false,
+      "safe": [
+       0.4383446822008791,
+       null
+      ]
+     },
+     "changed": false
+    },
+    {
+     "case": "strut_bcc_R0.27_r0.06_nu0.342",
+     "src": "DOLFINx comparison",
+     "cap2": {
+      "passed": true,
+      "safe": [
+       0.367719819208437,
+       0.6014606223017093
+      ]
+     },
+     "cap1": {
+      "passed": true,
+      "safe": [
+       0.367719819208437,
+       0.6014606223017093
+      ]
+     },
+     "changed": false
+    },
+    {
+     "case": "thin_sl_c0.402_w0.061_nu0.3",
+     "src": "DOLFINx comparison",
+     "cap2": {
+      "passed": true,
+      "safe": [
+       0.12058332264574809,
+       0.9511721318024557
+      ]
+     },
+     "cap1": {
+      "passed": true,
+      "safe": [
+       0.12058332264574809,
+       0.9511721318024557
+      ]
+     },
+     "changed": false
+    },
+    {
+     "case": "tpms_schwarzp_d0.25_nu0.3",
+     "src": "DOLFINx comparison",
+     "cap2": {
+      "passed": true,
+      "safe": [
+       0.4798839383592626,
+       0.8278936223387547
+      ]
+     },
+     "cap1": {
+      "passed": true,
+      "safe": [
+       0.4798839383592626,
+       0.8205370039656781
+      ]
+     },
+     "changed": false
+    },
+    {
+     "case": "thin_sl_c0.357_w0.109_nu0.3",
+     "src": "finite-cell comparison",
+     "cap2": {
+      "passed": true,
+      "safe": [
+       0.20246762777916202,
+       0.8227002446137643
+      ]
+     },
+     "cap1": {
+      "passed": true,
+      "safe": [
+       0.20246762777916202,
+       0.8227002446137643
+      ]
+     },
+     "changed": false
+    },
+    {
+     "case": "mount_PA12",
+     "src": "engineering certificate",
+     "cap2": {
+      "passed": true,
+      "safe": [
+       0.264338209864039,
+       0.6579059960900706
+      ]
+     },
+     "cap1": {
+      "passed": true,
+      "safe": [
+       0.264338209864039,
+       0.608496868039422
+      ]
+     },
+     "changed": false
+    },
+    {
+     "case": "filter_PA12",
+     "src": "engineering certificate",
+     "cap2": {
+      "passed": false,
+      "safe": [
+       0.21222000998228135,
+       null
+      ]
+     },
+     "cap1": {
+      "passed": false,
+      "safe": [
+       0.21222000998228135,
+       null
+      ]
+     },
+     "changed": false
+    },
+    {
+     "case": "filter_316L",
+     "src": "engineering certificate",
+     "cap2": {
+      "passed": true,
+      "safe": [
+       0.10008583469219628,
+       0.5770940415675432
+      ]
+     },
+     "cap1": {
+      "passed": true,
+      "safe": [
+       0.10008583469219628,
+       0.5748332729480438
+      ]
+     },
+     "changed": false
+    }
+   ]
+  },
+  "finer_filter_checks": [
+   {
+    "filter": "PA12",
+    "cap2": {
+     "verdict": "certified",
+     "safe": [
+      0.20717566917757396,
+      0.865562668669535
+     ]
+    },
+    "cap1": {
+     "verdict": "certified",
+     "safe": [
+      0.20717566917757396,
+      0.8285443315404916
+     ]
+    },
+    "changed": false
+   },
+   {
+    "filter": "316L",
+    "cap2": {
+     "verdict": "certified",
+     "safe": [
+      0.0934696093201398,
+      0.5753924299956652
+     ]
+    },
+    "cap1": {
+     "verdict": "certified",
+     "safe": [
+      0.0934696093201398,
+      0.5753924299956652
+     ]
+    },
+    "changed": false
+   }
+  ]
+ },
+ "static_drift_rule": {
+  "benchmark": {
+   "n": 85,
+   "changed": [
+    {
+     "cert": "M06_e2924fdaab01cb9f.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "density_max"
+     ]
+    },
+    {
+     "cert": "M09_380c4824d89ea3a9.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "E100_min"
+     ]
+    },
+    {
+     "cert": "M09_534713dac8fa1d87.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "E100_min"
+     ]
+    },
+    {
+     "cert": "S04_6b4198ee4c143e3b.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "density_max"
+     ]
+    },
+    {
+     "cert": "S07_aa3e84b2f34c32a1.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "density_max"
+     ]
+    },
+    {
+     "cert": "S08_9be0f73bcc0426d7.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "E100_min"
+     ]
+    },
+    {
+     "cert": "S14_a1737904f68e6891.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "density_max"
+     ]
+    },
+    {
+     "cert": "S18_395fa65d9d50ef10.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "E100_min"
+     ]
+    },
+    {
+     "cert": "S18_7dd7f8a82c46b6ee.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "E100_min"
+     ]
+    },
+    {
+     "cert": "S20_a25f5e7fcf58c194.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "density_max"
+     ]
+    }
+   ]
+  },
+  "witnesses": {
+   "n": 94,
+   "changed": [
+    {
+     "cert": "M01_612ed424c27bb2fb.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "density_max"
+     ]
+    },
+    {
+     "cert": "M10_5fffdd5f267b54ec.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "G_min"
+     ]
+    },
+    {
+     "cert": "M10_99db7faca58ae4c8.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "G_min"
+     ]
+    },
+    {
+     "cert": "M12_8db46f3cf07132a5.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "density_max"
+     ]
+    },
+    {
+     "cert": "M13_d539db5751be837f.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "E100_min"
+     ]
+    },
+    {
+     "cert": "M13_e9a7c01a383689a1.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "E100_min"
+     ]
+    },
+    {
+     "cert": "S01_5227734e9aeda483.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "E100_min"
+     ]
+    },
+    {
+     "cert": "S05_4d0793df7d4e3a1e.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "density_max"
+     ]
+    },
+    {
+     "cert": "S06_6d8514612f1b0fef.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "E100_min"
+     ]
+    },
+    {
+     "cert": "S06_f754269dc0d2619d.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "E100_min"
+     ]
+    },
+    {
+     "cert": "S16_9e017cf0daef0057.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "E100_min"
+     ]
+    },
+    {
+     "cert": "S17_4869485a2f8e654b.json",
+     "base": "certified",
+     "drift_rule": "undetermined",
+     "flagged": [
+      "G_min",
+      "bulk_min"
+     ]
+    }
+   ]
+  },
+  "engineering": {
+   "n": 11,
+   "changed": []
+  },
+  "heldout": {
+   "n": 20,
+   "changed": []
+  },
+  "near_threshold_1500": {
+   "false: refuted -> refuted": 481,
+   "false: refuted -> undetermined": 30,
+   "false: undetermined -> undetermined": 239,
+   "true: certified -> certified": 406,
+   "true: certified -> undetermined": 48,
+   "true: undetermined -> undetermined": 296
+  }
+ }
+}

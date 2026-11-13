@@ -1,0 +1,1641 @@
+{
+ "scenario": "S11_certified_static",
+ "interface": "mcp",
+ "rows": [
+  {
+   "scenario": "S11_certified_static",
+   "check": "pa12_bounds",
+   "capability": "combination density + stiffness (MPa): feasible",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=FEASIBLE; atlas=FEASIBLE",
+   "passed": true,
+   "failures": [],
+   "seq": 4,
+   "dt_s": 0.12,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "pa12_eval",
+   "capability": "evaluate (search tier) before certify",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "evaluate",
+   "expected_refusal": false,
+   "observed": "accepted: 1 results",
+   "passed": true,
+   "failures": [],
+   "seq": 5,
+   "dt_s": 2.71,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "pa12_certify",
+   "capability": "certify: certified (static, density + E100 in MPa)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "certify",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=certified; outcome=certified_candidate",
+   "passed": true,
+   "failures": [],
+   "seq": 6,
+   "dt_s": 25.72,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "pa12_cert_key",
+   "capability": "certificate key recorded",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "get_session",
+   "expected_refusal": false,
+   "observed": "accepted",
+   "passed": true,
+   "failures": [],
+   "seq": 7,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "as_built_from_cert",
+   "capability": "as_built reuses the certificate (no new solve, no budget)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "as_built",
+   "expected_refusal": false,
+   "observed": "accepted: passed=True",
+   "passed": true,
+   "failures": [],
+   "seq": 8,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "stale_spec_evidence",
+   "capability": "stale certificate after a spec edit: evidence check",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "get_session",
+   "expected_refusal": false,
+   "observed": "accepted",
+   "passed": true,
+   "failures": [],
+   "seq": 10,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "stale_spec_release",
+   "capability": "stale certificate after a spec edit: release refused",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first",
+   "passed": true,
+   "failures": [],
+   "seq": 11,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "stale_spec_export",
+   "capability": "stale certificate after a spec edit: export not certified",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "export",
+   "expected_refusal": false,
+   "observed": "accepted: outcome=not_certified",
+   "passed": true,
+   "failures": [],
+   "seq": 12,
+   "dt_s": 0.78,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "stale_material_release",
+   "capability": "stale certificate after a material change: release refused",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first",
+   "passed": true,
+   "failures": [],
+   "seq": 15,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "stale_material_evidence",
+   "capability": "stale certificate after a material change: evidence check",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "get_session",
+   "expected_refusal": false,
+   "observed": "accepted",
+   "passed": true,
+   "failures": [],
+   "seq": 16,
+   "dt_s": 0.02,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "stale_design_release",
+   "capability": "stale certificate after a design change: release refused",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first",
+   "passed": true,
+   "failures": [],
+   "seq": 18,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "screen_pass",
+   "capability": "screening pass (PA12 0.8 mm)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "screen_manufacturing",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=screen passed; passed=True",
+   "passed": true,
+   "failures": [],
+   "seq": 19,
+   "dt_s": 5.08,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "screen_fail",
+   "capability": "screening fail (stated limit 3.0 mm)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "screen_manufacturing",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=screen failed; passed=False",
+   "passed": true,
+   "failures": [],
+   "seq": 20,
+   "dt_s": 3.28,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "pa12_release",
+   "capability": "outcome: certified_candidate (release)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": false,
+   "observed": "accepted: outcome=certified_candidate",
+   "passed": true,
+   "failures": [],
+   "seq": 21,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  },
+  {
+   "scenario": "S11_certified_static",
+   "check": "pa12_export",
+   "capability": "export: single cell + tiled, report references the certificate",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "export",
+   "expected_refusal": false,
+   "observed": "accepted: outcome=certified_candidate",
+   "passed": true,
+   "failures": [],
+   "seq": 22,
+   "dt_s": 2.4,
+   "session": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_material",
+   "args": {
+    "name": "PA12"
+   },
+   "argv": null,
+   "dt_s": 0.21,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 1700000000.0,
+    "atlas_available": true,
+    "material": "PA12",
+    "nu": 0.39,
+    "rho_kg_m3": 1010.0
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_constraints",
+   "args": {
+    "cell_size": 10,
+    "cell_size_unit": "mm"
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cell_size": [
+     10.0,
+     "mm"
+    ],
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "set_target",
+   "args": {
+    "E100_min": {
+     "value": 25,
+     "unit": "MPa"
+    },
+    "density_max": 0.25,
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 3,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.014705882352941176,
+     "density_max": 0.25
+    },
+    "targets": {
+     "E100_min": [
+      25.0,
+      "MPa"
+     ],
+     "density_max": 0.25
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.12,
+   "ok": true,
+   "exit": null,
+   "seq": 4,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": 0.7214425238965648,
+       "slack_opt": 0.722941048616552,
+       "slack_pess": 0.7199277009267628,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.12,
+         "w": 0.181739
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.7197589539334437,
+       "slack_opt": 0.7212665355677986,
+       "slack_pess": 0.7182349755444908,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.134783,
+         "w": 0.181739
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.7151633088048592,
+       "slack_opt": 0.7166956131209594,
+       "slack_pess": 0.7136143388454079,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.149565,
+         "w": 0.181739
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 892,
+     "n_possible": 1098,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "FEASIBLE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.014705882352941176,
+     "density_max": 0.25
+    },
+    "verdict": "FEASIBLE",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 4,
+   "tool": "evaluate",
+   "args": {
+    "designs": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.12,
+       "w": 0.181739
+      }
+     }
+    ]
+   },
+   "argv": null,
+   "dt_s": 2.71,
+   "ok": true,
+   "exit": null,
+   "seq": 5,
+   "error": null,
+   "result": {
+    "results": [
+     {
+      "C": [
+       [
+        0.028562841984392198,
+        0.0018226806646155546,
+        0.0018226806646155324,
+        -3.07179512361129e-18,
+        6.671443250811683e-19,
+        -2.3752233209109073e-17
+       ],
+       [
+        0.0018226806646155546,
+        0.02856284198439223,
+        0.001822680664615539,
+        -7.249775830161235e-18,
+        -8.359288747113885e-18,
+        -2.644455390173647e-17
+       ],
+       [
+        0.0018226806646155324,
+        0.001822680664615539,
+        0.028562841984392226,
+        -1.140005650689407e-19,
+        3.0635527340962937e-18,
+        -2.2906311992598044e-17
+       ],
+       [
+        -3.07179512361129e-18,
+        -7.249775830161235e-18,
+        -1.140005650689407e-19,
+        0.0005375422313039057,
+        -7.406990780339556e-17,
+        -4.04752268526062e-18
+       ],
+       [
+        6.671443250811683e-19,
+        -8.359288747113885e-18,
+        3.0635527340962937e-18,
+        -7.406990780339556e-17,
+        0.0005375422313038911,
+        -7.13001894752128e-18
+       ],
+       [
+        -2.3752233209109073e-17,
+        -2.644455390173647e-17,
+        -2.2906311992598044e-17,
+        -4.04752268526062e-18,
+        -7.13001894752128e-18,
+        0.0005375422313039453
+       ]
+      ],
+      "C_MPa": [
+       [
+        48.556831373466736,
+        3.098557129846443,
+        3.098557129846405,
+        -5.222051710139193e-15,
+        1.1341453526379861e-15,
+        -4.0378796455485424e-14
+       ],
+       [
+        3.098557129846443,
+        48.55683137346679,
+        3.0985571298464163,
+        -1.23246189112741e-14,
+        -1.4210790870093604e-14,
+        -4.4955741632951996e-14
+       ],
+       [
+        3.098557129846405,
+        3.0985571298464163,
+        48.556831373466785,
+        -1.938009606171992e-16,
+        5.208039647963699e-15,
+        -3.8940730387416675e-14
+       ],
+       [
+        -5.222051710139193e-15,
+        -1.23246189112741e-14,
+        -1.938009606171992e-16,
+        0.9138217932166397,
+        -1.2591884326577246e-13,
+        -6.880788564943054e-15
+       ],
+       [
+        1.1341453526379861e-15,
+        -1.4210790870093604e-14,
+        5.208039647963699e-15,
+        -1.2591884326577246e-13,
+        0.9138217932166148,
+        -1.2121032210786177e-14
+       ],
+       [
+        -4.0378796455485424e-14,
+        -4.4955741632951996e-14,
+        -3.8940730387416675e-14,
+        -6.880788564943054e-15,
+        -1.2121032210786177e-14,
+        0.913821793216707
+       ]
+      ],
+      "E100": 0.02834417437458744,
+      "E100_MPa": 48.185096436798645,
+      "G": 0.0005375422313039141,
+      "G_MPa": 0.913821793216654,
+      "bulk": 0.010736067771207766,
+      "bulk_MPa": 18.251315211053203,
+      "density": 0.0696393690258588,
+      "derived": {
+       "C11": 0.028562841984392216,
+       "C12": 0.0018226806646155422,
+       "C44": 0.0005375422313039141,
+       "E100": 0.02834417437458744,
+       "E110": 0.002076145156015615,
+       "E111": 0.0015861544014998388,
+       "bulk_reuss": 0.010736067771207768,
+       "bulk_voigt": 0.010736067771207768,
+       "cubic_deviation": 2.6747457295824298e-15,
+       "eigenvalues": [
+        0.0005375422313038229,
+        0.0005375422313039492,
+        0.0005375422313039725,
+        0.02674016131977666,
+        0.026740161319776707,
+        0.0322082033136233
+       ],
+       "min_eig": 0.0005375422313038229,
+       "note": "C11, C12, C44 are cubic averages; E100/E110/E111 from the full tensor",
+       "nu12": 0.059985167465107764,
+       "shear_reuss": 0.0008725174244646665,
+       "shear_voigt": 0.005670557602737684,
+       "voigt_order": "11, 22, 33, 23 (yz), 13 (xz), 12 (xy); engineering shear strains",
+       "zener": 0.04020486076173033
+      },
+      "design": {
+       "kind": "sphere_ligaments",
+       "params": {
+        "c": 0.12,
+        "w": 0.181739
+       }
+      },
+      "gaps": [],
+      "gaps_Hz": [],
+      "nu100": 0.059985167465107764,
+      "valid": true
+     }
+    ],
+    "tier": "search (not certified)"
+   },
+   "cli": null
+  },
+  {
+   "i": 5,
+   "tool": "certify",
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 25.72,
+   "ok": true,
+   "exit": null,
+   "seq": 6,
+   "error": null,
+   "result": {
+    "E100_MPa": 45.86473759645656,
+    "G_MPa": 0.627840323367267,
+    "as_built": {
+     "dilate": true,
+     "erode": true
+    },
+    "bulk_MPa": 17.190109872048534,
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    },
+    "gaps_Hz": [],
+    "outcome": "certified_candidate",
+    "robust": true,
+    "spec_hash": "c3816dab1e980508",
+    "static": {
+     "bounds": {
+      "E100": {
+       "lower": 0.026979257409680327,
+       "upper": 0.02785896946252099
+      },
+      "G": {
+       "lower": 0.00036931783727486297,
+       "upper": 0.0004849764498043036
+      },
+      "bulk": {
+       "lower": 0.010111829336499137,
+       "upper": 0.010509073743092073
+      },
+      "density": {
+       "lower": 0.06913204061485188,
+       "upper": 0.06952879026466406
+      },
+      "nu100": {
+       "lower": 0.05537283218280255,
+       "upper": 0.05817562616385114
+      }
+     },
+     "checks_failed": [],
+     "rung": [
+      32,
+      48,
+      64
+     ],
+     "verdict": {
+      "targets": {
+       "E100_min": "certified",
+       "density_max": "certified"
+      },
+      "verdict": "certified"
+     }
+    },
+    "targets": {
+     "E100_min": 0.014705882352941176,
+     "density_max": 0.25
+    },
+    "verdict": "certified"
+   },
+   "cli": null
+  },
+  {
+   "i": 6,
+   "tool": "get_session",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 7,
+   "error": null,
+   "result": {
+    "budget": {
+     "as_built": 8,
+     "certify": 4,
+     "designs": 400
+    },
+    "budget_used": {
+     "as_built": 0,
+     "certify": 1,
+     "designs": 1
+    },
+    "cannot_normalize": [],
+    "certificates": {
+     "c79d2f3892e37426": {
+      "checker": "c5f8c89871b3bad6",
+      "material": "PA12",
+      "nu": 0.39,
+      "robust": true,
+      "verdict": "certified"
+     }
+    },
+    "evidence": [
+     {
+      "holds_for_current_spec": true,
+      "kind": "certificate_certified",
+      "outcome": "certified_candidate",
+      "seq": 6,
+      "summary": "certificate certified: sphere_ligaments {'c': 0.12, 'w': 0.181739}",
+      "tool": "certify"
+     }
+    ],
+    "normalized_targets": {
+     "E100_min": 0.014705882352941176,
+     "density_max": 0.25
+    },
+    "profile": "C",
+    "schema_version": "amm-tools/3",
+    "state": {
+     "cell_size": [
+      10.0,
+      "mm"
+     ],
+     "families": [
+      "tpms",
+      "struts",
+      "resonator"
+     ],
+     "gap_type": null,
+     "material": "PA12",
+     "sources": {},
+     "targets": {
+      "E100_min": [
+       25.0,
+       "MPa"
+      ],
+      "density_max": 0.25
+     }
+    },
+    "submission": null,
+    "tools": [
+     "set_material",
+     "set_constraints",
+     "set_target",
+     "set_source",
+     "check_bounds",
+     "ask_clarification",
+     "list_families",
+     "atlas_suggest",
+     "evaluate",
+     "search",
+     "certify",
+     "as_built",
+     "screen_manufacturing",
+     "export",
+     "submit",
+     "undo",
+     "get_session"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 7,
+   "tool": "as_built",
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 8,
+   "error": null,
+   "result": {
+    "cases": {
+     "dilate": {
+      "E100": 0.03443417794607451,
+      "density": 0.08424679532597695,
+      "passed": true,
+      "static_failed": [],
+      "static_ok": true
+     },
+     "erode": {
+      "E100": 0.022045406704952752,
+      "density": 0.055800071918549146,
+      "passed": true,
+      "static_failed": [],
+      "static_ok": true
+     }
+    },
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    },
+    "note": "robustness flag; reported, not required for release",
+    "offset": 0.01,
+    "offset_mm": 0.1,
+    "passed": true,
+    "resolutions": {
+     "bloch": 20,
+     "static": 32
+    },
+    "schema_version": "amm-asbuilt/1",
+    "source": "the certificate of this design (certify seq 6); no new solve",
+    "targets": {
+     "E100_min": 0.014705882352941176,
+     "density_max": 0.25
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 8,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.24
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 9,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.014705882352941176,
+     "density_max": 0.24
+    },
+    "targets": {
+     "E100_min": [
+      25.0,
+      "MPa"
+     ],
+     "density_max": 0.24
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 9,
+   "tool": "get_session",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 10,
+   "error": null,
+   "result": {
+    "budget": {
+     "as_built": 8,
+     "certify": 4,
+     "designs": 400
+    },
+    "budget_used": {
+     "as_built": 0,
+     "certify": 1,
+     "designs": 1
+    },
+    "cannot_normalize": [],
+    "certificates": {
+     "c79d2f3892e37426": {
+      "checker": "c5f8c89871b3bad6",
+      "material": "PA12",
+      "nu": 0.39,
+      "robust": true,
+      "verdict": "certified"
+     }
+    },
+    "evidence": [
+     {
+      "holds_for_current_spec": false,
+      "kind": "certificate_certified",
+      "outcome": "certified_candidate",
+      "seq": 6,
+      "summary": "certificate certified: sphere_ligaments {'c': 0.12, 'w': 0.181739}",
+      "tool": "certify"
+     }
+    ],
+    "normalized_targets": {
+     "E100_min": 0.014705882352941176,
+     "density_max": 0.24
+    },
+    "profile": "C",
+    "schema_version": "amm-tools/3",
+    "state": {
+     "cell_size": [
+      10.0,
+      "mm"
+     ],
+     "families": [
+      "tpms",
+      "struts",
+      "resonator"
+     ],
+     "gap_type": null,
+     "material": "PA12",
+     "sources": {},
+     "targets": {
+      "E100_min": [
+       25.0,
+       "MPa"
+      ],
+      "density_max": 0.24
+     }
+    },
+    "submission": null,
+    "tools": [
+     "set_material",
+     "set_constraints",
+     "set_target",
+     "set_source",
+     "check_bounds",
+     "ask_clarification",
+     "list_families",
+     "atlas_suggest",
+     "evaluate",
+     "search",
+     "certify",
+     "as_built",
+     "screen_manufacturing",
+     "export",
+     "submit",
+     "undo",
+     "get_session"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 10,
+   "tool": "submit",
+   "args": {
+    "decision": "release",
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 11,
+   "error": "Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 11,
+   "tool": "export",
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    },
+    "tiles": 1,
+    "resolution": 32,
+    "tile_resolution": 16
+   },
+   "argv": null,
+   "dt_s": 0.78,
+   "ok": true,
+   "exit": null,
+   "seq": 12,
+   "error": null,
+   "result": {
+    "disclaimer": "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+    "files": {
+     "cell": {
+      "bytes": 208684,
+      "method": "marching_cubes",
+      "n_triangles": 4172,
+      "path": "exports/sphere_ligaments_c3816dab_be4cbf/cell.stl",
+      "sha256": "8804ad7ecd057ed9ec5d4c4d84d96f2df7da2b4ebd4c73ad7d4a7e207f8d6f22",
+      "unit": "mm"
+     },
+     "report": {
+      "bytes": 8446,
+      "path": "exports/sphere_ligaments_c3816dab_be4cbf/report.json",
+      "sha256": "91011e045f0f0e1b9634d54ecf0ee6a8628407f1957b2a77945dea594181c0ee"
+     },
+     "tiled": {
+      "bytes": 35884,
+      "method": "marching_cubes",
+      "n_triangles": 716,
+      "path": "exports/sphere_ligaments_c3816dab_be4cbf/tiled_1x1x1.stl",
+      "sha256": "a29a4d63d2dae09e39a797cb8670dae7b263bfe812a42c043c02c9ef8af02340",
+      "unit": "mm"
+     }
+    },
+    "name": "sphere_ligaments_c3816dab_be4cbf",
+    "outcome": "not_certified",
+    "outcome_title": "Not certified",
+    "schema_version": "amm-export/1",
+    "screening": {
+     "complete": true,
+     "min_feature": {
+      "limit_source": "typical minimum feature of PA12 by SLS (amm.units.MATERIALS, a datasheet value, not a machine capability)",
+      "limit_voxels": 2.56,
+      "passed": true,
+      "printer_limit_mm": 0.8,
+      "solid_est_cell_units": 0.109375,
+      "solid_est_mm": 1.09375,
+      "solid_thinner_than_limit": 0.0,
+      "tolerance": 0.01,
+      "void_est_cell_units": 0.765625,
+      "void_est_mm": 7.65625,
+      "void_narrower_than_limit": 0.0,
+      "void_passed": true
+     },
+     "passed": true,
+     "tiled_connectivity": {
+      "largest_fraction": 1.0,
+      "n_components": 1,
+      "passed": true,
+      "spans": [
+       true,
+       true,
+       true
+      ],
+      "tiles": 1
+     },
+     "verdict": "screen passed",
+     "watertight": {
+      "cell": true,
+      "tiled": true
+     }
+    },
+    "unit": "mm"
+   },
+   "cli": null
+  },
+  {
+   "i": 12,
+   "tool": "undo",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 13,
+   "error": null,
+   "result": {
+    "state": {
+     "cell_size": [
+      10.0,
+      "mm"
+     ],
+     "families": [
+      "tpms",
+      "struts",
+      "resonator"
+     ],
+     "gap_type": null,
+     "material": "PA12",
+     "sources": {},
+     "targets": {
+      "E100_min": [
+       25.0,
+       "MPa"
+      ],
+      "density_max": 0.25
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 13,
+   "tool": "set_material",
+   "args": {
+    "name": "Ti6Al4V"
+   },
+   "argv": null,
+   "dt_s": 0.3,
+   "ok": true,
+   "exit": null,
+   "seq": 14,
+   "error": null,
+   "result": {
+    "E_Pa": 113800000000.0,
+    "atlas_available": true,
+    "material": "Ti6Al4V",
+    "nu": 0.342,
+    "rho_kg_m3": 4430.0
+   },
+   "cli": null
+  },
+  {
+   "i": 14,
+   "tool": "submit",
+   "args": {
+    "decision": "release",
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 15,
+   "error": "Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 15,
+   "tool": "get_session",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": true,
+   "exit": null,
+   "seq": 16,
+   "error": null,
+   "result": {
+    "budget": {
+     "as_built": 8,
+     "certify": 4,
+     "designs": 400
+    },
+    "budget_used": {
+     "as_built": 0,
+     "certify": 1,
+     "designs": 1
+    },
+    "cannot_normalize": [],
+    "certificates": {
+     "c79d2f3892e37426": {
+      "checker": "c5f8c89871b3bad6",
+      "material": "PA12",
+      "nu": 0.39,
+      "robust": true,
+      "verdict": "certified"
+     }
+    },
+    "evidence": [
+     {
+      "holds_for_current_spec": false,
+      "kind": "certificate_certified",
+      "outcome": "certified_candidate",
+      "seq": 6,
+      "summary": "certificate certified: sphere_ligaments {'c': 0.12, 'w': 0.181739}",
+      "tool": "certify"
+     }
+    ],
+    "normalized_targets": {
+     "E100_min": 0.0002196836555360281,
+     "density_max": 0.25
+    },
+    "profile": "C",
+    "schema_version": "amm-tools/3",
+    "state": {
+     "cell_size": [
+      10.0,
+      "mm"
+     ],
+     "families": [
+      "tpms",
+      "struts",
+      "resonator"
+     ],
+     "gap_type": null,
+     "material": "Ti6Al4V",
+     "sources": {},
+     "targets": {
+      "E100_min": [
+       25.0,
+       "MPa"
+      ],
+      "density_max": 0.25
+     }
+    },
+    "submission": null,
+    "tools": [
+     "set_material",
+     "set_constraints",
+     "set_target",
+     "set_source",
+     "check_bounds",
+     "ask_clarification",
+     "list_families",
+     "atlas_suggest",
+     "evaluate",
+     "search",
+     "certify",
+     "as_built",
+     "screen_manufacturing",
+     "export",
+     "submit",
+     "undo",
+     "get_session"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 16,
+   "tool": "undo",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 17,
+   "error": null,
+   "result": {
+    "state": {
+     "cell_size": [
+      10.0,
+      "mm"
+     ],
+     "families": [
+      "tpms",
+      "struts",
+      "resonator"
+     ],
+     "gap_type": null,
+     "material": "PA12",
+     "sources": {},
+     "targets": {
+      "E100_min": [
+       25.0,
+       "MPa"
+      ],
+      "density_max": 0.25
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 17,
+   "tool": "submit",
+   "args": {
+    "decision": "release",
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.125,
+      "w": 0.181739
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": false,
+   "exit": null,
+   "seq": 18,
+   "error": "Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 18,
+   "tool": "screen_manufacturing",
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    },
+    "tiles": 2,
+    "resolution": 48
+   },
+   "argv": null,
+   "dt_s": 5.08,
+   "ok": true,
+   "exit": null,
+   "seq": 19,
+   "error": null,
+   "result": {
+    "cell_connectivity": {
+     "largest_fraction": 1.0,
+     "n_components": 1,
+     "note": "one cell cut at its walls, as a single printed cell",
+     "spans": [
+      true,
+      true,
+      true
+     ]
+    },
+    "cell_size_mm": 10.0,
+    "complete": true,
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    },
+    "disclaimer": "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+    "min_feature": {
+     "limit_source": "typical minimum feature of PA12 by SLS (amm.units.MATERIALS, a datasheet value, not a machine capability)",
+     "limit_voxels": 3.8400000000000007,
+     "passed": true,
+     "printer_limit_mm": 0.8,
+     "solid_est_cell_units": 0.1484375,
+     "solid_est_mm": 1.484375,
+     "solid_thinner_than_limit": 0.0,
+     "tolerance": 0.01,
+     "void_est_cell_units": 0.54296875,
+     "void_est_mm": 5.4296875,
+     "void_narrower_than_limit": 0.0,
+     "void_passed": true
+    },
+    "passed": true,
+    "removed_islands_fraction": -2.3634947120691486e-16,
+    "resolution": 48,
+    "schema_version": "amm-screen/1",
+    "tiled_connectivity": {
+     "largest_fraction": 1.0,
+     "n_components": 1,
+     "passed": true,
+     "spans": [
+      true,
+      true,
+      true
+     ],
+     "tiles": 2
+    },
+    "verdict": "screen passed",
+    "voxel": {
+     "cell_units": 0.020833333333333332,
+     "mm": 0.20833333333333331
+    },
+    "watertight": {
+     "cell": {
+      "boundary_edges": 0,
+      "method": "marching_cubes",
+      "n_shells": 1,
+      "n_triangles": 8444,
+      "nonmanifold_edges": 0,
+      "orientation_ok": true,
+      "volume": 0.06773288145486943,
+      "volume_rel_diff": -0.02768499145159393,
+      "voxel_volume_cell_units": 0.06966145833333333,
+      "watertight": true
+     },
+     "passed": true,
+     "tiled": {
+      "boundary_edges": 0,
+      "method": "marching_cubes",
+      "n_shells": 1,
+      "n_triangles": 32272,
+      "nonmanifold_edges": 0,
+      "orientation_ok": true,
+      "volume": 0.5488550449802411,
+      "volume_rel_diff": -0.015138610876576707,
+      "voxel_volume_cell_units": 0.5572916666666666,
+      "watertight": true
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 19,
+   "tool": "screen_manufacturing",
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    },
+    "tiles": 2,
+    "resolution": 48,
+    "printer_min_feature_mm": 3.0
+   },
+   "argv": null,
+   "dt_s": 3.28,
+   "ok": true,
+   "exit": null,
+   "seq": 20,
+   "error": null,
+   "result": {
+    "cell_connectivity": {
+     "largest_fraction": 1.0,
+     "n_components": 1,
+     "note": "one cell cut at its walls, as a single printed cell",
+     "spans": [
+      true,
+      true,
+      true
+     ]
+    },
+    "cell_size_mm": 10.0,
+    "complete": true,
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    },
+    "disclaimer": "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+    "min_feature": {
+     "limit_source": "stated in the call",
+     "limit_voxels": 14.400000000000002,
+     "passed": false,
+     "printer_limit_mm": 3.0,
+     "solid_est_cell_units": 0.1484375,
+     "solid_est_mm": 1.484375,
+     "solid_thinner_than_limit": 1.0,
+     "tolerance": 0.01,
+     "void_est_cell_units": 0.54296875,
+     "void_est_mm": 5.4296875,
+     "void_narrower_than_limit": 0.000933053417308094,
+     "void_passed": true
+    },
+    "passed": false,
+    "removed_islands_fraction": -2.3634947120691486e-16,
+    "resolution": 48,
+    "schema_version": "amm-screen/1",
+    "tiled_connectivity": {
+     "largest_fraction": 1.0,
+     "n_components": 1,
+     "passed": true,
+     "spans": [
+      true,
+      true,
+      true
+     ],
+     "tiles": 2
+    },
+    "verdict": "screen failed",
+    "voxel": {
+     "cell_units": 0.020833333333333332,
+     "mm": 0.20833333333333331
+    },
+    "watertight": {
+     "cell": {
+      "boundary_edges": 0,
+      "method": "marching_cubes",
+      "n_shells": 1,
+      "n_triangles": 8444,
+      "nonmanifold_edges": 0,
+      "orientation_ok": true,
+      "volume": 0.06773288145486943,
+      "volume_rel_diff": -0.02768499145159393,
+      "voxel_volume_cell_units": 0.06966145833333333,
+      "watertight": true
+     },
+     "passed": true,
+     "tiled": {
+      "boundary_edges": 0,
+      "method": "marching_cubes",
+      "n_shells": 1,
+      "n_triangles": 32272,
+      "nonmanifold_edges": 0,
+      "orientation_ok": true,
+      "volume": 0.5488550449802411,
+      "volume_rel_diff": -0.015138610876576707,
+      "voxel_volume_cell_units": 0.5572916666666666,
+      "watertight": true
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 20,
+   "tool": "submit",
+   "args": {
+    "decision": "release",
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 21,
+   "error": null,
+   "result": {
+    "outcome_card": {
+     "decision": "release",
+     "definition": "every target accepted by the certificate (guarded static bounds, inertia-count gap, edge guard)",
+     "design": {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.12,
+       "w": 0.181739
+      }
+     },
+     "evidence": [
+      {
+       "kind": "certificate_certified",
+       "outcome": "certified_candidate",
+       "seq": 6,
+       "summary": "certificate certified: sphere_ligaments {'c': 0.12, 'w': 0.181739}",
+       "tool": "certify"
+      }
+     ],
+     "evidence_checked": true,
+     "outcome": "certified_candidate",
+     "profile": "C",
+     "schema_version": "amm-outcome/1",
+     "title": "Certified candidate",
+     "verdict": null
+    },
+    "submitted": {
+     "certificate": {
+      "checker": "c5f8c89871b3bad6",
+      "material": "PA12",
+      "nu": 0.39,
+      "robust": true,
+      "verdict": "certified"
+     },
+     "decision": "release",
+     "design": {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.12,
+       "w": 0.181739
+      }
+     },
+     "evidence": [
+      {
+       "kind": "certificate_certified",
+       "seq": 6,
+       "tool": "certify"
+      }
+     ],
+     "note": "",
+     "outcome": "certified_candidate",
+     "spec": {
+      "cell_size": [
+       10.0,
+       "mm"
+      ],
+      "gap_type": null,
+      "material": "PA12",
+      "nu": 0.39,
+      "targets": {
+       "E100_min": [
+        25.0,
+        "MPa"
+       ],
+       "density_max": 0.25
+      }
+     },
+     "targets": {
+      "E100_min": 0.014705882352941176,
+      "density_max": 0.25
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 21,
+   "tool": "export",
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    },
+    "tiles": 2,
+    "resolution": 48,
+    "tile_resolution": 24
+   },
+   "argv": null,
+   "dt_s": 2.4,
+   "ok": true,
+   "exit": null,
+   "seq": 22,
+   "error": null,
+   "result": {
+    "disclaimer": "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+    "files": {
+     "cell": {
+      "bytes": 422284,
+      "method": "marching_cubes",
+      "n_triangles": 8444,
+      "path": "exports/sphere_ligaments_c3816dab_c79d2f/cell.stl",
+      "sha256": "9c15e715dcef5b36659311d0f3ccad1101c03e3260a2410ba1de332faae72a0b",
+      "unit": "mm"
+     },
+     "report": {
+      "bytes": 11244,
+      "path": "exports/sphere_ligaments_c3816dab_c79d2f/report.json",
+      "sha256": "59055086abede16a7ae392d4ae1224f0ebae307dfc64b668f587dae9ead9e628"
+     },
+     "tiled": {
+      "bytes": 807284,
+      "method": "marching_cubes",
+      "n_triangles": 16144,
+      "path": "exports/sphere_ligaments_c3816dab_c79d2f/tiled_2x2x2.stl",
+      "sha256": "3436532ebffec6c23201b9a4802adb0c521afc35e8fd1456d8a651184c234df8",
+      "unit": "mm"
+     }
+    },
+    "name": "sphere_ligaments_c3816dab_c79d2f",
+    "outcome": "certified_candidate",
+    "outcome_title": "Certified candidate",
+    "schema_version": "amm-export/1",
+    "screening": {
+     "complete": true,
+     "min_feature": {
+      "limit_source": "typical minimum feature of PA12 by SLS (amm.units.MATERIALS, a datasheet value, not a machine capability)",
+      "limit_voxels": 3.8400000000000007,
+      "passed": true,
+      "printer_limit_mm": 0.8,
+      "solid_est_cell_units": 0.1484375,
+      "solid_est_mm": 1.484375,
+      "solid_thinner_than_limit": 0.0,
+      "tolerance": 0.01,
+      "void_est_cell_units": 0.54296875,
+      "void_est_mm": 5.4296875,
+      "void_narrower_than_limit": 0.0,
+      "void_passed": true
+     },
+     "passed": true,
+     "tiled_connectivity": {
+      "largest_fraction": 1.0,
+      "n_components": 1,
+      "passed": true,
+      "spans": [
+       true,
+       true,
+       true
+      ],
+      "tiles": 2
+     },
+     "verdict": "screen passed",
+     "watertight": {
+      "cell": true,
+      "tiled": true
+     }
+    },
+    "unit": "mm"
+   },
+   "cli": null
+  }
+ ],
+ "seconds": 43.9,
+ "root": "results/verification/v2/sessions/mcp/S11_certified_static",
+ "finished": "2026-11-08 08:30:38"
+}

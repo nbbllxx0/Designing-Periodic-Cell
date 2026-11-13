@@ -1,0 +1,3 @@
+```json
+{"decision": "release", "material": "316L", "cell_size": null, "targets": {"density_max": 0.33, "E100_min": {"value": 31, "unit": "GPa"}}, "design": {"kind": "schwarz_p", "params": {"density": 0.32, "mode": "sheet"}}, "note": "A Schwarz P sheet at 32% solid is stiffest along the cube axes and should give roughly 0.17-0.19 of the 316L modulus (about 33-37 GPa), but 31 GPa is close to that range, so verify it in the homogenization solver before relying on it."}
+```

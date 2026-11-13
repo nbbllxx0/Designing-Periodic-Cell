@@ -1,0 +1,11 @@
+{
+ "material": {
+  "name": "316L"
+ },
+ "targets": {
+  "density_max": 0.3
+ },
+ "constraints": {
+  "cell_size": -5
+ }
+}

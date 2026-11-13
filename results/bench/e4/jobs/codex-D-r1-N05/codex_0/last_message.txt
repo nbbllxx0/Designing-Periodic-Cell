@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":[8,"mm"],"targets":{"gap":{"f_lo":68.5,"f_hi":466,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without a full Bloch-spectrum calculation, I cannot certify a complete gap covering this interval for any permitted design or establish infeasibility."}

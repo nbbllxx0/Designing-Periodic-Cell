@@ -1,0 +1,29 @@
+{
+ "brief": "S01",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 249.7,
+ "usage": {
+  "input_tokens": 453651,
+  "cached_input_tokens": 422016,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1866,
+  "reasoning_output_tokens": 357
+ },
+ "final": "Released a certified 316L **cube_bars** unit cell with normalized parameters **c = 0.51913, w = 0.36**. Its certified relative density is **\u226432.74%** and cube-axis Young\u2019s modulus is **\u226531.19 GPa**, meeting both targets. It fails the tool\u2019s erosion robustness check; LPBF manufacturability was not evaluated.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-S01",
+ "rep": 1,
+ "partition": "development",
+ "gpu_wait_s": 0.0,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "17ca80e2ff0053c1",
+ "briefs": "194701c05dce17d2"
+}

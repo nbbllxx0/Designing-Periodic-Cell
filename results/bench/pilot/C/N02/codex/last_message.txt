@@ -1,0 +1,1 @@
+No design released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm atlas and 80-evaluation search found no 6 mm Ti6Al4V unit cell with a complete gap covering 216–673 kHz. This does not prove physical impossibility.

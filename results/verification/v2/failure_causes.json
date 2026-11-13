@@ -1,0 +1,13 @@
+{
+ "S04_families/fam_tpms_bounds": "V2 expectation error: the atlas verdict counts the optimistic error range and the interpolation between cells (amm.atlas.oracle), so a tpms-only gap target below every tpms gap is BORDERLINE, not NOT_FOUND; n_cells counts the cells inside the calibrated domain (216 tpms), not the file rows. amm correct. Replaced by S17 (addendum).",
+ "S04_families/fam_all_bounds": "V2 expectation error: n_cells counts the cells inside the calibrated domain (2714 of 2722); the verdict predicate (FEASIBLE) held. amm correct.",
+ "S05_invalid/validity_rule": "V2 design error: cube_bars c 0.5, w 0.48 is outside the box (w <= 0.36), so the box check refused it first (a correct refusal with a different message). Replaced by S16 validity_rule_r2.",
+ "S08_refusals/wrong_verdict": "V2 expectation error: check_bounds of a bound-violating spec also holds an atlas NOT_FOUND_IN_FAMILIES record (as tests/test_outcomes.py documents), so refuse NOT_FOUND_IN_FAMILIES was correctly accepted (outcome not_found_in_families). Replaced by S16 wrong_verdict_r2 (verdict UNDETERMINED).",
+ "S08_refusals/unknown_evidence_seq": "cascade of S08 wrong_verdict: the session was already submitted, so submit answered 'already submitted'. Replaced by S16 unknown_evidence_seq_r2.",
+ "S08_refusals/proven_infeasible": "cascade of S08 wrong_verdict (already submitted). Replaced by S16 proven_infeasible_r2.",
+ "S09_not_found/nf_bounds": "V2 expectation error (as S04 fam_tpms_bounds): BORDERLINE. Replaced by S17 nf_bounds_r2 (gap f* [2.5, 3.0]).",
+ "S09_not_found/nf_holds": "cascade of S09 nf_bounds: no atlas record was held. Replaced by S17 nf_holds_r2.",
+ "S09_not_found/not_found_in_families": "cascade of S09 nf_bounds (correctly rejected: no record). Replaced by S17 not_found_in_families_r2.",
+ "S13_lib_combined/combo_export": "V2 expectation path error: report.json certificate.gap.verdict is the gap block's verdict object {'verdict': 'certified'} (the same shape as the certify result's gap.verdict, which the combo_certify row read correctly). The corrected predicate certificate.gap.verdict.verdict == 'certified' holds on the same report.json (checked post hoc, results/verification/v2/posthoc_checks.json). amm correct.",
+ "gui_health": "app/ bug (outside the V2 edit scope, not fixed): /api/health reports app/backend.SCHEMA_VERSION, the mock mirror's 'amm-tools/2' (known since NOTES_B9), not the live session's amm-tools/3; and app/mockdata.NOT_HASHED mirrors amm.tools.NOT_HASHED without cli.py (V2-1), so the code hash it shows (ff8b3a682221f9a3) differs from amm.tools.code_hash() (f1a6d625064a6d18). Fix in app/: add 'cli.py' to mockdata.NOT_HASHED; report the live session's schema in live mode."
+}

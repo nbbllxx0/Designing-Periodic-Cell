@@ -1,0 +1,1 @@
+{"decision":"need_info","material":"PA12","cell_size":null,"targets":{"density_max":0.18,"E100_min":{"value":132,"unit":"MPa"}},"note":"PA12 elastic constants and a verified homogenized stiffness calculation are needed to establish whether a permitted cubic unit cell meets 132 MPa along all three axes at no more than 18% relative density."}

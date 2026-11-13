@@ -1,0 +1,1 @@
+No design released: **PROVEN_INFEASIBLE within amm’s cubic design space**. Its elastic-stability bound requires the cube-axis Poisson ratio to be below 0.5, so the requested minimum of 0.55 cannot be met, regardless of the 30% solid-volume limit.

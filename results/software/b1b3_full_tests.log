@@ -1,0 +1,16 @@
+........................................................................ [ 50%]
+........................................................................ [100%]
+============================ slowest 10 durations =============================
+103.30s call     tests/test_verdict.py::test_static_block_without_static_targets_stops_at_the_first_rung
+51.21s call     tests/test_mutations.py::test_overstated_stiffness_is_refused_and_honest_claim_passes
+31.60s setup    tests/test_bounds.py::test_bounds_never_refute_an_achieved_design
+25.61s call     tests/test_mutations.py::test_density_claim_violation_is_refused
+19.14s call     tests/test_mutations.py::test_interior_k_gap_closure_is_caught_by_the_adversarial_k_search
+15.02s call     tests/test_mutations.py::test_floating_core_is_refused_by_static_and_bloch_blocks
+8.98s call     tests/test_mutations.py::test_gap_claim_true_only_at_coarse_resolution_is_refused
+8.30s call     tests/test_core.py::test_gap_certificate_accepts_inside_and_rejects_too_wide
+8.22s call     tests/test_fcm_retry.py::test_singular_partial_voxel_is_retried_with_the_fcm_floor
+7.52s call     tests/test_core.py::test_density_matched_across_resolutions[spec1]
+144 passed in 365.61s (0:06:05)
+
+exit 0

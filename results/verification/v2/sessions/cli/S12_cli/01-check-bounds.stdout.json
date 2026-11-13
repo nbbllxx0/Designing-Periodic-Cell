@@ -1,0 +1,196 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "PA12"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 1700000000.0,
+    "atlas_available": true,
+    "material": "PA12",
+    "nu": 0.39,
+    "rho_kg_m3": 1010.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "cell_size": 10.0,
+    "cell_size_unit": "mm"
+   },
+   "ok": true,
+   "result": {
+    "cell_size": [
+     10.0,
+     "mm"
+    ],
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "seq": 2,
+   "tool": "set_constraints"
+  },
+  {
+   "args": {
+    "E100_min": {
+     "unit": "MPa",
+     "value": 25
+    },
+    "density_max": 0.25
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.014705882352941176,
+     "density_max": 0.25
+    },
+    "targets": {
+     "E100_min": [
+      25.0,
+      "MPa"
+     ],
+     "density_max": 0.25
+    }
+   },
+   "seq": 3,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": 0.7214425238965648,
+       "slack_opt": 0.722941048616552,
+       "slack_pess": 0.7199277009267628,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.12,
+         "w": 0.181739
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.7197589539334437,
+       "slack_opt": 0.7212665355677986,
+       "slack_pess": 0.7182349755444908,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.134783,
+         "w": 0.181739
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.7151633088048592,
+       "slack_opt": 0.7166956131209594,
+       "slack_pess": 0.7136143388454079,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.149565,
+         "w": 0.181739
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 892,
+     "n_possible": 1098,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "FEASIBLE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.014705882352941176,
+     "density_max": 0.25
+    },
+    "verdict": "FEASIBLE",
+    "violated": []
+   },
+   "seq": 4,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": 0.7214425238965648,
+     "slack_opt": 0.722941048616552,
+     "slack_pess": 0.7199277009267628,
+     "spec": {
+      "family": "resonator",
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.12,
+       "w": 0.181739
+      }
+     }
+    },
+    {
+     "slack_nominal": 0.7197589539334437,
+     "slack_opt": 0.7212665355677986,
+     "slack_pess": 0.7182349755444908,
+     "spec": {
+      "family": "resonator",
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.134783,
+       "w": 0.181739
+      }
+     }
+    },
+    {
+     "slack_nominal": 0.7151633088048592,
+     "slack_opt": 0.7166956131209594,
+     "slack_pess": 0.7136143388454079,
+     "spec": {
+      "family": "resonator",
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.149565,
+       "w": 0.181739
+      }
+     }
+    }
+   ],
+   "n_cells": 2714,
+   "n_clear": 892,
+   "n_possible": 1098,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "FEASIBLE"
+  },
+  "bounds_verdict": "NOT_REFUTED",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "E100_min": 0.014705882352941176,
+   "density_max": 0.25
+  },
+  "verdict": "FEASIBLE",
+  "violated": []
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S12_cli\\01-check-bounds"
+}

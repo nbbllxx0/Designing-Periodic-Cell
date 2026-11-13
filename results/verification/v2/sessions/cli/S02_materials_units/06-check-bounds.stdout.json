@@ -1,0 +1,229 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "Ti6Al4V"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 113800000000.0,
+    "atlas_available": true,
+    "material": "Ti6Al4V",
+    "nu": 0.342,
+    "rho_kg_m3": 4430.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "cell_size": 10,
+    "cell_size_unit": "mm"
+   },
+   "ok": true,
+   "result": {
+    "cell_size": [
+     10.0,
+     "mm"
+    ],
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "seq": 2,
+   "tool": "set_constraints"
+  },
+  {
+   "args": {
+    "E100_min": {
+     "unit": "GPa",
+     "value": 1.0
+    },
+    "G_min": {
+     "unit": "MPa",
+     "value": 50.0
+    },
+    "gap": {
+     "f_hi": 30.0,
+     "f_lo": 20.0,
+     "unit": "kHz"
+    }
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.008787346221441126,
+     "G_min": 0.0004393673110720562,
+     "gap": {
+      "f_hi": 0.09697130552335231,
+      "f_lo": 0.06464753701556822
+     }
+    },
+    "targets": {
+     "E100_min": [
+      1.0,
+      "GPa"
+     ],
+     "G_min": [
+      50.0,
+      "MPa"
+     ],
+     "gap": {
+      "f_hi": [
+       30.0,
+       "kHz"
+      ],
+      "f_lo": [
+       20.0,
+       "kHz"
+      ]
+     }
+    }
+   },
+   "seq": 3,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.6124095706540421,
+       "slack_opt": 0.6040508459068107,
+       "slack_pess": -0.6124095706540421,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.786957,
+         "w": 0.06
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6615127561201111,
+       "slack_opt": 0.5954734960140321,
+       "slack_pess": -0.6615127561201111,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.762609,
+         "w": 0.06
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.7119524194164055,
+       "slack_opt": 0.5812914361844292,
+       "slack_pess": -0.7119524194164055,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.738261,
+         "w": 0.06
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 41,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "BORDERLINE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.008787346221441126,
+     "G_min": 0.0004393673110720562,
+     "gap": {
+      "f_hi": 0.09697130552335231,
+      "f_lo": 0.06464753701556822
+     }
+    },
+    "verdict": "BORDERLINE",
+    "violated": []
+   },
+   "seq": 4,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": -0.6124095706540421,
+     "slack_opt": 0.6040508459068107,
+     "slack_pess": -0.6124095706540421,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.786957,
+       "w": 0.06
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.6615127561201111,
+     "slack_opt": 0.5954734960140321,
+     "slack_pess": -0.6615127561201111,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.762609,
+       "w": 0.06
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.7119524194164055,
+     "slack_opt": 0.5812914361844292,
+     "slack_pess": -0.7119524194164055,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.738261,
+       "w": 0.06
+      }
+     }
+    }
+   ],
+   "n_cells": 2714,
+   "n_clear": 0,
+   "n_possible": 41,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "BORDERLINE"
+  },
+  "bounds_verdict": "NOT_REFUTED",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "E100_min": 0.008787346221441126,
+   "G_min": 0.0004393673110720562,
+   "gap": {
+    "f_hi": 0.09697130552335231,
+    "f_lo": 0.06464753701556822
+   }
+  },
+  "verdict": "BORDERLINE",
+  "violated": []
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S02_materials_units\\06-check-bounds"
+}

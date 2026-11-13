@@ -1,0 +1,138 @@
+{
+ "id": "S02",
+ "attempts": [
+  {
+   "request": {
+    "density_max": 0.32,
+    "G_min": [
+     5.2,
+     "GPa"
+    ]
+   },
+   "normalized": {
+    "density_max": 0.32,
+    "G_min": 0.04569420035149385
+   },
+   "verdict": "certified",
+   "seconds": 129.9,
+   "static_rung": [
+    32,
+    48,
+    64
+   ],
+   "static_bounds": {
+    "density": {
+     "lower": 0.2799430737074433,
+     "upper": 0.2800403051679192
+    },
+    "E100": {
+     "lower": 0.07592951936221959,
+     "upper": 0.07909006025648681
+    },
+    "G": {
+     "lower": 0.058121902159183655,
+     "upper": 0.05884762430030013
+    },
+    "bulk": {
+     "lower": 0.10188383049630706,
+     "upper": 0.10242541727262307
+    },
+    "nu100": {
+     "lower": 0.3712967437145743,
+     "upper": 0.3757786217017364
+    }
+   },
+   "safe_interval": null,
+   "spec_hash": "574aca5f7a3d109f",
+   "spec": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.28,
+     "mode": "sheet"
+    }
+   },
+   "pass_": 1
+  },
+  {
+   "request": {
+    "density_max": 0.29,
+    "G_min": [
+     6.51,
+     "GPa"
+    ]
+   },
+   "normalized": {
+    "density_max": 0.29,
+    "G_min": 0.05720562390158172
+   },
+   "verdict": "certified",
+   "seconds": 132.9,
+   "static_rung": [
+    32,
+    48,
+    64
+   ],
+   "static_bounds": {
+    "density": {
+     "lower": 0.2799430737074433,
+     "upper": 0.2800403051679192
+    },
+    "E100": {
+     "lower": 0.07592951936221959,
+     "upper": 0.07909006025648681
+    },
+    "G": {
+     "lower": 0.058121902159183655,
+     "upper": 0.05884762430030013
+    },
+    "bulk": {
+     "lower": 0.10188383049630706,
+     "upper": 0.10242541727262307
+    },
+    "nu100": {
+     "lower": 0.3712967437145743,
+     "upper": 0.3757786217017364
+    }
+   },
+   "safe_interval": null,
+   "spec_hash": "574aca5f7a3d109f",
+   "spec": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.28,
+     "mode": "sheet"
+    }
+   },
+   "pass_": 2,
+   "u": 0.9849817145848676,
+   "gap_shrink": 0.03
+  }
+ ],
+ "final": {
+  "spec": {
+   "family": "tpms",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.28,
+    "mode": "sheet"
+   }
+  },
+  "request": {
+   "density_max": 0.29,
+   "G_min": [
+    6.51,
+    "GPa"
+   ]
+  },
+  "normalized": {
+   "density_max": 0.29,
+   "G_min": 0.05720562390158172
+  },
+  "verdict": "certified",
+  "passes": 2,
+  "u": 0.9849817145848676
+ },
+ "seconds": 262.9
+}

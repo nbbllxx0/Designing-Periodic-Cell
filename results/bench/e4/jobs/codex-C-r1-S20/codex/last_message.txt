@@ -1,0 +1,1 @@
+Released a certified Ti-6Al-4V Schwarz P TPMS sheet unit cell at nominal 30% solid volume. Certified bounds meet all targets: solid fraction ≤30.002%, E[100] ≥9.815 GPa, and C44 ≥7.204 GPa. Manufacturability was not evaluated.

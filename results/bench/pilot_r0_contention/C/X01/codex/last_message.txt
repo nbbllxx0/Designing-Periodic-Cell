@@ -1,0 +1,1 @@
+The amm tools returned **PROVEN_INFEASIBLE**, so no design was released. Using 316L’s Young’s modulus of 193 GPa, the rigorous upper bound at 16% solid is **30.88 GPa**, below your required **38.6 GPa**. No unit-cell geometry can meet both requirements under this material model.

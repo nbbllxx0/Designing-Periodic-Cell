@@ -1,0 +1,431 @@
+{
+ "scenario": "S17_addendum_not_found",
+ "interface": "gui",
+ "rows": [
+  {
+   "scenario": "S17_addendum_not_found",
+   "check": "nf_bounds_r2",
+   "capability": "atlas NOT_FOUND evidence (tpms + struts)",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=NOT_FOUND_IN_FAMILIES; atlas=NOT_FOUND_IN_FAMILIES",
+   "passed": true,
+   "failures": [],
+   "seq": 4,
+   "dt_s": 1.83,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085703-7196/session.jsonl"
+  },
+  {
+   "scenario": "S17_addendum_not_found",
+   "check": "stale_family_record_r2",
+   "capability": "stale evidence: atlas record after widening the families",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas verdict NOT_FOUND_IN_FAMILIES, or a search over e",
+   "passed": true,
+   "failures": [],
+   "seq": 6,
+   "dt_s": 0.02,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085703-7196/session.jsonl"
+  },
+  {
+   "scenario": "S17_addendum_not_found",
+   "check": "nf_holds_r2",
+   "capability": "evidence check: record holds again for the original families",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "get_session",
+   "expected_refusal": false,
+   "observed": "accepted",
+   "passed": true,
+   "failures": [],
+   "seq": 8,
+   "dt_s": 0.02,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085703-7196/session.jsonl"
+  },
+  {
+   "scenario": "S17_addendum_not_found",
+   "check": "not_found_in_families_r2",
+   "capability": "outcome: not_found_in_families",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": false,
+   "observed": "accepted: outcome=not_found_in_families",
+   "passed": true,
+   "failures": [],
+   "seq": 9,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085703-7196/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_material",
+   "args": {
+    "name": "316L"
+   },
+   "argv": null,
+   "dt_s": 0.03,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_target",
+   "args": {
+    "gap": {
+     "f_lo": 2.5,
+     "f_hi": 3.0,
+     "unit": "f*"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "gap": {
+      "f_hi": 3.0,
+      "f_lo": 2.5
+     }
+    },
+    "targets": {
+     "gap": {
+      "f_hi": 3.0,
+      "f_lo": 2.5
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "set_constraints",
+   "args": {
+    "families": [
+     "tpms",
+     "struts"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 3,
+   "error": null,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "tpms",
+     "struts"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 1.83,
+   "ok": true,
+   "exit": null,
+   "seq": 4,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.7085792727272727,
+       "slack_opt": -0.7085792727272727,
+       "slack_pess": -0.9043823821500687,
+       "spec": {
+        "family": "struts",
+        "kind": "bcc",
+        "params": {
+         "R": 0.32,
+         "r": 0.063913
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.7153745454545454,
+       "slack_opt": -0.7153745454545454,
+       "slack_pess": -0.9088989507728633,
+       "spec": {
+        "family": "struts",
+        "kind": "bcc",
+        "params": {
+         "R": 0.309091,
+         "r": 0.063913
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.7163058181818182,
+       "slack_opt": -0.7163058181818182,
+       "slack_pess": -0.9143203304179409,
+       "spec": {
+        "family": "struts",
+        "kind": "bcc",
+        "params": {
+         "R": 0.32,
+         "r": 0.068696
+        }
+       }
+      }
+     ],
+     "n_cells": 1611,
+     "n_clear": 0,
+     "n_possible": 0,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 3.0,
+      "f_lo": 2.5
+     }
+    },
+    "verdict": "NOT_FOUND_IN_FAMILIES",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 4,
+   "tool": "set_constraints",
+   "args": {
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": true,
+   "exit": null,
+   "seq": 5,
+   "error": null,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 5,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "NOT_FOUND_IN_FAMILIES"
+   },
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": false,
+   "exit": null,
+   "seq": 6,
+   "error": "refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas verdict NOT_FOUND_IN_FAMILIES, or a search over every declared family that found nothing. No evidence record is held for the current spec.",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 6,
+   "tool": "set_constraints",
+   "args": {
+    "families": [
+     "tpms",
+     "struts"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": true,
+   "exit": null,
+   "seq": 7,
+   "error": null,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "tpms",
+     "struts"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 7,
+   "tool": "get_session",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": true,
+   "exit": null,
+   "seq": 8,
+   "error": null,
+   "result": {
+    "budget": {
+     "as_built": 8,
+     "certify": 4,
+     "designs": 400
+    },
+    "budget_used": {
+     "as_built": 0,
+     "certify": 0,
+     "designs": 0
+    },
+    "cannot_normalize": [],
+    "certificates": {},
+    "evidence": [
+     {
+      "holds_for_current_spec": true,
+      "kind": "atlas_not_found",
+      "outcome": "not_found_in_families",
+      "seq": 4,
+      "summary": "atlas NOT_FOUND_IN_FAMILIES: 1611 cells, 0 possible with the most favourable search-tier error (estimate, not a bound)",
+      "tool": "check_bounds"
+     }
+    ],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 3.0,
+      "f_lo": 2.5
+     }
+    },
+    "profile": "C",
+    "schema_version": "amm-tools/3",
+    "state": {
+     "cell_size": null,
+     "families": [
+      "tpms",
+      "struts"
+     ],
+     "gap_type": null,
+     "material": "316L",
+     "sources": {},
+     "targets": {
+      "gap": {
+       "f_hi": 3.0,
+       "f_lo": 2.5
+      }
+     }
+    },
+    "submission": null,
+    "tools": [
+     "set_material",
+     "set_constraints",
+     "set_target",
+     "set_source",
+     "check_bounds",
+     "ask_clarification",
+     "list_families",
+     "atlas_suggest",
+     "evaluate",
+     "search",
+     "certify",
+     "as_built",
+     "screen_manufacturing",
+     "export",
+     "submit",
+     "undo",
+     "get_session"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 8,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "NOT_FOUND_IN_FAMILIES"
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 9,
+   "error": null,
+   "result": {
+    "outcome_card": {
+     "decision": "refuse",
+     "definition": "nothing found in a bounded search of the declared families; the atlas is an estimate with calibrated error ranges, not a bound",
+     "design": null,
+     "evidence": [
+      {
+       "kind": "atlas_not_found",
+       "outcome": "not_found_in_families",
+       "seq": 4,
+       "summary": "atlas NOT_FOUND_IN_FAMILIES: 1611 cells, 0 possible with the most favourable search-tier error (estimate, not a bound)",
+       "tool": "check_bounds"
+      }
+     ],
+     "evidence_checked": true,
+     "outcome": "not_found_in_families",
+     "profile": "C",
+     "schema_version": "amm-outcome/1",
+     "title": "Not found in families",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "submitted": {
+     "decision": "refuse",
+     "evidence": [
+      {
+       "kind": "atlas_not_found",
+       "seq": 4,
+       "tool": "check_bounds"
+      }
+     ],
+     "note": "",
+     "outcome": "not_found_in_families",
+     "spec": {
+      "cell_size": null,
+      "gap_type": null,
+      "material": "316L",
+      "nu": 0.3,
+      "targets": {
+       "gap": {
+        "f_hi": 3.0,
+        "f_lo": 2.5
+       }
+      }
+     },
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    }
+   },
+   "cli": null
+  }
+ ],
+ "seconds": 2.1,
+ "root": "results/verification/v2/sessions/gui/live-20261108-085703-7196",
+ "finished": "2026-11-08 08:57:05"
+}

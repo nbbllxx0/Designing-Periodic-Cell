@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"PA12","cell_size":null,"targets":{"density_max":0.16,"nu100_min":0.6},"verdict":"PROVEN_INFEASIBLE","note":"Stable cubic elasticity requires ν100 = C12/(C11 + C12) < 0.5, so the requested minimum of 0.6 is impossible regardless of solid fraction or design family."}

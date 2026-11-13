@@ -1,0 +1,17 @@
+{
+ "material": {
+  "name": "316L"
+ },
+ "targets": {
+  "density_max": 0.12,
+  "E100_min": {
+   "value": 0.5,
+   "unit": "E_s"
+  },
+  "gap": {
+   "f_lo": 0.3,
+   "f_hi": 0.4,
+   "unit": "f*"
+  }
+ }
+}

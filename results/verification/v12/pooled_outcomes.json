@@ -1,0 +1,32 @@
+{
+ "benchmark": {
+  "n": 85,
+  "verdicts": {
+   "undetermined": 23,
+   "certified": 61,
+   "refuted": 1
+  },
+  "causes": {
+   "gap undetermined: claim inside the edge guard band": 17,
+   "gap undetermined: modes inside the claimed interval at every resolution (likely false, not provable)": 2,
+   "gap undetermined: count failures": 2,
+   "static undetermined: E100_min, G_min": 1,
+   "static undetermined: E100_min": 1,
+   "static refuted: E100_min": 1
+  }
+ },
+ "robust_mount": {
+  "n": 5,
+  "verdicts": {
+   "undetermined": 3,
+   "refuted": 1,
+   "certified": 1
+  },
+  "causes": {
+   "static undetermined: E100_min; gap undetermined: claim inside the edge guard band": 1,
+   "gap undetermined: claim inside the edge guard band": 1,
+   "static undetermined: E100_min": 1,
+   "static refuted: E100_min": 1
+  }
+ }
+}

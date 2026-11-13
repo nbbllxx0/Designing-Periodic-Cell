@@ -1,0 +1,1 @@
+The request is **proven infeasible** using amm’s 316L modulus of 193 GPa: at 12% solid, the theoretical upper bound on axial Young’s modulus is \(0.12 \times 193 = 23.16\) GPa, below 25.1 GPa. Reaching the target requires at least 13.01% solid even under this ideal bound; actual designs may require more. No design was released.

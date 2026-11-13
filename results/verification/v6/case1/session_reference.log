@@ -1,0 +1,16 @@
+[1] set_material ok=True 0.2s
+[2] set_constraints ok=True 0.0s
+[3] set_target ok=True 0.0s
+[4] set_source ok=True 0.0s
+[5] set_source ok=True 0.0s
+[6] set_source ok=True 0.0s
+[7] check_bounds ok=True 0.1s
+[8] atlas_suggest ok=True 0.1s
+[9] evaluate ok=True 6.2s
+[10] certify {'kind': 'octet', 'params': {'r': 0.044783, 'R': 0.254545}}: undetermined robust=False 637.3s
+[11] certify {'kind': 'octet', 'params': {'r': 0.05913, 'R': 0.2}}: certified robust=False 98.0s
+[12] submit ok=True 0.0s
+[13] screen_manufacturing ok=True 8.0s
+[14] export ok=True 8.1s
+[15] get_session ok=True 0.0s
+released {'kind': 'octet', 'params': {'r': 0.05913, 'R': 0.2}}; total 757.9 s

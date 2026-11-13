@@ -1,0 +1,204 @@
+tpms_schwarzp_sheet_d0.2895_nu0.342 q2 n 12 67.7 s
+tpms_schwarzp_sheet_d0.2895_nu0.342 q2 n 16 181.5 s
+tpms_schwarzp_sheet_d0.2895_nu0.342 q2 n 20 485.0 s
+tpms_schwarzp_sheet_d0.2895_nu0.342 amm n 20 494.4 s
+tpms_schwarzp_sheet_d0.2895_nu0.342 amm n 30 533.7 s
+tpms_schwarzp_sheet_d0.2895_nu0.342 amm n 40 699.2 s
+{
+ "n_probes": 7,
+ "q2_lanczos_vs_inertia_mismatch": [
+  {
+   "set": "amm_path",
+   "i": 4,
+   "n": "12",
+   "probe": 0.6545848179105217,
+   "count": 12,
+   "lanczos": 11,
+   "perturbed": 0,
+   "odd": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 4,
+   "n": "12",
+   "probe": 0.7335933280486084,
+   "count": 14,
+   "lanczos": 13,
+   "perturbed": 0,
+   "odd": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 4,
+   "n": "16",
+   "probe": 0.6545848179105217,
+   "count": 12,
+   "lanczos": 11,
+   "perturbed": 0,
+   "odd": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 4,
+   "n": "16",
+   "probe": 0.7335933280486084,
+   "count": 14,
+   "lanczos": 13,
+   "perturbed": 0,
+   "odd": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 16,
+   "n": "12",
+   "probe": 0.5566556036779748,
+   "count": 10,
+   "lanczos": 9,
+   "perturbed": 0,
+   "odd": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 16,
+   "n": "12",
+   "probe": 0.6778215337194677,
+   "count": 16,
+   "lanczos": 13,
+   "perturbed": 0,
+   "odd": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 16,
+   "n": "16",
+   "probe": 0.5566556036779748,
+   "count": 10,
+   "lanczos": 9,
+   "perturbed": 0,
+   "odd": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 16,
+   "n": "16",
+   "probe": 0.6778215337194677,
+   "count": 16,
+   "lanczos": 13,
+   "perturbed": 0,
+   "odd": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 16,
+   "n": "20",
+   "probe": 0.5566556036779748,
+   "count": 10,
+   "lanczos": 9,
+   "perturbed": 0,
+   "odd": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 16,
+   "n": "20",
+   "probe": 0.6778215337194677,
+   "count": 16,
+   "lanczos": 13,
+   "perturbed": 0,
+   "odd": 0
+  }
+ ],
+ "amm_lanczos_vs_inertia_mismatch": [
+  {
+   "set": "amm_path",
+   "i": 4,
+   "n": "20",
+   "probe": 0.7335933280486084,
+   "count": 14,
+   "lanczos": 13,
+   "perturbed": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 4,
+   "n": "30",
+   "probe": 0.6545848179105217,
+   "count": 12,
+   "lanczos": 11,
+   "perturbed": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 4,
+   "n": "30",
+   "probe": 0.7335933280486084,
+   "count": 14,
+   "lanczos": 13,
+   "perturbed": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 4,
+   "n": "40",
+   "probe": 0.6545848179105217,
+   "count": 12,
+   "lanczos": 11,
+   "perturbed": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 4,
+   "n": "40",
+   "probe": 0.7335933280486084,
+   "count": 14,
+   "lanczos": 13,
+   "perturbed": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 16,
+   "n": "20",
+   "probe": 0.5566556036779748,
+   "count": 10,
+   "lanczos": 8,
+   "perturbed": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 16,
+   "n": "20",
+   "probe": 0.6778215337194677,
+   "count": 16,
+   "lanczos": 11,
+   "perturbed": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 16,
+   "n": "30",
+   "probe": 0.5566556036779748,
+   "count": 10,
+   "lanczos": 9,
+   "perturbed": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 16,
+   "n": "30",
+   "probe": 0.6778215337194677,
+   "count": 16,
+   "lanczos": 13,
+   "perturbed": 0
+  },
+  {
+   "set": "amm_path",
+   "i": 16,
+   "n": "40",
+   "probe": 0.6778215337194677,
+   "count": 16,
+   "lanczos": 15,
+   "perturbed": 0
+  }
+ ],
+ "q2_finest_vs_amm40_count_mismatch": []
+}

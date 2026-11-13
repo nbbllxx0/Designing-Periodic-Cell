@@ -1,0 +1,1 @@
+Released a certified 316L sphere-and-ligament design with a 10 mm unit cell and parameters \(c=0.393746\), \(w=0.061183\), normalized by cell size. Its complete elastic-wave band gap covers 100–195 kHz in all directions and polarizations, with robustness verified for ±0.1 mm geometry offsets.

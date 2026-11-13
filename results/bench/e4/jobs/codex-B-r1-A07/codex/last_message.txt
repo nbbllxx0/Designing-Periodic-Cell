@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. A Ti6Al4V IWP sheet predicts 36.90% solid, E100 = 22.27 GPa and C44 = 6.62 GPa, but uncertainty prevents verifying all three limits. Certification is unavailable in this session; infeasibility has not been proved.

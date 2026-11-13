@@ -1,0 +1,1 @@
+Released a certified 5 mm 316L BCC cell with strut radius 0.319565 mm and node radius 1.272725 mm. Certified bounds give relative density ≤17.60%, C44 ≥3.013 GPa, and a complete gap covering 287–353 kHz. Certification applies to nominal geometry; erosion robustness failed, and LPBF manufacturability was not evaluated.

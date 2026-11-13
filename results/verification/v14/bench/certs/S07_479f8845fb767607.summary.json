@@ -1,0 +1,68 @@
+{
+ "verdict": "certified",
+ "passed": true,
+ "seconds": 85.5,
+ "timing": {
+  "static": 85.5
+ },
+ "static_verdict": "certified",
+ "static_rung": [
+  32,
+  48,
+  64
+ ],
+ "bounds": {
+  "density": {
+   "lower": 0.2150311269062251,
+   "upper": 0.21517138755026716,
+   "extrapolated": 0.21513514517843685,
+   "converged": true
+  },
+  "E100": {
+   "lower": 0.07600221948468178,
+   "upper": 0.0785441862931485,
+   "extrapolated": 0.07721239500754312,
+   "converged": true
+  },
+  "G": {
+   "lower": 0.031993670720003635,
+   "upper": 0.03333688985033776,
+   "extrapolated": 0.03262879729730448,
+   "converged": true
+  },
+  "bulk": {
+   "lower": 0.07064374947464225,
+   "upper": 0.07097368890370416,
+   "extrapolated": 0.07075259697147865,
+   "converged": true
+  },
+  "nu100": {
+   "lower": 0.31547053384207824,
+   "upper": 0.3206814764909288,
+   "extrapolated": 0.3181151577572078,
+   "converged": true
+  }
+ },
+ "checker": "f141e46cb67a78db",
+ "spec_hash": "479f8845fb767607",
+ "slack_by_target": {
+  "density_max": 0.40230170124925785,
+  "bulk_min": 0.4660477041511778
+ },
+ "certified_slack": 0.40230170124925785,
+ "target_id": "S07",
+ "spec": {
+  "family": "tpms",
+  "kind": "gyroid",
+  "params": {
+   "density": 0.215133,
+   "mode": "sheet"
+  }
+ },
+ "methods": [
+  "M3"
+ ],
+ "wall_seconds_v3": 85.5,
+ "finished": "2026-11-07 23:55:52",
+ "verdict_before_rules": "certified"
+}

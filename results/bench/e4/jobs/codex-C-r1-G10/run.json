@@ -1,0 +1,33 @@
+{
+ "brief": "G10",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 584.4,
+ "usage": {
+  "input_tokens": 801753,
+  "cached_input_tokens": 769536,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2313,
+  "reasoning_output_tokens": 391
+ },
+ "final": "Released a certified 5 mm 316L sphere-and-ligament unit cell with normalized parameters **c = 0.402036**, **w = 0.060598**. Its complete elastic band gap covers **141\u2013384 kHz**, across all directions and polarizations. LPBF manufacturability was not evaluated.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-G10",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

@@ -1,0 +1,44 @@
+{
+ "codex/B/1": {
+  "confirmatory": {
+   "n": 78,
+   "correct": 27,
+   "decided": 70,
+   "unsupported": 0
+  },
+  "development": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  }
+ },
+ "codex/C/1": {
+  "confirmatory": {
+   "n": 78,
+   "correct": 64,
+   "decided": 70,
+   "unsupported": 0
+  },
+  "development": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  }
+ },
+ "codex/D/1": {
+  "confirmatory": {
+   "n": 78,
+   "correct": 9,
+   "decided": 70,
+   "unsupported": 0
+  },
+  "development": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  }
+ }
+}

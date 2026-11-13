@@ -1,0 +1,6 @@
+tpms_schwarzp_d0.25_nu0.3 nominal certified certified certified [0.4798839383592626, 0.8278936223387557] 656.1 s
+tpms_schwarzp_sheet_d0.2895_nu0.342 nominal certified certified None None 152.7 s
+strut_bcc_R0.27_r0.06_nu0.342 nominal certified certified certified [0.3677198192084627, 0.6014606223015961] 706.0 s
+strut_octet_r0.06_nu0.3 nominal certified certified None None 521.5 s
+thin_sl_c0.402_w0.061_nu0.3 nominal certified certified certified [0.1205833226457494, 0.9511721318024282] 974.1 s
+thin_sl_c0.357_w0.109_nu0.3 nominal certified certified certified [0.20246762777916202, 0.8227002446137643] 425.2 s

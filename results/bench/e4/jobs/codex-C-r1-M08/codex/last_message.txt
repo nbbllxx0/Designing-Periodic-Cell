@@ -1,0 +1,1 @@
+Released a certified 15 mm PA12 BCC cell with node radius 4.712685 mm and strut radius 0.934155 mm. It achieves ≤28.372% solid volume, C44 ≥34.10 MPa, and a complete infinite-lattice band gap covering 31.5–35.8 kHz. SLS manufacturability was not evaluated.

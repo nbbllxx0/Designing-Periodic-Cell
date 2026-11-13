@@ -1,0 +1,125 @@
+{
+ "set": "probe_old",
+ "log": "results/probe/C/P3/session/session.jsonl",
+ "log_sha256": "cc0a559e84456f0c20d1819bbe7a26f47cbcd265925e8a1c49ee276ebed18ed3",
+ "started": "2026-11-08 13:02:04",
+ "seconds": 0.4,
+ "header": {
+  "code": "b072e26f18aac521",
+  "id": "c4c90cc0f13b",
+  "profile": "C",
+  "schema": "amm-tools/1",
+  "t": "2026-11-05T07:42:36.126+00:00",
+  "type": "session"
+ },
+ "n_calls": 4,
+ "tools": [
+  "check_bounds",
+  "set_material",
+  "set_target",
+  "submit"
+ ],
+ "n_certify": 0,
+ "n_search": 0,
+ "n_export": 0,
+ "logged_tool_seconds": 0.3,
+ "env": {
+  "python": "3.10.18",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "torch": "2.5.1+cu124",
+  "cuda": true,
+  "device": "NVIDIA GeForce RTX 4090",
+  "code": "f1a6d625064a6d18",
+  "checker": "c5f8c89871b3bad6",
+  "mkl_cbwr": 65538
+ },
+ "replay": {
+  "exact": false,
+  "n_calls": 4,
+  "n_compared": 4,
+  "mismatches": [
+   {
+    "seq": 4,
+    "tool": "submit",
+    "field": "state_hash",
+    "log": "00ca50b088badfaf",
+    "replay": "956471dafeae70f5"
+   },
+   {
+    "seq": 4,
+    "tool": "submit",
+    "field": "result",
+    "log": "17ede27749c1e3f9",
+    "replay": "9b3d9c185738e22b",
+    "diff": {
+     "path": ".submitted.spec",
+     "log": null,
+     "replay": {
+      "cell_size": null,
+      "gap_type": null,
+      "material": "Ti6Al4V",
+      "nu": 0.342,
+      "targets": {
+       "E100_min": [
+        35.0,
+        "GPa"
+       ],
+       "density_max": 0.2
+      }
+     }
+    }
+   }
+  ],
+  "same_code": false,
+  "schema": "amm-tools/1",
+  "decision_changes": [],
+  "identity": {
+   "code_log": "b072e26f18aac521",
+   "code_now": "f1a6d625064a6d18",
+   "checker_log": null,
+   "checker_now": "c5f8c89871b3bad6",
+   "checker_aliased": false,
+   "checker_log_source": null,
+   "code_aliased": true
+  },
+  "root": null
+ },
+ "tolerance": {
+  "aligned": true,
+  "within_tolerance": false,
+  "max_rel_numeric": 0.0,
+  "max_rel_by_tier": {
+   "T64": 0.0,
+   "T32": 0.0
+  },
+  "n_numeric_differences": 0,
+  "calls_with_numeric_differences": [],
+  "over_tolerance": [],
+  "non_numeric_differences": [
+   [
+    4,
+    "submit",
+    [
+     {
+      "path": ".submitted.spec",
+      "log": "None",
+      "replay": "{'cell_size': None, 'gap_type': None, 'material': 'Ti6Al4V', 'nu': 0.342, 'targe"
+     }
+    ]
+   ]
+  ],
+  "environment_fields": [],
+  "derived_differences": [
+   [
+    4,
+    "submit",
+    [
+     "state_hash"
+    ]
+   ]
+  ],
+  "unexplained_derived": []
+ },
+ "error": null
+}

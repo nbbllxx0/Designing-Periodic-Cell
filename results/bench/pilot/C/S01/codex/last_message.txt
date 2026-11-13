@@ -1,0 +1,1 @@
+Released a certified 316L cube-and-bars design with \(c=0.51913a\) and \(w=0.36a\). Guarded bounds give relative density ≤32.74% and cube-axis Young’s modulus ≥31.19 GPa. Certification covers nominal geometry; the tested erosion offset failed robustness.

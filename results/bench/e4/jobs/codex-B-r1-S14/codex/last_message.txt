@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. Preliminary Ti6Al4V designs met both limits nominally, but none met them with allowance for numerical uncertainty, and certification was unavailable. This does not prove the request infeasible.

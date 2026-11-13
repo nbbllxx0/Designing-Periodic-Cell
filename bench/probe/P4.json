@@ -1,0 +1,27 @@
+{
+ "id": "P4",
+ "class": "ambiguous_material",
+ "text": "Design a lattice unit cell with a solid fraction of at most 26 %, a Young's modulus along the cube axes of at least 11.5 GPa and a shear modulus of at least 9.5 GPa.",
+ "intended": {
+  "material": "316L",
+  "cell_size": null,
+  "targets": {
+   "density_max": 0.26,
+   "E100_min": [
+    11.5,
+    "GPa"
+   ],
+   "G_min": [
+    9.5,
+    "GPa"
+   ]
+  }
+ },
+ "oracle": {
+  "facts": "It will be printed in 316L stainless steel by laser powder-bed fusion."
+ },
+ "expected": {
+  "decision": "ask_then_release"
+ },
+ "truth_source": "The material is missing, so GPa targets cannot be normalized and nu_s is unknown; with 316L it is brief P1."
+}

@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":[12,"mm"],"targets":{"gap":{"f_lo":99.4,"f_hi":113,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without elastic band-structure verification across all wave directions and polarizations, I cannot certify a design meeting this complete-gap target or establish infeasibility."}

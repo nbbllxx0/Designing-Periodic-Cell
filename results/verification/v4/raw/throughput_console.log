@@ -1,0 +1,15 @@
+﻿tpms      B=  1 thr=16: import 2.6 s, cold 0.754 cells/s, warm median 1.300 cells/s, same-spec warm 1.197, gpu 5904.6 MB
+tpms      B=  4 thr=16: import 2.1 s, cold 0.932 cells/s, warm median 1.359 cells/s, same-spec warm 1.064, gpu 6246.9 MB
+tpms      B= 16 thr=16: import 2.2 s, cold 1.165 cells/s, warm median 1.298 cells/s, same-spec warm 1.237, gpu 6246.9 MB
+tpms      B= 64 thr=16: import 2.1 s, cold 1.139 cells/s, warm median 1.163 cells/s, same-spec warm 1.152, gpu 6246.5 MB
+struts    B=  1 thr=16: import 2.5 s, cold 0.916 cells/s, warm median 1.677 cells/s, same-spec warm 1.507, gpu 5098.9 MB
+struts    B=  4 thr=16: import 2.3 s, cold 1.299 cells/s, warm median 1.821 cells/s, same-spec warm 1.575, gpu 5098.9 MB
+struts    B= 16 thr=16: import 2.0 s, cold 1.626 cells/s, warm median 1.910 cells/s, same-spec warm 1.739, gpu 5098.9 MB
+struts    B= 64 thr=16: import 2.1 s, cold 1.659 cells/s, warm median 1.692 cells/s, same-spec warm 1.681, gpu 5098.9 MB
+resonator B=  1 thr=16: import 2.1 s, cold 0.865 cells/s, warm median 1.607 cells/s, same-spec warm 1.381, gpu 4967.7 MB
+resonator B=  4 thr=16: import 2.2 s, cold 1.526 cells/s, warm median 1.726 cells/s, same-spec warm 1.845, gpu 5617.0 MB
+resonator B= 16 thr=16: import 2.1 s, cold 1.605 cells/s, warm median 1.658 cells/s, same-spec warm 1.727, gpu 5617.0 MB
+resonator B= 64 thr=16: import 2.4 s, cold 1.595 cells/s, warm median 1.609 cells/s, same-spec warm 1.613, gpu 5617.0 MB
+tpms      B= 16 thr= 4: import 2.1 s, cold 1.188 cells/s, warm median 1.325 cells/s, same-spec warm 1.242, gpu 6246.9 MB
+struts    B= 16 thr= 4: import 2.1 s, cold 1.684 cells/s, warm median 1.955 cells/s, same-spec warm 1.804, gpu 5098.9 MB
+resonator B= 16 thr= 4: import 2.1 s, cold 1.709 cells/s, warm median 1.679 cells/s, same-spec warm 1.842, gpu 5617.0 MB

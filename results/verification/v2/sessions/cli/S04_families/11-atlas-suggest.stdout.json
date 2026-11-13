@@ -1,0 +1,209 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "families": [
+     "resonator"
+    ]
+   },
+   "ok": true,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "resonator"
+    ]
+   },
+   "seq": 2,
+   "tool": "set_constraints"
+  },
+  {
+   "args": {
+    "gap": {
+     "f_hi": 0.35,
+     "f_lo": 0.25,
+     "unit": "f*"
+    }
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    }
+   },
+   "seq": 3,
+   "tool": "set_target"
+  },
+  {
+   "args": {
+    "top": 5
+   },
+   "ok": true,
+   "result": {
+    "best": [
+     {
+      "design": {
+       "kind": "cube_bars",
+       "params": {
+        "c": 0.592174,
+        "w": 0.112174
+       }
+      },
+      "slack_nominal": 0.16777999999999998,
+      "slack_pess": 0.16777999999999998
+     },
+     {
+      "design": {
+       "kind": "cube_bars",
+       "params": {
+        "c": 0.567826,
+        "w": 0.112174
+       }
+      },
+      "slack_nominal": 0.1306733333333333,
+      "slack_pess": 0.1306733333333333
+     },
+     {
+      "design": {
+       "kind": "cube_bars",
+       "params": {
+        "c": 0.616522,
+        "w": 0.112174
+       }
+      },
+      "slack_nominal": 0.11942666666666667,
+      "slack_pess": 0.11942666666666667
+     },
+     {
+      "design": {
+       "kind": "sphere_ligaments",
+       "params": {
+        "c": 0.312174,
+        "w": 0.108696
+       }
+      },
+      "slack_nominal": 0.09625666666666671,
+      "slack_pess": 0.09625666666666671
+     },
+     {
+      "design": {
+       "kind": "cube_bars",
+       "params": {
+        "c": 0.543478,
+        "w": 0.112174
+       }
+      },
+      "slack_nominal": 0.0934666666666667,
+      "slack_pess": 0.0934666666666667
+     }
+    ],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "tier": "search (not certified)"
+   },
+   "seq": 4,
+   "tool": "atlas_suggest"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "atlas-suggest",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "best": [
+   {
+    "design": {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.592174,
+      "w": 0.112174
+     }
+    },
+    "slack_nominal": 0.16777999999999998,
+    "slack_pess": 0.16777999999999998
+   },
+   {
+    "design": {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.567826,
+      "w": 0.112174
+     }
+    },
+    "slack_nominal": 0.1306733333333333,
+    "slack_pess": 0.1306733333333333
+   },
+   {
+    "design": {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.616522,
+      "w": 0.112174
+     }
+    },
+    "slack_nominal": 0.11942666666666667,
+    "slack_pess": 0.11942666666666667
+   },
+   {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.312174,
+      "w": 0.108696
+     }
+    },
+    "slack_nominal": 0.09625666666666671,
+    "slack_pess": 0.09625666666666671
+   },
+   {
+    "design": {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.543478,
+      "w": 0.112174
+     }
+    },
+    "slack_nominal": 0.0934666666666667,
+    "slack_pess": 0.0934666666666667
+   }
+  ],
+  "normalized_targets": {
+   "gap": {
+    "f_hi": 0.35,
+    "f_lo": 0.25
+   }
+  },
+  "tier": "search (not certified)"
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S04_families\\11-atlas-suggest"
+}

@@ -1,0 +1,2769 @@
+[
+ {
+  "brief": "A01",
+  "cls": "ambiguous_material",
+  "truth_level": "witnessed",
+  "spec_key": "937747778e89",
+  "ambiguous": true,
+  "wall_s": 95.0,
+  "usage": {
+   "input_tokens": 346697,
+   "cached_input_tokens": 325888,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1119,
+   "reasoning_output_tokens": 97
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.260413,
+    "w": 0.266768
+   }
+  },
+  "note": "PA12 selected by user. Search-tier estimates: solid fraction 0.1601492052 <= 0.19, E100 122.8585333 MPa >= 89.2 MPa, C44 (G) 7.5569419 MPa >= 4.22 MPa. Pessimistic calibrated slack 0.1525257. Parameters are normalized by cell size a; static targets do not require an absolute size. Search estimates are not certified.",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": true,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.19,
+    "E100_min": [
+     89.2,
+     "MPa"
+    ],
+    "G_min": [
+     4.22,
+     "MPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 11,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 80,
+  "tool_seconds": 60.9,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "posthoc",
+   "key": "8c1d9405975bb14f",
+   "seconds": 45.7,
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "ask_then_release"
+ },
+ {
+  "brief": "A02",
+  "cls": "ambiguous_material",
+  "truth_level": "witnessed",
+  "spec_key": "f898d553f52f",
+  "ambiguous": true,
+  "wall_s": 106.9,
+  "usage": {
+   "input_tokens": 469883,
+   "cached_input_tokens": 433024,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1352,
+   "reasoning_output_tokens": 265
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.314278,
+    "w": 0.110281
+   }
+  },
+  "note": "Ti6Al4V, cell size 12 mm. Valid sphere_ligaments geometry with c=0.314278 and w=0.110281 in cell-size units. Search-tier complete gap 59.6596\u2013223.4746 kHz covers requested 68.6\u2013114 kHz; pessimistic calibrated slack 0.08459. Solid fraction 0.140834. Search-tier estimate only, not certified; print-process qualification has not been performed.",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": true,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": [
+    12.0,
+    "mm"
+   ],
+   "targets": {
+    "gap": {
+     "f_lo": [
+      68.6,
+      "kHz"
+     ],
+     "f_hi": [
+      114.0,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 12,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 81,
+  "tool_seconds": 65.4,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "undetermined",
+   "by": "posthoc",
+   "key": "9458f95b75bbd543",
+   "seconds": 237.5,
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "unverified_release",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "ask_then_release"
+ },
+ {
+  "brief": "A03",
+  "cls": "ambiguous_cell_size",
+  "truth_level": "witnessed",
+  "spec_key": "bd534926886a",
+  "ambiguous": true,
+  "wall_s": 113.6,
+  "usage": {
+   "input_tokens": 366817,
+   "cached_input_tokens": 329728,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1333,
+   "reasoning_output_tokens": 251
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "UNDETERMINED",
+  "design": null,
+  "note": "PA12, user-selected a=10 mm, complete-gap target 44\u201354.6 kHz. A 96-evaluation search across available families with pessimistic objective and 3% margin returned found=false. Best search-tier candidate: sphere_ligaments c=0.365407, w=0.106886, nominal complete gap 22.945\u201379.799 kHz, expected slack 0.36077 but pessimistic slack -0.23782. Search-tier estimates are not certificates; no certification t",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": true,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": [
+    10.0,
+    "mm"
+   ],
+   "targets": {
+    "gap": {
+     "f_lo": [
+      44.0,
+      "kHz"
+     ],
+     "f_hi": [
+      54.6,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 12,
+  "n_failed": 1,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 96,
+  "tool_seconds": 78.2,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "false_refusal",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "ask_then_release"
+ },
+ {
+  "brief": "A04",
+  "cls": "ambiguous_quantity",
+  "truth_level": "witnessed",
+  "spec_key": "0d5eece9d8ac",
+  "ambiguous": true,
+  "wall_s": 116.3,
+  "usage": {
+   "input_tokens": 497314,
+   "cached_input_tokens": 461696,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1656,
+   "reasoning_output_tokens": 531
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "need_info",
+  "verdict": null,
+  "design": null,
+  "note": "The clarified stiffness requirement is C44 shear modulus >= 6.51 GPa, with solid fraction <= 0.29 in Ti6Al4V (LPBF). Unit-cell edge length remains unspecified after clarification; a physical size is needed to assess LPBF feature dimensions. Screening did not find a design meeting the conservative search criterion; this is not proof of infeasibility. No design is released.",
+  "asked": 3,
+  "asked_relevant": true,
+  "asked_matched": true,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.29,
+    "G_min": [
+     6.51,
+     "GPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 13,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 48,
+  "tool_seconds": 65.2,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "no_answer",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "ask_then_release"
+ },
+ {
+  "brief": "A05",
+  "cls": "ambiguous_gap_type",
+  "truth_level": "witnessed",
+  "spec_key": "8414226c99f4",
+  "ambiguous": true,
+  "wall_s": 206.3,
+  "usage": {
+   "input_tokens": 728618,
+   "cached_input_tokens": 699136,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2348,
+   "reasoning_output_tokens": 617
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.386087,
+    "w": 0.157391
+   }
+  },
+  "note": "Release the best expected-margin search-stage candidate for a=20 mm, PA12 SLS using amm PA12 model (E=1.7 GPa, nu=0.39, rho=1010 kg/m^3). Dimensionless parameters c=0.386087 and w=0.157391. Search estimates: solid fraction 0.2549684207, cubic shear C44=9.2603852 MPa, complete gap 15.3732105\u201336.9047780 kHz covering the confirmed 16.6\u201327.6 kHz interval. Expected slack +0.18676025; nominal slack +0.0",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": true,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": [
+    20.0,
+    "mm"
+   ],
+   "targets": {
+    "density_max": 0.32,
+    "G_min": [
+     5.96,
+     "MPa"
+    ],
+    "gap": {
+     "f_lo": [
+      16.6,
+      "kHz"
+     ],
+     "f_hi": [
+      27.6,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 17,
+  "n_failed": 1,
+  "n_certify": 0,
+  "n_search": 2,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 184,
+  "tool_seconds": 145.7,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "undetermined",
+   "by": "posthoc",
+   "key": "adcc9298683b6d84",
+   "seconds": 1175.9,
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "unverified_release",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "ask_then_release"
+ },
+ {
+  "brief": "A06",
+  "cls": "ambiguous_material",
+  "truth_level": "proven",
+  "spec_key": "f486ff098c6d",
+  "ambiguous": true,
+  "wall_s": 29.5,
+  "usage": {
+   "input_tokens": 182464,
+   "cached_input_tokens": 158720,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 817,
+   "reasoning_output_tokens": 94
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "PROVEN_INFEASIBLE",
+  "design": null,
+  "note": "User selected 316L (E_s=193 GPa, nu=0.3). For a void/316L lattice in linear elasticity, the Voigt energy bound C_eff <= phi C_s implies each directional Young's modulus E_i <= phi E_s. With phi<=0.16, E_i<=30.88 GPa, below the required 38.6 GPa (=0.20 E_s). Thus no periodic geometry can meet the stated requirements for this material. No design released.",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": true,
+  "spec_at_submit": {
+   "material": "316L",
+   "nu": 0.3,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.16,
+    "E100_min": [
+     38.6,
+     "GPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 9,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 0,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 0,
+  "tool_seconds": 0.2,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "correct_refusal",
+  "verdict_match": "exact",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "ask_then_refuse"
+ },
+ {
+  "brief": "G01",
+  "cls": "feasible_gap",
+  "truth_level": "witnessed",
+  "spec_key": "afbf19e1b8ce",
+  "ambiguous": false,
+  "wall_s": 123.7,
+  "usage": {
+   "input_tokens": 442640,
+   "cached_input_tokens": 419840,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1602,
+   "reasoning_output_tokens": 513
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "UNDETERMINED",
+  "design": null,
+  "note": "For 316L at a=6 mm and a complete elastic gap covering 144\u2013304 kHz, a 96-evaluation pessimistic search did not find a candidate with nonnegative pessimistic slack. Best candidate: sphere_ligaments c=0.356121, w=0.102698, nominal search-tier gap 137.256\u2013525.544 kHz, nominal slack 0.030107, expected slack 0.194281, pessimistic slack -0.074332. Search-tier predictions are not certificates, and no cer",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "316L",
+   "nu": 0.3,
+   "cell_size": [
+    6.0,
+    "mm"
+   ],
+   "targets": {
+    "gap": {
+     "f_lo": [
+      144.0,
+      "kHz"
+     ],
+     "f_hi": [
+      304.0,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 12,
+  "n_failed": 1,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 96,
+  "tool_seconds": 78.6,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "false_refusal",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "release"
+ },
+ {
+  "brief": "G02",
+  "cls": "feasible_gap",
+  "truth_level": "witnessed",
+  "spec_key": "f898d553f52f",
+  "ambiguous": false,
+  "wall_s": 143.2,
+  "usage": {
+   "input_tokens": 608075,
+   "cached_input_tokens": 580224,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2022,
+   "reasoning_output_tokens": 838
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.314278,
+    "w": 0.110281
+   }
+  },
+  "note": "Ti6Al4V, 12 mm periodic cell. Search-tier complete elastic band gap estimated at 59.660\u2013223.475 kHz, covering 68.6\u2013114 kHz for all directions and polarizations in the model. Selected by pessimistic search with positive calibrated slack 0.08459. Parameters are normalized by cell size. This is a preliminary design: the available tools provide no certification of the full gap or manufacturing validat",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": [
+    12.0,
+    "mm"
+   ],
+   "targets": {
+    "gap": {
+     "f_lo": [
+      68.6,
+      "kHz"
+     ],
+     "f_hi": [
+      114.0,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 13,
+  "n_failed": 1,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 97,
+  "tool_seconds": 78.0,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "undetermined",
+   "by": "posthoc",
+   "key": "9458f95b75bbd543",
+   "seconds": 237.5,
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "unverified_release",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "release"
+ },
+ {
+  "brief": "G03",
+  "cls": "feasible_gap",
+  "truth_level": "witnessed",
+  "spec_key": "bd534926886a",
+  "ambiguous": false,
+  "wall_s": 107.2,
+  "usage": {
+   "input_tokens": 453825,
+   "cached_input_tokens": 431744,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1170,
+   "reasoning_output_tokens": 278
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "UNDETERMINED",
+  "design": null,
+  "note": "The 96-evaluation conservative search did not find a design meeting the complete 44\u201354.6 kHz gap with prediction uncertainty included. Best sphere_ligaments candidate (c=0.365407, w=0.106886; a=10 mm, PA12) has a nominal search-tier gap of 22.945\u201379.799 kHz but pessimistic slack -0.237823. Search-tier predictions are not certified; no certification tool is available in this session. Thus full cove",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": [
+    10.0,
+    "mm"
+   ],
+   "targets": {
+    "gap": {
+     "f_lo": [
+      44.0,
+      "kHz"
+     ],
+     "f_hi": [
+      54.6,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 11,
+  "n_failed": 1,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 96,
+  "tool_seconds": 78.2,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "false_refusal",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "release"
+ },
+ {
+  "brief": "M01",
+  "cls": "feasible_combined",
+  "truth_level": "witnessed",
+  "spec_key": "bd563fe24bdc",
+  "ambiguous": false,
+  "wall_s": 195.1,
+  "usage": {
+   "input_tokens": 490753,
+   "cached_input_tokens": 446976,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1713,
+   "reasoning_output_tokens": 468
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "UNDETERMINED",
+  "design": null,
+  "note": "No design can be substantiated as meeting all strict requirements with the available search-tier tools. Two 96-evaluation searches were performed. Conservative search found none. Expected search found sphere_ligaments c=0.335364, w=0.247455 with expected slack +0.005766, but nominal slack -0.011921 and pessimistic slack -0.617793. Its raw predictions are solid fraction 0.2087819, axial E100 8.9359",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": [
+    8.0,
+    "mm"
+   ],
+   "targets": {
+    "density_max": 0.21,
+    "E100_min": [
+     8.42,
+     "GPa"
+    ],
+    "gap": {
+     "f_lo": [
+      206.0,
+      "kHz"
+     ],
+     "f_hi": [
+      250.0,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 15,
+  "n_failed": 1,
+  "n_certify": 0,
+  "n_search": 2,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 194,
+  "tool_seconds": 148.3,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "false_refusal",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "release"
+ },
+ {
+  "brief": "M02",
+  "cls": "feasible_combined",
+  "truth_level": "witnessed",
+  "spec_key": "8414226c99f4",
+  "ambiguous": false,
+  "wall_s": 243.7,
+  "usage": {
+   "input_tokens": 779415,
+   "cached_input_tokens": 734976,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2233,
+   "reasoning_output_tokens": 779
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "UNDETERMINED",
+  "design": null,
+  "note": "Cannot establish compliance with all hard requirements using the available search-tier tools. A 96-evaluation pessimistic search found no passing design. A subsequent 96-evaluation expected-value search found BCC {R:0.287273,r:0.04} at a=20 mm in PA12; independent search-tier evaluation predicts relative density 0.210307587, C44=16.266026 MPa, and a complete gap [11.447098,44.285813] kHz. These pr",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": [
+    20.0,
+    "mm"
+   ],
+   "targets": {
+    "density_max": 0.32,
+    "G_min": [
+     5.96,
+     "MPa"
+    ],
+    "gap": {
+     "f_lo": [
+      16.6,
+      "kHz"
+     ],
+     "f_hi": [
+      27.6,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 15,
+  "n_failed": 1,
+  "n_certify": 0,
+  "n_search": 2,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 193,
+  "tool_seconds": 179.9,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "false_refusal",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "release"
+ },
+ {
+  "brief": "N01",
+  "cls": "infeasible_notfound",
+  "truth_level": "unresolved",
+  "spec_key": "3b0d1c4097ae",
+  "ambiguous": false,
+  "wall_s": 115.4,
+  "usage": {
+   "input_tokens": 316216,
+   "cached_input_tokens": 295040,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1258,
+   "reasoning_output_tokens": 434
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "design": null,
+  "note": "The 96-evaluation, atlas-seeded search across the available families found no design satisfying both solid fraction <= 0.12 and E100 >= 16.2 GPa for 316L (E_s = 193 GPa, nu = 0.30). The leading returned compromise had search-tier E100 = 13.12 GPa and solid fraction = 0.1508, violating both requirements. This is a failure to find a solution in the available families, not a proof of universal infeas",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "316L",
+   "nu": 0.3,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.12,
+    "E100_min": [
+     16.2,
+     "GPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 10,
+  "n_failed": 1,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 96,
+  "tool_seconds": 73.3,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "abstention",
+  "clarification_ok": true,
+  "correct": null,
+  "appropriate": true,
+  "arm": "B",
+  "expected": "refuse"
+ },
+ {
+  "brief": "N02",
+  "cls": "infeasible_notfound",
+  "truth_level": "unresolved",
+  "spec_key": "729325f52bc9",
+  "ambiguous": false,
+  "wall_s": 120.5,
+  "usage": {
+   "input_tokens": 456617,
+   "cached_input_tokens": 434560,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1427,
+   "reasoning_output_tokens": 350
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "design": null,
+  "note": "No design meeting the complete 216\u2013673 kHz gap target was found in a 96-evaluation search over the available families for Ti6Al4V at a = 6 mm. The best-ranked search-tier sphere_ligaments candidate (c=0.348956, w=0.101805) has separate gaps approximately 142.7\u2013535.7 kHz and 668.5\u2013727.4 kHz, so it does not cover the requested continuous interval. Search results are not certified; this is not proof ",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": [
+    6.0,
+    "mm"
+   ],
+   "targets": {
+    "gap": {
+     "f_lo": [
+      216.0,
+      "kHz"
+     ],
+     "f_hi": [
+      673.0,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 12,
+  "n_failed": 1,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 96,
+  "tool_seconds": 83.1,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "abstention",
+  "clarification_ok": true,
+  "correct": null,
+  "appropriate": true,
+  "arm": "B",
+  "expected": "refuse"
+ },
+ {
+  "brief": "N03",
+  "cls": "infeasible_notfound",
+  "truth_level": "unresolved",
+  "spec_key": "db14a813fb36",
+  "ambiguous": false,
+  "wall_s": 189.5,
+  "usage": {
+   "input_tokens": 569258,
+   "cached_input_tokens": 523648,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1655,
+   "reasoning_output_tokens": 481
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "design": null,
+  "note": "Two atlas-seeded searches, each with 96 evaluations, using pessimistic and expected objectives across the supported TPMS, strut and resonator family pool found no design meeting the unchanged PA12, 12 mm, density <=0.23, E100 >=168 MPa and complete 20.5\u201330.7 kHz gap targets. The best pessimistic candidate (cube_bars c=0.61414, w=0.20967) has search-tier solid fraction 0.282807, E100=131.902 MPa an",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": [
+    12.0,
+    "mm"
+   ],
+   "targets": {
+    "density_max": 0.23,
+    "E100_min": [
+     168.0,
+     "MPa"
+    ],
+    "gap": {
+     "f_lo": [
+      20.5,
+      "kHz"
+     ],
+     "f_hi": [
+      30.7,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 14,
+  "n_failed": 1,
+  "n_certify": 0,
+  "n_search": 2,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 192,
+  "tool_seconds": 156.3,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "abstention",
+  "clarification_ok": true,
+  "correct": null,
+  "appropriate": true,
+  "arm": "B",
+  "expected": "refuse"
+ },
+ {
+  "brief": "S01",
+  "cls": "feasible_static",
+  "truth_level": "witnessed",
+  "spec_key": "45a73e359092",
+  "ambiguous": false,
+  "wall_s": 234.9,
+  "usage": {
+   "input_tokens": 666769,
+   "cached_input_tokens": 648960,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1622,
+   "reasoning_output_tokens": 328
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.517893,
+    "w": 0.358949
+   }
+  },
+  "note": "Selected the best calibrated expected-slack candidate for 316L (E_s=193 GPa, nu=0.30). Cube-bars geometry parameters are normalized by cell size a: c/a=0.517893, w/a=0.358949. Search-tier relative density=0.3261416779 and E100=32.6506723 GPa; calibrated expected minimum slack=+1.0313%. Preliminary, not certified: pessimistic slack=-4.4994%, so target compliance is not guaranteed. Absolute cell siz",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "316L",
+   "nu": 0.3,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.33,
+    "E100_min": [
+     31.0,
+     "GPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 11,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 2,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 145,
+  "tool_seconds": 157.3,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "undetermined",
+   "by": "posthoc",
+   "key": "02448dcc7c273433",
+   "seconds": 1128.5,
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "unverified_release",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "release"
+ },
+ {
+  "brief": "S02",
+  "cls": "feasible_static",
+  "truth_level": "witnessed",
+  "spec_key": "0d5eece9d8ac",
+  "ambiguous": false,
+  "wall_s": 402.3,
+  "usage": {
+   "input_tokens": 1059006,
+   "cached_input_tokens": 1003008,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 3420,
+   "reasoning_output_tokens": 1530
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.284253,
+    "mode": "sheet"
+   }
+  },
+  "note": "Ti6Al4V Schwarz P sheet unit cell. Search-model solid fraction 0.2841413 (28.414%) and C44 6.86466 GPa. Calibrated expected slack is +1.7607% against density <=0.29 and C44 >=6.51 GPa. This is a model-based, uncertified release: pessimistic slack is -12.3056%, so the minimum shear modulus is not guaranteed. Cell dimensions are relative to the unit-cell size; LPBF manufacturing qualification has no",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.29,
+    "G_min": [
+     6.51,
+     "GPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 12,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 3,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 208,
+  "tool_seconds": 345.2,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "posthoc",
+   "key": "1766beb55148a7c3",
+   "seconds": 115.3,
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "release"
+ },
+ {
+  "brief": "S03",
+  "cls": "feasible_static",
+  "truth_level": "witnessed",
+  "spec_key": "937747778e89",
+  "ambiguous": false,
+  "wall_s": 97.7,
+  "usage": {
+   "input_tokens": 411013,
+   "cached_input_tokens": 394240,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1308,
+   "reasoning_output_tokens": 246
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.260413,
+    "w": 0.266768
+   }
+  },
+  "note": "PA12 sphere_ligaments cell; parameters in units of cell size a. Search-tier evaluation predicts density 0.1601492052, cubic-axis Young's modulus 122.8585333 MPa, and C44 7.5569419 MPa, meeting density <=0.19, E100 >=89.2 MPa, and C44 >=4.22 MPa. Valid geometry and positive pessimistic search slack 0.1525257. Predictions are not certified; absolute cell size and SLS feature manufacturability are no",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.19,
+    "E100_min": [
+     89.2,
+     "MPa"
+    ],
+    "G_min": [
+     4.22,
+     "MPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 11,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 81,
+  "tool_seconds": 61.9,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "posthoc",
+   "key": "8c1d9405975bb14f",
+   "seconds": 45.7,
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "release"
+ },
+ {
+  "brief": "X01",
+  "cls": "infeasible_proven",
+  "truth_level": "proven",
+  "spec_key": "f486ff098c6d",
+  "ambiguous": false,
+  "wall_s": 30.7,
+  "usage": {
+   "input_tokens": 155561,
+   "cached_input_tokens": 122880,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 840,
+   "reasoning_output_tokens": 231
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "PROVEN_INFEASIBLE",
+  "design": null,
+  "note": "The amm material model gives isotropic 316L E_s = 193 GPa and nu = 0.3. For a solid/void periodic cell in linear elasticity, the uniform-strain variational (Voigt) bound gives E_eff <= phi E_s along any axis: use the admissible uniform trial strain diag(1,-nu,-nu), rotated to that axis, and minimize over lateral macroscopic strains. With phi <= 0.16, each axial Young's modulus is bounded above by ",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "316L",
+   "nu": 0.3,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.16,
+    "E100_min": [
+     38.6,
+     "GPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 7,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 0,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 0,
+  "tool_seconds": 0.2,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "correct_refusal",
+  "verdict_match": "exact",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "refuse"
+ },
+ {
+  "brief": "X03",
+  "cls": "infeasible_proven",
+  "truth_level": "proven",
+  "spec_key": "a87b9a159a42",
+  "ambiguous": false,
+  "wall_s": 23.9,
+  "usage": {
+   "input_tokens": 120315,
+   "cached_input_tokens": 107648,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 717,
+   "reasoning_output_tokens": 101
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "PROVEN_INFEASIBLE",
+  "design": null,
+  "note": "The literal requirement is a complete elastic-wave gap from zero to 16.8 kHz. Passive, ungrounded periodic lattice cores have acoustic branches whose frequencies approach zero at long wavelengths, so they cannot exclude all elastic waves throughout this interval. This applies regardless of PA12 cell geometry or the 20 mm period. No design released.",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": [
+    20.0,
+    "mm"
+   ],
+   "targets": {},
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 6,
+  "n_failed": 2,
+  "n_certify": 0,
+  "n_search": 0,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 0,
+  "tool_seconds": 0.2,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "correct_refusal",
+  "verdict_match": "exact",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "refuse"
+ },
+ {
+  "brief": "X07",
+  "cls": "infeasible_proven",
+  "truth_level": "proven",
+  "spec_key": "ca644d2a0b4f",
+  "ambiguous": false,
+  "wall_s": 97.1,
+  "usage": {
+   "input_tokens": 363082,
+   "cached_input_tokens": 347776,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1335,
+   "reasoning_output_tokens": 420
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "B",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "design": null,
+  "note": "The 60-evaluation, atlas-seeded search found no design meeting density <= 0.30 and nu100 >= 0.55. The best search-tier candidate was BCC with r/a=0.04 and R/a=0, solid fraction 0.031922 and nu100=0.490919, below the required 0.55. No compliant design is released; the search does not prove infeasibility for arbitrary architectures outside the available families. Cell size was requested but not supp",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.3,
+    "nu100_min": 0.55
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 10,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 60,
+  "tool_seconds": 43.7,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "correct_refusal",
+  "verdict_match": "weaker",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "B",
+  "expected": "refuse"
+ },
+ {
+  "brief": "A01",
+  "cls": "ambiguous_material",
+  "truth_level": "witnessed",
+  "spec_key": "937747778e89",
+  "ambiguous": true,
+  "wall_s": 78.6,
+  "usage": {
+   "input_tokens": 371566,
+   "cached_input_tokens": 332032,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1044,
+   "reasoning_output_tokens": 99
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.267826,
+    "w": 0.254783
+   }
+  },
+  "note": "Certified PA12 sphere-and-ligament periodic cell. Guarded solid-fraction upper bound 15.6501%; E100 lower bound 112.214 MPa; C44 lower bound 5.936 MPa. Parameters are relative to cell size a; passes erosion and dilation robustness checks.",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": true,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.19,
+    "E100_min": [
+     89.2,
+     "MPa"
+    ],
+    "G_min": [
+     4.22,
+     "MPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 13,
+  "n_failed": 0,
+  "n_certify": 1,
+  "n_search": 0,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 2,
+  "tool_seconds": 44.4,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "session certificate",
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "ask_then_release"
+ },
+ {
+  "brief": "A02",
+  "cls": "ambiguous_material",
+  "truth_level": "witnessed",
+  "spec_key": "f898d553f52f",
+  "ambiguous": true,
+  "wall_s": 240.7,
+  "usage": {
+   "input_tokens": 739247,
+   "cached_input_tokens": 720640,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1787,
+   "reasoning_output_tokens": 315
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.312174,
+    "w": 0.108696
+   }
+  },
+  "note": "Release the certified Ti6Al4V sphere_ligaments unit cell with a=12 mm. Complete band gap covering 68.6\u2013114 kHz certified for the current specification; as-built erosion and dilation checks at \u00b10.01a passed (robust=true). Parameters are normalized by a: c=0.312174, w=0.108696.",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": true,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": [
+    12.0,
+    "mm"
+   ],
+   "targets": {
+    "gap": {
+     "f_lo": [
+      68.6,
+      "kHz"
+     ],
+     "f_hi": [
+      114.0,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 12,
+  "n_failed": 0,
+  "n_certify": 1,
+  "n_search": 0,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 0,
+  "tool_seconds": 206.1,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "session certificate",
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "ask_then_release"
+ },
+ {
+  "brief": "A03",
+  "cls": "ambiguous_cell_size",
+  "truth_level": "witnessed",
+  "spec_key": "bd534926886a",
+  "ambiguous": true,
+  "wall_s": 698.9,
+  "usage": {
+   "input_tokens": 1199473,
+   "cached_input_tokens": 1127936,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2781,
+   "reasoning_output_tokens": 673
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.365407,
+    "w": 0.106886
+   }
+  },
+  "note": "Release for the user-selected 10 mm unit-cell size in PA12 (library E=1.7 GPa, nu=0.39, rho=1010 kg/m^3). Session certificate certifies the complete elastic band gap covering 44\u201354.6 kHz across all directions and polarizations; robust flag true for +/-0.01a offsets. Geometry parameters are normalized by a.",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": true,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": [
+    10.0,
+    "mm"
+   ],
+   "targets": {
+    "gap": {
+     "f_lo": [
+      44.0,
+      "kHz"
+     ],
+     "f_hi": [
+      54.6,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 15,
+  "n_failed": 0,
+  "n_certify": 2,
+  "n_search": 2,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 120,
+  "tool_seconds": 647.6,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "session certificate",
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "ask_then_release"
+ },
+ {
+  "brief": "A04",
+  "cls": "ambiguous_quantity",
+  "truth_level": "witnessed",
+  "spec_key": "0d5eece9d8ac",
+  "ambiguous": true,
+  "wall_s": 38.0,
+  "usage": {
+   "input_tokens": 288595,
+   "cached_input_tokens": 258688,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1168,
+   "reasoning_output_tokens": 203
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "need_info",
+  "verdict": null,
+  "design": null,
+  "note": "Confirmed Ti6Al4V LPBF, solid fraction <= 0.29, and shear modulus C44 >= 6.51 GPa. Unit-cell edge length remains unspecified after clarification; a physical scale is needed to assess printable feature dimensions. No design certified or released.",
+  "asked": 3,
+  "asked_relevant": true,
+  "asked_matched": true,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.29,
+    "G_min": [
+     6.51,
+     "GPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 14,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 0,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 0,
+  "tool_seconds": 0.3,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "no_answer",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "ask_then_release"
+ },
+ {
+  "brief": "A05",
+  "cls": "ambiguous_gap_type",
+  "truth_level": "witnessed",
+  "spec_key": "8414226c99f4",
+  "ambiguous": true,
+  "wall_s": 758.5,
+  "usage": {
+   "input_tokens": 956329,
+   "cached_input_tokens": 929536,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 3157,
+   "reasoning_output_tokens": 1015
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "bcc",
+   "params": {
+    "R": 0.318343,
+    "r": 0.063415
+   }
+  },
+  "note": "Certified nominal 20 mm PA12 BCC cell. Normalized radii R=0.318343 and r=0.063415 correspond to node radius 6.36686 mm and strut radius 1.2683 mm. Certified solid fraction upper bound 0.2941932962, C44 lower bound 36.2476892 MPa; complete band gap certified to cover 16.6\u201327.6 kHz. As-built robustness flag false: erosion passes, dilation fails at +/-0.01a (0.2 mm); release applies to nominal certif",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": true,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": [
+    20.0,
+    "mm"
+   ],
+   "targets": {
+    "density_max": 0.32,
+    "G_min": [
+     5.96,
+     "MPa"
+    ],
+    "gap": {
+     "f_lo": [
+      16.6,
+      "kHz"
+     ],
+     "f_hi": [
+      27.6,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 18,
+  "n_failed": 1,
+  "n_certify": 1,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 96,
+  "tool_seconds": 708.5,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "session certificate",
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "ask_then_release"
+ },
+ {
+  "brief": "A06",
+  "cls": "ambiguous_material",
+  "truth_level": "proven",
+  "spec_key": "f486ff098c6d",
+  "ambiguous": true,
+  "wall_s": 25.4,
+  "usage": {
+   "input_tokens": 194363,
+   "cached_input_tokens": 176896,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 667,
+   "reasoning_output_tokens": 17
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "PROVEN_INFEASIBLE",
+  "design": null,
+  "note": "For the user-selected 316L (E_s = 193 GPa), the Voigt upper bound at solid fraction <= 0.16 is E100 <= 0.16 * 193 = 30.88 GPa, below the required 38.6 GPa. check_bounds reports violation V1 for any geometry. No design can satisfy the current targets.",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": true,
+  "spec_at_submit": {
+   "material": "316L",
+   "nu": 0.3,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.16,
+    "E100_min": [
+     38.6,
+     "GPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 9,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 0,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 0,
+  "tool_seconds": 0.3,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "correct_refusal",
+  "verdict_match": "exact",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "ask_then_refuse"
+ },
+ {
+  "brief": "G01",
+  "cls": "feasible_gap",
+  "truth_level": "witnessed",
+  "spec_key": "afbf19e1b8ce",
+  "ambiguous": false,
+  "wall_s": 336.3,
+  "usage": {
+   "input_tokens": 934906,
+   "cached_input_tokens": 886912,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2168,
+   "reasoning_output_tokens": 621
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.340756,
+    "w": 0.101349
+   }
+  },
+  "note": "Certified for 316L, a=6 mm, complete 3D elastic band gap covering 144\u2013304 kHz. Certification verdict certified; as-built erosion and dilation checks at \u00b10.01a passed (robust=true). Parameters are normalized by cell size: c=0.340756, w=0.101349.",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "316L",
+   "nu": 0.3,
+   "cell_size": [
+    6.0,
+    "mm"
+   ],
+   "targets": {
+    "gap": {
+     "f_lo": [
+      144.0,
+      "kHz"
+     ],
+     "f_hi": [
+      304.0,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 12,
+  "n_failed": 0,
+  "n_certify": 1,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 80,
+  "tool_seconds": 306.0,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "session certificate",
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "release"
+ },
+ {
+  "brief": "G02",
+  "cls": "feasible_gap",
+  "truth_level": "witnessed",
+  "spec_key": "f898d553f52f",
+  "ambiguous": false,
+  "wall_s": 245.3,
+  "usage": {
+   "input_tokens": 734185,
+   "cached_input_tokens": 693632,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2088,
+   "reasoning_output_tokens": 577
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.312174,
+    "w": 0.108696
+   }
+  },
+  "note": "Ti6Al4V, 12 mm periodic cell. Certified complete elastic-wave gap covers 68.6\u2013114 kHz in all directions and polarizations. Certificate safe normalized interval [0.22900010379028982, 0.47299890356745466]; robust under tested \u00b10.01a geometric offsets. Parameters c and w are normalized by cell size.",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": [
+    12.0,
+    "mm"
+   ],
+   "targets": {
+    "gap": {
+     "f_lo": [
+      68.6,
+      "kHz"
+     ],
+     "f_hi": [
+      114.0,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 12,
+  "n_failed": 0,
+  "n_certify": 1,
+  "n_search": 0,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 2,
+  "tool_seconds": 207.0,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "session certificate",
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "release"
+ },
+ {
+  "brief": "G03",
+  "cls": "feasible_gap",
+  "truth_level": "witnessed",
+  "spec_key": "bd534926886a",
+  "ambiguous": false,
+  "wall_s": 394.0,
+  "usage": {
+   "input_tokens": 557745,
+   "cached_input_tokens": 521984,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1495,
+   "reasoning_output_tokens": 257
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.365407,
+    "w": 0.106886
+   }
+  },
+  "note": "Certified in this session for a complete 3D elastic-wave band gap covering 44\u201354.6 kHz in PA12 at a=10 mm. Certification checks all directions and polarizations with an edge-convergence guard. As-built erosion and dilation checks at \u00b10.01a passed; robust=true. Parameters are normalized by cell size.",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": [
+    10.0,
+    "mm"
+   ],
+   "targets": {
+    "gap": {
+     "f_lo": [
+      44.0,
+      "kHz"
+     ],
+     "f_hi": [
+      54.6,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 12,
+  "n_failed": 0,
+  "n_certify": 1,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 80,
+  "tool_seconds": 362.9,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "session certificate",
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "release"
+ },
+ {
+  "brief": "M01",
+  "cls": "feasible_combined",
+  "truth_level": "witnessed",
+  "spec_key": "bd563fe24bdc",
+  "ambiguous": false,
+  "wall_s": 1568.2,
+  "usage": {
+   "input_tokens": 2890940,
+   "cached_input_tokens": 2821376,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 5306,
+   "reasoning_output_tokens": 1581
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "UNDETERMINED",
+  "design": null,
+  "note": "No design certified for the unchanged Ti6Al4V, 8 mm specification after two 96-evaluation searches, local evaluations, and two certification solves. sphere_ligaments c=0.335364,w=0.247455 certified density and axial stiffness, but the 206\u2013250 kHz complete-gap claim was inside an edge guard band. Revised sphere_ligaments c=0.3385,w=0.240 certified density and the complete gap, but the guarded axial",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": [
+    8.0,
+    "mm"
+   ],
+   "targets": {
+    "density_max": 0.21,
+    "E100_min": [
+     8.42,
+     "GPa"
+    ],
+    "gap": {
+     "f_lo": [
+      206.0,
+      "kHz"
+     ],
+     "f_hi": [
+      250.0,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 18,
+  "n_failed": 1,
+  "n_certify": 2,
+  "n_search": 2,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 200,
+  "tool_seconds": 1427.4,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "false_refusal",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "release"
+ },
+ {
+  "brief": "M02",
+  "cls": "feasible_combined",
+  "truth_level": "witnessed",
+  "spec_key": "8414226c99f4",
+  "ambiguous": false,
+  "wall_s": 1709.4,
+  "usage": {
+   "input_tokens": 4537007,
+   "cached_input_tokens": 4467328,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 6486,
+   "reasoning_output_tokens": 1390
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "UNDETERMINED",
+  "design": null,
+  "note": "No design was certified for all current targets. Searched all families with 96 expected-objective evaluations and 96 pessimistic-objective evaluations, then resonators with 96 expected-objective evaluations. Certified candidates bcc {R:0.287273,r:0.04} and sphere_ligaments {c:0.386087,w:0.157391} both passed density and C44 targets but returned undetermined for the complete 16.6\u201327.6 kHz gap (clai",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": [
+    20.0,
+    "mm"
+   ],
+   "targets": {
+    "density_max": 0.32,
+    "G_min": [
+     5.96,
+     "MPa"
+    ],
+    "gap": {
+     "f_lo": [
+      16.6,
+      "kHz"
+     ],
+     "f_hi": [
+      27.6,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 17,
+  "n_failed": 1,
+  "n_certify": 2,
+  "n_search": 3,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 288,
+  "tool_seconds": 1618.9,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "false_refusal",
+  "clarification_ok": true,
+  "correct": false,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "release"
+ },
+ {
+  "brief": "N01",
+  "cls": "infeasible_notfound",
+  "truth_level": "unresolved",
+  "spec_key": "3b0d1c4097ae",
+  "ambiguous": false,
+  "wall_s": 85.8,
+  "usage": {
+   "input_tokens": 308763,
+   "cached_input_tokens": 270720,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 918,
+   "reasoning_output_tokens": 192
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "design": null,
+  "note": "The 2,714-cell family atlas has no possible candidate even with favorable calibrated search error; an additional 80-evaluation pessimistic search also found no design satisfying density <=0.12 and E100 >=16.2 GPa for 316L (E_s=193 GPa). No compliant design is certified or released. This is a failure to find a design in the supported families, not proof of physical impossibility.",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "316L",
+   "nu": 0.3,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.12,
+    "E100_min": [
+     16.2,
+     "GPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 9,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 80,
+  "tool_seconds": 61.6,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "abstention",
+  "clarification_ok": true,
+  "correct": null,
+  "appropriate": true,
+  "arm": "C",
+  "expected": "refuse"
+ },
+ {
+  "brief": "N02",
+  "cls": "infeasible_notfound",
+  "truth_level": "unresolved",
+  "spec_key": "729325f52bc9",
+  "ambiguous": false,
+  "wall_s": 101.6,
+  "usage": {
+   "input_tokens": 342549,
+   "cached_input_tokens": 323456,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1118,
+   "reasoning_output_tokens": 248
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "design": null,
+  "note": "For Ti6Al4V at a = 6 mm, the requested complete gap is 216\u2013673 kHz (normalized 0.418916\u20131.305234). The 2714-cell atlas returned zero possible candidates even with favorable calibrated errors, and an 80-evaluation atlas-seeded search found no design meeting the target. The best search candidate's principal gap was approximately 142.7\u2013535.7 kHz, which does not cover the requested interval; its separ",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": [
+    6.0,
+    "mm"
+   ],
+   "targets": {
+    "gap": {
+     "f_lo": [
+      216.0,
+      "kHz"
+     ],
+     "f_hi": [
+      673.0,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 11,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 80,
+  "tool_seconds": 70.8,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "abstention",
+  "clarification_ok": true,
+  "correct": null,
+  "appropriate": true,
+  "arm": "C",
+  "expected": "refuse"
+ },
+ {
+  "brief": "N03",
+  "cls": "infeasible_notfound",
+  "truth_level": "unresolved",
+  "spec_key": "db14a813fb36",
+  "ambiguous": false,
+  "wall_s": 110.3,
+  "usage": {
+   "input_tokens": 542336,
+   "cached_input_tokens": 512000,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1210,
+   "reasoning_output_tokens": 229
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "design": null,
+  "note": "No compliant design found in the available TPMS, strut, and resonator families. The 2,714-cell atlas had no possible match even under favorable calibrated errors; a 96-evaluation expected-value search also found no match. Its best candidate had search-tier solid fraction 26.70%, E100 144.58 MPa, and a complete gap at 29.01\u201349.21 kHz, failing the requested <=23%, >=168 MPa, and coverage of 20.5\u201330.",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": [
+    12.0,
+    "mm"
+   ],
+   "targets": {
+    "density_max": 0.23,
+    "E100_min": [
+     168.0,
+     "MPa"
+    ],
+    "gap": {
+     "f_lo": [
+      20.5,
+      "kHz"
+     ],
+     "f_hi": [
+      30.7,
+      "kHz"
+     ]
+    }
+   },
+   "gap_type": "complete",
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 14,
+  "n_failed": 1,
+  "n_certify": 0,
+  "n_search": 1,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 96,
+  "tool_seconds": 75.1,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "abstention",
+  "clarification_ok": true,
+  "correct": null,
+  "appropriate": true,
+  "arm": "C",
+  "expected": "refuse"
+ },
+ {
+  "brief": "S01",
+  "cls": "feasible_static",
+  "truth_level": "witnessed",
+  "spec_key": "45a73e359092",
+  "ambiguous": false,
+  "wall_s": 261.3,
+  "usage": {
+   "input_tokens": 810120,
+   "cached_input_tokens": 777344,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1976,
+   "reasoning_output_tokens": 659
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.51913,
+    "w": 0.36
+   }
+  },
+  "note": "Certified for the stated targets using the amm 316L material model (E_s=193 GPa, nu=0.30). Guarded E100 lower bound 31.18875 GPa and relative-density upper bound 0.327389. Parameters are in units of cell size a; static targets require no absolute cell size. As-built robustness flag is false: the tested erosion offset fails, so certification applies to the nominal geometry.",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "316L",
+   "nu": 0.3,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.33,
+    "E100_min": [
+     31.0,
+     "GPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 12,
+  "n_failed": 0,
+  "n_certify": 1,
+  "n_search": 1,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 99,
+  "tool_seconds": 205.9,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "session certificate",
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "release"
+ },
+ {
+  "brief": "S02",
+  "cls": "feasible_static",
+  "truth_level": "witnessed",
+  "spec_key": "0d5eece9d8ac",
+  "ambiguous": false,
+  "wall_s": 1117.2,
+  "usage": {
+   "input_tokens": 1117870,
+   "cached_input_tokens": 1071360,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 3572,
+   "reasoning_output_tokens": 1241
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.289,
+    "mode": "sheet"
+   }
+  },
+  "note": "Certified against stated Ti6Al4V static targets: guarded solid fraction upper bound 0.2890535004797483 (28.90535%) <= 29%; guarded C44 lower bound 6.880664055536136 GPa >= 6.51 GPa. Geometry is expressed relative to cell size; no absolute size specified or required for these static targets. As-built offset check +/-0.01a is not robust: dilation passed, erosion failed; nominal certificate does not ",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.29,
+    "G_min": [
+     6.51,
+     "GPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 13,
+  "n_failed": 0,
+  "n_certify": 2,
+  "n_search": 1,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 85,
+  "tool_seconds": 1057.2,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "session certificate",
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "release"
+ },
+ {
+  "brief": "S03",
+  "cls": "feasible_static",
+  "truth_level": "witnessed",
+  "spec_key": "937747778e89",
+  "ambiguous": false,
+  "wall_s": 77.5,
+  "usage": {
+   "input_tokens": 302531,
+   "cached_input_tokens": 283392,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1059,
+   "reasoning_output_tokens": 144
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.267826,
+    "w": 0.254783
+   }
+  },
+  "note": "Certified against all requested targets using the amm PA12 model (E_s=1700 MPa, nu=0.39). Certified density upper bound 0.15650087393408818; cube-axis Young's modulus lower bound 112.21424498390826 MPa; C44 lower bound 5.93624153215042 MPa. Robust under tested +/-0.01a offsets. Geometry parameters are normalized by cell size a; no absolute cell size was specified.",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.19,
+    "E100_min": [
+     89.2,
+     "MPa"
+    ],
+    "G_min": [
+     4.22,
+     "MPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 12,
+  "n_failed": 0,
+  "n_certify": 1,
+  "n_search": 0,
+  "n_evaluate": 1,
+  "n_designs_evaluated": 2,
+  "tool_seconds": 44.7,
+  "spec_ok": true,
+  "release_check": {
+   "verdict": "certified",
+   "by": "session certificate",
+   "checker": "legacy",
+   "same_targets": true,
+   "same_material": true,
+   "same_cell_size": true
+  },
+  "outcome": "success",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "release"
+ },
+ {
+  "brief": "X01",
+  "cls": "infeasible_proven",
+  "truth_level": "proven",
+  "spec_key": "f486ff098c6d",
+  "ambiguous": false,
+  "wall_s": 17.6,
+  "usage": {
+   "input_tokens": 112589,
+   "cached_input_tokens": 93824,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 374,
+   "reasoning_output_tokens": 12
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "PROVEN_INFEASIBLE",
+  "design": null,
+  "note": "The amm bounds check proves the targets incompatible: 316L E_s = 193 GPa, so at solid fraction <= 0.16 the Voigt upper bound is E_axial <= 30.88 GPa, below the requested 38.6 GPa. This bound applies to any geometry; cell size and printing details cannot resolve the violation.",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "316L",
+   "nu": 0.3,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.16,
+    "E100_min": [
+     38.6,
+     "GPa"
+    ]
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 4,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 0,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 0,
+  "tool_seconds": 0.3,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "correct_refusal",
+  "verdict_match": "exact",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "refuse"
+ },
+ {
+  "brief": "X03",
+  "cls": "infeasible_proven",
+  "truth_level": "proven",
+  "spec_key": "a87b9a159a42",
+  "ambiguous": false,
+  "wall_s": 29.3,
+  "usage": {
+   "input_tokens": 162353,
+   "cached_input_tokens": 147456,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 819,
+   "reasoning_output_tokens": 124
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "PROVEN_INFEASIBLE",
+  "design": null,
+  "note": "The literal requirement blocks all elastic waves from zero up to 16.8 kHz. The amm target validator rejects this: a band gap requires 0 < f_lo < f_hi and cannot contain f=0. Passive periodic elastic lattices have acoustic branches approaching zero frequency, so changing topology cannot meet this requirement. No design released. A finite positive lower cutoff is required for a feasible revised band",
+  "asked": 1,
+  "asked_relevant": true,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "PA12",
+   "nu": 0.39,
+   "cell_size": [
+    20.0,
+    "mm"
+   ],
+   "targets": {},
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 10,
+  "n_failed": 3,
+  "n_certify": 0,
+  "n_search": 0,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 0,
+  "tool_seconds": 0.2,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "correct_refusal",
+  "verdict_match": "exact",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "refuse"
+ },
+ {
+  "brief": "X07",
+  "cls": "infeasible_proven",
+  "truth_level": "proven",
+  "spec_key": "ca644d2a0b4f",
+  "ambiguous": false,
+  "wall_s": 20.5,
+  "usage": {
+   "input_tokens": 132273,
+   "cached_input_tokens": 107008,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 498,
+   "reasoning_output_tokens": 24
+  },
+  "returncode": 0,
+  "status": "done",
+  "profile": "C",
+  "code": "5248c1ad3f6664d5",
+  "decision": "refuse",
+  "verdict": "PROVEN_INFEASIBLE",
+  "design": null,
+  "note": "The requested nu100 >= 0.55 violates bound S1: positive definiteness requires nu100 < 0.5 for the cubic design space. This contradiction is independent of cell size, LPBF feature dimensions, and the 30% solid-fraction cap. No design released.",
+  "asked": 0,
+  "asked_relevant": false,
+  "asked_matched": false,
+  "spec_at_submit": {
+   "material": "Ti6Al4V",
+   "nu": 0.342,
+   "cell_size": null,
+   "targets": {
+    "density_max": 0.3,
+    "nu100_min": 0.55
+   },
+   "gap_type": null,
+   "rebuilt": true
+  },
+  "material_ok": true,
+  "cell_size_ok": true,
+  "log_bad_lines": 0,
+  "n_calls": 7,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 0,
+  "n_evaluate": 0,
+  "n_designs_evaluated": 0,
+  "tool_seconds": 0.3,
+  "spec_ok": null,
+  "release_check": null,
+  "outcome": "correct_refusal",
+  "verdict_match": "exact",
+  "clarification_ok": true,
+  "correct": true,
+  "appropriate": null,
+  "arm": "C",
+  "expected": "refuse"
+ }
+]

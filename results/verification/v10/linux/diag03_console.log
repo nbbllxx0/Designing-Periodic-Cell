@@ -1,0 +1,21 @@
+exact False [(3, 'screen_manufacturing', 'result'), (5, 'screen_manufacturing', 'result'), (8, 'export', 'result')]
+reports [PosixPath('/out/diag03/exports/bcc_268f8017_bf53ba/report.json')]
+/out/diag03/exports/bcc_268f8017_bf53ba/report.json 4938 vs 4973
+--- windows_log
++++ linux_replay
+@@ -40 +40 @@
+-  "removed_islands_fraction": 3.49168750008416e-16,
++  "removed_islands_fraction": 0.0,
+@@ -110 +110 @@
+-  "removed_islands_fraction": 3.49168750008416e-16,
++  "removed_islands_fraction": 0.0,
+@@ -137,2 +137,2 @@
+-    "volume": 0.11841396161913177,
+-    "volume_rel_diff": -0.057749224299244804,
++    "volume": 0.11841396161913176,
++    "volume_rel_diff": -0.057749224299244915,
+@@ -150,2 +150,2 @@
+-    "volume": 3.1562020130662596,
+-    "volume_rel_diff": -0.06982508981206992,
++    "volume": 3.1562020130662582,
++    "volume_rel_diff": -0.0698250898120703,

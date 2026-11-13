@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"PA12","cell_size":[12,"mm"],"targets":{"gap":{"f_lo":25.4,"f_hi":33.8,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"I cannot certify a design with this complete 3D band gap without a validated band-structure calculation covering all wave directions and polarizations."}

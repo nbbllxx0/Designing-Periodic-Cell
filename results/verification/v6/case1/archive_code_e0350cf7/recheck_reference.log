@@ -1,0 +1,8 @@
+static rows (STL)
+  static n=32 phase=0.0: density 0.21634 E100 0.041836 (3.6 s)
+  static n=32 phase=0.5: density 0.21610 E100 0.041506 (6.8 s)
+  static n=48 phase=0.0: density 0.21618 E100 0.040795 (6.4 s)
+  static n=48 phase=0.5: density 0.21627 E100 0.040938 (14.8 s)
+  static n=64 phase=0.0: density 0.21658 E100 0.040615 (21.2 s)
+  static n=64 phase=0.5: density 0.21611 E100 0.040509 (22.8 s)
+recheck passed=True static=certified gap=None 77.4 s

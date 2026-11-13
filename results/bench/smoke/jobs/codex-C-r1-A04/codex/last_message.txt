@@ -1,0 +1,1 @@
+Released a certified Ti6Al4V Schwarz P TPMS sheet with density parameter **0.2895**: solid fraction **≤28.953%** and shear modulus **≥6.894 GPa**, meeting both targets. Certification covers ideal periodic geometry; ±0.01-cell-size offset robustness failed, and LPBF manufacturability was not evaluated.

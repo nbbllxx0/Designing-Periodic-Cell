@@ -1,0 +1,44 @@
+  Q2FCM n=16 s=5: ne=1520 (cut 848), ndof=42234, density=0.24994, removed=6.22e-15, setup 1.5s
+tpms_schwarzp_d0.25_nu0.3 16 E100=0.0710912 G=0.0101993 bulk=0.026684 rho=0.249936 ndof=42234 res=5.1e-14 4.6s
+  Q2FCM n=24 s=5: ne=4360 (cut 1880), ndof=117090, density=0.24992, removed=-4.48e-15, setup 4.9s
+tpms_schwarzp_d0.25_nu0.3 24 E100=0.071024 G=0.010177 bulk=0.0266554 rho=0.249925 ndof=117090 res=4.6e-14 15.1s
+  Q2FCM n=32 s=5: ne=9920 (cut 3320), ndof=259890, density=0.24993, removed=8.33e-15, setup 11.7s
+tpms_schwarzp_d0.25_nu0.3 32 E100=0.0709988 G=0.0101679 bulk=0.0266447 rho=0.249929 ndof=259890 res=8.1e-14 60.2s
+  Q2FCM n=16 s=5: ne=2080 (cut 1840), ndof=59700, density=0.28945, removed=3.45e-15, setup 2.9s
+tpms_schwarzp_sheet_d0.2895_nu0.342 16 E100=0.082842 G=0.0610311 bulk=0.106405 rho=0.289449 ndof=59700 res=1.6e-14 7.1s
+  Q2FCM n=24 s=5: ne=6304 (cut 4192), ndof=173892, density=0.28945, removed=1.93e-15, setup 7.6s
+tpms_schwarzp_sheet_d0.2895_nu0.342 24 E100=0.0827711 G=0.0610116 bulk=0.106389 rho=0.289447 ndof=173892 res=2.9e-14 32.6s
+  Q2FCM n=32 s=5: ne=12880 (cut 7264), ndof=351300, density=0.28944, removed=-1.38e-14, setup 18.2s
+tpms_schwarzp_sheet_d0.2895_nu0.342 32 E100=0.0827481 G=0.0610063 bulk=0.106383 rho=0.289444 ndof=351300 res=3.3e-14 51.6s
+  Q2FCM n=16 s=5: ne=1456 (cut 1056), ndof=42486, density=0.19497, removed=7.83e-15, setup 30.8s
+strut_bcc_R0.27_r0.06_nu0.342 16 E100=0.00554283 G=0.0165862 bulk=0.0176144 rho=0.194974 ndof=42486 res=1.5e-14 33.1s
+  Q2FCM n=24 s=5: ne=4128 (cut 2448), ndof=116550, density=0.19500, removed=1.35e-15, setup 69.4s
+strut_bcc_R0.27_r0.06_nu0.342 24 E100=0.00530709 G=0.0163889 bulk=0.0174106 rho=0.194996 ndof=116550 res=2.6e-14 75.5s
+  Q2FCM n=32 s=5: ne=8576 (cut 3984), ndof=233238, density=0.19501, removed=1.52e-14, setup 129.3s
+strut_bcc_R0.27_r0.06_nu0.342 32 E100=0.00516646 G=0.0162599 bulk=0.0172756 rho=0.195010 ndof=233238 res=3.1e-14 150.3s
+  Q2FCM n=16 s=5: ne=1376 (cut 1376), ndof=45204, density=0.15851, removed=-5.78e-15, setup 63.3s
+strut_octet_r0.06_nu0.3 16 E100=0.0286587 G=0.0194294 bulk=0.0280982 rho=0.158515 ndof=45204 res=8.0e-15 65.1s
+  Q2FCM n=24 s=5: ne=4960 (cut 4352), ndof=148932, density=0.15865, removed=-7.88e-15, setup 161.4s
+strut_octet_r0.06_nu0.3 24 E100=0.0282719 G=0.0192053 bulk=0.0277501 rho=0.158646 ndof=148932 res=1.1e-14 169.1s
+  Q2FCM n=32 s=5: ne=8224 (cut 6176), ndof=243396, density=0.15860, removed=-5.25e-16, setup 277.7s
+strut_octet_r0.06_nu0.3 32 E100=0.0280065 G=0.01897 bulk=0.0273794 rho=0.158599 ndof=243396 res=2.5e-14 288.6s
+  Q2FCM n=16 s=5: ne=1616 (cut 848), ndof=45042, density=0.27388, removed=-1.01e-15, setup 1.5s
+thin_sl_c0.402_w0.061_nu0.3 16 E100=0.011479 G=0.00047157 bulk=0.00389724 rho=0.273882 ndof=45042 res=3.8e-14 4.0s
+  Q2FCM n=24 s=5: ne=4776 (cut 1808), ndof=127362, density=0.27391, removed=-2.16e-15, setup 4.5s
+thin_sl_c0.402_w0.061_nu0.3 24 E100=0.0111664 G=0.000391105 bulk=0.00378937 rho=0.273908 ndof=127362 res=4.7e-14 14.1s
+  Q2FCM n=32 s=5: ne=10624 (cut 3176), ndof=276642, density=0.27390, removed=2.63e-15, setup 11.7s
+thin_sl_c0.402_w0.061_nu0.3 32 E100=0.0107889 G=0.000337182 bulk=0.00365917 rho=0.273905 ndof=276642 res=4.9e-14 43.4s
+  Q2FCM n=16 s=5: ne=1136 (cut 656), ndof=32370, density=0.19791, removed=-9.82e-16, setup 1.1s
+thin_sl_c0.357_w0.109_nu0.3 16 E100=0.0226813 G=0.000988818 bulk=0.0078753 rho=0.197912 ndof=32370 res=2.0e-14 2.7s
+  Q2FCM n=24 s=5: ne=3568 (cut 1616), ndof=96858, density=0.19793, removed=1.16e-15, setup 2.8s
+thin_sl_c0.357_w0.109_nu0.3 24 E100=0.022302 G=0.000914634 bulk=0.00773909 rho=0.197927 ndof=96858 res=4.4e-14 7.6s
+  Q2FCM n=32 s=5: ne=7952 (cut 2792), ndof=209850, density=0.19794, removed=-5.05e-15, setup 5.9s
+thin_sl_c0.357_w0.109_nu0.3 32 E100=0.0221131 G=0.000882498 bulk=0.00767125 rho=0.197943 ndof=209850 res=4.8e-14 29.9s
+  Q2FCM n=40 s=5: ne=15760 (cut 6336), ndof=421350, density=0.19501, removed=1.53e-14, setup 45.7s
+strut_bcc_R0.27_r0.06_nu0.342 40 E100=0.00510084 G=0.0161948 bulk=0.0172068 rho=0.195008 ndof=421350 res=5.3e-14 109.0s
+  Q2FCM n=40 s=5: ne=16896 (cut 11744), ndof=484788, density=0.15853, removed=-1.70e-14, setup 105.8s
+strut_octet_r0.06_nu0.3 40 E100=0.0278776 G=0.0188757 bulk=0.0272072 rho=0.158530 ndof=484788 res=2.3e-14 142.1s
+  Q2FCM n=40 s=5: ne=20096 (cut 5048), ndof=515562, density=0.27390, removed=-4.15e-16, setup 25.1s
+thin_sl_c0.402_w0.061_nu0.3 40 E100=0.0106591 G=0.000321197 bulk=0.00361445 rho=0.273905 ndof=515562 res=7.4e-14 145.5s
+  Q2FCM n=40 s=5: ne=14880 (cut 4424), ndof=386274, density=0.19793, removed=1.44e-15, setup 16.5s
+thin_sl_c0.357_w0.109_nu0.3 40 E100=0.0218735 G=0.000852708 bulk=0.00758531 rho=0.197925 ndof=386274 res=6.8e-14 82.4s

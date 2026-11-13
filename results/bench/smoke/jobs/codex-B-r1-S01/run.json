@@ -1,0 +1,29 @@
+{
+ "brief": "S01",
+ "arm": "B",
+ "profile": "B",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 142.7,
+ "usage": {
+  "input_tokens": 305136,
+  "cached_input_tokens": 278016,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1569,
+  "reasoning_output_tokens": 480
+ },
+ "final": "No design released; verdict: **UNDETERMINED**. A cube-bars candidate predicts 32.78% relative density and 32.87 GPa axial modulus, but conservative estimates fail the targets and certification is unavailable. Feasibility remains unverified.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-B-r1-S01",
+ "rep": 1,
+ "partition": "development",
+ "gpu_wait_s": 0.1,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "17ca80e2ff0053c1",
+ "briefs": "194701c05dce17d2"
+}

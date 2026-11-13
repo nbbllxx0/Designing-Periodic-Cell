@@ -1,0 +1,1 @@
+Submitted **PROVEN_INFEASIBLE**: using the amm PA12 modulus of 1,700 MPa, 29% solid permits a theoretical maximum axial modulus of **493 MPa**, below 592 MPa. Meeting your stiffness target requires at least **34.82% solid**, even under an ideal upper bound.

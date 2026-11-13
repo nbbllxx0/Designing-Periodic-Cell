@@ -1,0 +1,54 @@
+{
+ "B": {
+  "n": 8,
+  "correct": 5,
+  "releases": 0,
+  "silent_failures": 0,
+  "unverified_releases": 0,
+  "unsupported_releases": 0,
+  "false_refusals": 3,
+  "correct_refusals": 5,
+  "no_answer": 0,
+  "label_errors": 0,
+  "ambiguous": 0,
+  "asked_on_ambiguous": 0,
+  "asked_on_clear": 3,
+  "wall_s": 1695.8,
+  "input_tokens": 4469668,
+  "output_tokens": 15037,
+  "by_class": {
+   "infeasible_nearmiss": {
+    "correct_refusal": 5
+   },
+   "nearmiss_feasible": {
+    "false_refusal": 3
+   }
+  }
+ },
+ "C": {
+  "n": 8,
+  "correct": 8,
+  "releases": 3,
+  "silent_failures": 0,
+  "unverified_releases": 0,
+  "unsupported_releases": 0,
+  "false_refusals": 0,
+  "correct_refusals": 5,
+  "no_answer": 0,
+  "label_errors": 0,
+  "ambiguous": 0,
+  "asked_on_ambiguous": 0,
+  "asked_on_clear": 2,
+  "wall_s": 6798.0,
+  "input_tokens": 12794462,
+  "output_tokens": 32368,
+  "by_class": {
+   "infeasible_nearmiss": {
+    "correct_refusal": 5
+   },
+   "nearmiss_feasible": {
+    "success": 3
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "brief": "A05",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 758.5,
+ "usage": {
+  "input_tokens": 956329,
+  "cached_input_tokens": 929536,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 3157,
+  "reasoning_output_tokens": 1015
+ },
+ "final": "Released a certified 20 mm PA12 BCC cell with strut radius 1.2683 mm and node radius 6.3669 mm. Solid fraction is \u226429.42%, C44 is \u226536.25 MPa, and the complete band gap covers 16.6\u201327.6 kHz. Certification applies to nominal geometry; the +0.2 mm dilation robustness check failed.",
+ "stderr_tail": "2026-11-05T21:15:14.943097Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

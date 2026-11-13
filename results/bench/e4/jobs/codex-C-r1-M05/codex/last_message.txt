@@ -1,0 +1,1 @@
+Released a certified 25 mm PA12 sphere-ligament unit cell with normalized parameters **c = 0.345576, w = 0.12838**. Certified bounds give solid fraction ≤18.52%, axial Young’s modulus ≥44.37 MPa, and a complete gap covering 13.2–23.2 kHz. Certification applies to the ideal periodic geometry; the −0.25 mm erosion check failed, and manufacturability was not evaluated.

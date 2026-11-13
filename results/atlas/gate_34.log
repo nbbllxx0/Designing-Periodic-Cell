@@ -1,0 +1,165 @@
+{"src": "sphere_ligaments", "p": {"c": 0.3, "w": 0.15}, "gap": true, "found": true, "best": "sphere_ligaments", "bp": {"c": 0.297391, "w": 0.145217}, "exp": 0.016, "pess": -0.477, "nom": -0.073, "s": 39.3}
+{"src": "cube_bars", "p": {"c": 0.6, "w": 0.2}, "gap": true, "found": true, "best": "cube_bars", "bp": {"c": 0.591273, "w": 0.193533}, "exp": 0.083, "pess": -0.569, "nom": -0.036, "s": 43.8}
+{"src": "sphere_ligaments", "p": {"c": 0.3, "w": 0.1}, "gap": true, "found": true, "best": "sphere_ligaments", "bp": {"c": 0.286582, "w": 0.104773}, "exp": 0.079, "pess": -0.3, "nom": -0.075, "s": 47.8}
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+{"src": "schwarz_p", "p": {"density": 0.25, "mode": "network"}, "gap": true, "found": false, "best": "schwarz_p", "bp": {"density": 0.249505, "mode": "network"}, "exp": -0.005, "pess": -0.666, "nom": -0.068, "s": 80.5}
+{"src": "sphere_ligaments", "p": {"c": 0.2, "w": 0.2}, "gap": false, "found": true, "best": "sphere_ligaments", "bp": {"c": 0.205032, "w": 0.201213}, "exp": 0.026, "pess": -0.174, "nom": 0.026, "s": 45.7}
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+{"src": "schwarz_p", "p": {"density": 0.25, "mode": "sheet"}, "gap": false, "found": true, "best": "schwarz_p", "bp": {"density": 0.252401, "mode": "sheet"}, "exp": 0.038, "pess": -0.103, "nom": 0.039, "s": 115.8}
+{"src": "cube_bars", "p": {"c": 0.4, "w": 0.2}, "gap": false, "found": true, "best": "sphere_ligaments", "bp": {"c": 0.208696, "w": 0.242609}, "exp": 0.123, "pess": -0.116, "nom": 0.127, "s": 38.9}
+{"src": "sphere_ligaments", "p": {"c": 0.25, "w": 0.25}, "gap": false, "found": true, "best": "sc", "bp": {"r": 0.135652, "R": 0.210909}, "exp": 0.016, "pess": -0.272, "nom": 0.02, "s": 40.6}
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+{"src": "schwarz_p", "p": {"density": 0.15, "mode": "sheet"}, "gap": false, "found": true, "best": "schwarz_p", "bp": {"density": 0.150524, "mode": "sheet"}, "exp": 0.04, "pess": -0.104, "nom": 0.044, "s": 92.2}
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+{"src": "diamond", "p": {"density": 0.25, "mode": "sheet"}, "gap": false, "found": true, "best": "diamond", "bp": {"density": 0.250545, "mode": "sheet"}, "exp": 0.045, "pess": -0.09, "nom": 0.046, "s": 4953.4}
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+{"src": "cube_bars", "p": {"c": 0.5, "w": 0.3}, "gap": false, "found": true, "best": "sphere_ligaments", "bp": {"c": 0.3301, "w": 0.335902}, "exp": 0.074, "pess": -0.079, "nom": 0.074, "s": 88.0}
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+{"src": "bcc", "p": {"r": 0.1, "R": 0.15}, "gap": false, "found": true, "best": "bcc", "bp": {"r": 0.100528, "R": 0.0}, "exp": 0.032, "pess": -0.226, "nom": 0.041, "s": 85.9}
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+{"src": "octet", "p": {"r": 0.06, "R": 0.0}, "gap": false, "found": true, "best": "gyroid", "bp": {"density": 0.14, "mode": "sheet"}, "exp": 0.106, "pess": -0.021, "nom": 0.095, "s": 105.1}
+{"src": "cube_bars", "p": {"c": 0.4, "w": 0.15}, "gap": false, "found": true, "best": "sphere_ligaments", "bp": {"c": 0.208696, "w": 0.181739}, "exp": 0.203, "pess": 0.126, "nom": 0.218, "s": 39.9}
+{"targets": {"density_max": 0.15, "E100_min": 0.08755925372669009}, "oracle": "NOT_FOUND_IN_FAMILIES", "search_found_optimistic": false, "best_opt": -0.11830913554806732, "best_nominal": -0.12379436898069955, "seconds": 50.7}
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+{"targets": {"density_max": 0.3, "E100_min": 0.1964974662292915}, "oracle": "NOT_FOUND_IN_FAMILIES", "search_found_optimistic": false, "best_opt": -0.1226339695734489, "best_nominal": -0.12870594359378948, "seconds": 115.6}
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+{"targets": {"density_max": 0.45, "E100_min": 0.32872003752734047}, "oracle": "NOT_FOUND_IN_FAMILIES", "search_found_optimistic": false, "best_opt": -0.09084240610445371, "best_nominal": -0.09084240610445371, "seconds": 136.9}
+{"targets": {"gap": {"f_lo": 0.2205698, "f_hi": 1.2794302000000002}}, "oracle": "NOT_FOUND_IN_FAMILIES", "search_found_optimistic": false, "best_opt": -0.1629016000000002, "best_nominal": -0.1629016000000002, "seconds": 48.4}
+{"targets": {"gap": {"f_lo": 0.4505697999999999, "f_hi": 1.2494302000000002}}, "oracle": "NOT_FOUND_IN_FAMILIES", "search_found_optimistic": false, "best_opt": -0.01946037918242425, "best_nominal": -0.3470260486650639, "seconds": 38.1}

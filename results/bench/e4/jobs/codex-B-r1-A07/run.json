@@ -1,0 +1,33 @@
+{
+ "brief": "A07",
+ "arm": "B",
+ "profile": "B",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 276.0,
+ "usage": {
+  "input_tokens": 443132,
+  "cached_input_tokens": 418432,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2740,
+  "reasoning_output_tokens": 1272
+ },
+ "final": "No design released; verdict: **UNDETERMINED**. A Ti6Al4V IWP sheet predicts 36.90% solid, E100 = 22.27 GPa and C44 = 6.62 GPa, but uncertainty prevents verifying all three limits. Certification is unavailable in this session; infeasibility has not been proved.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-B-r1-A07",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.1,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

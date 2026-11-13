@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. A BCC candidate predicts 21.03% density, C44 = 16.27 MPa, and a complete 11.45–44.29 kHz gap, but fails the pessimistic uncertainty check. The available amm tools cannot certify that it meets your requirements; infeasibility has not been proven.

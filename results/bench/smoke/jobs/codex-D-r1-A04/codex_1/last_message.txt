@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":null,"targets":{"density_max":0.29,"G_min":{"value":6.51,"unit":"GPa"}},"verdict":"UNDETERMINED","note":"Interpreting G_min as C44, I cannot certify a design meeting both targets without homogenization results, nor establish infeasibility from the available information."}

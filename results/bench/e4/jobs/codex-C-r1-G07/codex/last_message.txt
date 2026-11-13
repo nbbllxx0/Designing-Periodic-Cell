@@ -1,0 +1,1 @@
+No design released: **UNDETERMINED**. Two promising 5 mm 316L resonators could not be certified to provide a complete 264–410 kHz gap because of band-edge numerical uncertainty. This does not prove the requirement impossible.

@@ -1,0 +1,81 @@
+10:30:10 start B S01
+10:34:05 done  B S01 rc=0 wall=234.9s
+10:34:05 start C S01
+10:38:27 done  C S01 rc=0 wall=261.3s
+10:38:27 start B S02
+10:45:09 done  B S02 rc=0 wall=402.3s
+10:45:09 start C S02
+11:03:46 done  C S02 rc=0 wall=1117.2s
+11:03:46 start B S03
+11:05:24 done  B S03 rc=0 wall=97.7s
+11:05:24 start C S03
+11:06:41 done  C S03 rc=0 wall=77.5s
+11:06:41 start B G01
+11:08:45 done  B G01 rc=0 wall=123.7s
+11:08:45 start C G01
+11:14:21 done  C G01 rc=0 wall=336.3s
+11:14:21 start B G02
+11:16:45 done  B G02 rc=0 wall=143.2s
+11:16:45 start C G02
+11:20:50 done  C G02 rc=0 wall=245.3s
+11:20:50 start B G03
+11:22:37 done  B G03 rc=0 wall=107.2s
+11:22:37 start C G03
+11:29:11 done  C G03 rc=0 wall=394.0s
+11:29:11 start B M01
+11:32:26 done  B M01 rc=0 wall=195.1s
+11:32:26 start C M01
+11:58:36 done  C M01 rc=0 wall=1568.2s
+11:58:36 start B M02
+12:02:40 done  B M02 rc=0 wall=243.7s
+12:02:40 start C M02
+12:31:10 done  C M02 rc=0 wall=1709.4s
+12:31:10 start B X01
+12:31:40 done  B X01 rc=0 wall=30.7s
+12:31:40 start C X01
+12:31:58 done  C X01 rc=0 wall=17.6s
+12:31:58 start B X03
+12:32:22 done  B X03 rc=0 wall=23.9s
+12:32:22 start C X03
+12:32:51 done  C X03 rc=0 wall=29.3s
+12:32:51 start B X07
+12:34:28 done  B X07 rc=0 wall=97.1s
+12:34:28 start C X07
+12:34:49 done  C X07 rc=0 wall=20.5s
+12:34:49 start B N01
+12:36:44 done  B N01 rc=0 wall=115.4s
+12:36:44 start C N01
+12:38:10 done  C N01 rc=0 wall=85.8s
+12:38:10 start B N02
+12:40:10 done  B N02 rc=0 wall=120.5s
+12:40:10 start C N02
+12:41:52 done  C N02 rc=0 wall=101.6s
+12:41:52 start B N03
+12:45:01 done  B N03 rc=0 wall=189.5s
+12:45:01 start C N03
+12:46:52 done  C N03 rc=0 wall=110.3s
+12:46:52 start B A01
+12:48:27 done  B A01 rc=0 wall=95.0s
+12:48:27 start C A01
+12:49:45 done  C A01 rc=0 wall=78.6s
+12:49:45 start B A02
+12:51:32 done  B A02 rc=0 wall=106.9s
+12:51:32 start C A02
+12:55:33 done  C A02 rc=0 wall=240.7s
+12:55:33 start B A03
+12:57:26 done  B A03 rc=0 wall=113.6s
+12:57:26 start C A03
+13:09:05 done  C A03 rc=0 wall=698.9s
+13:09:05 start B A04
+13:11:02 done  B A04 rc=0 wall=116.3s
+13:11:02 start C A04
+13:11:40 done  C A04 rc=0 wall=38.0s
+13:11:40 start B A05
+13:15:06 done  B A05 rc=0 wall=206.3s
+13:15:06 start C A05
+13:27:45 done  C A05 rc=0 wall=758.5s
+13:27:45 start B A06
+13:28:14 done  B A06 rc=0 wall=29.5s
+13:28:14 start C A06
+13:28:39 done  C A06 rc=0 wall=25.4s
+all sessions done; code 5248c1ad3f6664d5

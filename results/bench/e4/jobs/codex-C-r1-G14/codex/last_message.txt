@@ -1,0 +1,1 @@
+Released a certified 10 mm Ti6Al4V `sphere_ligaments` unit cell with `c = 0.356522` and `w = 0.108696` in cell-size units. Its complete infinite-lattice band gap covers **181–204 kHz**. LPBF manufacturability was not evaluated.

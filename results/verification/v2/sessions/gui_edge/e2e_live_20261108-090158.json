@@ -1,0 +1,242 @@
+{
+ "started": "2026-11-08 08:57:06",
+ "base": "http://127.0.0.1:8767",
+ "checks": {
+  "check_bounds_verdict": "FEASIBLE",
+  "suggestion": "sc R=0.211, r=0.131",
+  "evaluate": {
+   "status": "done",
+   "seconds": 2.01,
+   "queue_wait_s": 0.0,
+   "E100": 0.062028103822045544,
+   "density": 0.13997833586946573,
+   "full_tensor": true
+  },
+  "cancel": {
+   "status": "cancelled",
+   "error": "certify cancelled by the user after 8 s; the call was rolled back (not logged)",
+   "seconds": 7.5,
+   "seq_before": 9,
+   "seq_after": 9,
+   "budget_certify_after": 0
+  },
+  "certify": {
+   "status": "done",
+   "seconds": 214.5,
+   "verdict": "certified",
+   "outcome": "certified_candidate",
+   "robust": true,
+   "error": null,
+   "rung": [
+    32,
+    48,
+    64
+   ]
+  },
+  "screen": {
+   "status": "done",
+   "seconds": 16.4,
+   "verdict": "screen passed"
+  },
+  "export": {
+   "status": "done",
+   "seconds": 17.6,
+   "name": "sc_bfeda9f7_8a6def",
+   "outcome": "certified_candidate",
+   "screening": "screen passed",
+   "unit": "mm"
+  },
+  "downloads": {
+   "cell.stl": {
+    "bytes": 1084684,
+    "valid": true
+   },
+   "report.json": {
+    "bytes": 11012,
+    "valid": true
+   },
+   "tiled_3x3x3.stl": {
+    "bytes": 6766284,
+    "valid": true
+   },
+   "zip": {
+    "bytes": 1356770,
+    "valid": true
+   }
+  },
+  "rejected": "Submit #4 rejected by the refusal-evidence rule: refusal needs evidence: refuse with verdict PROVEN_INFEASIBLE must cite an evidence record held in this session for the current spec: a check_bounds result with a violated rigorous bound (call check_bounds). No evidence record is held for the current spec.",
+  "refusal": {
+   "outcome": "proven_infeasible",
+   "cites": [
+    [
+     5,
+     "bound_violation"
+    ]
+   ],
+   "submits": [
+    [
+     4,
+     false,
+     "refusal needs evidence: refuse with verdict PROVEN_INFEASIBL"
+    ],
+    [
+     6,
+     true,
+     ""
+    ]
+   ]
+  }
+ },
+ "health": {
+  "code": "ff8b3a682221f9a3",
+  "lock": {
+   "held_by_this_server": false,
+   "owner": null,
+   "path": "C:\\AI\\AgenticMetamaterials_workspaces\\gpu.lock",
+   "used": true
+  },
+  "mode": "live",
+  "ok": true,
+  "pid": 71280,
+  "schema": "amm-tools/2",
+  "version": "0.2.0",
+  "worker": {
+   "alive": true,
+   "current": null
+  }
+ },
+ "edge_pid": 17720,
+ "certified": true,
+ "steps": [
+  {
+   "step": "open GUI",
+   "seconds": 0.69,
+   "t": 0.0
+  },
+  {
+   "step": "new session",
+   "seconds": 0.87,
+   "t": 0.7
+  },
+  {
+   "step": "material 316L",
+   "seconds": 0.86,
+   "t": 1.6
+  },
+  {
+   "step": "cell size 5 mm",
+   "seconds": 1.18,
+   "t": 2.4
+  },
+  {
+   "step": "families: struts only",
+   "seconds": 1.29,
+   "t": 3.6
+  },
+  {
+   "step": "target density <= 0.3",
+   "seconds": 0.46,
+   "t": 4.9
+  },
+  {
+   "step": "target E100 >= 5 GPa",
+   "seconds": 0.58,
+   "t": 5.3
+  },
+  {
+   "step": "check bounds",
+   "seconds": 0.97,
+   "t": 5.9
+  },
+  {
+   "step": "atlas suggest",
+   "seconds": 0.74,
+   "t": 6.9
+  },
+  {
+   "step": "load suggestion 1",
+   "seconds": 0.21,
+   "t": 7.9
+  },
+  {
+   "step": "evaluate (search tier, GPU)",
+   "seconds": 2.07,
+   "t": 8.3
+  },
+  {
+   "step": "full C* shown",
+   "seconds": 0.3,
+   "t": 10.3
+  },
+  {
+   "step": "certify, cancelled while running",
+   "seconds": 7.69,
+   "t": 13.8
+  },
+  {
+   "step": "certify (static-only certificate)",
+   "seconds": 214.92,
+   "t": 21.5
+  },
+  {
+   "step": "submit release",
+   "seconds": 0.26,
+   "t": 236.4
+  },
+  {
+   "step": "screen manufacturing",
+   "seconds": 16.79,
+   "t": 239.3
+  },
+  {
+   "step": "export STL + report",
+   "seconds": 17.78,
+   "t": 256.1
+  },
+  {
+   "step": "new session",
+   "seconds": 0.23,
+   "t": 277.2
+  },
+  {
+   "step": "material Ti6Al4V",
+   "seconds": 0.26,
+   "t": 277.4
+  },
+  {
+   "step": "target density <= 0.2",
+   "seconds": 0.45,
+   "t": 277.7
+  },
+  {
+   "step": "target E100 >= 0.5 E_s",
+   "seconds": 0.46,
+   "t": 278.1
+  },
+  {
+   "step": "refusal rejected (no evidence held)",
+   "seconds": 0.26,
+   "t": 278.6
+  },
+  {
+   "step": "check bounds",
+   "seconds": 0.71,
+   "t": 281.3
+  },
+  {
+   "step": "refuse PROVEN_INFEASIBLE accepted",
+   "seconds": 0.27,
+   "t": 282.1
+  }
+ ],
+ "screenshots": [
+  "results/verification/v2/shots/gui_live_evaluate_full_tensor.png",
+  "results/verification/v2/shots/gui_live_certify_progress.png",
+  "results/verification/v2/shots/gui_live_certified.png",
+  "results/verification/v2/shots/gui_live_export_screening.png",
+  "results/verification/v2/shots/gui_live_refusal_rejected.png",
+  "results/verification/v2/shots/gui_live_proven_infeasible.png"
+ ],
+ "ok": true,
+ "seconds": 289.2
+}

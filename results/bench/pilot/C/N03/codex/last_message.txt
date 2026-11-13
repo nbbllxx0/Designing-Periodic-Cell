@@ -1,0 +1,1 @@
+No design was released. AMM returned **NOT_FOUND_IN_FAMILIES**: the atlas and optimization search found no 12 mm PA12 cell meeting the solid-fraction, stiffness, and complete-band-gap requirements simultaneously. This does not prove the request is physically impossible.

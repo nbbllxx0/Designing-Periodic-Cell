@@ -1,0 +1,1 @@
+No design released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm searches found no 12 mm PA12 unit cell simultaneously meeting ≤23% solid fraction, ≥168 MPa cube-axis modulus, and a complete gap covering 20.5–30.7 kHz. This does not prove the requirements are infeasible.

@@ -1,0 +1,68 @@
+[
+ {
+  "case": "mount_PA12",
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.592174,
+    "w": 0.151304
+   }
+  },
+  "cell_mm": 20.0,
+  "resolution": 64,
+  "voxel_mm": 0.3125,
+  "printer_limit_mm": 0.8,
+  "opening_estimate_mm": 2.1875,
+  "opening_removed_at_limit": 0.0,
+  "local_thickness_min_mm": 0.9375,
+  "local_thickness_p1_mm": 1.5625,
+  "local_thickness_p5_mm": 2.8125,
+  "solid_fraction_thinner_than_limit": 0.0,
+  "nominal_member_mm": 3.02608
+ },
+ {
+  "case": "filter_PA12",
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.356522,
+    "w": 0.108696
+   }
+  },
+  "cell_mm": 10.0,
+  "resolution": 64,
+  "voxel_mm": 0.15625,
+  "printer_limit_mm": 0.8,
+  "opening_estimate_mm": 0.7421875,
+  "opening_removed_at_limit": 0.025648997357376024,
+  "local_thickness_min_mm": 0.7276334764831844,
+  "local_thickness_p1_mm": 0.7276334764831844,
+  "local_thickness_p5_mm": 6.704530750031297,
+  "solid_fraction_thinner_than_limit": 0.02798072438986476,
+  "nominal_member_mm": 1.08696
+ },
+ {
+  "case": "filter_316L",
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.786957,
+    "w": 0.06
+   }
+  },
+  "cell_mm": 10.0,
+  "resolution": 64,
+  "voxel_mm": 0.15625,
+  "printer_limit_mm": 0.3,
+  "opening_estimate_mm": 1.40625,
+  "opening_removed_at_limit": 0.0,
+  "local_thickness_min_mm": 0.46875,
+  "local_thickness_p1_mm": 1.09375,
+  "local_thickness_p5_mm": 2.34375,
+  "solid_fraction_thinner_than_limit": 0.0,
+  "nominal_member_mm": 0.6
+ }
+]

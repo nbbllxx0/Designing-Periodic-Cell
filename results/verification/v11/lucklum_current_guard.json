@@ -1,0 +1,369 @@
+{
+ "spec": {
+  "family": "resonator",
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.395,
+   "w": 0.05
+  }
+ },
+ "nu": 0.35,
+ "cl_over_ct": 2.0816659994661326,
+ "checker": "c5f8c89871b3bad6",
+ "runs": {
+  "interior": {
+   "claim": {
+    "below_band": 6,
+    "f_lo": 0.11449162997063729,
+    "f_hi": 0.9575663597544211
+   },
+   "n_k": 37,
+   "resolutions": {
+    "20": {
+     "ndof": 9942,
+     "passed": true,
+     "numerically_sane": true,
+     "failures": [],
+     "n_failures": 0,
+     "seconds": 53.24
+    },
+    "30": {
+     "ndof": 29268,
+     "passed": true,
+     "numerically_sane": true,
+     "failures": [],
+     "n_failures": 0,
+     "seconds": 211.29
+    }
+   },
+   "passed": false,
+   "edge_extra_seconds": 62.7,
+   "edge_k_kept": {
+    "lo": [
+     [
+      1.0,
+      1.0,
+      1.0
+     ]
+    ],
+    "hi": [
+     [
+      0.0,
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "convergence": {
+    "edges": {
+     "20": [
+      0.10153631927006782,
+      1.0004227924088238
+     ],
+     "30": [
+      0.09779246116538891,
+      0.9959831724484423
+     ],
+     "40": [
+      0.09543934507053162,
+      0.9927499335251863
+     ]
+    },
+    "mode": "three-resolution",
+    "lower_edge": {
+     "p": 0.3485097579758035,
+     "p_used": 0.3485097579758035,
+     "extrapolated": 0.07312610974668662,
+     "remaining": 0.022313235323845,
+     "phase_spread": 0.0019113311364673952,
+     "noise": true
+    },
+    "upper_edge": {
+     "p": null,
+     "phase_spread": 0.0010967381796833653,
+     "reason": "edge sequence neither convergent nor within phase noise"
+    },
+    "phase_edges": [
+     [
+      0.09779246116538891,
+      0.9959831724484423
+     ],
+     [
+      0.09793406667328838,
+      0.9957726820343136
+     ],
+     [
+      0.0997037923018563,
+      0.9968694202139969
+     ]
+    ],
+    "safe_interval": [
+     0.11775258039437662,
+     null
+    ],
+    "safety": 2.0,
+    "passed": false,
+    "edge_search": {
+     "20": {
+      "k_lo": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "k_hi": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "lanczos_solves": 8,
+      "seconds": 32.8
+     },
+     "30": {
+      "k_lo": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "k_hi": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "lanczos_solves": 2,
+      "seconds": 111.7
+     }
+    }
+   },
+   "adversarial": {
+    "n": 10,
+    "ks": [
+     [
+      0.9259,
+      0.7283,
+      0.3651
+     ],
+     [
+      0.9058,
+      0.4354,
+      0.3187
+     ],
+     [
+      0.8829,
+      0.2958,
+      0.2263
+     ],
+     [
+      0.8947,
+      0.3974,
+      0.1102
+     ],
+     [
+      0.8013,
+      0.2223,
+      0.1374
+     ],
+     [
+      0.6615,
+      0.4971,
+      0.0801
+     ]
+    ],
+    "search_edges": [
+     0.12643695989832668,
+     1.0128830946666367
+    ]
+   },
+   "density_spread": 1.3275173321392053e-05,
+   "verdict": {
+    "verdict": "undetermined",
+    "reason": "claim inside the edge guard band"
+   },
+   "seconds_total": 365.1,
+   "claim_fa_over_cl": [
+    0.055,
+    0.46
+   ],
+   "safe_interval_fa_over_cl": [
+    0.056566509913009884,
+    null
+   ]
+  },
+  "near_edge": {
+   "claim": {
+    "below_band": 6,
+    "f_lo": 0.11449162997063729,
+    "f_hi": 0.9950363477448113
+   },
+   "n_k": 37,
+   "resolutions": {
+    "20": {
+     "ndof": 9942,
+     "passed": true,
+     "numerically_sane": true,
+     "failures": [],
+     "n_failures": 0,
+     "seconds": 51.63
+    },
+    "30": {
+     "ndof": 29268,
+     "passed": true,
+     "numerically_sane": true,
+     "failures": [],
+     "n_failures": 0,
+     "seconds": 202.19
+    }
+   },
+   "passed": false,
+   "edge_extra_seconds": 65.9,
+   "edge_k_kept": {
+    "lo": [
+     [
+      1.0,
+      1.0,
+      1.0
+     ]
+    ],
+    "hi": [
+     [
+      0.0,
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "convergence": {
+    "edges": {
+     "20": [
+      0.10153631927006782,
+      1.0004227924088234
+     ],
+     "30": [
+      0.09779246116538891,
+      0.995983172448438
+     ],
+     "40": [
+      0.09543934507053162,
+      1.00827667893266
+     ]
+    },
+    "mode": "three-resolution",
+    "lower_edge": {
+     "p": 0.3485097579758035,
+     "p_used": 0.3485097579758035,
+     "extrapolated": 0.07312610974668662,
+     "remaining": 0.022313235323845,
+     "phase_spread": 0.0019113311364673952,
+     "noise": true
+    },
+    "upper_edge": {
+     "p": null,
+     "phase_spread": 0.001096738179682144,
+     "reason": "edge sequence neither convergent nor within phase noise"
+    },
+    "phase_edges": [
+     [
+      0.09779246116538891,
+      0.995983172448438
+     ],
+     [
+      0.09793406667328838,
+      0.9957726820343095
+     ],
+     [
+      0.0997037923018563,
+      0.9968694202139916
+     ]
+    ],
+    "safe_interval": [
+     0.11775258039437662,
+     null
+    ],
+    "safety": 2.0,
+    "passed": false,
+    "edge_search": {
+     "20": {
+      "k_lo": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "k_hi": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "lanczos_solves": 8,
+      "seconds": 30.8
+     },
+     "30": {
+      "k_lo": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "k_hi": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "lanczos_solves": 2,
+      "seconds": 107.3
+     }
+    }
+   },
+   "adversarial": {
+    "n": 10,
+    "ks": [
+     [
+      0.9259,
+      0.7283,
+      0.3651
+     ],
+     [
+      0.9058,
+      0.4354,
+      0.3187
+     ],
+     [
+      0.8829,
+      0.2958,
+      0.2263
+     ],
+     [
+      0.8947,
+      0.3974,
+      0.1102
+     ],
+     [
+      0.8013,
+      0.2223,
+      0.1374
+     ],
+     [
+      0.6615,
+      0.4971,
+      0.0801
+     ]
+    ],
+    "search_edges": [
+     0.12643695989832668,
+     1.0128830946666367
+    ]
+   },
+   "density_spread": 1.3275173321392053e-05,
+   "verdict": {
+    "verdict": "undetermined",
+    "reason": "claim inside the edge guard band"
+   },
+   "seconds_total": 354.4,
+   "claim_fa_over_cl": [
+    0.055,
+    0.478
+   ],
+   "safe_interval_fa_over_cl": [
+    0.056566509913009884,
+    null
+   ]
+  }
+ }
+}

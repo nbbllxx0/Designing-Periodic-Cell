@@ -1,0 +1,1 @@
+No design released; verdict **UNDETERMINED**. A BCC candidate predicts 18.88% solid fraction, C44 = 20.49 MPa, and a complete gap of 24.07–66.54 kHz, but these are uncertified search estimates. Certification is unavailable in this tool session, so compliance remains unverified; infeasibility has not been established.

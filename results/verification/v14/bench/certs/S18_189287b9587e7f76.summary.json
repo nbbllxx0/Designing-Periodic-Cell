@@ -1,0 +1,68 @@
+{
+ "verdict": "refuted",
+ "passed": false,
+ "seconds": 473.9,
+ "timing": {
+  "static": 473.9
+ },
+ "static_verdict": "refuted",
+ "static_rung": [
+  64,
+  80,
+  96
+ ],
+ "bounds": {
+  "density": {
+   "lower": 0.2857646155863239,
+   "upper": 0.28579047800058294,
+   "extrapolated": 0.2857775467934534,
+   "converged": true
+  },
+  "E100": {
+   "lower": 0.13843951723110132,
+   "upper": 0.13894104146881842,
+   "extrapolated": 0.13869027934995987,
+   "converged": true
+  },
+  "G": {
+   "lower": 0.011772865423398327,
+   "upper": 0.0120505303195239,
+   "extrapolated": 0.011911697871461114,
+   "converged": true
+  },
+  "bulk": {
+   "lower": 0.06210449067863224,
+   "upper": 0.06244421999578075,
+   "extrapolated": 0.062274355337206495,
+   "converged": true
+  },
+  "nu100": {
+   "lower": 0.12847913914495115,
+   "upper": 0.12915977180468588,
+   "extrapolated": 0.12881945547481852,
+   "converged": true
+  }
+ },
+ "checker": "f141e46cb67a78db",
+ "spec_hash": "189287b9587e7f76",
+ "slack_by_target": {
+  "density_max": 0.01451559310143808,
+  "E100_min": -0.006973927034294305
+ },
+ "certified_slack": -0.006973927034294305,
+ "target_id": "S18",
+ "spec": {
+  "family": "tpms",
+  "kind": "iwp",
+  "params": {
+   "density": 0.285786,
+   "mode": "network"
+  }
+ },
+ "methods": [
+  "M3"
+ ],
+ "wall_seconds_v3": 473.9,
+ "finished": "2026-11-07 22:30:16",
+ "verdict_before_rules": "refuted"
+}

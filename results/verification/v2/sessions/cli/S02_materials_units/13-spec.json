@@ -1,0 +1,24 @@
+{
+ "constraints": {
+  "cell_size": 10,
+  "cell_size_unit": "mm"
+ },
+ "material": {
+  "name": "AlSi10Mg"
+ },
+ "targets": {
+  "E100_min": {
+   "value": 1.0,
+   "unit": "GPa"
+  },
+  "G_min": {
+   "value": 50.0,
+   "unit": "MPa"
+  },
+  "gap": {
+   "f_lo": 20.0,
+   "f_hi": 30.0,
+   "unit": "kHz"
+  }
+ }
+}

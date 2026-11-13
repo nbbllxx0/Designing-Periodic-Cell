@@ -1,0 +1,1 @@
+Released a **diamond TPMS sheet** in 316L with density parameter **0.24**. Tool estimates give **23.99% solid volume** and **K = 15.54 GPa**, meeting both targets. Results are not certified, and LPBF manufacturability has not been evaluated.

@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":[12,"mm"],"targets":{"gap":{"f_lo":77.5,"f_hi":150,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without a solver, I cannot certify a design with this complete gap; elastic Bloch analysis covering all wave directions and polarizations is required."}

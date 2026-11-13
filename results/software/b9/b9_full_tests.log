@@ -1,0 +1,29 @@
+........................................................................ [ 43%]
+........................................................................ [ 87%]
+.....................                                                    [100%]
+============================== warnings summary ===============================
+tests\test_harness.py:85
+  C:\AI\AgenticMetamaterials\tests\test_harness.py:85: DeprecationWarning: invalid escape sequence '\e'
+    stdout = f"{os.getpid()}, C:\envs\amm\python.exe\n123, C:\Windows\explorer.exe\n"
+
+tests\test_harness.py:88
+  C:\AI\AgenticMetamaterials\tests\test_harness.py:88: DeprecationWarning: invalid escape sequence '\o'
+    R.stdout += "999999, C:\other\python.exe\n"
+
+tests\test_harness.py:89
+  C:\AI\AgenticMetamaterials\tests\test_harness.py:89: DeprecationWarning: invalid escape sequence '\o'
+    assert e4.gpu_busy() == ["999999, C:\other\python.exe"]
+
+tests/test_b9.py: 12 warnings
+tests/test_search.py: 20 warnings
+  C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\botorch\optim\utils\numpy_utils.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+    out[index : index + size, 0] = lower
+
+tests/test_b9.py: 12 warnings
+tests/test_search.py: 20 warnings
+  C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\botorch\optim\utils\numpy_utils.py:167: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+    out[index : index + size, 1] = upper
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+165 passed, 67 warnings in 311.47s (0:05:11)
+exit 0

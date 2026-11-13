@@ -1,0 +1,1 @@
+The request is **proven infeasible** under the stated model. Using the tool’s Ti-6Al-4V properties, the rigorous Voigt bound limits bulk modulus to **22.81 GPa** at 19% solid volume, below the required **32 GPa**. No unit-cell geometry can satisfy both constraints, so no design was released.

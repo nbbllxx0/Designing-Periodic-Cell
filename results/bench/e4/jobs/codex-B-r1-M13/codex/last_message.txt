@@ -1,0 +1,1 @@
+No design released. Verdict: **NOT_FOUND_IN_FAMILIES** after 288 search evaluations. The closest nominal candidate slightly exceeded 32% solid fraction, fell below 13.4 GPa, and its predicted complete gap ended below 244 kHz. This search failure does not prove the requirements impossible.

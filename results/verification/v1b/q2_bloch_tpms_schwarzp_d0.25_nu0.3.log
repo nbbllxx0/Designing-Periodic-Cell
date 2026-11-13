@@ -1,0 +1,9 @@
+tpms_schwarzp_d0.25_nu0.3   Q2FCM n=6 s=5: ne=136 (cut 128), ndof=3942, density=0.24998, removed=-1.45e-15, setup 0.3s
+tpms_schwarzp_d0.25_nu0.3   search done 330.3s {'lo': [{'k': [1.0, 0.0, 0.0], 'value': 0.4812427950784893}, {'k': [1.0, 0.0, 0.0], 'value': 0.4812427950784886}], 'hi': [{'k': [0.0, 0.0, 0.0], 'value': 0.8408545373064313}, {'k': [0.0, 0.0, 0.0], 'value': 0.8408545373064314}]}
+tpms_schwarzp_d0.25_nu0.3   Q2FCM n=12 s=5: ne=672 (cut 488), ndof=19506, density=0.24995, removed=-9.21e-16, setup 0.9s
+tpms_schwarzp_d0.25_nu0.3   level n=12: 45 k, 198.4s
+tpms_schwarzp_d0.25_nu0.3   Q2FCM n=16 s=5: ne=1520 (cut 848), ndof=42234, density=0.24994, removed=6.22e-15, setup 1.5s
+tpms_schwarzp_d0.25_nu0.3   level n=16: 9 k, 153.6s
+tpms_schwarzp_d0.25_nu0.3   Q2FCM n=20 s=5: ne=2680 (cut 1280), ndof=73170, density=0.24993, removed=-1.82e-15, setup 2.7s
+tpms_schwarzp_d0.25_nu0.3   level n=20: 9 k, 290.9s
+tpms_schwarzp_d0.25_nu0.3 done 973.2 s

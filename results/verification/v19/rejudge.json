@@ -1,0 +1,112 @@
+{
+ "checker": "f99ce2b2f65d7630",
+ "source_checker_v15": "a900aa3f152174bc",
+ "filters": {
+  "PA12": {
+   "before": "certified",
+   "after": "certified",
+   "gap_verdict": {
+    "verdict": "certified"
+   },
+   "safe_interval": [
+    0.20717566917757396,
+    0.865562668669535
+   ],
+   "lower_edge": {
+    "p": 5.781045123358313,
+    "p_used": 2.0,
+    "extrapolated": 0.19778652473538594,
+    "remaining": 0.001150382983054787,
+    "phase_spread": 0.0034064289725740937,
+    "noise": true,
+    "drift_toward_claim": false
+   },
+   "upper_edge": {
+    "p": 4.650960978134809,
+    "p_used": 2.0,
+    "extrapolated": 0.8820152629491098,
+    "remaining": 0.008226297139787416,
+    "phase_spread": 0.017377032725549135,
+    "noise": true,
+    "drift_toward_claim": true
+   },
+   "edges": {
+    "30": [
+     0.20717566917757396,
+     0.9346038519247432
+    ],
+    "40": [
+     0.2003748864472592,
+     0.9005244315136315
+    ],
+    "60": [
+     0.19893690771844072,
+     0.8902415600888972
+    ]
+   }
+  },
+  "316L": {
+   "before": "undetermined",
+   "after": "certified",
+   "gap_verdict": {
+    "verdict": "certified"
+   },
+   "safe_interval": [
+    0.0934696093201398,
+    0.5753924299956652
+   ],
+   "lower_edge": {
+    "p": 2.6082021147850063,
+    "p_used": 2.0,
+    "extrapolated": 0.08966439523972891,
+    "remaining": 0.0008666774344680214,
+    "phase_spread": 0.0007325818187940147,
+    "noise": false,
+    "drift_toward_claim": false
+   },
+   "upper_edge": {
+    "p": 0.9303288899570838,
+    "p_used": 0.9303288899570838,
+    "extrapolated": 0.5773571337508718,
+    "remaining": 0.0009823518776032895,
+    "phase_spread": 0.0003707878805504494,
+    "noise": true,
+    "drift_toward_claim": true
+   },
+   "edges": {
+    "30": [
+     0.0934696093201398,
+     0.5792292119304038
+    ],
+    "40": [
+     0.09161441946728197,
+     0.5787896180321678
+    ],
+    "60": [
+     0.09053107267419694,
+     0.5783394856284751
+    ]
+   },
+   "reference_grading": {
+    "verdict_lo": "sound",
+    "verdict_hi": "sound",
+    "margin_over_2u": {
+     "lo": 3.701962069810177,
+     "hi": 19.34604862237931
+    }
+   }
+  }
+ },
+ "PA12_export": {
+  "before_safe": [
+   0.20357818124011604,
+   0.8798442904814263
+  ],
+  "after_safe": [
+   0.20357818124011604,
+   0.8798442904814263
+  ],
+  "after_passed": true,
+  "same": true
+ }
+}

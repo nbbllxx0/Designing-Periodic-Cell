@@ -1,0 +1,1 @@
+No design was released: the amm search found no PA12 unit cell meeting both ≤14% solid fraction and C44 ≥74.8 MPa. A Schwarz P sheet evaluated near 14% gave an uncertified C44 estimate of 44.7 MPa. The verdict is **NOT_FOUND_IN_FAMILIES**, not proven infeasibility.

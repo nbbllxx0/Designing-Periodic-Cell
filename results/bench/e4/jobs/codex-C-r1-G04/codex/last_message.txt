@@ -1,0 +1,1 @@
+Released a certified 12 mm 316L sphere-and-ligament resonator with normalized parameters **c = 0.356522**, **w = 0.108696**. Its complete infinite-lattice elastic band gap covers **99.4–113 kHz**, across all directions and polarizations. It passed ±0.12 mm geometry-offset checks; LPBF manufacturability was not evaluated.

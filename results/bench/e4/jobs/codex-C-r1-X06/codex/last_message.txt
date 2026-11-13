@@ -1,0 +1,1 @@
+The amm verdict is **PROVEN_INFEASIBLE**. Using its 316L properties (E = 193 GPa, ν = 0.30), the rigorous bulk-modulus upper bound at 35% relative density is **56.29 GPa**, below your required **67.6 GPa**. No unit-cell geometry can meet both targets under this material model.

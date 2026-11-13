@@ -1,0 +1,1 @@
+No design was released; the verdict is **UNDETERMINED**. A BCC candidate met your targets in nominal predictions, but failed the pessimistic uncertainty check. Certification is unavailable in this tool session, so the required complete 31.5–35.8 kHz gap cannot be guaranteed. This does not establish that your request is infeasible.

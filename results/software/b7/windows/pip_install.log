@@ -1,0 +1,326 @@
+Processing c:\ai\agenticmetamaterials\release\dist\amm-0.2.0-py3-none-any.whl
+Collecting pytest>=9.0
+  Obtaining dependency information for pytest>=9.0 from https://files.pythonhosted.org/packages/51/39/1f5d8c8877a0fa327db959c19341d4be61660de1ab6b7391f9eb805bcd67/pytest-9.2.0-py3-none-any.whl.metadata
+  Downloading pytest-9.2.0-py3-none-any.whl.metadata (7.9 kB)
+Collecting numpy>=2.2 (from amm==0.2.0)
+  Obtaining dependency information for numpy>=2.2 from https://files.pythonhosted.org/packages/c5/31/7fc6239c12bce7e931463251cca4426c465e1876ba3cc785402ef4dd8f4e/numpy-2.4.6-cp311-cp311-win_amd64.whl.metadata
+  Using cached numpy-2.4.6-cp311-cp311-win_amd64.whl.metadata (6.6 kB)
+Collecting scipy>=1.15 (from amm==0.2.0)
+  Obtaining dependency information for scipy>=1.15 from https://files.pythonhosted.org/packages/95/da/0d1df507cf574b3f224ccc3d45244c9a1d732c81dcb26b1e8a766ae271a8/scipy-1.17.1-cp311-cp311-win_amd64.whl.metadata
+  Using cached scipy-1.17.1-cp311-cp311-win_amd64.whl.metadata (60 kB)
+Collecting pypardiso>=0.4.7 (from amm==0.2.0)
+  Obtaining dependency information for pypardiso>=0.4.7 from https://files.pythonhosted.org/packages/d9/11/80f3b55f77309b1993e68776778510f46195252b5393b967f67d28dbb6b6/pypardiso-0.4.7-py3-none-any.whl.metadata
+  Using cached pypardiso-0.4.7-py3-none-any.whl.metadata (3.3 kB)
+Collecting mkl (from amm==0.2.0)
+  Obtaining dependency information for mkl from https://files.pythonhosted.org/packages/31/bc/0e8380d982d353bad1f01d4828830563e53d309eeb38d5be3d6f519d83cb/mkl-2026.2.0-py2.py3-none-win_amd64.whl.metadata
+  Using cached mkl-2026.2.0-py2.py3-none-win_amd64.whl.metadata (1.8 kB)
+Collecting torch>=2.5 (from amm==0.2.0)
+  Obtaining dependency information for torch>=2.5 from https://files.pythonhosted.org/packages/d1/7e/7f1252812e8048bc24f203fc0757a251f26af797b4ff986e19046e2b5f73/torch-2.15.0-cp311-cp311-win_amd64.whl.metadata
+  Using cached torch-2.15.0-cp311-cp311-win_amd64.whl.metadata (36 kB)
+Collecting pydantic>=2.14 (from amm==0.2.0)
+  Obtaining dependency information for pydantic>=2.14 from https://files.pythonhosted.org/packages/72/b8/b864503789ef5c58597d2a7b4adbee62c26440ab1e682581fc6838df8947/pydantic-2.14.3-py3-none-any.whl.metadata
+  Using cached pydantic-2.14.3-py3-none-any.whl.metadata (141 kB)
+Collecting colorama>=0.4 (from pytest>=9.0)
+  Obtaining dependency information for colorama>=0.4 from https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl.metadata
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting iniconfig>=2 (from pytest>=9.0)
+  Obtaining dependency information for iniconfig>=2 from https://files.pythonhosted.org/packages/56/43/4ca9e49d27a1fcf6bece6f6aec0ea46bb9112489b93d4b688fb415457bdb/iniconfig-2.3.1-py3-none-any.whl.metadata
+  Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting packaging>=24 (from pytest>=9.0)
+  Obtaining dependency information for packaging>=24 from https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl.metadata
+  Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pluggy<2,>=1.6 (from pytest>=9.0)
+  Obtaining dependency information for pluggy<2,>=1.6 from https://files.pythonhosted.org/packages/40/9e/2b38731e0fc536806f16490e1a12d7f0dc2a1235aa8cc07bcc75416a7daa/pluggy-1.7.0-py3-none-any.whl.metadata
+  Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+Collecting pygments>=2.15 (from pytest>=9.0)
+  Obtaining dependency information for pygments>=2.15 from https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl.metadata
+  Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.14->amm==0.2.0)
+  Obtaining dependency information for annotated-types>=0.6.0 from https://files.pythonhosted.org/packages/99/91/8acff4f5e50511b911bbccb72b8628a49c68ce14148cd9f6431094859a90/annotated_types-0.8.0-py3-none-any.whl.metadata
+  Using cached annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.50.4 (from pydantic>=2.14->amm==0.2.0)
+  Obtaining dependency information for pydantic-core==2.50.4 from https://files.pythonhosted.org/packages/c6/06/cebeeb7a8e87b42a3d8bc189d0d400e47df5d1736cb326764bae8a74c433/pydantic_core-2.50.4-cp311-cp311-win_amd64.whl.metadata
+  Using cached pydantic_core-2.50.4-cp311-cp311-win_amd64.whl.metadata (6.7 kB)
+Collecting typing-extensions>=4.16.0 (from pydantic>=2.14->amm==0.2.0)
+  Obtaining dependency information for typing-extensions>=4.16.0 from https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl.metadata
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting typing-inspection>=0.4.4 (from pydantic>=2.14->amm==0.2.0)
+  Obtaining dependency information for typing-inspection>=0.4.4 from https://files.pythonhosted.org/packages/de/0c/ea2544850a7c135e15033a5c7a8e7211136184b7ae63e2239d557c2b3019/typing_inspection-0.4.5-py3-none-any.whl.metadata
+  Using cached typing_inspection-0.4.5-py3-none-any.whl.metadata (2.6 kB)
+Collecting onemkl-license==2026.2.0 (from mkl->amm==0.2.0)
+  Obtaining dependency information for onemkl-license==2026.2.0 from https://files.pythonhosted.org/packages/61/fb/0e80b495cd359d737d1a6b427387ea5f9af54d6444e6d8306330076b8c0b/onemkl_license-2026.2.0-py2.py3-none-win_amd64.whl.metadata
+  Using cached onemkl_license-2026.2.0-py2.py3-none-win_amd64.whl.metadata (1.7 kB)
+Collecting intel-openmp<2027,>=2025 (from mkl->amm==0.2.0)
+  Obtaining dependency information for intel-openmp<2027,>=2025 from https://files.pythonhosted.org/packages/cd/81/3014f8c74e15bbea3de37e12ef43ea8df8fac498378162d1a89f28236398/intel_openmp-2026.2.0-py2.py3-none-win_amd64.whl.metadata
+  Using cached intel_openmp-2026.2.0-py2.py3-none-win_amd64.whl.metadata (1.3 kB)
+Collecting tbb==2023.* (from mkl->amm==0.2.0)
+  Obtaining dependency information for tbb==2023.* from https://files.pythonhosted.org/packages/d0/41/2aeac799ab57e81898c8cc24f503fe301e12f19758bb1fe34d522764d3bb/tbb-2023.2.0-py3-none-win_amd64.whl.metadata
+  Using cached tbb-2023.2.0-py3-none-win_amd64.whl.metadata (1.1 kB)
+Collecting tcmlib==1.* (from tbb==2023.*->mkl->amm==0.2.0)
+  Obtaining dependency information for tcmlib==1.* from https://files.pythonhosted.org/packages/d7/a5/996458475dcc65f20ec20c0e3d4bbc175c87750ff9bb703908c373b2497a/tcmlib-1.6.0-py2.py3-none-win_amd64.whl.metadata
+  Using cached tcmlib-1.6.0-py2.py3-none-win_amd64.whl.metadata (1.0 kB)
+Collecting filelock (from torch>=2.5->amm==0.2.0)
+  Obtaining dependency information for filelock from https://files.pythonhosted.org/packages/00/05/76184fe08339723d643ab47887a8e4de8f2921ca4e008617ab7490af7857/filelock-4.2.9-py3-none-any.whl.metadata
+  Using cached filelock-4.2.9-py3-none-any.whl.metadata (2.3 kB)
+Collecting setuptools>=77.0.3 (from torch>=2.5->amm==0.2.0)
+  Obtaining dependency information for setuptools>=77.0.3 from https://files.pythonhosted.org/packages/ef/55/6dc6d6bb953bdfc52519a0059592c52b6e3b8ad51cf8256dffceb55b0610/setuptools-84.2.1-py3-none-any.whl.metadata
+  Using cached setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Collecting sympy>=1.13.3 (from torch>=2.5->amm==0.2.0)
+  Obtaining dependency information for sympy>=1.13.3 from https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl.metadata
+  Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting networkx>=2.5.1 (from torch>=2.5->amm==0.2.0)
+  Obtaining dependency information for networkx>=2.5.1 from https://files.pythonhosted.org/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl.metadata
+  Using cached networkx-3.6.1-py3-none-any.whl.metadata (6.8 kB)
+Collecting jinja2 (from torch>=2.5->amm==0.2.0)
+  Obtaining dependency information for jinja2 from https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl.metadata
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting fsspec>=0.8.5 (from torch>=2.5->amm==0.2.0)
+  Obtaining dependency information for fsspec>=0.8.5 from https://files.pythonhosted.org/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl.metadata
+  Using cached fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting botorch>=0.14 (from amm==0.2.0)
+  Obtaining dependency information for botorch>=0.14 from https://files.pythonhosted.org/packages/c1/50/aaffc306e9f609596a50a3220832058ccee6023436ba6eceb750c3ebc45a/botorch-0.18.1-py3-none-any.whl.metadata
+  Downloading botorch-0.18.1-py3-none-any.whl.metadata (10 kB)
+Collecting gpytorch>=1.14 (from amm==0.2.0)
+  Obtaining dependency information for gpytorch>=1.14 from https://files.pythonhosted.org/packages/b6/70/c419a361b09ccb618b5165daa919003ccdd9c148356f7ff71a710db6bcf0/gpytorch-1.15.2-py3-none-any.whl.metadata
+  Downloading gpytorch-1.15.2-py3-none-any.whl.metadata (8.2 kB)
+Collecting mcp>=2.3 (from amm==0.2.0)
+  Obtaining dependency information for mcp>=2.3 from https://files.pythonhosted.org/packages/20/d7/4a2878f128df729db3ca04e71bfce26405cc2e0c9ebe19c592feeb4c61b9/mcp-2.3.0-py3-none-any.whl.metadata
+  Downloading mcp-2.3.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting starlette>=1.7 (from amm==0.2.0)
+  Obtaining dependency information for starlette>=1.7 from https://files.pythonhosted.org/packages/88/2e/947cfe02def9371c07cd5bf5b6b61c829e9aecb9904db02a66cfafbc1eec/starlette-1.10.0-py3-none-any.whl.metadata
+  Downloading starlette-1.10.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting uvicorn>=0.54 (from amm==0.2.0)
+  Obtaining dependency information for uvicorn>=0.54 from https://files.pythonhosted.org/packages/38/0c/b54a4fdd7f90a3af8b02ebc9ce6712c2c208b7926a2f7bad95c33ebbe943/uvicorn-0.54.0-py3-none-any.whl.metadata
+  Downloading uvicorn-0.54.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting scikit-image>=0.25 (from amm==0.2.0)
+  Obtaining dependency information for scikit-image>=0.25 from https://files.pythonhosted.org/packages/d3/c6/2eeacf173da041a9e388975f54e5c49df750757fcfc3ee293cdbbae1ea0a/scikit_image-0.26.0-cp311-cp311-win_amd64.whl.metadata
+  Downloading scikit_image-0.26.0-cp311-cp311-win_amd64.whl.metadata (15 kB)
+Collecting pyre_extensions (from botorch>=0.14->amm==0.2.0)
+  Obtaining dependency information for pyre_extensions from https://files.pythonhosted.org/packages/a4/7a/9812cb8be9828ab688203c5ac5f743c60652887f0c00995a6f6f19f912bd/pyre_extensions-0.0.32-py3-none-any.whl.metadata
+  Downloading pyre_extensions-0.0.32-py3-none-any.whl.metadata (4.0 kB)
+Collecting linear_operator>=0.6.1 (from botorch>=0.14->amm==0.2.0)
+  Obtaining dependency information for linear_operator>=0.6.1 from https://files.pythonhosted.org/packages/e6/34/ee74708a93704baca5c1ef439817c4cb649f73382c518380ccc5ab335603/linear_operator-0.6.1-py3-none-any.whl.metadata
+  Downloading linear_operator-0.6.1-py3-none-any.whl.metadata (15 kB)
+Collecting multipledispatch (from botorch>=0.14->amm==0.2.0)
+  Obtaining dependency information for multipledispatch from https://files.pythonhosted.org/packages/51/c0/00c9809d8b9346eb238a6bbd5f83e846a4ce4503da94a4c08cb7284c325b/multipledispatch-1.0.0-py3-none-any.whl.metadata
+  Downloading multipledispatch-1.0.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting threadpoolctl (from botorch>=0.14->amm==0.2.0)
+  Obtaining dependency information for threadpoolctl from https://files.pythonhosted.org/packages/54/1b/831f2de4840a25db1dd7b1afea433ccafe6bb10aca07e13264f2079462d0/threadpoolctl-3.8.0-py3-none-any.whl.metadata
+  Downloading threadpoolctl-3.8.0-py3-none-any.whl.metadata (29 kB)
+Collecting ninja (from botorch>=0.14->amm==0.2.0)
+  Obtaining dependency information for ninja from https://files.pythonhosted.org/packages/3f/dd/3766b5f4d32e8a9b97d195496b0b01fbbe2e1a41669dab0cd6492a6ce199/ninja-1.13.2-py3-none-win_amd64.whl.metadata
+  Downloading ninja-1.13.2-py3-none-win_amd64.whl.metadata (5.4 kB)
+Collecting mpmath<=1.3,>=0.19 (from gpytorch>=1.14->amm==0.2.0)
+  Obtaining dependency information for mpmath<=1.3,>=0.19 from https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl.metadata
+  Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting scikit-learn (from gpytorch>=1.14->amm==0.2.0)
+  Obtaining dependency information for scikit-learn from https://files.pythonhosted.org/packages/29/8a/8d1e888fe3d0dd4e2a1f3356dad703eed569aaf673e222b6f647005ad30f/scikit_learn-1.9.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading scikit_learn-1.9.1-cp311-cp311-win_amd64.whl.metadata (9.3 kB)
+Collecting intel-cmplr-lib-ur==2026.2.0 (from intel-openmp<2027,>=2025->mkl->amm==0.2.0)
+  Obtaining dependency information for intel-cmplr-lib-ur==2026.2.0 from https://files.pythonhosted.org/packages/5e/25/546c8f9d6e4d9501e848d352ecac99dc79e4bf41badc8ef1a2db6402637b/intel_cmplr_lib_ur-2026.2.0-py2.py3-none-win_amd64.whl.metadata
+  Using cached intel_cmplr_lib_ur-2026.2.0-py2.py3-none-win_amd64.whl.metadata (1.3 kB)
+Collecting umf==1.2.* (from intel-cmplr-lib-ur==2026.2.0->intel-openmp<2027,>=2025->mkl->amm==0.2.0)
+  Obtaining dependency information for umf==1.2.* from https://files.pythonhosted.org/packages/8c/7c/f35fe9eaae40a31cb7eafdc5689c90f3ba267391b79d010b4bac9f832a4b/umf-1.2.0-py2.py3-none-win_amd64.whl.metadata
+  Using cached umf-1.2.0-py2.py3-none-win_amd64.whl.metadata (1.1 kB)
+Collecting anyio>=4.9 (from mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for anyio>=4.9 from https://files.pythonhosted.org/packages/a9/16/7757fb84c819accc7d7e9af5291b261e4abb8627ee040f99e7d35ef2457a/anyio-4.16.0-py3-none-any.whl.metadata
+  Downloading anyio-4.16.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting httpx2>=2.10.0 (from mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for httpx2>=2.10.0 from https://files.pythonhosted.org/packages/7b/3d/2e4bc4fd1ef9770871669adb348d612a6e4786b303a23f9935b81c48dd60/httpx2-2.16.0-py3-none-any.whl.metadata
+  Downloading httpx2-2.16.0-py3-none-any.whl.metadata (10 kB)
+Collecting jsonschema>=4.20.0 (from mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for jsonschema>=4.20.0 from https://files.pythonhosted.org/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl.metadata
+  Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting mcp-types==2.3.0 (from mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for mcp-types==2.3.0 from https://files.pythonhosted.org/packages/ce/48/32583066b155bb5d4507e7887dc88ee23118cc4de8e2a12870c49719e2a8/mcp_types-2.3.0-py3-none-any.whl.metadata
+  Downloading mcp_types-2.3.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting opentelemetry-api>=1.28.0 (from mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for opentelemetry-api>=1.28.0 from https://files.pythonhosted.org/packages/a9/2d/610db864d7513158cebb8f36cc88e67e73bd6c7aa1905ef18d89e1281c81/opentelemetry_api-1.45.2-py3-none-any.whl.metadata
+  Downloading opentelemetry_api-1.45.2-py3-none-any.whl.metadata (1.4 kB)
+Collecting pyjwt[crypto]>=2.10.1 (from mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for pyjwt[crypto]>=2.10.1 from https://files.pythonhosted.org/packages/50/ca/44de4e75f8aadc457f0634be3b542815078ded46dca30efb960edeecad6e/pyjwt-2.15.1-py3-none-any.whl.metadata
+  Downloading pyjwt-2.15.1-py3-none-any.whl.metadata (3.5 kB)
+Collecting python-multipart>=0.0.9 (from mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for python-multipart>=0.0.9 from https://files.pythonhosted.org/packages/dd/1b/6b1b4164ec734cac911460ab599bfbe46afedd42c5c9627fe4235942c314/python_multipart-0.0.33-py3-none-any.whl.metadata
+  Downloading python_multipart-0.0.33-py3-none-any.whl.metadata (6.3 kB)
+Collecting pywin32>=311 (from mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for pywin32>=311 from https://files.pythonhosted.org/packages/35/c4/dcd2d62b5944b6d5db53413a5899016ccd57ffcb7278f3f81655d25d2027/pywin32-312-cp311-cp311-win_amd64.whl.metadata
+  Downloading pywin32-312-cp311-cp311-win_amd64.whl.metadata (11 kB)
+Collecting sse-starlette>=3.0.0 (from mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for sse-starlette>=3.0.0 from https://files.pythonhosted.org/packages/6a/11/25cabac0a24fa76f58637d8671b549c90d818d69d26beecf0c59a3b186e0/sse_starlette-3.7.0-py3-none-any.whl.metadata
+  Downloading sse_starlette-3.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pillow>=10.1 (from scikit-image>=0.25->amm==0.2.0)
+  Obtaining dependency information for pillow>=10.1 from https://files.pythonhosted.org/packages/7d/f6/6e2d96413e4c9dbec12ea584d9e646d602877d4cce3ea669099f959deac6/pillow-13.0.0-cp311-cp311-win_amd64.whl.metadata
+  Downloading pillow-13.0.0-cp311-cp311-win_amd64.whl.metadata (9.3 kB)
+Collecting imageio!=2.35.0,>=2.33 (from scikit-image>=0.25->amm==0.2.0)
+  Obtaining dependency information for imageio!=2.35.0,>=2.33 from https://files.pythonhosted.org/packages/7d/8a/3b7f62b9df56460959f1b9bef094248d2a4d7f393c5b0d2da8efcdf0e40e/imageio-2.38.1-py3-none-any.whl.metadata
+  Downloading imageio-2.38.1-py3-none-any.whl.metadata (9.7 kB)
+Collecting tifffile>=2022.8.12 (from scikit-image>=0.25->amm==0.2.0)
+  Obtaining dependency information for tifffile>=2022.8.12 from https://files.pythonhosted.org/packages/1a/e4/e804505f87627cd8cdae9c010c47c4485fd8c1ce31a7dd0ab7fcc4707377/tifffile-2026.3.3-py3-none-any.whl.metadata
+  Downloading tifffile-2026.3.3-py3-none-any.whl.metadata (31 kB)
+Collecting lazy-loader>=0.4 (from scikit-image>=0.25->amm==0.2.0)
+  Obtaining dependency information for lazy-loader>=0.4 from https://files.pythonhosted.org/packages/23/93/4e45e37f26c820216704b36b8e67cc55c490a7abd287a78a26a2c0e21386/lazy_loader-0.6-py3-none-any.whl.metadata
+  Downloading lazy_loader-0.6-py3-none-any.whl.metadata (6.0 kB)
+Collecting click>=7.0 (from uvicorn>=0.54->amm==0.2.0)
+  Obtaining dependency information for click>=7.0 from https://files.pythonhosted.org/packages/31/7d/164b7ffc8624fe9efb4221bf9af485d5c1e41b9ae118045d2b6dc5457d8b/click-8.5.1-py3-none-any.whl.metadata
+  Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting h11>=0.8 (from uvicorn>=0.54->amm==0.2.0)
+  Obtaining dependency information for h11>=0.8 from https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl.metadata
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch>=2.5->amm==0.2.0)
+  Obtaining dependency information for MarkupSafe>=2.0 from https://files.pythonhosted.org/packages/91/89/f2b509f7bf79352e40117824c1070dbeafd4df67031d3fa98165a3134228/markupsafe-3.0.4-cp311-cp311-win_amd64.whl.metadata
+  Using cached markupsafe-3.0.4-cp311-cp311-win_amd64.whl.metadata (2.8 kB)
+Collecting idna>=2.8 (from anyio>=4.9->mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for idna>=2.8 from https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl.metadata
+  Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting httpcore2==2.16.0 (from httpx2>=2.10.0->mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for httpcore2==2.16.0 from https://files.pythonhosted.org/packages/af/c2/ce417c397afa5181f0e3c6ff01a4d01639414e1adef08730d97571297151/httpcore2-2.16.0-py3-none-any.whl.metadata
+  Downloading httpcore2-2.16.0-py3-none-any.whl.metadata (27 kB)
+Collecting truststore>=0.10 (from httpx2>=2.10.0->mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for truststore>=0.10 from https://files.pythonhosted.org/packages/51/e9/3a7820be2bb0fe53b6bc9c3be26d3d1158004e4c3ab953aa6840b955b1e9/truststore-0.10.5-py3-none-any.whl.metadata
+  Downloading truststore-0.10.5-py3-none-any.whl.metadata (4.5 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=4.20.0->mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for attrs>=22.2.0 from https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl.metadata
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=4.20.0->mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for jsonschema-specifications>=2023.03.6 from https://files.pythonhosted.org/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata
+  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=4.20.0->mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for referencing>=0.28.4 from https://files.pythonhosted.org/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl.metadata
+  Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema>=4.20.0->mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for rpds-py>=0.25.0 from https://files.pythonhosted.org/packages/df/c9/384a9b62f8cd89c8e3e609b8c9052c140e8c01d807261e0517c904b8bf29/rpds_py-2026.9.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading rpds_py-2026.9.1-cp311-cp311-win_amd64.whl.metadata (4.2 kB)
+Collecting cryptography>=3.4.0 (from pyjwt[crypto]>=2.10.1->mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for cryptography>=3.4.0 from https://files.pythonhosted.org/packages/9a/4f/adfc442765721292fff86d314ce385d3249d22db42295c0dd057727b60f3/cryptography-50.0.2-cp311-abi3-win_amd64.whl.metadata
+  Downloading cryptography-50.0.2-cp311-abi3-win_amd64.whl.metadata (4.4 kB)
+Collecting typing-inspect (from pyre_extensions->botorch>=0.14->amm==0.2.0)
+  Obtaining dependency information for typing-inspect from https://files.pythonhosted.org/packages/65/f3/107a22063bf27bdccf2024833d3445f4eea42b2e598abfbd46f6a63b6cb0/typing_inspect-0.9.0-py3-none-any.whl.metadata
+  Downloading typing_inspect-0.9.0-py3-none-any.whl.metadata (1.5 kB)
+Collecting joblib>=1.4.0 (from scikit-learn->gpytorch>=1.14->amm==0.2.0)
+  Obtaining dependency information for joblib>=1.4.0 from https://files.pythonhosted.org/packages/18/53/84099323c2ec4be98d935f63c033ac4151ee83836ca1050ede3b3aadf155/joblib-1.6.0-py3-none-any.whl.metadata
+  Downloading joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn->gpytorch>=1.14->amm==0.2.0)
+  Obtaining dependency information for narwhals>=2.0.1 from https://files.pythonhosted.org/packages/cf/82/8ef9c7e0f50493307a49c09cfa7f00c5a778b6d1921f7b2dabe1d3a5809e/narwhals-2.28.0-py3-none-any.whl.metadata
+  Downloading narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+Collecting cffi>=2.0.0 (from cryptography>=3.4.0->pyjwt[crypto]>=2.10.1->mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for cffi>=2.0.0 from https://files.pythonhosted.org/packages/73/c0/77ba02423c2f7d7091143c45cd49e0e6575c4c1967394bb542bd923a9b74/cffi-2.1.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading cffi-2.1.1-cp311-cp311-win_amd64.whl.metadata (2.6 kB)
+Collecting cloudpickle>=3.0 (from joblib>=1.4.0->scikit-learn->gpytorch>=1.14->amm==0.2.0)
+  Obtaining dependency information for cloudpickle>=3.0 from https://files.pythonhosted.org/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl.metadata
+  Downloading cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting mypy-extensions>=0.3.0 (from typing-inspect->pyre_extensions->botorch>=0.14->amm==0.2.0)
+  Obtaining dependency information for mypy-extensions>=0.3.0 from https://files.pythonhosted.org/packages/b5/99/7b1adac7e97ce7bbda34792dc6e9b2f5cc5cffd1875883f78a818b2a2687/mypy_extensions-1.2.0-py3-none-any.whl.metadata
+  Downloading mypy_extensions-1.2.0-py3-none-any.whl.metadata (1.1 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography>=3.4.0->pyjwt[crypto]>=2.10.1->mcp>=2.3->amm==0.2.0)
+  Obtaining dependency information for pycparser from https://files.pythonhosted.org/packages/b6/ae/315bbeee126a769cbde43cf4908acb4b40408d8bf8bbf334dd7368d8dadf/pycparser-3.12-py3-none-any.whl.metadata
+  Downloading pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+Downloading pytest-9.2.0-py3-none-any.whl (411 kB)
+   ---------------------------------------- 411.8/411.8 kB 8.5 MB/s eta 0:00:00
+Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Using cached numpy-2.4.6-cp311-cp311-win_amd64.whl (12.6 MB)
+Downloading packaging-26.3-py3-none-any.whl (129 kB)
+   ---------------------------------------- 130.0/130.0 kB 8.0 MB/s eta 0:00:00
+Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+Using cached pydantic-2.14.3-py3-none-any.whl (494 kB)
+Using cached pydantic_core-2.50.4-cp311-cp311-win_amd64.whl (2.3 MB)
+Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+   ---------------------------------------- 1.3/1.3 MB 26.4 MB/s eta 0:00:00
+Using cached pypardiso-0.4.7-py3-none-any.whl (10 kB)
+Using cached mkl-2026.2.0-py2.py3-none-win_amd64.whl (185.2 MB)
+Using cached onemkl_license-2026.2.0-py2.py3-none-win_amd64.whl (54 kB)
+Using cached tbb-2023.2.0-py3-none-win_amd64.whl (430 kB)
+Using cached tcmlib-1.6.0-py2.py3-none-win_amd64.whl (371 kB)
+Using cached scipy-1.17.1-cp311-cp311-win_amd64.whl (36.6 MB)
+Using cached torch-2.15.0-cp311-cp311-win_amd64.whl (126.7 MB)
+Using cached annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Downloading botorch-0.18.1-py3-none-any.whl (6.0 MB)
+   ---------------------------------------- 6.0/6.0 MB 76.3 MB/s eta 0:00:00
+Using cached fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Downloading gpytorch-1.15.2-py3-none-any.whl (291 kB)
+   --------------------------------------- 291.2/291.2 kB 18.7 MB/s eta 0:00:00
+Using cached intel_openmp-2026.2.0-py2.py3-none-win_amd64.whl (23.2 MB)
+Using cached intel_cmplr_lib_ur-2026.2.0-py2.py3-none-win_amd64.whl (672 kB)
+Using cached umf-1.2.0-py2.py3-none-win_amd64.whl (296 kB)
+Downloading mcp-2.3.0-py3-none-any.whl (368 kB)
+   --------------------------------------- 368.7/368.7 kB 23.9 MB/s eta 0:00:00
+Downloading mcp_types-2.3.0-py3-none-any.whl (69 kB)
+   ---------------------------------------- 69.1/69.1 kB ? eta 0:00:00
+Using cached networkx-3.6.1-py3-none-any.whl (2.1 MB)
+Downloading scikit_image-0.26.0-cp311-cp311-win_amd64.whl (11.9 MB)
+   ---------------------------------------- 11.9/11.9 MB 72.5 MB/s eta 0:00:00
+Using cached setuptools-84.2.1-py3-none-any.whl (876 kB)
+Downloading starlette-1.10.0-py3-none-any.whl (80 kB)
+   ---------------------------------------- 80.6/80.6 kB 4.7 MB/s eta 0:00:00
+Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Using cached typing_inspection-0.4.5-py3-none-any.whl (14 kB)
+Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
+   ---------------------------------------- 87.4/87.4 kB ? eta 0:00:00
+Using cached filelock-4.2.9-py3-none-any.whl (164 kB)
+Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading anyio-4.16.0-py3-none-any.whl (134 kB)
+   ---------------------------------------- 134.5/134.5 kB ? eta 0:00:00
+Downloading click-8.5.1-py3-none-any.whl (126 kB)
+   ---------------------------------------- 126.2/126.2 kB ? eta 0:00:00
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading httpx2-2.16.0-py3-none-any.whl (97 kB)
+   ---------------------------------------- 97.9/97.9 kB ? eta 0:00:00
+Downloading httpcore2-2.16.0-py3-none-any.whl (85 kB)
+   ---------------------------------------- 85.1/85.1 kB 5.0 MB/s eta 0:00:00
+Downloading imageio-2.38.1-py3-none-any.whl (328 kB)
+   ---------------------------------------- 328.4/328.4 kB ? eta 0:00:00
+Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+   ---------------------------------------- 90.6/90.6 kB ? eta 0:00:00
+Downloading lazy_loader-0.6-py3-none-any.whl (8.8 kB)
+Downloading linear_operator-0.6.1-py3-none-any.whl (174 kB)
+   ---------------------------------------- 174.8/174.8 kB ? eta 0:00:00
+Using cached markupsafe-3.0.4-cp311-cp311-win_amd64.whl (14 kB)
+Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+Downloading opentelemetry_api-1.45.2-py3-none-any.whl (60 kB)
+   ---------------------------------------- 60.3/60.3 kB ? eta 0:00:00
+Downloading pillow-13.0.0-cp311-cp311-win_amd64.whl (7.3 MB)
+   ---------------------------------------- 7.3/7.3 MB 66.7 MB/s eta 0:00:00
+Downloading python_multipart-0.0.33-py3-none-any.whl (32 kB)
+Downloading pywin32-312-cp311-cp311-win_amd64.whl (6.9 MB)
+   ---------------------------------------- 6.9/6.9 MB 74.4 MB/s eta 0:00:00
+Downloading sse_starlette-3.7.0-py3-none-any.whl (18 kB)
+Downloading tifffile-2026.3.3-py3-none-any.whl (243 kB)
+   --------------------------------------- 244.0/244.0 kB 14.6 MB/s eta 0:00:00
+Downloading multipledispatch-1.0.0-py3-none-any.whl (12 kB)
+Downloading ninja-1.13.2-py3-none-win_amd64.whl (311 kB)
+   ---------------------------------------- 311.8/311.8 kB ? eta 0:00:00
+Downloading pyre_extensions-0.0.32-py3-none-any.whl (12 kB)
+Downloading scikit_learn-1.9.1-cp311-cp311-win_amd64.whl (8.3 MB)
+   ---------------------------------------- 8.3/8.3 MB 66.6 MB/s eta 0:00:00
+Downloading threadpoolctl-3.8.0-py3-none-any.whl (32 kB)
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+   ---------------------------------------- 67.5/67.5 kB ? eta 0:00:00
+Downloading cryptography-50.0.2-cp311-abi3-win_amd64.whl (3.8 MB)
+   ---------------------------------------- 3.8/3.8 MB 61.5 MB/s eta 0:00:00
+Downloading idna-3.20-py3-none-any.whl (69 kB)
+   ---------------------------------------- 69.6/69.6 kB 3.7 MB/s eta 0:00:00
+Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+   --------------------------------------- 306.1/306.1 kB 18.5 MB/s eta 0:00:00
+Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Downloading narwhals-2.28.0-py3-none-any.whl (490 kB)
+   --------------------------------------- 490.6/490.6 kB 32.0 MB/s eta 0:00:00
+Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+Downloading rpds_py-2026.9.1-cp311-cp311-win_amd64.whl (226 kB)
+   ---------------------------------------- 226.0/226.0 kB ? eta 0:00:00
+Downloading truststore-0.10.5-py3-none-any.whl (19 kB)
+Downloading pyjwt-2.15.1-py3-none-any.whl (33 kB)
+Downloading typing_inspect-0.9.0-py3-none-any.whl (8.8 kB)
+Downloading cffi-2.1.1-cp311-cp311-win_amd64.whl (185 kB)
+   ---------------------------------------- 185.1/185.1 kB ? eta 0:00:00
+Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Downloading mypy_extensions-1.2.0-py3-none-any.whl (5.1 kB)
+Downloading pycparser-3.12-py3-none-any.whl (62 kB)
+   ---------------------------------------- 62.6/62.6 kB 3.3 MB/s eta 0:00:00
+Installing collected packages: tcmlib, onemkl-license, multipledispatch, mpmath, umf, typing-extensions, truststore, threadpoolctl, tbb, sympy, setuptools, rpds-py, pywin32, python-multipart, pyjwt, pygments, pycparser, pluggy, pillow, packaging, numpy, ninja, networkx, narwhals, mypy-extensions, MarkupSafe, iniconfig, idna, h11, fsspec, filelock, colorama, cloudpickle, click, attrs, annotated-types, uvicorn, typing-inspection, typing-inspect, tifffile, scipy, referencing, pytest, pydantic-core, opentelemetry-api, lazy-loader, joblib, jinja2, intel-cmplr-lib-ur, imageio, httpcore2, cffi, anyio, torch, starlette, scikit-learn, scikit-image, pyre_extensions, pydantic, jsonschema-specifications, intel-openmp, httpx2, cryptography, sse-starlette, mkl, mcp-types, linear_operator, jsonschema, pypardiso, mcp, gpytorch, botorch, amm
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 65.5.0
+    Uninstalling setuptools-65.5.0:
+      Successfully uninstalled setuptools-65.5.0
+Successfully installed MarkupSafe-3.0.4 amm-0.2.0 annotated-types-0.8.0 anyio-4.16.0 attrs-26.1.0 botorch-0.18.1 cffi-2.1.1 click-8.5.1 cloudpickle-3.1.2 colorama-0.4.6 cryptography-50.0.2 filelock-4.2.9 fsspec-2026.9.0 gpytorch-1.15.2 h11-0.16.0 httpcore2-2.16.0 httpx2-2.16.0 idna-3.20 imageio-2.38.1 iniconfig-2.3.1 intel-cmplr-lib-ur-2026.2.0 intel-openmp-2026.2.0 jinja2-3.1.6 joblib-1.6.0 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 lazy-loader-0.6 linear_operator-0.6.1 mcp-2.3.0 mcp-types-2.3.0 mkl-2026.2.0 mpmath-1.3.0 multipledispatch-1.0.0 mypy-extensions-1.2.0 narwhals-2.28.0 networkx-3.6.1 ninja-1.13.2 numpy-2.4.6 onemkl-license-2026.2.0 opentelemetry-api-1.45.2 packaging-26.3 pillow-13.0.0 pluggy-1.7.0 pycparser-3.12 pydantic-2.14.3 pydantic-core-2.50.4 pygments-2.21.0 pyjwt-2.15.1 pypardiso-0.4.7 pyre_extensions-0.0.32 pytest-9.2.0 python-multipart-0.0.33 pywin32-312 referencing-0.37.0 rpds-py-2026.9.1 scikit-image-0.26.0 scikit-learn-1.9.1 scipy-1.17.1 setuptools-84.2.1 sse-starlette-3.7.0 starlette-1.10.0 sympy-1.14.0 tbb-2023.2.0 tcmlib-1.6.0 threadpoolctl-3.8.0 tifffile-2026.3.3 torch-2.15.0 truststore-0.10.5 typing-extensions-4.16.0 typing-inspect-0.9.0 typing-inspection-0.4.5 umf-1.2.0 uvicorn-0.54.0

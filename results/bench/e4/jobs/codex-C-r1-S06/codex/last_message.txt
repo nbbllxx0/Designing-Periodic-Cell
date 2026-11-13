@@ -1,0 +1,1 @@
+Released a certified PA12 cube-and-bars cell with **c/a = 0.340331** and **w/a = 0.2658**. Its certified bounds are relative density **≤17.965%** and axial Young’s modulus **≥136.8 MPa** in x, y, and z, meeting both requirements. SLS manufacturability remains unevaluated, and the design does not pass the tested ±0.01a geometry-offset robustness check.

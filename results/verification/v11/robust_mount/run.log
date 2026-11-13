@@ -1,0 +1,11 @@
+[1] set_material ok=True 0.3s
+[2] set_constraints ok=True 0.0s
+[3] set_target ok=True 0.0s
+[4] set_source ok=True 0.0s
+[5] set_source ok=True 0.0s
+[6] set_source ok=True 0.0s
+[7] set_source ok=True 0.0s
+[8] check_bounds ok=True 1.3s
+[9] atlas_suggest ok=True 1.3s
+[10] evaluate ok=True 10.8s
+[11] certify {'kind': 'cube_bars', 'params': {'c': 0.616522, 'w': 0.151304}}: undetermined robust=False 1327.0s

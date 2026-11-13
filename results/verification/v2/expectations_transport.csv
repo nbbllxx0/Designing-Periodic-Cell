@@ -1,0 +1,20 @@
+interface,check,capability,expected
+mcp,mcp_malformed_line,invalid: malformed JSON (MCP),server alive; no record; next call answered
+mcp,mcp_args_not_object,invalid: arguments not an object (MCP),error reply; no crash; no record
+mcp,mcp_wrong_type,"invalid: wrong value type, logged (MCP)",isError; logged with ok false
+mcp,mcp_tools_C,tool list profile C (MCP),17 tools
+mcp,mcp_tools_B,tool list profile B (MCP),"14 tools, no check_bounds/certify/as_built"
+gui,gui_malformed_json,invalid: malformed JSON (GUI API),HTTP 400 'body must be JSON'; seq unchanged
+gui,gui_json_not_object,invalid: JSON not an object (GUI API),HTTP 400 'JSON object'; seq unchanged
+gui,gui_wrong_ctype,invalid: wrong content type (GUI API),HTTP 415; seq unchanged
+gui,gui_foreign_host,invalid: foreign Host header (GUI API),HTTP 403
+gui,gui_bad_actor,invalid: unknown actor (GUI API),HTTP 400
+gui,gui_tools_C,tool list profile C (GUI API),17 available
+gui,gui_tools_B,tool list profile B (GUI API),14 available
+gui,gui_health,live mode and schema (GUI API),"mode live, schema amm-tools/3"
+gui-edge,edge_certified,certify + release by clicks (Edge),verdict certified; outcome card certified
+gui-edge,edge_cancel_rollback,cancel a running certificate (Edge),cancelled; seq and budget unchanged
+gui-edge,edge_screen,screening by clicks (Edge),screen passed
+gui-edge,edge_export,export + downloads (Edge),outcome certified_candidate; downloads valid
+gui-edge,edge_refusal_rejected,refusal without evidence (Edge),rejected with the refusal-evidence message
+gui-edge,edge_proven_infeasible,outcome proven_infeasible by clicks (Edge),"accepted, cites the bound record"

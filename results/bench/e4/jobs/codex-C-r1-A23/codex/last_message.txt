@@ -1,0 +1,1 @@
+Released a PA12 `sphere_ligaments` resonator with 10 mm cells and parameters `c = 0.40087`, `w = 0.108696` (relative to cell size). Its complete infinite-lattice band gap is certified to cover **28.3–31.3 kHz** using the tool’s PA12 properties. SLS manufacturability was not evaluated.

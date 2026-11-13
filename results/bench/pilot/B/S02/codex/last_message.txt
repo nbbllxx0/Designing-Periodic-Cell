@@ -1,0 +1,1 @@
+Released a Ti6Al4V Schwarz P sheet cell with density parameter 0.284253: predicted solid volume 28.41% and C44 6.86 GPa. Calibrated expected estimates meet both limits, but the design is uncertified and the pessimistic estimate misses the stiffness requirement.

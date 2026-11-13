@@ -1,0 +1,138 @@
+{
+ "scenario": "S07_profile_B_release",
+ "interface": "gui",
+ "rows": [
+  {
+   "scenario": "S07_profile_B_release",
+   "check": "B_release_uncertified",
+   "capability": "profile B: release without certificate",
+   "interface": "gui",
+   "profile": "B",
+   "tool": "submit",
+   "expected_refusal": false,
+   "observed": "accepted: outcome=uncertified_release",
+   "passed": true,
+   "failures": [],
+   "seq": 3,
+   "dt_s": 0.02,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085247-3fd3/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_material",
+   "args": {
+    "name": "PA12"
+   },
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 1700000000.0,
+    "atlas_available": true,
+    "material": "PA12",
+    "nu": 0.39,
+    "rho_kg_m3": 1010.0
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.25,
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.03,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "density_max": 0.25
+    },
+    "targets": {
+     "density_max": 0.25
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "submit",
+   "args": {
+    "decision": "release",
+    "design": {
+     "kind": "bcc",
+     "params": {
+      "r": 0.08,
+      "R": 0.0
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": true,
+   "exit": null,
+   "seq": 3,
+   "error": null,
+   "result": {
+    "outcome_card": {
+     "decision": "release",
+     "definition": "released without a certificate (profile B has no certify tool); not verified",
+     "design": {
+      "kind": "bcc",
+      "params": {
+       "R": 0.0,
+       "r": 0.08
+      }
+     },
+     "evidence": [],
+     "evidence_checked": false,
+     "outcome": "uncertified_release",
+     "profile": "B",
+     "schema_version": "amm-outcome/1",
+     "title": "Uncertified release",
+     "verdict": null
+    },
+    "submitted": {
+     "certificate": null,
+     "decision": "release",
+     "design": {
+      "kind": "bcc",
+      "params": {
+       "R": 0.0,
+       "r": 0.08
+      }
+     },
+     "evidence": [],
+     "note": "",
+     "outcome": "uncertified_release",
+     "spec": {
+      "cell_size": null,
+      "gap_type": null,
+      "material": "PA12",
+      "nu": 0.39,
+      "targets": {
+       "density_max": 0.25
+      }
+     },
+     "targets": {
+      "density_max": 0.25
+     }
+    }
+   },
+   "cli": null
+  }
+ ],
+ "seconds": 0.2,
+ "root": "results/verification/v2/sessions/gui/live-20261108-085247-3fd3",
+ "finished": "2026-11-08 08:52:47"
+}

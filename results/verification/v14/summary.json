@@ -1,0 +1,568 @@
+{
+ "rules": {
+  "drift_toward_claim": "fails closed unless the order fit holds",
+  "feature_min_voxels": 3.0,
+  "checker": "f99ce2b2f65d7630"
+ },
+ "benchmark": {
+  "n_certificates": 85,
+  "before": {
+   "undetermined": 23,
+   "certified": 61,
+   "refuted": 1
+  },
+  "after": {
+   "undetermined": 38,
+   "certified": 46,
+   "refuted": 1
+  },
+  "changed_by_rule": {
+   "feature": 12,
+   "drift toward claim": 3
+  },
+  "drift_rule_alone_changes": [
+   "G07_d32d92daa44f1dc6",
+   "G09_95bad3524f09ea02",
+   "G15_00f03a71387fee8a",
+   "G15_f20b0b6de0d3aebc",
+   "M11_7990ca6173b0fd78"
+  ]
+ },
+ "benchmark_changed": [
+  {
+   "cert": "G06_4aaff06410fe7c7b",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.439527,
+    "w": 0.06788
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: load-path feature 0.06788 a spans 2.72 voxels at n = 40 (< 3): raise the resolution",
+   "rule": "feature",
+   "feature_voxels": 2.7152,
+   "methods": [
+    "M2"
+   ]
+  },
+  {
+   "cert": "G06_565ab7ca784548fc",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.371304,
+    "w": 0.06
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: load-path feature 0.06 a spans 2.40 voxels at n = 40 (< 3): raise the resolution",
+   "rule": "feature",
+   "feature_voxels": 2.4,
+   "methods": [
+    "M6"
+   ]
+  },
+  {
+   "cert": "G07_40d98d0c519c50a5",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.402036,
+    "w": 0.060598
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: load-path feature 0.0606 a spans 2.42 voxels at n = 40 (< 3): raise the resolution",
+   "rule": "feature",
+   "feature_voxels": 2.42392,
+   "methods": [
+    "M6"
+   ]
+  },
+  {
+   "cert": "G07_d32d92daa44f1dc6",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35479,
+    "w": 0.083455
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order",
+   "rule": "drift toward claim",
+   "feature_voxels": 3.3382,
+   "methods": [
+    "M5"
+   ]
+  },
+  {
+   "cert": "G09_95bad3524f09ea02",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.592174,
+    "w": 0.06
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order",
+   "rule": "feature",
+   "feature_voxels": 2.4,
+   "methods": [
+    "M1",
+    "M4",
+    "M6"
+   ]
+  },
+  {
+   "cert": "G10_40d98d0c519c50a5",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.402036,
+    "w": 0.060598
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: load-path feature 0.0606 a spans 2.42 voxels at n = 40 (< 3): raise the resolution",
+   "rule": "feature",
+   "feature_voxels": 2.42392,
+   "methods": [
+    "M4"
+   ]
+  },
+  {
+   "cert": "G10_581732aa073c885f",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.372384,
+    "w": 0.064241
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: load-path feature 0.06424 a spans 2.57 voxels at n = 40 (< 3): raise the resolution",
+   "rule": "feature",
+   "feature_voxels": 2.56964,
+   "methods": [
+    "M5"
+   ]
+  },
+  {
+   "cert": "G10_de8d1d26815b79bc",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.40087,
+    "w": 0.06
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: load-path feature 0.06 a spans 2.40 voxels at n = 40 (< 3): raise the resolution",
+   "rule": "feature",
+   "feature_voxels": 2.4,
+   "methods": [
+    "M1"
+   ]
+  },
+  {
+   "cert": "G12_de8d1d26815b79bc",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.40087,
+    "w": 0.06
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: load-path feature 0.06 a spans 2.40 voxels at n = 40 (< 3): raise the resolution",
+   "rule": "feature",
+   "feature_voxels": 2.4,
+   "methods": [
+    "M4"
+   ]
+  },
+  {
+   "cert": "G14_6060dbca780679c9",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.364542,
+    "w": 0.061264
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: load-path feature 0.06126 a spans 2.45 voxels at n = 40 (< 3): raise the resolution",
+   "rule": "feature",
+   "feature_voxels": 2.45056,
+   "methods": [
+    "M6"
+   ]
+  },
+  {
+   "cert": "G15_00f03a71387fee8a",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35276,
+    "w": 0.087704
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order",
+   "rule": "drift toward claim",
+   "feature_voxels": 3.50816,
+   "methods": [
+    "M5"
+   ]
+  },
+  {
+   "cert": "G15_4aaff06410fe7c7b",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.439527,
+    "w": 0.06788
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: load-path feature 0.06788 a spans 2.72 voxels at n = 40 (< 3): raise the resolution",
+   "rule": "feature",
+   "feature_voxels": 2.7152,
+   "methods": [
+    "M2"
+   ]
+  },
+  {
+   "cert": "G15_f20b0b6de0d3aebc",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.386087,
+    "w": 0.06
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order",
+   "rule": "feature",
+   "feature_voxels": 2.4,
+   "methods": [
+    "M6"
+   ]
+  },
+  {
+   "cert": "M11_2effc48ef52bbe43",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.221072,
+    "mode": "network"
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: load-path feature 0.07224 a spans 2.89 voxels at n = 40 (< 3): raise the resolution",
+   "rule": "feature",
+   "feature_voxels": 2.889441016011038,
+   "methods": [
+    "M3"
+   ]
+  },
+  {
+   "cert": "M11_7990ca6173b0fd78",
+   "kind": "sc",
+   "params": {
+    "r": 0.054348,
+    "R": 0.32
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order",
+   "rule": "drift toward claim",
+   "feature_voxels": 4.34784,
+   "methods": [
+    "M6"
+   ]
+  }
+ ],
+ "witnesses": {
+  "n": 94,
+  "before": {
+   "certified": 63,
+   "undetermined": 30,
+   "refuted": 1
+  },
+  "after": {
+   "certified": 59,
+   "undetermined": 34,
+   "refuted": 1
+  },
+  "changed": [
+   {
+    "file": "bench/v1/work/certs/G07_e31cb0f872402baa.json",
+    "brief": "G07",
+    "benchmark_set": "primary",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.592174,
+     "w": 0.242609
+    },
+    "before": "certified",
+    "after": "undetermined",
+    "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+   },
+   {
+    "file": "bench/v1/work/certs/G07_feedc20f97a1cf5a.json",
+    "brief": "G07",
+    "benchmark_set": "primary",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.592174,
+     "w": 0.242609
+    },
+    "before": "certified",
+    "after": "undetermined",
+    "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+   },
+   {
+    "file": "bench/v1/work/certs/G14_9e3c6d6965e09ac5.json",
+    "brief": "G14",
+    "benchmark_set": "calibration",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.64087,
+     "w": 0.294783
+    },
+    "before": "certified",
+    "after": "undetermined",
+    "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+   },
+   {
+    "file": "bench/v1/work/certs/M05_58e6684e9257cebb.json",
+    "brief": "M05",
+    "benchmark_set": "primary",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.356522,
+     "w": 0.12087
+    },
+    "before": "certified",
+    "after": "undetermined",
+    "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+   }
+  ],
+  "primary_targets_losing_witness": [
+   "G07",
+   "M05"
+  ]
+ },
+ "engineering": [
+  {
+   "file": "results/verification/v6/case1/session_design/certificates/7db650ec44d50a1d_08d26401ae0bf0dc.json",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.592174,
+    "w": 0.151304
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "results/verification/v6/case1/session_reference/certificates/688ee12613fae6f7_093755956a9f1537.json",
+   "kind": "octet",
+   "params": {
+    "R": 0.2,
+    "r": 0.05913
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "results/verification/v6/case1/session_reference/certificates/ec23675b0fde3d5d_dc461738f846711b.json",
+   "kind": "octet",
+   "params": {
+    "R": 0.254545,
+    "r": 0.044783
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "results/verification/v6/case2/session_316L/certificates/f1d00ed043a926f1_0dc7c12bea6f73f4.json",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.786957,
+    "w": 0.06
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: load-path feature 0.06 a spans 2.40 voxels at n = 40 (< 3): raise the resolution"
+  },
+  {
+   "file": "results/verification/v6/case2/session_PA12/certificates/e5519f4fdbef64db_e212dc39bc22b626.json",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.356522,
+    "w": 0.108696
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+  },
+  {
+   "file": "results/verification/v6/case2/session_scaling_316L/certificates/e5519f4fdbef64db_f51cb2e8a86dae91.json",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.356522,
+    "w": 0.108696
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "results/verification/v11/robust_mount/session_design/certificates/f4d7db96e59c0b00_f4af4f7134fac261.json",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.616522,
+    "w": 0.151304
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+  },
+  {
+   "file": "results/verification/v11/robust_mount/session_design_b/certificates/3bc47975c089c6f2_5e7efd2dad850892.json",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.616522,
+    "w": 0.164348
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+  },
+  {
+   "file": "results/verification/v11/robust_mount/session_design_b/certificates/3d19f38b755e8997_88461f505e447442.json",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.64087,
+    "w": 0.151304
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "results/verification/v11/robust_mount/session_design_b/certificates/7db650ec44d50a1d_ac8d90a3ee26726d.json",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.592174,
+    "w": 0.151304
+   },
+   "before": "refuted",
+   "after": "refuted",
+   "reason": null
+  },
+  {
+   "file": "results/verification/v11/robust_mount/session_design_b/certificates/e28f87c8cdec56a0_09cd040618a64f40.json",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.592174,
+    "w": 0.164348
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  }
+ ],
+ "rechecks": [
+  {
+   "file": "results/verification/v6/case1/recheck_design.json",
+   "before": "certified",
+   "after": "certified"
+  },
+  {
+   "file": "results/verification/v6/case2/recheck_PA12.json",
+   "before": "certified",
+   "after": "undetermined"
+  },
+  {
+   "file": "results/verification/v6/case2/recheck_316L.json",
+   "before": "certified",
+   "after": "undetermined"
+  }
+ ],
+ "gaps": {
+  "n": 12,
+  "certified_after": 6,
+  "not_certified": [
+   [
+    "cb_c0.5_w0.2_nu0.3",
+    "drift toward claim"
+   ],
+   [
+    "cb_c0.6_w0.3_nu0.3",
+    "drift toward claim"
+   ],
+   [
+    "cb_c0.8_w0.3_nu0.3",
+    "drift toward claim"
+   ],
+   [
+    "thin_sl_c0.402_w0.061_nu0.3",
+    "feature"
+   ],
+   [
+    "filter_PA12",
+    "drift toward claim"
+   ],
+   [
+    "filter_316L",
+    "feature"
+   ]
+  ],
+  "guard_changed": [
+   "cb_c0.5_w0.2_nu0.3",
+   "cb_c0.6_w0.3_nu0.3",
+   "cb_c0.8_w0.3_nu0.3",
+   "filter_PA12"
+  ],
+  "feature_failed": [
+   "thin_sl_c0.402_w0.061_nu0.3",
+   "filter_316L"
+  ]
+ },
+ "dolfinx_edges": {
+  "before": {
+   "sound": 15,
+   "marginal": 1
+  },
+  "after": {
+   "sound": 12,
+   "no safe edge": 3,
+   "marginal": 1
+  },
+  "inside_frac_range": [
+   0.009954110477853172,
+   0.4027095835211904
+  ],
+  "no_safe_edge": [
+   [
+    "cb_c0.5_w0.2_nu0.3",
+    "hi"
+   ],
+   [
+    "cb_c0.6_w0.3_nu0.3",
+    "hi"
+   ],
+   [
+    "cb_c0.8_w0.3_nu0.3",
+    "hi"
+   ]
+  ]
+ },
+ "figure_edges": {
+  "before": {
+   "sound": 22,
+   "marginal": 2
+  },
+  "after": {
+   "sound": 19,
+   "marginal": 2,
+   "no safe edge": 3
+  },
+  "rows_certified_after": 7,
+  "rows": 12
+ }
+}

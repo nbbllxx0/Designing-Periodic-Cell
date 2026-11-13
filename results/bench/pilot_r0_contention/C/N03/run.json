@@ -1,0 +1,19 @@
+{
+ "brief": "N03",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 930.8,
+ "usage": {
+  "input_tokens": 2054442,
+  "cached_input_tokens": 2000000,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 4111,
+  "reasoning_output_tokens": 1135
+ },
+ "final": "No design released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm atlas found no 12 mm PA12 cell meeting all three requirements. This does not prove physical impossibility. The refusal submission was sent, but amm\u2019s acknowledgment remains pending.",
+ "stderr_tail": ""
+}

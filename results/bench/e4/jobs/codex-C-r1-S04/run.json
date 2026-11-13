@@ -1,0 +1,31 @@
+{
+ "brief": "S04",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 1211.3,
+ "usage": {
+  "input_tokens": 1102406,
+  "cached_input_tokens": 1066880,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 3923,
+  "reasoning_output_tokens": 894
+ },
+ "final": "Released a certified Ti-6Al-4V IWP sheet unit cell with density parameter 0.3695. Certified bounds satisfy all requirements: solid fraction \u226436.950%, \\(E_{[100]}\\ge21.09\\) GPa, and \\(C_{44}\\ge6.33\\) GPa. The design fails the tool\u2019s \\(0.01a\\) erosion robustness check; manufacturability was not evaluated.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-S04",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.1,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "e1dd6ec8e912acde",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "01274f97dc97276b"
+}

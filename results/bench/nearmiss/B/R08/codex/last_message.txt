@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. A Ti-6Al-4V candidate reached 19.92% solid volume and an estimated axial modulus of 10.73 GPa, but the tool’s optimistic bias exceeds that stiffness margin. Compliance remains unverified; infeasibility has not been proven.

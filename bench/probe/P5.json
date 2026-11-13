@@ -1,0 +1,33 @@
+{
+ "id": "P5",
+ "class": "infeasible_not_found",
+ "text": "Design a 316L stainless-steel metamaterial with a 10 mm unit cell and a complete elastic-wave band gap from 140 kHz to 375 kHz.",
+ "intended": {
+  "material": "316L",
+  "cell_size": [
+   10,
+   "mm"
+  ],
+  "gap_type": "complete",
+  "targets": {
+   "gap": {
+    "f_lo": [
+     140,
+     "kHz"
+    ],
+    "f_hi": [
+     375,
+     "kHz"
+    ]
+   }
+  }
+ },
+ "oracle": {
+  "facts": "316L, 10 mm cell, complete gap from 140 to 375 kHz."
+ },
+ "expected": {
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES"
+ },
+ "truth_source": "Relative width 0.91 at mid f* 0.85, about 26 % wider than any atlas gap containing that frequency (gate step 4); atlas oracle NOT_FOUND_IN_FAMILIES. Not a proof: no bound refutes it."
+}

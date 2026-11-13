@@ -1,0 +1,19 @@
+{
+ "brief": "P3",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 34.2,
+ "usage": {
+  "input_tokens": 101378,
+  "cached_input_tokens": 85376,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 369,
+  "reasoning_output_tokens": 33
+ },
+ "final": "The amm verdict is **PROVEN_INFEASIBLE**; no design was released. Using Ti-6Al-4V\u2019s modulus of 113.8 GPa, the Voigt upper bound at 20% solid fraction is **22.76 GPa**, below the required 35 GPa, regardless of lattice geometry.",
+ "stderr_tail": ""
+}

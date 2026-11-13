@@ -1,0 +1,33 @@
+{
+ "brief": "X10",
+ "arm": "B",
+ "profile": "B",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 32.9,
+ "usage": {
+  "input_tokens": 93552,
+  "cached_input_tokens": 83328,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 905,
+  "reasoning_output_tokens": 221
+ },
+ "final": "The request is **proven infeasible** using amm\u2019s 316L modulus of 193 GPa: at 12% solid, the theoretical upper bound on axial Young\u2019s modulus is \\(0.12 \\times 193 = 23.16\\) GPa, below 25.1 GPa. Reaching the target requires at least 13.01% solid even under this ideal bound; actual designs may require more. No design was released.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-B-r1-X10",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.1,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

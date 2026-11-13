@@ -1,0 +1,25 @@
+08:54:31 start B X0108:54:31 start C X01
+
+08:54:56 done  C X01 rc=0 wall=24.9s
+08:54:56 start B X03
+08:55:03 done  B X01 rc=0 wall=31.8s
+08:55:03 start C X03
+08:55:32 done  B X03 rc=0 wall=35.8s
+08:55:32 start B X07
+08:55:39 done  C X03 rc=0 wall=35.7s
+08:55:39 start C X07
+08:56:02 done  C X07 rc=0 wall=23.0s
+08:56:02 start B N01
+08:58:02 done  B X07 rc=0 wall=150.2s
+08:58:02 start C N01
+08:58:59 done  B N01 rc=0 wall=177.0s
+08:58:59 start B N02
+09:00:15 done  C N01 rc=0 wall=133.1s
+09:00:15 start C N02
+09:14:15 done  C N02 rc=0 wall=839.7s
+09:14:15 start B N03
+09:15:33 done  B N02 rc=0 wall=994.4s
+09:15:33 start C N03
+09:31:04 done  C N03 rc=0 wall=930.8s
+09:31:28 done  B N03 rc=0 wall=1032.6s
+all sessions done; code e9a4d83d6cecd9e4

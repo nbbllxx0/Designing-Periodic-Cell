@@ -1,0 +1,1 @@
+The amm verdict is **PROVEN_INFEASIBLE**; no design was released. A passive periodic PA12 lattice cannot block all elastic waves down to zero frequency because acoustic modes persist near zero. A revised target needs a positive lower cutoff below 16.8 kHz.

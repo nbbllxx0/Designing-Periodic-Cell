@@ -1,0 +1,1 @@
+Released a Ti6Al4V Schwarz P sheet unit cell with a 10 mm edge and 28.9% nominal solid fraction. Certified bounds meet both requirements: ≤28.906% solid and ≥6.881 GPa shear modulus. LPBF process qualification remains necessary; the design failed the ±0.1 mm offset robustness check.

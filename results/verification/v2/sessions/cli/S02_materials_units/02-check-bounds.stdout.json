@@ -1,0 +1,67 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "PA12"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 1700000000.0,
+    "atlas_available": true,
+    "material": "PA12",
+    "nu": 0.39,
+    "rho_kg_m3": 1010.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "cell_size": 10,
+    "cell_size_unit": "mm"
+   },
+   "ok": true,
+   "result": {
+    "cell_size": [
+     10.0,
+     "mm"
+    ],
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "seq": 2,
+   "tool": "set_constraints"
+  },
+  {
+   "args": {},
+   "error": "no targets that can be normalized yet",
+   "ok": false,
+   "seq": 3,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": {
+  "error": "no targets that can be normalized yet",
+  "tool": "check_bounds"
+ },
+ "ok": false,
+ "profile": "C",
+ "result": {
+  "cell_size": [
+   10.0,
+   "mm"
+  ],
+  "families": [
+   "tpms",
+   "struts",
+   "resonator"
+  ]
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S02_materials_units\\02-check-bounds"
+}

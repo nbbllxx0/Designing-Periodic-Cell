@@ -1,0 +1,376 @@
+{
+ "claude/B/1": {
+  "confirmatory": {},
+  "development": {
+   "n": 1,
+   "n_specs": 1,
+   "witnessed": {
+    "n": 1,
+    "success": 0,
+    "correct": 0,
+    "false_refusals": 0,
+    "spec_error_releases": 0
+   },
+   "proven": {
+    "n": 0,
+    "correct_refusals": 0,
+    "correct": 0,
+    "exact_verdict": 0
+   },
+   "unresolved": {
+    "n": 0,
+    "abstentions": 0,
+    "overclaims": 0,
+    "witness_found": 0,
+    "appropriate": 0
+   },
+   "correct": 0,
+   "decided": 1,
+   "releases": 1,
+   "silent_failures": 0,
+   "unverified_releases": 1,
+   "unsupported_releases": 1,
+   "supported_releases": 0,
+   "no_answer": 0,
+   "ambiguous": 0,
+   "asked_on_ambiguous": 0,
+   "resolved_on_ambiguous": 0,
+   "asked_on_clear": 0,
+   "wall_s": 79.6,
+   "designs_evaluated": 48,
+   "certify_calls": 0,
+   "input_tokens": 73285,
+   "output_tokens": 1502,
+   "by_class": {
+    "feasible_static": {
+     "unverified_release": 1
+    }
+   }
+  }
+ },
+ "claude/C/1": {
+  "confirmatory": {},
+  "development": {
+   "n": 1,
+   "n_specs": 1,
+   "witnessed": {
+    "n": 1,
+    "success": 1,
+    "correct": 1,
+    "false_refusals": 0,
+    "spec_error_releases": 0
+   },
+   "proven": {
+    "n": 0,
+    "correct_refusals": 0,
+    "correct": 0,
+    "exact_verdict": 0
+   },
+   "unresolved": {
+    "n": 0,
+    "abstentions": 0,
+    "overclaims": 0,
+    "witness_found": 0,
+    "appropriate": 0
+   },
+   "correct": 1,
+   "decided": 1,
+   "releases": 1,
+   "silent_failures": 0,
+   "unverified_releases": 0,
+   "unsupported_releases": 0,
+   "supported_releases": 1,
+   "no_answer": 0,
+   "ambiguous": 0,
+   "asked_on_ambiguous": 0,
+   "resolved_on_ambiguous": 0,
+   "asked_on_clear": 0,
+   "wall_s": 1108.6,
+   "designs_evaluated": 60,
+   "certify_calls": 2,
+   "input_tokens": 149648,
+   "output_tokens": 3139,
+   "by_class": {
+    "feasible_static": {
+     "success": 1
+    }
+   }
+  }
+ },
+ "claude/D/1": {
+  "confirmatory": {},
+  "development": {
+   "n": 1,
+   "n_specs": 1,
+   "witnessed": {
+    "n": 1,
+    "success": 0,
+    "correct": 0,
+    "false_refusals": 0,
+    "spec_error_releases": 0
+   },
+   "proven": {
+    "n": 0,
+    "correct_refusals": 0,
+    "correct": 0,
+    "exact_verdict": 0
+   },
+   "unresolved": {
+    "n": 0,
+    "abstentions": 0,
+    "overclaims": 0,
+    "witness_found": 0,
+    "appropriate": 0
+   },
+   "correct": 0,
+   "decided": 1,
+   "releases": 1,
+   "silent_failures": 1,
+   "unverified_releases": 0,
+   "unsupported_releases": 1,
+   "supported_releases": 0,
+   "no_answer": 0,
+   "ambiguous": 0,
+   "asked_on_ambiguous": 0,
+   "resolved_on_ambiguous": 0,
+   "asked_on_clear": 0,
+   "wall_s": 18.8,
+   "designs_evaluated": 0,
+   "certify_calls": 0,
+   "input_tokens": 4299,
+   "output_tokens": 1436,
+   "by_class": {
+    "feasible_static": {
+     "silent_failure": 1
+    }
+   }
+  }
+ },
+ "codex/B/1": {
+  "confirmatory": {},
+  "development": {
+   "n": 4,
+   "n_specs": 4,
+   "witnessed": {
+    "n": 2,
+    "success": 0,
+    "correct": 0,
+    "false_refusals": 2,
+    "spec_error_releases": 0
+   },
+   "proven": {
+    "n": 1,
+    "correct_refusals": 1,
+    "correct": 1,
+    "exact_verdict": 1
+   },
+   "unresolved": {
+    "n": 1,
+    "abstentions": 1,
+    "overclaims": 0,
+    "witness_found": 0,
+    "appropriate": 1
+   },
+   "correct": 1,
+   "decided": 3,
+   "releases": 0,
+   "silent_failures": 0,
+   "unverified_releases": 0,
+   "unsupported_releases": 0,
+   "supported_releases": 0,
+   "no_answer": 0,
+   "ambiguous": 1,
+   "asked_on_ambiguous": 1,
+   "resolved_on_ambiguous": 1,
+   "asked_on_clear": 0,
+   "wall_s": 382.5,
+   "designs_evaluated": 245,
+   "certify_calls": 0,
+   "input_tokens": 886205,
+   "output_tokens": 5282,
+   "by_class": {
+    "ambiguous_quantity": {
+     "false_refusal": 1
+    },
+    "feasible_static": {
+     "false_refusal": 1
+    },
+    "infeasible_notfound": {
+     "abstention": 1
+    },
+    "infeasible_proven": {
+     "correct_refusal": 1
+    }
+   }
+  }
+ },
+ "codex/C/1": {
+  "confirmatory": {},
+  "development": {
+   "n": 5,
+   "n_specs": 5,
+   "witnessed": {
+    "n": 2,
+    "success": 2,
+    "correct": 2,
+    "false_refusals": 0,
+    "spec_error_releases": 0
+   },
+   "proven": {
+    "n": 1,
+    "correct_refusals": 1,
+    "correct": 1,
+    "exact_verdict": 1
+   },
+   "unresolved": {
+    "n": 2,
+    "abstentions": 1,
+    "overclaims": 0,
+    "witness_found": 0,
+    "appropriate": 1
+   },
+   "correct": 3,
+   "decided": 3,
+   "releases": 2,
+   "silent_failures": 0,
+   "unverified_releases": 0,
+   "unsupported_releases": 0,
+   "supported_releases": 2,
+   "no_answer": 1,
+   "ambiguous": 1,
+   "asked_on_ambiguous": 1,
+   "resolved_on_ambiguous": 1,
+   "asked_on_clear": 0,
+   "wall_s": 877.9,
+   "designs_evaluated": 285,
+   "certify_calls": 2,
+   "input_tokens": 1592818,
+   "output_tokens": 6082,
+   "by_class": {
+    "ambiguous_quantity": {
+     "success": 1
+    },
+    "feasible_static": {
+     "success": 1
+    },
+    "infeasible_notfound": {
+     "abstention": 1,
+     "no_answer": 1
+    },
+    "infeasible_proven": {
+     "correct_refusal": 1
+    }
+   }
+  }
+ },
+ "codex/D/1": {
+  "confirmatory": {},
+  "development": {
+   "n": 4,
+   "n_specs": 4,
+   "witnessed": {
+    "n": 2,
+    "success": 0,
+    "correct": 0,
+    "false_refusals": 2,
+    "spec_error_releases": 0
+   },
+   "proven": {
+    "n": 1,
+    "correct_refusals": 1,
+    "correct": 1,
+    "exact_verdict": 1
+   },
+   "unresolved": {
+    "n": 1,
+    "abstentions": 1,
+    "overclaims": 0,
+    "witness_found": 0,
+    "appropriate": 1
+   },
+   "correct": 1,
+   "decided": 3,
+   "releases": 0,
+   "silent_failures": 0,
+   "unverified_releases": 0,
+   "unsupported_releases": 0,
+   "supported_releases": 0,
+   "no_answer": 0,
+   "ambiguous": 1,
+   "asked_on_ambiguous": 1,
+   "resolved_on_ambiguous": 1,
+   "asked_on_clear": 0,
+   "wall_s": 66.0,
+   "designs_evaluated": 0,
+   "certify_calls": 0,
+   "input_tokens": 63676,
+   "output_tokens": 2205,
+   "by_class": {
+    "ambiguous_quantity": {
+     "false_refusal": 1
+    },
+    "feasible_static": {
+     "false_refusal": 1
+    },
+    "infeasible_notfound": {
+     "abstention": 1
+    },
+    "infeasible_proven": {
+     "correct_refusal": 1
+    }
+   }
+  }
+ },
+ "none/O/1": {
+  "confirmatory": {},
+  "development": {
+   "n": 2,
+   "n_specs": 2,
+   "witnessed": {
+    "n": 1,
+    "success": 1,
+    "correct": 1,
+    "false_refusals": 0,
+    "spec_error_releases": 0
+   },
+   "proven": {
+    "n": 1,
+    "correct_refusals": 1,
+    "correct": 1,
+    "exact_verdict": 1
+   },
+   "unresolved": {
+    "n": 0,
+    "abstentions": 0,
+    "overclaims": 0,
+    "witness_found": 0,
+    "appropriate": 0
+   },
+   "correct": 2,
+   "decided": 2,
+   "releases": 1,
+   "silent_failures": 0,
+   "unverified_releases": 0,
+   "unsupported_releases": 0,
+   "supported_releases": 1,
+   "no_answer": 0,
+   "ambiguous": 0,
+   "asked_on_ambiguous": 0,
+   "resolved_on_ambiguous": 0,
+   "asked_on_clear": 0,
+   "wall_s": 1051.3,
+   "designs_evaluated": 48,
+   "certify_calls": 2,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "by_class": {
+    "feasible_static": {
+     "success": 1
+    },
+    "infeasible_proven": {
+     "correct_refusal": 1
+    }
+   }
+  }
+ }
+}

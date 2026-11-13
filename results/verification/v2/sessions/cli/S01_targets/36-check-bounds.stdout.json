@@ -1,0 +1,192 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "E100_max": {
+     "unit": "E_s",
+     "value": 0.01
+    },
+    "E100_min": {
+     "unit": "E_s",
+     "value": 0.05
+    }
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_max": 0.01,
+     "E100_min": 0.05
+    },
+    "targets": {
+     "E100_max": 0.01,
+     "E100_min": 0.05
+    }
+   },
+   "seq": 2,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.6959526070529157,
+       "slack_opt": -0.660809478589417,
+       "slack_pess": -0.6959526070529157,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.324348,
+         "w": 0.112174
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6679130751295994,
+       "slack_opt": -0.6664173849740801,
+       "slack_pess": -0.697532217977832,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.149565,
+         "w": 0.133043
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6737053911291682,
+       "slack_opt": -0.6737053911291682,
+       "slack_pess": -0.7041404372248755,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.267826,
+         "w": 0.108696
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 0,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "bounds_verdict": "PROVEN_INFEASIBLE",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_max": 0.01,
+     "E100_min": 0.05
+    },
+    "verdict": "PROVEN_INFEASIBLE",
+    "violated": [
+     {
+      "bound": "P1",
+      "limit": 0.01,
+      "scope": "any",
+      "statement": "E100_min > E100_max: contradictory request",
+      "target": 0.05
+     }
+    ]
+   },
+   "seq": 3,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": -0.6959526070529157,
+     "slack_opt": -0.660809478589417,
+     "slack_pess": -0.6959526070529157,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.324348,
+       "w": 0.112174
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.6679130751295994,
+     "slack_opt": -0.6664173849740801,
+     "slack_pess": -0.697532217977832,
+     "spec": {
+      "family": "resonator",
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.149565,
+       "w": 0.133043
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.6737053911291682,
+     "slack_opt": -0.6737053911291682,
+     "slack_pess": -0.7041404372248755,
+     "spec": {
+      "family": "resonator",
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.267826,
+       "w": 0.108696
+      }
+     }
+    }
+   ],
+   "n_cells": 2714,
+   "n_clear": 0,
+   "n_possible": 0,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "NOT_FOUND_IN_FAMILIES"
+  },
+  "bounds_verdict": "PROVEN_INFEASIBLE",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "E100_max": 0.01,
+   "E100_min": 0.05
+  },
+  "verdict": "PROVEN_INFEASIBLE",
+  "violated": [
+   {
+    "bound": "P1",
+    "limit": 0.01,
+    "scope": "any",
+    "statement": "E100_min > E100_max: contradictory request",
+    "target": 0.05
+   }
+  ]
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S01_targets\\36-check-bounds"
+}

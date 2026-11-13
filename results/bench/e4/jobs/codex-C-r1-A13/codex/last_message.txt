@@ -1,0 +1,1 @@
+No design released—verdict: **UNDETERMINED**. For Ti-6Al-4V with the clarified 1 cm unit cell, none of four candidates certified a complete gap covering 124–219 kHz. Numerical count failures, edge uncertainty, and detected modes prevented certification; this does not prove the target impossible.

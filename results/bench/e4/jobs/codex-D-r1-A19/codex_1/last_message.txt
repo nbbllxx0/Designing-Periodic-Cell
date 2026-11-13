@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":null,"targets":{"density_max":0.31,"bulk_min":{"value":12.3,"unit":"GPa"}},"verdict":"UNDETERMINED","note":"Without homogenization results, I cannot verify a design meeting both targets or establish infeasibility within the allowed families."}

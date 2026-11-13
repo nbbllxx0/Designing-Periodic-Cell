@@ -1,0 +1,82 @@
+{
+ "id": "S07",
+ "attempts": [
+  {
+   "request": {
+    "density_max": 0.36,
+    "bulk_min": [
+     9.3,
+     "GPa"
+    ]
+   },
+   "normalized": {
+    "density_max": 0.36,
+    "bulk_min": 0.04818652849740933
+   },
+   "verdict": "certified",
+   "seconds": 206.7,
+   "static_rung": [
+    32,
+    48,
+    64
+   ],
+   "static_bounds": {
+    "density": {
+     "lower": 0.3252752963289647,
+     "upper": 0.3256451044301738
+    },
+    "E100": {
+     "lower": 0.14810094134543167,
+     "upper": 0.15969732406333914
+    },
+    "G": {
+     "lower": 0.016867243059412725,
+     "upper": 0.0207834089530521
+    },
+    "bulk": {
+     "lower": 0.06349302201866262,
+     "upper": 0.0690550535405636
+    },
+    "nu100": {
+     "lower": 0.11061187292991138,
+     "upper": 0.1148977290578143
+    }
+   },
+   "safe_interval": null,
+   "spec_hash": "9b873374a32ea264",
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.543478,
+     "w": 0.346957
+    }
+   },
+   "pass_": 1
+  }
+ ],
+ "final": {
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.543478,
+    "w": 0.346957
+   }
+  },
+  "request": {
+   "density_max": 0.36,
+   "bulk_min": [
+    9.3,
+    "GPa"
+   ]
+  },
+  "normalized": {
+   "density_max": 0.36,
+   "bulk_min": 0.04818652849740933
+  },
+  "verdict": "certified",
+  "passes": 1
+ },
+ "seconds": 206.7
+}

@@ -1,0 +1,96 @@
+{
+ "checker": "c5f8c89871b3bad6",
+ "code": "5ab7480410467482",
+ "replays": {
+  "examples/outputs/02_session/session.jsonl": {
+   "decision_changes": [],
+   "exact": true,
+   "identity": {
+    "checker_aliased": true,
+    "checker_log": "f141e46cb67a78db",
+    "checker_log_source": "results",
+    "checker_now": "c5f8c89871b3bad6",
+    "code_aliased": true,
+    "code_log": "5970bf55108f1584",
+    "code_now": "5ab7480410467482"
+   },
+   "mismatches": [],
+   "n_calls": 12,
+   "n_compared": 12,
+   "root": null,
+   "seconds": 22.4
+  },
+  "examples/outputs/03_session/session.jsonl": {
+   "decision_changes": [],
+   "exact": true,
+   "identity": {
+    "checker_aliased": true,
+    "checker_log": "f141e46cb67a78db",
+    "checker_log_source": "known code identity",
+    "checker_now": "c5f8c89871b3bad6",
+    "code_aliased": true,
+    "code_log": "5970bf55108f1584",
+    "code_now": "5ab7480410467482"
+   },
+   "mismatches": [],
+   "n_calls": 8,
+   "n_compared": 8,
+   "root": "temporary directory (removed)",
+   "seconds": 18.8
+  },
+  "results/gui/sessions/live-20261108-060336-5e8b/session.jsonl": {
+   "decision_changes": [],
+   "exact": true,
+   "identity": {
+    "checker_aliased": true,
+    "checker_log": "f141e46cb67a78db",
+    "checker_log_source": "known code identity",
+    "checker_now": "c5f8c89871b3bad6",
+    "code_aliased": true,
+    "code_log": "5970bf55108f1584",
+    "code_now": "5ab7480410467482"
+   },
+   "mismatches": [],
+   "n_calls": 0,
+   "n_compared": 0,
+   "root": null,
+   "seconds": 0.0
+  },
+  "results/gui/sessions/live-20261108-060337-8729/session.jsonl": {
+   "decision_changes": [],
+   "exact": true,
+   "identity": {
+    "checker_aliased": true,
+    "checker_log": "f141e46cb67a78db",
+    "checker_log_source": "results",
+    "checker_now": "c5f8c89871b3bad6",
+    "code_aliased": true,
+    "code_log": "5970bf55108f1584",
+    "code_now": "5ab7480410467482"
+   },
+   "mismatches": [],
+   "n_calls": 13,
+   "n_compared": 13,
+   "root": "temporary directory (removed)",
+   "seconds": 52.4
+  },
+  "results/gui/sessions/live-20261108-060500-1bed/session.jsonl": {
+   "decision_changes": [],
+   "exact": true,
+   "identity": {
+    "checker_aliased": true,
+    "checker_log": "f141e46cb67a78db",
+    "checker_log_source": "known code identity",
+    "checker_now": "c5f8c89871b3bad6",
+    "code_aliased": true,
+    "code_log": "5970bf55108f1584",
+    "code_now": "5ab7480410467482"
+   },
+   "mismatches": [],
+   "n_calls": 6,
+   "n_compared": 6,
+   "root": null,
+   "seconds": 0.3
+  }
+ }
+}

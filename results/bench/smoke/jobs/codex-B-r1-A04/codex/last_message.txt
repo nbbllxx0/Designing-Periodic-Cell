@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. A Ti6Al4V Schwarz P sheet estimates 28.98% solid and 7.03 GPa shear modulus, but certification is unavailable in this amm session. Compliance remains unverified, and LPBF manufacturability was not evaluated.

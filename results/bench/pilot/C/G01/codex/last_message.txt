@@ -1,0 +1,1 @@
+Released a certified 316L sphere-and-ligament unit cell with 6 mm periodicity and normalized parameters **c = 0.340756**, **w = 0.101349**. The amm certificate confirms a complete 3D elastic band gap covering **144–304 kHz**, for all directions and polarizations. The ±0.06 mm geometric-offset robustness checks also passed.

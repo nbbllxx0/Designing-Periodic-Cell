@@ -1,0 +1,1 @@
+The request is **proven infeasible** for your selected 316L. At 16% solid volume, the Voigt upper bound on axial Young’s modulus is 30.88 GPa, below the required 38.6 GPa. No design was released.

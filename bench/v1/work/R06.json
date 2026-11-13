@@ -1,0 +1,117 @@
+{
+ "material": "PA12",
+ "q": "E100",
+ "key": "E100_min",
+ "cap": 0.16,
+ "t": 0.07176470588235294,
+ "t_phys": [
+  122.0,
+  "MPa"
+ ],
+ "e_max": 0.07222965859927033,
+ "u_max": 0.07116476003728668,
+ "best_nominal": {
+  "family": "struts",
+  "kind": "sc",
+  "params": {
+   "r": 0.140435,
+   "R": 0.221818
+  }
+ },
+ "nominal_slack": 0.006478849334094795,
+ "expected_slack": -0.10170158067928604,
+ "proof": [
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "sc",
+    "params": {
+     "r": 0.140435,
+     "R": 0.221818
+    }
+   },
+   "upper": 0.07116476003728668,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.348696,
+     "w": 0.242609
+    }
+   },
+   "upper": 0.06945235666071714,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "sc",
+    "params": {
+     "r": 0.140435,
+     "R": 0.221818
+    }
+   },
+   "upper": 0.07116476003728668,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "sc",
+    "params": {
+     "r": 0.142937,
+     "R": 0.0
+    }
+   },
+   "upper": 0.07048258820482554,
+   "source": "search top 3"
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.348696,
+     "w": 0.242609
+    }
+   },
+   "upper": 0.06945235666071714,
+   "source": "atlas, nominal >= t"
+  }
+ ],
+ "n_certified": 4,
+ "id": "R06",
+ "seconds": 741.0,
+ "intended": {
+  "material": "PA12",
+  "cell_size": null,
+  "targets": {
+   "density_max": 0.16,
+   "E100_min": [
+    122.0,
+    "MPa"
+   ]
+  }
+ },
+ "truth": {
+  "decision": "release",
+  "witness": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.23,
+    "w": 0.28035
+   }
+  },
+  "certificate": "certified",
+  "corrected": true,
+  "correction": "near-miss label corrected 2026-11-06: arm C (pilot, results/bench/nearmiss/C/R06) certified this off-grid sphere_ligaments design, confirmed by an independent certificate (results/bench/posthoc, results/bench/nearmiss_relabel_check.log); the construction checked grid cells and the top 3 of one nominal search only"
+ },
+ "truth_original": {
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "near_miss": true
+ }
+}

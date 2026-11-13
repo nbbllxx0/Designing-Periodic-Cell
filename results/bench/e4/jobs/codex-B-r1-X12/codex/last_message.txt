@@ -1,0 +1,1 @@
+Submitted **PROVEN_INFEASIBLE**; no design released. A stable cubic elastic material must have a Poisson ratio along its cube axes below 0.5, so the requested minimum of 0.6 is impossible within the specified scope, regardless of PA12 properties or the 16% solid-fraction limit.

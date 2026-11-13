@@ -1,0 +1,1 @@
+Released a certified 316L **cube-bars mass-in-frame unit cell** with \(c=0.41923a\) and \(w=0.334097a\). Certified bounds meet all targets: relative density ≤26.864%, Young’s modulus along x, y, and z ≥24.12 GPa, and axial Poisson ratio ≤0.1056. The design fails the ±0.01a geometric-offset robustness check; manufacturability was not evaluated.

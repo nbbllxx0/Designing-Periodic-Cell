@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. The closest PA12 cell certifies below 20% solid, but its axial modulus range of 158.83–159.61 MPa straddles the 159 MPa requirement. Feasibility remains unresolved.

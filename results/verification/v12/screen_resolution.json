@@ -1,0 +1,110 @@
+[
+ {
+  "case": "mount_PA12",
+  "resolution": 64,
+  "voxel_mm": 0.3125,
+  "limit_mm": 0.8,
+  "solid_est_mm": 2.1875,
+  "removed_at_limit": 0.0,
+  "passed": true,
+  "screen_verdict": "screen passed",
+  "member_mm": 3.02608,
+  "seconds": 7.8
+ },
+ {
+  "case": "mount_PA12",
+  "resolution": 96,
+  "voxel_mm": 0.20833333333333334,
+  "limit_mm": 0.8,
+  "solid_est_mm": 1.875,
+  "removed_at_limit": 4.017354973484544e-05,
+  "passed": true,
+  "screen_verdict": "screen passed",
+  "member_mm": 3.02608,
+  "seconds": 27.0
+ },
+ {
+  "case": "mount_PA12",
+  "resolution": 128,
+  "voxel_mm": 0.15625,
+  "limit_mm": 0.8,
+  "solid_est_mm": 2.03125,
+  "removed_at_limit": 0.00298378861373505,
+  "passed": true,
+  "screen_verdict": "screen passed",
+  "member_mm": 3.02608,
+  "seconds": 68.0
+ },
+ {
+  "case": "filter_PA12",
+  "resolution": 64,
+  "voxel_mm": 0.15625,
+  "limit_mm": 0.8,
+  "solid_est_mm": 0.7421875,
+  "removed_at_limit": 0.025648997357376024,
+  "passed": false,
+  "screen_verdict": "screen failed",
+  "member_mm": 1.08696,
+  "seconds": 8.3
+ },
+ {
+  "case": "filter_PA12",
+  "resolution": 96,
+  "voxel_mm": 0.10416666666666667,
+  "limit_mm": 0.8,
+  "solid_est_mm": 0.9375,
+  "removed_at_limit": 0.0,
+  "passed": true,
+  "screen_verdict": "screen passed",
+  "member_mm": 1.08696,
+  "seconds": 30.8
+ },
+ {
+  "case": "filter_PA12",
+  "resolution": 128,
+  "voxel_mm": 0.078125,
+  "limit_mm": 0.8,
+  "solid_est_mm": 0.91796875,
+  "removed_at_limit": 0.0,
+  "passed": true,
+  "screen_verdict": "screen passed",
+  "member_mm": 1.08696,
+  "seconds": 77.3
+ },
+ {
+  "case": "filter_316L",
+  "resolution": 64,
+  "voxel_mm": 0.15625,
+  "limit_mm": 0.3,
+  "solid_est_mm": 1.40625,
+  "removed_at_limit": 0.0,
+  "passed": true,
+  "screen_verdict": "screen passed",
+  "member_mm": 0.6,
+  "seconds": 8.1
+ },
+ {
+  "case": "filter_316L",
+  "resolution": 96,
+  "voxel_mm": 0.10416666666666667,
+  "limit_mm": 0.3,
+  "solid_est_mm": 0.9375,
+  "removed_at_limit": 0.0,
+  "passed": true,
+  "screen_verdict": "screen passed",
+  "member_mm": 0.6,
+  "seconds": 28.9
+ },
+ {
+  "case": "filter_316L",
+  "resolution": 128,
+  "voxel_mm": 0.078125,
+  "limit_mm": 0.3,
+  "solid_est_mm": 1.015625,
+  "removed_at_limit": 7.957221974663753e-06,
+  "passed": true,
+  "screen_verdict": "screen passed",
+  "member_mm": 0.6,
+  "seconds": 73.4
+ }
+]

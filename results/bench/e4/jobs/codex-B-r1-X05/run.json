@@ -1,0 +1,33 @@
+{
+ "brief": "X05",
+ "arm": "B",
+ "profile": "B",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 35.3,
+ "usage": {
+  "input_tokens": 120662,
+  "cached_input_tokens": 112896,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 920,
+  "reasoning_output_tokens": 220
+ },
+ "final": "The request is **proven infeasible** using AMM\u2019s PA12 properties. At 23% relative density, the theoretical upper bound on E along [100] is **391 MPa**, below 587 MPa. Reaching 587 MPa requires at least **34.53% relative density**, with practical designs potentially requiring more.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-B-r1-X05",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.1,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

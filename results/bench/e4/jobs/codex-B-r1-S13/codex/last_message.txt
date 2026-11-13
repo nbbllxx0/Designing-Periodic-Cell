@@ -1,0 +1,1 @@
+Submitted **UNDETERMINED**; no design was released. The best candidate nominally achieves 26.85% relative density, 26.13 GPa axial modulus, and 0.1074 Poisson ratio, but narrowly misses the pessimistic feasibility check. Certification is unavailable in this session, so feasibility remains unresolved.

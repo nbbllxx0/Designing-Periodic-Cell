@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":[8,"mm"],"targets":{"density_max":0.42,"G_min":{"value":2.77,"unit":"GPa"},"gap":{"f_lo":216,"f_hi":250,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without homogenization and complete band-structure calculations, I cannot certify a design meeting the C44, density, and all-direction, all-polarization gap requirements."}

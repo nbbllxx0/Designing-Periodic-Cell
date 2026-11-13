@@ -1,0 +1,2318 @@
+[
+ {
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.2,
+   "w": 0.2
+  },
+  "verdict": "undetermined",
+  "truth": "true",
+  "old_cls": "false alarm (static)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention",
+    "claim_distance": 0.027193549485887702,
+    "band": 0.04261429315798045,
+    "converged": true,
+    "rung": [
+     64,
+     80,
+     96
+    ]
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "gyroid",
+  "params": {
+   "density": 0.5,
+   "mode": "sheet"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.8,
+   "w": 0.1
+  },
+  "verdict": "undetermined",
+  "truth": "undetermined",
+  "old_cls": "undetermined (reference not converged at this margin)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention",
+    "claim_distance": 1.0770094246775743,
+    "band": 0.20359277698317718,
+    "converged": false,
+    "rung": [
+     64,
+     80,
+     96
+    ]
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "undetermined",
+    "truth": "undetermined",
+    "cls": "abstention"
+   }
+  ],
+  "gap_reason": "modes inside the claimed interval at every resolution (likely false, not provable)"
+ },
+ {
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.3,
+   "w": 0.15
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.35,
+   "w": 0.15
+  },
+  "verdict": "undetermined",
+  "truth": "undetermined",
+  "old_cls": "undetermined (reference not converged at this margin)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "undetermined",
+    "truth": "undetermined",
+    "cls": "abstention"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention"
+   }
+  ],
+  "gap_reason": "modes inside the claimed interval at every resolution (likely false, not provable)"
+ },
+ {
+  "kind": "diamond",
+  "params": {
+   "density": 0.25,
+   "mode": "network"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "octet",
+  "params": {
+   "r": 0.1,
+   "R": 0.22
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "schwarz_p",
+  "params": {
+   "density": 0.25,
+   "mode": "sheet"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "iwp",
+  "params": {
+   "density": 0.5,
+   "mode": "network"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.3,
+   "w": 0.25
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.25,
+   "w": 0.2
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.4,
+   "w": 0.2
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "gyroid",
+  "params": {
+   "density": 0.35,
+   "mode": "network"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.7,
+   "w": 0.2
+  },
+  "verdict": "undetermined",
+  "truth": "false",
+  "old_cls": "correct refusal (claim false)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "undetermined",
+    "truth": "false",
+    "cls": "abstention"
+   }
+  ],
+  "gap_reason": "modes inside the claimed interval at every resolution (likely false, not provable)"
+ },
+ {
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.6,
+   "w": 0.2
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "gyroid",
+  "params": {
+   "density": 0.35,
+   "mode": "sheet"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "bcc",
+  "params": {
+   "r": 0.1,
+   "R": 0.22
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.25,
+   "w": 0.25
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "iwp",
+  "params": {
+   "density": 0.25,
+   "mode": "network"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "iwp",
+  "params": {
+   "density": 0.15,
+   "mode": "network"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "gyroid",
+  "params": {
+   "density": 0.25,
+   "mode": "sheet"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "schwarz_p",
+  "params": {
+   "density": 0.15,
+   "mode": "sheet"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "diamond",
+  "params": {
+   "density": 0.35,
+   "mode": "sheet"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "schwarz_p",
+  "params": {
+   "density": 0.35,
+   "mode": "network"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.7,
+   "w": 0.15
+  },
+  "verdict": "undetermined",
+  "truth": "false",
+  "old_cls": "correct refusal (claim false)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention",
+    "claim_distance": 0.4548088447779832,
+    "band": 0.11140752012820455,
+    "converged": false,
+    "rung": [
+     64,
+     80,
+     96
+    ]
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "undetermined",
+    "truth": "false",
+    "cls": "abstention"
+   }
+  ],
+  "gap_reason": "modes inside the claimed interval at every resolution (likely false, not provable)"
+ },
+ {
+  "kind": "bcc",
+  "params": {
+   "r": 0.1,
+   "R": 0.0
+  },
+  "verdict": "undetermined",
+  "truth": "true",
+  "old_cls": "false alarm (static)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention",
+    "claim_distance": 0.0643983479729282,
+    "band": 0.12245400264760002,
+    "converged": false,
+    "rung": [
+     64,
+     80,
+     96
+    ]
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "diamond",
+  "params": {
+   "density": 0.25,
+   "mode": "sheet"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.3,
+   "w": 0.1
+  },
+  "verdict": "undetermined",
+  "truth": "true",
+  "old_cls": "false alarm (static)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention",
+    "claim_distance": 0.07394887191504385,
+    "band": 0.10460768235063157,
+    "converged": true,
+    "rung": [
+     64,
+     80,
+     96
+    ]
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.7,
+   "w": 0.3
+  },
+  "verdict": "undetermined",
+  "truth": "false",
+  "old_cls": "correct refusal (claim false)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "undetermined",
+    "truth": "false",
+    "cls": "abstention"
+   }
+  ],
+  "gap_reason": "modes inside the claimed interval at every resolution (likely false, not provable)"
+ },
+ {
+  "kind": "gyroid",
+  "params": {
+   "density": 0.15,
+   "mode": "sheet"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.35,
+   "w": 0.1
+  },
+  "verdict": "undetermined",
+  "truth": "false",
+  "old_cls": "correct refusal (claim false)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention",
+    "claim_distance": 0.02241528831614681,
+    "band": 0.16601787984297922,
+    "converged": false,
+    "rung": [
+     64,
+     80,
+     96
+    ]
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "undetermined",
+    "truth": "false",
+    "cls": "abstention"
+   }
+  ],
+  "gap_reason": "modes inside the claimed interval at every resolution (likely false, not provable)"
+ },
+ {
+  "kind": "octet",
+  "params": {
+   "r": 0.1,
+   "R": 0.0
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "bcc",
+  "params": {
+   "r": 0.06,
+   "R": 0.22
+  },
+  "verdict": "undetermined",
+  "truth": "undetermined",
+  "old_cls": "undetermined (reference not converged at this margin)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention",
+    "claim_distance": 0.023240397828319326,
+    "band": 0.14642275308065,
+    "converged": false,
+    "rung": [
+     64,
+     80,
+     96
+    ]
+   },
+   {
+    "key": "G_min",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention",
+    "claim_distance": 0.029068538120485377,
+    "band": 0.06970261862660558,
+    "converged": true,
+    "rung": [
+     64,
+     80,
+     96
+    ]
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "undetermined",
+    "truth": "undetermined",
+    "cls": "abstention"
+   }
+  ],
+  "gap_reason": "claim inside the edge guard band"
+ },
+ {
+  "kind": "sc",
+  "params": {
+   "r": 0.1,
+   "R": 0.22
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.5,
+   "w": 0.3
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "gyroid",
+  "params": {
+   "density": 0.25,
+   "mode": "network"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "sc",
+  "params": {
+   "r": 0.1,
+   "R": 0.15
+  },
+  "verdict": "undetermined",
+  "truth": "true",
+  "old_cls": "false alarm (static)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention",
+    "claim_distance": 0.030940228453376184,
+    "band": 0.036545028743685905,
+    "converged": true,
+    "rung": [
+     64,
+     80,
+     96
+    ]
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "iwp",
+  "params": {
+   "density": 0.35,
+   "mode": "sheet"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "bcc",
+  "params": {
+   "r": 0.1,
+   "R": 0.15
+  },
+  "verdict": "undetermined",
+  "truth": "true",
+  "old_cls": "false alarm (static)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention",
+    "claim_distance": 0.06593942717166956,
+    "band": 0.11356675600284429,
+    "converged": false,
+    "rung": [
+     64,
+     80,
+     96
+    ]
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "iwp",
+  "params": {
+   "density": 0.35,
+   "mode": "network"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "schwarz_p",
+  "params": {
+   "density": 0.25,
+   "mode": "network"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "gyroid",
+  "params": {
+   "density": 0.5,
+   "mode": "network"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "iwp",
+  "params": {
+   "density": 0.25,
+   "mode": "sheet"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "octet",
+  "params": {
+   "r": 0.06,
+   "R": 0.0
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.4,
+   "w": 0.2
+  },
+  "verdict": "undetermined",
+  "truth": "undetermined",
+  "old_cls": "undetermined (reference not converged at this margin)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "undetermined",
+    "truth": "undetermined",
+    "cls": "abstention"
+   }
+  ],
+  "gap_reason": "modes inside the claimed interval at every resolution (likely false, not provable)"
+ },
+ {
+  "kind": "octet",
+  "params": {
+   "r": 0.06,
+   "R": 0.15
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "iwp",
+  "params": {
+   "density": 0.15,
+   "mode": "sheet"
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "sc",
+  "params": {
+   "r": 0.06,
+   "R": 0.22
+  },
+  "verdict": "undetermined",
+  "truth": "true",
+  "old_cls": "false alarm (static)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention",
+    "claim_distance": 0.15185766881587348,
+    "band": 0.1206838102120826,
+    "converged": false,
+    "rung": [
+     64,
+     80,
+     96
+    ]
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ },
+ {
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.3,
+   "w": 0.2
+  },
+  "verdict": "undetermined",
+  "truth": "undetermined",
+  "old_cls": "undetermined (reference not converged at this margin)",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "undetermined",
+    "truth": "undetermined",
+    "cls": "abstention"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "gap",
+    "verdict": "undetermined",
+    "truth": "true",
+    "cls": "abstention"
+   }
+  ],
+  "gap_reason": "modes inside the claimed interval at every resolution (likely false, not provable)"
+ },
+ {
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.4,
+   "w": 0.15
+  },
+  "verdict": "certified",
+  "truth": "true",
+  "old_cls": "accepted",
+  "targets": [
+   {
+    "key": "density_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "E100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "G_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_min",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   },
+   {
+    "key": "nu100_max",
+    "verdict": "certified",
+    "truth": "true",
+    "cls": "certified"
+   }
+  ],
+  "gap_reason": null
+ }
+]

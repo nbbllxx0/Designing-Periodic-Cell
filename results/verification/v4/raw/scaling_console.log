@@ -1,0 +1,47 @@
+﻿static 16 16 {'ndof': 5118, 't_geometry_s': 0.095, 't_mesh_s': 0.05, 't_homogenize_s': [0.554, 0.431], 't_assemble_s': 0.008, 't_factor_s': 0.021, 't_solve6_s': 0.007} 132.7
+static 24 16 {'ndof': 17826, 't_geometry_s': 0.095, 't_mesh_s': 0.154, 't_homogenize_s': [0.669, 0.557], 't_assemble_s': 0.027, 't_factor_s': 0.071, 't_solve6_s': 0.041} 312.6
+static 32 16 {'ndof': 35802, 't_geometry_s': 0.093, 't_mesh_s': 0.33, 't_homogenize_s': [0.898, 0.782], 't_assemble_s': 0.059, 't_factor_s': 0.183, 't_solve6_s': 0.103} 587.1
+static 48 16 {'ndof': 107886, 't_geometry_s': 0.102, 't_mesh_s': 1.065, 't_homogenize_s': [2.513, 2.171], 't_assemble_s': 0.172, 't_factor_s': 1.003, 't_solve6_s': 0.395} 1894.5
+static 64 16 {'ndof': 253338, 't_geometry_s': 0.233, 't_mesh_s': 2.543, 't_homogenize_s': [7.047, 6.747], 't_assemble_s': 0.406, 't_factor_s': 4.529, 't_solve6_s': 0.884} 5088.1
+bloch_cpu 10 16 {'ndof': 1272, 't_geometry_s': 0.103, 't_mesh_s': 0.008, 't_count_first_s': 0.032, 't_count_per_factor_s': 0.022, 't_edge_lanczos_s': 0.126} 129.6
+bloch_cpu 20 16 {'ndof': 8166, 't_geometry_s': 0.106, 't_mesh_s': 0.061, 't_count_first_s': 0.259, 't_count_per_factor_s': 0.138, 't_edge_lanczos_s': 1.103} 311.9
+bloch_cpu 30 16 {'ndof': 25428, 't_geometry_s': 0.178, 't_mesh_s': 0.215, 't_count_first_s': 1.078, 't_count_per_factor_s': 0.658, 't_edge_lanczos_s': 4.413} 998.4
+bloch_cpu 40 16 {'ndof': 57810, 't_geometry_s': 0.186, 't_mesh_s': 0.522, 't_count_first_s': 3.397, 't_count_per_factor_s': 2.299, 't_edge_lanczos_s': 12.609} 2542.5
+bloch_gpu 10 16 {'ndof': 1272, 't_geometry_s': 0.1, 't_mesh_s': 0.008, 't_setup_s': 0.112, 't_1k_s': [0.278, 0.016, 0.015], 't_path21_s': 0.306, 'gpu_peak_alloc_mb': 1575.6} 883.8
+bloch_gpu 20 16 {'ndof': 8166, 't_geometry_s': 0.102, 't_mesh_s': 0.061, 't_setup_s': 0.227, 't_1k_s': [1.574, 1.254, 1.254], 'gpu_peak_alloc_mb': 3626.3} 886.5
+python.exe : Traceback (most recent call last):
+At line:1 char:441
++ ... start $t0"; & C:/Users/nbbll/anaconda3/envs/amm/python.exe scripts/op ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\AI\AgenticMetamaterials\scripts\verify\v4\scaling.py", line 184, in <module>
+    driver()
+  File "C:\AI\AgenticMetamaterials\scripts\verify\v4\scaling.py", line 166, in driver
+    r = common.run_child(args, dict(MKL_NUM_THREADS=th, OMP_NUM_THREADS=th))
+  File "C:\AI\AgenticMetamaterials\scripts\verify\v4\common.py", line 72, in run_child
+    raise RuntimeError(f"child {args} failed (rc {p.returncode}):\n{p.stdout[-2000:]}\n{p.stderr[-4000:]}")
+RuntimeError: child ['C:\\AI\\AgenticMetamaterials\\scripts\\verify\\v4\\scaling.py', '--child', 'bloch_gpu', '30'] 
+failed (rc 1):
+
+Traceback (most recent call last):
+  File "C:\AI\AgenticMetamaterials\scripts\verify\v4\scaling.py", line 182, in <module>
+    child_bloch_gpu(int(a[1]))
+  File "C:\AI\AgenticMetamaterials\scripts\verify\v4\scaling.py", line 129, in child_bloch_gpu
+    gb(ks[i * 5:i * 5 + 1], nev=24)
+  File "C:\AI\AgenticMetamaterials\amm\bloch.py", line 130, in __call__
+    A = torch.linalg.solve_triangular(L, A.mH, upper=False)  # L^-1 K L^-H (Hermitian)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 4.82 GiB. GPU 0 has a total capacity of 23.99 GiB of 
+which 2.32 GiB is free. Of the allocated memory 19.44 GiB is allocated by PyTorch, and 15.19 MiB is reserved by 
+PyTorch but unallocated. If reserved but unallocated memory is large try setting 
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  
+(https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+bloch_gpu 30 16 {'ndof': 25428, 't_geometry_s': 0.184, 't_mesh_s': 0.214, 'skipped': 'CUDA out of memory at one k-point (CUDA out of memory. Tried to allocate 4.82 GiB. GPU 0 has a total capacity of 23.99 GiB of which 2.35 GiB is free. Of the allocated memory 19.44 GiB is allocated by PyTorch, and 15.19 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables))', 'gpu_peak_alloc_mb': 19904.8} None
+static 48 4 {'ndof': 107886, 't_geometry_s': 0.097, 't_mesh_s': 1.051, 't_homogenize_s': [2.71, 2.605], 't_assemble_s': 0.173, 't_factor_s': 1.592, 't_solve6_s': 0.248} 1828.2
+static 48 8 {'ndof': 107886, 't_geometry_s': 0.1, 't_mesh_s': 1.063, 't_homogenize_s': [2.056, 1.944], 't_assemble_s': 0.169, 't_factor_s': 0.927, 't_solve6_s': 0.234} 1852.8
+static 48 24 {'ndof': 107886, 't_geometry_s': 0.098, 't_mesh_s': 1.057, 't_homogenize_s': [2.331, 2.247], 't_assemble_s': 0.175, 't_factor_s': 1.059, 't_solve6_s': 0.46} 1938.3
+bloch_cpu 30 4 {'ndof': 25428, 't_geometry_s': 0.178, 't_mesh_s': 0.215, 't_count_first_s': 1.329, 't_count_per_factor_s': 0.887, 't_edge_lanczos_s': 4.74} 953.9
+bloch_cpu 30 8 {'ndof': 25428, 't_geometry_s': 0.182, 't_mesh_s': 0.218, 't_count_first_s': 1.003, 't_count_per_factor_s': 0.6, 't_edge_lanczos_s': 4.336} 968.2
+bloch_cpu 30 24 {'ndof': 25428, 't_geometry_s': 0.18, 't_mesh_s': 0.216, 't_count_first_s': 1.076, 't_count_per_factor_s': 0.671, 't_edge_lanczos_s': 4.379} 1026.3

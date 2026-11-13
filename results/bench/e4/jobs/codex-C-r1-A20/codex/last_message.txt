@@ -1,0 +1,1 @@
+Released a certified PA12 cube-and-bars unit cell with parameters \(c=0.397391a\), \(w=0.32087a\), where \(a\) is the cell size. Certified bounds meet both requirements: solid volume ≤24.93% and \(E_{[100]}\ge204.1\) MPa, exceeding the clarified 134 MPa minimum. SLS manufacturability was not evaluated.

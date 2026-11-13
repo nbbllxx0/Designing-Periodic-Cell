@@ -1,0 +1,11 @@
+{
+ "rows": 814,
+ "load_bearing": 805,
+ "max_rel_err": 2.307401272166171,
+ "median_rel_err": 7.661723239366191e-15,
+ "n_above_1e_8": 5,
+ "rho_mismatch_rows": 5,
+ "max_rel_err_when_density_matches": 8.610532674736651e-14,
+ "non_load_bearing_rows": 9,
+ "non_load_bearing_ours_max_norm": 2.682187551102114e-14
+}

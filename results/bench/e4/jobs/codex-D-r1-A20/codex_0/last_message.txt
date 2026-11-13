@@ -1,0 +1,1 @@
+{"decision":"ask","question":"What unit do you intend for the minimum Young’s modulus along [100] of 134?","options":[{"label":"134 MPa","set":{"E100_min":{"value":134,"unit":"MPa"}}},{"label":"134 GPa","set":{"E100_min":{"value":134,"unit":"GPa"}}}]}

@@ -1,0 +1,1 @@
+No design released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm searches found no PA12 cell reliably meeting both ≤16% solid fraction and ≥122 MPa axial modulus. A nominal near miss failed to establish compliance after accounting for model bias; this does not prove physical infeasibility.

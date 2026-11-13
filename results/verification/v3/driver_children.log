@@ -1,0 +1,831 @@
+
+### 2026-11-07 19:03:42 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py M13 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[M13] warm-up 3.9 s
+[M13] M1 atlas_only: 0 evals, 0.9 s, final sphere_ligaments nominal -0.0396 expected -0.0418 (eval 0, atlas True)
+[M13] M2 sobol: 48 evals, 50.8 s, final schwarz_p nominal -0.1476 expected -0.0840 (eval 42, atlas False)
+[M13] M3 de: 48 evals, 51.1 s, final sphere_ligaments nominal -0.1231 expected -0.1231 (eval 36, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[M13] M4 bo_full: 48 evals, 45.7 s, final sphere_ligaments nominal -0.0396 expected -0.0418 (eval 0, atlas True)
+[M13] M5 bo_no_seed: 48 evals, 49.5 s, final schwarz_p nominal -0.1166 expected -0.0768 (eval 46, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[M13] M6 bo_no_correction: 48 evals, 41.2 s, final cube_bars nominal -0.0154 expected -0.1479 (eval 0, atlas True)
+
+### 2026-11-07 19:07:48 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py M13 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+
+### 2026-11-07 19:07:49 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py S14 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S14] warm-up 3.4 s
+[S14] M1 atlas_only: 0 evals, 0.2 s, final schwarz_p nominal +0.0323 expected -0.0004 (eval 0, atlas True)
+[S14] M2 sobol: 48 evals, 50.5 s, final diamond nominal -0.0069 expected -0.0072 (eval 22, atlas False)
+[S14] M3 de: 48 evals, 45.5 s, final diamond nominal -0.0360 expected -0.0363 (eval 44, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S14] M4 bo_full: 48 evals, 80.0 s, final diamond nominal +0.0151 expected +0.0137 (eval 26, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S14] M5 bo_no_seed: 48 evals, 59.9 s, final diamond nominal -0.0200 expected -0.0203 (eval 16, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S14] M6 bo_no_correction: 48 evals, 69.4 s, final schwarz_p nominal +0.0323 expected -0.0038 (eval 10, atlas False)
+
+### 2026-11-07 19:12:59 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py S14 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S14] cert schwarz_p {'density': 0.3, 'mode': 'sheet'} for ['M1']: certified in 112 s (certified slack 0.024145207235433393)
+[S14] cert diamond {'density': 0.305441, 'mode': 'sheet'} for ['M4']: certified in 132 s (certified slack 0.0146348320896729)
+[S14] cert schwarz_p {'density': 0.299185, 'mode': 'sheet'} for ['M6']: certified in 111 s (certified slack 0.020623947212335472)
+
+### 2026-11-07 19:18:55 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py G06 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G06] warm-up 4.5 s
+[G06] M1 atlas_only: 0 evals, 0.8 s, final sphere_ligaments nominal +0.5496 expected +0.5174 (eval 0, atlas True)
+[G06] M2 sobol: 48 evals, 50.5 s, final sphere_ligaments nominal +0.1502 expected +0.1240 (eval 41, atlas False)
+[G06] M3 de: 48 evals, 47.9 s, final sphere_ligaments nominal +0.4793 expected +0.2888 (eval 42, atlas False)
+[G06] M4 bo_full: 48 evals, 42.7 s, final sphere_ligaments nominal +0.5496 expected +0.5174 (eval 0, atlas True)
+[G06] M5 bo_no_seed: 48 evals, 49.3 s, final sphere_ligaments nominal +0.5103 expected +0.4699 (eval 48, atlas False)
+[G06] M6 bo_no_correction: 48 evals, 36.5 s, final sphere_ligaments nominal +0.5752 expected +0.3998 (eval 0, atlas True)
+
+### 2026-11-07 19:22:50 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py G06 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G06] cert sphere_ligaments {'c': 0.326957, 'w': 0.06} for ['M1', 'M4']: undetermined in 230 s (certified slack None)
+[G06] cert sphere_ligaments {'c': 0.439527, 'w': 0.06788} for ['M2']: certified in 583 s (certified slack 0.3205281152986832)
+[G06] cert sphere_ligaments {'c': 0.400931, 'w': 0.069501} for ['M3']: undetermined in 389 s (certified slack None)
+[G06] cert sphere_ligaments {'c': 0.342472, 'w': 0.067114} for ['M5']: undetermined in 214 s (certified slack -0.3149583762345165)
+[G06] cert sphere_ligaments {'c': 0.371304, 'w': 0.06} for ['M6']: certified in 310 s (certified slack 0.20048170047477082)
+
+### 2026-11-07 19:51:38 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py S11 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S11] warm-up 3.6 s
+[S11] M1 atlas_only: 0 evals, 0.2 s, final iwp nominal +0.2501 expected +0.2499 (eval 0, atlas True)
+[S11] M2 sobol: 48 evals, 50.4 s, final iwp nominal +0.2077 expected +0.2075 (eval 29, atlas False)
+[S11] M3 de: 48 evals, 55.8 s, final iwp nominal +0.2600 expected +0.2290 (eval 26, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S11] M4 bo_full: 48 evals, 59.0 s, final iwp nominal +0.2501 expected +0.2499 (eval 0, atlas True)
+[S11] M5 bo_no_seed: 48 evals, 59.5 s, final iwp nominal +0.2452 expected +0.2450 (eval 23, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S11] M6 bo_no_correction: 48 evals, 60.8 s, final iwp nominal +0.2598 expected +0.2297 (eval 42, atlas False)
+
+### 2026-11-07 19:56:28 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py S11 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S11] cert iwp {'density': 0.36, 'mode': 'network'} for ['M1', 'M4']: certified in 107 s (certified slack 0.24989202436481497)
+[S11] cert iwp {'density': 0.380292, 'mode': 'sheet'} for ['M2']: certified in 146 s (certified slack 0.20769415030687072)
+[S11] cert iwp {'density': 0.355267, 'mode': 'network'} for ['M3']: certified in 104 s (certified slack 0.24386070541518212)
+[S11] cert iwp {'density': 0.362466, 'mode': 'sheet'} for ['M5']: certified in 142 s (certified slack 0.1946087976518873)
+[S11] cert iwp {'density': 0.355413, 'mode': 'network'} for ['M6']: certified in 105 s (certified slack 0.24455287216319588)
+
+### 2026-11-07 20:06:33 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py G07 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G07] warm-up 3.3 s
+[G07] M1 atlas_only: 0 evals, 0.8 s, final sphere_ligaments nominal +0.4872 expected +0.6108 (eval 0, atlas True)
+[G07] M2 sobol: 48 evals, 51.7 s, final sphere_ligaments nominal +0.0358 expected +0.1611 (eval 41, atlas False)
+[G07] M3 de: 48 evals, 48.8 s, final sphere_ligaments nominal -0.0283 expected +0.1071 (eval 12, atlas False)
+[G07] M4 bo_full: 48 evals, 41.2 s, final sphere_ligaments nominal +0.4872 expected +0.6108 (eval 0, atlas True)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[G07] M5 bo_no_seed: 48 evals, 49.3 s, final sphere_ligaments nominal +0.3780 expected +0.4861 (eval 48, atlas False)
+[G07] M6 bo_no_correction: 48 evals, 41.2 s, final sphere_ligaments nominal +0.5502 expected +0.3781 (eval 34, atlas False)
+
+### 2026-11-07 20:10:33 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py G07 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G07] cert sphere_ligaments {'c': 0.326957, 'w': 0.06} for ['M1', 'M4']: undetermined in 194 s (certified slack None)
+[G07] cert sphere_ligaments {'c': 0.439527, 'w': 0.06788} for ['M2']: undetermined in 574 s (certified slack None)
+[G07] cert sphere_ligaments {'c': 0.35479, 'w': 0.083455} for ['M5']: certified in 250 s (certified slack 0.22124212078736308)
+[G07] cert sphere_ligaments {'c': 0.402036, 'w': 0.060598} for ['M6']: certified in 459 s (certified slack 0.5028987023870425)
+
+### 2026-11-07 20:35:11 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py S20 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S20] warm-up 3.3 s
+[S20] M1 atlas_only: 0 evals, 0.2 s, final schwarz_p nominal +0.2002 expected +0.1999 (eval 0, atlas True)
+[S20] M2 sobol: 48 evals, 51.2 s, final diamond nominal +0.1082 expected +0.1079 (eval 22, atlas False)
+[S20] M3 de: 48 evals, 48.8 s, final gyroid nominal +0.1489 expected +0.1487 (eval 27, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S20] M4 bo_full: 48 evals, 66.4 s, final schwarz_p nominal +0.2097 expected +0.2084 (eval 34, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S20] M5 bo_no_seed: 48 evals, 58.9 s, final diamond nominal +0.0965 expected +0.0963 (eval 16, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S20] M6 bo_no_correction: 48 evals, 76.6 s, final gyroid nominal +0.2003 expected +0.1925 (eval 0, atlas True)
+
+### 2026-11-07 20:40:18 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py S20 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S20] cert schwarz_p {'density': 0.28, 'mode': 'sheet'} for ['M1']: certified in 97 s (certified slack 0.18692023398633617)
+[S20] cert diamond {'density': 0.312406, 'mode': 'sheet'} for ['M2']: certified in 133 s (certified slack 0.10738828861728358)
+[S20] cert gyroid {'density': 0.297885, 'mode': 'sheet'} for ['M3']: certified in 122 s (certified slack 0.1487317774115076)
+[S20] cert schwarz_p {'density': 0.276607, 'mode': 'sheet'} for ['M4']: certified in 96 s (certified slack 0.16070495058389722)
+[S20] cert diamond {'density': 0.316558, 'mode': 'sheet'} for ['M5']: certified in 140 s (certified slack 0.09526967396797545)
+[S20] cert gyroid {'density': 0.28, 'mode': 'sheet'} for ['M6']: certified in 111 s (certified slack 0.17091202498193817)
+
+### 2026-11-07 20:51:59 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py G15 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G15] warm-up 3.3 s
+[G15] M1 atlas_only: 0 evals, 0.8 s, final sphere_ligaments nominal +0.5213 expected +0.5438 (eval 0, atlas True)
+[G15] M2 sobol: 48 evals, 50.8 s, final sphere_ligaments nominal +0.1108 expected +0.1394 (eval 41, atlas False)
+[G15] M3 de: 48 evals, 48.8 s, final sphere_ligaments nominal +0.0260 expected +0.1551 (eval 12, atlas False)
+[G15] M4 bo_full: 48 evals, 45.0 s, final sphere_ligaments nominal +0.5213 expected +0.5438 (eval 0, atlas True)
+[G15] M5 bo_no_seed: 48 evals, 49.4 s, final sphere_ligaments nominal +0.3869 expected +0.4047 (eval 48, atlas False)
+[G15] M6 bo_no_correction: 48 evals, 38.4 s, final sphere_ligaments nominal +0.5681 expected +0.3701 (eval 0, atlas True)
+
+### 2026-11-07 20:55:58 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py G15 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G15] cert sphere_ligaments {'c': 0.326957, 'w': 0.06} for ['M1', 'M4']: undetermined in 231 s (certified slack None)
+[G15] cert sphere_ligaments {'c': 0.439527, 'w': 0.06788} for ['M2']: certified in 583 s (certified slack 0.34141424486316474)
+[G15] cert sphere_ligaments {'c': 0.399138, 'w': 0.203013} for ['M3']: certified in 446 s (certified slack 0.07947073273344335)
+[G15] cert sphere_ligaments {'c': 0.35276, 'w': 0.087704} for ['M5']: certified in 249 s (certified slack 0.21803653250038557)
+[G15] cert sphere_ligaments {'c': 0.386087, 'w': 0.06} for ['M6']: certified in 406 s (certified slack 0.4983373826101188)
+
+### 2026-11-07 21:27:54 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py M06 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[M06] warm-up 3.3 s
+[M06] M1 atlas_only: 0 evals, 0.8 s, final bcc nominal +0.1947 expected +0.3213 (eval 0, atlas True)
+[M06] M2 sobol: 48 evals, 50.6 s, final sphere_ligaments nominal -0.1933 expected -0.0593 (eval 25, atlas False)
+[M06] M3 de: 48 evals, 37.9 s, final bcc nominal +0.2068 expected +0.1196 (eval 9, atlas False)
+[M06] M4 bo_full: 48 evals, 53.6 s, final bcc nominal +0.2113 expected +0.3379 (eval 25, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[M06] M5 bo_no_seed: 48 evals, 49.6 s, final sphere_ligaments nominal +0.0043 expected +0.1200 (eval 48, atlas False)
+[M06] M6 bo_no_correction: 48 evals, 54.1 s, final bcc nominal +0.3036 expected +0.2352 (eval 0, atlas True)
+
+### 2026-11-07 21:32:06 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py M06 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[M06] cert bcc {'r': 0.063913, 'R': 0.309091} for ['M1']: certified in 687 s (certified slack 0.338151213450101)
+[M06] cert bcc {'r': 0.061624, 'R': 0.261477} for ['M3']: certified in 247 s (certified slack 0.04244958522546047)
+[M06] cert bcc {'r': 0.062644, 'R': 0.311253} for ['M4']: certified in 571 s (certified slack 0.3394138162656115)
+[M06] cert sphere_ligaments {'c': 0.433616, 'w': 0.276552} for ['M5']: certified in 631 s (certified slack 0.04321388191275878)
+[M06] cert bcc {'r': 0.054348, 'R': 0.32} for ['M6']: undetermined in 564 s (certified slack None)
+
+### 2026-11-07 22:17:09 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py S18 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S18] warm-up 3.3 s
+[S18] M1 atlas_only: 0 evals, 0.2 s, final cube_bars nominal +0.0193 expected +0.0134 (eval 0, atlas True)
+[S18] M2 sobol: 48 evals, 50.7 s, final diamond nominal -0.0764 expected -0.0766 (eval 22, atlas False)
+[S18] M3 de: 48 evals, 47.7 s, final iwp nominal +0.0082 expected -0.0166 (eval 44, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S18] M4 bo_full: 48 evals, 38.1 s, final cube_bars nominal +0.0175 expected +0.0175 (eval 2, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S18] M5 bo_no_seed: 48 evals, 57.8 s, final diamond nominal -0.0904 expected -0.0907 (eval 16, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S18] M6 bo_no_correction: 48 evals, 38.6 s, final cube_bars nominal +0.0335 expected -0.0068 (eval 10, atlas False)
+
+### 2026-11-07 22:21:06 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py S18 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S18] cert cube_bars {'c': 0.421739, 'w': 0.346957} for ['M1']: certified in 74 s (certified slack 0.011990573076921833)
+[S18] cert iwp {'density': 0.285786, 'mode': 'network'} for ['M3']: refuted in 474 s (certified slack -0.006973927034294305)
+[S18] cert cube_bars {'c': 0.429565, 'w': 0.346066} for ['M4']: certified in 73 s (certified slack 0.015242147635494856)
+[S18] cert cube_bars {'c': 0.447815, 'w': 0.339124} for ['M6']: undetermined in 570 s (certified slack -0.013081734506818782)
+
+### 2026-11-07 22:40:59 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py M05 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[M05] warm-up 3.5 s
+[M05] M1 atlas_only: 0 evals, 0.8 s, final sphere_ligaments nominal +0.1205 expected +0.1994 (eval 0, atlas True)
+[M05] M2 sobol: 48 evals, 50.6 s, final cube_bars nominal -0.1492 expected -0.1839 (eval 8, atlas False)
+[M05] M3 de: 48 evals, 41.7 s, final schwarz_p nominal -0.0037 expected +0.0788 (eval 18, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[M05] M4 bo_full: 48 evals, 32.5 s, final sphere_ligaments nominal +0.1341 expected +0.2291 (eval 38, atlas False)
+[M05] M5 bo_no_seed: 48 evals, 49.4 s, final cube_bars nominal -0.1199 expected -0.1518 (eval 34, atlas False)
+[M05] M6 bo_no_correction: 48 evals, 33.3 s, final sc nominal +0.2190 expected +0.0471 (eval 18, atlas False)
+
+### 2026-11-07 22:44:33 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py M05 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[M05] cert sphere_ligaments {'c': 0.341739, 'w': 0.133043} for ['M1']: undetermined in 220 s (certified slack None)
+[M05] cert sphere_ligaments {'c': 0.345576, 'w': 0.12838} for ['M4']: certified in 328 s (certified slack 0.1695405808570411)
+[M05] cert sc {'r': 0.063975, 'R': 0.31893} for ['M6']: undetermined in 250 s (certified slack None)
+
+### 2026-11-07 22:57:53 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py G09 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G09] warm-up 3.3 s
+[G09] M1 atlas_only: 0 evals, 0.8 s, final cube_bars nominal +0.6397 expected +0.7639 (eval 0, atlas True)
+[G09] M2 sobol: 48 evals, 50.5 s, final sc nominal +0.3952 expected +0.5159 (eval 44, atlas False)
+[G09] M3 de: 48 evals, 44.8 s, final cube_bars nominal +0.3900 expected +0.4621 (eval 46, atlas False)
+[G09] M4 bo_full: 48 evals, 34.9 s, final cube_bars nominal +0.6397 expected +0.7639 (eval 0, atlas True)
+[G09] M5 bo_no_seed: 48 evals, 50.0 s, final cube_bars nominal +0.6057 expected +0.7402 (eval 45, atlas False)
+[G09] M6 bo_no_correction: 48 evals, 38.1 s, final cube_bars nominal +0.6397 expected +0.7639 (eval 0, atlas True)
+
+### 2026-11-07 23:01:38 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py G09 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G09] cert cube_bars {'c': 0.592174, 'w': 0.06} for ['M1', 'M4', 'M6']: certified in 226 s (certified slack 0.13890201351577236)
+[G09] cert sc {'r': 0.044729, 'R': 0.287388} for ['M2']: undetermined in 144 s (certified slack -0.5411185426858213)
+[G09] cert cube_bars {'c': 0.733063, 'w': 0.108534} for ['M3']: undetermined in 757 s (certified slack None)
+[G09] cert cube_bars {'c': 0.549975, 'w': 0.060681} for ['M5']: undetermined in 211 s (certified slack None)
+
+### 2026-11-07 23:23:57 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py S08 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S08] warm-up 3.3 s
+[S08] M1 atlas_only: 0 evals, 0.2 s, final cube_bars nominal +0.3364 expected +0.3364 (eval 0, atlas True)
+[S08] M2 sobol: 48 evals, 50.4 s, final iwp nominal +0.3009 expected +0.3007 (eval 43, atlas False)
+[S08] M3 de: 48 evals, 55.0 s, final iwp nominal +0.3198 expected +0.3196 (eval 25, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S08] M4 bo_full: 48 evals, 44.6 s, final cube_bars nominal +0.3393 expected +0.3393 (eval 10, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S08] M5 bo_no_seed: 48 evals, 55.8 s, final iwp nominal +0.3406 expected +0.3341 (eval 19, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S08] M6 bo_no_correction: 48 evals, 42.8 s, final cube_bars nominal +0.3648 expected +0.3130 (eval 0, atlas True)
+
+### 2026-11-07 23:28:10 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py S08 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S08] cert cube_bars {'c': 0.494783, 'w': 0.36} for ['M1']: certified in 283 s (certified slack 0.33800158871686187)
+[S08] cert iwp {'density': 0.335583, 'mode': 'network'} for ['M2']: certified in 96 s (certified slack 0.3008070348735022)
+[S08] cert iwp {'density': 0.326546, 'mode': 'sheet'} for ['M3']: certified in 118 s (certified slack 0.27797662069487233)
+[S08] cert cube_bars {'c': 0.506961, 'w': 0.355224} for ['M4']: certified in 96 s (certified slack 0.32480652286929085)
+[S08] cert iwp {'density': 0.316558, 'mode': 'network'} for ['M5']: certified in 90 s (certified slack 0.34042579350089286)
+[S08] cert cube_bars {'c': 0.446087, 'w': 0.36} for ['M6']: certified in 82 s (certified slack 0.3069795378069066)
+
+### 2026-11-07 23:40:57 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py S19 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S19] warm-up 3.3 s
+[S19] M1 atlas_only: 0 evals, 0.2 s, final schwarz_p nominal +0.1250 expected +0.1248 (eval 0, atlas True)
+[S19] M2 sobol: 48 evals, 50.4 s, final diamond nominal -0.1020 expected -0.1023 (eval 6, atlas False)
+[S19] M3 de: 48 evals, 45.2 s, final schwarz_p nominal +0.1295 expected +0.1293 (eval 48, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S19] M4 bo_full: 48 evals, 41.7 s, final schwarz_p nominal +0.1250 expected +0.1248 (eval 0, atlas True)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S19] M5 bo_no_seed: 48 evals, 54.5 s, final bcc nominal -0.0445 expected -0.0429 (eval 28, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S19] M6 bo_no_correction: 48 evals, 40.8 s, final schwarz_p nominal +0.1250 expected +0.1248 (eval 0, atlas True)
+
+### 2026-11-07 23:44:55 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py S19 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S19] cert schwarz_p {'density': 0.14, 'mode': 'sheet'} for ['M1', 'M4', 'M6']: certified in 54 s (certified slack 0.12492195957572866)
+[S19] cert schwarz_p {'density': 0.139276, 'mode': 'sheet'} for ['M3']: certified in 54 s (certified slack 0.1294251697361028)
+
+### 2026-11-07 23:46:43 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py S07 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S07] warm-up 3.6 s
+[S07] M1 atlas_only: 0 evals, 0.2 s, final schwarz_p nominal +0.3895 expected +0.3893 (eval 0, atlas True)
+[S07] M2 sobol: 48 evals, 50.3 s, final schwarz_p nominal +0.3734 expected +0.3732 (eval 26, atlas False)
+[S07] M3 de: 48 evals, 46.8 s, final gyroid nominal +0.4028 expected +0.4027 (eval 22, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S07] M4 bo_full: 48 evals, 73.0 s, final diamond nominal +0.4071 expected +0.4070 (eval 42, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S07] M5 bo_no_seed: 48 evals, 57.4 s, final gyroid nominal +0.2639 expected +0.2197 (eval 47, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S07] M6 bo_no_correction: 48 evals, 77.5 s, final diamond nominal +0.4232 expected +0.3771 (eval 36, atlas False)
+
+### 2026-11-07 23:51:54 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py S07 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S07] cert schwarz_p {'density': 0.22, 'mode': 'sheet'} for ['M1']: certified in 76 s (certified slack 0.3888468737807323)
+[S07] cert schwarz_p {'density': 0.225754, 'mode': 'sheet'} for ['M2']: certified in 76 s (certified slack 0.3727509615752413)
+[S07] cert gyroid {'density': 0.215133, 'mode': 'sheet'} for ['M3']: certified in 86 s (certified slack 0.40230170124925785)
+[S07] cert diamond {'density': 0.213436, 'mode': 'sheet'} for ['M4']: certified in 93 s (certified slack 0.406753151637629)
+[S07] cert gyroid {'density': 0.18561, 'mode': 'sheet'} for ['M5']: certified in 78 s (certified slack 0.25296651796429487)
+[S07] cert diamond {'density': 0.207638, 'mode': 'sheet'} for ['M6']: certified in 89 s (certified slack 0.4107021632549906)
+
+### 2026-11-08 00:00:12 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py G10 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G10] warm-up 3.3 s
+[G10] M1 atlas_only: 0 evals, 0.8 s, final sphere_ligaments nominal +0.2366 expected +0.3735 (eval 0, atlas True)
+[G10] M2 sobol: 48 evals, 50.5 s, final sc nominal +0.0707 expected +0.0531 (eval 44, atlas False)
+[G10] M3 de: 48 evals, 46.7 s, final cube_bars nominal +0.2458 expected +0.1501 (eval 47, atlas False)
+[G10] M4 bo_full: 48 evals, 36.8 s, final sphere_ligaments nominal +0.2378 expected +0.3742 (eval 35, atlas False)
+[G10] M5 bo_no_seed: 48 evals, 49.3 s, final sphere_ligaments nominal +0.1659 expected +0.3142 (eval 48, atlas False)
+[G10] M6 bo_no_correction: 48 evals, 35.0 s, final cube_bars nominal +0.2773 expected +0.1619 (eval 0, atlas True)
+
+### 2026-11-08 00:03:57 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py G10 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G10] cert sphere_ligaments {'c': 0.40087, 'w': 0.06} for ['M1']: certified in 465 s (certified slack 0.2596100951200809)
+[G10] cert sc {'r': 0.044729, 'R': 0.287388} for ['M2']: undetermined in 75 s (certified slack None)
+[G10] cert cube_bars {'c': 0.597257, 'w': 0.071975} for ['M3']: undetermined in 136 s (certified slack None)
+[G10] cert sphere_ligaments {'c': 0.402036, 'w': 0.060598} for ['M4']: certified in 469 s (certified slack 0.2572866644167125)
+[G10] cert sphere_ligaments {'c': 0.372384, 'w': 0.064241} for ['M5']: certified in 360 s (certified slack 0.23772944768757115)
+[G10] cert cube_bars {'c': 0.592174, 'w': 0.06} for ['M6']: undetermined in 114 s (certified slack None)
+
+### 2026-11-08 00:30:58 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py M11 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[M11] warm-up 3.4 s
+[M11] M1 atlas_only: 0 evals, 0.8 s, final sphere_ligaments nominal +0.4219 expected +0.3639 (eval 0, atlas True)
+[M11] M2 sobol: 48 evals, 50.6 s, final cube_bars nominal +0.1223 expected +0.0042 (eval 8, atlas False)
+[M11] M3 de: 48 evals, 41.7 s, final schwarz_p nominal +0.1813 expected +0.1811 (eval 18, atlas False)
+[M11] M4 bo_full: 48 evals, 33.8 s, final sphere_ligaments nominal +0.3731 expected +0.3731 (eval 14, atlas False)
+[M11] M5 bo_no_seed: 48 evals, 48.4 s, final cube_bars nominal +0.0562 expected +0.0040 (eval 34, atlas False)
+[M11] M6 bo_no_correction: 48 evals, 32.7 s, final sc nominal +0.4509 expected +0.1715 (eval 0, atlas True)
+
+### 2026-11-08 00:34:32 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py M11 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[M11] cert sphere_ligaments {'c': 0.326957, 'w': 0.108696} for ['M1']: undetermined in 204 s (certified slack None)
+[M11] cert cube_bars {'c': 0.451193, 'w': 0.107155} for ['M2']: undetermined in 112 s (certified slack None)
+[M11] cert schwarz_p {'density': 0.221072, 'mode': 'network'} for ['M3']: certified in 379 s (certified slack 0.18112706604155293)
+[M11] cert sphere_ligaments {'c': 0.336049, 'w': 0.113225} for ['M4']: certified in 301 s (certified slack 0.22051774212148761)
+[M11] cert cube_bars {'c': 0.56606, 'w': 0.237757} for ['M5']: undetermined in 439 s (certified slack -0.009507828641141724)
+[M11] cert sc {'r': 0.054348, 'R': 0.32} for ['M6']: certified in 206 s (certified slack 0.040504100187522055)
+
+### 2026-11-08 01:01:54 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py S04 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S04] warm-up 3.7 s
+[S04] M1 atlas_only: 0 evals, 0.2 s, final iwp nominal +0.0266 expected +0.0014 (eval 0, atlas True)
+[S04] M2 sobol: 48 evals, 50.3 s, final iwp nominal -0.0278 expected -0.0281 (eval 29, atlas False)
+[S04] M3 de: 48 evals, 55.6 s, final iwp nominal +0.0080 expected -0.0168 (eval 26, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S04] M4 bo_full: 48 evals, 62.9 s, final iwp nominal +0.0159 expected +0.0156 (eval 28, atlas False)
+[S04] M5 bo_no_seed: 48 evals, 59.9 s, final iwp nominal +0.0205 expected +0.0105 (eval 20, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S04] M6 bo_no_correction: 48 evals, 63.7 s, final iwp nominal +0.0266 expected +0.0014 (eval 0, atlas True)
+
+### 2026-11-08 01:06:52 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py S04 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S04] cert iwp {'density': 0.36, 'mode': 'network'} for ['M1', 'M6']: certified in 107 s (certified slack 0.012497737443546255)
+[S04] cert iwp {'density': 0.355267, 'mode': 'network'} for ['M3']: undetermined in 759 s (certified slack -0.0021617032032393516)
+[S04] cert iwp {'density': 0.3642, 'mode': 'network'} for ['M4']: certified in 107 s (certified slack 0.015622230050475788)
+[S04] cert iwp {'density': 0.362466, 'mode': 'network'} for ['M5']: certified in 106 s (certified slack 0.020305436695124846)
+
+### 2026-11-08 01:24:51 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py M07 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[M07] warm-up 3.3 s
+[M07] M1 atlas_only: 0 evals, 0.8 s, final cube_bars nominal -0.1286 expected +0.0001 (eval 0, atlas True)
+[M07] M2 sobol: 48 evals, 50.5 s, final cube_bars nominal -0.3096 expected -0.3377 (eval 8, atlas False)
+[M07] M3 de: 48 evals, 42.7 s, final sc nominal -0.3953 expected -0.2623 (eval 40, atlas False)
+[M07] M4 bo_full: 48 evals, 33.0 s, final sphere_ligaments nominal -0.1239 expected +0.0100 (eval 2, atlas False)
+[M07] M5 bo_no_seed: 48 evals, 48.1 s, final sphere_ligaments nominal -0.4957 expected -0.4879 (eval 37, atlas False)
+[M07] M6 bo_no_correction: 48 evals, 33.2 s, final cube_bars nominal -0.0164 expected -0.0565 (eval 0, atlas True)
+
+### 2026-11-08 01:28:26 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py M07 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+
+### 2026-11-08 01:28:27 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py S10 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S10] warm-up 3.4 s
+[S10] M1 atlas_only: 0 evals, 0.2 s, final sc nominal -0.0082 expected -0.0067 (eval 0, atlas True)
+[S10] M2 sobol: 48 evals, 50.7 s, final sc nominal -0.0151 expected -0.0135 (eval 21, atlas False)
+[S10] M3 de: 48 evals, 46.0 s, final diamond nominal -0.0097 expected -0.0340 (eval 48, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S10] M4 bo_full: 48 evals, 31.0 s, final sc nominal -0.0082 expected -0.0067 (eval 0, atlas True)
+[S10] M5 bo_no_seed: 48 evals, 52.1 s, final sc nominal -0.0212 expected -0.0197 (eval 40, atlas False)
+[S10] M6 bo_no_correction: 48 evals, 34.7 s, final sc nominal +0.0499 expected -0.0630 (eval 0, atlas True)
+
+### 2026-11-08 01:32:06 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py S10 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S10] cert sc {'r': 0.140435, 'R': 0.232727} for ['M6']: certified in 93 s (certified slack 0.025895689825805854)
+
+### 2026-11-08 01:33:40 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py M09 M1,M2,M3,M4,M5,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[M09] warm-up 3.4 s
+[M09] M1 atlas_only: 0 evals, 0.8 s, final sphere_ligaments nominal +0.0321 expected +0.1026 (eval 0, atlas True)
+[M09] M2 sobol: 48 evals, 50.5 s, final sphere_ligaments nominal -0.1545 expected -0.0260 (eval 25, atlas False)
+[M09] M3 de: 48 evals, 51.6 s, final sphere_ligaments nominal +0.0244 expected +0.1008 (eval 36, atlas False)
+[M09] M4 bo_full: 48 evals, 49.4 s, final sphere_ligaments nominal +0.0321 expected +0.1026 (eval 0, atlas True)
+[M09] M5 bo_no_seed: 48 evals, 49.4 s, final sphere_ligaments nominal -0.0426 expected +0.0373 (eval 39, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[M09] M6 bo_no_correction: 48 evals, 46.2 s, final sphere_ligaments nominal +0.0825 expected +0.0389 (eval 18, atlas False)
+
+### 2026-11-08 01:37:54 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py M09 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[M09] cert sphere_ligaments {'c': 0.430435, 'w': 0.27913} for ['M1', 'M4']: certified in 602 s (certified slack 0.07455725667696061)
+[M09] cert sphere_ligaments {'c': 0.427955, 'w': 0.280512} for ['M3']: certified in 605 s (certified slack 0.07174910949322275)
+[M09] cert sphere_ligaments {'c': 0.430466, 'w': 0.25908} for ['M6']: certified in 900 s (certified slack 0.00023642063488904362)
+
+### 2026-11-08 02:13:04 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py G14 M4,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G14] warm-up 3.3 s
+[G14] M4 bo_full: 48 evals, 34.0 s, final sphere_ligaments nominal +0.6696 expected +0.5702 (eval 0, atlas True)
+[G14] M6 bo_no_correction: 48 evals, 42.7 s, final sphere_ligaments nominal +0.6798 expected +0.4810 (eval 34, atlas False)
+
+### 2026-11-08 02:14:26 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py G14 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G14] cert sphere_ligaments {'c': 0.326957, 'w': 0.06} for ['M4']: undetermined in 226 s (certified slack None)
+[G14] cert sphere_ligaments {'c': 0.364542, 'w': 0.061264} for ['M6']: certified in 327 s (certified slack 0.3959541056114833)
+
+### 2026-11-08 02:23:40 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py M04 M4,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[M04] warm-up 3.3 s
+[M04] M4 bo_full: 48 evals, 51.4 s, final bcc nominal +0.3480 expected +0.3204 (eval 0, atlas True)
+[M04] M6 bo_no_correction: 48 evals, 49.1 s, final bcc nominal +0.3480 expected +0.3204 (eval 0, atlas True)
+
+### 2026-11-08 02:25:26 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py M04 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[M04] cert bcc {'r': 0.04, 'R': 0.243636} for ['M4', 'M6']: undetermined in 198 s (certified slack -0.1083840974750645)
+
+### 2026-11-08 02:28:45 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py G12 M4,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G12] warm-up 3.4 s
+[G12] M4 bo_full: 48 evals, 36.2 s, final sphere_ligaments nominal +0.5533 expected +0.6837 (eval 0, atlas True)
+[G12] M6 bo_no_correction: 48 evals, 34.7 s, final cube_bars nominal +0.5948 expected +0.3949 (eval 33, atlas False)
+
+### 2026-11-08 02:30:02 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py G12 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[G12] cert sphere_ligaments {'c': 0.40087, 'w': 0.06} for ['M4']: certified in 452 s (certified slack 0.5833646301706129)
+[G12] cert cube_bars {'c': 0.590723, 'w': 0.060528} for ['M6']: undetermined in 220 s (certified slack -0.1396084811431022)
+
+### 2026-11-08 02:41:15 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py S12 M4,M6 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S12] warm-up 3.3 s
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S12] M4 bo_full: 48 evals, 49.5 s, final schwarz_p nominal +0.0199 expected +0.0197 (eval 16, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[S12] M6 bo_no_correction: 48 evals, 46.7 s, final schwarz_p nominal +0.0458 expected +0.0093 (eval 0, atlas True)
+
+### 2026-11-08 02:42:56 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py S12 C:\AI\AgenticMetamaterials\results\verification\v3 --targets C:\AI\AgenticMetamaterials\results\verification\v3\targets.json
+[S12] cert schwarz_p {'density': 0.186215, 'mode': 'sheet'} for ['M4']: certified in 67 s (certified slack 0.019860657941025105)
+[S12] cert schwarz_p {'density': 0.18, 'mode': 'sheet'} for ['M6']: certified in 63 s (certified slack 0.018800727228799823)

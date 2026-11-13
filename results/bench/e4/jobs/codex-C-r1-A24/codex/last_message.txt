@@ -1,0 +1,1 @@
+Released a certified 316L BCC design with an 8 mm cell, node radius 2.490024 mm, and strut radius 0.501152 mm. Certified bounds give relative density ≤27.75% and C44 ≥3.76 GPa, with a complete band gap of 133.71–353.38 kHz covering the required 216–250 kHz interval.

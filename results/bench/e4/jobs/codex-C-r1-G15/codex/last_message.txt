@@ -1,0 +1,1 @@
+Released a certified PA12 sphere-and-ligament resonator with 20 mm cubic cells and parameters \(c/a=0.356522\), \(w/a=0.108696\). Its certified complete infinite-lattice band gap spans **8.26–33.07 kHz**, covering the requested **18.8–27.1 kHz**. SLS manufacturability was not evaluated.

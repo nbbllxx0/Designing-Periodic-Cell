@@ -1,0 +1,1 @@
+Released a certified 20 mm PA12 BCC cell with strut radius 1.2683 mm and node radius 6.3669 mm. Solid fraction is ≤29.42%, C44 is ≥36.25 MPa, and the complete band gap covers 16.6–27.6 kHz. Certification applies to nominal geometry; the +0.2 mm dilation robustness check failed.

@@ -1,0 +1,1 @@
+Discarded: fast method used only the n=12 scan's extremum k; wrong for flat resonance bands. Kept for the record (see scripts/g2/gap_ref_fine.py). The first cell (14f7602c409dbc13, n=50) used the full screened method and is valid.

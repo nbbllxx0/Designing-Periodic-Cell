@@ -1,0 +1,13 @@
+{
+ "targets": {
+  "gap": {
+   "f_lo": 1000.0,
+   "f_hi": 2000.0,
+   "unit": "Hz"
+  },
+  "density_max": 0.3
+ },
+ "material": {
+  "name": "PA12"
+ }
+}

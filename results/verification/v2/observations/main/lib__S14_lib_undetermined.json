@@ -1,0 +1,377 @@
+{
+ "scenario": "S14_lib_undetermined",
+ "interface": "lib",
+ "rows": [
+  {
+   "scenario": "S14_lib_undetermined",
+   "check": "undet_certify",
+   "capability": "certify: undetermined (gap inside the guard)",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "certify",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=undetermined; outcome=numerically_undetermined",
+   "passed": true,
+   "failures": [],
+   "seq": 4,
+   "dt_s": 231.25,
+   "session": "results/verification/v2/sessions/lib/S14_lib_undetermined/session.jsonl"
+  },
+  {
+   "scenario": "S14_lib_undetermined",
+   "check": "undet_stale",
+   "capability": "stale undetermined certificate after a spec edit: refusal rejected",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: refusal needs evidence: refuse with verdict UNDETERMINED must cite an evidence record held in this session for the current spec: a certificate with verdict undetermined for the current targets (call certify). No evidence",
+   "passed": true,
+   "failures": [],
+   "seq": 6,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S14_lib_undetermined/session.jsonl"
+  },
+  {
+   "scenario": "S14_lib_undetermined",
+   "check": "numerically_undetermined",
+   "capability": "outcome: numerically_undetermined",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": false,
+   "observed": "accepted: outcome=numerically_undetermined",
+   "passed": true,
+   "failures": [],
+   "seq": 8,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S14_lib_undetermined/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_material",
+   "args": {
+    "name": "Ti6Al4V"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 113800000000.0,
+    "atlas_available": true,
+    "material": "Ti6Al4V",
+    "nu": 0.342,
+    "rho_kg_m3": 4430.0
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_constraints",
+   "args": {
+    "cell_size": 1,
+    "cell_size_unit": "cm"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cell_size": [
+     1.0,
+     "cm"
+    ],
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "set_target",
+   "args": {
+    "gap": {
+     "f_lo": 0.4008147294965229,
+     "f_hi": 0.7078905303204719,
+     "unit": "f*"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 3,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "gap": {
+      "f_hi": 0.7078905303204719,
+      "f_lo": 0.4008147294965229
+     }
+    },
+    "targets": {
+     "gap": {
+      "f_hi": 0.7078905303204719,
+      "f_lo": 0.4008147294965229
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "certify",
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.326957,
+      "w": 0.06
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 231.25,
+   "ok": true,
+   "exit": null,
+   "seq": 4,
+   "error": null,
+   "result": {
+    "E100_MPa": 751.0854663099935,
+    "G_MPa": 0.44144537237788795,
+    "as_built": {
+     "dilate": true,
+     "erode": true
+    },
+    "bulk_MPa": 253.82677526991355,
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.326957,
+      "w": 0.06
+     }
+    },
+    "gap": {
+     "claim": [
+      0.4008147294965229,
+      0.7078905303204719
+     ],
+     "safe_interval": null,
+     "verdict": {
+      "reason": "count failures",
+      "verdict": "undetermined"
+     }
+    },
+    "gaps_Hz": [],
+    "outcome": "numerically_undetermined",
+    "robust": false,
+    "spec_hash": "0e77d51c82807ffc",
+    "static": {
+     "bounds": {
+      "E100": {
+       "lower": 0.0066000480343584664,
+       "upper": 0.007278789365913625
+      },
+      "G": {
+       "lower": 3.879133324937504e-06,
+       "upper": 0.00011011821599005465
+      },
+      "bulk": {
+       "lower": 0.0022304637545686604,
+       "upper": 0.00246339760974587
+      },
+      "density": {
+       "lower": 0.14931234275310462,
+       "upper": 0.14942960456166526
+      },
+      "nu100": {
+       "lower": 0.006844520808228966,
+       "upper": 0.007537234803704334
+      }
+     },
+     "checks_failed": [],
+     "rung": [
+      32,
+      48,
+      64
+     ],
+     "verdict": {
+      "targets": {},
+      "verdict": "certified"
+     }
+    },
+    "targets": {
+     "gap": {
+      "f_hi": 0.7078905303204719,
+      "f_lo": 0.4008147294965229
+     }
+    },
+    "verdict": "undetermined"
+   },
+   "cli": null
+  },
+  {
+   "i": 4,
+   "tool": "set_target",
+   "args": {
+    "gap": {
+     "f_lo": 0.4,
+     "f_hi": 0.7078905303204719,
+     "unit": "f*"
+    }
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 5,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "gap": {
+      "f_hi": 0.7078905303204719,
+      "f_lo": 0.4
+     }
+    },
+    "targets": {
+     "gap": {
+      "f_hi": 0.7078905303204719,
+      "f_lo": 0.4
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 5,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "UNDETERMINED"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 6,
+   "error": "refusal needs evidence: refuse with verdict UNDETERMINED must cite an evidence record held in this session for the current spec: a certificate with verdict undetermined for the current targets (call certify). No evidence record is held for the current spec.",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 6,
+   "tool": "undo",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 7,
+   "error": null,
+   "result": {
+    "state": {
+     "cell_size": [
+      1.0,
+      "cm"
+     ],
+     "families": [
+      "tpms",
+      "struts",
+      "resonator"
+     ],
+     "gap_type": null,
+     "material": "Ti6Al4V",
+     "sources": {},
+     "targets": {
+      "gap": {
+       "f_hi": 0.7078905303204719,
+       "f_lo": 0.4008147294965229
+      }
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 7,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "UNDETERMINED"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 8,
+   "error": null,
+   "result": {
+    "outcome_card": {
+     "decision": "refuse",
+     "definition": "a claim lies inside the guard band: neither proven nor disproven at the certificate resolutions",
+     "design": null,
+     "evidence": [
+      {
+       "kind": "certificate_undetermined",
+       "outcome": "numerically_undetermined",
+       "seq": 4,
+       "summary": "certificate undetermined: sphere_ligaments {'c': 0.326957, 'w': 0.06}",
+       "tool": "certify"
+      }
+     ],
+     "evidence_checked": true,
+     "outcome": "numerically_undetermined",
+     "profile": "C",
+     "schema_version": "amm-outcome/1",
+     "title": "Numerically undetermined",
+     "verdict": "UNDETERMINED"
+    },
+    "submitted": {
+     "decision": "refuse",
+     "evidence": [
+      {
+       "kind": "certificate_undetermined",
+       "seq": 4,
+       "tool": "certify"
+      }
+     ],
+     "note": "",
+     "outcome": "numerically_undetermined",
+     "spec": {
+      "cell_size": [
+       1.0,
+       "cm"
+      ],
+      "gap_type": null,
+      "material": "Ti6Al4V",
+      "nu": 0.342,
+      "targets": {
+       "gap": {
+        "f_hi": 0.7078905303204719,
+        "f_lo": 0.4008147294965229
+       }
+      }
+     },
+     "verdict": "UNDETERMINED"
+    }
+   },
+   "cli": null
+  }
+ ],
+ "seconds": 231.3,
+ "root": "results/verification/v2/sessions/lib/S14_lib_undetermined",
+ "finished": "2026-11-08 08:27:16"
+}

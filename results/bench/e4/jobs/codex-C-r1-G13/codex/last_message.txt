@@ -1,0 +1,1 @@
+Released a **316L sphere-and-ligament resonator** with **12 mm cells**, certified to have a complete elastic band gap covering **77.5–150 kHz**, across all directions and polarizations. Geometry parameters are **c = 0.357636a** and **w = 0.100285a**, where a = 12 mm.

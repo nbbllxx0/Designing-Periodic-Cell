@@ -1,0 +1,174 @@
+{
+ "set": "probe_old",
+ "log": "results/probe/C/P5/session/session.jsonl",
+ "log_sha256": "be7908ac50644b9c4db935535627a38b91c9afe885e6be7a6f8d45e08d28703b",
+ "started": "2026-11-08 13:15:00",
+ "seconds": 73.0,
+ "header": {
+  "code": "b072e26f18aac521",
+  "id": "59a5e0056476",
+  "profile": "C",
+  "schema": "amm-tools/1",
+  "t": "2026-11-05T08:10:49.496+00:00",
+  "type": "session"
+ },
+ "n_calls": 12,
+ "tools": [
+  "check_bounds",
+  "get_session",
+  "list_families",
+  "search",
+  "set_constraints",
+  "set_material",
+  "set_source",
+  "set_target",
+  "submit"
+ ],
+ "n_certify": 0,
+ "n_search": 2,
+ "n_export": 0,
+ "logged_tool_seconds": 76.6,
+ "env": {
+  "python": "3.10.18",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "torch": "2.5.1+cu124",
+  "cuda": true,
+  "device": "NVIDIA GeForce RTX 4090",
+  "code": "f1a6d625064a6d18",
+  "checker": "c5f8c89871b3bad6",
+  "mkl_cbwr": 65538
+ },
+ "replay": {
+  "exact": false,
+  "n_calls": 12,
+  "n_compared": 12,
+  "mismatches": [
+   {
+    "seq": 1,
+    "tool": "get_session",
+    "field": "result",
+    "log": "fb6799e6423ba869",
+    "replay": "8a70164eb9b12871",
+    "diff": {
+     "path": ".budget",
+     "log": null,
+     "replay": {
+      "certify": 4,
+      "designs": 400
+     }
+    }
+   },
+   {
+    "seq": 12,
+    "tool": "submit",
+    "field": "state_hash",
+    "log": "7bd4d189891f0030",
+    "replay": "e955f7ed7156af05"
+   },
+   {
+    "seq": 12,
+    "tool": "submit",
+    "field": "result",
+    "log": "f92cf19555d4cd8f",
+    "replay": "4fc743423faa4f7a",
+    "diff": {
+     "path": ".submitted.spec",
+     "log": null,
+     "replay": {
+      "cell_size": [
+       10.0,
+       "mm"
+      ],
+      "gap_type": "complete",
+      "material": "316L",
+      "nu": 0.3,
+      "targets": {
+       "gap": {
+        "f_hi": [
+         375.0,
+         "kHz"
+        ],
+        "f_lo": [
+         140.0,
+         "kHz"
+        ]
+       }
+      }
+     }
+    }
+   }
+  ],
+  "same_code": false,
+  "schema": "amm-tools/1",
+  "decision_changes": [],
+  "identity": {
+   "code_log": "b072e26f18aac521",
+   "code_now": "f1a6d625064a6d18",
+   "checker_log": null,
+   "checker_now": "c5f8c89871b3bad6",
+   "checker_aliased": false,
+   "checker_log_source": null,
+   "code_aliased": true
+  },
+  "root": null
+ },
+ "tolerance": {
+  "aligned": true,
+  "within_tolerance": false,
+  "max_rel_numeric": 0.0,
+  "max_rel_by_tier": {
+   "T64": 0.0,
+   "T32": 0.0
+  },
+  "n_numeric_differences": 0,
+  "calls_with_numeric_differences": [],
+  "over_tolerance": [],
+  "non_numeric_differences": [
+   [
+    1,
+    "get_session",
+    [
+     {
+      "path": ".budget",
+      "log": "None",
+      "replay": "{'certify': 4, 'designs': 400}"
+     },
+     {
+      "path": ".budget_used",
+      "log": "None",
+      "replay": "{'certify': 0, 'designs': 0}"
+     },
+     {
+      "path": ".tools",
+      "log": "len 13",
+      "replay": "len 14"
+     }
+    ]
+   ],
+   [
+    12,
+    "submit",
+    [
+     {
+      "path": ".submitted.spec",
+      "log": "None",
+      "replay": "{'cell_size': [10.0, 'mm'], 'gap_type': 'complete', 'material': '316L', 'nu': 0."
+     }
+    ]
+   ]
+  ],
+  "environment_fields": [],
+  "derived_differences": [
+   [
+    12,
+    "submit",
+    [
+     "state_hash"
+    ]
+   ]
+  ],
+  "unexplained_derived": []
+ },
+ "error": null
+}

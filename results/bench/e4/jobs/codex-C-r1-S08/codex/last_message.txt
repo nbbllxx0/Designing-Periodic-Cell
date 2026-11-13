@@ -1,0 +1,1 @@
+Released a certified Ti6Al4V **cube_bars** unit cell with \(c=0.51913\) and \(w=0.36\), normalized by cell size. Certified bounds meet all targets: solid fraction ≤32.74%, \(E_{[100]}\ge18.50\) GPa, and cube-axis Poisson ratio ≤0.1322. LPBF manufacturability was not evaluated.

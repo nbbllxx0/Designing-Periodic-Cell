@@ -1,0 +1,11 @@
+{"block": "static", "kind": "iwp", "params": {"density": 0.15, "mode": "network"}, "passed": false, "used": [32, 48, 64], "fails": ["solver error: The Pardiso solver failed with error code -4. See Pardiso documentation for details."], "s": 54.5}
+{"block": "static", "kind": "schwarz_p", "params": {"density": 0.35, "mode": "network"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 219.3}
+{"block": "static", "kind": "iwp", "params": {"density": 0.35, "mode": "sheet"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 174.2}
+{"block": "static", "kind": "iwp", "params": {"density": 0.25, "mode": "sheet"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 106.8}
+{"block": "static", "kind": "bcc", "params": {"r": 0.1, "R": 0.0}, "passed": false, "used": [64, 80, 96], "fails": ["static values not converged on the ladder"], "s": 249.3}
+{"block": "static", "kind": "sc", "params": {"r": 0.1, "R": 0.15}, "passed": false, "used": [64, 80, 96], "fails": ["G_min: guarded lower G=0.00065934 vs 0.0006638131784171785"], "s": 102.6}
+{"block": "static", "kind": "sc", "params": {"r": 0.06, "R": 0.22}, "passed": false, "used": [64, 80, 96], "fails": ["static values not converged on the ladder"], "s": 98.0}
+{"block": "static", "kind": "sphere_ligaments", "params": {"c": 0.35, "w": 0.15}, "passed": false, "used": [64, 80, 96], "fails": ["static values not converged on the ladder"], "s": 557.4}
+{"block": "static", "kind": "cube_bars", "params": {"c": 0.7, "w": 0.2}, "passed": true, "used": [64, 80, 96], "fails": [], "s": 1818.0}
+{"block": "static", "kind": "sphere_ligaments", "params": {"c": 0.3, "w": 0.1}, "passed": false, "used": [64, 80, 96], "fails": ["G_min: guarded lower G=0.00025213 vs 0.00026219512118112113"], "s": 375.6}
+{"block": "static", "kind": "sphere_ligaments", "params": {"c": 0.4, "w": 0.2}, "passed": true, "used": [48, 64, 80], "fails": [], "s": 405.7}

@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. A 316L Schwarz P sheet at approximately 16% solid fraction nominally predicts C44 = 6.116 GPa, but its calibrated estimate is about 5.902 GPa, below your 6.07 GPa minimum. No reliable passing design was found; infeasibility has not been proven.

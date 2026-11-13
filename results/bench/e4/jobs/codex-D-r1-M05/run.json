@@ -1,0 +1,31 @@
+{
+ "brief": "M05",
+ "arm": "D",
+ "profile": "D",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 10.3,
+ "usage": {
+  "input_tokens": 12758,
+  "cached_input_tokens": 10752,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 310,
+  "reasoning_output_tokens": 198
+ },
+ "final": "{\"decision\":\"refuse\",\"material\":\"PA12\",\"cell_size\":[25,\"mm\"],\"targets\":{\"density_max\":0.24,\"E100_min\":{\"value\":36.8,\"unit\":\"MPa\"},\"gap\":{\"f_lo\":13.2,\"f_hi\":23.2,\"unit\":\"kHz\"}},\"verdict\":\"UNDETERMINED\",\"note\":\"I cannot certify a qualifying design without homogenized elasticity and complete band-structure calculations covering every wave direction and polarization; feasibility remains undetermined.\"}",
+ "rounds": 1,
+ "parsed": true,
+ "job": "codex-D-r1-M05",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.1,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

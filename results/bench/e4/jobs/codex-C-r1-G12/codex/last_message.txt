@@ -1,0 +1,1 @@
+Released a certified 12 mm PA12 sphere-and-ligament resonator cell with normalized parameters **c = 0.356522, w = 0.108696**. Its complete band gap covers **25.4–33.8 kHz** for every elastic-wave direction and polarization in the infinite periodic lattice. SLS manufacturability was not evaluated.

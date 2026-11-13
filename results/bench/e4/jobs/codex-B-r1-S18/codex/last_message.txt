@@ -1,0 +1,1 @@
+No design was released; the verdict is **UNDETERMINED**. Preliminary PA12 candidates meet the nominal targets, but none meet both limits under conservative estimates, and certification is unavailable in this tool profile. This does not prove the requirements infeasible.

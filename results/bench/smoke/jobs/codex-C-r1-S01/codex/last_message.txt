@@ -1,0 +1,1 @@
+Released a certified 316L **cube_bars** unit cell with normalized parameters **c = 0.51913, w = 0.36**. Its certified relative density is **≤32.74%** and cube-axis Young’s modulus is **≥31.19 GPa**, meeting both targets. It fails the tool’s erosion robustness check; LPBF manufacturability was not evaluated.

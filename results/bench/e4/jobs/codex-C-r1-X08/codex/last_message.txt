@@ -1,0 +1,1 @@
+The amm tools confirmed **PROVEN_INFEASIBLE**: for a single-solid 316L lattice, relative density equals solid volume fraction. It cannot be both at least 25% and at most 15%. No design was released; one limit must be revised.

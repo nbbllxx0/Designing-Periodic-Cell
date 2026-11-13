@@ -1,0 +1,1 @@
+No design was released; the submitted verdict is **UNDETERMINED**. One candidate certified stiffness and solid fraction but left the band-gap edge unresolved; another certified solid fraction and the complete gap but left stiffness unresolved. This does not prove the requirements impossible.

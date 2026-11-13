@@ -1,0 +1,15 @@
+[1] set_material ok=True 0.2s
+[2] set_constraints ok=True 0.0s
+[3] set_target ok=True 0.0s
+[4] set_source ok=True 0.0s
+[5] set_source ok=True 0.0s
+[6] set_source ok=True 0.0s
+[7] check_bounds ok=True 0.7s
+[8] atlas_suggest ok=True 0.7s
+[9] evaluate ok=True 2.9s
+[10] certify {'kind': 'sphere_ligaments', 'params': {'c': 0.356522, 'w': 0.108696}}: certified robust=True 369.7s
+[11] submit ok=True 0.0s
+[12] screen_manufacturing ok=True 7.4s
+[13] export ok=True 7.2s
+[14] get_session ok=True 0.0s
+released {'kind': 'sphere_ligaments', 'params': {'c': 0.356522, 'w': 0.108696}}; total 388.9 s

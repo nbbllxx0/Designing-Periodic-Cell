@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":null,"targets":{"density_max":0.36,"bulk_min":{"value":9.3,"unit":"GPa"}},"verdict":"UNDETERMINED","note":"These targets may be feasible, but without homogenization results I cannot certify a qualifying design or establish infeasibility."}

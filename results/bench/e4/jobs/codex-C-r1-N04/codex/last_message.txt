@@ -1,0 +1,1 @@
+No design was released: **NOT_FOUND_IN_FAMILIES**. The atlas and a 96-evaluation search found no 316L cell meeting both ≤33% solid volume and cube-axis Poisson ratio ≤−0.21. This does not prove impossibility. LPBF manufacturability was not evaluated.

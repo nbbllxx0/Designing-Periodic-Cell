@@ -1,0 +1,7 @@
+{"block": "static", "kind": "diamond", "params": {"density": 0.25, "mode": "network"}, "passed": true, "used": [48, 64, 80], "fails": [], "s": 243.9}
+{"block": "static", "kind": "iwp", "params": {"density": 0.5, "mode": "network"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 235.7}
+{"block": "static", "kind": "gyroid", "params": {"density": 0.35, "mode": "sheet"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 203.3}
+Traceback (most recent call last):
+  File "C:\AI\AgenticMetamaterials\scripts\g2\rerun_v3.py", line 42, in <module>
+    rec["static"] = dict(passed=st["passed"], used=st["used"], ladder=st["ladder"],
+KeyError: 'ladder'

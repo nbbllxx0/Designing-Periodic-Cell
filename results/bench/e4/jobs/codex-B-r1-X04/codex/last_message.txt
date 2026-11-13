@@ -1,0 +1,1 @@
+The request is **proven infeasible** using the tool’s Ti6Al4V elastic properties: at 22% solid fraction, the theoretical upper bound on \(C_{44}\) is **9.33 GPa**, below 12.2 GPa. Reaching that target requires at least **28.8% solid fraction**, with actual designs potentially needing more. No design was released.

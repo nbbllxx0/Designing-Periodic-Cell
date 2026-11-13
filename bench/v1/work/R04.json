@@ -1,0 +1,92 @@
+{
+ "material": "PA12",
+ "q": "bulk",
+ "key": "bulk_min",
+ "cap": 0.24,
+ "t": 0.09352941176470589,
+ "t_phys": [
+  159.0,
+  "MPa"
+ ],
+ "e_max": 0.09372336484241507,
+ "u_max": 0.09274289437607104,
+ "best_nominal": {
+  "family": "tpms",
+  "kind": "diamond",
+  "params": {
+   "density": 0.24,
+   "mode": "sheet"
+  }
+ },
+ "nominal_slack": 0.002073712151607617,
+ "expected_slack": -0.03296592601885888,
+ "proof": [
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "diamond",
+    "params": {
+     "density": 0.24,
+     "mode": "sheet"
+    }
+   },
+   "upper": 0.09274289437607104,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "diamond",
+    "params": {
+     "density": 0.24,
+     "mode": "sheet"
+    }
+   },
+   "upper": 0.09274289437607104,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "gyroid",
+    "params": {
+     "density": 0.24,
+     "mode": "sheet"
+    }
+   },
+   "upper": 0.09253707695373854,
+   "source": "search top 3"
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.24,
+     "mode": "sheet"
+    }
+   },
+   "upper": 0.09266221753130913,
+   "source": "search top 3"
+  }
+ ],
+ "n_certified": 3,
+ "id": "R04",
+ "seconds": 2230.1,
+ "intended": {
+  "material": "PA12",
+  "cell_size": null,
+  "targets": {
+   "density_max": 0.24,
+   "bulk_min": [
+    159.0,
+    "MPa"
+   ]
+  }
+ },
+ "truth": {
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "near_miss": true
+ }
+}

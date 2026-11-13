@@ -1,0 +1,1 @@
+Released a certified 316L Schwarz P sheet unit cell with density parameter 0.148784: relative density ≤14.880% and C44 ≥5.482 GPa, meeting both limits. Certification covers ideal geometry; the tested erosion offset fails robustness, and LPBF manufacturability remains unevaluated.

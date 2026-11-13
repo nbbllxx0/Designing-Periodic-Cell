@@ -1,0 +1,12 @@
+{
+ "material": {
+  "name": "316L"
+ },
+ "targets": {
+  "density_max": 0.3,
+  "bulk_min": {
+   "value": 0.03,
+   "unit": "E_s"
+  }
+ }
+}

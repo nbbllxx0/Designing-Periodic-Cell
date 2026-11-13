@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. A 15 mm PA12 sphere-and-ligament candidate predicts a complete gap of 15.51–53.43 kHz, covering your target, but it fails the pessimistic error allowance and certification is unavailable in this session. This does not establish infeasibility; SLS manufacturability was not evaluated.

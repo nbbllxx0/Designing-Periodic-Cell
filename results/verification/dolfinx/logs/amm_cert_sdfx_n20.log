@@ -1,0 +1,12 @@
+== cb_c0.8_w0.3_nu0.3 17:46:23
+cb_c0.8_w0.3_nu0.3 cert 20 [0.9995, 0.9995, 0.9995] [0.423544 0.60869 ] 57
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.8_w0.3_nu0.3_cert_n20_ks_dfx.json 489.4 s
+== tpms_schwarzp_d0.25_nu0.3 17:54:34
+tpms_schwarzp_d0.25_nu0.3 cert 20 [0.0031, 0.0, 0.0] [0.473379 0.839031] 600
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\tpms_schwarzp_d0.25_nu0.3_cert_n20_ks_dfx.json 346.6 s
+== strut_bcc_R0.27_r0.06_nu0.342 18:00:22
+strut_bcc_R0.27_r0.06_nu0.342 cert 20 [0.0031, 0.0, 0.0] [0.363113 0.827411] 600
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\strut_bcc_R0.27_r0.06_nu0.342_cert_n20_ks_dfx.json 465.6 s
+== thin_sl_c0.402_w0.061_nu0.3 18:08:10
+thin_sl_c0.402_w0.061_nu0.3 cert 20 [1.0, 0.0, 0.0] [0.106123 0.979996] 28
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\thin_sl_c0.402_w0.061_nu0.3_cert_n20_ks_dfx.json 151.8 s

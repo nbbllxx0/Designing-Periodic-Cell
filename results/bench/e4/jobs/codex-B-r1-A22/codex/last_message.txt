@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. For Ti6Al4V at 12 mm, preliminary candidates predict a complete gap covering 132–177 kHz, but none passed the conservative uncertainty check, and certification is unavailable in this session. This does not prove infeasibility. LPBF manufacturability was not evaluated.

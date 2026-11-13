@@ -1,0 +1,1 @@
+No design released: **NOT_FOUND_IN_FAMILIES**. The atlas and 64-evaluation search found no 10 mm PA12 cell in the allowed families with a complete elastic band gap spanning 10.3–139 kHz. This does not prove physical impossibility. SLS manufacturability was not evaluated.

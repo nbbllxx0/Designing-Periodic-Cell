@@ -1,0 +1,33 @@
+{
+ "brief": "M10",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 1407.6,
+ "usage": {
+  "input_tokens": 1889281,
+  "cached_input_tokens": 1836928,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 5272,
+  "reasoning_output_tokens": 1505
+ },
+ "final": "No design released; verdict: **UNDETERMINED**. Two BCC candidates certified solid fraction \u226427% and C44 \u2265615 MPa, but neither certified a complete gap covering 97.7\u2013172 kHz. This does not prove the request infeasible.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-M10",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

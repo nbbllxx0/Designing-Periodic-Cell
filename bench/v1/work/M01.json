@@ -1,0 +1,256 @@
+{
+ "id": "M01",
+ "attempts": [
+  {
+   "request": {
+    "density_max": 0.16,
+    "E100_min": [
+     3.22,
+     "GPa"
+    ],
+    "gap": {
+     "f_lo": [
+      165.0,
+      "kHz"
+     ],
+     "f_hi": [
+      214.0,
+      "kHz"
+     ]
+    }
+   },
+   "normalized": {
+    "density_max": 0.16,
+    "E100_min": 0.02829525483304042,
+    "gap": {
+     "f_lo": 0.4266737443027502,
+     "f_hi": 0.5533829168532639
+    }
+   },
+   "verdict": "undetermined",
+   "seconds": 257.4,
+   "static_rung": [
+    48,
+    64,
+    80
+   ],
+   "static_bounds": {
+    "density": {
+     "lower": 0.12482991729852405,
+     "upper": 0.12493669193207155
+    },
+    "E100": {
+     "lower": 0.034490386904106066,
+     "upper": 0.03574989619476009
+    },
+    "G": {
+     "lower": 0.0011844812033063592,
+     "upper": 0.001411233650145927
+    },
+    "bulk": {
+     "lower": 0.012482382460805661,
+     "upper": 0.01297340562931476
+    },
+    "nu100": {
+     "lower": 0.03950051316870519,
+     "upper": 0.04072845614287543
+    }
+   },
+   "safe_interval": [
+    null,
+    null
+   ],
+   "spec_hash": "acc78bc909fa3bfd",
+   "spec": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.282609,
+     "w": 0.169565
+    }
+   },
+   "pass_": 1
+  },
+  {
+   "request": {
+    "density_max": 0.24,
+    "E100_min": [
+     6.97,
+     "GPa"
+    ],
+    "gap": {
+     "f_lo": [
+      204.0,
+      "kHz"
+     ],
+     "f_hi": [
+      229.0,
+      "kHz"
+     ]
+    }
+   },
+   "normalized": {
+    "density_max": 0.24,
+    "E100_min": 0.061247803163444636,
+    "gap": {
+     "f_lo": 0.5275239020470366,
+     "f_hi": 0.5921714390626048
+    }
+   },
+   "verdict": "undetermined",
+   "seconds": 247.3,
+   "static_rung": [
+    32,
+    48,
+    64
+   ],
+   "static_bounds": {
+    "density": {
+     "lower": 0.20301029234336948,
+     "upper": 0.203494201578788
+    },
+    "E100": {
+     "lower": 0.07556331867738271,
+     "upper": 0.07921517848689519
+    },
+    "G": {
+     "lower": 0.005623764385125264,
+     "upper": 0.006734198619550225
+    },
+    "bulk": {
+     "lower": 0.029516728786917544,
+     "upper": 0.0310830680452264
+    },
+    "nu100": {
+     "lower": 0.07263348474499182,
+     "upper": 0.07527365405928622
+    }
+   },
+   "safe_interval": [
+    0.5287271799183433,
+    0.6508748995153167
+   ],
+   "spec_hash": "794e759f24a4ba9a",
+   "spec": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.326957,
+     "w": 0.254783
+    }
+   },
+   "pass_": 1
+  },
+  {
+   "request": {
+    "density_max": 0.21,
+    "E100_min": [
+     8.42,
+     "GPa"
+    ],
+    "gap": {
+     "f_lo": [
+      206.0,
+      "kHz"
+     ],
+     "f_hi": [
+      250.0,
+      "kHz"
+     ]
+    }
+   },
+   "normalized": {
+    "density_max": 0.21,
+    "E100_min": 0.07398945518453427,
+    "gap": {
+     "f_lo": 0.5326957050082821,
+     "f_hi": 0.6464753701556821
+    }
+   },
+   "verdict": "certified",
+   "seconds": 252.4,
+   "static_rung": [
+    32,
+    48,
+    64
+   ],
+   "static_bounds": {
+    "density": {
+     "lower": 0.20301029234336948,
+     "upper": 0.203494201578788
+    },
+    "E100": {
+     "lower": 0.07556331867738271,
+     "upper": 0.07921517848689519
+    },
+    "G": {
+     "lower": 0.005623764385125264,
+     "upper": 0.006734198619550225
+    },
+    "bulk": {
+     "lower": 0.029516728786917544,
+     "upper": 0.0310830680452264
+    },
+    "nu100": {
+     "lower": 0.07263348474499182,
+     "upper": 0.07527365405928622
+    }
+   },
+   "safe_interval": [
+    0.528727179918231,
+    0.650874899515212
+   ],
+   "spec_hash": "794e759f24a4ba9a",
+   "spec": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.326957,
+     "w": 0.254783
+    }
+   },
+   "pass_": 2,
+   "u": 0.9800546976047994,
+   "gap_shrink": 0.03
+  }
+ ],
+ "final": {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.326957,
+    "w": 0.254783
+   }
+  },
+  "request": {
+   "density_max": 0.21,
+   "E100_min": [
+    8.42,
+    "GPa"
+   ],
+   "gap": {
+    "f_lo": [
+     206.0,
+     "kHz"
+    ],
+    "f_hi": [
+     250.0,
+     "kHz"
+    ]
+   }
+  },
+  "normalized": {
+   "density_max": 0.21,
+   "E100_min": 0.07398945518453427,
+   "gap": {
+    "f_lo": 0.5326957050082821,
+    "f_hi": 0.6464753701556821
+   }
+  },
+  "verdict": "certified",
+  "passes": 2,
+  "u": 0.9800546976047994
+ },
+ "seconds": 757.0
+}

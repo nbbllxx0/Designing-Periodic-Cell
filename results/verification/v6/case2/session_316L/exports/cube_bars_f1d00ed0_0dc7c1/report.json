@@ -1,0 +1,541 @@
+{
+ "cannot_normalize": [],
+ "certificate": {
+  "as_built": {
+   "cases": {
+    "dilate": {
+     "E100": 0.02202234789165243,
+     "density": 0.528951511540845,
+     "gap_ok": false,
+     "passed": false,
+     "reason": null,
+     "static_ok": true
+    },
+    "erode": {
+     "E100": 0.006784407134009345,
+     "density": 0.45269034881380094,
+     "gap_ok": true,
+     "passed": true,
+     "reason": null,
+     "static_ok": true
+    }
+   },
+   "offset": 0.01,
+   "passed": false
+  },
+  "certify_seq": 10,
+  "checker": "c5f8c89871b3bad6",
+  "gap": {
+   "claim": {
+    "below_band": 6,
+    "f_hi": 0.13788032657329527,
+    "f_lo": 0.11490027214441272
+   },
+   "safe_interval": [
+    0.10008583469219628,
+    0.5770940415675432
+   ],
+   "verdict": {
+    "verdict": "certified"
+   }
+  },
+  "robust": false,
+  "solver": {
+   "element": "hex8i",
+   "nu": 0.3,
+   "partial_voxels": "finite-cell"
+  },
+  "spec_hash": "f1d00ed043a926f1",
+  "static": {
+   "bounds": {
+    "E100": {
+     "converged": false,
+     "extrapolated": 0.01200297210552743,
+     "lower": 0.010487618631797856,
+     "upper": 0.013838256370920227
+    },
+    "G": {
+     "converged": false,
+     "extrapolated": 0.0003421890901073735,
+     "lower": 8.66904509203179e-05,
+     "upper": 0.0007163479612186055
+    },
+    "bulk": {
+     "converged": false,
+     "extrapolated": 0.004077756149532553,
+     "lower": 0.003551255309919059,
+     "upper": 0.004714515447509885
+    },
+    "density": {
+     "converged": true,
+     "extrapolated": 0.4897651996424006,
+     "lower": 0.4894755526919029,
+     "upper": 0.49005484659289833
+    },
+    "nu100": {
+     "converged": true,
+     "extrapolated": 0.009528218359705498,
+     "lower": 0.008441771296248365,
+     "upper": 0.010792553869190279
+    }
+   },
+   "checks_failed": [],
+   "rung": [
+    32,
+    48,
+    64
+   ],
+   "verdict": {
+    "targets": {},
+    "verdict": "certified"
+   }
+  },
+  "targets": {
+   "gap": {
+    "f_hi": 0.13788032657329527,
+    "f_lo": 0.11490027214441272
+   }
+  },
+  "verdict": "certified"
+ },
+ "design": {
+  "family": "resonator",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.786957,
+   "w": 0.06
+  }
+ },
+ "disclaimers": [
+  "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+  "certificates are acceptance under stated discretization, sampling and guard assumptions, not continuum theorems; a gap is certified for the infinite periodic lattice, not for a finite printed block",
+  "search-tier values (evaluate, search, atlas) are estimates, biased stiff and high in frequency, NOT certificates",
+  "material values are typical datasheet inputs of the request, not measured properties of a printed part",
+  "the as-built check is a robustness flag (surface offset +-offset a), not a tolerance analysis"
+ ],
+ "geometry": {
+  "cell_size_mm": 10.0,
+  "contour": "solid fraction 0.5 of the cleaned field",
+  "files": {
+   "cell": {
+    "bytes": 1567084,
+    "method": "marching_cubes",
+    "n_triangles": 31340,
+    "path": "exports/cube_bars_f1d00ed0_0dc7c1/cell.stl",
+    "sha256": "43831136c673f4cecc6c76fcb02795a11286406785e871fd377157ca18570a2f",
+    "unit": "mm"
+   },
+   "tiled": {
+    "bytes": 11302284,
+    "method": "marching_cubes",
+    "n_triangles": 226044,
+    "path": "exports/cube_bars_f1d00ed0_0dc7c1/tiled_3x3x3.stl",
+    "sha256": "6eddef5a4633cb0a184a2fa70a5393e7ef52bf3fa5544152eeb64dd9166d75c8",
+    "unit": "mm"
+   }
+  },
+  "removed_islands_fraction": 1.1334511060349114e-16,
+  "resolution": 64,
+  "tile_resolution": 32,
+  "tiles": 3,
+  "unit": "mm"
+ },
+ "identity": {
+  "checker": "c5f8c89871b3bad6",
+  "code": "f1a6d625064a6d18",
+  "profile": "C",
+  "schema": "amm-tools/3"
+ },
+ "normalized_targets": {
+  "gap": {
+   "f_hi": 0.13788032657329527,
+   "f_lo": 0.11490027214441272
+  }
+ },
+ "outcome": {
+  "decision": "export",
+  "definition": "every target accepted by the certificate (guarded static bounds, inertia-count gap, edge guard)",
+  "design": {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.786957,
+    "w": 0.06
+   }
+  },
+  "evidence": [
+   {
+    "kind": "certificate_certified",
+    "outcome": "certified_candidate",
+    "seq": 10,
+    "summary": "certificate certified: cube_bars {'c': 0.786957, 'w': 0.06}",
+    "tool": "certify"
+   }
+  ],
+  "evidence_checked": true,
+  "outcome": "certified_candidate",
+  "profile": "C",
+  "schema_version": "amm-outcome/1",
+  "title": "Certified candidate",
+  "verdict": null
+ },
+ "schema_version": "amm-export/1",
+ "screening": {
+  "cell_connectivity": {
+   "largest_fraction": 1.0,
+   "n_components": 1,
+   "note": "one cell cut at its walls, as a single printed cell",
+   "spans": [
+    true,
+    true,
+    true
+   ]
+  },
+  "cell_size_mm": 10.0,
+  "complete": true,
+  "design": {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.786957,
+    "w": 0.06
+   }
+  },
+  "disclaimer": "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+  "min_feature": {
+   "limit_source": "typical minimum feature of 316L by LPBF (amm.units.MATERIALS, a datasheet value, not a machine capability)",
+   "limit_voxels": 1.92,
+   "note": "printer limit below two voxels at this resolution: raise `resolution` for a sharper check",
+   "passed": true,
+   "printer_limit_mm": 0.3,
+   "solid_est_cell_units": 0.140625,
+   "solid_est_mm": 1.40625,
+   "solid_thinner_than_limit": 0.0,
+   "tolerance": 0.01,
+   "void_est_cell_units": 0.203125,
+   "void_est_mm": 2.03125,
+   "void_narrower_than_limit": 0.0,
+   "void_passed": true
+  },
+  "passed": true,
+  "removed_islands_fraction": 1.1334511060349114e-16,
+  "resolution": 64,
+  "schema_version": "amm-screen/1",
+  "tiled_connectivity": {
+   "largest_fraction": 1.0,
+   "n_components": 1,
+   "passed": true,
+   "spans": [
+    true,
+    true,
+    true
+   ],
+   "tiles": 3
+  },
+  "verdict": "screen passed",
+  "voxel": {
+   "cell_units": 0.015625,
+   "mm": 0.15625
+  },
+  "watertight": {
+   "cell": {
+    "boundary_edges": 0,
+    "method": "marching_cubes",
+    "n_shells": 1,
+    "n_triangles": 31340,
+    "nonmanifold_edges": 0,
+    "orientation_ok": true,
+    "volume": 0.4851936578631691,
+    "volume_rel_diff": 0.012083886998556548,
+    "voxel_volume_cell_units": 0.479400634765625,
+    "watertight": true
+   },
+   "passed": true,
+   "tiled": {
+    "boundary_edges": 0,
+    "method": "marching_cubes",
+    "n_shells": 1,
+    "n_triangles": 226044,
+    "nonmanifold_edges": 0,
+    "orientation_ok": true,
+    "volume": 13.434220789697306,
+    "volume_rel_diff": 0.03788709665561223,
+    "voxel_volume_cell_units": 12.943817138671875,
+    "watertight": true
+   }
+  }
+ },
+ "search_tier": {
+  "C": [
+   [
+    0.015017780195561204,
+    0.0001778670628036288,
+    0.00017786706280359887,
+    1.9707724505044306e-17,
+    -1.7367563550502174e-17,
+    -2.9581778649909185e-17
+   ],
+   [
+    0.0001778670628036288,
+    0.015017780195561227,
+    0.00017786706280360445,
+    5.742617159473885e-17,
+    2.9994813090814063e-17,
+    -7.447516012909754e-17
+   ],
+   [
+    0.00017786706280359887,
+    0.00017786706280360445,
+    0.015017780195560883,
+    3.7179928967294337e-16,
+    2.5635867724191146e-16,
+    4.532685058994575e-18
+   ],
+   [
+    1.9707724505044306e-17,
+    5.742617159473885e-17,
+    3.7179928967294337e-16,
+    0.0008828489234442158,
+    -1.1308874960051817e-15,
+    -1.774016871178791e-17
+   ],
+   [
+    -1.7367563550502174e-17,
+    2.9994813090814063e-17,
+    2.5635867724191146e-16,
+    -1.1308874960051817e-15,
+    0.0008828489234445786,
+    2.1128389836311268e-17
+   ],
+   [
+    -2.9581778649909185e-17,
+    -7.447516012909754e-17,
+    4.532685058994575e-18,
+    -1.774016871178791e-17,
+    2.1128389836311268e-17,
+    0.0008828489234455499
+   ]
+  ],
+  "C_MPa": [
+   [
+    2898.4315777433126,
+    34.32834312110035,
+    34.32834312109458,
+    3.803590829473551e-12,
+    -3.3519397652469196e-12,
+    -5.709283279432473e-12
+   ],
+   [
+    34.32834312110035,
+    2898.4315777433167,
+    34.328343121095656,
+    1.1083251117784598e-11,
+    5.788998926527114e-12,
+    -1.4373705904915826e-11
+   ],
+   [
+    34.32834312109458,
+    34.328343121095656,
+    2898.4315777432503,
+    7.175726290687807e-11,
+    4.947722470768891e-11,
+    8.748082163859529e-13
+   ],
+   [
+    3.803590829473551e-12,
+    1.1083251117784598e-11,
+    7.175726290687807e-11,
+    170.38984222473366,
+    -2.1826128672900007e-10,
+    -3.4238525613750667e-12
+   ],
+   [
+    -3.3519397652469196e-12,
+    5.788998926527114e-12,
+    4.947722470768891e-11,
+    -2.1826128672900007e-10,
+    170.38984222480366,
+    4.077779238408075e-12
+   ],
+   [
+    -5.709283279432473e-12,
+    -1.4373705904915826e-11,
+    8.748082163859529e-13,
+    -3.4238525613750667e-12,
+    4.077779238408075e-12,
+    170.38984222499113
+   ]
+  ],
+  "E100": 0.015013616280527844,
+  "E100_MPa": 2897.627942141874,
+  "G": 0.0008828489234447815,
+  "G_MPa": 170.38984222484282,
+  "bulk": 0.005124504773722774,
+  "bulk_MPa": 989.0294213284955,
+  "density": 0.4906130830197919,
+  "derived": {
+   "C11": 0.015017780195561103,
+   "C12": 0.0001778670628036107,
+   "C44": 0.0008828489234447815,
+   "E100": 0.015013616280527844,
+   "E110": 0.0031636815178566137,
+   "E111": 0.002504709761420962,
+   "bulk_reuss": 0.005124504773722775,
+   "bulk_voigt": 0.005124504773722775,
+   "cubic_deviation": 7.690278225673219e-14,
+   "eigenvalues": [
+    0.0008828489234432515,
+    0.000882848923445519,
+    0.000882848923445572,
+    0.0148399131327574,
+    0.014839913132757582,
+    0.015373514321168322
+   ],
+   "min_eig": 0.0008828489234432515,
+   "note": "C11, C12, C44 are cubic averages; E100/E110/E111 from the full tensor",
+   "nu12": 0.011705132382940627,
+   "shear_reuss": 0.001363276986919316,
+   "shear_voigt": 0.0034976919806183676,
+   "voigt_order": "11, 22, 33, 23 (yz), 13 (xz), 12 (xy); engineering shear strains",
+   "zener": 0.11898303117367831
+  },
+  "design": {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.786957,
+    "w": 0.06
+   }
+  },
+  "gaps": [
+   {
+    "f_hi": 0.5868398743611357,
+    "f_lo": 0.11040836048902955,
+    "rel": 1.366605148808985
+   },
+   {
+    "f_hi": 0.7877676354698617,
+    "f_lo": 0.5872005788870995,
+    "rel": 0.29174064460328264
+   },
+   {
+    "f_hi": 1.1174092562308267,
+    "f_lo": 0.9808281264036408,
+    "rel": 0.1301865374790909
+   }
+  ],
+  "gaps_Hz": [
+   [
+    33631.70987322978,
+    178758.45913423735
+   ],
+   [
+    178868.3340559683,
+    239963.4633309779
+   ],
+   [
+    298772.00274148135,
+    340376.2518414602
+   ]
+  ],
+  "nu100": 0.011705132382940627,
+  "valid": true
+ },
+ "spec": {
+  "cell_size": [
+   10.0,
+   "mm"
+  ],
+  "families": [
+   "tpms",
+   "struts",
+   "resonator"
+  ],
+  "gap_type": "complete",
+  "material": "316L",
+  "material_values": {
+   "E": 193000000000.0,
+   "min_feature": 0.0003,
+   "nu": 0.3,
+   "process": "LPBF",
+   "rho": 8000.0,
+   "tolerance": 5e-05
+  },
+  "sources": {
+   "cell_size": {
+    "note": "V6 case 2 filter: complete gap 35-42 kHz, 10 mm cell",
+    "source": "stated"
+   },
+   "gap": {
+    "note": "V6 case 2 filter: complete gap 35-42 kHz, 10 mm cell",
+    "source": "stated"
+   },
+   "material": {
+    "note": "V6 case 2 filter: complete gap 35-42 kHz, 10 mm cell",
+    "source": "stated"
+   }
+  },
+  "targets": {
+   "gap": {
+    "f_hi": [
+     42000.0,
+     "Hz"
+    ],
+    "f_lo": [
+     35000.0,
+     "Hz"
+    ]
+   }
+  }
+ },
+ "submission": {
+  "certificate": {
+   "checker": "c5f8c89871b3bad6",
+   "material": "316L",
+   "nu": 0.3,
+   "robust": false,
+   "verdict": "certified"
+  },
+  "decision": "release",
+  "design": {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.786957,
+    "w": 0.06
+   }
+  },
+  "evidence": [
+   {
+    "kind": "certificate_certified",
+    "seq": 10,
+    "tool": "certify"
+   }
+  ],
+  "note": "V6 case 2 filter: complete gap 35-42 kHz, 10 mm cell",
+  "outcome": "certified_candidate",
+  "spec": {
+   "cell_size": [
+    10.0,
+    "mm"
+   ],
+   "gap_type": "complete",
+   "material": "316L",
+   "nu": 0.3,
+   "targets": {
+    "gap": {
+     "f_hi": [
+      42000.0,
+      "Hz"
+     ],
+     "f_lo": [
+      35000.0,
+      "Hz"
+     ]
+    }
+   }
+  },
+  "targets": {
+   "gap": {
+    "f_hi": 0.13788032657329527,
+    "f_lo": 0.11490027214441272
+   }
+  }
+ }
+}

@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":[12,"mm"],"targets":{"gap":{"f_lo":132,"f_hi":177,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"I cannot certify a design with this complete 3D band gap without a validated elastic band-structure calculation covering all wave directions and polarizations; infeasibility has not been established."}

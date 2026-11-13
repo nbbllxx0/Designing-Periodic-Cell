@@ -1,0 +1,1 @@
+Submitted **PROVEN_INFEASIBLE**; no design released. Using amm’s 316L modulus of 193 GPa, the theoretical upper bound at 16% solid is \(0.16 \times 193 = 30.88\) GPa in any direction—below the required 38.6 GPa, regardless of unit-cell geometry.

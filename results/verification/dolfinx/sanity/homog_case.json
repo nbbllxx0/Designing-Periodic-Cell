@@ -1,0 +1,1 @@
+{"name": "homogeneous_solid", "nu": 0.3, "below_band": 6, "geometry": {"kind": "cube_bars", "c": 1.0, "w": 0.5}}

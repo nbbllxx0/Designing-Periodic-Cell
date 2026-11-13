@@ -1,0 +1,29 @@
+{
+ "key": "19b57fe16be2f5a2",
+ "checker": "f2e482d81382b400",
+ "spec": {
+  "family": "resonator",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.51913,
+   "w": 0.36
+  }
+ },
+ "targets": {
+  "density_max": 0.48,
+  "nu100_max": 0.4,
+  "E100_min": 0.11687170474516696
+ },
+ "nu": 0.342,
+ "verdict": "certified",
+ "seconds": 101.4,
+ "static_verdict": {
+  "verdict": "certified",
+  "targets": {
+   "density_max": "certified",
+   "E100_min": "certified",
+   "nu100_max": "certified"
+  }
+ },
+ "gap_verdict": null
+}

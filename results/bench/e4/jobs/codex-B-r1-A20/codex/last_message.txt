@@ -1,0 +1,1 @@
+Released a PA12 **cube_bars** unit cell with \(c=0.397391a\) and \(w=0.320870a\). Estimated solid fraction is **24.98%** and homogenized \(E_{[100]}\) is **209.5 MPa**, meeting both targets. Results are uncertified; SLS manufacturability was not evaluated.

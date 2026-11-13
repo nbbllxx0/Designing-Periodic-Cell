@@ -1,0 +1,153 @@
+{
+ "id": "S04",
+ "attempts": [
+  {
+   "request": {
+    "density_max": 0.4,
+    "E100_min": [
+     16.8,
+     "GPa"
+    ],
+    "G_min": [
+     2.13,
+     "GPa"
+    ]
+   },
+   "normalized": {
+    "density_max": 0.4,
+    "E100_min": 0.14762741652021089,
+    "G_min": 0.018717047451669595
+   },
+   "verdict": "certified",
+   "seconds": 124.2,
+   "static_rung": [
+    32,
+    48,
+    64
+   ],
+   "static_bounds": {
+    "density": {
+     "lower": 0.3599269918511267,
+     "upper": 0.3600518283048888
+    },
+    "E100": {
+     "lower": 0.18684053151418636,
+     "upper": 0.18856542346037464
+    },
+    "G": {
+     "lower": 0.02254151081031755,
+     "upper": 0.023704383665275348
+    },
+    "bulk": {
+     "lower": 0.08678252130769218,
+     "upper": 0.08786809701582471
+    },
+    "nu100": {
+     "lower": 0.1411790201205738,
+     "upper": 0.14233240909873518
+    }
+   },
+   "safe_interval": null,
+   "spec_hash": "f609428d51ccbbc9",
+   "spec": {
+    "family": "tpms",
+    "kind": "iwp",
+    "params": {
+     "density": 0.36,
+     "mode": "network"
+    }
+   },
+   "pass_": 1
+  },
+  {
+   "request": {
+    "density_max": 0.37,
+    "E100_min": [
+     21.0,
+     "GPa"
+    ],
+    "G_min": [
+     2.53,
+     "GPa"
+    ]
+   },
+   "normalized": {
+    "density_max": 0.37,
+    "E100_min": 0.18453427065026362,
+    "G_min": 0.022231985940246047
+   },
+   "verdict": "certified",
+   "seconds": 143.1,
+   "static_rung": [
+    32,
+    48,
+    64
+   ],
+   "static_bounds": {
+    "density": {
+     "lower": 0.3599269918511267,
+     "upper": 0.3600518283048888
+    },
+    "E100": {
+     "lower": 0.18684053151418636,
+     "upper": 0.18856542346037464
+    },
+    "G": {
+     "lower": 0.02254151081031755,
+     "upper": 0.023704383665275348
+    },
+    "bulk": {
+     "lower": 0.08678252130769218,
+     "upper": 0.08786809701582471
+    },
+    "nu100": {
+     "lower": 0.1411790201205738,
+     "upper": 0.14233240909873518
+    }
+   },
+   "safe_interval": null,
+   "spec_hash": "f609428d51ccbbc9",
+   "spec": {
+    "family": "tpms",
+    "kind": "iwp",
+    "params": {
+     "density": 0.36,
+     "mode": "network"
+    }
+   },
+   "pass_": 2,
+   "u": 0.9899556553327552,
+   "gap_shrink": 0.03
+  }
+ ],
+ "final": {
+  "spec": {
+   "family": "tpms",
+   "kind": "iwp",
+   "params": {
+    "density": 0.36,
+    "mode": "network"
+   }
+  },
+  "request": {
+   "density_max": 0.37,
+   "E100_min": [
+    21.0,
+    "GPa"
+   ],
+   "G_min": [
+    2.53,
+    "GPa"
+   ]
+  },
+  "normalized": {
+   "density_max": 0.37,
+   "E100_min": 0.18453427065026362,
+   "G_min": 0.022231985940246047
+  },
+  "verdict": "certified",
+  "passes": 2,
+  "u": 0.9899556553327552
+ },
+ "seconds": 267.5
+}

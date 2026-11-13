@@ -1,0 +1,384 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "PA12"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 1700000000.0,
+    "atlas_available": true,
+    "material": "PA12",
+    "nu": 0.39,
+    "rho_kg_m3": 1010.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "cell_size": 10.0,
+    "cell_size_unit": "mm"
+   },
+   "ok": true,
+   "result": {
+    "cell_size": [
+     10.0,
+     "mm"
+    ],
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "seq": 2,
+   "tool": "set_constraints"
+  },
+  {
+   "args": {
+    "E100_min": {
+     "unit": "MPa",
+     "value": 25
+    },
+    "density_max": 0.25
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.014705882352941176,
+     "density_max": 0.25
+    },
+    "targets": {
+     "E100_min": [
+      25.0,
+      "MPa"
+     ],
+     "density_max": 0.25
+    }
+   },
+   "seq": 3,
+   "tool": "set_target"
+  },
+  {
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "ok": true,
+   "result": {
+    "E100_MPa": 45.86473759645656,
+    "G_MPa": 0.627840323367267,
+    "as_built": {
+     "dilate": true,
+     "erode": true
+    },
+    "bulk_MPa": 17.190109872048534,
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    },
+    "gaps_Hz": [],
+    "outcome": "certified_candidate",
+    "robust": true,
+    "spec_hash": "c3816dab1e980508",
+    "static": {
+     "bounds": {
+      "E100": {
+       "lower": 0.026979257409680327,
+       "upper": 0.02785896946252099
+      },
+      "G": {
+       "lower": 0.00036931783727486297,
+       "upper": 0.0004849764498043036
+      },
+      "bulk": {
+       "lower": 0.010111829336499137,
+       "upper": 0.010509073743092073
+      },
+      "density": {
+       "lower": 0.06913204061485188,
+       "upper": 0.06952879026466406
+      },
+      "nu100": {
+       "lower": 0.05537283218280255,
+       "upper": 0.05817562616385114
+      }
+     },
+     "checks_failed": [],
+     "rung": [
+      32,
+      48,
+      64
+     ],
+     "verdict": {
+      "targets": {
+       "E100_min": "certified",
+       "density_max": "certified"
+      },
+      "verdict": "certified"
+     }
+    },
+    "targets": {
+     "E100_min": 0.014705882352941176,
+     "density_max": 0.25
+    },
+    "verdict": "certified"
+   },
+   "seq": 4,
+   "tool": "certify"
+  },
+  {
+   "args": {
+    "decision": "release",
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "ok": true,
+   "result": {
+    "outcome_card": {
+     "decision": "release",
+     "definition": "every target accepted by the certificate (guarded static bounds, inertia-count gap, edge guard)",
+     "design": {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.12,
+       "w": 0.181739
+      }
+     },
+     "evidence": [
+      {
+       "kind": "certificate_certified",
+       "outcome": "certified_candidate",
+       "seq": 4,
+       "summary": "certificate certified: sphere_ligaments {'c': 0.12, 'w': 0.181739}",
+       "tool": "certify"
+      }
+     ],
+     "evidence_checked": true,
+     "outcome": "certified_candidate",
+     "profile": "C",
+     "schema_version": "amm-outcome/1",
+     "title": "Certified candidate",
+     "verdict": null
+    },
+    "submitted": {
+     "certificate": {
+      "checker": "c5f8c89871b3bad6",
+      "material": "PA12",
+      "nu": 0.39,
+      "robust": true,
+      "verdict": "certified"
+     },
+     "decision": "release",
+     "design": {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.12,
+       "w": 0.181739
+      }
+     },
+     "evidence": [
+      {
+       "kind": "certificate_certified",
+       "seq": 4,
+       "tool": "certify"
+      }
+     ],
+     "note": "",
+     "outcome": "certified_candidate",
+     "spec": {
+      "cell_size": [
+       10.0,
+       "mm"
+      ],
+      "gap_type": null,
+      "material": "PA12",
+      "nu": 0.39,
+      "targets": {
+       "E100_min": [
+        25.0,
+        "MPa"
+       ],
+       "density_max": 0.25
+      }
+     },
+     "targets": {
+      "E100_min": 0.014705882352941176,
+      "density_max": 0.25
+     }
+    }
+   },
+   "seq": 5,
+   "tool": "submit"
+  },
+  {
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    },
+    "resolution": 48,
+    "tile_resolution": 24,
+    "tiles": 2
+   },
+   "ok": true,
+   "result": {
+    "disclaimer": "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+    "files": {
+     "cell": {
+      "bytes": 422284,
+      "method": "marching_cubes",
+      "n_triangles": 8444,
+      "path": "exports/sphere_ligaments_c3816dab_c79d2f/cell.stl",
+      "sha256": "9c15e715dcef5b36659311d0f3ccad1101c03e3260a2410ba1de332faae72a0b",
+      "unit": "mm"
+     },
+     "report": {
+      "bytes": 7864,
+      "path": "exports/sphere_ligaments_c3816dab_c79d2f/report.json",
+      "sha256": "c25d7fef531e71c9e97b57ac0708dbd2066e210122f183676ff785c2958e0797"
+     },
+     "tiled": {
+      "bytes": 807284,
+      "method": "marching_cubes",
+      "n_triangles": 16144,
+      "path": "exports/sphere_ligaments_c3816dab_c79d2f/tiled_2x2x2.stl",
+      "sha256": "3436532ebffec6c23201b9a4802adb0c521afc35e8fd1456d8a651184c234df8",
+      "unit": "mm"
+     }
+    },
+    "name": "sphere_ligaments_c3816dab_c79d2f",
+    "outcome": "certified_candidate",
+    "outcome_title": "Certified candidate",
+    "schema_version": "amm-export/1",
+    "screening": {
+     "complete": true,
+     "min_feature": {
+      "limit_source": "typical minimum feature of PA12 by SLS (amm.units.MATERIALS, a datasheet value, not a machine capability)",
+      "limit_voxels": 3.8400000000000007,
+      "passed": true,
+      "printer_limit_mm": 0.8,
+      "solid_est_cell_units": 0.1484375,
+      "solid_est_mm": 1.484375,
+      "solid_thinner_than_limit": 0.0,
+      "tolerance": 0.01,
+      "void_est_cell_units": 0.54296875,
+      "void_est_mm": 5.4296875,
+      "void_narrower_than_limit": 0.0,
+      "void_passed": true
+     },
+     "passed": true,
+     "tiled_connectivity": {
+      "largest_fraction": 1.0,
+      "n_components": 1,
+      "passed": true,
+      "spans": [
+       true,
+       true,
+       true
+      ],
+      "tiles": 2
+     },
+     "verdict": "screen passed",
+     "watertight": {
+      "cell": true,
+      "tiled": true
+     }
+    },
+    "unit": "mm"
+   },
+   "seq": 6,
+   "tool": "export"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "certify",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "disclaimer": "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+  "files": {
+   "cell": {
+    "bytes": 422284,
+    "method": "marching_cubes",
+    "n_triangles": 8444,
+    "path": "exports/sphere_ligaments_c3816dab_c79d2f/cell.stl",
+    "sha256": "9c15e715dcef5b36659311d0f3ccad1101c03e3260a2410ba1de332faae72a0b",
+    "unit": "mm"
+   },
+   "report": {
+    "bytes": 7864,
+    "path": "exports/sphere_ligaments_c3816dab_c79d2f/report.json",
+    "sha256": "c25d7fef531e71c9e97b57ac0708dbd2066e210122f183676ff785c2958e0797"
+   },
+   "tiled": {
+    "bytes": 807284,
+    "method": "marching_cubes",
+    "n_triangles": 16144,
+    "path": "exports/sphere_ligaments_c3816dab_c79d2f/tiled_2x2x2.stl",
+    "sha256": "3436532ebffec6c23201b9a4802adb0c521afc35e8fd1456d8a651184c234df8",
+    "unit": "mm"
+   }
+  },
+  "name": "sphere_ligaments_c3816dab_c79d2f",
+  "outcome": "certified_candidate",
+  "outcome_title": "Certified candidate",
+  "schema_version": "amm-export/1",
+  "screening": {
+   "complete": true,
+   "min_feature": {
+    "limit_source": "typical minimum feature of PA12 by SLS (amm.units.MATERIALS, a datasheet value, not a machine capability)",
+    "limit_voxels": 3.8400000000000007,
+    "passed": true,
+    "printer_limit_mm": 0.8,
+    "solid_est_cell_units": 0.1484375,
+    "solid_est_mm": 1.484375,
+    "solid_thinner_than_limit": 0.0,
+    "tolerance": 0.01,
+    "void_est_cell_units": 0.54296875,
+    "void_est_mm": 5.4296875,
+    "void_narrower_than_limit": 0.0,
+    "void_passed": true
+   },
+   "passed": true,
+   "tiled_connectivity": {
+    "largest_fraction": 1.0,
+    "n_components": 1,
+    "passed": true,
+    "spans": [
+     true,
+     true,
+     true
+    ],
+    "tiles": 2
+   },
+   "verdict": "screen passed",
+   "watertight": {
+    "cell": true,
+    "tiled": true
+   }
+  },
+  "unit": "mm"
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S12_cli\\04-certify"
+}

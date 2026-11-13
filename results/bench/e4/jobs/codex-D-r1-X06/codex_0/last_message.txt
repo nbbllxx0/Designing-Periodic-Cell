@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":null,"targets":{"density_max":0.35,"bulk_min":{"value":67.6,"unit":"GPa"}},"verdict":"PROVEN_INFEASIBLE","note":"Using typical 316L constants E = 193 GPa and ν = 0.30, the Voigt bound gives K_eff ≤ 0.35 K_solid ≈ 56.3 GPa, below the required 67.6 GPa for any geometry."}

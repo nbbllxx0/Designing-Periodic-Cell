@@ -1,0 +1,9 @@
+{
+ "constraints": {
+  "cell_size": 10,
+  "cell_size_unit": "mm"
+ },
+ "material": {
+  "name": "PA12"
+ }
+}

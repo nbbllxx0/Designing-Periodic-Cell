@@ -1,0 +1,1 @@
+Released a 12 mm 316L sphere-and-ligament candidate with normalized parameters **c = 0.356522, w = 0.108696**. Its predicted complete band gap is **72.45–259.84 kHz**, covering 99.4–113 kHz. This search estimate is uncertified; LPBF manufacturability was not evaluated.

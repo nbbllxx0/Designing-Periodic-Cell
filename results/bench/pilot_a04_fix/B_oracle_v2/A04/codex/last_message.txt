@@ -1,0 +1,1 @@
+Submitted **need_info**. A Ti6Al4V Schwarz P sheet candidate predicts 28.4% solid and C44 ≈ 6.86 GPa, but conservative estimates fall below 6.51 GPa. Please clarify whether preliminary predicted performance is acceptable or verified compliance is required.

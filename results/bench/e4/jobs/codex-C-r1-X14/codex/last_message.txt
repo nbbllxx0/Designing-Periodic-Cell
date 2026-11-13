@@ -1,0 +1,1 @@
+The amm tools returned **PROVEN_INFEASIBLE**; no design was released. With the 316L model’s solid modulus of 193 GPa, the rigorous Voigt bound at 14% solid fraction is **27.02 GPa**, below your 36.5 GPa requirement. Meeting that target requires at least **18.91% solid fraction**, even under this ideal upper bound.

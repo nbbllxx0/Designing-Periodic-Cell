@@ -1,0 +1,1 @@
+Released a Ti6Al4V Schwarz P sheet lattice at nominal 28.9% solid. Certified bounds meet both targets: solid fraction ≤28.906% and C44 ≥6.88 GPa. The design failed the erosion tolerance check, so LPBF manufacturing robustness remains unverified.

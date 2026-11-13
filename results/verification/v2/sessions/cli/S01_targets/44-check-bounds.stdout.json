@@ -1,0 +1,46 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "density_max": -0.1,
+    "zener_min": 0.9
+   },
+   "error": "zener_min: Extra inputs are not permitted; zener_min: not a design target: the Zener ratio, the cubic constants C11, C12, C44 and E110 / E111 are computed outputs of evaluate (results[].derived), never targets or certified quantities. Targets: density_min, density_max, E100_min, E100_max, G_min, bulk_min, nu100_min, nu100_max, gap",
+   "ok": false,
+   "seq": 2,
+   "tool": "set_target"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": {
+  "error": "zener_min: Extra inputs are not permitted; zener_min: not a design target: the Zener ratio, the cubic constants C11, C12, C44 and E110 / E111 are computed outputs of evaluate (results[].derived), never targets or certified quantities. Targets: density_min, density_max, E100_min, E100_max, G_min, bulk_min, nu100_min, nu100_max, gap",
+  "tool": "set_target"
+ },
+ "ok": false,
+ "profile": "C",
+ "result": {
+  "E_Pa": 193000000000.0,
+  "atlas_available": true,
+  "material": "316L",
+  "nu": 0.3,
+  "rho_kg_m3": 8000.0
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S01_targets\\44-check-bounds"
+}

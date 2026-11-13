@@ -1,0 +1,11 @@
+14:15:26 start B A04
+14:15:54 done  B A04 rc=0 wall=28.0s
+14:15:54 start C A04
+14:21:59 done  C A04 rc=0 wall=365.2s
+all sessions done; code 692363aa91ab4158
+14:22:22 start B A04
+14:29:49 done  B A04 rc=0 wall=447.1s
+all sessions done; code 692363aa91ab4158
+14:30:18 start B A04
+14:36:53 done  B A04 rc=0 wall=394.8s
+all sessions done; code 692363aa91ab4158

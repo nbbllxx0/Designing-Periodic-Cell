@@ -1,0 +1,314 @@
+[
+ {
+  "case": "cb_c0.5_w0.2_nu0.3",
+  "src": "V1c",
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.5,
+    "w": 0.2
+   }
+  },
+  "nu": 0.3,
+  "n": 20,
+  "ndof": 6018,
+  "below_band": 6,
+  "claim": [
+   0.4126,
+   0.5184
+  ],
+  "steps": 20,
+  "n_k": 1771,
+  "n_fail": 0,
+  "fails": [],
+  "numerical_flags": 0,
+  "seconds": 470.6
+ },
+ {
+  "case": "cb_c0.6_w0.2_nu0.342",
+  "src": "V1c",
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.2
+   }
+  },
+  "nu": 0.342,
+  "n": 20,
+  "ndof": 8166,
+  "below_band": 6,
+  "claim": [
+   0.4428,
+   0.6603
+  ],
+  "steps": 20,
+  "n_k": 1771,
+  "n_fail": 0,
+  "fails": [],
+  "numerical_flags": 0,
+  "seconds": 677.2
+ },
+ {
+  "case": "cb_c0.6_w0.3_nu0.3",
+  "src": "V1c",
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.3
+   }
+  },
+  "nu": 0.3,
+  "n": 20,
+  "ndof": 9678,
+  "below_band": 6,
+  "claim": [
+   0.5693,
+   0.6469
+  ],
+  "steps": 20,
+  "n_k": 1771,
+  "n_fail": 0,
+  "fails": [],
+  "numerical_flags": 0,
+  "seconds": 1010.3
+ },
+ {
+  "case": "cb_c0.7_w0.3_nu0.3",
+  "src": "V1c",
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.3
+   }
+  },
+  "nu": 0.3,
+  "n": 20,
+  "ndof": 12330,
+  "below_band": 6,
+  "claim": [
+   0.5192,
+   0.6385
+  ],
+  "steps": 20,
+  "n_k": 1771,
+  "n_fail": 0,
+  "fails": [],
+  "numerical_flags": 0,
+  "seconds": 1303.5
+ },
+ {
+  "case": "cb_c0.8_w0.3_nu0.3",
+  "src": "V1c",
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.8,
+    "w": 0.3
+   }
+  },
+  "nu": 0.3,
+  "n": 20,
+  "ndof": 16062,
+  "below_band": 6,
+  "claim": [
+   0.5032,
+   0.5837
+  ],
+  "steps": 20,
+  "n_k": 1771,
+  "n_fail": 0,
+  "fails": [],
+  "numerical_flags": 0,
+  "seconds": 1888.5
+ },
+ {
+  "case": "strut_bcc_R0.27_r0.06_nu0.342",
+  "src": "V1c",
+  "spec": {
+   "family": "struts",
+   "kind": "bcc",
+   "params": {
+    "R": 0.27,
+    "r": 0.06
+   }
+  },
+  "nu": 0.342,
+  "n": 20,
+  "ndof": 9798,
+  "below_band": 12,
+  "claim": [
+   0.48873537983769566,
+   0.5585547198145093
+  ],
+  "steps": 20,
+  "n_k": 1771,
+  "n_fail": 0,
+  "fails": [],
+  "numerical_flags": 0,
+  "seconds": 736.2
+ },
+ {
+  "case": "thin_sl_c0.402_w0.061_nu0.3",
+  "src": "V1c",
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.402036,
+    "w": 0.060598
+   }
+  },
+  "nu": 0.3,
+  "n": 20,
+  "ndof": 10446,
+  "below_band": 6,
+  "claim": [
+   0.23144197674803133,
+   0.630310064335064
+  ],
+  "steps": 20,
+  "n_k": 1771,
+  "n_fail": 0,
+  "fails": [],
+  "numerical_flags": 0,
+  "seconds": 846.6
+ },
+ {
+  "case": "tpms_schwarzp_d0.25_nu0.3",
+  "src": "V1c",
+  "spec": {
+   "family": "tpms",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   }
+  },
+  "nu": 0.3,
+  "n": 20,
+  "ndof": 9918,
+  "below_band": 6,
+  "claim": [
+   0.4821542675645598,
+   0.787663739130882
+  ],
+  "steps": 20,
+  "n_k": 1771,
+  "n_fail": 0,
+  "fails": [],
+  "numerical_flags": 0,
+  "seconds": 793.0
+ },
+ {
+  "case": "thin_sl_c0.357_w0.109_nu0.3",
+  "src": "V1b",
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.357,
+    "w": 0.109
+   }
+  },
+  "nu": 0.3,
+  "n": 20,
+  "ndof": 8118,
+  "below_band": 6,
+  "claim": [
+   0.3915801274681585,
+   0.44515648293663895
+  ],
+  "steps": 20,
+  "n_k": 1771,
+  "n_fail": 0,
+  "fails": [],
+  "numerical_flags": 0,
+  "seconds": 570.3
+ },
+ {
+  "case": "mount_PA12",
+  "src": "V6",
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.592174,
+    "w": 0.151304
+   }
+  },
+  "nu": 0.39,
+  "n": 20,
+  "ndof": 8166,
+  "below_band": 6,
+  "claim": [
+   0.2955877693879852,
+   0.38426410020438073
+  ],
+  "steps": 20,
+  "n_k": 1771,
+  "n_fail": 0,
+  "fails": [],
+  "numerical_flags": 0,
+  "seconds": 479.6
+ },
+ {
+  "case": "filter_PA12",
+  "src": "V6",
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.356522,
+    "w": 0.108696
+   }
+  },
+  "nu": 0.39,
+  "n": 20,
+  "ndof": 8118,
+  "below_band": 6,
+  "claim": [
+   0.44980747515562963,
+   0.5397689701867555
+  ],
+  "steps": 20,
+  "n_k": 1771,
+  "n_fail": 0,
+  "fails": [],
+  "numerical_flags": 0,
+  "seconds": 569.5
+ },
+ {
+  "case": "filter_316L",
+  "src": "V6",
+  "spec": {
+   "family": "resonator",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.786957,
+    "w": 0.06
+   }
+  },
+  "nu": 0.3,
+  "n": 20,
+  "ndof": 14982,
+  "below_band": 6,
+  "claim": [
+   0.11490027214441272,
+   0.13788032657329527
+  ],
+  "steps": 20,
+  "n_k": 1771,
+  "n_fail": 0,
+  "fails": [],
+  "numerical_flags": 0,
+  "seconds": 1044.7
+ }
+]

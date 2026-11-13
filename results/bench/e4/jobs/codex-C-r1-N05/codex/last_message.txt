@@ -1,0 +1,1 @@
+No design released: **NOT_FOUND_IN_FAMILIES**. The atlas and 96-evaluation search found no 8 mm 316L cell covering the complete 68.5–466 kHz gap. The best candidate’s uncertified gap reached about 435.9 kHz. This does not prove impossibility; LPBF manufacturability was not evaluated.

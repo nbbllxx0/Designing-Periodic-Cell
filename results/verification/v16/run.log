@@ -1,0 +1,3 @@
+counted mesh n=30: density 0.19743
+counted mesh n=40: density 0.19736
+PA12 export recheck: certified (); safe [0.20357818124011604, 0.8798442904814263] vs design [0.20717566917757396, 0.865562668669535]; 1032.1 s

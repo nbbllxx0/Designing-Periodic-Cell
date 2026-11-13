@@ -1,0 +1,27 @@
+[1] set_material: {"material": "PA12", "E_Pa": 1700000000.0, "nu": 0.39, "atlas_available": true}
+[2] set_constraints: {"cell_size": [10.0, "mm"], "families": ["tpms", "struts", "resonator"]}
+[3] set_target: {"targets": {"E100_min": [25.0, "MPa"], "density_max": 0.25}, "normalized": {"E100_min": 0.014705882352941176, "density_max": 0.25}}
+[8] check_bounds: {"verdict": "FEASIBLE", "bounds_verdict": "NOT_REFUTED", "violated": []}
+     atlas: FEASIBLE, 892 of 2714 cells clear the targets at the pessimistic end of the calibrated error range
+[9] atlas_suggest: {"tier": "search (not certified)"}
+     #1 {'kind': 'sphere_ligaments', 'params': {'c': 0.12, 'w': 0.181739}}  slack nominal +0.721, pessimistic +0.720
+     #2 {'kind': 'sphere_ligaments', 'params': {'c': 0.134783, 'w': 0.181739}}  slack nominal +0.720, pessimistic +0.718
+     #3 {'kind': 'sphere_ligaments', 'params': {'c': 0.149565, 'w': 0.181739}}  slack nominal +0.715, pessimistic +0.714
+[10] evaluate (search (not certified)):
+     {'kind': 'sphere_ligaments', 'params': {'c': 0.12, 'w': 0.181739}}: density 0.0696, E100 48.2 MPa, G 0.9 MPa, Zener 0.040
+     {'kind': 'sphere_ligaments', 'params': {'c': 0.134783, 'w': 0.181739}}: density 0.0701, E100 48.5 MPa, G 0.9 MPa, Zener 0.040
+     {'kind': 'sphere_ligaments', 'params': {'c': 0.149565, 'w': 0.181739}}: density 0.0712, E100 49.6 MPa, G 1.0 MPa, Zener 0.043
+[11] certify {'kind': 'sphere_ligaments', 'params': {'c': 0.12, 'w': 0.181739}}: verdict certified (outcome certified_candidate), robust True, 20 s
+     static rung [32, 48, 64], guarded bounds (normalized by E_s):
+       E100     [0.026979, 0.027859]
+       G        [0.00036932, 0.00048498]
+       bulk     [0.010112, 0.010509]
+       density  [0.069132, 0.069529]
+       nu100    [0.055373, 0.058176]
+     E100 lower bound 45.9 MPa vs target 25 MPa; as-built (+-0.01 a = 0.1 mm): {'dilate': True, 'erode': True}
+[12] submit release: outcome certified_candidate (Certified candidate)
+
+session log: C:\AI\AgenticMetamaterials\examples\outputs\02_session\session.jsonl
+certificates: ['c3816dab1e980508_c79d2f3892e37426.json']
+total 24 s (certify 20 s)
+summary: {"design": {"kind": "sphere_ligaments", "params": {"c": 0.12, "w": 0.181739}}, "verdict": "certified", "robust": true, "outcome": "certified_candidate", "seconds_certify": 20, "seconds_total": 24}

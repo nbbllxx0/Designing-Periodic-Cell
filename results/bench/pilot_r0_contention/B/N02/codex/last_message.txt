@@ -1,0 +1,1 @@
+Submitted **NOT_FOUND_IN_FAMILIES**; no design was released. The 96-evaluation amm search found no 6 mm Ti6Al4V cell with a complete gap covering 216–673 kHz. The best candidate’s predicted gap ends near 536 kHz. This does not prove the target is globally infeasible.

@@ -1,0 +1,48 @@
+{
+ "init": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+   "capabilities": {
+    "prompts": {
+     "listChanged": false
+    },
+    "resources": {
+     "listChanged": false,
+     "subscribe": false
+    },
+    "tools": {
+     "listChanged": false
+    }
+   },
+   "instructions": "amm: tools to design periodic unit cells (TPMS, strut lattices, mass-in-frame resonators) for stiffness and elastic-wave band-gap targets. Set the spec (set_material, set_constraints, set_target), explore (list_families, evaluate, search) and finish with submit.",
+   "protocolVersion": "2025-06-18",
+   "serverInfo": {
+    "name": "amm",
+    "version": ""
+   }
+  }
+ },
+ "tools": [
+  "set_material",
+  "set_constraints",
+  "set_target",
+  "set_source",
+  "check_bounds",
+  "ask_clarification",
+  "list_families",
+  "atlas_suggest",
+  "evaluate",
+  "search",
+  "certify",
+  "as_built",
+  "screen_manufacturing",
+  "export",
+  "submit",
+  "undo",
+  "get_session"
+ ],
+ "stderr_tail": [
+  "Tool 'set_target' failed: 'Error executing tool set_target: density_max: Input should be a valid number, unable to parse string as a number'\r\n"
+ ]
+}

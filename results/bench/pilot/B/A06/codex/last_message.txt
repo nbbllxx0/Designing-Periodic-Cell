@@ -1,0 +1,1 @@
+Submitted **PROVEN_INFEASIBLE** for the selected 316L material. At 16% solid volume, the theoretical axial Young’s modulus upper bound is **30.88 GPa**, below the required **38.6 GPa**. No design was released.

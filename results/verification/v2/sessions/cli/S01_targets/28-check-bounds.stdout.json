@@ -1,0 +1,49 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "gap": {
+     "f_hi": 0.3,
+     "f_lo": 0.0,
+     "unit": "f*"
+    }
+   },
+   "error": "gap needs 0 < f_lo < f_hi (a band gap cannot contain f = 0)",
+   "ok": false,
+   "seq": 2,
+   "tool": "set_target"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": {
+  "error": "gap needs 0 < f_lo < f_hi (a band gap cannot contain f = 0)",
+  "tool": "set_target"
+ },
+ "ok": false,
+ "profile": "C",
+ "result": {
+  "E_Pa": 193000000000.0,
+  "atlas_available": true,
+  "material": "316L",
+  "nu": 0.3,
+  "rho_kg_m3": 8000.0
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S01_targets\\28-check-bounds"
+}

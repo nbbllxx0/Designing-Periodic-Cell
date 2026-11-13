@@ -1,0 +1,1 @@
+No design released: **UNDETERMINED**. Three candidates met the density and stiffness limits, but numerical uncertainty at the gap edges prevented certification of complete coverage from 92.8 to 114 kHz. This does not prove the requirements infeasible.

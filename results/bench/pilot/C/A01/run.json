@@ -1,0 +1,19 @@
+{
+ "brief": "A01",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 78.6,
+ "usage": {
+  "input_tokens": 371566,
+  "cached_input_tokens": 332032,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1044,
+  "reasoning_output_tokens": 99
+ },
+ "final": "Released a certified PA12 sphere-and-ligament cell with parameters `c=0.267826`, `w=0.254783`, relative to cell size. Certified bounds meet all requirements: solid fraction \u226415.651%, cube-axis Young\u2019s modulus \u2265112.21 MPa, and C44 \u22655.936 MPa.",
+ "stderr_tail": ""
+}

@@ -1,0 +1,1 @@
+{"decision":"ask","question":"Which homogenized stiffness must be at least 12.3 GPa?","options":[{"label":"Young’s modulus along [100]","set":{"E100_min":{"value":12.3,"unit":"GPa"}}},{"label":"Shear modulus","set":{"G_min":{"value":12.3,"unit":"GPa"}}},{"label":"Bulk modulus","set":{"bulk_min":{"value":12.3,"unit":"GPa"}}}]}

@@ -1,0 +1,49 @@
+{
+ "server_pid": 71280,
+ "started": "2026-11-08 08:52:01",
+ "steps": [
+  {
+   "step": "api rows",
+   "exit": 0,
+   "seconds": 301.8
+  },
+  {
+   "step": "transport rows",
+   "exit": 0,
+   "seconds": 0.8
+  },
+  {
+   "step": "edge pass",
+   "exit": 0,
+   "seconds": 291.9
+  },
+  {
+   "step": "edge rows",
+   "exit": 0
+  }
+ ],
+ "health": {
+  "code": "ff8b3a682221f9a3",
+  "lock": {
+   "held_by_this_server": false,
+   "owner": {
+    "pid": 79448,
+    "t": 1794156709.5019703,
+    "who": "amm-gui-live pid 79448"
+   },
+   "path": "C:\\AI\\AgenticMetamaterials_workspaces\\gpu.lock",
+   "used": true
+  },
+  "mode": "live",
+  "ok": true,
+  "pid": 71280,
+  "schema": "amm-tools/2",
+  "version": "0.2.0",
+  "worker": {
+   "alive": true,
+   "current": null
+  }
+ },
+ "server_exit": 0,
+ "finished": "2026-11-08 09:02:01"
+}

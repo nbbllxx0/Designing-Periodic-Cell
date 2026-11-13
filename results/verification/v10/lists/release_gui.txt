@@ -1,0 +1,3 @@
+results/gui/sessions/live-20261108-060336-5e8b/session.jsonl
+results/gui/sessions/live-20261108-060337-8729/session.jsonl
+results/gui/sessions/live-20261108-060500-1bed/session.jsonl

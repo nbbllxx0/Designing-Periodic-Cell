@@ -1,0 +1,92 @@
+{
+ "material": "316L",
+ "q": "E100",
+ "key": "E100_min",
+ "cap": 0.24,
+ "t": 0.11554404145077721,
+ "t_phys": [
+  22.3,
+  "GPa"
+ ],
+ "e_max": 0.11660811621341498,
+ "u_max": 0.11375001008573754,
+ "best_nominal": {
+  "family": "resonator",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.421739,
+   "w": 0.307826
+  }
+ },
+ "nominal_slack": 0.009209256914308956,
+ "expected_slack": -0.03193044778679101,
+ "proof": [
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.421739,
+     "w": 0.307826
+    }
+   },
+   "upper": 0.11375001008573754,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.421739,
+     "w": 0.307826
+    }
+   },
+   "upper": 0.11375001008573754,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.408481,
+     "w": 0.311626
+    }
+   },
+   "upper": 0.1149231691460854,
+   "source": "search top 3"
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.313394,
+     "w": 0.335951
+    }
+   },
+   "upper": 0.11525239907892589,
+   "source": "search top 3"
+  }
+ ],
+ "n_certified": 5,
+ "id": "R07",
+ "seconds": 2073.4,
+ "intended": {
+  "material": "316L",
+  "cell_size": null,
+  "targets": {
+   "density_max": 0.24,
+   "E100_min": [
+    22.3,
+    "GPa"
+   ]
+  }
+ },
+ "truth": {
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "near_miss": true
+ }
+}

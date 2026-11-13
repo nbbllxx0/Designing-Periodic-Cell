@@ -1,0 +1,1 @@
+The amm verdict is **PROVEN_INFEASIBLE**; no design was released. Using Ti-6Al-4V’s modulus of 113.8 GPa, the Voigt upper bound at 20% solid fraction is **22.76 GPa**, below the required 35 GPa, regardless of lattice geometry.

@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":[5,"mm"],"targets":{"gap":{"f_lo":264,"f_hi":410,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without a solver, I cannot verify a design with a complete infinite-lattice band gap covering 264–410 kHz for every propagation direction and polarization."}

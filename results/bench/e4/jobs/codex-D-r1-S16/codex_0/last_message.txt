@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":null,"targets":{"density_max":0.22,"E100_min":{"value":11.6,"unit":"GPa"}},"verdict":"UNDETERMINED","note":"Without homogenization results, I cannot verify a design meeting both targets or establish infeasibility within the allowed families."}

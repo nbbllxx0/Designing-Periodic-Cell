@@ -1,0 +1,4 @@
+env {"python": "3.10.18", "platform": "Windows-10-10.0.26200-SP0", "machine": "AMD64", "torch": "2.5.1+cu124", "cuda": true, "device": "NVIDIA GeForce RTX 4090", "code": "f1a6d625064a6d18", "checker": "c5f8c89871b3bad6", "mkl_cbwr": 65538}
+examples/outputs/02_session/session.jsonl: exact True mism 0 tol True [22.7 s]
+examples/outputs/03_session/session.jsonl: exact True mism 0 tol True [18.9 s]
+set release_tutorial done in 41.6 s

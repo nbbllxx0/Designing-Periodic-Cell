@@ -1,0 +1,1 @@
+Released a certified Ti-6Al-4V IWP sheet unit cell with density parameter 0.3695. Certified bounds satisfy all requirements: solid fraction ≤36.950%, \(E_{[100]}\ge21.09\) GPa, and \(C_{44}\ge6.33\) GPa. The design fails the tool’s \(0.01a\) erosion robustness check; manufacturability was not evaluated.

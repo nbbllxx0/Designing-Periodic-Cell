@@ -1,0 +1,12 @@
+{
+ "material": {
+  "name": "Ti6Al4V"
+ },
+ "targets": {
+  "density_max": 0.2,
+  "E100_min": {
+   "value": 0.5,
+   "unit": "E_s"
+  }
+ }
+}

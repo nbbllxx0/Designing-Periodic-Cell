@@ -1,0 +1,1 @@
+Released a certified PA12 sphere-and-ligament cell with parameters `c=0.267826`, `w=0.254783`, relative to cell size. Certified bounds meet all requirements: solid fraction ≤15.651%, cube-axis Young’s modulus ≥112.21 MPa, and C44 ≥5.936 MPa.

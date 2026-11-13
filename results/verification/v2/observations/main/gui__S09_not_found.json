@@ -1,0 +1,378 @@
+{
+ "scenario": "S09_not_found",
+ "interface": "gui",
+ "rows": [
+  {
+   "scenario": "S09_not_found",
+   "check": "nf_bounds",
+   "capability": "atlas NOT_FOUND evidence (tpms)",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=BORDERLINE; atlas=BORDERLINE",
+   "passed": false,
+   "failures": [
+    "result.verdict = 'BORDERLINE' (expected 'NOT_FOUND_IN_FAMILIES')"
+   ],
+   "seq": 4,
+   "dt_s": 0.11,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085248-e5d6/session.jsonl"
+  },
+  {
+   "scenario": "S09_not_found",
+   "check": "stale_family_record",
+   "capability": "stale evidence: atlas record after widening the families",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas verdict NOT_FOUND_IN_FAMILIES, or a search over e",
+   "passed": true,
+   "failures": [],
+   "seq": 6,
+   "dt_s": 0.03,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085248-e5d6/session.jsonl"
+  },
+  {
+   "scenario": "S09_not_found",
+   "check": "nf_holds",
+   "capability": "evidence check: record holds again for the original families",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "get_session",
+   "expected_refusal": false,
+   "observed": "accepted",
+   "passed": false,
+   "failures": [
+    "result.evidence[0].holds_for_current_spec missing",
+    "result.evidence[0].kind missing"
+   ],
+   "seq": 8,
+   "dt_s": 0.03,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085248-e5d6/session.jsonl"
+  },
+  {
+   "scenario": "S09_not_found",
+   "check": "not_found_in_families",
+   "capability": "outcome: not_found_in_families",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": false,
+   "observed": "refused: refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas verdict NOT_FOUND_IN_FAMILIES, or a search over e",
+   "passed": false,
+   "failures": [
+    "ok=False (expected True); refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas verdict NOT_FOUND_IN_FAMILIES",
+    "result.outcome_card.outcome missing",
+    "result.outcome_card.evidence[0].seq missing"
+   ],
+   "seq": 9,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085248-e5d6/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_material",
+   "args": {
+    "name": "316L"
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_target",
+   "args": {
+    "gap": {
+     "f_lo": 0.25,
+     "f_hi": 0.35,
+     "unit": "f*"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "set_constraints",
+   "args": {
+    "families": [
+     "tpms"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.03,
+   "ok": true,
+   "exit": null,
+   "seq": 3,
+   "error": null,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "tpms"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.11,
+   "ok": true,
+   "exit": null,
+   "seq": 4,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.5344466666666666,
+       "slack_opt": 0.09112436594625259,
+       "slack_pess": -0.5344466666666666,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.22,
+         "mode": "network"
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6539666666666666,
+       "slack_opt": -0.2368985917681867,
+       "slack_pess": -0.7483595940400605,
+       "spec": {
+        "family": "tpms",
+        "kind": "gyroid",
+        "params": {
+         "density": 0.16,
+         "mode": "network"
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.8075100000000001,
+       "slack_opt": -0.16586069615975196,
+       "slack_pess": -0.8075100000000001,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.24,
+         "mode": "network"
+        }
+       }
+      }
+     ],
+     "n_cells": 216,
+     "n_clear": 0,
+     "n_possible": 1,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "BORDERLINE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "verdict": "BORDERLINE",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 4,
+   "tool": "set_constraints",
+   "args": {
+    "families": [
+     "tpms",
+     "resonator"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 5,
+   "error": null,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "tpms",
+     "resonator"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 5,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "NOT_FOUND_IN_FAMILIES"
+   },
+   "argv": null,
+   "dt_s": 0.03,
+   "ok": false,
+   "exit": null,
+   "seq": 6,
+   "error": "refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas verdict NOT_FOUND_IN_FAMILIES, or a search over every declared family that found nothing. No evidence record is held for the current spec.",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 6,
+   "tool": "set_constraints",
+   "args": {
+    "families": [
+     "tpms"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 7,
+   "error": null,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "tpms"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 7,
+   "tool": "get_session",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.03,
+   "ok": true,
+   "exit": null,
+   "seq": 8,
+   "error": null,
+   "result": {
+    "budget": {
+     "as_built": 8,
+     "certify": 4,
+     "designs": 400
+    },
+    "budget_used": {
+     "as_built": 0,
+     "certify": 0,
+     "designs": 0
+    },
+    "cannot_normalize": [],
+    "certificates": {},
+    "evidence": [],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "profile": "C",
+    "schema_version": "amm-tools/3",
+    "state": {
+     "cell_size": null,
+     "families": [
+      "tpms"
+     ],
+     "gap_type": null,
+     "material": "316L",
+     "sources": {},
+     "targets": {
+      "gap": {
+       "f_hi": 0.35,
+       "f_lo": 0.25
+      }
+     }
+    },
+    "submission": null,
+    "tools": [
+     "set_material",
+     "set_constraints",
+     "set_target",
+     "set_source",
+     "check_bounds",
+     "ask_clarification",
+     "list_families",
+     "atlas_suggest",
+     "evaluate",
+     "search",
+     "certify",
+     "as_built",
+     "screen_manufacturing",
+     "export",
+     "submit",
+     "undo",
+     "get_session"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 8,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "NOT_FOUND_IN_FAMILIES"
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": false,
+   "exit": null,
+   "seq": 9,
+   "error": "refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas verdict NOT_FOUND_IN_FAMILIES, or a search over every declared family that found nothing. No evidence record is held for the current spec.",
+   "result": null,
+   "cli": null
+  }
+ ],
+ "seconds": 0.3,
+ "root": "results/verification/v2/sessions/gui/live-20261108-085248-e5d6",
+ "finished": "2026-11-08 08:52:49"
+}

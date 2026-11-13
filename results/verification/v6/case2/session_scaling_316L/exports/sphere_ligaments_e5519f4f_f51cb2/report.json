@@ -1,0 +1,532 @@
+{
+ "cannot_normalize": [],
+ "certificate": {
+  "as_built": {
+   "cases": {
+    "dilate": {
+     "E100": 0.03141597675071558,
+     "density": 0.21681660054248472,
+     "gap_ok": true,
+     "passed": true,
+     "reason": null,
+     "static_ok": true
+    },
+    "erode": {
+     "E100": 0.015332485562974708,
+     "density": 0.18015884548229905,
+     "gap_ok": true,
+     "passed": true,
+     "reason": null,
+     "static_ok": true
+    }
+   },
+   "offset": 0.01,
+   "passed": true
+  },
+  "certify_seq": 10,
+  "checker": "c5f8c89871b3bad6",
+  "gap": {
+   "claim": {
+    "below_band": 6,
+    "f_hi": 0.5397739024691363,
+    "f_lo": 0.4498115853909469
+   },
+   "safe_interval": [
+    0.20246762777919,
+    0.8227002446137605
+   ],
+   "verdict": {
+    "verdict": "certified"
+   }
+  },
+  "robust": true,
+  "solver": {
+   "element": "hex8i",
+   "nu": 0.3,
+   "partial_voxels": "finite-cell"
+  },
+  "spec_hash": "e5519f4fdbef64db",
+  "static": {
+   "bounds": {
+    "E100": {
+     "converged": true,
+     "extrapolated": 0.02181662297208729,
+     "lower": 0.021096669961052496,
+     "upper": 0.022945344905415038
+    },
+    "G": {
+     "converged": false,
+     "extrapolated": 0.0008090393485707302,
+     "lower": 0.0006239445666134415,
+     "upper": 0.0010614117633515024
+    },
+    "bulk": {
+     "converged": true,
+     "extrapolated": 0.007564805253772464,
+     "lower": 0.007305036147773995,
+     "upper": 0.007972147093724659
+    },
+    "density": {
+     "converged": true,
+     "extrapolated": 0.19795769424279702,
+     "lower": 0.1978798976039295,
+     "upper": 0.1980151292999055
+    },
+    "nu100": {
+     "converged": true,
+     "extrapolated": 0.019344742713642955,
+     "lower": 0.018724278188567423,
+     "upper": 0.020301857712480692
+    }
+   },
+   "checks_failed": [],
+   "rung": [
+    32,
+    48,
+    64
+   ],
+   "verdict": {
+    "targets": {},
+    "verdict": "certified"
+   }
+  },
+  "targets": {
+   "gap": {
+    "f_hi": 0.5397739024691363,
+    "f_lo": 0.4498115853909469
+   }
+  },
+  "verdict": "certified"
+ },
+ "design": {
+  "family": "resonator",
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.356522,
+   "w": 0.108696
+  }
+ },
+ "disclaimers": [
+  "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+  "certificates are acceptance under stated discretization, sampling and guard assumptions, not continuum theorems; a gap is certified for the infinite periodic lattice, not for a finite printed block",
+  "search-tier values (evaluate, search, atlas) are estimates, biased stiff and high in frequency, NOT certificates",
+  "material values are typical datasheet inputs of the request, not measured properties of a printed part",
+  "the as-built check is a robustness flag (surface offset +-offset a), not a tolerance analysis"
+ ],
+ "geometry": {
+  "cell_size_mm": 39.148,
+  "contour": "solid fraction 0.5 of the cleaned field",
+  "files": {
+   "cell": {
+    "bytes": 1118284,
+    "method": "marching_cubes",
+    "n_triangles": 22364,
+    "path": "exports/sphere_ligaments_e5519f4f_f51cb2/cell.stl",
+    "sha256": "23e75499c6db5368c63fcad558f6a87e9ecc3c83ea562264d40fcd05a033555d",
+    "unit": "mm"
+   },
+   "tiled": {
+    "bytes": 7651884,
+    "method": "marching_cubes",
+    "n_triangles": 153036,
+    "path": "exports/sphere_ligaments_e5519f4f_f51cb2/tiled_3x3x3.stl",
+    "sha256": "457692939c4a680f5f264e89e6879b00d280a4390c657b21e591b4469c3c3643",
+    "unit": "mm"
+   }
+  },
+  "removed_islands_fraction": 1.4011441435325132e-16,
+  "resolution": 64,
+  "tile_resolution": 32,
+  "tiles": 3,
+  "unit": "mm"
+ },
+ "identity": {
+  "checker": "c5f8c89871b3bad6",
+  "code": "f1a6d625064a6d18",
+  "profile": "C",
+  "schema": "amm-tools/3"
+ },
+ "normalized_targets": {
+  "gap": {
+   "f_hi": 0.5397739024691363,
+   "f_lo": 0.4498115853909469
+  }
+ },
+ "outcome": {
+  "decision": "export",
+  "definition": "every target accepted by the certificate (guarded static bounds, inertia-count gap, edge guard)",
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.356522,
+    "w": 0.108696
+   }
+  },
+  "evidence": [
+   {
+    "kind": "certificate_certified",
+    "outcome": "certified_candidate",
+    "seq": 10,
+    "summary": "certificate certified: sphere_ligaments {'c': 0.356522, 'w': 0.108696}",
+    "tool": "certify"
+   }
+  ],
+  "evidence_checked": true,
+  "outcome": "certified_candidate",
+  "profile": "C",
+  "schema_version": "amm-outcome/1",
+  "title": "Certified candidate",
+  "verdict": null
+ },
+ "schema_version": "amm-export/1",
+ "screening": {
+  "cell_connectivity": {
+   "largest_fraction": 1.0,
+   "n_components": 1,
+   "note": "one cell cut at its walls, as a single printed cell",
+   "spans": [
+    true,
+    true,
+    true
+   ]
+  },
+  "cell_size_mm": 39.148,
+  "complete": true,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.356522,
+    "w": 0.108696
+   }
+  },
+  "disclaimer": "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+  "min_feature": {
+   "limit_source": "typical minimum feature of 316L by LPBF (amm.units.MATERIALS, a datasheet value, not a machine capability)",
+   "limit_voxels": 0.49044651067742917,
+   "note": "printer limit below two voxels at this resolution: raise `resolution` for a sharper check",
+   "passed": true,
+   "printer_limit_mm": 0.3,
+   "solid_est_cell_units": 0.07421875,
+   "solid_est_mm": 2.905515625,
+   "solid_thinner_than_limit": 0.0,
+   "tolerance": 0.01,
+   "void_est_cell_units": 0.41015625,
+   "void_est_mm": 16.056796875,
+   "void_narrower_than_limit": 0.0,
+   "void_passed": true
+  },
+  "passed": true,
+  "removed_islands_fraction": 1.4011441435325132e-16,
+  "resolution": 64,
+  "schema_version": "amm-screen/1",
+  "tiled_connectivity": {
+   "largest_fraction": 1.0,
+   "n_components": 1,
+   "passed": true,
+   "spans": [
+    true,
+    true,
+    true
+   ],
+   "tiles": 3
+  },
+  "verdict": "screen passed",
+  "voxel": {
+   "cell_units": 0.015625,
+   "mm": 0.6116875
+  },
+  "watertight": {
+   "cell": {
+    "boundary_edges": 0,
+    "method": "marching_cubes",
+    "n_shells": 1,
+    "n_triangles": 22364,
+    "nonmanifold_edges": 0,
+    "orientation_ok": true,
+    "volume": 0.19738547638373174,
+    "volume_rel_diff": 0.005429393773064172,
+    "voxel_volume_cell_units": 0.196319580078125,
+    "watertight": true
+   },
+   "passed": true,
+   "tiled": {
+    "boundary_edges": 0,
+    "method": "marching_cubes",
+    "n_shells": 1,
+    "n_triangles": 153036,
+    "nonmanifold_edges": 0,
+    "orientation_ok": true,
+    "volume": 5.312989112625955,
+    "volume_rel_diff": 0.0023318838772721966,
+    "voxel_volume_cell_units": 5.300628662109375,
+    "watertight": true
+   }
+  }
+ },
+ "search_tier": {
+  "C": [
+   [
+    0.022801456104069265,
+    0.00047481460510361104,
+    0.0004748146051035783,
+    1.723448228745885e-18,
+    3.0282751353321322e-18,
+    -1.93053631755832e-17
+   ],
+   [
+    0.00047481460510361104,
+    0.022801456104068977,
+    0.0004748146051034759,
+    5.286180398024454e-17,
+    1.148993244633313e-17,
+    1.74896421740252e-18
+   ],
+   [
+    0.0004748146051035783,
+    0.0004748146051034759,
+    0.022801456104068984,
+    1.6276576193812717e-16,
+    9.194323935891471e-17,
+    -4.033065322034586e-17
+   ],
+   [
+    1.723448228745885e-18,
+    5.286180398024454e-17,
+    1.6276576193812717e-16,
+    0.0010561927815345377,
+    -7.574865625166424e-16,
+    -8.99762723114593e-18
+   ],
+   [
+    3.0282751353321322e-18,
+    1.148993244633313e-17,
+    9.194323935891471e-17,
+    -7.574865625166424e-16,
+    0.0010561927815352554,
+    7.398396042902885e-18
+   ],
+   [
+    -1.93053631755832e-17,
+    1.74896421740252e-18,
+    -4.033065322034586e-17,
+    -8.99762723114593e-18,
+    7.398396042902885e-18,
+    0.0010561927815357244
+   ]
+  ],
+  "C_MPa": [
+   [
+    4400.681028085368,
+    91.63921878499693,
+    91.63921878499062,
+    3.326255081479558e-13,
+    5.844571011191015e-13,
+    -3.7259350928875576e-12
+   ],
+   [
+    91.63921878499693,
+    4400.681028085312,
+    91.63921878497085,
+    1.0202328168187197e-11,
+    2.217556962142294e-12,
+    3.3755009395868636e-13
+   ],
+   [
+    91.63921878499062,
+    91.63921878497085,
+    4400.681028085314,
+    3.1413792054058543e-11,
+    1.774504519627054e-11,
+    -7.78381607152675e-12
+   ],
+   [
+    3.326255081479558e-13,
+    1.0202328168187197e-11,
+    3.1413792054058543e-11,
+    203.84520683616577,
+    -1.46194906565712e-10,
+    -1.7365420556111645e-12
+   ],
+   [
+    5.844571011191015e-13,
+    2.217556962142294e-12,
+    1.774504519627054e-11,
+    -1.46194906565712e-10,
+    203.8452068363043,
+    1.4278904362802569e-12
+   ],
+   [
+    -3.7259350928875576e-12,
+    3.3755009395868636e-13,
+    -7.78381607152675e-12,
+    -1.7365420556111645e-12,
+    1.4278904362802569e-12,
+    203.84520683639482
+   ]
+  ],
+  "E100": 0.022782084537890424,
+  "E100_MPa": 4396.942315812852,
+  "G": 0.0010561927815351726,
+  "G_MPa": 203.8452068362883,
+  "bulk": 0.00791702843809206,
+  "bulk_MPa": 1527.9864885517675,
+  "density": 0.19796976424959228,
+  "derived": {
+   "C11": 0.022801456104069074,
+   "C12": 0.00047481460510355504,
+   "C44": 0.0010561927815351726,
+   "E100": 0.022782084537890424,
+   "E110": 0.003872987954338181,
+   "E111": 0.003033673194495554,
+   "bulk_reuss": 0.007917028438092062,
+   "bulk_voigt": 0.007917028438092062,
+   "cubic_deviation": 3.589791667071166e-14,
+   "eigenvalues": [
+    0.0010561927815340606,
+    0.001056192781535719,
+    0.0010561927815357435,
+    0.022326641498965502,
+    0.022326641498965544,
+    0.02375108531427619
+   ],
+   "min_eig": 0.0010561927815340606,
+   "note": "C11, C12, C44 are cubic averages; E100/E110/E111 from the full tensor",
+   "nu12": 0.020399084158980077,
+   "shear_reuss": 0.0016558765809471165,
+   "shear_voigt": 0.005099043968714207,
+   "voigt_order": "11, 22, 33, 23 (yz), 13 (xz), 12 (xy); engineering shear strains",
+   "zener": 0.09461277743758371
+  },
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.356522,
+    "w": 0.108696
+   }
+  },
+  "gaps": [
+   {
+    "f_hi": 1.023625936863947,
+    "f_lo": 0.285411603773982,
+    "rel": 1.127873433989087
+   },
+   {
+    "f_hi": 1.3930127631776323,
+    "f_lo": 1.2717333864465896,
+    "rel": 0.0910250882607676
+   }
+  ],
+  "gaps_Hz": [
+   [
+    22207.978754942982,
+    79648.69948625208
+   ],
+   [
+    98954.02868946754,
+    108390.82027832181
+   ]
+  ],
+  "nu100": 0.020399084158980077,
+  "valid": true
+ },
+ "spec": {
+  "cell_size": [
+   39.148,
+   "mm"
+  ],
+  "families": [
+   "tpms",
+   "struts",
+   "resonator"
+  ],
+  "gap_type": "complete",
+  "material": "316L",
+  "material_values": {
+   "E": 193000000000.0,
+   "min_feature": 0.0003,
+   "nu": 0.3,
+   "process": "LPBF",
+   "rho": 8000.0,
+   "tolerance": 5e-05
+  },
+  "sources": {
+   "cell_size": {
+    "note": "V6 case 2 scaling check: the PA12 design in 316L at a = 10 mm x c_t(316L)/c_t(PA12)",
+    "source": "stated"
+   },
+   "gap": {
+    "note": "V6 case 2 scaling check: the PA12 design in 316L at a = 10 mm x c_t(316L)/c_t(PA12)",
+    "source": "stated"
+   },
+   "material": {
+    "note": "V6 case 2 scaling check: the PA12 design in 316L at a = 10 mm x c_t(316L)/c_t(PA12)",
+    "source": "stated"
+   }
+  },
+  "targets": {
+   "gap": {
+    "f_hi": [
+     42000.0,
+     "Hz"
+    ],
+    "f_lo": [
+     35000.0,
+     "Hz"
+    ]
+   }
+  }
+ },
+ "submission": {
+  "certificate": {
+   "checker": "c5f8c89871b3bad6",
+   "material": "316L",
+   "nu": 0.3,
+   "robust": true,
+   "verdict": "certified"
+  },
+  "decision": "release",
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.356522,
+    "w": 0.108696
+   }
+  },
+  "evidence": [
+   {
+    "kind": "certificate_certified",
+    "seq": 10,
+    "tool": "certify"
+   }
+  ],
+  "note": "V6 case 2 scaling check: the PA12 design in 316L at a = 10 mm x c_t(316L)/c_t(PA12)",
+  "outcome": "certified_candidate",
+  "spec": {
+   "cell_size": [
+    39.148,
+    "mm"
+   ],
+   "gap_type": "complete",
+   "material": "316L",
+   "nu": 0.3,
+   "targets": {
+    "gap": {
+     "f_hi": [
+      42000.0,
+      "Hz"
+     ],
+     "f_lo": [
+      35000.0,
+      "Hz"
+     ]
+    }
+   }
+  },
+  "targets": {
+   "gap": {
+    "f_hi": 0.5397739024691363,
+    "f_lo": 0.4498115853909469
+   }
+  }
+ }
+}

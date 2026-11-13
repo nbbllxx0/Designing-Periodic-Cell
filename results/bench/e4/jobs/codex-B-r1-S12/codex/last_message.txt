@@ -1,0 +1,1 @@
+No design was released; feasibility remains **undetermined**. A Schwarz P sheet at 18.97% relative density predicts C44 ≈ 62.53 MPa, but that estimate is uncertified. Conservative search found no passing design, and certification was unavailable.

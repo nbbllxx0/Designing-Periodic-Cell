@@ -1,0 +1,119 @@
+{
+ "rows": [
+  {
+   "scenario": "X_transport_gui",
+   "check": "gui_malformed_json",
+   "capability": "invalid: malformed JSON (GUI API)",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "HTTP 400 'body must be JSON'; seq unchanged",
+   "expected_refusal": true,
+   "observed": "HTTP 400 {'ok': False, 'error': 'body must be JSON'}; seq 1 (before 1)",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui/live-20261108-085706-e605/session.jsonl"
+  },
+  {
+   "scenario": "X_transport_gui",
+   "check": "gui_json_not_object",
+   "capability": "invalid: JSON not an object (GUI API)",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "HTTP 400 'JSON object'; seq unchanged",
+   "expected_refusal": true,
+   "observed": "HTTP 400 {'ok': False, 'error': 'body must be a JSON object'}; seq 1",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui/live-20261108-085706-e605/session.jsonl"
+  },
+  {
+   "scenario": "X_transport_gui",
+   "check": "gui_wrong_ctype",
+   "capability": "invalid: wrong content type (GUI API)",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "HTTP 415; seq unchanged",
+   "expected_refusal": true,
+   "observed": "HTTP 415 {'ok': False, 'error': 'POST requests must send Content-Type: application/json'}; seq 1",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui/live-20261108-085706-e605/session.jsonl"
+  },
+  {
+   "scenario": "X_transport_gui",
+   "check": "gui_foreign_host",
+   "capability": "invalid: foreign Host header (GUI API)",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "HTTP 403",
+   "expected_refusal": true,
+   "observed": "HTTP 403 {'ok': False, 'error': 'the GUI server answers localhost requests only'}",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui/live-20261108-085706-e605/session.jsonl"
+  },
+  {
+   "scenario": "X_transport_gui",
+   "check": "gui_bad_actor",
+   "capability": "invalid: unknown actor (GUI API)",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "HTTP 400",
+   "expected_refusal": true,
+   "observed": "HTTP 400 {'ok': False, 'error': 'actor must be user, agent or script'}",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui/live-20261108-085706-e605/session.jsonl"
+  },
+  {
+   "scenario": "X_transport_gui",
+   "check": "gui_tools_C",
+   "capability": "tool list profile C (GUI API)",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "17 available",
+   "expected_refusal": false,
+   "observed": "17 available of 17",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui/live-20261108-085706-e605/session.jsonl"
+  },
+  {
+   "scenario": "X_transport_gui",
+   "check": "gui_health",
+   "capability": "live mode and schema (GUI API)",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "mode live, schema amm-tools/3",
+   "expected_refusal": false,
+   "observed": "mode live, schema amm-tools/2, code ff8b3a682221f9a3",
+   "passed": false,
+   "failures": [
+    "mode live, schema amm-tools/2, code ff8b3a682221f9a3"
+   ],
+   "session": "results/verification/v2/sessions/gui/live-20261108-085706-e605/session.jsonl"
+  },
+  {
+   "scenario": "X_transport_gui",
+   "check": "gui_tools_B",
+   "capability": "tool list profile B (GUI API)",
+   "interface": "gui",
+   "profile": "B",
+   "tool": "transport",
+   "expected": "14 available",
+   "expected_refusal": false,
+   "observed": "14 available: ['ask_clarification', 'atlas_suggest', 'evaluate', 'export', 'get_session', 'list_families', 'screen_manufacturing', 'search', 'set_constraints', 'set_material', 'set_source', 'set_target', 'submit', 'undo']",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui/live-20261108-085706-fbea/session.jsonl"
+  }
+ ],
+ "finished": "2026-11-08 08:57:06"
+}

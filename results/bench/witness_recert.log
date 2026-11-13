@@ -1,0 +1,13 @@
+G01 certifying {'family': 'resonator', 'kind': 'sphere_ligaments', 'params': {'c': 0.326957, 'w': 0.145217}}
+G01 certified 209.8 s checker f2e482d81382b400
+G03 certifying {'family': 'resonator', 'kind': 'sphere_ligaments', 'params': {'c': 0.46, 'w': 0.145217}}
+G03 certified 855.6 s checker f2e482d81382b400
+M02 certifying {'family': 'resonator', 'kind': 'sphere_ligaments', 'params': {'c': 0.40087, 'w': 0.145217}}
+M02 certified 1462.0 s checker f2e482d81382b400
+S01 certifying {'family': 'resonator', 'kind': 'cube_bars', 'params': {'c': 0.51913, 'w': 0.36}}
+S01 certified 121.1 s checker f2e482d81382b400
+S02 certifying {'family': 'tpms', 'kind': 'schwarz_p', 'params': {'density': 0.28, 'mode': 'sheet'}}
+S02 certified 116.8 s checker f2e482d81382b400
+S03 certifying {'family': 'resonator', 'kind': 'sphere_ligaments', 'params': {'c': 0.238261, 'w': 0.266957}}
+S03 certified 42.9 s checker f2e482d81382b400
+checker f2e482d81382b400 records 6

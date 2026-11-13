@@ -1,0 +1,444 @@
+[
+ {
+  "file": "results/verification/v6/case1/session_design/certificates/7db650ec44d50a1d_08d26401ae0bf0dc.json",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.592174,
+   "w": 0.151304
+  },
+  "before": "certified",
+  "after": "certified",
+  "reason": null,
+  "safe_interval_before": [
+   0.264338209864039,
+   0.6579059960900706
+  ],
+  "safe_interval_after": [
+   0.264338209864039,
+   0.6579059960900706
+  ],
+  "feature": {
+   "size": 0.151304,
+   "method": "parameter w (bar width)",
+   "n": 40,
+   "voxels": 6.05216,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "upper_edge": {
+   "p": 1.6859852474672132,
+   "p_used": 1.6859852474672132,
+   "extrapolated": 0.695651983372493,
+   "remaining": 0.018872993641211176,
+   "phase_spread": 0.01584165779262936,
+   "noise": true,
+   "drift_toward_claim": true
+  },
+  "lower_edge": {
+   "p": 2.4803071019652454,
+   "p_used": 2.0,
+   "extrapolated": 0.2525128291375507,
+   "remaining": 0.0026745941881312876,
+   "phase_spread": 0.0048461002111910845,
+   "noise": true,
+   "drift_toward_claim": false
+  }
+ },
+ {
+  "file": "results/verification/v6/case1/session_reference/certificates/688ee12613fae6f7_093755956a9f1537.json",
+  "kind": "octet",
+  "params": {
+   "R": 0.2,
+   "r": 0.05913
+  },
+  "before": "certified",
+  "after": "certified",
+  "reason": null,
+  "safe_interval_before": null,
+  "safe_interval_after": null,
+  "feature": {
+   "size": 0.11826,
+   "method": "parameter 2r (strut diameter)",
+   "n": 64,
+   "voxels": 7.56864,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "upper_edge": null,
+  "lower_edge": null
+ },
+ {
+  "file": "results/verification/v6/case1/session_reference/certificates/ec23675b0fde3d5d_dc461738f846711b.json",
+  "kind": "octet",
+  "params": {
+   "R": 0.254545,
+   "r": 0.044783
+  },
+  "before": "undetermined",
+  "after": "undetermined",
+  "reason": null,
+  "safe_interval_before": null,
+  "safe_interval_after": null,
+  "feature": {
+   "size": 0.089566,
+   "method": "parameter 2r (strut diameter)",
+   "n": 96,
+   "voxels": 8.598336,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "upper_edge": null,
+  "lower_edge": null
+ },
+ {
+  "file": "results/verification/v6/case2/session_316L/certificates/f1d00ed043a926f1_0dc7c12bea6f73f4.json",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.786957,
+   "w": 0.06
+  },
+  "before": "certified",
+  "after": "undetermined",
+  "reason": "bloch: load-path feature 0.06 a spans 2.40 voxels at n = 40 (< 3): raise the resolution",
+  "safe_interval_before": [
+   0.10008583469219628,
+   0.5770940415675432
+  ],
+  "safe_interval_after": [
+   0.10008583469219628,
+   0.5770940415675432
+  ],
+  "feature": {
+   "size": 0.06,
+   "method": "parameter w (bar width)",
+   "n": 40,
+   "voxels": 2.4,
+   "min_voxels": 3.0,
+   "passed": false
+  },
+  "upper_edge": {
+   "p": 2.2482025281378646,
+   "p_used": 2.0,
+   "extrapolated": 0.578224425877293,
+   "remaining": 0.0005651921548748593,
+   "phase_spread": 0.0002415578325282164,
+   "noise": false,
+   "drift_toward_claim": true
+  },
+  "lower_edge": {
+   "p": null,
+   "p_used": null,
+   "extrapolated": 0.09161441946728197,
+   "remaining": 0.00423570761245716,
+   "phase_spread": 0.00423570761245716,
+   "noise": true,
+   "drift_toward_claim": false
+  }
+ },
+ {
+  "file": "results/verification/v6/case2/session_PA12/certificates/e5519f4fdbef64db_e212dc39bc22b626.json",
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.356522,
+   "w": 0.108696
+  },
+  "before": "certified",
+  "after": "undetermined",
+  "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order",
+  "safe_interval_before": [
+   0.21222000998228135,
+   0.8499623573242151
+  ],
+  "safe_interval_after": [
+   0.21222000998228135,
+   null
+  ],
+  "feature": {
+   "size": 0.108696,
+   "method": "parameter w (bar width)",
+   "n": 40,
+   "voxels": 4.34784,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "upper_edge": {
+   "p": null,
+   "phase_spread": 0.025281037094708192,
+   "drift_toward_claim": true,
+   "reason": "monotone drift toward the claim without an admissible convergence order"
+  },
+  "lower_edge": {
+   "p": null,
+   "p_used": null,
+   "extrapolated": 0.2003748864472592,
+   "remaining": 0.005922561767511075,
+   "phase_spread": 0.005922561767511075,
+   "noise": true,
+   "drift_toward_claim": false
+  }
+ },
+ {
+  "file": "results/verification/v6/case2/session_scaling_316L/certificates/e5519f4fdbef64db_f51cb2e8a86dae91.json",
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.356522,
+   "w": 0.108696
+  },
+  "before": "certified",
+  "after": "certified",
+  "reason": null,
+  "safe_interval_before": [
+   0.20246762777919,
+   0.8227002446137605
+  ],
+  "safe_interval_after": [
+   0.20246762777919,
+   0.8227002446137605
+  ],
+  "feature": {
+   "size": 0.108696,
+   "method": "parameter w (bar width)",
+   "n": 40,
+   "voxels": 4.34784,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "upper_edge": {
+   "p": null,
+   "p_used": null,
+   "extrapolated": 0.8812864481589288,
+   "remaining": 0.02929310177258415,
+   "phase_spread": 0.02929310177258415,
+   "noise": true,
+   "drift_toward_claim": false
+  },
+  "lower_edge": {
+   "p": null,
+   "p_used": null,
+   "extrapolated": 0.19112145868397776,
+   "remaining": 0.005673084547606122,
+   "phase_spread": 0.005673084547606122,
+   "noise": true,
+   "drift_toward_claim": false
+  }
+ },
+ {
+  "file": "results/verification/v11/robust_mount/session_design/certificates/f4d7db96e59c0b00_f4af4f7134fac261.json",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.616522,
+   "w": 0.151304
+  },
+  "before": "undetermined",
+  "after": "undetermined",
+  "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order",
+  "safe_interval_before": [
+   0.312371138595955,
+   0.7457986500729645
+  ],
+  "safe_interval_after": [
+   0.312371138595955,
+   null
+  ],
+  "feature": {
+   "size": 0.151304,
+   "method": "parameter w (bar width)",
+   "n": 40,
+   "voxels": 6.05216,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "upper_edge": {
+   "p": null,
+   "phase_spread": 0.0032913704494146323,
+   "drift_toward_claim": true,
+   "reason": "monotone drift toward the claim without an admissible convergence order"
+  },
+  "lower_edge": {
+   "p": 0.3344876438476794,
+   "p_used": 0.3344876438476794,
+   "extrapolated": 0.1872306402216599,
+   "remaining": 0.06257024918714754,
+   "phase_spread": 0.004253290731852599,
+   "noise": false,
+   "drift_toward_claim": false
+  }
+ },
+ {
+  "file": "results/verification/v11/robust_mount/session_design_b/certificates/3bc47975c089c6f2_5e7efd2dad850892.json",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.616522,
+   "w": 0.164348
+  },
+  "before": "undetermined",
+  "after": "undetermined",
+  "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order",
+  "safe_interval_before": [
+   0.3258570388366364,
+   0.7515766040210259
+  ],
+  "safe_interval_after": [
+   0.3258570388366364,
+   null
+  ],
+  "feature": {
+   "size": 0.164348,
+   "method": "parameter w (bar width)",
+   "n": 40,
+   "voxels": 6.573919999999999,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "upper_edge": {
+   "p": null,
+   "phase_spread": 0.003750291117302962,
+   "drift_toward_claim": true,
+   "reason": "monotone drift toward the claim without an admissible convergence order"
+  },
+  "lower_edge": {
+   "p": 0.2851621570680364,
+   "p_used": 0.2851621570680364,
+   "extrapolated": 0.2229735178045838,
+   "remaining": 0.051441760516026294,
+   "phase_spread": 0.005090169293151869,
+   "noise": true,
+   "drift_toward_claim": false
+  }
+ },
+ {
+  "file": "results/verification/v11/robust_mount/session_design_b/certificates/3d19f38b755e8997_88461f505e447442.json",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.64087,
+   "w": 0.151304
+  },
+  "before": "undetermined",
+  "after": "undetermined",
+  "reason": null,
+  "safe_interval_before": [
+   0.261507059211099,
+   0.6631079634149432
+  ],
+  "safe_interval_after": [
+   0.261507059211099,
+   0.6631079634149432
+  ],
+  "feature": {
+   "size": 0.151304,
+   "method": "parameter w (bar width)",
+   "n": 40,
+   "voxels": 6.05216,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "upper_edge": {
+   "p": 0.7299218702143226,
+   "p_used": 0.7299218702143226,
+   "extrapolated": 0.7027637755274445,
+   "remaining": 0.019827906056250687,
+   "phase_spread": 0.0019091508782259625,
+   "noise": false,
+   "drift_toward_claim": true
+  },
+  "lower_edge": {
+   "p": 1.3503529836829018,
+   "p_used": 1.3503529836829018,
+   "extrapolated": 0.23017401639139204,
+   "remaining": 0.01228869652866736,
+   "phase_spread": 0.0007648403633454814,
+   "noise": false,
+   "drift_toward_claim": false
+  }
+ },
+ {
+  "file": "results/verification/v11/robust_mount/session_design_b/certificates/7db650ec44d50a1d_ac8d90a3ee26726d.json",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.592174,
+   "w": 0.151304
+  },
+  "before": "refuted",
+  "after": "refuted",
+  "reason": null,
+  "safe_interval_before": [
+   0.264338209864039,
+   0.6579059960900706
+  ],
+  "safe_interval_after": [
+   0.264338209864039,
+   0.6579059960900706
+  ],
+  "feature": {
+   "size": 0.151304,
+   "method": "parameter w (bar width)",
+   "n": 40,
+   "voxels": 6.05216,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "upper_edge": {
+   "p": 1.6859852474672132,
+   "p_used": 1.6859852474672132,
+   "extrapolated": 0.695651983372493,
+   "remaining": 0.018872993641211176,
+   "phase_spread": 0.01584165779262936,
+   "noise": true,
+   "drift_toward_claim": true
+  },
+  "lower_edge": {
+   "p": 2.4803071019652454,
+   "p_used": 2.0,
+   "extrapolated": 0.2525128291375507,
+   "remaining": 0.0026745941881312876,
+   "phase_spread": 0.0048461002111910845,
+   "noise": true,
+   "drift_toward_claim": false
+  }
+ },
+ {
+  "file": "results/verification/v11/robust_mount/session_design_b/certificates/e28f87c8cdec56a0_09cd040618a64f40.json",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.592174,
+   "w": 0.164348
+  },
+  "before": "certified",
+  "after": "certified",
+  "reason": null,
+  "safe_interval_before": [
+   0.2883367218927527,
+   0.6223033302076445
+  ],
+  "safe_interval_after": [
+   0.2883367218927527,
+   0.6223033302076445
+  ],
+  "feature": {
+   "size": 0.164348,
+   "method": "parameter w (bar width)",
+   "n": 40,
+   "voxels": 6.573919999999999,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "upper_edge": {
+   "p": 0.9905506937794383,
+   "p_used": 0.9905506937794383,
+   "extrapolated": 0.6875392955615504,
+   "remaining": 0.03261798267695291,
+   "phase_spread": 0.008161547233313415,
+   "noise": false,
+   "drift_toward_claim": true
+  },
+  "lower_edge": {
+   "p": 0.8118458154081607,
+   "p_used": 0.8118458154081607,
+   "extrapolated": 0.26832515630910153,
+   "remaining": 0.01000578279182561,
+   "phase_spread": 0.0034109780948629598,
+   "noise": true,
+   "drift_toward_claim": false
+  }
+ }
+]

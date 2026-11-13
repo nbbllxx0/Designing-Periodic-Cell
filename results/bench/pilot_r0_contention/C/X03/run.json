@@ -1,0 +1,19 @@
+{
+ "brief": "X03",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 35.7,
+ "usage": {
+  "input_tokens": 150868,
+  "cached_input_tokens": 118528,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 856,
+  "reasoning_output_tokens": 117
+ },
+ "final": "Submitted **PROVEN_INFEASIBLE**; no design released. A connected passive PA12 lattice supports elastic waves arbitrarily close to zero frequency, so it cannot completely block every frequency below 16.8 kHz. A potentially feasible band-gap target needs a positive lower frequency.",
+ "stderr_tail": "2026-11-05T16:55:12.697525Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'rg --files -g \\\\\\\"*\\\\\\\"'` rejected: blocked by policy\\\")\" }\n"
+}

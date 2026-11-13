@@ -1,0 +1,12 @@
+{
+ "material": {
+  "name": "316L"
+ },
+ "targets": {
+  "density_max": 0.2,
+  "E100_min": {
+   "value": 96.5,
+   "unit": "GPa"
+  }
+ }
+}

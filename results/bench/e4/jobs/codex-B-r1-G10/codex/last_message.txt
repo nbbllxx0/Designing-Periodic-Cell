@@ -1,0 +1,1 @@
+Submitted **UNDETERMINED**; no design released. A candidate predicts coverage of 141–384 kHz, but fails the pessimistic estimate, and certification is unavailable in this tool session. Feasibility remains unresolved; LPBF manufacturability was not evaluated.

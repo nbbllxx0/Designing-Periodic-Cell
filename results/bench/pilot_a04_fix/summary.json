@@ -1,0 +1,48 @@
+{
+ "B": {
+  "n": 1,
+  "correct": 0,
+  "releases": 0,
+  "silent_failures": 0,
+  "unverified_releases": 0,
+  "unsupported_releases": 0,
+  "false_refusals": 0,
+  "correct_refusals": 0,
+  "no_answer": 1,
+  "label_errors": 0,
+  "ambiguous": 1,
+  "asked_on_ambiguous": 1,
+  "asked_on_clear": 0,
+  "wall_s": 394.8,
+  "input_tokens": 1180310,
+  "output_tokens": 3953,
+  "by_class": {
+   "ambiguous_quantity": {
+    "no_answer": 1
+   }
+  }
+ },
+ "C": {
+  "n": 1,
+  "correct": 1,
+  "releases": 1,
+  "silent_failures": 0,
+  "unverified_releases": 0,
+  "unsupported_releases": 0,
+  "false_refusals": 0,
+  "correct_refusals": 0,
+  "no_answer": 0,
+  "label_errors": 0,
+  "ambiguous": 1,
+  "asked_on_ambiguous": 1,
+  "asked_on_clear": 0,
+  "wall_s": 365.2,
+  "input_tokens": 678851,
+  "output_tokens": 2297,
+  "by_class": {
+   "ambiguous_quantity": {
+    "success": 1
+   }
+  }
+ }
+}

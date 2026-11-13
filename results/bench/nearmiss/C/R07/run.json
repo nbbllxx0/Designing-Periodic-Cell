@@ -1,0 +1,19 @@
+{
+ "brief": "R07",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 604.5,
+ "usage": {
+  "input_tokens": 1267626,
+  "cached_input_tokens": 1239808,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 3392,
+  "reasoning_output_tokens": 1119
+ },
+ "final": "No design released; verdict: **UNDETERMINED**. The tested cube-and-bars cell met the 24% solid-fraction limit, but its certified [100] modulus range was 21.70\u201322.06 GPa, below 22.3 GPa. This rejects that candidate without proving the overall request impossible.",
+ "stderr_tail": "2026-11-06T13:08:52.067457Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b5ac-0ee3-7de2-b534-69566d864535"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"decision\":\"ask\",\"question\":\"What frequency unit applies to the complete 3D band-gap interval from 264 to 410?\",\"options\":[{\"label\":\"Hz\",\"set\":{\"gap\":{\"f_lo\":264,\"f_hi\":410,\"unit\":\"Hz\"}}},{\"label\":\"kHz\",\"set\":{\"gap\":{\"f_lo\":264,\"f_hi\":410,\"unit\":\"kHz\"}}},{\"label\":\"MHz\",\"set\":{\"gap\":{\"f_lo\":264,\"f_hi\":410,\"unit\":\"MHz\"}}}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":12720,"cached_input_tokens":8448,"cache_write_input_tokens":0,"output_tokens":246,"reasoning_output_tokens":137}}

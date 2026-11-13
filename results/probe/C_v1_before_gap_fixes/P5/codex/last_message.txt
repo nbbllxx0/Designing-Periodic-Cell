@@ -1,0 +1,1 @@
+No design was released. The amm verdict is **NOT_FOUND_IN_FAMILIES**: the atlas and optimization search found no 10 mm 316L unit cell covering the complete 140–375 kHz band gap. This does not prove physical impossibility.

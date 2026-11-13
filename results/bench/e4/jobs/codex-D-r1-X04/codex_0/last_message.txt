@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":null,"targets":{"density_max":0.22,"G_min":{"value":12.2,"unit":"GPa"}},"verdict":"PROVEN_INFEASIBLE","note":"The Voigt bound C44 ≤ solid_fraction × G_solid limits a 22%-solid Ti6Al4V lattice to approximately 9–10 GPa, below the required 12.2 GPa."}

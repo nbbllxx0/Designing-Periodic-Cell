@@ -1,0 +1,19 @@
+{
+ "brief": "R06",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 182.4,
+ "usage": {
+  "input_tokens": 521657,
+  "cached_input_tokens": 499200,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1687,
+  "reasoning_output_tokens": 315
+ },
+ "final": "No design released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm searches found no PA12 cell reliably meeting both \u226416% solid fraction and \u2265122 MPa axial modulus. A nominal near miss failed to establish compliance after accounting for model bias; this does not prove physical infeasibility.",
+ "stderr_tail": "2026-11-06T12:54:23.714867Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

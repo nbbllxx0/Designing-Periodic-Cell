@@ -1,0 +1,1 @@
+The amm tools returned **PROVEN_INFEASIBLE**. Using their PA12 modulus of 1,700 MPa, the stiffness upper bound at 23% relative density is \(0.23 \times 1700 = 391\) MPa, below your 587 MPa target. No design was released.

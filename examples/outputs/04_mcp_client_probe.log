@@ -1,0 +1,8 @@
+Tool 'set_target' failed: 'Error executing tool set_target: bogus: Extra inputs are not permitted'
+server 'amm' ready in 1.6 s
+17 tools (profile C): set_material, set_constraints, set_target, set_source, check_bounds, ask_clarification, list_families, atlas_suggest, evaluate, search, certify, as_built, screen_manufacturing, export, submit, undo, get_session
+set_material -> {"E_Pa":193000000000.0,"atlas_available":true,"material":"316L","nu":0.3,"rho_kg_m3":8000.0}
+set_target -> {'E100_min': 0.2, 'density_max': 0.16}
+check_bounds -> verdict PROVEN_INFEASIBLE | violated: ['V1: E100_min exceeds the Voigt bound phi_max * E_s (any geometry)']
+invalid call -> is_error True | Error executing tool set_target: bogus: Extra inputs are not permitted
+session log: C:\Users\nbbll\AppData\Local\Temp\amm_mcp_hn7yvtga/session.jsonl (5 records: header + one per call)

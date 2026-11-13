@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. At your selected 10 mm cell size, a Ti-6Al-4V sphere-and-ligament candidate predicts coverage of 124–219 kHz, but numerical uncertainty prevents confirmation and certification is unavailable in this session. This does not establish infeasibility.

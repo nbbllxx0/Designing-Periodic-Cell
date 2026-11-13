@@ -1,0 +1,105 @@
+{
+ "material": "Ti6Al4V",
+ "q": "E100",
+ "key": "E100_min",
+ "cap": 0.16,
+ "t": 0.07144112478031635,
+ "t_phys": [
+  8.13,
+  "GPa"
+ ],
+ "e_max": 0.07188690134365516,
+ "u_max": 0.07087603987458571,
+ "best_nominal": {
+  "family": "struts",
+  "kind": "sc",
+  "params": {
+   "r": 0.140435,
+   "R": 0.221818
+  }
+ },
+ "nominal_slack": 0.006239775265431383,
+ "expected_slack": -0.10191495809712545,
+ "proof": [
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "sc",
+    "params": {
+     "r": 0.140435,
+     "R": 0.221818
+    }
+   },
+   "upper": 0.07087603987458571,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "sc",
+    "params": {
+     "r": 0.140435,
+     "R": 0.221818
+    }
+   },
+   "upper": 0.07087603987458571,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "sc",
+    "params": {
+     "r": 0.142937,
+     "R": 0.0
+    }
+   },
+   "upper": 0.07022104434888549,
+   "source": "search top 3"
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.348696,
+     "w": 0.242609
+    }
+   },
+   "upper": 0.06909255159624374,
+   "source": "search top 3"
+  }
+ ],
+ "n_certified": 4,
+ "id": "R01",
+ "seconds": 1019.9,
+ "intended": {
+  "material": "Ti6Al4V",
+  "cell_size": null,
+  "targets": {
+   "density_max": 0.16,
+   "E100_min": [
+    8.13,
+    "GPa"
+   ]
+  }
+ },
+ "truth": {
+  "decision": "release",
+  "witness": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.234,
+    "w": 0.2792
+   }
+  },
+  "certificate": "certified",
+  "corrected": true,
+  "correction": "near-miss label corrected 2026-11-06: arm C (pilot, results/bench/nearmiss/C/R01) certified this off-grid sphere_ligaments design, confirmed by an independent certificate (results/bench/posthoc, results/bench/nearmiss_relabel_check.log); the construction checked grid cells and the top 3 of one nominal search only"
+ },
+ "truth_original": {
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "near_miss": true
+ }
+}

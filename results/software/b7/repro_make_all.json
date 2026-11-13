@@ -1,0 +1,43 @@
+{
+ "exit": 0,
+ "seconds": 29.0,
+ "stl_added": 8,
+ "staged_paper_files": 71,
+ "identical": 61,
+ "differing": [
+  "paper/figures/F10_agent_evaluation.pdf",
+  "paper/figures/F11_atlas_maps.pdf",
+  "paper/figures/F2_gui_mount.pdf",
+  "paper/figures/F2s_gui_steps.pdf",
+  "paper/figures/F3_stiffness_verification.pdf",
+  "paper/figures/F4_bandgap_verification.pdf",
+  "paper/figures/F5_search_benchmark.pdf",
+  "paper/figures/F6_performance.pdf",
+  "paper/figures/F7_case_gallery.pdf",
+  "paper/figures/F8_mount_checks.pdf"
+ ],
+ "new_files": [
+  "paper/ANALYSIS_failures.md",
+  "paper/METHODS.md",
+  "paper/README.md",
+  "paper/SUPPLEMENT_data.md",
+  "paper/WRITING_GUIDE.md",
+  "paper/figures/CAPTIONS.md"
+ ],
+ "private_hook_line": [
+  "f10_agent: paper/figures/F10_agent_evaluation.pdf, paper/figures/F10_agent_evaluation.png",
+  "f11_atlas: paper/figures/F11_atlas_maps.pdf, paper/figures/F11_atlas_maps.png",
+  "F1: scripts/paper_private/ absent; existing render kept",
+  "f1_main_diagram (private script): paper/figures/F1_tool_overview.pdf, paper/figures/F1_tool_overview.png"
+ ],
+ "stdout_tail": [
+  "guide: paper/WRITING_GUIDE.md",
+  "captions: paper/figures/CAPTIONS.md",
+  "ledger: 1366 rows, 2 conflicts; README written",
+  "  CONFLICT T4 / Lucklum extrapolated edges: {'results/verification/NOTES.md (section 4 table)': '0.0437, 0.4721', 'results/verification/lucklum2018_ball079_beam005.json (recomputed from n = 40, 60)': '0.0437, 0.4722'}",
+  "  CONFLICT T4 / V1c identity test: {'dolfinx/summary.csv identity_passed': 'True (8/8)', 'registered criterion (residual <= 1e-8 both sides)': 'fails: DOLFINx residual 9.7e-08'}",
+  "done in 28.8 s"
+ ],
+ "stderr_tail": [],
+ "differing_only_in_pdf_creationdate": 10
+}

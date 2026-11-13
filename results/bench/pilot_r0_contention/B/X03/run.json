@@ -1,0 +1,19 @@
+{
+ "brief": "X03",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 35.8,
+ "usage": {
+  "input_tokens": 216418,
+  "cached_input_tokens": 197120,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 781,
+  "reasoning_output_tokens": 74
+ },
+ "final": "Refused as **PROVEN_INFEASIBLE**: a connected passive PA12 lattice cannot block all elastic waves from zero to 16.8 kHz because acoustic modes persist near zero frequency. No design was released; a feasible band-gap specification needs a positive lower frequency cutoff.",
+ "stderr_tail": ""
+}

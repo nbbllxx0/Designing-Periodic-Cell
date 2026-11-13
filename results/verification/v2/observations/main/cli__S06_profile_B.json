@@ -1,0 +1,389 @@
+{
+ "scenario": "S06_profile_B",
+ "interface": "cli",
+ "rows": [
+  {
+   "scenario": "S06_profile_B",
+   "check": "B_no_bounds",
+   "capability": "profile B: check_bounds not offered",
+   "interface": "cli",
+   "profile": "B",
+   "tool": "check_bounds",
+   "expected_refusal": true,
+   "observed": "refused: unknown tool 'check_bounds'",
+   "passed": true,
+   "failures": [],
+   "seq": null,
+   "dt_s": 1.66,
+   "session": "results/verification/v2/sessions/cli/S06_profile_B/03-check-bounds/session.jsonl"
+  },
+  {
+   "scenario": "S06_profile_B",
+   "check": "B_no_certify",
+   "capability": "profile B: certify not offered",
+   "interface": "cli",
+   "profile": "B",
+   "tool": "certify",
+   "expected_refusal": true,
+   "observed": "refused: unknown tool 'certify'",
+   "passed": true,
+   "failures": [],
+   "seq": null,
+   "dt_s": 1.63,
+   "session": "results/verification/v2/sessions/cli/S06_profile_B/04-certify/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 1,
+   "tool": "set_material",
+   "args": {
+    "name": "Ti6Al4V"
+   },
+   "argv": null,
+   "dt_s": 1.73,
+   "ok": true,
+   "exit": 1,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 113800000000.0,
+    "atlas_available": true,
+    "material": "Ti6Al4V",
+    "nu": 0.342,
+    "rho_kg_m3": 4430.0
+   },
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "Ti6Al4V"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 113800000000.0,
+       "atlas_available": true,
+       "material": "Ti6Al4V",
+       "nu": 0.342,
+       "rho_kg_m3": 4430.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {},
+      "error": "unknown tool 'check_bounds'",
+      "ok": false,
+      "seq": null,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": {
+     "error": "unknown tool 'check_bounds'",
+     "tool": "check_bounds"
+    },
+    "ok": false,
+    "profile": "B",
+    "result": {
+     "E_Pa": 113800000000.0,
+     "atlas_available": true,
+     "material": "Ti6Al4V",
+     "nu": 0.342,
+     "rho_kg_m3": 4430.0
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S06_profile_B\\01-check-bounds"
+   }
+  },
+  {
+   "i": 2,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.2,
+    "E100_min": {
+     "value": 0.5,
+     "unit": "E_s"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 1.66,
+   "ok": true,
+   "exit": 1,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    },
+    "targets": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    }
+   },
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "Ti6Al4V"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 113800000000.0,
+       "atlas_available": true,
+       "material": "Ti6Al4V",
+       "nu": 0.342,
+       "rho_kg_m3": 4430.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {
+       "E100_min": {
+        "unit": "E_s",
+        "value": 0.5
+       },
+       "density_max": 0.2
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [],
+       "normalized": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       },
+       "targets": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       }
+      },
+      "seq": 2,
+      "tool": "set_target"
+     },
+     {
+      "args": {},
+      "error": "unknown tool 'check_bounds'",
+      "ok": false,
+      "seq": null,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": {
+     "error": "unknown tool 'check_bounds'",
+     "tool": "check_bounds"
+    },
+    "ok": false,
+    "profile": "B",
+    "result": {
+     "cannot_normalize_yet": [],
+     "normalized": {
+      "E100_min": 0.5,
+      "density_max": 0.2
+     },
+     "targets": {
+      "E100_min": 0.5,
+      "density_max": 0.2
+     }
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S06_profile_B\\02-check-bounds"
+   }
+  },
+  {
+   "i": 3,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 1.66,
+   "ok": false,
+   "exit": 1,
+   "seq": null,
+   "error": "unknown tool 'check_bounds'",
+   "result": null,
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "Ti6Al4V"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 113800000000.0,
+       "atlas_available": true,
+       "material": "Ti6Al4V",
+       "nu": 0.342,
+       "rho_kg_m3": 4430.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {
+       "E100_min": {
+        "unit": "E_s",
+        "value": 0.5
+       },
+       "density_max": 0.2
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [],
+       "normalized": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       },
+       "targets": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       }
+      },
+      "seq": 2,
+      "tool": "set_target"
+     },
+     {
+      "args": {},
+      "error": "unknown tool 'check_bounds'",
+      "ok": false,
+      "seq": null,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": {
+     "error": "unknown tool 'check_bounds'",
+     "tool": "check_bounds"
+    },
+    "ok": false,
+    "profile": "B",
+    "result": {
+     "cannot_normalize_yet": [],
+     "normalized": {
+      "E100_min": 0.5,
+      "density_max": 0.2
+     },
+     "targets": {
+      "E100_min": 0.5,
+      "density_max": 0.2
+     }
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S06_profile_B\\03-check-bounds"
+   }
+  },
+  {
+   "i": 4,
+   "tool": "certify",
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 1.63,
+   "ok": false,
+   "exit": 1,
+   "seq": null,
+   "error": "unknown tool 'certify'",
+   "result": null,
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "Ti6Al4V"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 113800000000.0,
+       "atlas_available": true,
+       "material": "Ti6Al4V",
+       "nu": 0.342,
+       "rho_kg_m3": 4430.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {
+       "E100_min": {
+        "unit": "E_s",
+        "value": 0.5
+       },
+       "density_max": 0.2
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [],
+       "normalized": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       },
+       "targets": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       }
+      },
+      "seq": 2,
+      "tool": "set_target"
+     },
+     {
+      "args": {
+       "design": {
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.12,
+         "w": 0.181739
+        }
+       }
+      },
+      "error": "unknown tool 'certify'",
+      "ok": false,
+      "seq": null,
+      "tool": "certify"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "certify",
+    "error": {
+     "error": "unknown tool 'certify'",
+     "tool": "certify"
+    },
+    "ok": false,
+    "profile": "B",
+    "result": {
+     "cannot_normalize_yet": [],
+     "normalized": {
+      "E100_min": 0.5,
+      "density_max": 0.2
+     },
+     "targets": {
+      "E100_min": 0.5,
+      "density_max": 0.2
+     }
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S06_profile_B\\04-certify"
+   }
+  }
+ ],
+ "seconds": 6.7,
+ "root": "results/verification/v2/sessions/cli/S06_profile_B/04-certify",
+ "cli_sessions": [
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S06_profile_B\\01-check-bounds\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S06_profile_B\\02-check-bounds\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S06_profile_B\\03-check-bounds\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S06_profile_B\\04-certify\\session.jsonl"
+ ],
+ "finished": "2026-11-08 08:34:04"
+}

@@ -1,0 +1,194 @@
+{
+ "P3": {
+  "brief": "P3",
+  "returncode": 0,
+  "wall_s": 25.3,
+  "usage": {
+   "input_tokens": 222671,
+   "cached_input_tokens": 185472,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 568,
+   "reasoning_output_tokens": 26
+  },
+  "n_calls": 8,
+  "n_failed_calls": 0,
+  "tools_used": [
+   "check_bounds",
+   "get_session",
+   "set_material",
+   "set_source",
+   "set_target",
+   "submit"
+  ],
+  "submission": {
+   "decision": "refuse",
+   "note": "The requested E100 >= 35 GPa violates the rigorous Voigt bound E100 <= phi E_s. The Ti6Al4V material model has E_s = 113.8 GPa; at phi <= 0.20 the upper bound is 22.76 GPa for any geometry. No design can satisfy both targets under this material model.",
+   "verdict": "PROVEN_INFEASIBLE"
+  },
+  "expected": {
+   "decision": "refuse",
+   "verdict": "PROVEN_INFEASIBLE"
+  },
+  "final": "The amm tools returned **PROVEN_INFEASIBLE**, so no design was released. Using Ti-6Al-4V\u2019s solid modulus of 113.8 GPa, the Voigt upper bound at 20% solid fraction is **22.76 GPa**, below the required 35 GPa. Both targets cannot be met under this material model.",
+  "replay": {
+   "exact": true,
+   "n_compared": 8,
+   "mismatches": [],
+   "seconds": 0.3
+  }
+ },
+ "P4": {
+  "brief": "P4",
+  "returncode": 0,
+  "wall_s": 828.0,
+  "usage": {
+   "input_tokens": 1561484,
+   "cached_input_tokens": 1511296,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 3284,
+   "reasoning_output_tokens": 699
+  },
+  "n_calls": 15,
+  "n_failed_calls": 0,
+  "tools_used": [
+   "ask_clarification",
+   "certify",
+   "check_bounds",
+   "get_session",
+   "list_families",
+   "search",
+   "set_material",
+   "set_source",
+   "set_target",
+   "submit"
+  ],
+  "submission": {
+   "certificate": {
+    "robust": false,
+    "verdict": "certified"
+   },
+   "decision": "release",
+   "design": {
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.259,
+     "mode": "sheet"
+    }
+   },
+   "note": "316L stainless steel Schwarz P sheet unit cell. Certified against all stated targets: guarded solid-fraction upper bound 0.2590257352 (25.9026%); E100 lower bound 12.6666 GPa; G lower bound 10.4305 GPa. Geometry specified relative to cell size a. As-built +/-0.01a robustness flag is false (dilation passes, erosion fails); nominal geometry is certified.",
+   "targets": {
+    "E100_min": 0.05958549222797927,
+    "G_min": 0.04922279792746114,
+    "density_max": 0.26
+   }
+  },
+  "expected": {
+   "decision": "ask_then_release"
+  },
+  "final": "Released a certified **316L Schwarz P sheet unit cell** with nominal solid fraction **25.9%**. Guarded bounds meet your requirements: solid fraction \u226425.903%, cube-axis Young\u2019s modulus \u226512.67 GPa, and shear modulus \u226510.43 GPa. The nominal geometry passes; robustness to \u00b10.01 cell-size manufacturing offsets does not.",
+  "replay": {
+   "exact": true,
+   "n_compared": 15,
+   "mismatches": [],
+   "seconds": 775.8
+  }
+ },
+ "P5": {
+  "brief": "P5",
+  "returncode": 0,
+  "wall_s": 107.8,
+  "usage": {
+   "input_tokens": 496522,
+   "cached_input_tokens": 466944,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 1071,
+   "reasoning_output_tokens": 160
+  },
+  "n_calls": 11,
+  "n_failed_calls": 0,
+  "tools_used": [
+   "check_bounds",
+   "get_session",
+   "list_families",
+   "search",
+   "set_constraints",
+   "set_material",
+   "set_source",
+   "set_target",
+   "submit"
+  ],
+  "submission": {
+   "decision": "refuse",
+   "note": "For 316L at a = 10 mm, no design covering the complete 140\u2013375 kHz band gap was found in the 2,714-cell atlas or an 80-evaluation optimization search. The best search candidate's main nominal gap was approximately 80.4\u2013316.5 kHz, so it does not cover the target. No certified design is available for release. This is a failure to find a design in the supported families, not proof of physical impossibility.",
+   "verdict": "NOT_FOUND_IN_FAMILIES"
+  },
+  "expected": {
+   "decision": "refuse",
+   "verdict": "NOT_FOUND_IN_FAMILIES"
+  },
+  "final": "No design was released. The amm verdict is **NOT_FOUND_IN_FAMILIES**: the atlas and optimization search found no 10 mm 316L unit cell covering the complete 140\u2013375 kHz band gap. This does not prove physical impossibility.",
+  "replay": {
+   "exact": true,
+   "n_compared": 11,
+   "mismatches": [],
+   "seconds": 72.7
+  }
+ },
+ "P1": {
+  "brief": "P1",
+  "returncode": 0,
+  "wall_s": 845.0,
+  "usage": {
+   "input_tokens": 2148608,
+   "cached_input_tokens": 2116096,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 4384,
+   "reasoning_output_tokens": 1113
+  },
+  "n_calls": 16,
+  "n_failed_calls": 0,
+  "tools_used": [
+   "ask_clarification",
+   "certify",
+   "check_bounds",
+   "get_session",
+   "list_families",
+   "search",
+   "set_constraints",
+   "set_material",
+   "set_source",
+   "set_target",
+   "submit"
+  ],
+  "submission": {
+   "certificate": {
+    "robust": false,
+    "verdict": "certified"
+   },
+   "decision": "release",
+   "design": {
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.255,
+     "mode": "sheet"
+    }
+   },
+   "note": "Release certified 316L Schwarz P sheet unit cell, nominal solid fraction 25.5%, cell size free as clarified. Guarded solid-fraction upper bound 25.5008%; guarded axial Young's modulus lower bound 12.3069 GPa; guarded shear modulus lower bound 10.2279 GPa. All requested targets certified. As-built offset robustness is false: erosion by 0.01a fails the robustness check; dilation passes. Certification uses the tool's 316L material model (E_s=193 GPa, nu=0.3).",
+   "targets": {
+    "E100_min": 0.05958549222797927,
+    "G_min": 0.04922279792746114,
+    "density_max": 0.26
+   }
+  },
+  "expected": {
+   "decision": "release"
+  },
+  "final": "Released a certified 316L Schwarz P sheet unit cell with 25.5% nominal solid fraction and free cell size. Guarded bounds satisfy all targets: solid fraction \u226425.501%, axial Young\u2019s modulus \u226512.31 GPa, and shear modulus \u226510.23 GPa. The design fails the additional robustness check for erosion by 0.01 times the cell size.",
+  "replay": {
+   "exact": true,
+   "n_compared": 16,
+   "mismatches": [],
+   "seconds": 776.9
+  }
+ }
+}

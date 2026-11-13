@@ -1,0 +1,1 @@
+The requirements are **proven infeasible** under the tool’s PA12 model (solid Young’s modulus: 1,700 MPa). At 29% solid volume, the rigorous stiffness upper bound is **493 MPa**, below your 592 MPa minimum. No design was released.

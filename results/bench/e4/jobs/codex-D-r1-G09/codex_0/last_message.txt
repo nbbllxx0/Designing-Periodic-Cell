@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"PA12","cell_size":[10,"mm"],"targets":{"gap":{"f_lo":28.3,"f_hi":31.3,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without a periodic elastic-wave solver, I cannot verify a complete band gap across 28.3–31.3 kHz for a specific design or establish infeasibility."}

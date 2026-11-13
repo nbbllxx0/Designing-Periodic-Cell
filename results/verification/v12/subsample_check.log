@@ -1,0 +1,3 @@
+{"case": "mount_PA12", "static_change_pct": -0.24, "static_remaining_pct": 2.353, "edge_change_pct": [0.105, 0.039], "stored_vs_recomputed_static": 0.0, "stored_vs_recomputed_edges": [0.0, 0.0], "seconds": 118.2}
+{"case": "filter_PA12", "static_change_pct": -0.195, "static_remaining_pct": 1.905, "edge_change_pct": [0.142, 0.257], "stored_vs_recomputed_static": 0.0, "stored_vs_recomputed_edges": [0.0, 0.0], "seconds": 143.0}
+{"case": "filter_316L", "static_change_pct": -1.064, "static_remaining_pct": 6.312, "edge_change_pct": [-1.946, -0.026], "stored_vs_recomputed_static": 0.0, "stored_vs_recomputed_edges": [0.0, 0.0], "seconds": 351.0}

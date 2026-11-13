@@ -1,0 +1,2 @@
+Logged in using ChatGPT
+forced_login_method=chatgpt

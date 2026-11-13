@@ -1,0 +1,1 @@
+Released a certified **316L diamond TPMS sheet** with 24% nominal solid volume. Its certified solid fraction is at most **24.01%**, and bulk modulus is at least **15.36 GPa**, satisfying both limits. LPBF manufacturability was not evaluated.

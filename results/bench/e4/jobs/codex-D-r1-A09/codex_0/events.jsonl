@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b70c-4648-7d71-b2c2-f218c575f448"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"decision\":\"ask\",\"question\":\"Which solid material should the lattice use? Its elastic constants and density determine the band-gap frequencies.\",\"options\":[{\"label\":\"PA12\",\"set\":{\"material\":\"PA12\"}},{\"label\":\"Ti6Al4V\",\"set\":{\"material\":\"Ti6Al4V\"}},{\"label\":\"316L\",\"set\":{\"material\":\"316L\"}},{\"label\":\"AlSi10Mg\",\"set\":{\"material\":\"AlSi10Mg\"}}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":12726,"cached_input_tokens":10752,"cache_write_input_tokens":0,"output_tokens":141,"reasoning_output_tokens":44}}

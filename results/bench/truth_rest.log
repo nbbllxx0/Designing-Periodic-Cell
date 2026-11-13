@@ -1,0 +1,125 @@
+S04 iwp {'density': 0.36, 'mode': 'network'} pass 1: certified 124.2 s
+S04 pass 2 u 0.9899556553327552 : certified 143.1 s
+S04 done: certified 267.5 s
+S05 bcc {'r': 0.135652, 'R': 0.232727} pass 1: certified 105.4 s
+S05 done: certified 105.6 s
+S06 sphere_ligaments {'c': 0.253043, 'w': 0.291304} pass 1: certified 69.6 s
+S06 pass 2 u 0.9714555973627075 : certified 78.0 s
+S06 done: certified 148.0 s
+S07 cube_bars {'c': 0.543478, 'w': 0.346957} pass 1: certified 206.7 s
+S07 done: certified 206.7 s
+S08 octet {'r': 0.111739, 'R': 0.0} pass 1: certified 411.1 s
+S08 done: certified 411.1 s
+S09 octet {'r': 0.073478, 'R': 0.265455} pass 1: certified 625.2 s
+S09 done: certified 625.2 s
+S10 cube_bars {'c': 0.324348, 'w': 0.255652} pass 1: certified 62.7 s
+S10 pass 2 u 0.9713313445817376 : certified 67.8 s
+S10 done: certified 130.5 s
+S11 cube_bars {'c': 0.689565, 'w': 0.346957} pass 1: certified 402.8 s
+S11 done: certified 402.8 s
+S12 schwarz_p {'density': 0.18, 'mode': 'sheet'} pass 1: certified 145.2 s
+S12 pass 2 u 0.9828073610360577 : certified 143.2 s
+S12 done: certified 288.5 s
+S13 cube_bars {'c': 0.421739, 'w': 0.333913} pass 1: certified 92.8 s
+S13 pass 2 u 0.9807343481301476 : certified 79.5 s
+S13 done: certified 172.3 s
+S14 schwarz_p {'density': 0.3, 'mode': 'sheet'} pass 1: certified 112.4 s
+S14 pass 2 u 0.9839976438994963 : certified 125.3 s
+S14 done: certified 237.8 s
+S15 octet {'r': 0.087826, 'R': 0.123636} pass 1: certified 156.4 s
+S15 done: certified 156.4 s
+S16 cube_bars {'c': 0.446087, 'w': 0.242609} pass 1: certified 50.1 s
+S16 done: certified 50.1 s
+S17 cube_bars {'c': 0.397391, 'w': 0.229565} pass 1: certified 233.6 s
+S17 done: certified 233.6 s
+S18 cube_bars {'c': 0.446087, 'w': 0.346957} pass 1: certified 81.3 s
+S18 pass 2 u 0.9917160239036861 : certified 89.4 s
+S18 done: certified 170.7 s
+S19 bcc {'r': 0.092609, 'R': 0.156364} pass 1: certified 45.5 s
+S19 pass 2 u 0.9872496662937577 : certified 42.0 s
+S19 done: certified 87.5 s
+S20 octet {'r': 0.087826, 'R': 0.189091} pass 1: certified 139.0 s
+S20 done: certified 139.0 s
+M03 sc {'r': 0.073478, 'R': 0.287273} pass 1: undetermined 274.4 s
+M03 sc {'r': 0.083043, 'R': 0.276364} pass 1: undetermined 167.0 s
+M03 sc {'r': 0.063913, 'R': 0.287273} pass 1: undetermined 149.8 s
+M03 pass 2 u 0.9 : certified 132.5 s
+M03 done: certified 723.7 s
+G04 bcc {'r': 0.063913, 'R': 0.276364} pass 1: undetermined 265.4 s
+G04 pass 2 u 0.9931395165777042 : certified 358.4 s
+G04 done: certified 623.8 s
+M04 cube_bars {'c': 0.494783, 'w': 0.229565} pass 1: undetermined 348.6 s
+M04 pass 2 u 0.9939514258663751 : certified 361.2 s
+M04 done: certified 709.8 s
+G05 cube_bars {'c': 0.665217, 'w': 0.255652} pass 1: undetermined 596.2 s
+G05 sphere_ligaments {'c': 0.40087, 'w': 0.133043} pass 1: certified 541.6 s
+G05 done: certified 1137.8 s
+M05 sphere_ligaments {'c': 0.356522, 'w': 0.12087} pass 1: certified 496.2 s
+M05 done: certified 496.2 s
+G06 sphere_ligaments {'c': 0.445217, 'w': 0.133043} pass 1: certified 743.1 s
+G06 done: certified 743.2 s
+M06 cube_bars {'c': 0.738261, 'w': 0.125217} pass 1: refuted 2584.1 s
+M06 bcc {'r': 0.073478, 'R': 0.232727} pass 1: undetermined 575.3 s
+M06 cube_bars {'c': 0.665217, 'w': 0.294783} pass 1: certified 804.5 s
+M06 done: certified 3963.8 s
+G07 cube_bars {'c': 0.689565, 'w': 0.112174} pass 1: undetermined 729.9 s
+G07 cube_bars {'c': 0.592174, 'w': 0.242609} pass 1: certified 448.7 s
+G07 pass 2 u 0.9932037633227151 : certified 445.1 s
+G07 done: certified 1623.7 s
+M07 sphere_ligaments {'c': 0.356522, 'w': 0.27913} pass 1: undetermined 446.1 s
+M07 cube_bars {'c': 0.421739, 'w': 0.138261} pass 1: undetermined 109.6 s
+M07 sc {'r': 0.078261, 'R': 0.243636} pass 1: undetermined 192.4 s
+M07 pass 2 u 0.9774287448732968 : certified 203.8 s
+M07 done: certified 951.9 s
+G08 bcc {'r': 0.068696, 'R': 0.276364} pass 1: certified 383.8 s
+G08 done: certified 383.8 s
+M08 sphere_ligaments {'c': 0.40087, 'w': 0.291304} pass 1: certified 1138.4 s
+M08 done: certified 1138.4 s
+G09 sphere_ligaments {'c': 0.386087, 'w': 0.218261} pass 1: undetermined 615.4 s
+G09 sc {'r': 0.073478, 'R': 0.232727} pass 1: undetermined 127.6 s
+G09 pass 2 u 0.9 : certified 134.8 s
+G09 done: certified 877.9 s
+M09 sc {'r': 0.068696, 'R': 0.243636} pass 1: undetermined 140.4 s
+M09 sphere_ligaments {'c': 0.430435, 'w': 0.303478} pass 1: certified 957.7 s
+M09 done: certified 1098.1 s
+G10 cube_bars {'c': 0.567826, 'w': 0.125217} pass 1: certified 288.5 s
+G10 pass 2 u 0.9863971399163065 : certified 293.1 s
+G10 done: certified 581.6 s
+M10 cube_bars {'c': 0.592174, 'w': 0.216522} pass 1: certified 442.2 s
+M10 pass 2 u 0.973191029815502 : certified 438.4 s
+M10 done: certified 880.6 s
+G11 sphere_ligaments {'c': 0.40087, 'w': 0.291304} pass 1: certified 797.9 s
+G11 done: certified 797.9 s
+M11 sphere_ligaments {'c': 0.386087, 'w': 0.169565} pass 1: undetermined 835.2 s
+M11 bcc {'r': 0.087826, 'R': 0.276364} pass 1: certified 727.8 s
+M11 done: certified 1563.0 s
+G12 cube_bars {'c': 0.738261, 'w': 0.216522} pass 1: certified 1062.4 s
+G12 done: certified 1062.4 s
+M12 cube_bars {'c': 0.543478, 'w': 0.229565} pass 1: undetermined 440.2 s
+M12 sphere_ligaments {'c': 0.415652, 'w': 0.169565} pass 1: undetermined 2219.8 s
+M12 pass 2 u 0.9 : undetermined 2289.2 s
+M12 bcc {'r': 0.068696, 'R': 0.243636} pass 1: certified 275.6 s
+M12 done: certified 5224.8 s
+G13 sc {'r': 0.073478, 'R': 0.287273} pass 1: undetermined 192.2 s
+G13 cube_bars {'c': 0.51913, 'w': 0.164348} pass 1: undetermined 262.0 s
+G13 cube_bars {'c': 0.762609, 'w': 0.190435} pass 1: certified 929.4 s
+G13 pass 2 u 0.9728758825028732 : certified 912.6 s
+G13 done: certified 2296.2 s
+M13 cube_bars {'c': 0.665217, 'w': 0.151304} pass 1: undetermined 533.5 s
+M13 sphere_ligaments {'c': 0.40087, 'w': 0.291304} pass 1: certified 856.5 s
+M13 pass 2 u 0.9863311559518467 : certified 782.5 s
+M13 done: certified 2172.5 s
+G14 sc {'r': 0.073478, 'R': 0.243636} pass 1: undetermined 135.6 s
+G14 cube_bars {'c': 0.64087, 'w': 0.294783} pass 1: certified 741.3 s
+G14 done: certified 876.9 s
+M14 sphere_ligaments {'c': 0.415652, 'w': 0.157391} pass 1: undetermined 2208.3 s
+M14 cube_bars {'c': 0.567826, 'w': 0.255652} pass 1: certified 475.4 s
+M14 done: certified 2683.7 s
+G15 sphere_ligaments {'c': 0.267826, 'w': 0.12087} pass 1: undetermined 90.7 s
+G15 sphere_ligaments {'c': 0.430435, 'w': 0.181739} pass 1: certified 771.4 s
+G15 done: certified 862.1 s
+M15 bcc {'r': 0.078261, 'R': 0.287273} pass 1: undetermined 1076.2 s
+M15 pass 2 u 0.9 : undetermined 1072.4 s
+M15 cube_bars {'c': 0.373043, 'w': 0.125217} pass 1: undetermined 74.5 s
+M15 cube_bars {'c': 0.689565, 'w': 0.190435} pass 1: certified 723.2 s
+M15 done: certified 2946.4 s

@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"PA12","cell_size":[20,"mm"],"targets":{"gap":{"f_lo":18.8,"f_hi":27.1,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"I cannot establish a design with this complete band gap from knowledge alone; verification requires elastic band calculations covering all wave directions and polarizations."}

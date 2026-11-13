@@ -1,0 +1,31 @@
+{
+ "brief": "G04",
+ "arm": "B",
+ "profile": "B",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 41.5,
+ "usage": {
+  "input_tokens": 117747,
+  "cached_input_tokens": 106368,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1175,
+  "reasoning_output_tokens": 380
+ },
+ "final": "Released a 12 mm 316L sphere-and-ligament candidate with normalized parameters **c = 0.356522, w = 0.108696**. Its predicted complete band gap is **72.45\u2013259.84 kHz**, covering 99.4\u2013113 kHz. This search estimate is uncertified; LPBF manufacturability was not evaluated.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-B-r1-G04",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "e1dd6ec8e912acde",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "01274f97dc97276b"
+}

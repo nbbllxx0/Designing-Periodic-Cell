@@ -1,0 +1,19 @@
+{
+ "brief": "S03",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 77.5,
+ "usage": {
+  "input_tokens": 302531,
+  "cached_input_tokens": 283392,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1059,
+  "reasoning_output_tokens": 144
+ },
+ "final": "Released the certified sphere-and-ligament design with normalized parameters **c = 0.267826, w = 0.254783**. Using the amm PA12 model, its certified bounds meet every requirement: relative density **\u226415.65%**, Young\u2019s modulus in x, y and z **\u2265112.21 MPa**, and **C44 \u22655.94 MPa**.",
+ "stderr_tail": "2026-11-05T19:05:32.163011Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

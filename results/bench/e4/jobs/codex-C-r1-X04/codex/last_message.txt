@@ -1,0 +1,1 @@
+The amm tools found the request **proven infeasible**. Using Ti6Al4V’s elastic properties, the rigorous Voigt bound limits \(C_{44}\) to **9.33 GPa** at 22% solid fraction, below your **12.2 GPa** minimum. No geometry can meet both limits under the stated material model.

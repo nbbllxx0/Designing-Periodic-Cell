@@ -1,0 +1,27 @@
+{
+ "brief": "S01",
+ "arm": "C",
+ "profile": "C",
+ "provider": "claude",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 1108.6,
+ "usage": {
+  "input_tokens": 149648,
+  "cached_input_tokens": 131622,
+  "output_tokens": 3139
+ },
+ "final": "I released an IWP network TPMS cell with a solid fraction of 0.3295, and it passed certification for both targets. The certified relative density is 0.3294\u20130.3295, just under your 33 % limit. The cube-axis Young's modulus is at least 31.9 GPa against your 31 GPa minimum, which is only about 3 % of margin. That figure assumes the tool's 316L values: a solid modulus of 193 GPa and a Poisson's ratio of 0.3. The design is not robust to the as-built check: thickening the walls by 0.01 of the cell size still passes, but thinning them by 0.01 does not. So if the printed walls come out thinner than designed, or the LPBF 316L is less stiff than 193 GPa, it could fall below 31 GPa. Printability wasn't evaluated. An earlier cube-in-frame candidate came out undetermined, with a certified lower bound of 30.4 GPa.",
+ "model": "claude-opus-5-5",
+ "effort": "default",
+ "cli": "2.1.312 (Claude Code)",
+ "stderr_tail": "",
+ "job": "claude-C-r1-S01",
+ "rep": 1,
+ "partition": "development",
+ "gpu_wait_s": 0.0,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "704b2d8369133043",
+ "briefs": "194701c05dce17d2"
+}

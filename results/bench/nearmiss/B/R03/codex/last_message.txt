@@ -1,0 +1,1 @@
+No design released: **NOT_FOUND_IN_FAMILIES**. A candidate nominally reached 31.64 GPa at 32% density, but its margin was smaller than the model’s known stiffness overestimate. Neither error-adjusted search found a qualifying design; this does not prove the requirements impossible.

@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":[6,"mm"],"targets":{"gap":{"f_lo":0,"f_hi":279,"unit":"kHz"}},"verdict":"PROVEN_INFEASIBLE","note":"A mechanically connected periodic elastic solid has acoustic modes at arbitrarily low frequencies, preventing a complete band gap that blocks all elastic waves below 279 kHz."}

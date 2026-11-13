@@ -1,0 +1,42 @@
+{
+ "root": "results/verification/v6/case1/session_reference",
+ "material": "PA12",
+ "cell_size_mm": 20,
+ "targets": {
+  "E100_min": {
+   "value": 60,
+   "unit": "MPa"
+  }
+ },
+ "note": "V6 case 1 reference: same stiffness, no gap",
+ "top": 5,
+ "certify_max": 3,
+ "candidates": [
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.044783,
+    "R": 0.254545
+   }
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.05913,
+    "R": 0.2
+   }
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.135652,
+    "R": 0.232727
+   }
+  }
+ ],
+ "export": {
+  "tiles": 3,
+  "resolution": 64,
+  "tile_resolution": 32
+ }
+}

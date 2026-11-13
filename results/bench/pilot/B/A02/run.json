@@ -1,0 +1,19 @@
+{
+ "brief": "A02",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 106.9,
+ "usage": {
+  "input_tokens": 469883,
+  "cached_input_tokens": 433024,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1352,
+  "reasoning_output_tokens": 265
+ },
+ "final": "Released a 12 mm Ti6Al4V sphere-ligament design with normalized parameters **c = 0.314278**, **w = 0.110281**. Its estimated complete band gap is **59.66\u2013223.47 kHz**, covering your required 68.6\u2013114 kHz. Band-gap certification and print-process qualification remain unverified.",
+ "stderr_tail": "2026-11-05T20:49:52.607201Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

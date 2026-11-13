@@ -1,0 +1,1 @@
+Released a PA12 sphere-ligament cell with parameters \(c=0.251462\), \(w=0.293953\), normalized by cell size. Fast estimates give **17.70% solid fraction** and **139.9 MPa axial Young’s modulus** in x, y and z. Calibrated expected values meet your limits, but the design is **not certified**, and pessimistic estimates fall short.

@@ -1,0 +1,114 @@
+{
+ "started": "2026-11-08 08:31:28",
+ "checks": {
+  "check_bounds": "FEASIBLE",
+  "normalized": {
+   "E100_min": 0.03529411764705882,
+   "gap": {
+    "f_hi": 0.38426410020438073,
+    "f_lo": 0.2955877693879852
+   }
+  },
+  "suggestion": "cube_bars c=0.592, w=0.151",
+  "evaluate": {
+   "status": "done",
+   "seconds": 134.5
+  },
+  "certify": {
+   "status": "done",
+   "seconds": 1946.6,
+   "queue_wait_s": 0.0,
+   "verdict": "certified",
+   "E100_MPa": 63.75896910241373,
+   "safe_interval": [
+    0.264338209864039,
+    0.6579059960900706
+   ]
+  },
+  "screen": "screen passed",
+  "export": {
+   "status": "done",
+   "name": "cube_bars_7db650ec_08d264"
+  }
+ },
+ "steps": [
+  {
+   "step": "open GUI",
+   "seconds": 0.38,
+   "t": 0.0
+  },
+  {
+   "step": "new session",
+   "seconds": 0.26,
+   "t": 0.4
+  },
+  {
+   "step": "material PA12",
+   "seconds": 0.92,
+   "t": 0.6
+  },
+  {
+   "step": "cell size 20 mm",
+   "seconds": 0.27,
+   "t": 1.6
+  },
+  {
+   "step": "target E100 >= 60 MPa",
+   "seconds": 0.43,
+   "t": 1.8
+  },
+  {
+   "step": "target gap 11.5-14.95 kHz",
+   "seconds": 0.43,
+   "t": 2.3
+  },
+  {
+   "step": "check bounds",
+   "seconds": 1.49,
+   "t": 2.7
+  },
+  {
+   "step": "atlas suggest",
+   "seconds": 1.33,
+   "t": 6.8
+  },
+  {
+   "step": "load suggestion 1",
+   "seconds": 0.0,
+   "t": 8.1
+  },
+  {
+   "step": "evaluate",
+   "seconds": 134.62,
+   "t": 8.1
+  },
+  {
+   "step": "certify",
+   "seconds": 1947.04,
+   "t": 145.2
+  },
+  {
+   "step": "submit release",
+   "seconds": 0.26,
+   "t": 2092.3
+  },
+  {
+   "step": "screen",
+   "seconds": 10.53,
+   "t": 2095.2
+  },
+  {
+   "step": "export",
+   "seconds": 9.41,
+   "t": 2105.7
+  }
+ ],
+ "screenshots": [
+  "paper/figures/gui_case_mount_1_spec.png",
+  "paper/figures/gui_case_mount_2_evaluate.png",
+  "paper/figures/gui_case_mount_3_certified.png",
+  "paper/figures/gui_case_mount_4_export.png"
+ ],
+ "ok": true,
+ "seconds": 2120.8
+}

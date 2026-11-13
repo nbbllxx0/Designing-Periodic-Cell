@@ -1,0 +1,19 @@
+{
+ "brief": "N01",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 115.4,
+ "usage": {
+  "input_tokens": 316216,
+  "cached_input_tokens": 295040,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1258,
+  "reasoning_output_tokens": 434
+ },
+ "final": "No design released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm search found no cell meeting both \u226412% solid volume and \u226516.2 GPa axial modulus in all three directions. This does not prove that every possible topology is infeasible.",
+ "stderr_tail": "2026-11-05T20:34:57.692349Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

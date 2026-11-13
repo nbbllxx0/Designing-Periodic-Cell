@@ -1,0 +1,134 @@
+2026-11-06 14:06:01 run: 12 jobs selected (run --tag smoke --smoke --provider codex --arms D,B,C --reps 1 --ids X01,S01,N01,A04)
+2026-11-06 14:27:10 start codex-C-r1-N01 (order 27, development, waited 0.1 s for the GPU)
+2026-11-06 14:28:46 done  codex-C-r1-N01 status=done rc=0 wall=96.1s
+2026-11-06 14:28:46 start codex-D-r1-N01 (order 28, development, waited 0.0 s for the GPU)
+2026-11-06 14:29:07 done  codex-D-r1-N01 status=done rc=0 wall=21.7s
+2026-11-06 14:29:08 start codex-B-r1-N01 (order 29, development, waited 0.0 s for the GPU)
+2026-11-06 14:30:53 done  codex-B-r1-N01 status=done rc=0 wall=105.5s
+2026-11-06 14:30:53 start codex-B-r1-S01 (order 204, development, waited 0.1 s for the GPU)
+2026-11-06 14:33:16 done  codex-B-r1-S01 status=done rc=0 wall=142.7s
+2026-11-06 14:33:16 start codex-C-r1-S01 (order 205, development, waited 0.0 s for the GPU)
+2026-11-06 14:37:26 done  codex-C-r1-S01 status=done rc=0 wall=249.7s
+2026-11-06 14:37:26 start codex-D-r1-S01 (order 206, development, waited 0.0 s for the GPU)
+2026-11-06 14:37:38 done  codex-D-r1-S01 status=done rc=0 wall=12.1s
+2026-11-06 14:37:38 start codex-B-r1-A04 (order 228, development, waited 0.1 s for the GPU)
+2026-11-06 14:39:28 done  codex-B-r1-A04 status=done rc=0 wall=110.2s
+2026-11-06 14:39:28 start codex-C-r1-A04 (order 229, development, waited 0.1 s for the GPU)
+2026-11-06 14:47:03 done  codex-C-r1-A04 status=done rc=0 wall=455.1s
+2026-11-06 14:47:03 start codex-D-r1-A04 (order 230, development, waited 0.0 s for the GPU)
+2026-11-06 14:47:24 done  codex-D-r1-A04 status=done rc=0 wall=21.1s
+2026-11-06 14:47:24 start codex-B-r1-X01 (order 300, development, waited 0.1 s for the GPU)
+2026-11-06 14:47:48 done  codex-B-r1-X01 status=done rc=0 wall=24.1s
+2026-11-06 14:47:48 start codex-C-r1-X01 (order 301, development, waited 0.1 s for the GPU)
+2026-11-06 14:48:05 done  codex-C-r1-X01 status=done rc=0 wall=16.6s
+2026-11-06 14:48:05 moved crashed attempt of codex-D-r1-X01 to attempts/codex-D-r1-X01_smoke_20261106144805
+2026-11-06 14:48:05 start codex-D-r1-X01 (order 302, development, waited 0.0 s for the GPU)
+2026-11-06 14:48:16 done  codex-D-r1-X01 status=done rc=0 wall=11.1s
+2026-11-06 14:48:16 run finished: 12 jobs this call
+2026-11-06 14:48:17 run: 2 jobs selected (run --tag smoke --smoke --provider none --arms O --ids X01,S01)
+2026-11-06 14:48:17 start none-O-r1-S01 (order 1344, development, waited 0.0 s for the GPU)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+2026-11-06 15:05:48 done  none-O-r1-S01 status=done rc=0 wall=1051.0s
+2026-11-06 15:05:49 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 15:15:50 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 15:25:51 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 15:35:52 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 15:45:53 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 15:55:54 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 16:05:55 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 16:15:56 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 16:25:57 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 16:35:58 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 16:45:59 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 16:56:00 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 17:06:01 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 17:16:02 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 17:26:03 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 17:36:04 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 17:46:05 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 17:56:06 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 18:06:07 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 18:16:08 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 18:26:09 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 18:36:10 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+2026-11-06 18:46:11 waiting for the GPU: ['71644, C:\\Users\\nbbll\\anaconda3\\envs\\amm\\python.exe']
+identity differs from the plan-time snapshot: {'full_source': ('17ca80e2ff0053c1', '704b2d8369133043')} (refusing; --allow-drift to override, logged)
+identity differs from the plan-time snapshot: {'full_source': ('17ca80e2ff0053c1', '704b2d8369133043')} (refusing; --allow-drift to override, logged)
+{
+ "codex/B/1": {
+  "confirmatory": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  },
+  "development": {
+   "n": 4,
+   "correct": 1,
+   "decided": 3,
+   "unsupported": 0
+  }
+ },
+ "codex/C/1": {
+  "confirmatory": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  },
+  "development": {
+   "n": 4,
+   "correct": 3,
+   "decided": 3,
+   "unsupported": 0
+  }
+ },
+ "codex/D/1": {
+  "confirmatory": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  },
+  "development": {
+   "n": 4,
+   "correct": 1,
+   "decided": 3,
+   "unsupported": 0
+  }
+ },
+ "none/O/1": {
+  "confirmatory": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  },
+  "development": {
+   "n": 1,
+   "correct": 1,
+   "decided": 1,
+   "unsupported": 0
+  }
+ }
+}
+SMOKE_DONE

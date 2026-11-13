@@ -1,0 +1,22 @@
+{
+ "spec": {
+  "family": "resonator",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.8,
+   "w": 0.1
+  }
+ },
+ "raw": {
+  "50": [
+   0.14469888187285027,
+   0.5701716020196648
+  ]
+ },
+ "seconds": {
+  "50": 1064.1
+ },
+ "method": {
+  "50": "screened (symmetry points + scan extrema)"
+ }
+}

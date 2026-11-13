@@ -1,0 +1,184 @@
+{
+ "cannot_normalize": [],
+ "certificate": null,
+ "design": {
+  "family": "struts",
+  "kind": "bcc",
+  "params": {
+   "R": 0.0,
+   "r": 0.08
+  }
+ },
+ "disclaimers": [
+  "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+  "certificates are acceptance under stated discretization, sampling and guard assumptions, not continuum theorems; a gap is certified for the infinite periodic lattice, not for a finite printed block",
+  "search-tier values (evaluate, search, atlas) are estimates, biased stiff and high in frequency, NOT certificates",
+  "material values are typical datasheet inputs of the request, not measured properties of a printed part",
+  "the as-built check is a robustness flag (surface offset +-offset a), not a tolerance analysis"
+ ],
+ "geometry": {
+  "cell_size_mm": 10.0,
+  "contour": "solid fraction 0.5 of the cleaned field",
+  "files": {
+   "cell": {
+    "bytes": 1898284,
+    "method": "marching_cubes",
+    "n_triangles": 37964,
+    "path": "exports/bcc_268f8017_bf53ba/cell.stl",
+    "sha256": "d78a730abb14ba59d72fe506ab7a9917db54028b70c14fea7e00389adfc4fcca",
+    "unit": "mm"
+   },
+   "tiled": {
+    "bytes": 11257084,
+    "method": "marching_cubes",
+    "n_triangles": 225140,
+    "path": "exports/bcc_268f8017_bf53ba/tiled_3x3x3.stl",
+    "sha256": "f445cf04ab137fb8ee98bcdabcb5c1149fca923662e7a0ec6dc0ea1438100ae5",
+    "unit": "mm"
+   }
+  },
+  "removed_islands_fraction": 3.49168750008416e-16,
+  "resolution": 64,
+  "tile_resolution": 32,
+  "tiles": 3,
+  "unit": "mm"
+ },
+ "identity": {
+  "checker": "f141e46cb67a78db",
+  "code": "5970bf55108f1584",
+  "profile": "C",
+  "schema": "amm-tools/2"
+ },
+ "normalized_targets": {
+  "density_max": 0.3
+ },
+ "outcome": {
+  "decision": "export",
+  "definition": "no certificate of this design for the current targets in this session; any values are search-tier estimates",
+  "design": {
+   "kind": "bcc",
+   "params": {
+    "R": 0.0,
+    "r": 0.08
+   }
+  },
+  "evidence": [],
+  "evidence_checked": true,
+  "outcome": "not_certified",
+  "profile": "C",
+  "schema_version": "amm-outcome/1",
+  "title": "Not certified",
+  "verdict": null
+ },
+ "schema_version": "amm-export/1",
+ "screening": {
+  "cell_connectivity": {
+   "largest_fraction": 1.0,
+   "n_components": 1,
+   "note": "one cell cut at its walls, as a single printed cell",
+   "spans": [
+    true,
+    true,
+    true
+   ]
+  },
+  "cell_size_mm": 10.0,
+  "complete": true,
+  "design": {
+   "kind": "bcc",
+   "params": {
+    "R": 0.0,
+    "r": 0.08
+   }
+  },
+  "disclaimer": "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+  "min_feature": {
+   "limit_source": "typical minimum feature of PA12 by SLS (amm.units.MATERIALS, a datasheet value, not a machine capability)",
+   "limit_voxels": 5.12,
+   "passed": true,
+   "printer_limit_mm": 0.8,
+   "solid_est_cell_units": 0.15625,
+   "solid_est_mm": 1.5625,
+   "solid_thinner_than_limit": 0.0,
+   "tolerance": 0.01,
+   "void_est_cell_units": 0.2578125,
+   "void_est_mm": 2.578125,
+   "void_narrower_than_limit": 0.0006282722513089034,
+   "void_passed": true
+  },
+  "passed": true,
+  "removed_islands_fraction": 3.49168750008416e-16,
+  "resolution": 64,
+  "schema_version": "amm-screen/1",
+  "tiled_connectivity": {
+   "largest_fraction": 1.0,
+   "n_components": 1,
+   "passed": true,
+   "spans": [
+    true,
+    true,
+    true
+   ],
+   "tiles": 3
+  },
+  "verdict": "screen passed",
+  "voxel": {
+   "cell_units": 0.015625,
+   "mm": 0.15625
+  },
+  "watertight": {
+   "cell": {
+    "boundary_edges": 0,
+    "method": "marching_cubes",
+    "n_shells": 1,
+    "n_triangles": 37964,
+    "nonmanifold_edges": 0,
+    "orientation_ok": true,
+    "volume": 0.11841396161913177,
+    "volume_rel_diff": -0.057749224299244804,
+    "voxel_volume_cell_units": 0.12567138671875,
+    "watertight": true
+   },
+   "passed": true,
+   "tiled": {
+    "boundary_edges": 0,
+    "method": "marching_cubes",
+    "n_shells": 1,
+    "n_triangles": 225140,
+    "nonmanifold_edges": 0,
+    "orientation_ok": true,
+    "volume": 3.1562020130662596,
+    "volume_rel_diff": -0.06982508981206992,
+    "voxel_volume_cell_units": 3.39312744140625,
+    "watertight": true
+   }
+  }
+ },
+ "search_tier": null,
+ "spec": {
+  "cell_size": [
+   10.0,
+   "mm"
+  ],
+  "families": [
+   "tpms",
+   "struts",
+   "resonator"
+  ],
+  "gap_type": null,
+  "material": "PA12",
+  "material_values": {
+   "E": 1700000000.0,
+   "min_feature": 0.0008,
+   "nu": 0.39,
+   "process": "SLS",
+   "rho": 1010.0,
+   "tolerance": 0.00015
+  },
+  "sources": {},
+  "targets": {
+   "density_max": 0.3
+  }
+ },
+ "submission": null
+}

@@ -1,0 +1,89 @@
+[
+ {
+  "brief": "A04",
+  "cls": "ambiguous_quantity",
+  "profile": "B",
+  "code": "692363aa91ab4158",
+  "decision": "need_info",
+  "verdict": null,
+  "design": null,
+  "note": "Material Ti6Al4V LPBF; solid fraction <=0.29; clarification selected G >=6.51 GPa. Cell size is flexible. Asked for validated LPBF minimum wall/feature thickness, but the answer only reiterated flexible cell size, leaving that printability requirement unresolved. No design released. Preliminary Schwarz P sheet candidate {density:0.284253, mode:sheet} has search-tier nominal G=6.8647 GPa and evalua",
+  "asked": 3,
+  "asked_matched": true,
+  "material_set": "Ti6Al4V",
+  "n_calls": 16,
+  "n_failed": 0,
+  "n_certify": 0,
+  "n_search": 2,
+  "n_evaluate": 1,
+  "tool_seconds": 321.1,
+  "wall_s": 394.8,
+  "usage": {
+   "input_tokens": 1180310,
+   "cached_input_tokens": 1147648,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 3953,
+   "reasoning_output_tokens": 1755
+  },
+  "returncode": 0,
+  "release_check": null,
+  "outcome": "no_answer",
+  "correct": false,
+  "ambiguous": {
+   "missing": "quantity",
+   "asked": true,
+   "asked_matched": true
+  },
+  "arm": "B",
+  "expected": "ask_then_release"
+ },
+ {
+  "brief": "A04",
+  "cls": "ambiguous_quantity",
+  "profile": "C",
+  "code": "692363aa91ab4158",
+  "decision": "release",
+  "verdict": null,
+  "design": {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.289,
+    "mode": "sheet"
+   }
+  },
+  "note": "Release Schwarz P sheet TPMS, Ti6Al4V, cell edge a=10 mm, nominal solid fraction parameter 0.289. Certified current targets: solid fraction upper bound 0.28905350048 (<0.29); shear modulus lower bound 6.880664 GPa (>6.51 GPa). Stiffness was clarified as G. Nominal geometry certification only: robust=false, \u00b10.01a offset check reports dilate=true, erode=false; LPBF dimensional/process qualification",
+  "asked": 2,
+  "asked_matched": true,
+  "material_set": "Ti6Al4V",
+  "n_calls": 19,
+  "n_failed": 0,
+  "n_certify": 1,
+  "n_search": 1,
+  "n_evaluate": 1,
+  "tool_seconds": 301.9,
+  "wall_s": 365.2,
+  "usage": {
+   "input_tokens": 678851,
+   "cached_input_tokens": 658304,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 2297,
+   "reasoning_output_tokens": 463
+  },
+  "returncode": 0,
+  "release_check": {
+   "verdict": "certified",
+   "by": "session certificate",
+   "same_targets": true,
+   "same_material": true
+  },
+  "outcome": "success",
+  "correct": true,
+  "ambiguous": {
+   "missing": "quantity",
+   "asked": true,
+   "asked_matched": true
+  },
+  "arm": "C",
+  "expected": "ask_then_release"
+ }
+]

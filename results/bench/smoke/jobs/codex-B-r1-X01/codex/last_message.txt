@@ -1,0 +1,1 @@
+Submitted **PROVEN_INFEASIBLE**. For the tool’s 316L steel (193 GPa), the theoretical axial modulus ceiling at 16% solid is **30.88 GPa**, below your 38.6 GPa requirement. Reaching 38.6 GPa requires at least **20% solid**, and practical designs may require more.

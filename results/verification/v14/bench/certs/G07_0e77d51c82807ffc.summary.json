@@ -1,0 +1,78 @@
+{
+ "verdict": "undetermined",
+ "passed": false,
+ "seconds": 193.8,
+ "timing": {
+  "static": 41.0,
+  "bloch": 152.8
+ },
+ "static_verdict": "certified",
+ "static_rung": [
+  32,
+  48,
+  64
+ ],
+ "bounds": {
+  "density": {
+   "lower": 0.14931234275310462,
+   "upper": 0.14942960456166526,
+   "extrapolated": 0.14937097365738494,
+   "converged": true
+  },
+  "E100": {
+   "lower": 0.006561938502869772,
+   "upper": 0.007219945119591036,
+   "extrapolated": 0.006841356476403182,
+   "converged": true
+  },
+  "G": {
+   "lower": -3.0260907594913542e-06,
+   "upper": 0.00010776453687345129,
+   "extrapolated": 5.14264880154717e-05,
+   "converged": false
+  },
+  "bulk": {
+   "lower": 0.0022156573912943947,
+   "upper": 0.00244105994725998,
+   "extrapolated": 0.0023113568730149933,
+   "converged": true
+  },
+  "nu100": {
+   "lower": 0.006413529919032998,
+   "upper": 0.007048473485306161,
+   "extrapolated": 0.006684958409904901,
+   "converged": true
+  }
+ },
+ "checker": "f141e46cb67a78db",
+ "spec_hash": "0e77d51c82807ffc",
+ "gap_verdict": "undetermined",
+ "safe_interval": [
+  0.12337569615633641,
+  null
+ ],
+ "gap_edges_extrapolated": [
+  0.1054566152700514,
+  null
+ ],
+ "slack_by_target": {
+  "gap": null
+ },
+ "certified_slack": null,
+ "target_id": "G07",
+ "spec": {
+  "family": "resonator",
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.326957,
+   "w": 0.06
+  }
+ },
+ "methods": [
+  "M1",
+  "M4"
+ ],
+ "wall_seconds_v3": 193.8,
+ "finished": "2026-11-07 20:13:47",
+ "verdict_before_rules": "undetermined"
+}

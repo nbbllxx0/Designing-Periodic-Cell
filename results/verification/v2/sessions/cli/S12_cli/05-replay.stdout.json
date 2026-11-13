@@ -1,0 +1,25 @@
+{
+ "cli": "amm-cli/1",
+ "command": "replay",
+ "log": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S12_cli\\04-certify\\session.jsonl",
+ "ok": true,
+ "result": {
+  "decision_changes": [],
+  "exact": true,
+  "identity": {
+   "checker_aliased": false,
+   "checker_log": "c5f8c89871b3bad6",
+   "checker_log_source": "header",
+   "checker_now": "c5f8c89871b3bad6",
+   "code_aliased": false,
+   "code_log": "f1a6d625064a6d18",
+   "code_now": "f1a6d625064a6d18"
+  },
+  "mismatches": [],
+  "n_calls": 6,
+  "n_compared": 6,
+  "root": "temporary directory (removed)",
+  "same_code": true,
+  "schema": "amm-tools/3"
+ }
+}

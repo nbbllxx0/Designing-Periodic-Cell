@@ -1,0 +1,173 @@
+{
+ "P3": {
+  "brief": "P3",
+  "returncode": 0,
+  "wall_s": 23.5,
+  "usage": {
+   "input_tokens": 145227,
+   "cached_input_tokens": 101504,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 553,
+   "reasoning_output_tokens": 40
+  },
+  "n_calls": 7,
+  "n_failed_calls": 0,
+  "tools_used": [
+   "check_bounds",
+   "set_material",
+   "set_source",
+   "set_target",
+   "submit"
+  ],
+  "submission": {
+   "decision": "refuse",
+   "note": "The requested limits violate the geometry-independent Voigt bound E100 <= phi E_s. For the tool's Ti6Al4V material E_s=113.8 GPa and phi<=0.20, E100<=22.76 GPa, below 35 GPa. No geometry or cell size can meet the stated targets under this material model.",
+   "verdict": "PROVEN_INFEASIBLE"
+  },
+  "expected": {
+   "decision": "refuse",
+   "verdict": "PROVEN_INFEASIBLE"
+  },
+  "final": "Submitted **PROVEN_INFEASIBLE**; no design was released. Using the amm Ti-6Al-4V modulus of 113.8 GPa, the geometry-independent Voigt bound at 20% solid fraction is **22.76 GPa**, below the required 35 GPa.",
+  "replay": {
+   "exact": true,
+   "n_compared": 7,
+   "mismatches": [],
+   "seconds": 0.3
+  }
+ },
+ "P4": {
+  "brief": "P4",
+  "returncode": 0,
+  "wall_s": 836.5,
+  "usage": {
+   "input_tokens": 1869428,
+   "cached_input_tokens": 1816832,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 4087,
+   "reasoning_output_tokens": 1318
+  },
+  "n_calls": 15,
+  "n_failed_calls": 0,
+  "tools_used": [
+   "ask_clarification",
+   "certify",
+   "check_bounds",
+   "get_session",
+   "list_families",
+   "search",
+   "set_material",
+   "set_source",
+   "set_target",
+   "submit"
+  ],
+  "submission": {
+   "certificate": {
+    "robust": false,
+    "verdict": "certified"
+   },
+   "decision": "release",
+   "design": {
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.255,
+     "mode": "sheet"
+    }
+   },
+   "note": "Certified 316L Schwarz P sheet unit cell. Guarded solid-fraction upper bound 25.500713%; certified lower bounds E100=12.3069 GPa and G=10.2279 GPa meet all requested limits. As-built erosion by 0.01 cell size fails the robustness check; nominal geometry is certified.",
+   "targets": {
+    "E100_min": 0.05958549222797927,
+    "G_min": 0.04922279792746114,
+    "density_max": 0.26
+   }
+  },
+  "expected": {
+   "decision": "ask_then_release"
+  },
+  "final": "Released a certified 316L Schwarz P sheet unit cell with 25.5% nominal solid fraction. Its certified bounds satisfy all targets: solid fraction \u226425.501%, axial Young\u2019s modulus \u226512.31 GPa, and shear modulus \u226510.23 GPa. The design fails the optional robustness check for erosion by 1% of the cell size.",
+  "replay": {
+   "exact": false,
+   "n_compared": 15,
+   "mismatches": [
+    {
+     "seq": 12,
+     "tool": "certify",
+     "field": "result",
+     "log": "b5e97dc929f6b2b3",
+     "replay": "cb374fea9aa8aedd",
+     "diff": {
+      "path": ".E100_MPa",
+      "log": 12972.244781743033,
+      "replay": 12972.244781743068
+     }
+    },
+    {
+     "seq": 14,
+     "tool": "certify",
+     "field": "result",
+     "log": "7ec889d5b37c1a0a",
+     "replay": "7cf94b92a9bf7bf7",
+     "diff": {
+      "path": ".E100_MPa",
+      "log": 12306.90373043456,
+      "replay": 12306.903730434438
+     }
+    }
+   ],
+   "seconds": 759.1
+  }
+ },
+ "P5": {
+  "brief": "P5",
+  "returncode": 0,
+  "wall_s": 93.5,
+  "usage": {
+   "input_tokens": 321145,
+   "cached_input_tokens": 299392,
+   "cache_write_input_tokens": 0,
+   "output_tokens": 826,
+   "reasoning_output_tokens": 85
+  },
+  "n_calls": 10,
+  "n_failed_calls": 0,
+  "tools_used": [
+   "check_bounds",
+   "list_families",
+   "search",
+   "set_constraints",
+   "set_material",
+   "set_source",
+   "set_target",
+   "submit"
+  ],
+  "submission": {
+   "decision": "refuse",
+   "note": "For 316L with a 10 mm unit cell and a complete gap covering 140\u2013375 kHz, the 2714-cell atlas found no possible candidate within calibrated search-tier error ranges. An 80-evaluation optimization also found no candidate meeting the full continuous interval. No design is certified or released. This is a failure to find a design in the supported families, not proof of physical impossibility.",
+   "verdict": "NOT_FOUND_IN_FAMILIES"
+  },
+  "expected": {
+   "decision": "refuse",
+   "verdict": "NOT_FOUND_IN_FAMILIES"
+  },
+  "final": "No design was released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm atlas and optimization found no supported 316L design with a 10 mm cell that provides a complete band gap covering 140\u2013375 kHz. This does not prove physical impossibility.",
+  "replay": {
+   "exact": false,
+   "n_compared": 10,
+   "mismatches": [
+    {
+     "seq": 9,
+     "tool": "search",
+     "field": "result",
+     "log": "d8b4a5364fe344b6",
+     "replay": "48e79ba2812ebf01",
+     "diff": {
+      "path": ".best[0].gaps[0].f_hi",
+      "log": 0.6478355077896063,
+      "replay": 0.6477404168494152
+     }
+    }
+   ],
+   "seconds": 61.9
+  }
+ }
+}

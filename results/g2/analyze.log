@@ -1,0 +1,25 @@
+﻿cells 50; certificate passed 39; refused 11
+  REFUSED cube_bars {'c': 0.8, 'w': 0.1} {'static_passed': True, 'bloch_passed': False, 'bloch_reason': None, 'count_failures': {'20': 3, '30': 2}, 'm_E100': -0.25730808347412615, 'm_G': -1.6607737998764196, 'm_gap': None}
+  REFUSED sphere_ligaments {'c': 0.3, 'w': 0.15} {'static_passed': True, 'bloch_passed': False, 'bloch_reason': None, 'count_failures': {'20': 0, '30': 0}, 'm_E100': -0.02861581534616464, 'm_G': -0.15088568422223814, 'm_gap': 0.09375786591646706}
+  REFUSED sphere_ligaments {'c': 0.35, 'w': 0.15} {'static_passed': True, 'bloch_passed': False, 'bloch_reason': None, 'count_failures': {'20': 31, '30': 31}, 'm_E100': -0.011777400310407193, 'm_G': -0.0797433388576747, 'm_gap': None}
+  REFUSED cube_bars {'c': 0.7, 'w': 0.2} {'static_passed': True, 'bloch_passed': False, 'bloch_reason': None, 'count_failures': {'20': 2, '30': 2}, 'm_E100': -0.13369179874616788, 'm_G': -0.496928721346805, 'm_gap': None}
+  REFUSED cube_bars {'c': 0.7, 'w': 0.15} {'static_passed': True, 'bloch_passed': False, 'bloch_reason': None, 'count_failures': {'20': 11, '30': 11}, 'm_E100': -0.12719859316211268, 'm_G': -0.5287421544307209, 'm_gap': None}
+  REFUSED sphere_ligaments {'c': 0.3, 'w': 0.1} {'static_passed': False, 'bloch_passed': False, 'bloch_reason': None, 'count_failures': {'20': 0, '30': 0}, 'm_E100': -0.02620485108815851, 'm_G': -0.10189502544080642, 'm_gap': 0.2138896112401234}
+  REFUSED cube_bars {'c': 0.7, 'w': 0.3} {'static_passed': True, 'bloch_passed': False, 'bloch_reason': None, 'count_failures': {'20': 31, '30': 31}, 'm_E100': -0.08967553466639577, 'm_G': -0.25873720429483504, 'm_gap': None}
+  REFUSED sphere_ligaments {'c': 0.35, 'w': 0.1} {'static_passed': True, 'bloch_passed': False, 'bloch_reason': None, 'count_failures': {'20': 10, '30': 10}, 'm_E100': -0.03409239019339694, 'm_G': -0.1671817069792616, 'm_gap': None}
+  REFUSED bcc {'r': 0.06, 'R': 0.22} {'static_passed': True, 'bloch_passed': False, 'bloch_reason': None, 'count_failures': {'20': 0, '30': 0}, 'm_E100': -0.07133731066406934, 'm_G': -0.019269032223386606, 'm_gap': 0.06036917422852939}
+  REFUSED sphere_ligaments {'c': 0.4, 'w': 0.2} {'static_passed': True, 'bloch_passed': False, 'bloch_reason': None, 'count_failures': {'20': 31, '30': 31}, 'm_E100': -0.05165932734352863, 'm_G': -0.14941188884768497, 'm_gap': None}
+  REFUSED sphere_ligaments {'c': 0.3, 'w': 0.2} {'static_passed': True, 'bloch_passed': False, 'bloch_reason': None, 'count_failures': {'20': 31, '30': 31}, 'm_E100': 0.004200224631981886, 'm_G': -0.0031034787875583447, 'm_gap': None}
+m_E100: n=50 median -0.0183 p90 -0.0025 max 0.0042
+m_G: n=50 median -0.0196 p90 -0.0046 max -0.0024
+m_density: n=50 median 0.0000 p90 0.0045 max 0.0078
+m_gap: n=5 median 0.0604 p90 0.1658 max 0.2139
+accepted at margin 0.01: 45/50 (predicted from the certificate's own values)
+accepted at margin 0.02: 45/50 (predicted from the certificate's own values)
+accepted at margin 0.03: 45/50 (predicted from the certificate's own values)
+accepted at margin 0.05: 47/50 (predicted from the certificate's own values)
+accepted at margin 0.10: 49/50 (predicted from the certificate's own values)
+over_E100: 47 cells overshoot [(0.25730808347412615, 'cube_bars', {'c': 0.8, 'w': 0.1}), (0.13369179874616788, 'cube_bars', {'c': 0.7, 'w': 0.2}), (0.13315749398944843, 'bcc', {'r': 0.1, 'R': 0.0}), (0.12719859316211268, 'cube_bars', {'c': 0.7, 'w': 0.15}), (0.12557001030017467, 'bcc', {'r': 0.1, 'R': 0.15})]
+over_G: 50 cells overshoot [(1.6607737998764196, 'cube_bars', {'c': 0.8, 'w': 0.1}), (0.5287421544307209, 'cube_bars', {'c': 0.7, 'w': 0.15}), (0.4977247197348833, 'cube_bars', {'c': 0.6, 'w': 0.2}), (0.496928721346805, 'cube_bars', {'c': 0.7, 'w': 0.2}), (0.3143193376570903, 'cube_bars', {'c': 0.4, 'w': 0.15})]
+over_gap: 0 cells overshoot []
+reference extrapolation vs n=80 (E100): median -0.0125, range -0.1430 .. +0.0095

@@ -1,0 +1,31 @@
+{
+ "brief": "M04",
+ "arm": "D",
+ "profile": "D",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 13.8,
+ "usage": {
+  "input_tokens": 12748,
+  "cached_input_tokens": 10752,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 393,
+  "reasoning_output_tokens": 278
+ },
+ "final": "{\"decision\":\"refuse\",\"material\":\"Ti6Al4V\",\"cell_size\":[6,\"mm\"],\"targets\":{\"density_max\":0.21,\"G_min\":{\"value\":464,\"unit\":\"MPa\"},\"gap\":{\"f_lo\":252,\"f_hi\":288,\"unit\":\"kHz\"}},\"verdict\":\"UNDETERMINED\",\"note\":\"Without homogenization and full Brillouin-zone elastic-wave analysis, I cannot certify a design meeting the C44 threshold and complete band gap, nor establish infeasibility.\"}",
+ "rounds": 1,
+ "parsed": true,
+ "job": "codex-D-r1-M04",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.1,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

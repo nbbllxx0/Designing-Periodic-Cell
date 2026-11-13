@@ -1,0 +1,146 @@
+{
+ "settings": {
+  "counted": [
+   [
+    30,
+    5
+   ],
+   [
+    40,
+    3
+   ]
+  ],
+  "edge": [
+   [
+    60,
+    3
+   ]
+  ],
+  "bloch_phases": [
+   0.25,
+   0.5
+  ],
+  "phase_samples": 3,
+  "n_extra_k": 18,
+  "feature_min_voxels": 3.0,
+  "checker": "f99ce2b2f65d7630"
+ },
+ "stl": "exports/cube_bars_f1d00ed0_0dc7c1/cell.stl",
+ "stl_sha256": "43831136c673f4cecc6c76fcb02795a11286406785e871fd377157ca18570a2f",
+ "spec": {
+  "family": "resonator",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.786957,
+   "w": 0.06
+  }
+ },
+ "targets": {
+  "gap": {
+   "f_hi": 0.13788032657329527,
+   "f_lo": 0.11490027214441272
+  }
+ },
+ "material": "316L",
+ "static_carried": {
+  "source": "results/verification/v6/case2/recheck_316L.json",
+  "passed": true,
+  "diff_extrapolated": {
+   "density": -0.009298792041132702,
+   "E100": 0.01515829016070836,
+   "G": 0.12994393669945542,
+   "bulk": 0.015636116445509718,
+   "nu100": 0.013986076299614823
+  }
+ },
+ "gap": {
+  "passed": true,
+  "verdict": {
+   "verdict": "certified"
+  },
+  "safe_interval": [
+   0.09380985490853246,
+   0.5782755219287599
+  ],
+  "certificate_safe_interval": [
+   0.0934696093201398,
+   null
+  ],
+  "below_band": 6,
+  "certificate_below_band": 6,
+  "lower_edge": {
+   "p": 5.741310182464416,
+   "p_used": 2.0,
+   "extrapolated": 0.08992952359965153,
+   "remaining": 0.000479709945139528,
+   "phase_spread": 0.00166220985685675,
+   "noise": true,
+   "drift_toward_claim": false
+  },
+  "upper_edge": {
+   "p": 0.7825341551925064,
+   "p_used": 0.7825341551925064,
+   "extrapolated": 0.5801460365481702,
+   "remaining": 0.0009352573097051627,
+   "phase_spread": 0.0002435468178095812,
+   "noise": true,
+   "drift_toward_claim": true
+  },
+  "edges": {
+   "30": [
+    0.09380985490853246,
+    0.5817548191633775
+   ],
+   "40": [
+    0.09100887097621548,
+    0.5814305200659032
+   ],
+   "60": [
+    0.09040923354479106,
+    0.5810812938578753
+   ]
+  },
+  "phase_edges": [
+   [
+    0.09100887097621548,
+    0.5814305200659032
+   ],
+   [
+    0.09194105116231337,
+    0.581434859229558
+   ],
+   [
+    0.09267108083307223,
+    0.5811913124117484
+   ]
+  ],
+  "mode": "three-resolution",
+  "density_spread": 0.00011280023219734092,
+  "feature": {
+   "size": 0.06,
+   "method": "parameter w (bar width)",
+   "n": 60,
+   "voxels": 3.5999999999999996,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "n_k": 49,
+  "resolutions": {
+   "30": {
+    "passed": true,
+    "n_failures": 0,
+    "ndof": 47280,
+    "seconds": 465.95
+   },
+   "40": {
+    "passed": true,
+    "n_failures": 0,
+    "ndof": 109134,
+    "seconds": 1598.81
+   }
+  },
+  "seconds": 2764.0
+ },
+ "overall": "certified",
+ "seconds": 2775.7
+}

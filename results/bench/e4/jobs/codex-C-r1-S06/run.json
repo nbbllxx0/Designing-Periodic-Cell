@@ -1,0 +1,33 @@
+{
+ "brief": "S06",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 157.9,
+ "usage": {
+  "input_tokens": 259014,
+  "cached_input_tokens": 246656,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1409,
+  "reasoning_output_tokens": 293
+ },
+ "final": "Released a certified PA12 cube-and-bars cell with **c/a = 0.340331** and **w/a = 0.2658**. Its certified bounds are relative density **\u226417.965%** and axial Young\u2019s modulus **\u2265136.8 MPa** in x, y, and z, meeting both requirements. SLS manufacturability remains unevaluated, and the design does not pass the tested \u00b10.01a geometry-offset robustness check.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-S06",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.1,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

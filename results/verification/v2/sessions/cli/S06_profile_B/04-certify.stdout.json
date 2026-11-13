@@ -1,0 +1,78 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "Ti6Al4V"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 113800000000.0,
+    "atlas_available": true,
+    "material": "Ti6Al4V",
+    "nu": 0.342,
+    "rho_kg_m3": 4430.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "E100_min": {
+     "unit": "E_s",
+     "value": 0.5
+    },
+    "density_max": 0.2
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    },
+    "targets": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    }
+   },
+   "seq": 2,
+   "tool": "set_target"
+  },
+  {
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "error": "unknown tool 'certify'",
+   "ok": false,
+   "seq": null,
+   "tool": "certify"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "certify",
+ "error": {
+  "error": "unknown tool 'certify'",
+  "tool": "certify"
+ },
+ "ok": false,
+ "profile": "B",
+ "result": {
+  "cannot_normalize_yet": [],
+  "normalized": {
+   "E100_min": 0.5,
+   "density_max": 0.2
+  },
+  "targets": {
+   "E100_min": 0.5,
+   "density_max": 0.2
+  }
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S06_profile_B\\04-certify"
+}

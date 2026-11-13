@@ -1,0 +1,4 @@
+{"root": "results/verification/v6/case1/session_design", "material": "PA12", "cell_size_mm": 20,
+ "targets": {"E100_min": {"value": 60, "unit": "MPa"}, "gap": {"f_lo": 11500, "f_hi": 14950, "unit": "Hz"}},
+ "gap_type": "complete", "note": "V6 case 1 mount: W 1.8 kN, deflection <= 0.25 mm, isolation band 11.5-14.95 kHz",
+ "top": 5, "certify_max": 3, "export": {"tiles": 3, "resolution": 64, "tile_resolution": 32}}

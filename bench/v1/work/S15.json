@@ -1,0 +1,92 @@
+{
+ "id": "S15",
+ "attempts": [
+  {
+   "request": {
+    "density_max": 0.34,
+    "E100_min": [
+     100.0,
+     "MPa"
+    ],
+    "G_min": [
+     63.5,
+     "MPa"
+    ]
+   },
+   "normalized": {
+    "density_max": 0.34,
+    "E100_min": 0.058823529411764705,
+    "G_min": 0.03735294117647059
+   },
+   "verdict": "certified",
+   "seconds": 156.4,
+   "static_rung": [
+    32,
+    48,
+    64
+   ],
+   "static_bounds": {
+    "density": {
+     "lower": 0.30588375030130216,
+     "upper": 0.3074987177054092
+    },
+    "E100": {
+     "lower": 0.06517634754484153,
+     "upper": 0.0776035517978861
+    },
+    "G": {
+     "lower": 0.040163673659910956,
+     "upper": 0.047570511215626554
+    },
+    "bulk": {
+     "lower": 0.06069520800539822,
+     "upper": 0.0768226900352383
+    },
+    "nu100": {
+     "lower": 0.3298778724784521,
+     "upper": 0.33089711804487676
+    }
+   },
+   "safe_interval": null,
+   "spec_hash": "1299c212ccff20b0",
+   "spec": {
+    "family": "struts",
+    "kind": "octet",
+    "params": {
+     "r": 0.087826,
+     "R": 0.123636
+    }
+   },
+   "pass_": 1
+  }
+ ],
+ "final": {
+  "spec": {
+   "family": "struts",
+   "kind": "octet",
+   "params": {
+    "r": 0.087826,
+    "R": 0.123636
+   }
+  },
+  "request": {
+   "density_max": 0.34,
+   "E100_min": [
+    100.0,
+    "MPa"
+   ],
+   "G_min": [
+    63.5,
+    "MPa"
+   ]
+  },
+  "normalized": {
+   "density_max": 0.34,
+   "E100_min": 0.058823529411764705,
+   "G_min": 0.03735294117647059
+  },
+  "verdict": "certified",
+  "passes": 1
+ },
+ "seconds": 156.4
+}

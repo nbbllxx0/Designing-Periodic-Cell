@@ -1,0 +1,1 @@
+Released a certified 15 mm PA12 sphere-and-ligament resonator with parameters **c = 0.365407, w = 0.106886** in cell-size units. Its complete infinite-lattice band gap covers **26.4–36.5 kHz**. Geometric-offset robustness passed; SLS manufacturability was not evaluated.

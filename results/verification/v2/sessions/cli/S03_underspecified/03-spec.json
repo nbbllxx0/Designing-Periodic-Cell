@@ -1,0 +1,11 @@
+{
+ "targets": {
+  "E100_min": {
+   "value": 5.0,
+   "unit": "GPa"
+  }
+ },
+ "material": {
+  "name": "PA12"
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "brief": "N03",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 1032.6,
+ "usage": {
+  "input_tokens": 2640826,
+  "cached_input_tokens": 2584704,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 5833,
+  "reasoning_output_tokens": 2635
+ },
+ "final": "No design released; feasibility remains **UNDETERMINED** because amm returned no search results. I sent one refusal submission, but the service has not confirmed it. This does not prove your requirements are infeasible.",
+ "stderr_tail": "2026-11-05T17:14:24.318470Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

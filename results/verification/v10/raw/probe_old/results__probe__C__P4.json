@@ -1,0 +1,268 @@
+{
+ "set": "probe_old",
+ "log": "results/probe/C/P4/session/session.jsonl",
+ "log_sha256": "291fd66baa6b69a1e9ade3e690766f283292a67cda022529ccae48aa1afc91f3",
+ "started": "2026-11-08 13:02:04",
+ "seconds": 775.5,
+ "header": {
+  "code": "b072e26f18aac521",
+  "id": "7ce0a51c9a11",
+  "profile": "C",
+  "schema": "amm-tools/1",
+  "t": "2026-11-05T07:43:10.543+00:00",
+  "type": "session"
+ },
+ "n_calls": 15,
+ "tools": [
+  "ask_clarification",
+  "certify",
+  "check_bounds",
+  "get_session",
+  "list_families",
+  "search",
+  "set_material",
+  "set_source",
+  "set_target",
+  "submit"
+ ],
+ "n_certify": 2,
+ "n_search": 1,
+ "n_export": 0,
+ "logged_tool_seconds": 791.1,
+ "env": {
+  "python": "3.10.18",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "torch": "2.5.1+cu124",
+  "cuda": true,
+  "device": "NVIDIA GeForce RTX 4090",
+  "code": "f1a6d625064a6d18",
+  "checker": "c5f8c89871b3bad6",
+  "mkl_cbwr": 65538
+ },
+ "replay": {
+  "exact": false,
+  "n_calls": 15,
+  "n_compared": 15,
+  "mismatches": [
+   {
+    "seq": 1,
+    "tool": "get_session",
+    "field": "result",
+    "log": "fb6799e6423ba869",
+    "replay": "8a70164eb9b12871",
+    "diff": {
+     "path": ".budget",
+     "log": null,
+     "replay": {
+      "certify": 4,
+      "designs": 400
+     }
+    }
+   },
+   {
+    "seq": 12,
+    "tool": "certify",
+    "field": "state_hash",
+    "log": "85c117804de4b4dc",
+    "replay": "bb9db8d6b7750697"
+   },
+   {
+    "seq": 13,
+    "tool": "get_session",
+    "field": "state_hash",
+    "log": "85c117804de4b4dc",
+    "replay": "bb9db8d6b7750697"
+   },
+   {
+    "seq": 13,
+    "tool": "get_session",
+    "field": "result",
+    "log": "9c9f0c9159eb6d39",
+    "replay": "570df4c8ff02b81c",
+    "diff": {
+     "path": ".budget",
+     "log": null,
+     "replay": {
+      "certify": 4,
+      "designs": 400
+     }
+    }
+   },
+   {
+    "seq": 14,
+    "tool": "certify",
+    "field": "state_hash",
+    "log": "d870a2df95bbc6be",
+    "replay": "1f5f6485e04b5cbc"
+   },
+   {
+    "seq": 15,
+    "tool": "submit",
+    "field": "state_hash",
+    "log": "f62ab37e3b9370b0",
+    "replay": "c3523da5d5b74e59"
+   },
+   {
+    "seq": 15,
+    "tool": "submit",
+    "field": "result",
+    "log": "a822adbe7f1c5dab",
+    "replay": "a383c7d9b0a1e407",
+    "diff": {
+     "path": ".submitted.certificate.checker",
+     "log": null,
+     "replay": "c5f8c89871b3bad6"
+    }
+   }
+  ],
+  "same_code": false,
+  "schema": "amm-tools/1",
+  "decision_changes": [],
+  "identity": {
+   "code_log": "b072e26f18aac521",
+   "code_now": "f1a6d625064a6d18",
+   "checker_log": null,
+   "checker_now": "c5f8c89871b3bad6",
+   "checker_aliased": false,
+   "checker_log_source": null,
+   "code_aliased": true
+  },
+  "root": null
+ },
+ "tolerance": {
+  "aligned": true,
+  "within_tolerance": false,
+  "max_rel_numeric": 0.0,
+  "max_rel_by_tier": {
+   "T64": 0.0,
+   "T32": 0.0
+  },
+  "n_numeric_differences": 0,
+  "calls_with_numeric_differences": [],
+  "over_tolerance": [],
+  "non_numeric_differences": [
+   [
+    1,
+    "get_session",
+    [
+     {
+      "path": ".budget",
+      "log": "None",
+      "replay": "{'certify': 4, 'designs': 400}"
+     },
+     {
+      "path": ".budget_used",
+      "log": "None",
+      "replay": "{'certify': 0, 'designs': 0}"
+     },
+     {
+      "path": ".tools",
+      "log": "len 13",
+      "replay": "len 14"
+     }
+    ]
+   ],
+   [
+    13,
+    "get_session",
+    [
+     {
+      "path": ".budget",
+      "log": "None",
+      "replay": "{'certify': 4, 'designs': 400}"
+     },
+     {
+      "path": ".budget_used",
+      "log": "None",
+      "replay": "{'certify': 1, 'designs': 80}"
+     },
+     {
+      "path": ".certificates.1b64c3083bd4d8bf",
+      "log": "{'robust': False, 'verdict': 'undetermined'}",
+      "replay": "None"
+     },
+     {
+      "path": ".certificates.89787d914606df21",
+      "log": "None",
+      "replay": "{'checker': 'c5f8c89871b3bad6', 'material': '316L', 'nu': 0.3, 'robust': False, "
+     }
+    ]
+   ],
+   [
+    15,
+    "submit",
+    [
+     {
+      "path": ".submitted.certificate.checker",
+      "log": "None",
+      "replay": "c5f8c89871b3bad6"
+     },
+     {
+      "path": ".submitted.certificate.material",
+      "log": "None",
+      "replay": "316L"
+     },
+     {
+      "path": ".submitted.certificate.nu",
+      "log": "None",
+      "replay": "0.3"
+     },
+     {
+      "path": ".submitted.spec",
+      "log": "None",
+      "replay": "{'cell_size': None, 'gap_type': None, 'material': '316L', 'nu': 0.3, 'targets': "
+     }
+    ]
+   ]
+  ],
+  "environment_fields": [],
+  "derived_differences": [
+   [
+    12,
+    "certify",
+    [
+     "state_hash"
+    ]
+   ],
+   [
+    13,
+    "get_session",
+    [
+     "state_hash"
+    ]
+   ],
+   [
+    14,
+    "certify",
+    [
+     "state_hash"
+    ]
+   ],
+   [
+    15,
+    "submit",
+    [
+     "state_hash"
+    ]
+   ]
+  ],
+  "unexplained_derived": [
+   [
+    12,
+    "certify",
+    [
+     "state_hash"
+    ]
+   ],
+   [
+    14,
+    "certify",
+    [
+     "state_hash"
+    ]
+   ]
+  ]
+ },
+ "error": null
+}

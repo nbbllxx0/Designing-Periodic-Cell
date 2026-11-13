@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"PA12","cell_size":[12,"mm"],"targets":{"density_max":0.3,"G_min":{"value":12.2,"unit":"MPa"},"gap":{"f_lo":33.7,"f_hi":39.3,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without homogenization and full Bloch-spectrum verification, I cannot certify a design meeting both the C44 target and the complete band gap; infeasibility is not established."}

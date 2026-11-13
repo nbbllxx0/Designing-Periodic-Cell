@@ -1,0 +1,183 @@
+{
+ "id": "M09",
+ "attempts": [
+  {
+   "request": {
+    "density_max": 0.12,
+    "E100_min": [
+     3.13,
+     "GPa"
+    ],
+    "gap": {
+     "f_lo": [
+      92.0,
+      "kHz"
+     ],
+     "f_hi": [
+      116.0,
+      "kHz"
+     ]
+    }
+   },
+   "normalized": {
+    "density_max": 0.12,
+    "E100_min": 0.01621761658031088,
+    "gap": {
+     "f_lo": 0.36242828699266183,
+     "f_hi": 0.4569747966429214
+    }
+   },
+   "verdict": "undetermined",
+   "seconds": 140.4,
+   "static_rung": [
+    32,
+    48,
+    64
+   ],
+   "static_bounds": {
+    "density": {
+     "lower": 0.08375967827342398,
+     "upper": 0.08389251441556159
+    },
+    "E100": {
+     "lower": 0.02100069234288363,
+     "upper": 0.022179741346434835
+    },
+    "G": {
+     "lower": 0.00037169310374224226,
+     "upper": 0.0005069798947923769
+    },
+    "bulk": {
+     "lower": 0.007386702450710507,
+     "upper": 0.007825800166140573
+    },
+    "nu100": {
+     "lower": 0.02620758288562635,
+     "upper": 0.02763617223220803
+    }
+   },
+   "safe_interval": [
+    null,
+    null
+   ],
+   "spec_hash": "974d91ce896cea95",
+   "spec": {
+    "family": "struts",
+    "kind": "sc",
+    "params": {
+     "r": 0.068696,
+     "R": 0.243636
+    }
+   },
+   "pass_": 1
+  },
+  {
+   "request": {
+    "density_max": 0.41,
+    "E100_min": [
+     21.1,
+     "GPa"
+    ],
+    "gap": {
+     "f_lo": [
+      149.0,
+      "kHz"
+     ],
+     "f_hi": [
+      175.0,
+      "kHz"
+     ]
+    }
+   },
+   "normalized": {
+    "density_max": 0.41,
+    "E100_min": 0.10932642487046632,
+    "gap": {
+     "f_lo": 0.5869762474120284,
+     "f_hi": 0.6894016328664763
+    }
+   },
+   "verdict": "certified",
+   "seconds": 957.7,
+   "static_rung": [
+    32,
+    48,
+    64
+   ],
+   "static_bounds": {
+    "density": {
+     "lower": 0.3700454508600954,
+     "upper": 0.3702686464844244
+    },
+    "E100": {
+     "lower": 0.1288601478544509,
+     "upper": 0.14466135539559252
+    },
+    "G": {
+     "lower": 0.02319315247722878,
+     "upper": 0.02658653824965246
+    },
+    "bulk": {
+     "lower": 0.05248328947987731,
+     "upper": 0.060030445326147985
+    },
+    "nu100": {
+     "lower": 0.0905401440507285,
+     "upper": 0.09869560994807369
+    }
+   },
+   "safe_interval": [
+    0.5785320775744494,
+    0.8152010938311405
+   ],
+   "spec_hash": "f3143dd7b9c4aa63",
+   "spec": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.430435,
+     "w": 0.303478
+    }
+   },
+   "pass_": 1
+  }
+ ],
+ "final": {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.430435,
+    "w": 0.303478
+   }
+  },
+  "request": {
+   "density_max": 0.41,
+   "E100_min": [
+    21.1,
+    "GPa"
+   ],
+   "gap": {
+    "f_lo": [
+     149.0,
+     "kHz"
+    ],
+    "f_hi": [
+     175.0,
+     "kHz"
+    ]
+   }
+  },
+  "normalized": {
+   "density_max": 0.41,
+   "E100_min": 0.10932642487046632,
+   "gap": {
+    "f_lo": 0.5869762474120284,
+    "f_hi": 0.6894016328664763
+   }
+  },
+  "verdict": "certified",
+  "passes": 1
+ },
+ "seconds": 1098.1
+}

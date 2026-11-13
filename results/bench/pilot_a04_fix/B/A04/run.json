@@ -1,0 +1,19 @@
+{
+ "brief": "A04",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 394.8,
+ "usage": {
+  "input_tokens": 1180310,
+  "cached_input_tokens": 1147648,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 3953,
+  "reasoning_output_tokens": 1755
+ },
+ "final": "Submitted **need_info**; no design released. A Schwarz P sheet candidate predicts 28.4% solid and 6.86 GPa shear modulus, but stiffness remains uncertified and the LPBF minimum printable wall thickness is still unspecified.",
+ "stderr_tail": "2026-11-05T22:30:28.546144Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

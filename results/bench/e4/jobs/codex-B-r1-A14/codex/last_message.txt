@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. A 15 mm PA12 resonator predicts a complete gap covering 26.4–36.5 kHz, but uncertainty prevents confirming coverage, and certification is unavailable in this session. This does not establish infeasibility.

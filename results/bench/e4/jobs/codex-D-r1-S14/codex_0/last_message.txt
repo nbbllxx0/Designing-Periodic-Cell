@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":null,"targets":{"density_max":0.31,"bulk_min":{"value":12.3,"unit":"GPa"}},"verdict":"UNDETERMINED","note":"Without homogenized stiffness data, I cannot certify a design meeting both targets or prove infeasibility within the permitted families."}

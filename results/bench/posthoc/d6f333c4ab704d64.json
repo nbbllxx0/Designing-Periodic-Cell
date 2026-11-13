@@ -1,0 +1,26 @@
+{
+ "key": "d6f333c4ab704d64",
+ "spec": {
+  "family": "resonator",
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.234,
+   "w": 0.2792
+  }
+ },
+ "targets": {
+  "density_max": 0.16,
+  "E100_min": 0.07144112478031635
+ },
+ "nu": 0.342,
+ "verdict": "certified",
+ "seconds": 38.6,
+ "static_verdict": {
+  "verdict": "certified",
+  "targets": {
+   "density_max": "certified",
+   "E100_min": "certified"
+  }
+ },
+ "gap_verdict": null
+}

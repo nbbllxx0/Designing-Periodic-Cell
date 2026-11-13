@@ -1,0 +1,472 @@
+{
+ "scenario": "S10_refuted_budget",
+ "interface": "mcp",
+ "rows": [
+  {
+   "scenario": "S10_refuted_budget",
+   "check": "refuted_cert",
+   "capability": "certify: refuted (invalid geometry)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "certify",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=refuted; outcome=refuted_candidate",
+   "passed": true,
+   "failures": [],
+   "seq": 3,
+   "dt_s": 18.62,
+   "session": "results/verification/v2/sessions/mcp/S10_refuted_budget/session.jsonl"
+  },
+  {
+   "scenario": "S10_refuted_budget",
+   "check": "budget_exhausted",
+   "capability": "invalid: budget exhaustion (5th certificate)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "certify",
+   "expected_refusal": true,
+   "observed": "refused: Error executing tool certify: session budget exhausted: 4 of 4 certify used, this call needs 1",
+   "passed": true,
+   "failures": [],
+   "seq": 7,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S10_refuted_budget/session.jsonl"
+  },
+  {
+   "scenario": "S10_refuted_budget",
+   "check": "release_refuted",
+   "capability": "release of a refuted design rejected",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first (its verdict was refuted)",
+   "passed": true,
+   "failures": [],
+   "seq": 8,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S10_refuted_budget/session.jsonl"
+  },
+  {
+   "scenario": "S10_refuted_budget",
+   "check": "refuted_candidate",
+   "capability": "outcome: refuted_candidate",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": false,
+   "observed": "accepted: outcome=refuted_candidate",
+   "passed": true,
+   "failures": [],
+   "seq": 9,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S10_refuted_budget/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_material",
+   "args": {
+    "name": "316L"
+   },
+   "argv": null,
+   "dt_s": 0.33,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.3,
+    "E100_min": {
+     "value": 0.001,
+     "unit": "E_s"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.001,
+     "density_max": 0.3
+    },
+    "targets": {
+     "E100_min": 0.001,
+     "density_max": 0.3
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "certify",
+   "args": {
+    "design": {
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.06,
+      "mode": "network"
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 18.62,
+   "ok": true,
+   "exit": null,
+   "seq": 3,
+   "error": null,
+   "result": {
+    "as_built": {
+     "dilate": false,
+     "erode": false
+    },
+    "design": {
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.06,
+      "mode": "network"
+     }
+    },
+    "outcome": "refuted_candidate",
+    "robust": false,
+    "spec_hash": "d03e0328f41f7ecf",
+    "static": {
+     "bounds": {},
+     "checks_failed": [
+      "does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]"
+     ],
+     "rung": [
+      32,
+      48,
+      64
+     ],
+     "verdict": {
+      "note": "the design is not a connected load-bearing solid",
+      "reason": "invalid_geometry",
+      "targets": {
+       "E100_min": "refuted",
+       "density_max": "refuted"
+      },
+      "verdict": "refuted"
+     }
+    },
+    "targets": {
+     "E100_min": 0.001,
+     "density_max": 0.3
+    },
+    "verdict": "refuted"
+   },
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "certify",
+   "args": {
+    "design": {
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.08,
+      "mode": "network"
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 22.57,
+   "ok": true,
+   "exit": null,
+   "seq": 4,
+   "error": null,
+   "result": {
+    "as_built": {
+     "dilate": false,
+     "erode": false
+    },
+    "design": {
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.08,
+      "mode": "network"
+     }
+    },
+    "outcome": "refuted_candidate",
+    "robust": false,
+    "spec_hash": "ace335268e2bcdf5",
+    "static": {
+     "bounds": {},
+     "checks_failed": [
+      "does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]"
+     ],
+     "rung": [
+      32,
+      48,
+      64
+     ],
+     "verdict": {
+      "note": "the design is not a connected load-bearing solid",
+      "reason": "invalid_geometry",
+      "targets": {
+       "E100_min": "refuted",
+       "density_max": "refuted"
+      },
+      "verdict": "refuted"
+     }
+    },
+    "targets": {
+     "E100_min": 0.001,
+     "density_max": 0.3
+    },
+    "verdict": "refuted"
+   },
+   "cli": null
+  },
+  {
+   "i": 4,
+   "tool": "certify",
+   "args": {
+    "design": {
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.1,
+      "mode": "network"
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 24.28,
+   "ok": true,
+   "exit": null,
+   "seq": 5,
+   "error": null,
+   "result": {
+    "as_built": {
+     "dilate": false,
+     "erode": false
+    },
+    "design": {
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.1,
+      "mode": "network"
+     }
+    },
+    "outcome": "refuted_candidate",
+    "robust": false,
+    "spec_hash": "a5c170c93da63091",
+    "static": {
+     "bounds": {},
+     "checks_failed": [
+      "does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]"
+     ],
+     "rung": [
+      32,
+      48,
+      64
+     ],
+     "verdict": {
+      "note": "the design is not a connected load-bearing solid",
+      "reason": "invalid_geometry",
+      "targets": {
+       "E100_min": "refuted",
+       "density_max": "refuted"
+      },
+      "verdict": "refuted"
+     }
+    },
+    "targets": {
+     "E100_min": 0.001,
+     "density_max": 0.3
+    },
+    "verdict": "refuted"
+   },
+   "cli": null
+  },
+  {
+   "i": 5,
+   "tool": "certify",
+   "args": {
+    "design": {
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.12,
+      "mode": "network"
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 23.88,
+   "ok": true,
+   "exit": null,
+   "seq": 6,
+   "error": null,
+   "result": {
+    "as_built": {
+     "dilate": false,
+     "erode": false
+    },
+    "design": {
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.12,
+      "mode": "network"
+     }
+    },
+    "outcome": "refuted_candidate",
+    "robust": false,
+    "spec_hash": "ede198a6a09f31af",
+    "static": {
+     "bounds": {},
+     "checks_failed": [
+      "does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]; does not percolate [False, False, False]"
+     ],
+     "rung": [
+      32,
+      48,
+      64
+     ],
+     "verdict": {
+      "note": "the design is not a connected load-bearing solid",
+      "reason": "invalid_geometry",
+      "targets": {
+       "E100_min": "refuted",
+       "density_max": "refuted"
+      },
+      "verdict": "refuted"
+     }
+    },
+    "targets": {
+     "E100_min": 0.001,
+     "density_max": 0.3
+    },
+    "verdict": "refuted"
+   },
+   "cli": null
+  },
+  {
+   "i": 6,
+   "tool": "certify",
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": false,
+   "exit": null,
+   "seq": 7,
+   "error": "Error executing tool certify: session budget exhausted: 4 of 4 certify used, this call needs 1",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 7,
+   "tool": "submit",
+   "args": {
+    "decision": "release",
+    "design": {
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.06,
+      "mode": "network"
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": false,
+   "exit": null,
+   "seq": 8,
+   "error": "Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first (its verdict was refuted)",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 8,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "OTHER",
+    "evidence": [
+     "$c1.seq"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 9,
+   "error": null,
+   "result": {
+    "outcome_card": {
+     "decision": "refuse",
+     "definition": "the certificate shows a target is violated beyond its guard band",
+     "design": null,
+     "evidence": [
+      {
+       "kind": "certificate_refuted",
+       "outcome": "refuted_candidate",
+       "seq": 3,
+       "summary": "certificate refuted: schwarz_p {'density': 0.06, 'mode': 'network'}",
+       "tool": "certify"
+      }
+     ],
+     "evidence_checked": true,
+     "outcome": "refuted_candidate",
+     "profile": "C",
+     "schema_version": "amm-outcome/1",
+     "title": "Refuted candidate",
+     "verdict": "OTHER"
+    },
+    "submitted": {
+     "decision": "refuse",
+     "evidence": [
+      {
+       "kind": "certificate_refuted",
+       "seq": 3,
+       "tool": "certify"
+      }
+     ],
+     "note": "",
+     "outcome": "refuted_candidate",
+     "spec": {
+      "cell_size": null,
+      "gap_type": null,
+      "material": "316L",
+      "nu": 0.3,
+      "targets": {
+       "E100_min": 0.001,
+       "density_max": 0.3
+      }
+     },
+     "verdict": "OTHER"
+    }
+   },
+   "cli": null
+  }
+ ],
+ "seconds": 92.4,
+ "root": "results/verification/v2/sessions/mcp/S10_refuted_budget",
+ "finished": "2026-11-08 08:29:54"
+}

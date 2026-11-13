@@ -1,0 +1,1 @@
+No design was released; the submitted verdict is **UNDETERMINED**. The leading 316L, 10 mm candidate passed the complete-gap check for 100–195 kHz, but failed overall certification because numerical convergence was insufficient. This does not prove the request impossible.

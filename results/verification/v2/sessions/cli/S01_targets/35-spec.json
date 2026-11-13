@@ -1,0 +1,15 @@
+{
+ "material": {
+  "name": "316L"
+ },
+ "targets": {
+  "E100_min": {
+   "value": 0.05,
+   "unit": "E_s"
+  },
+  "E100_max": {
+   "value": 0.01,
+   "unit": "E_s"
+  }
+ }
+}

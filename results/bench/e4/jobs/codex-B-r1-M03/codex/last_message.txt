@@ -1,0 +1,1 @@
+No design released; verdict **UNDETERMINED**. Promising candidates were found, but none passed the tools’ pessimistic checks for all three targets, and certification was unavailable. This does not prove infeasibility. LPBF manufacturability was not evaluated.

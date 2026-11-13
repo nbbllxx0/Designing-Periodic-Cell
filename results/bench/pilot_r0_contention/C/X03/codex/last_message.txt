@@ -1,0 +1,1 @@
+Submitted **PROVEN_INFEASIBLE**; no design released. A connected passive PA12 lattice supports elastic waves arbitrarily close to zero frequency, so it cannot completely block every frequency below 16.8 kHz. A potentially feasible band-gap target needs a positive lower frequency.

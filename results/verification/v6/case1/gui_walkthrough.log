@@ -1,0 +1,20 @@
+amm GUI backend (live) on http://127.0.0.1:8768  pid 79448
+  [    0.4 s] open GUI (0.38 s)
+  [    0.6 s] new session (0.26 s)
+  [    1.6 s] material PA12 (0.92 s)
+  [    1.8 s] cell size 20 mm (0.27 s)
+  [    2.3 s] target E100 >= 60 MPa (0.43 s)
+  [    2.7 s] target gap 11.5-14.95 kHz (0.43 s)
+  [    4.2 s] check bounds (1.49 s)
+    screenshot gui_case_mount_1_spec.png
+  [    8.1 s] atlas suggest (1.33 s)
+  [    8.1 s] load suggestion 1 (0.00 s)
+  [  142.7 s] evaluate (134.62 s)
+    screenshot gui_case_mount_2_evaluate.png
+  [ 2092.3 s] certify (1947.04 s)
+   certificate: {'status': 'done', 'seconds': 1946.6, 'queue_wait_s': 0.0, 'verdict': 'certified', 'E100_MPa': 63.75896910241373, 'safe_interval': [0.264338209864039, 0.6579059960900706]}
+  [ 2092.6 s] submit release (0.26 s)
+    screenshot gui_case_mount_3_certified.png
+  [ 2105.7 s] screen (10.53 s)
+  [ 2115.1 s] export (9.41 s)
+    screenshot gui_case_mount_4_export.png

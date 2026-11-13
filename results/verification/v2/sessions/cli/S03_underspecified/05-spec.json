@@ -1,0 +1,12 @@
+{
+ "targets": {
+  "gap": {
+   "f_lo": 1000.0,
+   "f_hi": 2000.0,
+   "unit": "Hz"
+  }
+ },
+ "material": {
+  "name": "PA12"
+ }
+}

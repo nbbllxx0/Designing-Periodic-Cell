@@ -1,0 +1,5 @@
+{"root": "results/verification/v11/robust_mount/session_design", "material": "PA12", "cell_size_mm": 20,
+ "targets": {"E100_min": {"value": 70.4, "unit": "MPa"}, "gap": {"f_lo": 11500, "f_hi": 14950, "unit": "Hz"}},
+ "gap_type": "complete",
+ "note": "V11 robust mount (audit round 1): case-1 band with the E100 target raised by the 14.7 % stiffness loss that a 0.01a erosion caused in the case-1 design (60 MPa / (54.4/63.76) = 70.3 MPa, rounded up to 70.4). Rule fixed before running: certify atlas suggestions in order, at most 5 calls, release the first certified candidate whose as-built flag is robust.",
+ "top": 10, "certify_max": 5, "export": {"tiles": 3, "resolution": 64, "tile_resolution": 32}}

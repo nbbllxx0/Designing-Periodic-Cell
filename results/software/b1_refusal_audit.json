@@ -1,0 +1,39 @@
+{
+ "rule": "amm.outcomes (B1, 2026-11-07)",
+ "counts": {
+  "e4 profile B (rule not applied)": 134,
+  "e4 profile C REJECTED": 1,
+  "e4 profile C accepted": 25,
+  "pilot profile B (rule not applied)": 12,
+  "pilot profile C accepted": 9,
+  "probe profile C accepted": 2,
+  "smoke profile B (rule not applied)": 8,
+  "smoke profile C accepted": 3
+ },
+ "changed": [
+  {
+   "session": "results/bench/e4/jobs/codex-C-r1-M13",
+   "submitted": {
+    "seq": 18,
+    "decision": "refuse",
+    "verdict": "UNDETERMINED"
+   },
+   "held": [
+    {
+     "kind": "search_not_found",
+     "summary": "bounded search: 96 evaluations, objective expected, margin 0.02, best slack -0.04184006562001194; nothing found",
+     "seq": 15,
+     "tool": "search",
+     "matches_spec": true
+    },
+    {
+     "kind": "certificate_refuted",
+     "summary": "certificate refuted: sphere_ligaments {'c': 0.412045, 'w': 0.271134}",
+     "seq": 16,
+     "tool": "certify",
+     "matches_spec": true
+    }
+   ]
+  }
+ ]
+}

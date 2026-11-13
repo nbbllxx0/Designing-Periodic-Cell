@@ -1,0 +1,27 @@
+{
+ "brief": "S01",
+ "arm": "B",
+ "profile": "B",
+ "provider": "claude",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 79.6,
+ "usage": {
+  "input_tokens": 73285,
+  "cached_input_tokens": 60800,
+  "output_tokens": 1502
+ },
+ "final": "I released a `cube_bars` cell with c = 0.518 and w = 0.359 (in cell units), but it only just meets the targets and isn't certified. The fast search estimates its relative density at 32.6 % (limit 33 %) and its Young's modulus along the cube axes at about 32.7 GPa (target 31 GPa), using bulk 316L at 193 GPa. After the tool's usual error correction, the expected margin on the stiffness target is only about +1 %. In the worst case it is about \u22124.5 %, which would put the modulus below 31 GPa. No certification step was available in this session, so these numbers are search estimates only. The calculation also doesn't model the effects of LPBF printing, such as porosity or a lower as-built modulus, which would further reduce real stiffness. If you need a guaranteed 31 GPa, either verify this design with a full simulation or a test first, or allow a slightly higher density.",
+ "model": "claude-opus-5-5",
+ "effort": "default",
+ "cli": "2.1.312 (Claude Code)",
+ "stderr_tail": "",
+ "job": "claude-B-r1-S01",
+ "rep": 1,
+ "partition": "development",
+ "gpu_wait_s": 0.0,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "704b2d8369133043",
+ "briefs": "194701c05dce17d2"
+}

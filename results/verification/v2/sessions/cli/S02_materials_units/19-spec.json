@@ -1,0 +1,15 @@
+{
+ "constraints": {
+  "cell_size": 10,
+  "cell_size_unit": "mm"
+ },
+ "material": {
+  "name": "316L"
+ },
+ "targets": {
+  "E100_min": {
+   "value": 5.0,
+   "unit": "GPa"
+  }
+ }
+}

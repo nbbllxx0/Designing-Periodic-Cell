@@ -1,0 +1,43 @@
+[
+ {
+  "set": "xenv_linux",
+  "log": "examples/outputs/02_session/session.jsonl",
+  "cause": "float64 round-off between Windows (numpy 2.2.6, MKL PARDISO) and the Linux container (numpy 2.5.4): C* and certificate bounds differ in the last digits, max relative difference 9.5e-9 (floor 1e-6, an off-diagonal C_MPa entry ~1e-13) and 1.1e-14 in the certificate; verdicts and outcome identical"
+ },
+ {
+  "set": "xenv_linux",
+  "log": "examples/outputs/03_session/session.jsonl",
+  "classification": "within tolerance",
+  "cause": "float64 round-off: screening removed_islands_fraction 3.5e-16 (Windows) vs 0.0 (Linux); report.json carries those values and four export volumes differing at <= 6e-15 relative, hence report bytes 4973 vs 4938 and a different report sha256; both STL files bit-identical. The automatic rule flagged the report hash as unexplained; diagnostic D3 (linux/diag03_console.log) explained it"
+ },
+ {
+  "set": "probe_old",
+  "log": "results/probe/C/P1/session/session.jsonl",
+  "cause": "contract fields added after code b072e26f (the probe code, older than E4's 90f3823f): get_session gains budget/budget_used and the atlas_suggest tool (14 tools, log 13); certificate key and record carry material, nu and checker (state hash of certify and later calls); submit records the spec. ok flags, decisions and every number identical (0 numeric differences); no decision change"
+ },
+ {
+  "set": "probe_old",
+  "log": "results/probe/C/P2/session/session.jsonl",
+  "cause": "contract fields added after code b072e26f (the probe code, older than E4's 90f3823f): get_session gains budget/budget_used and the atlas_suggest tool (14 tools, log 13); certificate key and record carry material, nu and checker (state hash of certify and later calls); submit records the spec. ok flags, decisions and every number identical (0 numeric differences); no decision change"
+ },
+ {
+  "set": "probe_old",
+  "log": "results/probe/C/P3/session/session.jsonl",
+  "cause": "contract field added after code b072e26f (the probe code, older than E4's 90f3823f): submit records the spec (submit result and state hash). ok flags, decision and every number identical; no decision change"
+ },
+ {
+  "set": "probe_old",
+  "log": "results/probe/C/P4/session/session.jsonl",
+  "cause": "contract fields added after code b072e26f (the probe code, older than E4's 90f3823f): get_session gains budget/budget_used and the atlas_suggest tool (14 tools, log 13); certificate key and record carry material, nu and checker (state hash of certify and later calls); submit records the spec. ok flags, decisions and every number identical (0 numeric differences); no decision change"
+ },
+ {
+  "set": "probe_old",
+  "log": "results/probe/C/P5/session/session.jsonl",
+  "cause": "contract fields added after code b072e26f (the probe code, older than E4's 90f3823f): get_session gains budget/budget_used and the atlas_suggest tool (14 tools, log 13); submit records the spec. ok flags, decision and every number identical (0 numeric differences, search included); no decision change"
+ },
+ {
+  "set": "e4_targeted",
+  "log": "results/bench/e4/jobs/codex-C-r1-M13/session/session.jsonl",
+  "cause": "expected decision change: B1 refusal-evidence rule (schema 2) rejects the logged UNDETERMINED refusal at seq 18 submit (no undetermined certificate held; session holds search_not_found and certificate_refuted); 17/18 calls exact, 0 numeric differences; matches the B1 static refusal audit (results/software/NOTES_B1B3.md)"
+ }
+]

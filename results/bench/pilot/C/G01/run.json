@@ -1,0 +1,19 @@
+{
+ "brief": "G01",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 336.3,
+ "usage": {
+  "input_tokens": 934906,
+  "cached_input_tokens": 886912,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2168,
+  "reasoning_output_tokens": 621
+ },
+ "final": "Released a certified 316L sphere-and-ligament unit cell with 6 mm periodicity and normalized parameters **c = 0.340756**, **w = 0.101349**. The amm certificate confirms a complete 3D elastic band gap covering **144\u2013304 kHz**, for all directions and polarizations. The \u00b10.06 mm geometric-offset robustness checks also passed.",
+ "stderr_tail": "2026-11-05T19:08:53.728376Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

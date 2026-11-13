@@ -1,0 +1,19 @@
+{
+ "brief": "G03",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 107.2,
+ "usage": {
+  "input_tokens": 453825,
+  "cached_input_tokens": 431744,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1170,
+  "reasoning_output_tokens": 278
+ },
+ "final": "No design released; verdict: **UNDETERMINED**. The amm search found promising nominal gaps, but none met the complete 44\u201354.6 kHz requirement after accounting for prediction uncertainty. Full coverage remains unverified; infeasibility has not been proven.",
+ "stderr_tail": ""
+}

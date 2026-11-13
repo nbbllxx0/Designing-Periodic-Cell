@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":null,"targets":{"density_max":0.35,"E100_min":{"value":7.28,"unit":"GPa"},"G_min":{"value":4.39,"unit":"GPa"}},"verdict":"UNDETERMINED","note":"Feasibility requires homogenized elastic tensors for candidate cells to verify both E100 and C44 at the permitted solid fraction."}

@@ -1,0 +1,105 @@
+{
+ "material": "Ti6Al4V",
+ "q": "E100",
+ "key": "E100_min",
+ "cap": 0.2,
+ "t": 0.09314586994727592,
+ "t_phys": [
+  10.6,
+  "GPa"
+ ],
+ "e_max": 0.09346476399573948,
+ "u_max": 0.09223041972589453,
+ "best_nominal": {
+  "family": "resonator",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.348696,
+   "w": 0.281739
+  }
+ },
+ "nominal_slack": 0.00342359836935414,
+ "expected_slack": -0.03748025803526007,
+ "proof": [
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.348696,
+     "w": 0.281739
+    }
+   },
+   "upper": 0.09128123342433465,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.348696,
+     "w": 0.281739
+    }
+   },
+   "upper": 0.09128123342433465,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.282609,
+     "w": 0.303478
+    }
+   },
+   "upper": 0.09177876844877704,
+   "source": "search top 3"
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.253043,
+     "w": 0.315652
+    }
+   },
+   "upper": 0.09223041972589453,
+   "source": "search top 3"
+  }
+ ],
+ "n_certified": 3,
+ "id": "R08",
+ "seconds": 870.6,
+ "intended": {
+  "material": "Ti6Al4V",
+  "cell_size": null,
+  "targets": {
+   "density_max": 0.2,
+   "E100_min": [
+    10.6,
+    "GPa"
+   ]
+  }
+ },
+ "truth": {
+  "decision": "release",
+  "witness": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.260815,
+    "w": 0.316982
+   }
+  },
+  "certificate": "certified",
+  "corrected": true,
+  "correction": "near-miss label corrected 2026-11-06: arm C (pilot, results/bench/nearmiss/C/R08) certified this off-grid sphere_ligaments design, confirmed by an independent certificate (results/bench/posthoc, results/bench/nearmiss_relabel_check.log); the construction checked grid cells and the top 3 of one nominal search only"
+ },
+ "truth_original": {
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "near_miss": true
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "G_min": {
+     "unit": "E_s",
+     "value": 0.2
+    },
+    "density_max": 0.3
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "G_min": 0.2,
+     "density_max": 0.3
+    },
+    "targets": {
+     "G_min": 0.2,
+     "density_max": 0.3
+    }
+   },
+   "seq": 2,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [
+     {
+      "bound": "HS",
+      "limit": 0.07051282051282048,
+      "scope": "isotropic",
+      "statement": "G_min exceeds the Hashin-Shtrikman upper bound on mu",
+      "target": 0.2
+     }
+    ],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.5333349896166442,
+       "slack_opt": -0.5315385234699349,
+       "slack_pess": -0.5351356751552448,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.46,
+         "mode": "sheet"
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.46659614043004616,
+       "slack_opt": -0.46487786599228903,
+       "slack_pess": -0.548576013690013,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.44,
+         "mode": "sheet"
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.5333326965437634,
+       "slack_opt": -0.5315362330836345,
+       "slack_pess": -0.5659948882120811,
+       "spec": {
+        "family": "tpms",
+        "kind": "diamond",
+        "params": {
+         "density": 0.46,
+         "mode": "network"
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 0,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "bounds_verdict": "PROVEN_INFEASIBLE",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "G_min": 0.2,
+     "density_max": 0.3
+    },
+    "verdict": "PROVEN_INFEASIBLE",
+    "violated": [
+     {
+      "bound": "V1",
+      "limit": 0.11538461538461536,
+      "scope": "any",
+      "statement": "G_min exceeds the Voigt bound phi_max * mu_s (any geometry)",
+      "target": 0.2
+     }
+    ]
+   },
+   "seq": 3,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [
+   {
+    "bound": "HS",
+    "limit": 0.07051282051282048,
+    "scope": "isotropic",
+    "statement": "G_min exceeds the Hashin-Shtrikman upper bound on mu",
+    "target": 0.2
+   }
+  ],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": -0.5333349896166442,
+     "slack_opt": -0.5315385234699349,
+     "slack_pess": -0.5351356751552448,
+     "spec": {
+      "family": "tpms",
+      "kind": "schwarz_p",
+      "params": {
+       "density": 0.46,
+       "mode": "sheet"
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.46659614043004616,
+     "slack_opt": -0.46487786599228903,
+     "slack_pess": -0.548576013690013,
+     "spec": {
+      "family": "tpms",
+      "kind": "schwarz_p",
+      "params": {
+       "density": 0.44,
+       "mode": "sheet"
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.5333326965437634,
+     "slack_opt": -0.5315362330836345,
+     "slack_pess": -0.5659948882120811,
+     "spec": {
+      "family": "tpms",
+      "kind": "diamond",
+      "params": {
+       "density": 0.46,
+       "mode": "network"
+      }
+     }
+    }
+   ],
+   "n_cells": 2714,
+   "n_clear": 0,
+   "n_possible": 0,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "NOT_FOUND_IN_FAMILIES"
+  },
+  "bounds_verdict": "PROVEN_INFEASIBLE",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "G_min": 0.2,
+   "density_max": 0.3
+  },
+  "verdict": "PROVEN_INFEASIBLE",
+  "violated": [
+   {
+    "bound": "V1",
+    "limit": 0.11538461538461536,
+    "scope": "any",
+    "statement": "G_min exceeds the Voigt bound phi_max * mu_s (any geometry)",
+    "target": 0.2
+   }
+  ]
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S01_targets\\15-check-bounds"
+}

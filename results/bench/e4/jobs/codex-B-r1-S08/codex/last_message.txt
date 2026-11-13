@@ -1,0 +1,1 @@
+Released a Ti6Al4V cube-bars unit cell with \(c/a=0.51913\) and \(w/a=0.36\). Search-model predictions meet all limits: **32.78% solid fraction**, **\(E_{[100]}=19.52\) GPa**, and **\(\nu_{100}=0.1323\)**. Results are uncertified; LPBF manufacturability was not evaluated.

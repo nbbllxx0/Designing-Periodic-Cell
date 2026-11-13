@@ -1,0 +1,1 @@
+No design released: **NOT_FOUND_IN_FAMILIES**. The atlas and 96-evaluation optimization found no 6 mm Ti-6Al-4V cell meeting all three targets: ≤29% solid fraction, ≥19 GPa axial Young’s modulus, and a complete gap covering 153–184 kHz. This does not prove physical impossibility.

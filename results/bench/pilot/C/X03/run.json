@@ -1,0 +1,19 @@
+{
+ "brief": "X03",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 29.3,
+ "usage": {
+  "input_tokens": 162353,
+  "cached_input_tokens": 147456,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 819,
+  "reasoning_output_tokens": 124
+ },
+ "final": "The amm verdict is **PROVEN_INFEASIBLE**; no design was released. A passive periodic PA12 lattice cannot block all elastic waves down to zero frequency because acoustic modes persist near zero. A revised target needs a positive lower cutoff below 16.8 kHz.",
+ "stderr_tail": "2026-11-05T20:32:30.177479Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

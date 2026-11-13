@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":[6,"mm"],"targets":{"density_max":0.21,"G_min":{"value":464,"unit":"MPa"},"gap":{"f_lo":252,"f_hi":288,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without homogenization and full-direction Bloch-spectrum calculations, I cannot certify a design meeting the C44 target and complete band gap or establish infeasibility."}

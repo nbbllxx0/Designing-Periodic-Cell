@@ -1,0 +1,31 @@
+{
+ "brief": "G11",
+ "arm": "B",
+ "profile": "B",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 112.7,
+ "usage": {
+  "input_tokens": 309083,
+  "cached_input_tokens": 276992,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1387,
+  "reasoning_output_tokens": 259
+ },
+ "final": "Submitted **UNDETERMINED**; no design released. For the 8 mm Ti6Al4V cell, promising candidates failed the pessimistic gap criterion, and this amm session lacks certification capability. The complete 232\u2013265 kHz gap remains unverified; infeasibility is not proven.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-B-r1-G11",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "e1dd6ec8e912acde",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "01274f97dc97276b"
+}

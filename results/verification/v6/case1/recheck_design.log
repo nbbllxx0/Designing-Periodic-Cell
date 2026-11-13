@@ -1,0 +1,10 @@
+static rows (STL)
+  static n=32 phase=0.0: density 0.23706 E100 0.042736 (1.7 s)
+  static n=32 phase=0.5: density 0.23707 E100 0.041758 (1.7 s)
+  static n=48 phase=0.0: density 0.23712 E100 0.041780 (3.3 s)
+  static n=48 phase=0.5: density 0.23710 E100 0.041541 (3.4 s)
+  static n=64 phase=0.0: density 0.23712 E100 0.041286 (8.2 s)
+  static n=64 phase=0.5: density 0.23698 E100 0.041381 (9.7 s)
+Bloch (STL)
+  gap: {'verdict': 'certified'} safe [0.2699128739872262, 0.6393289720397535] (cert [0.264338209864039, 0.6579059960900706])
+recheck passed=True static=certified gap=certified 305.4 s

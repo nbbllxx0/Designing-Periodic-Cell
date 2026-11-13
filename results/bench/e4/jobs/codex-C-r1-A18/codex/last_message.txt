@@ -1,0 +1,1 @@
+Released a certified **316L diamond TPMS sheet** unit cell with relative density ≤24.01% and bulk modulus ≥15.36 GPa, meeting your 36% density limit and clarified 9.3 GPa bulk-modulus target. LPBF manufacturability was not evaluated.

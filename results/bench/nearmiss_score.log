@@ -1,0 +1,65 @@
+B R01 correct_refusal refuse NOT_FOUND_IN_FAMILIES 
+B R02 correct_refusal refuse UNDETERMINED 
+B R03 correct_refusal refuse NOT_FOUND_IN_FAMILIES 
+B R04 correct_refusal refuse UNDETERMINED 
+B R05 correct_refusal refuse NOT_FOUND_IN_FAMILIES 
+B R06 correct_refusal refuse NOT_FOUND_IN_FAMILIES 
+B R07 correct_refusal refuse NOT_FOUND_IN_FAMILIES 
+B R08 correct_refusal refuse UNDETERMINED 
+C R01 label_error release  certified
+C R02 correct_refusal refuse UNDETERMINED 
+C R03 correct_refusal refuse UNDETERMINED 
+C R04 correct_refusal refuse NOT_FOUND_IN_FAMILIES 
+C R05 correct_refusal refuse UNDETERMINED 
+C R06 label_error release  certified
+C R07 correct_refusal refuse UNDETERMINED 
+C R08 label_error release  certified
+{
+ "B": {
+  "n": 8,
+  "correct": 8,
+  "releases": 0,
+  "silent_failures": 0,
+  "unverified_releases": 0,
+  "unsupported_releases": 0,
+  "false_refusals": 0,
+  "correct_refusals": 8,
+  "no_answer": 0,
+  "label_errors": 0,
+  "ambiguous": 0,
+  "asked_on_ambiguous": 0,
+  "asked_on_clear": 3,
+  "wall_s": 1695.8,
+  "input_tokens": 4469668,
+  "output_tokens": 15037,
+  "by_class": {
+   "infeasible_nearmiss": {
+    "correct_refusal": 8
+   }
+  }
+ },
+ "C": {
+  "n": 8,
+  "correct": 8,
+  "releases": 3,
+  "silent_failures": 0,
+  "unverified_releases": 0,
+  "unsupported_releases": 0,
+  "false_refusals": 0,
+  "correct_refusals": 5,
+  "no_answer": 0,
+  "label_errors": 3,
+  "ambiguous": 0,
+  "asked_on_ambiguous": 0,
+  "asked_on_clear": 2,
+  "wall_s": 6798.0,
+  "input_tokens": 12794462,
+  "output_tokens": 32368,
+  "by_class": {
+   "infeasible_nearmiss": {
+    "correct_refusal": 5,
+    "label_error": 3
+   }
+  }
+ }
+}

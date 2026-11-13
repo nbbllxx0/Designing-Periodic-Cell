@@ -1,0 +1,7 @@
+strut_octet_r0.06_nu0.3   Q2FCM n=12 s=5: ne=896 (cut 896), ndof=27924, density=0.15859, removed=1.12e-14, setup 8.3s
+strut_octet_r0.06_nu0.3   level n=12: 31 k, 216.4s
+strut_octet_r0.06_nu0.3   Q2FCM n=16 s=5: ne=1376 (cut 1376), ndof=45204, density=0.15851, removed=-5.78e-15, setup 16.5s
+strut_octet_r0.06_nu0.3   level n=16: 8 k, 120.0s
+strut_octet_r0.06_nu0.3   Q2FCM n=20 s=5: ne=2752 (cut 2720), ndof=87732, density=0.15845, removed=1.92e-14, setup 26.0s
+strut_octet_r0.06_nu0.3   level n=20: 8 k, 278.8s
+strut_octet_r0.06_nu0.3 done 615.3 s

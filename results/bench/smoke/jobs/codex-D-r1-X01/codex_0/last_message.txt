@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":null,"targets":{"density_max":0.16,"E100_min":{"value":38.6,"unit":"GPa"}},"verdict":"PROVEN_INFEASIBLE","note":"Using 316L’s Young’s modulus of approximately 193 GPa, the rigorous Voigt bound gives E100 ≤ 0.16 × 193 = 30.88 GPa, below the required 38.6 GPa for every permitted geometry."}

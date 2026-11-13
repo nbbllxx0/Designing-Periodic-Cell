@@ -1,0 +1,1 @@
+Submitted as **need_info**. The requirements are Ti6Al4V, ≤29% solid volume, and shear modulus C44 ≥6.51 GPa. A printable design still requires the unit-cell size and minimum LPBF wall/strut thickness.

@@ -1,0 +1,26 @@
+relative error search/ref - 1 (nu100 and gap edges: absolute / relative to f_mid)
+  density tpms      n=21  median -0.0003  min -0.0009  max +0.0001  max|e| 0.0009
+  density struts    n=11  median -0.0006  min -0.0026  max +0.0041  max|e| 0.0041
+  density resonator n=18  median -0.0000  min -0.0021  max +0.0043  max|e| 0.0043
+  density all       n=50  median -0.0002  min -0.0026  max +0.0043  max|e| 0.0043
+  E100    tpms      n=21  median +0.0243  min +0.0076  max +0.1460  max|e| 0.1460
+  E100    struts    n=11  median +0.1127  min +0.0110  max +0.4528  max|e| 0.4528
+  E100    resonator n=18  median +0.0400  min +0.0169  max +0.0720  max|e| 0.0720
+  E100    all       n=50  median +0.0361  min +0.0076  max +0.4528  max|e| 0.4528
+  G       tpms      n=21  median +0.0362  min +0.0081  max +0.1620  max|e| 0.1620
+  G       struts    n=11  median +0.0699  min +0.0276  max +0.3504  max|e| 0.3504
+  G       resonator n=18  median +0.1785  min +0.0789  max +0.4031  max|e| 0.4031
+  G       all       n=50  median +0.0744  min +0.0081  max +0.4031  max|e| 0.4031
+  nu100   tpms      n=21  median -0.0023  min -0.0111  max +0.0024  max|e| 0.0111
+  nu100   struts    n=11  median -0.0052  min -0.0133  max +0.0012  max|e| 0.0133
+  nu100   resonator n=18  median +0.0017  min +0.0004  max +0.0030  max|e| 0.0030
+  nu100   all       n=50  median +0.0005  min -0.0133  max +0.0030  max|e| 0.0133
+  gap_lo  tpms      n= 1  median +0.0977  min +0.0977  max +0.0977  max|e| 0.0977
+  gap_lo  struts    n= 1  median +0.0887  min +0.0887  max +0.0887  max|e| 0.0887
+  gap_lo  resonator n=11  median +0.1118  min +0.0341  max +0.2242  max|e| 0.2242
+  gap_lo  all       n=13  median +0.1106  min +0.0341  max +0.2242  max|e| 0.2242
+  gap_hi  tpms      n= 1  median +0.0494  min +0.0494  max +0.0494  max|e| 0.0494
+  gap_hi  struts    n= 1  median +0.4136  min +0.4136  max +0.4136  max|e| 0.4136
+  gap_hi  resonator n=11  median +0.1443  min +0.0307  max +0.5750  max|e| 0.5750
+  gap_hi  all       n=13  median +0.1443  min +0.0307  max +0.5750  max|e| 0.5750
+gap missing at the search tier: []

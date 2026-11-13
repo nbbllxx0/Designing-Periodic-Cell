@@ -1,0 +1,27 @@
+{
+ "mcpServers": {
+  "amm": {
+   "type": "stdio",
+   "command": "C:/Users/nbbll/anaconda3/envs/amm/python.exe",
+   "args": [
+    "-B",
+    "-W",
+    "ignore",
+    "-m",
+    "amm.mcp_server",
+    "--session",
+    "C:/AI/AgenticMetamaterials_workspaces/smoke/d91cce0862f4/session",
+    "--profile",
+    "C",
+    "--brief",
+    "C:/AI/AgenticMetamaterials_workspaces/smoke/_hidden/d91cce0862f4.json"
+   ],
+   "env": {
+    "PYTHONPATH": "C:/AI/AgenticMetamaterials",
+    "MKL_NUM_THREADS": "16",
+    "MKL_CBWR": "AUTO,STRICT",
+    "PYTHONUTF8": "1"
+   }
+  }
+ }
+}

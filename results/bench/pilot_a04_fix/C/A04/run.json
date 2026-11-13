@@ -1,0 +1,19 @@
+{
+ "brief": "A04",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 365.2,
+ "usage": {
+  "input_tokens": 678851,
+  "cached_input_tokens": 658304,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2297,
+  "reasoning_output_tokens": 463
+ },
+ "final": "Released a Ti6Al4V Schwarz P sheet unit cell with a 10 mm edge and 28.9% nominal solid fraction. Certified bounds meet both requirements: \u226428.906% solid and \u22656.881 GPa shear modulus. LPBF process qualification remains necessary; the design failed the \u00b10.1 mm offset robustness check.",
+ "stderr_tail": "2026-11-05T22:16:02.123783Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

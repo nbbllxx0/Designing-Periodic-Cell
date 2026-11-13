@@ -1,0 +1,62 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "density_max": 0.3
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "density_max": 0.3
+    },
+    "targets": {
+     "density_max": 0.3
+    }
+   },
+   "seq": 2,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "error": "unknown tool 'check_bounds'",
+   "ok": false,
+   "seq": null,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": {
+  "error": "unknown tool 'check_bounds'",
+  "tool": "check_bounds"
+ },
+ "ok": false,
+ "profile": "B",
+ "result": {
+  "cannot_normalize_yet": [],
+  "normalized": {
+   "density_max": 0.3
+  },
+  "targets": {
+   "density_max": 0.3
+  }
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S12_cli\\09-check-bounds"
+}

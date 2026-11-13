@@ -1,0 +1,1 @@
+Released a certified **316L Schwarz P sheet unit cell** with nominal solid fraction **25.9%**. Guarded bounds meet your requirements: solid fraction ≤25.903%, cube-axis Young’s modulus ≥12.67 GPa, and shear modulus ≥10.43 GPa. The nominal geometry passes; robustness to ±0.01 cell-size manufacturing offsets does not.

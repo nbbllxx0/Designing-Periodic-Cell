@@ -1,0 +1,1 @@
+Released a certified **Ti6Al4V IWP sheet** unit cell with density parameter **0.369**: solid fraction ≤36.900%, cube-axis Young’s modulus ≥21.045 GPa, and C44 ≥6.320 GPa. It meets all requested limits, but fails the tested ±0.01-cell-size geometry-offset robustness check.

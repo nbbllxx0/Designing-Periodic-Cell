@@ -1,0 +1,19 @@
+{
+ "brief": "P5",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 107.8,
+ "usage": {
+  "input_tokens": 496522,
+  "cached_input_tokens": 466944,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1071,
+  "reasoning_output_tokens": 160
+ },
+ "final": "No design was released. The amm verdict is **NOT_FOUND_IN_FAMILIES**: the atlas and optimization search found no 10 mm 316L unit cell covering the complete 140\u2013375 kHz band gap. This does not prove physical impossibility.",
+ "stderr_tail": "2026-11-05T06:26:38.321897Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

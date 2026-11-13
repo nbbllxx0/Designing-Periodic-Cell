@@ -1,0 +1,1 @@
+No design was released: **NOT_FOUND_IN_FAMILIES**. The amm search found no candidate meeting both requirements; its best candidate had 3.19% solid volume and an axial Poisson ratio of 0.491, below 0.55. This does not prove infeasibility for other architectures.

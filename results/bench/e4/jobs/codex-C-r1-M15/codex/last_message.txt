@@ -1,0 +1,1 @@
+Released a certified 316L cube-and-bars resonator with an 8 mm cell and normalized parameters **c = 0.637241, w = 0.200076**. Certified bounds give **≤30.29% solid** and **≥12.47 GPa axial Young’s modulus**. Its complete 3D gap spans **120.700–260.133 kHz**, covering every direction and polarization throughout the requested **139–204 kHz** band.

@@ -1,0 +1,1314 @@
+{
+ "scenario": "S03_underspecified",
+ "interface": "cli",
+ "rows": [
+  {
+   "scenario": "S03_underspecified",
+   "check": "gpa_no_material",
+   "capability": "units: GPa without a material",
+   "interface": "cli",
+   "profile": "C",
+   "tool": "set_target",
+   "expected_refusal": false,
+   "observed": "accepted: normalized={}",
+   "passed": true,
+   "failures": [],
+   "seq": 1,
+   "dt_s": 1.32,
+   "session": "results/verification/v2/sessions/cli/S03_underspecified/01-check-bounds/session.jsonl"
+  },
+  {
+   "scenario": "S03_underspecified",
+   "check": "gpa_no_material_check",
+   "capability": "GPa without a material: check refused",
+   "interface": "cli",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": true,
+   "observed": "refused: no targets that can be normalized yet: E100_min given in GPa but no material: cannot normalize by E_s",
+   "passed": true,
+   "failures": [],
+   "seq": 2,
+   "dt_s": 1.33,
+   "session": "results/verification/v2/sessions/cli/S03_underspecified/02-check-bounds/session.jsonl"
+  },
+  {
+   "scenario": "S03_underspecified",
+   "check": "hz_no_cell",
+   "capability": "units: Hz without a cell size",
+   "interface": "cli",
+   "profile": "C",
+   "tool": "set_target",
+   "expected_refusal": false,
+   "observed": "accepted: normalized={}",
+   "passed": true,
+   "failures": [],
+   "seq": 2,
+   "dt_s": 1.62,
+   "session": "results/verification/v2/sessions/cli/S03_underspecified/04-check-bounds/session.jsonl"
+  },
+  {
+   "scenario": "S03_underspecified",
+   "check": "hz_no_cell_check",
+   "capability": "Hz without a cell size: check refused (nothing normalizable)",
+   "interface": "cli",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": true,
+   "observed": "refused: no targets that can be normalized yet: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+   "passed": true,
+   "failures": [],
+   "seq": 3,
+   "dt_s": 1.66,
+   "session": "results/verification/v2/sessions/cli/S03_underspecified/05-check-bounds/session.jsonl"
+  },
+  {
+   "scenario": "S03_underspecified",
+   "check": "hz_partial_check",
+   "capability": "Hz without a cell size + a normalizable target: UNDERSPECIFIED",
+   "interface": "cli",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=UNDERSPECIFIED; atlas=FEASIBLE",
+   "passed": true,
+   "failures": [],
+   "seq": 3,
+   "dt_s": 1.74,
+   "session": "results/verification/v2/sessions/cli/S03_underspecified/07-check-bounds/session.jsonl"
+  },
+  {
+   "scenario": "S03_underspecified",
+   "check": "hz_no_cell_certify",
+   "capability": "Hz without a cell size: certify refused",
+   "interface": "cli",
+   "profile": "C",
+   "tool": "certify",
+   "expected_refusal": true,
+   "observed": "refused: targets cannot be normalized: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+   "passed": true,
+   "failures": [],
+   "seq": 3,
+   "dt_s": 1.64,
+   "session": "results/verification/v2/sessions/cli/S03_underspecified/08-certify/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_target",
+   "args": {
+    "E100_min": {
+     "value": 5.0,
+     "unit": "GPa"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 1.32,
+   "ok": true,
+   "exit": 1,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [
+     "E100_min given in GPa but no material: cannot normalize by E_s"
+    ],
+    "normalized": {},
+    "targets": {
+     "E100_min": [
+      5.0,
+      "GPa"
+     ]
+    }
+   },
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "E100_min": {
+        "unit": "GPa",
+        "value": 5.0
+       }
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [
+        "E100_min given in GPa but no material: cannot normalize by E_s"
+       ],
+       "normalized": {},
+       "targets": {
+        "E100_min": [
+         5.0,
+         "GPa"
+        ]
+       }
+      },
+      "seq": 1,
+      "tool": "set_target"
+     },
+     {
+      "args": {},
+      "error": "no targets that can be normalized yet: E100_min given in GPa but no material: cannot normalize by E_s",
+      "ok": false,
+      "seq": 2,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": {
+     "error": "no targets that can be normalized yet: E100_min given in GPa but no material: cannot normalize by E_s",
+     "tool": "check_bounds"
+    },
+    "ok": false,
+    "profile": "C",
+    "result": {
+     "cannot_normalize_yet": [
+      "E100_min given in GPa but no material: cannot normalize by E_s"
+     ],
+     "normalized": {},
+     "targets": {
+      "E100_min": [
+       5.0,
+       "GPa"
+      ]
+     }
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\01-check-bounds"
+   }
+  },
+  {
+   "i": 1,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 1.33,
+   "ok": false,
+   "exit": 1,
+   "seq": 2,
+   "error": "no targets that can be normalized yet: E100_min given in GPa but no material: cannot normalize by E_s",
+   "result": null,
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "E100_min": {
+        "unit": "GPa",
+        "value": 5.0
+       }
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [
+        "E100_min given in GPa but no material: cannot normalize by E_s"
+       ],
+       "normalized": {},
+       "targets": {
+        "E100_min": [
+         5.0,
+         "GPa"
+        ]
+       }
+      },
+      "seq": 1,
+      "tool": "set_target"
+     },
+     {
+      "args": {},
+      "error": "no targets that can be normalized yet: E100_min given in GPa but no material: cannot normalize by E_s",
+      "ok": false,
+      "seq": 2,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": {
+     "error": "no targets that can be normalized yet: E100_min given in GPa but no material: cannot normalize by E_s",
+     "tool": "check_bounds"
+    },
+    "ok": false,
+    "profile": "C",
+    "result": {
+     "cannot_normalize_yet": [
+      "E100_min given in GPa but no material: cannot normalize by E_s"
+     ],
+     "normalized": {},
+     "targets": {
+      "E100_min": [
+       5.0,
+       "GPa"
+      ]
+     }
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\02-check-bounds"
+   }
+  },
+  {
+   "i": 2,
+   "tool": "set_material",
+   "args": {
+    "name": "PA12"
+   },
+   "argv": null,
+   "dt_s": 1.71,
+   "ok": true,
+   "exit": 0,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 1700000000.0,
+    "atlas_available": true,
+    "material": "PA12",
+    "nu": 0.39,
+    "rho_kg_m3": 1010.0
+   },
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "PA12"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 1700000000.0,
+       "atlas_available": true,
+       "material": "PA12",
+       "nu": 0.39,
+       "rho_kg_m3": 1010.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {
+       "E100_min": {
+        "unit": "GPa",
+        "value": 5.0
+       }
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [],
+       "normalized": {
+        "E100_min": 2.9411764705882355
+       },
+       "targets": {
+        "E100_min": [
+         5.0,
+         "GPa"
+        ]
+       }
+      },
+      "seq": 2,
+      "tool": "set_target"
+     },
+     {
+      "args": {},
+      "ok": true,
+      "result": {
+       "advisory": [
+        {
+         "bound": "HS",
+         "limit": 1.0,
+         "scope": "isotropic",
+         "statement": "E100_min exceeds the Hashin-Shtrikman upper bound on E",
+         "target": 2.9411764705882355
+        }
+       ],
+       "atlas": {
+        "best": [
+         {
+          "slack_nominal": -0.857611949046826,
+          "slack_opt": -0.857611949046826,
+          "slack_pess": -0.8795904148220883,
+          "spec": {
+           "family": "tpms",
+           "kind": "iwp",
+           "params": {
+            "density": 0.6,
+            "mode": "sheet"
+           }
+          }
+         },
+         {
+          "slack_nominal": -0.8579287921523907,
+          "slack_opt": -0.8579287921523907,
+          "slack_pess": -0.8798583512581313,
+          "spec": {
+           "family": "tpms",
+           "kind": "schwarz_p",
+           "params": {
+            "density": 0.6,
+            "mode": "network"
+           }
+          }
+         },
+         {
+          "slack_nominal": -0.8650888156817281,
+          "slack_opt": -0.8650888156817281,
+          "slack_pess": -0.8859131814019553,
+          "spec": {
+           "family": "tpms",
+           "kind": "iwp",
+           "params": {
+            "density": 0.58,
+            "mode": "sheet"
+           }
+          }
+         }
+        ],
+        "n_cells": 2714,
+        "n_clear": 0,
+        "n_possible": 0,
+        "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+        "verdict": "NOT_FOUND_IN_FAMILIES"
+       },
+       "bounds_verdict": "PROVEN_INFEASIBLE",
+       "cannot_normalize": [],
+       "normalized_targets": {
+        "E100_min": 2.9411764705882355
+       },
+       "verdict": "PROVEN_INFEASIBLE",
+       "violated": [
+        {
+         "bound": "V1",
+         "limit": 1.0,
+         "scope": "any",
+         "statement": "E100_min exceeds the Voigt bound phi_max * E_s (any geometry)",
+         "target": 2.9411764705882355
+        }
+       ]
+      },
+      "seq": 3,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": null,
+    "ok": true,
+    "profile": "C",
+    "result": {
+     "advisory": [
+      {
+       "bound": "HS",
+       "limit": 1.0,
+       "scope": "isotropic",
+       "statement": "E100_min exceeds the Hashin-Shtrikman upper bound on E",
+       "target": 2.9411764705882355
+      }
+     ],
+     "atlas": {
+      "best": [
+       {
+        "slack_nominal": -0.857611949046826,
+        "slack_opt": -0.857611949046826,
+        "slack_pess": -0.8795904148220883,
+        "spec": {
+         "family": "tpms",
+         "kind": "iwp",
+         "params": {
+          "density": 0.6,
+          "mode": "sheet"
+         }
+        }
+       },
+       {
+        "slack_nominal": -0.8579287921523907,
+        "slack_opt": -0.8579287921523907,
+        "slack_pess": -0.8798583512581313,
+        "spec": {
+         "family": "tpms",
+         "kind": "schwarz_p",
+         "params": {
+          "density": 0.6,
+          "mode": "network"
+         }
+        }
+       },
+       {
+        "slack_nominal": -0.8650888156817281,
+        "slack_opt": -0.8650888156817281,
+        "slack_pess": -0.8859131814019553,
+        "spec": {
+         "family": "tpms",
+         "kind": "iwp",
+         "params": {
+          "density": 0.58,
+          "mode": "sheet"
+         }
+        }
+       }
+      ],
+      "n_cells": 2714,
+      "n_clear": 0,
+      "n_possible": 0,
+      "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+      "verdict": "NOT_FOUND_IN_FAMILIES"
+     },
+     "bounds_verdict": "PROVEN_INFEASIBLE",
+     "cannot_normalize": [],
+     "normalized_targets": {
+      "E100_min": 2.9411764705882355
+     },
+     "verdict": "PROVEN_INFEASIBLE",
+     "violated": [
+      {
+       "bound": "V1",
+       "limit": 1.0,
+       "scope": "any",
+       "statement": "E100_min exceeds the Voigt bound phi_max * E_s (any geometry)",
+       "target": 2.9411764705882355
+      }
+     ]
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\03-check-bounds"
+   }
+  },
+  {
+   "i": 3,
+   "tool": "set_target",
+   "args": {
+    "gap": {
+     "f_lo": 1000.0,
+     "f_hi": 2000.0,
+     "unit": "Hz"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 1.62,
+   "ok": true,
+   "exit": 1,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [
+     "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+     "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+    ],
+    "normalized": {},
+    "targets": {
+     "gap": {
+      "f_hi": [
+       2000.0,
+       "Hz"
+      ],
+      "f_lo": [
+       1000.0,
+       "Hz"
+      ]
+     }
+    }
+   },
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "PA12"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 1700000000.0,
+       "atlas_available": true,
+       "material": "PA12",
+       "nu": 0.39,
+       "rho_kg_m3": 1010.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {
+       "gap": {
+        "f_hi": 2000.0,
+        "f_lo": 1000.0,
+        "unit": "Hz"
+       }
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [
+        "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+        "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+       ],
+       "normalized": {},
+       "targets": {
+        "gap": {
+         "f_hi": [
+          2000.0,
+          "Hz"
+         ],
+         "f_lo": [
+          1000.0,
+          "Hz"
+         ]
+        }
+       }
+      },
+      "seq": 2,
+      "tool": "set_target"
+     },
+     {
+      "args": {},
+      "error": "no targets that can be normalized yet: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+      "ok": false,
+      "seq": 3,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": {
+     "error": "no targets that can be normalized yet: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+     "tool": "check_bounds"
+    },
+    "ok": false,
+    "profile": "C",
+    "result": {
+     "cannot_normalize_yet": [
+      "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+      "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+     ],
+     "normalized": {},
+     "targets": {
+      "gap": {
+       "f_hi": [
+        2000.0,
+        "Hz"
+       ],
+       "f_lo": [
+        1000.0,
+        "Hz"
+       ]
+      }
+     }
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\04-check-bounds"
+   }
+  },
+  {
+   "i": 4,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 1.66,
+   "ok": false,
+   "exit": 1,
+   "seq": 3,
+   "error": "no targets that can be normalized yet: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+   "result": null,
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "PA12"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 1700000000.0,
+       "atlas_available": true,
+       "material": "PA12",
+       "nu": 0.39,
+       "rho_kg_m3": 1010.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {
+       "gap": {
+        "f_hi": 2000.0,
+        "f_lo": 1000.0,
+        "unit": "Hz"
+       }
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [
+        "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+        "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+       ],
+       "normalized": {},
+       "targets": {
+        "gap": {
+         "f_hi": [
+          2000.0,
+          "Hz"
+         ],
+         "f_lo": [
+          1000.0,
+          "Hz"
+         ]
+        }
+       }
+      },
+      "seq": 2,
+      "tool": "set_target"
+     },
+     {
+      "args": {},
+      "error": "no targets that can be normalized yet: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+      "ok": false,
+      "seq": 3,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": {
+     "error": "no targets that can be normalized yet: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+     "tool": "check_bounds"
+    },
+    "ok": false,
+    "profile": "C",
+    "result": {
+     "cannot_normalize_yet": [
+      "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+      "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+     ],
+     "normalized": {},
+     "targets": {
+      "gap": {
+       "f_hi": [
+        2000.0,
+        "Hz"
+       ],
+       "f_lo": [
+        1000.0,
+        "Hz"
+       ]
+      }
+     }
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\05-check-bounds"
+   }
+  },
+  {
+   "i": 5,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.3
+   },
+   "argv": null,
+   "dt_s": 1.74,
+   "ok": true,
+   "exit": 0,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [
+     "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+     "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+    ],
+    "normalized": {
+     "density_max": 0.3
+    },
+    "targets": {
+     "density_max": 0.3,
+     "gap": {
+      "f_hi": [
+       2000.0,
+       "Hz"
+      ],
+      "f_lo": [
+       1000.0,
+       "Hz"
+      ]
+     }
+    }
+   },
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "PA12"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 1700000000.0,
+       "atlas_available": true,
+       "material": "PA12",
+       "nu": 0.39,
+       "rho_kg_m3": 1010.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {
+       "density_max": 0.3,
+       "gap": {
+        "f_hi": 2000.0,
+        "f_lo": 1000.0,
+        "unit": "Hz"
+       }
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [
+        "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+        "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+       ],
+       "normalized": {
+        "density_max": 0.3
+       },
+       "targets": {
+        "density_max": 0.3,
+        "gap": {
+         "f_hi": [
+          2000.0,
+          "Hz"
+         ],
+         "f_lo": [
+          1000.0,
+          "Hz"
+         ]
+        }
+       }
+      },
+      "seq": 2,
+      "tool": "set_target"
+     },
+     {
+      "args": {},
+      "ok": true,
+      "result": {
+       "advisory": [],
+       "atlas": {
+        "best": [
+         {
+          "slack_nominal": 0.9534907807489112,
+          "slack_opt": 0.9537409812308011,
+          "slack_pess": 0.9532378590373327,
+          "spec": {
+           "family": "resonator",
+           "kind": "sphere_ligaments",
+           "params": {
+            "c": 0.12,
+            "w": 0.06
+           }
+          }
+         },
+         {
+          "slack_nominal": 0.9525536711798066,
+          "slack_opt": 0.9537101562495763,
+          "slack_pess": 0.951337919183945,
+          "spec": {
+           "family": "struts",
+           "kind": "sc",
+           "params": {
+            "R": 0.0,
+            "r": 0.04
+           }
+          }
+         },
+         {
+          "slack_nominal": 0.9503320568504788,
+          "slack_opt": 0.951542692870734,
+          "slack_pess": 0.949059378805288,
+          "spec": {
+           "family": "struts",
+           "kind": "sc",
+           "params": {
+            "R": 0.08,
+            "r": 0.04
+           }
+          }
+         }
+        ],
+        "n_cells": 2714,
+        "n_clear": 1776,
+        "n_possible": 1803,
+        "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+        "verdict": "FEASIBLE"
+       },
+       "bounds_verdict": "UNDERSPECIFIED",
+       "cannot_normalize": [
+        "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+        "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+       ],
+       "normalized_targets": {
+        "density_max": 0.3
+       },
+       "verdict": "UNDERSPECIFIED",
+       "violated": []
+      },
+      "seq": 3,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": null,
+    "ok": true,
+    "profile": "C",
+    "result": {
+     "advisory": [],
+     "atlas": {
+      "best": [
+       {
+        "slack_nominal": 0.9534907807489112,
+        "slack_opt": 0.9537409812308011,
+        "slack_pess": 0.9532378590373327,
+        "spec": {
+         "family": "resonator",
+         "kind": "sphere_ligaments",
+         "params": {
+          "c": 0.12,
+          "w": 0.06
+         }
+        }
+       },
+       {
+        "slack_nominal": 0.9525536711798066,
+        "slack_opt": 0.9537101562495763,
+        "slack_pess": 0.951337919183945,
+        "spec": {
+         "family": "struts",
+         "kind": "sc",
+         "params": {
+          "R": 0.0,
+          "r": 0.04
+         }
+        }
+       },
+       {
+        "slack_nominal": 0.9503320568504788,
+        "slack_opt": 0.951542692870734,
+        "slack_pess": 0.949059378805288,
+        "spec": {
+         "family": "struts",
+         "kind": "sc",
+         "params": {
+          "R": 0.08,
+          "r": 0.04
+         }
+        }
+       }
+      ],
+      "n_cells": 2714,
+      "n_clear": 1776,
+      "n_possible": 1803,
+      "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+      "verdict": "FEASIBLE"
+     },
+     "bounds_verdict": "UNDERSPECIFIED",
+     "cannot_normalize": [
+      "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+      "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+     ],
+     "normalized_targets": {
+      "density_max": 0.3
+     },
+     "verdict": "UNDERSPECIFIED",
+     "violated": []
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\06-check-bounds"
+   }
+  },
+  {
+   "i": 6,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 1.74,
+   "ok": true,
+   "exit": 0,
+   "seq": 3,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": 0.9534907807489112,
+       "slack_opt": 0.9537409812308011,
+       "slack_pess": 0.9532378590373327,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.12,
+         "w": 0.06
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.9525536711798066,
+       "slack_opt": 0.9537101562495763,
+       "slack_pess": 0.951337919183945,
+       "spec": {
+        "family": "struts",
+        "kind": "sc",
+        "params": {
+         "R": 0.0,
+         "r": 0.04
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.9503320568504788,
+       "slack_opt": 0.951542692870734,
+       "slack_pess": 0.949059378805288,
+       "spec": {
+        "family": "struts",
+        "kind": "sc",
+        "params": {
+         "R": 0.08,
+         "r": 0.04
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 1776,
+     "n_possible": 1803,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "FEASIBLE"
+    },
+    "bounds_verdict": "UNDERSPECIFIED",
+    "cannot_normalize": [
+     "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+     "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+    ],
+    "normalized_targets": {
+     "density_max": 0.3
+    },
+    "verdict": "UNDERSPECIFIED",
+    "violated": []
+   },
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "PA12"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 1700000000.0,
+       "atlas_available": true,
+       "material": "PA12",
+       "nu": 0.39,
+       "rho_kg_m3": 1010.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {
+       "density_max": 0.3,
+       "gap": {
+        "f_hi": 2000.0,
+        "f_lo": 1000.0,
+        "unit": "Hz"
+       }
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [
+        "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+        "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+       ],
+       "normalized": {
+        "density_max": 0.3
+       },
+       "targets": {
+        "density_max": 0.3,
+        "gap": {
+         "f_hi": [
+          2000.0,
+          "Hz"
+         ],
+         "f_lo": [
+          1000.0,
+          "Hz"
+         ]
+        }
+       }
+      },
+      "seq": 2,
+      "tool": "set_target"
+     },
+     {
+      "args": {},
+      "ok": true,
+      "result": {
+       "advisory": [],
+       "atlas": {
+        "best": [
+         {
+          "slack_nominal": 0.9534907807489112,
+          "slack_opt": 0.9537409812308011,
+          "slack_pess": 0.9532378590373327,
+          "spec": {
+           "family": "resonator",
+           "kind": "sphere_ligaments",
+           "params": {
+            "c": 0.12,
+            "w": 0.06
+           }
+          }
+         },
+         {
+          "slack_nominal": 0.9525536711798066,
+          "slack_opt": 0.9537101562495763,
+          "slack_pess": 0.951337919183945,
+          "spec": {
+           "family": "struts",
+           "kind": "sc",
+           "params": {
+            "R": 0.0,
+            "r": 0.04
+           }
+          }
+         },
+         {
+          "slack_nominal": 0.9503320568504788,
+          "slack_opt": 0.951542692870734,
+          "slack_pess": 0.949059378805288,
+          "spec": {
+           "family": "struts",
+           "kind": "sc",
+           "params": {
+            "R": 0.08,
+            "r": 0.04
+           }
+          }
+         }
+        ],
+        "n_cells": 2714,
+        "n_clear": 1776,
+        "n_possible": 1803,
+        "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+        "verdict": "FEASIBLE"
+       },
+       "bounds_verdict": "UNDERSPECIFIED",
+       "cannot_normalize": [
+        "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+        "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+       ],
+       "normalized_targets": {
+        "density_max": 0.3
+       },
+       "verdict": "UNDERSPECIFIED",
+       "violated": []
+      },
+      "seq": 3,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": null,
+    "ok": true,
+    "profile": "C",
+    "result": {
+     "advisory": [],
+     "atlas": {
+      "best": [
+       {
+        "slack_nominal": 0.9534907807489112,
+        "slack_opt": 0.9537409812308011,
+        "slack_pess": 0.9532378590373327,
+        "spec": {
+         "family": "resonator",
+         "kind": "sphere_ligaments",
+         "params": {
+          "c": 0.12,
+          "w": 0.06
+         }
+        }
+       },
+       {
+        "slack_nominal": 0.9525536711798066,
+        "slack_opt": 0.9537101562495763,
+        "slack_pess": 0.951337919183945,
+        "spec": {
+         "family": "struts",
+         "kind": "sc",
+         "params": {
+          "R": 0.0,
+          "r": 0.04
+         }
+        }
+       },
+       {
+        "slack_nominal": 0.9503320568504788,
+        "slack_opt": 0.951542692870734,
+        "slack_pess": 0.949059378805288,
+        "spec": {
+         "family": "struts",
+         "kind": "sc",
+         "params": {
+          "R": 0.08,
+          "r": 0.04
+         }
+        }
+       }
+      ],
+      "n_cells": 2714,
+      "n_clear": 1776,
+      "n_possible": 1803,
+      "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+      "verdict": "FEASIBLE"
+     },
+     "bounds_verdict": "UNDERSPECIFIED",
+     "cannot_normalize": [
+      "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+      "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+     ],
+     "normalized_targets": {
+      "density_max": 0.3
+     },
+     "verdict": "UNDERSPECIFIED",
+     "violated": []
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\07-check-bounds"
+   }
+  },
+  {
+   "i": 7,
+   "tool": "certify",
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 1.64,
+   "ok": false,
+   "exit": 1,
+   "seq": 3,
+   "error": "targets cannot be normalized: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+   "result": null,
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "PA12"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 1700000000.0,
+       "atlas_available": true,
+       "material": "PA12",
+       "nu": 0.39,
+       "rho_kg_m3": 1010.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {
+       "density_max": 0.3,
+       "gap": {
+        "f_hi": 2000.0,
+        "f_lo": 1000.0,
+        "unit": "Hz"
+       }
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [
+        "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+        "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+       ],
+       "normalized": {
+        "density_max": 0.3
+       },
+       "targets": {
+        "density_max": 0.3,
+        "gap": {
+         "f_hi": [
+          2000.0,
+          "Hz"
+         ],
+         "f_lo": [
+          1000.0,
+          "Hz"
+         ]
+        }
+       }
+      },
+      "seq": 2,
+      "tool": "set_target"
+     },
+     {
+      "args": {
+       "design": {
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.12,
+         "w": 0.181739
+        }
+       }
+      },
+      "error": "targets cannot be normalized: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+      "ok": false,
+      "seq": 3,
+      "tool": "certify"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "certify",
+    "error": {
+     "error": "targets cannot be normalized: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+     "tool": "certify"
+    },
+    "ok": false,
+    "profile": "C",
+    "result": {
+     "cannot_normalize_yet": [
+      "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+      "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+     ],
+     "normalized": {
+      "density_max": 0.3
+     },
+     "targets": {
+      "density_max": 0.3,
+      "gap": {
+       "f_hi": [
+        2000.0,
+        "Hz"
+       ],
+       "f_lo": [
+        1000.0,
+        "Hz"
+       ]
+      }
+     }
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\08-certify"
+   }
+  }
+ ],
+ "seconds": 12.8,
+ "root": "results/verification/v2/sessions/cli/S03_underspecified/08-certify",
+ "cli_sessions": [
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\01-check-bounds\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\02-check-bounds\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\03-check-bounds\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\04-check-bounds\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\05-check-bounds\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\06-check-bounds\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\07-check-bounds\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\08-certify\\session.jsonl"
+ ],
+ "finished": "2026-11-08 08:32:57"
+}

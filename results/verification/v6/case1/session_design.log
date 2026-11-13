@@ -1,0 +1,16 @@
+[1] set_material ok=True 0.2s
+[2] set_constraints ok=True 0.0s
+[3] set_target ok=True 0.0s
+[4] set_source ok=True 0.0s
+[5] set_source ok=True 0.0s
+[6] set_source ok=True 0.0s
+[7] set_source ok=True 0.0s
+[8] check_bounds ok=True 0.7s
+[9] atlas_suggest ok=True 0.7s
+[10] evaluate ok=True 5.8s
+[11] certify {'kind': 'cube_bars', 'params': {'c': 0.592174, 'w': 0.151304}}: certified robust=False 304.1s
+[12] submit ok=True 0.0s
+[13] screen_manufacturing ok=True 5.8s
+[14] export ok=True 6.0s
+[15] get_session ok=True 0.0s
+released {'kind': 'cube_bars', 'params': {'c': 0.592174, 'w': 0.151304}}; total 323.3 s

@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":null,"targets":{"density_max":0.34,"G_min":{"value":8.11,"unit":"GPa"}},"verdict":"UNDETERMINED","note":"I cannot certify C44 ≥ 8.11 GPa at this solid fraction without homogenization results for a specific design."}

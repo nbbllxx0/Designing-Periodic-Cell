@@ -1,0 +1,6 @@
+pilot start 2026-11-07 18:25:21
+{"verdict": "certified", "seconds": 1075.3, "timing": {"static": 765.5, "bloch": 309.8}, "wall": 1075.3}
+witness cert done 2026-11-07 18:43:18
+2026-11-07 19:02:45 M02 done in 1167 s (search 247, cert 920); spent 0.32 h, projected 0.32 h
+driver finished
+pilot end 2026-11-07 19:02:45

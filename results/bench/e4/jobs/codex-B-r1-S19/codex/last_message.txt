@@ -1,0 +1,1 @@
+Released a 316L Schwarz P TPMS sheet candidate with density parameter 0.148784. Predicted relative density is 14.88% and C44 is 5.65 GPa, meeting both targets with 6.1% minimum pessimistic margin. These results are uncertified; LPBF manufacturability was not evaluated.

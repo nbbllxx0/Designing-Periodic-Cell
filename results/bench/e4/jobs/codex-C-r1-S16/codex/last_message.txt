@@ -1,0 +1,1 @@
+Released a certified 316L sphere-and-ligament unit cell with parameters **c = 0.253043a** and **w = 0.291304a**. Its certified relative density is **≤17.58%** and homogenized E along [100] is **≥15.34 GPa**, meeting both targets. Manufacturability was not evaluated.

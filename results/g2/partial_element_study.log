@@ -1,0 +1,12 @@
+{"kind": "cube_bars", "params": {"c": 0.7, "w": 0.2}, "n": 32, "variant": "fcm_hex8", "E100": 0.07870889009557355, "G": 0.00915938036902096, "bulk": 0.029868033276416694, "residual": 3.278581602388966e-14, "min_eig": 0.009159380369019955, "s": 1.7}
+{"kind": "cube_bars", "params": {"c": 0.7, "w": 0.2}, "n": 32, "variant": "voigt_hex8i", "E100": 0.08125480096627685, "G": 0.010156255272178685, "bulk": 0.0309034162219622, "residual": 3.1110957159705254e-14, "min_eig": 0.010156255272177611, "s": 5.0}
+Traceback (most recent call last):
+  File "C:\AI\AgenticMetamaterials\scripts\g2\partial_element_study.py", line 45, in <module>
+    r = homog.homogenize(mesh=mesh_variant(cov, sub, 0.3, v))
+  File "C:\AI\AgenticMetamaterials\amm\homog.py", line 48, in homogenize
+    st = solver.factor(U)
+  File "C:\AI\AgenticMetamaterials\amm\pardiso.py", line 35, in factor
+    self.s._call_pardiso(A, b)
+  File "C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\pypardiso\pardiso_wrapper.py", line 295, in _call_pardiso
+    raise PyPardisoError(pardiso_error.value)
+pypardiso.pardiso_wrapper.PyPardisoError: The Pardiso solver failed with error code -4. See Pardiso documentation for details.

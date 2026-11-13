@@ -1,0 +1,4041 @@
+{
+ "summary": {
+  "n_cells": 50,
+  "n_claims": 263,
+  "corrected_vs_checker": [
+   {
+    "truth": "false",
+    "search": "borderline",
+    "checker": "undetermined",
+    "n": 4
+   },
+   {
+    "truth": "true",
+    "search": "borderline",
+    "checker": "certified",
+    "n": 75
+   },
+   {
+    "truth": "true",
+    "search": "borderline",
+    "checker": "undetermined",
+    "n": 9
+   },
+   {
+    "truth": "true",
+    "search": "pass",
+    "checker": "certified",
+    "n": 166
+   },
+   {
+    "truth": "true",
+    "search": "pass",
+    "checker": "undetermined",
+    "n": 4
+   },
+   {
+    "truth": "undetermined",
+    "search": "borderline",
+    "checker": "undetermined",
+    "n": 5
+   }
+  ],
+  "nominal_vs_checker": [
+   {
+    "truth": "false",
+    "search": "fail",
+    "checker": "undetermined",
+    "n": 4
+   },
+   {
+    "truth": "true",
+    "search": "fail",
+    "checker": "certified",
+    "n": 4
+   },
+   {
+    "truth": "true",
+    "search": "fail",
+    "checker": "undetermined",
+    "n": 2
+   },
+   {
+    "truth": "true",
+    "search": "pass",
+    "checker": "certified",
+    "n": 237
+   },
+   {
+    "truth": "true",
+    "search": "pass",
+    "checker": "undetermined",
+    "n": 11
+   },
+   {
+    "truth": "undetermined",
+    "search": "fail",
+    "checker": "undetermined",
+    "n": 3
+   },
+   {
+    "truth": "undetermined",
+    "search": "pass",
+    "checker": "undetermined",
+    "n": 2
+   }
+  ],
+  "false_claims_passed_nominal": 0,
+  "false_claims_passed_corrected": 0,
+  "true_claims_borderline_corrected": 84,
+  "borderline_certified": 75,
+  "caveat": "error model fitted on these 50 cells plus 23 others (safety factor 1.25): in-sample for the search tier",
+  "seconds": 77.7
+ },
+ "claims": [
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.2,
+    "w": 0.2
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.05013609548452118,
+   "slack_pess": 0.044970642089145405,
+   "slack_opt": 0.05524597284789669,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.2,
+    "w": 0.2
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.06295009472189456,
+   "slack_pess": -0.03619630319822544,
+   "slack_opt": 0.06295009472189456,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.2,
+    "w": 0.2
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": 0.15866153055760462,
+   "slack_pess": -0.22954166925489106,
+   "slack_opt": 0.15866153055760462,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.2,
+    "w": 0.2
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.816164440543826,
+   "slack_pess": 0.6765818512212424,
+   "slack_opt": 0.9557470298664096,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.2,
+    "w": 0.2
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.30240068601456643,
+   "slack_pess": 0.2487862024457835,
+   "slack_opt": 0.3560151695833494,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.5,
+    "mode": "sheet"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04760631671197847,
+   "slack_pess": 0.04648786474671024,
+   "slack_opt": 0.048722147904739825,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.5,
+    "mode": "sheet"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.07969886624463925,
+   "slack_pess": -0.08695925162756264,
+   "slack_opt": 0.07969886624463925,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.5,
+    "mode": "sheet"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.07475652391231224,
+   "slack_pess": -0.10619283723604533,
+   "slack_opt": 0.07475652391231224,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.5,
+    "mode": "sheet"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.12180407083380519,
+   "slack_pess": 0.06702523377491326,
+   "slack_opt": 0.17658290789269712,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.5,
+    "mode": "sheet"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11761394674009916,
+   "slack_pess": 0.07452613569423977,
+   "slack_opt": 0.16070175778595852,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.8,
+    "w": 0.1
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04746628829051632,
+   "slack_pess": 0.04228631622086558,
+   "slack_opt": 0.05259052811916759,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.8,
+    "w": 0.1
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.3013947124646651,
+   "slack_pess": 0.18000745387759076,
+   "slack_opt": 0.3013947124646651,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.8,
+    "w": 0.1
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": 1.6659242121846922,
+   "slack_pess": 0.7727209061858733,
+   "slack_opt": 1.6659242121846922,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.8,
+    "w": 0.1
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 50.71525671463248,
+   "slack_pess": 42.746154891013376,
+   "slack_opt": 58.68435853825159,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.8,
+    "w": 0.1
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.4111641938664557,
+   "slack_pess": 0.31677682052136474,
+   "slack_opt": 0.5055515672115466,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.8,
+    "w": 0.1
+   },
+   "key": "gap",
+   "truth": "undetermined",
+   "checker": "undetermined",
+   "slack_nominal": -0.06919279341890996,
+   "slack_pess": -0.6672394201370093,
+   "slack_opt": 0.11922505179299005,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.15
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.05122743914944941,
+   "slack_pess": 0.046067920588330175,
+   "slack_opt": 0.056331445532505915,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.15
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1186169387116734,
+   "slack_pess": 0.014278230171729082,
+   "slack_opt": 0.1186169387116734,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.15
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.4412165341246767,
+   "slack_pess": -0.04165517207637647,
+   "slack_opt": 0.4412165341246767,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.15
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 2.5858825107249612,
+   "slack_pess": 2.1475765651480963,
+   "slack_opt": 3.024188456301826,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.15
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.3827815299281641,
+   "slack_pess": 0.3073383093699846,
+   "slack_opt": 0.4582247504863437,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.15
+   },
+   "key": "gap",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": -0.09142942296723583,
+   "slack_pess": -0.48286044876741635,
+   "slack_opt": 0.2606278164542289,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.15
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.048833197983819195,
+   "slack_pess": 0.04366065930360755,
+   "slack_opt": 0.05395008440019063,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.15
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.09669346400025303,
+   "slack_pess": -0.005600338049421014,
+   "slack_opt": 0.09669346400025303,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.15
+   },
+   "key": "G_min",
+   "truth": "undetermined",
+   "checker": "undetermined",
+   "slack_nominal": 0.3096525616935365,
+   "slack_pess": -0.12913935612166044,
+   "slack_opt": 0.3096525616935365,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.15
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 2.1345581048345115,
+   "slack_pess": 1.7706009729198282,
+   "slack_opt": 2.498515236749195,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.15
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.3745563614260459,
+   "slack_pess": 0.30193538416019994,
+   "slack_opt": 0.44717733869189186,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.15
+   },
+   "key": "gap",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": -0.19647337067630163,
+   "slack_pess": -0.5895333866316137,
+   "slack_opt": 0.1552273420520222,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04834952542592878,
+   "slack_pess": 0.04723194625440266,
+   "slack_opt": 0.04946448587009074,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.07534179720951169,
+   "slack_pess": -0.09064378043176517,
+   "slack_opt": 0.07534179720951169,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.07410649346370689,
+   "slack_pess": -0.10673342653050549,
+   "slack_opt": 0.07410649346370689,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1154674185250944,
+   "slack_pess": 0.07017759062829776,
+   "slack_opt": 0.16075724642189104,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10228533382992853,
+   "slack_pess": 0.06583662895871752,
+   "slack_opt": 0.13873403870113957,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.043584881740921746,
+   "slack_pess": 0.03410968496105226,
+   "slack_opt": 0.052875984757111076,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.16180917054848015,
+   "slack_pess": -0.25810840277775055,
+   "slack_opt": 0.16180917054848015,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.14181365895077758,
+   "slack_pess": -0.20596356244455458,
+   "slack_opt": 0.14181365895077758,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10833878511907513,
+   "slack_pess": 0.04376712850917255,
+   "slack_opt": 0.1729104417289777,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1244574858979916,
+   "slack_pess": 0.07344850621864946,
+   "slack_opt": 0.17546646557733375,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.048076731445829315,
+   "slack_pess": 0.04695883191627428,
+   "slack_opt": 0.0491920114973527,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10545543590779495,
+   "slack_pess": -0.06517836588619894,
+   "slack_opt": 0.10545543590779495,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.06558302539776621,
+   "slack_pess": -0.11382185692327519,
+   "slack_opt": 0.06558302539776621,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.09879790393233462,
+   "slack_pess": 0.05736714564560474,
+   "slack_opt": 0.1402286622190645,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10729566610150422,
+   "slack_pess": 0.07363577528181588,
+   "slack_opt": 0.14095555692119255,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.0476803537869584,
+   "slack_pess": 0.046561988767785466,
+   "slack_opt": 0.04879609823735772,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.06213993385446168,
+   "slack_pess": -0.1018078555034847,
+   "slack_opt": 0.06213993385446168,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.0938813194045091,
+   "slack_pess": -0.09028795197412899,
+   "slack_opt": 0.0938813194045091,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.2074398613283768,
+   "slack_pess": 0.1084959887042485,
+   "slack_opt": 0.3063837339525051,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1407471118452349,
+   "slack_pess": 0.07033548221428478,
+   "slack_opt": 0.21115874147618502,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.25
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04599176822275139,
+   "slack_pess": 0.04080377756785457,
+   "slack_opt": 0.05112394036326356,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.25
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10160718136881172,
+   "slack_pess": -0.0011449464102725189,
+   "slack_opt": 0.10160718136881172,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.25
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.24621761771094064,
+   "slack_pess": -0.1713207695567123,
+   "slack_opt": 0.24621761771094064,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.25
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.6041901711503164,
+   "slack_pess": 0.5116076313107034,
+   "slack_opt": 0.6967727109899294,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.25
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.23572950350331517,
+   "slack_pess": 0.19162120202967714,
+   "slack_opt": 0.2798378049769532,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.2
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04888396141186279,
+   "slack_pess": 0.043711698788168905,
+   "slack_opt": 0.05400057474185771,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.2
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.09252614703680409,
+   "slack_pess": -0.00937894959013287,
+   "slack_opt": 0.09252614703680409,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.2
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.2725347322820145,
+   "slack_pess": -0.15382106008357604,
+   "slack_opt": 0.2725347322820145,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.2
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.9110415689862327,
+   "slack_pess": 0.7601483714985896,
+   "slack_opt": 1.0619347664738756,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.2
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.2986616828663458,
+   "slack_pess": 0.24328497996760204,
+   "slack_opt": 0.35403838576508956,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04171585177558076,
+   "slack_pess": 0.036504608266221844,
+   "slack_opt": 0.04687102658895716,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1160814206863152,
+   "slack_pess": 0.011979211940974647,
+   "slack_opt": 0.1160814206863152,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.3355283279880563,
+   "slack_pess": -0.11193312360228781,
+   "slack_opt": 0.3355283279880563,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.7358307318627825,
+   "slack_pess": 0.6197051162767154,
+   "slack_opt": 0.8519563474488495,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.2618756232382007,
+   "slack_pess": 0.2124957234258716,
+   "slack_opt": 0.3112555230505298,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.0476717232450602,
+   "slack_pess": 0.046553348090533894,
+   "slack_opt": 0.04878747780706358,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.06807760017590382,
+   "slack_pess": -0.09678670426288773,
+   "slack_opt": 0.06807760017590382,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.06588384944149385,
+   "slack_pess": -0.11357168055399235,
+   "slack_opt": 0.06588384944149385,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.12047720464167742,
+   "slack_pess": 0.07066736869429166,
+   "slack_opt": 0.1702870405890632,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10808938710065279,
+   "slack_pess": 0.06844027944883228,
+   "slack_opt": 0.14773849475247328,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.2
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04563242641263925,
+   "slack_pess": 0.04044248162161362,
+   "slack_opt": 0.05076653166438179,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.2
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.20272701343620417,
+   "slack_pess": 0.09054295921245226,
+   "slack_opt": 0.20272701343620417,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.2
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.6195636918070039,
+   "slack_pess": 0.0769377472336593,
+   "slack_opt": 0.6195636918070039,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.2
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.8460029927675617,
+   "slack_pess": 0.7267686733071368,
+   "slack_opt": 0.9652373122279866,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.2
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.22600901852630934,
+   "slack_pess": 0.17601652755739464,
+   "slack_opt": 0.276001509495224,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.2
+   },
+   "key": "gap",
+   "truth": "false",
+   "checker": "undetermined",
+   "slack_nominal": -0.10670188430942133,
+   "slack_pess": -0.672721954389932,
+   "slack_opt": 0.13170869917901484,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.2
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04518007553801639,
+   "slack_pess": 0.039987670818415734,
+   "slack_opt": 0.05031661425152497,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.2
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.18348071662832283,
+   "slack_pess": 0.07309185581137162,
+   "slack_opt": 0.18348071662832283,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.2
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.6082629229736315,
+   "slack_pess": 0.06942323910348397,
+   "slack_opt": 0.6082629229736315,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.2
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.8331998027907814,
+   "slack_pess": 0.7093263288249155,
+   "slack_opt": 0.9570732767566472,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.2
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.24709582973251917,
+   "slack_pess": 0.19622038506334652,
+   "slack_opt": 0.29797127440169185,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.6,
+    "w": 0.2
+   },
+   "key": "gap",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": -0.014080344094225462,
+   "slack_pess": -0.5745273719680526,
+   "slack_opt": 0.2330296335749707,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04853378750179154,
+   "slack_pess": 0.04741642472006768,
+   "slack_opt": 0.049648532063198754,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.08065467947607005,
+   "slack_pess": -0.08615097400922521,
+   "slack_opt": 0.08065467947607005,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.08084262125767362,
+   "slack_pess": -0.10113141422577991,
+   "slack_opt": 0.08084262125767362,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11644447954600694,
+   "slack_pess": 0.06453908934072856,
+   "slack_opt": 0.16834986975128532,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11577096975650321,
+   "slack_pess": 0.07466166814189275,
+   "slack_opt": 0.15688027137111366,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.048126549317336224,
+   "slack_pess": 0.03869634680112248,
+   "slack_opt": 0.057373532264204094,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1988086077488858,
+   "slack_pess": -0.23448182772844667,
+   "slack_opt": 0.1988086077488858,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.08949975681463387,
+   "slack_pess": -0.24234353054283284,
+   "slack_opt": 0.08949975681463387,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.08985692216573576,
+   "slack_pess": 0.04754698476152016,
+   "slack_opt": 0.13216685956995136,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.0996720280263408,
+   "slack_pess": 0.06471989865712706,
+   "slack_opt": 0.13462415739555453,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.25
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04332702608218222,
+   "slack_pess": 0.0381245442972694,
+   "slack_opt": 0.04847353344006454,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.25
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.08959821478518783,
+   "slack_pess": -0.012033779710667526,
+   "slack_opt": 0.08959821478518783,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.25
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.21685759780485167,
+   "slack_pess": -0.19084387559838975,
+   "slack_opt": 0.21685759780485167,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.25
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.5774037689670867,
+   "slack_pess": 0.48553237565911755,
+   "slack_opt": 0.6692751622750558,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.25,
+    "w": 0.25
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.245748273790415,
+   "slack_pess": 0.20181902856159795,
+   "slack_opt": 0.28967751901923205,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04835690403368117,
+   "slack_pess": 0.04723933352728842,
+   "slack_opt": 0.04947185583301395,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.06533559274828288,
+   "slack_pess": -0.0991054660880859,
+   "slack_opt": 0.06533559274828288,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.12428889273656521,
+   "slack_pess": -0.06499989254693231,
+   "slack_opt": 0.12428889273656521,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.37240592121957594,
+   "slack_pess": 0.1745944137230169,
+   "slack_opt": 0.570217428716135,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1950447837658988,
+   "slack_pess": 0.07902269268588619,
+   "slack_opt": 0.31106687484591133,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.15,
+    "mode": "network"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.047629371687772225,
+   "slack_pess": 0.046510946797319264,
+   "slack_opt": 0.04874517586916034,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.15,
+    "mode": "network"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.09471665843357943,
+   "slack_pess": -0.07425954743431513,
+   "slack_opt": 0.09471665843357943,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.15,
+    "mode": "network"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.2453350090152324,
+   "slack_pess": 0.0356665219827444,
+   "slack_opt": 0.2453350090152324,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.15,
+    "mode": "network"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.842855152805864,
+   "slack_pess": 0.37879935100697176,
+   "slack_opt": 1.3069109546047561,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.15,
+    "mode": "network"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.2664058866907348,
+   "slack_pess": 0.08167698711967832,
+   "slack_opt": 0.4511347862617913,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.0481349755188876,
+   "slack_pess": 0.04701714438877602,
+   "slack_opt": 0.049250187331242035,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.08821724247606338,
+   "slack_pess": -0.07975573882189557,
+   "slack_opt": 0.08821724247606338,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.0936879395307361,
+   "slack_pess": -0.09044877380909082,
+   "slack_opt": 0.0936879395307361,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11023354138125506,
+   "slack_pess": 0.06033681884801549,
+   "slack_opt": 0.16013026391449464,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.116428702141517,
+   "slack_pess": 0.0767187580222558,
+   "slack_opt": 0.1561386462607782,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04760184431530206,
+   "slack_pess": 0.04648338709783508,
+   "slack_opt": 0.04871768074795502,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1460173390380323,
+   "slack_pess": -0.03087744037142595,
+   "slack_opt": 0.1460173390380323,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.07384527086734223,
+   "slack_pess": -0.10695066887564299,
+   "slack_opt": 0.07384527086734223,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.0886579547809602,
+   "slack_pess": 0.0503137656049041,
+   "slack_opt": 0.12700214395701628,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10875838385632233,
+   "slack_pess": 0.07736749842632243,
+   "slack_opt": 0.14014926928632224,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04741994049830212,
+   "slack_pess": 0.046301269660475125,
+   "slack_opt": 0.048535990050756955,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.07506746305729765,
+   "slack_pess": -0.09087576943117277,
+   "slack_opt": 0.07506746305729765,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.12663035023094352,
+   "slack_pess": -0.06305265014065739,
+   "slack_opt": 0.12663035023094352,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.13198337814989236,
+   "slack_pess": 0.07327611295357457,
+   "slack_opt": 0.19069064334621014,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11787061992638531,
+   "slack_pess": 0.07212135853874359,
+   "slack_opt": 0.16361988131402702,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04779710850630611,
+   "slack_pess": 0.046678880599073005,
+   "slack_opt": 0.04891271616604824,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.062404073985991,
+   "slack_pess": -0.10158448701537509,
+   "slack_opt": 0.062404073985991,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.07884958021927577,
+   "slack_pess": -0.10278890065751414,
+   "slack_opt": 0.07884958021927577,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.30458550000943324,
+   "slack_pess": 0.14782922154277023,
+   "slack_opt": 0.46134177847609614,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.17456594674517809,
+   "slack_pess": 0.07538350886974295,
+   "slack_opt": 0.27374838462061335,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.15
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04476754880076082,
+   "slack_pess": 0.039572900720163354,
+   "slack_opt": 0.0499063067385461,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.15
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.23766995736118782,
+   "slack_pess": 0.122226608989865,
+   "slack_opt": 0.23766995736118782,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.15
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": 0.8866181200836639,
+   "slack_pess": 0.25451705197600794,
+   "slack_opt": 0.8866181200836639,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.15
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 1.8355037429173304,
+   "slack_pess": 1.5604556148302804,
+   "slack_opt": 2.1105518710043807,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.15
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.3011604073178554,
+   "slack_pess": 0.2333719156678395,
+   "slack_opt": 0.3689488989678713,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.15
+   },
+   "key": "gap",
+   "truth": "false",
+   "checker": "undetermined",
+   "slack_nominal": -0.18268760293906286,
+   "slack_pess": -0.6780221423437265,
+   "slack_opt": 0.1466289366725092,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04826399682451689,
+   "slack_pess": 0.038835155999636314,
+   "slack_opt": 0.05750964453637623,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": 0.5818749400724741,
+   "slack_pess": 0.010131229504911667,
+   "slack_opt": 0.5818749400724741,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1100101573042104,
+   "slack_pess": -0.22808025280928027,
+   "slack_opt": 0.1100101573042104,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.06842515448093203,
+   "slack_pess": 0.02796369689886145,
+   "slack_opt": 0.10888661206300262,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11401129112911018,
+   "slack_pess": 0.08045873537747306,
+   "slack_opt": 0.14756384688074733,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.0477188606433231,
+   "slack_pess": 0.046600540845018454,
+   "slack_opt": 0.04883455997881636,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.07395436479936107,
+   "slack_pess": -0.09181705417103116,
+   "slack_opt": 0.07395436479936107,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1549158570012243,
+   "slack_pess": -0.03952937952895188,
+   "slack_opt": 0.1549158570012243,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.13123258558886194,
+   "slack_pess": 0.07312221680828285,
+   "slack_opt": 0.18934295436944104,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "diamond",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11721084031657981,
+   "slack_pess": 0.07186277991041912,
+   "slack_opt": 0.1625589007227405,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.1
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04592456144432749,
+   "slack_pess": 0.040736205312355264,
+   "slack_opt": 0.051057095129682095,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.1
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.12534008327439045,
+   "slack_pess": 0.02037427514679896,
+   "slack_opt": 0.12534008327439045,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.1
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": 0.48945871954139525,
+   "slack_pess": -0.009576266660595833,
+   "slack_opt": 0.48945871954139525,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.1
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 4.110591374613089,
+   "slack_pess": 3.3765724186495096,
+   "slack_opt": 4.844610330576669,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.1
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.5407504641345139,
+   "slack_pess": 0.4323794747483967,
+   "slack_opt": 0.649121453520631,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.1
+   },
+   "key": "gap",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": -0.0165128100623449,
+   "slack_pess": -0.2350744753255359,
+   "slack_opt": 0.37337924454413907,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.3
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.046525315819574954,
+   "slack_pess": 0.04134022664901967,
+   "slack_opt": 0.05165461769333175,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.3
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.15489160774260077,
+   "slack_pess": 0.04716938873681278,
+   "slack_opt": 0.15489160774260077,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.3
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.35256029950686874,
+   "slack_pess": -0.10060762085657451,
+   "slack_opt": 0.35256029950686874,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.3
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.4268787056419316,
+   "slack_pess": 0.3728769678859378,
+   "slack_opt": 0.48088044339792535,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.3
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.15312824704783545,
+   "slack_pess": 0.12107748748778784,
+   "slack_opt": 0.18517900660788308,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.7,
+    "w": 0.3
+   },
+   "key": "gap",
+   "truth": "false",
+   "checker": "undetermined",
+   "slack_nominal": -0.30109001132216817,
+   "slack_pess": -0.672588868222959,
+   "slack_opt": 0.05532965487175881,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.048602602174896786,
+   "slack_pess": 0.04748532020629438,
+   "slack_opt": 0.04971726611254506,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.09248307223170073,
+   "slack_pess": -0.07614836595684531,
+   "slack_opt": 0.09248307223170073,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11319110253308574,
+   "slack_pess": -0.07422922417137652,
+   "slack_opt": 0.11319110253308574,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10520225419203362,
+   "slack_pess": 0.05709057217961603,
+   "slack_opt": 0.15331393620445122,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11662838621720177,
+   "slack_pess": 0.07817343915216483,
+   "slack_opt": 0.1550833332822387,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.1
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04657838305187465,
+   "slack_pess": 0.04139358246615137,
+   "slack_opt": 0.051707399445735,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.1
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.12715812300357496,
+   "slack_pess": 0.022022737685747244,
+   "slack_opt": 0.12715812300357496,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.1
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": 0.49027828543183394,
+   "slack_pess": -0.0090312918329781,
+   "slack_opt": 0.49027828543183394,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.1
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 5.124694546304664,
+   "slack_pess": 4.218102580477673,
+   "slack_opt": 6.031286512131655,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.1
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.5218016296460893,
+   "slack_pess": 0.4166954706887387,
+   "slack_opt": 0.62690778860344,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.35,
+    "w": 0.1
+   },
+   "key": "gap",
+   "truth": "false",
+   "checker": "undetermined",
+   "slack_nominal": -0.21030844257824682,
+   "slack_pess": -0.29195306830049245,
+   "slack_opt": 0.20954977185332208,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04483127859675487,
+   "slack_pess": 0.035368429860375514,
+   "slack_opt": 0.054110273479806736,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.23792137915209682,
+   "slack_pess": -0.2095057497427494,
+   "slack_opt": 0.23792137915209682,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.21242074495535426,
+   "slack_pess": -0.15686220637147757,
+   "slack_opt": 0.21242074495535426,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1182069399547783,
+   "slack_pess": 0.055339710795040825,
+   "slack_opt": 0.18107416911451577,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.1,
+    "R": 0.0
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11369353889234433,
+   "slack_pess": 0.06386409372858573,
+   "slack_opt": 0.16352298405610294,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.044198387241357634,
+   "slack_pess": 0.03472926845547957,
+   "slack_opt": 0.05348353035300689,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": 0.38166475500275715,
+   "slack_pess": -0.11771614659336155,
+   "slack_opt": 0.38166475500275715,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": 0.11224004592617601,
+   "slack_pess": -0.22652955072785838,
+   "slack_opt": 0.11224004592617601,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.08416532601991021,
+   "slack_pess": 0.044391477386152255,
+   "slack_opt": 0.12393917465366816,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.09968179118231482,
+   "slack_pess": 0.06665258493460174,
+   "slack_opt": 0.13271099743002787,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   },
+   "key": "gap",
+   "truth": "undetermined",
+   "checker": "undetermined",
+   "slack_nominal": -0.03636695770568892,
+   "slack_pess": -0.4973541774521755,
+   "slack_opt": 0.3004669608522224,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.048478207536400114,
+   "slack_pess": 0.039051488895295874,
+   "slack_opt": 0.05772177429642872,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.08000579250487184,
+   "slack_pess": -0.3103452419535829,
+   "slack_opt": 0.08000579250487184,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.22059726585298398,
+   "slack_pess": -0.15117611611125287,
+   "slack_opt": 0.22059726585298398,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.864890366016049,
+   "slack_pess": 0.2393944397042587,
+   "slack_opt": 1.4903862923278393,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.22
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.29923271979621024,
+   "slack_pess": 0.06419097844362975,
+   "slack_opt": 0.5342744611487907,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.5,
+    "w": 0.3
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.048178957556496135,
+   "slack_pess": 0.043002861052452476,
+   "slack_opt": 0.05329936351744002,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.5,
+    "w": 0.3
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.08215370981438666,
+   "slack_pess": -0.0187839003864596,
+   "slack_opt": 0.08215370981438666,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.5,
+    "w": 0.3
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1728611737740129,
+   "slack_pess": -0.22009953872655197,
+   "slack_opt": 0.1728611737740129,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.5,
+    "w": 0.3
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.3919464742980595,
+   "slack_pess": 0.3356229642224663,
+   "slack_opt": 0.4482699843736528,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.5,
+    "w": 0.3
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.18590196668782455,
+   "slack_pess": 0.15296042789417091,
+   "slack_opt": 0.2188435054814782,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04762843283355829,
+   "slack_pess": 0.04651000684055357,
+   "slack_opt": 0.04874423811491475,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.07663556224748834,
+   "slack_pess": -0.08954971593339181,
+   "slack_opt": 0.07663556224748834,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.07359874745418248,
+   "slack_pess": -0.10715568683791506,
+   "slack_opt": 0.07359874745418248,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11030243514950853,
+   "slack_pess": 0.06606679774138373,
+   "slack_opt": 0.15453807255763335,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10413789094315375,
+   "slack_pess": 0.06844578564881532,
+   "slack_opt": 0.13982999623749218,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.051627018787949466,
+   "slack_pess": 0.0422314953942452,
+   "slack_opt": 0.0608399963935847,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.055892214651675,
+   "slack_pess": -0.32574334797800486,
+   "slack_opt": 0.055892214651675,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": 0.12791384463371835,
+   "slack_pess": -0.21562972728369453,
+   "slack_opt": 0.12791384463371835,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.7660704689862748,
+   "slack_pess": 0.18542816398129966,
+   "slack_opt": 1.3467127739912506,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.3073246657549123,
+   "slack_pess": 0.07958935747640368,
+   "slack_opt": 0.5350599740334208,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04810266855210283,
+   "slack_pess": 0.04698479948201838,
+   "slack_opt": 0.04921791821552857,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10700348606267021,
+   "slack_pess": -0.0638692667326159,
+   "slack_opt": 0.10700348606267021,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.0935249890127505,
+   "slack_pess": -0.09058428946953215,
+   "slack_opt": 0.0935249890127505,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.13352971074462647,
+   "slack_pess": 0.06352286221319506,
+   "slack_opt": 0.2035365592760579,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.35,
+    "mode": "sheet"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.13963285934849973,
+   "slack_pess": 0.08649654406176267,
+   "slack_opt": 0.1927691746352368,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04864474225669615,
+   "slack_pess": 0.03921967347370832,
+   "slack_opt": 0.05788669121373051,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": 0.5550892869251748,
+   "slack_pess": -0.00697317240535176,
+   "slack_opt": 0.5550892869251748,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10397887891085797,
+   "slack_pess": -0.23227450532309538,
+   "slack_opt": 0.10397887891085797,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.06950958535703312,
+   "slack_pess": 0.02899641326937407,
+   "slack_opt": 0.11002275744469217,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "bcc",
+   "params": {
+    "r": 0.1,
+    "R": 0.15
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11320662941718533,
+   "slack_pess": 0.0796147729995326,
+   "slack_opt": 0.14679848583483807,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.047967997327914846,
+   "slack_pess": 0.0468499701054843,
+   "slack_opt": 0.04908340477310184,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.061905665918667994,
+   "slack_pess": -0.1020059627518146,
+   "slack_opt": 0.061905665918667994,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10538183841647789,
+   "slack_pess": -0.08072369621973503,
+   "slack_opt": 0.10538183841647789,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.27167264269370855,
+   "slack_pess": 0.13247144631045688,
+   "slack_opt": 0.41087383907696035,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.35,
+    "mode": "network"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1673526474654304,
+   "slack_pess": 0.07620850883503291,
+   "slack_opt": 0.2584967860958278,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.0478667287475728,
+   "slack_pess": 0.04674858259948714,
+   "slack_opt": 0.04898225483974664,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.08593346838590284,
+   "slack_pess": -0.08168699842546112,
+   "slack_opt": 0.08593346838590284,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11863240816956364,
+   "slack_pess": -0.06970403372641135,
+   "slack_opt": 0.11863240816956364,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.7521465649113437,
+   "slack_pess": 0.33096961295608635,
+   "slack_opt": 1.1733235168666012,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.2644529153434518,
+   "slack_pess": 0.08764380283014106,
+   "slack_opt": 0.4412620278567625,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.25,
+    "mode": "network"
+   },
+   "key": "gap",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": -0.07041799822839989,
+   "slack_pess": -0.6677568436760551,
+   "slack_opt": 0.11910467770916183,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04781973944942308,
+   "slack_pess": 0.04670153811903858,
+   "slack_opt": 0.048935320594591825,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.06432068300262665,
+   "slack_pess": -0.09996371831254877,
+   "slack_opt": 0.06432068300262665,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.061814115192229346,
+   "slack_pess": -0.11695622164921367,
+   "slack_opt": 0.061814115192229346,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.13125267844707844,
+   "slack_pess": 0.0749813584046484,
+   "slack_opt": 0.18752399848950846,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "gyroid",
+   "params": {
+    "density": 0.5,
+    "mode": "network"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11333746944125733,
+   "slack_pess": 0.06923267130261937,
+   "slack_opt": 0.1574422675798953,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04789400175122672,
+   "slack_pess": 0.046775887631434664,
+   "slack_opt": 0.04900949589015605,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1440793546091234,
+   "slack_pess": -0.032516285061019314,
+   "slack_opt": 0.1440793546091234,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10283097312404908,
+   "slack_pess": -0.0828450898739176,
+   "slack_opt": 0.10283097312404908,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.12234776893000267,
+   "slack_pess": 0.05431257947987857,
+   "slack_opt": 0.19038295838012675,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.25,
+    "mode": "sheet"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1442376748172027,
+   "slack_pess": 0.09236253100719041,
+   "slack_opt": 0.19611281862721497,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.0
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04002067851091276,
+   "slack_pess": 0.03051017119869911,
+   "slack_opt": 0.04934640601049684,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.0
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.21008401212737665,
+   "slack_pess": -0.22728174016179722,
+   "slack_opt": 0.21008401212737665,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.0
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1875281766519079,
+   "slack_pess": -0.17417291736387966,
+   "slack_opt": 0.1875281766519079,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.0
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11511700399832571,
+   "slack_pess": 0.057168987192097384,
+   "slack_opt": 0.17306502080455405,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.0
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10748614960359458,
+   "slack_pess": 0.061105897650553694,
+   "slack_opt": 0.15386640155663547,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.048420092377471365,
+   "slack_pess": 0.04324530718831586,
+   "slack_opt": 0.053539201132197276,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.14461797030577747,
+   "slack_pess": 0.037854022201376375,
+   "slack_opt": 0.14461797030577747,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.3509025619379061,
+   "slack_pess": -0.10170994253250161,
+   "slack_opt": 0.3509025619379061,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.9132474100689659,
+   "slack_pess": 0.7799793487001949,
+   "slack_opt": 1.046515471437737,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.24546772082693522,
+   "slack_pess": 0.19291045428819206,
+   "slack_opt": 0.29802498736567834,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.4,
+    "w": 0.2
+   },
+   "key": "gap",
+   "truth": "undetermined",
+   "checker": "undetermined",
+   "slack_nominal": -0.12214416890584917,
+   "slack_pess": -0.6713142620242382,
+   "slack_opt": 0.14256885158089783,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.15
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.040338787510719835,
+   "slack_pess": 0.030831431701774048,
+   "slack_opt": 0.04966142473764817,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.15
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.15701714679397658,
+   "slack_pess": -0.2611684252386486,
+   "slack_opt": 0.15701714679397658,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.15
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1279230613708081,
+   "slack_pess": -0.21562331780958538,
+   "slack_opt": 0.1279230613708081,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.15
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10048168534551787,
+   "slack_pess": 0.04216834105571264,
+   "slack_opt": 0.15879502963532308,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "octet",
+   "params": {
+    "r": 0.06,
+    "R": 0.15
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.11984011065874116,
+   "slack_pess": 0.07320138205407639,
+   "slack_opt": 0.16647883926340593,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.048062510710358025,
+   "slack_pess": 0.046944594480556094,
+   "slack_opt": 0.04917780742299591,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.22294454442729927,
+   "slack_pess": 0.034175580776140954,
+   "slack_opt": 0.22294454442729927,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.10748997299691548,
+   "slack_pess": -0.07897049375374175,
+   "slack_opt": 0.10748997299691548,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.09345146438398165,
+   "slack_pess": 0.02828499258352617,
+   "slack_opt": 0.15861793618443712,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "iwp",
+   "params": {
+    "density": 0.15,
+    "mode": "sheet"
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.16070495754057804,
+   "slack_pess": 0.11068545644867825,
+   "slack_opt": 0.21072445863247785,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.04019810054500517,
+   "slack_pess": 0.030689350951436836,
+   "slack_opt": 0.04952210447669005,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1432185698354644,
+   "slack_pess": -0.2699797245110686,
+   "slack_opt": 0.1432185698354644,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": 0.5981092509468684,
+   "slack_pess": 0.11135207264231559,
+   "slack_opt": 0.5981092509468684,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 51.723841121766554,
+   "slack_pess": 13.404783335180321,
+   "slack_opt": 90.04289890835278,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sc",
+   "params": {
+    "r": 0.06,
+    "R": 0.22
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.45321752784959124,
+   "slack_pess": 0.055822560008864874,
+   "slack_opt": 0.8506124956903178,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.2
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.0483418265310481,
+   "slack_pess": 0.043166615724517014,
+   "slack_opt": 0.053461356323856485,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.2
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.07524693340206284,
+   "slack_pess": -0.025046448997382422,
+   "slack_opt": 0.07524693340206284,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.2
+   },
+   "key": "G_min",
+   "truth": "undetermined",
+   "checker": "undetermined",
+   "slack_nominal": 0.18519312244642597,
+   "slack_pess": -0.2118993419146243,
+   "slack_opt": 0.18519312244642597,
+   "search_nominal": "pass",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.2
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.906733026728551,
+   "slack_pess": 0.7563229674899966,
+   "slack_opt": 1.0571430859671054,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.2
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.2989086340395848,
+   "slack_pess": 0.2436039886552903,
+   "slack_opt": 0.3542132794238793,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.3,
+    "w": 0.2
+   },
+   "key": "gap",
+   "truth": "true",
+   "checker": "undetermined",
+   "slack_nominal": -0.14942433083457762,
+   "slack_pess": -0.5981073862683612,
+   "slack_opt": 0.19010252174779685,
+   "search_nominal": "fail",
+   "search_corrected": "borderline"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.15
+   },
+   "key": "density_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.037053676761892695,
+   "slack_pess": 0.03181707988597276,
+   "slack_opt": 0.04223393216044901,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.15
+   },
+   "key": "E100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.1573451992566361,
+   "slack_pess": 0.04939412213061097,
+   "slack_opt": 0.1573451992566361,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.15
+   },
+   "key": "G_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.6044548791630934,
+   "slack_pess": 0.06689105951497255,
+   "slack_opt": 0.6044548791630934,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.15
+   },
+   "key": "nu100_min",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 1.4805169099317381,
+   "slack_pess": 1.228675967260797,
+   "slack_opt": 1.7323578526026795,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  },
+  {
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.4,
+    "w": 0.15
+   },
+   "key": "nu100_max",
+   "truth": "true",
+   "checker": "certified",
+   "slack_nominal": 0.3486645344936269,
+   "slack_pess": 0.28253600419763497,
+   "slack_opt": 0.41479306478961886,
+   "search_nominal": "pass",
+   "search_corrected": "pass"
+  }
+ ]
+}

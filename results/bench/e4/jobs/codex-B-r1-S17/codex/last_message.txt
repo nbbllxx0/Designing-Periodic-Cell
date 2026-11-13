@@ -1,0 +1,1 @@
+Released a Ti-6Al-4V Schwarz P TPMS sheet with nominal solid fraction 10%. Tool estimates meet all limits: solid fraction **9.99%**, **C44 = 2.13 GPa**, and **bulk modulus = 3.79 GPa**. These are search-tier estimates, not certified results.

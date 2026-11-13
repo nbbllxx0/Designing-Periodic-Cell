@@ -1,0 +1,1 @@
+Released the certified sphere-and-ligament design with normalized parameters **c = 0.267826, w = 0.254783**. Using the amm PA12 model, its certified bounds meet every requirement: relative density **≤15.65%**, Young’s modulus in x, y and z **≥112.21 MPa**, and **C44 ≥5.94 MPa**.

@@ -1,0 +1,25 @@
+{"id": "R01", "mat": "Ti6Al4V", "q": "E100", "cap": 0.16, "t": 0.07144112478031635, "nominal_slack": 0.006239775265431383, "expected_slack": -0.10191495809712545, "n_proof": 4, "result": "near-miss brief"}
+{"id": "R02", "mat": "316L", "q": "G", "cap": 0.16, "t": 0.03145077720207254, "nominal_slack": 0.00756141001707733, "expected_slack": -0.02767011717838122, "n_proof": 4, "result": "near-miss brief"}
+{"id": "R03", "mat": "316L", "q": "E100", "cap": 0.32, "t": 0.16269430051813472, "nominal_slack": 0.006439210008219593, "expected_slack": -0.034587575681343456, "n_proof": 4, "result": "near-miss brief"}
+{"mat": "Ti6Al4V", "q": "G", "cap": 0.28, "result": "raised u_max", "by": [{"family": "tpms", "kind": "schwarz_p", "params": {"density": 0.28332, "mode": "sheet"}}, {"family": "tpms", "kind": "schwarz_p", "params": {"density": 0.285438, "mode": "sheet"}}], "u_max": 0.06004573233763007}
+{"mat": "Ti6Al4V", "q": "G", "cap": 0.28, "result": "no window", "u_max": 0.06004573233763007, "e_max": 0.059254804970096}
+{"id": "R04", "mat": "PA12", "q": "bulk", "cap": 0.24, "t": 0.09352941176470589, "nominal_slack": 0.002073712151607617, "expected_slack": -0.03296592601885888, "n_proof": 4, "result": "near-miss brief"}
+{"mat": "Ti6Al4V", "q": "bulk", "cap": 0.16, "result": "no window", "u_max": 0.05517767326900167, "e_max": 0.055515759844860735}
+{"mat": "Ti6Al4V", "q": "bulk", "cap": 0.28, "result": "no window", "u_max": 0.1022302994853953, "e_max": 0.10285793347442618}
+{"id": "R05", "mat": "PA12", "q": "E100", "cap": 0.2, "t": 0.09352941176470589, "nominal_slack": 0.004656174259516364, "expected_slack": -0.036297927233314826, "n_proof": 5, "result": "near-miss brief"}
+{"mat": "316L", "q": "bulk", "cap": 0.32, "result": "no window", "u_max": 0.11206739344320292, "e_max": 0.11265844849619781}
+{"mat": "316L", "q": "bulk", "cap": 0.16, "result": "no window", "u_max": 0.05176394863436069, "e_max": 0.052012664654620976}
+{"mat": "Ti6Al4V", "q": "bulk", "cap": 0.2, "result": "no window", "u_max": 0.06996843595910783, "e_max": 0.07056080116558722}
+{"mat": "316L", "q": "bulk", "cap": 0.24, "result": "no window", "u_max": 0.07989529654077393, "e_max": 0.08052796388742227}
+{"mat": "PA12", "q": "G", "cap": 0.28, "result": "raised u_max", "by": [{"family": "tpms", "kind": "schwarz_p", "params": {"density": 0.282577, "mode": "sheet"}}, {"family": "tpms", "kind": "schwarz_p", "params": {"density": 0.285438, "mode": "sheet"}}], "u_max": 0.05862562013121657}
+{"mat": "PA12", "q": "G", "cap": 0.28, "result": "no window", "u_max": 0.05862562013121657, "e_max": 0.05788322433726741}
+{"mat": "Ti6Al4V", "q": "G", "cap": 0.24, "result": "raised u_max", "by": [{"family": "tpms", "kind": "schwarz_p", "params": {"density": 0.241439, "mode": "sheet"}}, {"family": "tpms", "kind": "schwarz_p", "params": {"density": 0.242682, "mode": "sheet"}}], "u_max": 0.0493868047371319}
+{"mat": "Ti6Al4V", "q": "G", "cap": 0.24, "result": "no window", "u_max": 0.0493868047371319, "e_max": 0.04927268775950366}
+{"mat": "PA12", "q": "G", "cap": 0.32, "result": "rounding leaves the window", "t": 0.06823529411764706, "u_max": 0.06754040989678016, "e_max": 0.06823495473266224}
+{"mat": "316L", "q": "G", "cap": 0.24, "result": "raised u_max", "by": [{"family": "tpms", "kind": "schwarz_p", "params": {"density": 0.243647, "mode": "sheet"}}, {"family": "tpms", "kind": "schwarz_p", "params": {"density": 0.244741, "mode": "sheet"}}], "u_max": 0.05094937804060283}
+{"mat": "316L", "q": "G", "cap": 0.24, "result": "no window", "u_max": 0.05094937804060283, "e_max": 0.050318328010522696}
+{"mat": "PA12", "q": "bulk", "cap": 0.28, "result": "no window", "u_max": 0.11141460603817395, "e_max": 0.1123573691655932}
+{"id": "R06", "mat": "PA12", "q": "E100", "cap": 0.16, "t": 0.07176470588235294, "nominal_slack": 0.006478849334094795, "expected_slack": -0.10170158067928604, "n_proof": 5, "result": "near-miss brief"}
+{"mat": "PA12", "q": "bulk", "cap": 0.16, "result": "no window", "u_max": 0.05968467362581037, "e_max": 0.060191032353210126}
+{"id": "R07", "mat": "316L", "q": "E100", "cap": 0.24, "t": 0.11554404145077721, "nominal_slack": 0.009209256914308956, "expected_slack": -0.03193044778679101, "n_proof": 4, "result": "near-miss brief"}
+{"id": "R08", "mat": "Ti6Al4V", "q": "E100", "cap": 0.2, "t": 0.09314586994727592, "nominal_slack": 0.00342359836935414, "expected_slack": -0.03748025803526007, "n_proof": 4, "result": "near-miss brief"}

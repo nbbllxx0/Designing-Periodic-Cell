@@ -1,0 +1,1 @@
+Released a certified Schwarz P TPMS sheet in the isotropic 316L model, with 28% nominal solid volume. Its certified solid fraction is at most 28.005%, and its certified C44 is at least 11.46 GPa, meeting both requirements. LPBF manufacturability was not evaluated.

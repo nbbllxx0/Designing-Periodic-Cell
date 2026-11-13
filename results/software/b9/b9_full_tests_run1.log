@@ -1,0 +1,44 @@
+................................F....................................... [ 43%]
+........................................................................ [ 87%]
+.....................                                                    [100%]
+================================== FAILURES ===================================
+______________________ test_evaluate_bands_are_additive _______________________
+
+    def test_evaluate_bands_are_additive():
+        s = _spec_session()
+        a = s.call("evaluate", {"designs": [SC]})["result"]["results"][0]
+        b = s.call("evaluate", {"designs": [SC], "bands": True})["result"]["results"][0]
+        assert "bands" not in a and {k: v for k, v in b.items() if k != "bands"} == a
+        bd = b["bands"]
+        f = np.asarray(bd["f_star"])
+        assert f.shape == (len(bd["k_over_pi"]), bd["n_bands"]) and bd["k_ticks"][0] == [0, "G"]
+>       g = a["gaps"][0]  # the reported gaps are read from these bands
+E       IndexError: list index out of range
+
+tests\test_b9.py:257: IndexError
+============================== warnings summary ===============================
+tests\test_harness.py:85
+  C:\AI\AgenticMetamaterials\tests\test_harness.py:85: DeprecationWarning: invalid escape sequence '\e'
+    stdout = f"{os.getpid()}, C:\envs\amm\python.exe\n123, C:\Windows\explorer.exe\n"
+
+tests\test_harness.py:88
+  C:\AI\AgenticMetamaterials\tests\test_harness.py:88: DeprecationWarning: invalid escape sequence '\o'
+    R.stdout += "999999, C:\other\python.exe\n"
+
+tests\test_harness.py:89
+  C:\AI\AgenticMetamaterials\tests\test_harness.py:89: DeprecationWarning: invalid escape sequence '\o'
+    assert e4.gpu_busy() == ["999999, C:\other\python.exe"]
+
+tests/test_b9.py: 12 warnings
+tests/test_search.py: 20 warnings
+  C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\botorch\optim\utils\numpy_utils.py:166: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+    out[index : index + size, 0] = lower
+
+tests/test_b9.py: 12 warnings
+tests/test_search.py: 20 warnings
+  C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\botorch\optim\utils\numpy_utils.py:167: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+    out[index : index + size, 1] = upper
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+1 failed, 164 passed, 67 warnings in 320.40s (0:05:20)
+exit 1

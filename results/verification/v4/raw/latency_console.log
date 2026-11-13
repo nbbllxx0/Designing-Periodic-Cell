@@ -1,0 +1,183 @@
+﻿set_material           #1     0.19 s ok=True first atlas load (nu 0.39) 
+set_constraints        #1     0.00 s ok=True  
+set_target             #1     0.00 s ok=True M05 
+check_bounds           #1     0.69 s ok=True M05 
+check_bounds           #2     0.68 s ok=True M05 
+check_bounds           #3     0.68 s ok=True M05 
+check_bounds           #4     0.68 s ok=True M05 
+check_bounds           #5     0.69 s ok=True M05 
+check_bounds           #6     0.69 s ok=True M05 
+atlas_suggest          #1     0.70 s ok=True M05 
+atlas_suggest          #2     0.69 s ok=True M05 
+atlas_suggest          #3     0.70 s ok=True M05 
+atlas_suggest          #4     0.68 s ok=True M05 
+atlas_suggest          #5     0.68 s ok=True M05 
+atlas_suggest          #6     0.69 s ok=True M05 
+evaluate               #1     2.59 s ok=True 1 design gyroid 
+evaluate               #2     1.16 s ok=True 1 design schwarz_p 
+evaluate               #3     0.64 s ok=True 1 design bcc 
+evaluate               #4     1.25 s ok=True 1 design octet 
+evaluate               #5     0.59 s ok=True 1 design cube_bars 
+evaluate               #6     0.61 s ok=True 1 design sphere_ligaments 
+evaluate               #7    11.05 s ok=True 16 designs 
+evaluate               #8    10.93 s ok=True 16 designs 
+evaluate               #9    10.91 s ok=True 16 designs 
+screen_manufacturing   #1     6.24 s ok=True gyroid 
+screen_manufacturing   #2     7.16 s ok=True schwarz_p 
+screen_manufacturing   #3     6.01 s ok=True bcc 
+screen_manufacturing   #4     7.62 s ok=True octet 
+screen_manufacturing   #5     5.75 s ok=True cube_bars 
+screen_manufacturing   #6     5.96 s ok=True sphere_ligaments 
+export                 #1     6.35 s ok=True gyroid 
+export                 #2     7.41 s ok=True schwarz_p 
+export                 #3     6.16 s ok=True bcc 
+export                 #4     7.65 s ok=True octet 
+export                 #5     5.95 s ok=True cube_bars 
+export                 #6     6.13 s ok=True sphere_ligaments 
+set_material           #2     0.22 s ok=True M13 
+set_target             #2     0.00 s ok=True M13 
+python.exe : C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: 
+NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+At line:1 char:441
++ ... start $t0"; & C:/Users/nbbll/anaconda3/envs/amm/python.exe scripts/op ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\nbbll\...to the diagonal:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+search                 #1    30.01 s ok=True M13 (combined, nu 0.342) 
+set_material           #3     0.00 s ok=True S14 
+set_target             #3     0.00 s ok=True S14 
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+search                 #2    52.29 s ok=True S14 (static, nu 0.342) 
+set_material           #4     0.00 s ok=True G06 
+set_target             #4     0.00 s ok=True G06 
+search                 #3    27.43 s ok=True G06 (gap, nu 0.39) 
+set_material           #5     0.00 s ok=True S11 
+set_target             #5     0.00 s ok=True S11 
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+search                 #4    36.38 s ok=True S11 (static, nu 0.342) 
+set_material           #6     0.27 s ok=True G07 
+set_target             #6     0.00 s ok=True G07 
+search                 #5    26.72 s ok=True G07 (gap, nu 0.3) 
+set_material           #7     0.00 s ok=True S20 
+set_target             #7     0.00 s ok=True S20 
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not 
+p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+search                 #6    41.67 s ok=True S20 (static, nu 0.342) 
+set_material           #8     0.00 s ok=True S20 
+set_target             #8     0.00 s ok=True S20 
+certify                #1   101.01 s ok=True S20 repeat of V3 40162d320e841dc8 
+set_material           #9     0.00 s ok=True G15 
+set_target             #9     0.00 s ok=True G15 
+certify                #2   259.85 s ok=True G15 repeat of V3 00f03a71387fee8a 
+set_material           #10     0.00 s ok=True M05 
+set_target             #10     0.00 s ok=True M05 
+certify                #3   343.77 s ok=True M05 repeat of V3 8dc9a1fe3ba79ec2 

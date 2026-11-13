@@ -1,0 +1,1 @@
+Released a PA12 sphere-and-ligament cell with normalized parameters **c = 0.260413, w = 0.266768**. Predicted relative density is **16.01%**, axial modulus in x/y/z is **122.86 MPa**, and **C44 = 7.56 MPa**, meeting all requested limits. These predictions are uncertified; SLS manufacturability remains unverified.

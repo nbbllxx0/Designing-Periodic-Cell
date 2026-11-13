@@ -1,0 +1,1 @@
+Released a certified Ti-6Al-4V sphere-and-ligament unit cell with cell size **1 cm** and normalized parameters **c = 0.356522, w = 0.108696**. Its certified complete infinite-lattice band gap spans approximately **64.0–258.3 kHz**, fully covering the requested **124–219 kHz** interval.

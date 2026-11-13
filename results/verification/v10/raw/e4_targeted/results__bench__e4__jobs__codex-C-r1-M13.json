@@ -1,0 +1,121 @@
+{
+ "set": "e4_targeted",
+ "log": "results/bench/e4/jobs/codex-C-r1-M13/session/session.jsonl",
+ "log_sha256": "27b4029acf4bd1b5b6142140a26558d2de0117c47e61a4e92a2f01b3fcc5744a",
+ "started": "2026-11-08 13:19:27",
+ "seconds": 1790.8,
+ "header": {
+  "code": "90f3823f15cbeff4",
+  "id": "3aa96e43e747",
+  "profile": "C",
+  "schema": "amm-tools/1",
+  "t": "2026-11-07T12:37:41.633+00:00",
+  "type": "session"
+ },
+ "n_calls": 18,
+ "tools": [
+  "atlas_suggest",
+  "certify",
+  "check_bounds",
+  "get_session",
+  "list_families",
+  "search",
+  "set_constraints",
+  "set_material",
+  "set_source",
+  "set_target",
+  "submit"
+ ],
+ "n_certify": 1,
+ "n_search": 2,
+ "n_export": 0,
+ "logged_tool_seconds": 2609.6,
+ "env": {
+  "python": "3.10.18",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "torch": "2.5.1+cu124",
+  "cuda": true,
+  "device": "NVIDIA GeForce RTX 4090",
+  "code": "f1a6d625064a6d18",
+  "checker": "c5f8c89871b3bad6",
+  "mkl_cbwr": 65538
+ },
+ "replay": {
+  "exact": false,
+  "n_calls": 18,
+  "n_compared": 18,
+  "mismatches": [
+   {
+    "seq": 18,
+    "tool": "submit",
+    "field": "ok",
+    "log": true,
+    "replay": false,
+    "error": "refusal needs evidence: refuse with verdict UNDETERMINED must cite an evidence record held in this session for the current spec: a certificate with verdict undetermined for the current targets (call certify). Records held for the current spec: seq 15 search_not_found (supports not_found_in_families); seq 16 certificate_refuted (supports refuted_candidate).",
+    "reason": "refusal-evidence rule (schema 2, B1): the session holds no matching evidence record"
+   }
+  ],
+  "same_code": false,
+  "schema": "amm-tools/1",
+  "decision_changes": [
+   {
+    "seq": 18,
+    "logged": {
+     "decision": "refuse",
+     "verdict": "UNDETERMINED"
+    },
+    "now": "rejected",
+    "error": "refusal needs evidence: refuse with verdict UNDETERMINED must cite an evidence record held in this session for the current spec: a certificate with verdict undetermined for the current targets (call certify). Records held for the current spec: seq 15 search_not_found (supports not_found_in_families); seq 16 certificate_refuted (supports refuted_candidate)."
+   }
+  ],
+  "identity": {
+   "code_log": "90f3823f15cbeff4",
+   "code_now": "f1a6d625064a6d18",
+   "checker_log": "f2e482d81382b400",
+   "checker_now": "c5f8c89871b3bad6",
+   "checker_aliased": true,
+   "checker_log_source": "results",
+   "code_aliased": true
+  },
+  "root": null
+ },
+ "tolerance": {
+  "aligned": true,
+  "within_tolerance": false,
+  "max_rel_numeric": 0.0,
+  "max_rel_by_tier": {
+   "T64": 0.0,
+   "T32": 0.0
+  },
+  "n_numeric_differences": 0,
+  "calls_with_numeric_differences": [],
+  "over_tolerance": [],
+  "non_numeric_differences": [
+   [
+    18,
+    "submit",
+    [
+     {
+      "path": "ok",
+      "log": true,
+      "replay": false,
+      "error": "refusal needs evidence: refuse with verdict UNDETERMINED must cite an evidence record held in this session for the current spec: a certificate with verdict undetermined for the current targets (call certify). Records held for the current spec: seq 15 search_not_found (supports not_found_in_families)"
+     }
+    ]
+   ]
+  ],
+  "environment_fields": [],
+  "derived_differences": [
+   [
+    18,
+    "submit",
+    [
+     "state_hash"
+    ]
+   ]
+  ],
+  "unexplained_derived": []
+ },
+ "error": null
+}

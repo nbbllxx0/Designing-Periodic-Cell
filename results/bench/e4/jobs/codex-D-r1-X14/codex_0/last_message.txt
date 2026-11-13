@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":null,"targets":{"density_max":0.14,"E100_min":{"value":36.5,"unit":"GPa"}},"verdict":"PROVEN_INFEASIBLE","note":"The Voigt bound gives E100 ≤ solid fraction × solid Young’s modulus, so 14% 316L provides at most about 28 GPa, below the required 36.5 GPa."}

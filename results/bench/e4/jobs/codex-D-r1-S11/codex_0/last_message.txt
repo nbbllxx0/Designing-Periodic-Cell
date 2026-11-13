@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":null,"targets":{"density_max":0.48,"E100_min":{"value":16.8,"unit":"GPa"}},"verdict":"UNDETERMINED","note":"These targets are not ruled out by general elastic bounds, but I cannot verify a qualifying design in the listed families without homogenization results."}

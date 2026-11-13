@@ -1,0 +1,67 @@
+# CPU-only CI (plan B6, 2026-11-08). Not yet run on GitHub: the project has no remote; written and checked locally
+# (YAML parse, every command run on Windows; see results/software/NOTES_B6.md).
+#
+# What runs: the test suite without the GPU tests (pytest -m "not gpu"). tests/conftest.py skips, with the reason
+# shown in the report, every test whose requirement is absent from the checkout: the runtime data files
+# (results/atlas, about 47 MB; marker "data") and source-checkout files such as results/bench (marker "repo").
+# With those files committed, the same command runs them too. Static certificate tests (marker "slow") run as well;
+# on a 4-core runner the job takes roughly 15-30 min.
+name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-cpu:
+    name: tests (CPU, ${{ matrix.os }}, Python ${{ matrix.python }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 75
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+        python: ["3.11"]
+    env:
+      # PARDISO threads: GitHub runners have 4 vCPUs (the package default of 16 is tuned for a 24-core desktop)
+      MKL_NUM_THREADS: "4"
+      PYTHONUTF8: "1"
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Install CPU-only PyTorch
+        # PyPI's Linux torch wheel pulls the CUDA libraries (several GB); the CPU index avoids them.
+        # On Windows the PyPI wheel is already CPU-only; the same index is used for both for symmetry.
+        run: python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Install amm with the test extra
+        run: python -m pip install ".[test]"
+
+      - name: Environment
+        run: |
+          python -m pip freeze
+          python -c "import amm, torch; print('amm', amm.__version__, amm.__file__); print('torch', torch.__version__, 'cuda', torch.cuda.is_available()); print('MKL CBWR', amm.MKL_CBWR_STATUS)"
+
+      - name: Tool reference is current
+        run: python docs/gen_tool_reference.py --check
+
+      - name: Tests (CPU subset)
+        # from the checkout root, `import amm` resolves to the checkout's amm/ (same code as the installed wheel), so
+        # results/atlas is found when it is committed; -rs lists every skip and its reason
+        run: python -m pytest -q -m "not gpu" -rs --durations=20 -p no:cacheprovider
+
+      - name: Tutorial (a) on the installed package
+        run: python examples/01_evaluate_tensor.py

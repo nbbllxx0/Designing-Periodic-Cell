@@ -1,0 +1,6178 @@
+{
+ "mount": [
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.12851642147303705,
+     "f_hi": 0.19277463220955554
+    }
+   },
+   "verdict": "NOT_FOUND_IN_FAMILIES",
+   "n_clear": 0,
+   "n_possible": 0,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.112174
+     },
+     "slack_pess": -0.49767074190584315,
+     "slack_nominal": -0.49767074190584315
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.112174
+     },
+     "slack_pess": -0.5371925395234777,
+     "slack_nominal": -0.5371925395234777
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.09913
+     },
+     "slack_pess": -0.5582635825183352,
+     "slack_nominal": -0.4450316036326555
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.738261,
+      "w": 0.112174
+     },
+     "slack_pess": -0.5727553100053719,
+     "slack_nominal": -0.5727553100053719
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.09913
+     },
+     "slack_pess": -0.5831057793863798,
+     "slack_nominal": -0.4762416954713543
+    }
+   ],
+   "f_lo_Hz": 5000.0,
+   "f_hi_Hz": 7500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.14136806362034074,
+     "f_hi": 0.21205209543051112
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 0,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.112174
+     },
+     "slack_pess": -0.3797006744598574,
+     "slack_nominal": -0.3797006744598574
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.112174
+     },
+     "slack_pess": -0.41562958138497974,
+     "slack_nominal": -0.41562958138497974
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.738261,
+      "w": 0.112174
+     },
+     "slack_pess": -0.4479593727321563,
+     "slack_nominal": -0.4479593727321563
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.713913,
+      "w": 0.112174
+     },
+     "slack_pess": -0.47719935730958696,
+     "slack_nominal": -0.47719935730958696
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.125217
+     },
+     "slack_pess": -0.5037060512830116,
+     "slack_nominal": -0.5037060512830116
+    }
+   ],
+   "f_lo_Hz": 5500.0,
+   "f_hi_Hz": 8250.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.15421970576764443,
+     "f_hi": 0.23132955865146668
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 3,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.112174
+     },
+     "slack_pess": -0.3781420204914518,
+     "slack_nominal": -0.31417154715673823
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.125217
+     },
+     "slack_pess": -0.3950638803427608,
+     "slack_nominal": -0.3950638803427608
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.112174
+     },
+     "slack_pess": -0.39984619872744787,
+     "slack_nominal": -0.33810843221784403
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.125217
+     },
+     "slack_pess": -0.42750072085610535,
+     "slack_nominal": -0.42750072085610535
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.738261,
+      "w": 0.112174
+     },
+     "slack_pess": -0.4315770006514094,
+     "slack_nominal": -0.3731033788263685
+    }
+   ],
+   "f_lo_Hz": 6000.0,
+   "f_hi_Hz": 9000.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.16707134791494815,
+     "f_hi": 0.25060702187242223
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 6,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.125217
+     },
+     "slack_pess": -0.30313588954716364,
+     "slack_nominal": -0.30313588954716364
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.125217
+     },
+     "slack_pess": -0.33307758848255864,
+     "slack_nominal": -0.33307758848255864
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.738261,
+      "w": 0.125217
+     },
+     "slack_pess": -0.3618988080399138,
+     "slack_nominal": -0.3618988080399138
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.112174
+     },
+     "slack_pess": -0.3781420204914518,
+     "slack_nominal": -0.31417154715673823
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.138261
+     },
+     "slack_pess": -0.3832549534504146,
+     "slack_nominal": -0.3832549534504146
+    }
+   ],
+   "f_lo_Hz": 6500.0,
+   "f_hi_Hz": 9750.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.17992299006225185,
+     "f_hi": 0.26988448509337776
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 9,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.125217
+     },
+     "slack_pess": -0.2567782208314836,
+     "slack_nominal": -0.2243404688652235
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.125217
+     },
+     "slack_pess": -0.28088850684077626,
+     "slack_nominal": -0.25214347501951884
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.138261
+     },
+     "slack_pess": -0.29873674248967075,
+     "slack_nominal": -0.29873674248967075
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.738261,
+      "w": 0.125217
+     },
+     "slack_pess": -0.31258847305925813,
+     "slack_nominal": -0.27890603603706293
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.138261
+     },
+     "slack_pess": -0.3310883613571988,
+     "slack_nominal": -0.3310883613571988
+    }
+   ],
+   "f_lo_Hz": 7000.0,
+   "f_hi_Hz": 10500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.19277463220955554,
+     "f_hi": 0.28916194831433334
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 17,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.138261
+     },
+     "slack_pess": -0.22548762632369274,
+     "slack_nominal": -0.22548762632369274
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.138261
+     },
+     "slack_pess": -0.2556824706000522,
+     "slack_nominal": -0.2556824706000522
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.125217
+     },
+     "slack_pess": -0.2567782208314836,
+     "slack_nominal": -0.1803230645534345
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.738261,
+      "w": 0.138261
+     },
+     "slack_pess": -0.2807480092791631,
+     "slack_nominal": -0.2807480092791631
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.125217
+     },
+     "slack_pess": -0.28088850684077626,
+     "slack_nominal": -0.20691357347386297
+    }
+   ],
+   "f_lo_Hz": 7500.0,
+   "f_hi_Hz": 11250.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.20562627435685926,
+     "f_hi": 0.30843941153528887
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 27,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.138261
+     },
+     "slack_pess": -0.16139464967846187,
+     "slack_nominal": -0.16139464967846187
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.138261
+     },
+     "slack_pess": -0.18970231618754888,
+     "slack_nominal": -0.18970231618754888
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.738261,
+      "w": 0.138261
+     },
+     "slack_pess": -0.21320125869921533,
+     "slack_nominal": -0.21320125869921533
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.151304
+     },
+     "slack_pess": -0.25050388465978785,
+     "slack_nominal": -0.25050388465978785
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.713913,
+      "w": 0.138261
+     },
+     "slack_pess": -0.2561267268787369,
+     "slack_nominal": -0.24204582157694648
+    }
+   ],
+   "f_lo_Hz": 8000.0,
+   "f_hi_Hz": 12000.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.21847791650416296,
+     "f_hi": 0.32771687475624445
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 32,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.138261
+     },
+     "slack_pess": -0.15467542907277831,
+     "slack_nominal": -0.10484202322678768
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.138261
+     },
+     "slack_pess": -0.17265067917759974,
+     "slack_nominal": -0.131484532882399
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.151304
+     },
+     "slack_pess": -0.18870953850332983,
+     "slack_nominal": -0.18870953850332983
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.738261,
+      "w": 0.138261
+     },
+     "slack_pess": -0.20879439979375292,
+     "slack_nominal": -0.1536011846580851
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.151304
+     },
+     "slack_pess": -0.21284012380163653,
+     "slack_nominal": -0.21284012380163653
+    }
+   ],
+   "f_lo_Hz": 8500.0,
+   "f_hi_Hz": 12750.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.23132955865146668,
+     "f_hi": 0.3469943379772
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 41,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.151304
+     },
+     "slack_pess": -0.169482128362268,
+     "slack_nominal": -0.15657122803487886
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.138261
+     },
+     "slack_pess": -0.17265067917759974,
+     "slack_nominal": -0.08754133040315787
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.738261,
+      "w": 0.151304
+     },
+     "slack_pess": -0.17767358965462704,
+     "slack_nominal": -0.17767358965462704
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.786957,
+      "w": 0.138261
+     },
+     "slack_pess": -0.18813074601664279,
+     "slack_nominal": -0.06771696796818026
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.738261,
+      "w": 0.138261
+     },
+     "slack_pess": -0.20879439979375292,
+     "slack_nominal": -0.12740315224512516
+    }
+   ],
+   "f_lo_Hz": 9000.0,
+   "f_hi_Hz": 13500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.24418120079877037,
+     "f_hi": 0.36627180119815556
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 48,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.713913,
+      "w": 0.151304
+     },
+     "slack_pess": -0.15635863545632941,
+     "slack_nominal": -0.15635863545632941
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.738261,
+      "w": 0.151304
+     },
+     "slack_pess": -0.1786284299998912,
+     "slack_nominal": -0.1262170849359625
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.738261,
+      "w": 0.164348
+     },
+     "slack_pess": -0.1936250816498729,
+     "slack_nominal": -0.18218535749459608
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.762609,
+      "w": 0.138261
+     },
+     "slack_pess": -0.20388201337553344,
+     "slack_nominal": -0.08754133040315787
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.689565,
+      "w": 0.151304
+     },
+     "slack_pess": -0.20431430014232432,
+     "slack_nominal": -0.18260799445297946
+    }
+   ],
+   "f_lo_Hz": 9500.0,
+   "f_hi_Hz": 14250.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.2570328429460741,
+     "f_hi": 0.3855492644191111
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 56,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.689565,
+      "w": 0.164348
+     },
+     "slack_pess": -0.18786130632057518,
+     "slack_nominal": -0.18786130632057518
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.616522,
+      "w": 0.164348
+     },
+     "slack_pess": -0.19103247800056528,
+     "slack_nominal": -0.17164236732345023
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.713913,
+      "w": 0.151304
+     },
+     "slack_pess": -0.19338397995924983,
+     "slack_nominal": -0.10854070368351286
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.665217,
+      "w": 0.164348
+     },
+     "slack_pess": -0.19939913147166763,
+     "slack_nominal": -0.19939913147166763
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.64087,
+      "w": 0.164348
+     },
+     "slack_pess": -0.20012433062467663,
+     "slack_nominal": -0.20012433062467663
+    }
+   ],
+   "f_lo_Hz": 10000.0,
+   "f_hi_Hz": 15000.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.26988448509337776,
+     "f_hi": 0.40482672764006666
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 65,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.64087,
+      "w": 0.164348
+     },
+     "slack_pess": -0.15249936249969212,
+     "slack_nominal": -0.15249936249969212
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.665217,
+      "w": 0.164348
+     },
+     "slack_pess": -0.16542632588671857,
+     "slack_nominal": -0.15180869663968358
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.592174,
+      "w": 0.177391
+     },
+     "slack_pess": -0.18083148391583956,
+     "slack_nominal": -0.18083148391583956
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.616522,
+      "w": 0.177391
+     },
+     "slack_pess": -0.18431445552747108,
+     "slack_nominal": -0.18431445552747108
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.616522,
+      "w": 0.164348
+     },
+     "slack_pess": -0.19103247800056528,
+     "slack_nominal": -0.1253736831651908
+    }
+   ],
+   "f_lo_Hz": 10500.0,
+   "f_hi_Hz": 15750.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.2827361272406815,
+     "f_hi": 0.42410419086102225
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 75,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.616522,
+      "w": 0.177391
+     },
+     "slack_pess": -0.13957288936713144,
+     "slack_nominal": -0.13957288936713144
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.592174,
+      "w": 0.177391
+     },
+     "slack_pess": -0.14403146457303495,
+     "slack_nominal": -0.1362482346469377
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.64087,
+      "w": 0.164348
+     },
+     "slack_pess": -0.15762308140833836,
+     "slack_nominal": -0.10920393693152425
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.64087,
+      "w": 0.177391
+     },
+     "slack_pess": -0.17247071553368734,
+     "slack_nominal": -0.15851351804540897
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.616522,
+      "w": 0.164348
+     },
+     "slack_pess": -0.19103247800056528,
+     "slack_nominal": -0.10781406318563917
+    }
+   ],
+   "f_lo_Hz": 11000.0,
+   "f_hi_Hz": 16500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.2955877693879852,
+     "f_hi": 0.44338165408197777
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 84,
+   "best": [
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.592174,
+      "w": 0.177391
+     },
+     "slack_pess": -0.14403146457303495,
+     "slack_nominal": -0.0955417896622882
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.616522,
+      "w": 0.177391
+     },
+     "slack_pess": -0.15605056743464324,
+     "slack_nominal": -0.09872189417725612
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.567826,
+      "w": 0.177391
+     },
+     "slack_pess": -0.17213430849841932,
+     "slack_nominal": -0.16631603056987002
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.616522,
+      "w": 0.190435
+     },
+     "slack_pess": -0.17227934962425487,
+     "slack_nominal": -0.15959856724548696
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.592174,
+      "w": 0.190435
+     },
+     "slack_pess": -0.17335015110978613,
+     "slack_nominal": -0.17335015110978613
+    }
+   ],
+   "f_lo_Hz": 11500.0,
+   "f_hi_Hz": 17250.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.30843941153528887,
+     "f_hi": 0.46265911730293335
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 99,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.157391
+     },
+     "slack_pess": -0.1637445439296286,
+     "slack_nominal": -0.1637445439296286
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.592174,
+      "w": 0.177391
+     },
+     "slack_pess": -0.1660672077300733,
+     "slack_nominal": -0.058227548426359625
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.145217
+     },
+     "slack_pess": -0.1780825835199471,
+     "slack_nominal": -0.10955172882601277
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.1871812375869595,
+     "slack_nominal": -0.1871812375869595
+    },
+    {
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.616522,
+      "w": 0.164348
+     },
+     "slack_pess": -0.19103247800056528,
+     "slack_nominal": -0.10781406318563917
+    }
+   ],
+   "f_lo_Hz": 12000.0,
+   "f_hi_Hz": 18000.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.3212910536825926,
+     "f_hi": 0.4819365805238889
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 110,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.157391
+     },
+     "slack_pess": -0.12519476217244338,
+     "slack_nominal": -0.12519476217244338
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.1586155056302714,
+     "slack_nominal": -0.14769398808348108
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.169565
+     },
+     "slack_pess": -0.1754943264297335,
+     "slack_nominal": -0.1754943264297335
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.145217
+     },
+     "slack_pess": -0.1780825835199471,
+     "slack_nominal": -0.09353201424715842
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.430435,
+      "w": 0.133043
+     },
+     "slack_pess": -0.19691291222950624,
+     "slack_nominal": -0.19691291222950624
+    }
+   ],
+   "f_lo_Hz": 12500.0,
+   "f_hi_Hz": 18750.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.3341426958298963,
+     "f_hi": 0.5012140437448445
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 129,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.157391
+     },
+     "slack_pess": -0.09933628190041931,
+     "slack_nominal": -0.08961034824273398
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.169565
+     },
+     "slack_pess": -0.1379753138747437,
+     "slack_nominal": -0.1379753138747437
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.1586155056302714,
+     "slack_nominal": -0.11124421931103945
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.169565
+     },
+     "slack_pess": -0.16830965942979365,
+     "slack_nominal": -0.16830965942979365
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.430435,
+      "w": 0.133043
+     },
+     "slack_pess": -0.16859443741226282,
+     "slack_nominal": -0.15857010791298673
+    }
+   ],
+   "f_lo_Hz": 13000.0,
+   "f_hi_Hz": 19500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.3469943379772,
+     "f_hi": 0.5204915069658
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 140,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.157391
+     },
+     "slack_pess": -0.1401016047929964,
+     "slack_nominal": -0.0566618168263365
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.1586155056302714,
+     "slack_nominal": -0.07749443341063067
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.169565
+     },
+     "slack_pess": -0.15967865381153473,
+     "slack_nominal": -0.13244633871017172
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.169565
+     },
+     "slack_pess": -0.1644952766404809,
+     "slack_nominal": -0.1644952766404809
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.169565
+     },
+     "slack_pess": -0.16637140401524067,
+     "slack_nominal": -0.10323548743493847
+    }
+   ],
+   "f_lo_Hz": 13500.0,
+   "f_hi_Hz": 20250.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.3598459801245037,
+     "f_hi": 0.5397689701867555
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 157,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.16486654113590213,
+     "slack_nominal": -0.07206235983988228
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.157391
+     },
+     "slack_pess": -0.1779551189075321,
+     "slack_nominal": -0.0260667519396816
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.145217
+     },
+     "slack_pess": -0.1780825835199471,
+     "slack_nominal": -0.09353201424715842
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.169565
+     },
+     "slack_pess": -0.19683298760397977,
+     "slack_nominal": -0.099144683756237
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.169565
+     },
+     "slack_pess": -0.2014277303722975,
+     "slack_nominal": -0.13004901676046368
+    }
+   ],
+   "f_lo_Hz": 14000.0,
+   "f_hi_Hz": 21000.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.3726976222718074,
+     "f_hi": 0.5590464334077111
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 177,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.145217
+     },
+     "slack_pess": -0.188331883421694,
+     "slack_nominal": -0.09353201424715842
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.20056079833811247,
+     "slack_nominal": -0.07206235983988228
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.2028751399596582,
+     "slack_nominal": -0.12087497869462613
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.157391
+     },
+     "slack_pess": -0.2131980458417552,
+     "slack_nominal": 0.0024183084720316005
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.169565
+     },
+     "slack_pess": -0.23142495354867015,
+     "slack_nominal": -0.06813969466119431
+    }
+   ],
+   "f_lo_Hz": 14500.0,
+   "f_hi_Hz": 21750.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.3855492644191111,
+     "f_hi": 0.5783238966286667
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 193,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.145217
+     },
+     "slack_pess": -0.22205415397430422,
+     "slack_nominal": -0.09353201424715842
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.23374225844482646,
+     "slack_nominal": -0.12087497869462613
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.23387543839350874,
+     "slack_nominal": -0.07206235983988228
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.157391
+     },
+     "slack_pess": -0.24609144431369673,
+     "slack_nominal": 0.004300034539756435
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.2573397878819893,
+     "slack_nominal": -0.18094239995493636
+    }
+   ],
+   "f_lo_Hz": 15000.0,
+   "f_hi_Hz": 22500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.3984009065664148,
+     "f_hi": 0.5976013598496223
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 217,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.145217
+     },
+     "slack_pess": -0.2536007941686816,
+     "slack_nominal": -0.09353201424715842
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.2573397878819893,
+     "slack_nominal": -0.18094239995493636
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.133043
+     },
+     "slack_pess": -0.2611348828445448,
+     "slack_nominal": -0.18512789598832266
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.2649118630111224,
+     "slack_nominal": -0.12087497869462613
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.2650407468324279,
+     "slack_nominal": -0.07206235983988228
+    }
+   ],
+   "f_lo_Hz": 15500.0,
+   "f_hi_Hz": 23250.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.4112525487137185,
+     "f_hi": 0.6168788230705777
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 230,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.133043
+     },
+     "slack_pess": -0.2625665751430722,
+     "slack_nominal": -0.18512789598832266
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.2645868588522589,
+     "slack_nominal": -0.18094239995493636
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.145217
+     },
+     "slack_pess": -0.2831757693509101,
+     "slack_nominal": -0.09353201424715842
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.29413336729202466,
+     "slack_nominal": -0.12087497869462613
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.29425822349391434,
+     "slack_nominal": -0.07206235983988228
+    }
+   ],
+   "f_lo_Hz": 16000.0,
+   "f_hi_Hz": 24000.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.42410419086102225,
+     "f_hi": 0.6361562862915333
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 246,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.133043
+     },
+     "slack_pess": -0.29097364862358516,
+     "slack_nominal": -0.18512789598832266
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.2929327116143117,
+     "slack_nominal": -0.18094239995493636
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.294813333789977,
+     "slack_nominal": -0.22227084609457917
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.145217
+     },
+     "slack_pess": -0.3109583217948219,
+     "slack_nominal": -0.09353201424715842
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.157391
+     },
+     "slack_pess": -0.3215838713134785,
+     "slack_nominal": -0.12087497869462613
+    }
+   ],
+   "f_lo_Hz": 16500.0,
+   "f_hi_Hz": 24750.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.4369558330083259,
+     "f_hi": 0.6554337495124889
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 254,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.3154424174705484,
+     "slack_nominal": -0.22227084609457917
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.133043
+     },
+     "slack_pess": -0.31770971778171514,
+     "slack_nominal": -0.18512789598832266
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.3196111612727144,
+     "slack_nominal": -0.18094239995493636
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.145217
+     },
+     "slack_pess": -0.3371066064479155,
+     "slack_nominal": -0.09353201424715842
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.145217
+     },
+     "slack_pess": -0.347308374832802,
+     "slack_nominal": -0.2801660471962791
+    }
+   ],
+   "f_lo_Hz": 17000.0,
+   "f_hi_Hz": 25500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.44980747515562963,
+     "f_hi": 0.6747112127334445
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 264,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.3407154912571042,
+     "slack_nominal": -0.22227084609457917
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.133043
+     },
+     "slack_pess": -0.34291801155938045,
+     "slack_nominal": -0.18512789598832266
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.344765128093494,
+     "slack_nominal": -0.18094239995493636
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.145217
+     },
+     "slack_pess": -0.347308374832802,
+     "slack_nominal": -0.2801660471962791
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.348295935024137,
+     "slack_nominal": -0.2812551976139487
+    }
+   ],
+   "f_lo_Hz": 17500.0,
+   "f_hi_Hz": 26250.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.46265911730293335,
+     "f_hi": 0.6939886759544
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 259,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.348295935024137,
+     "slack_nominal": -0.2812551976139487
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.12087
+     },
+     "slack_pess": -0.35184589378122466,
+     "slack_nominal": -0.2851703403028869
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.3645845053888512,
+     "slack_nominal": -0.22227084609457917
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.133043
+     },
+     "slack_pess": -0.3667258445716197,
+     "slack_nominal": -0.18512789598832266
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.145217
+     },
+     "slack_pess": -0.3674809623809626,
+     "slack_nominal": -0.2801660471962791
+    }
+   ],
+   "f_lo_Hz": 18000.0,
+   "f_hi_Hz": 27000.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.475510759450237,
+     "f_hi": 0.7132661391753555
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 252,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.36551441211127705,
+     "slack_nominal": -0.2812551976139487
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.12087
+     },
+     "slack_pess": -0.3707372565587099,
+     "slack_nominal": -0.2851703403028869
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.3827902439126648,
+     "slack_nominal": -0.319297932895102
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.3871633025405039,
+     "slack_nominal": -0.22227084609457917
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.133043
+     },
+     "slack_pess": -0.3892467676913058,
+     "slack_nominal": -0.18512789598832266
+    }
+   ],
+   "f_lo_Hz": 18500.0,
+   "f_hi_Hz": 27750.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.48836240159754074,
+     "f_hi": 0.7325436023963111
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 239,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.3827902439126648,
+     "slack_nominal": -0.319297932895102
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.38747455916098034,
+     "slack_nominal": -0.2812551976139487
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.12087
+     },
+     "slack_pess": -0.3925599603334808,
+     "slack_nominal": -0.2851703403028869
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.4085537419473328,
+     "slack_nominal": -0.22227084609457917
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.133043
+     },
+     "slack_pess": -0.4105823790678504,
+     "slack_nominal": -0.18512789598832266
+    }
+   ],
+   "f_lo_Hz": 19000.0,
+   "f_hi_Hz": 28500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.5012140437448445,
+     "f_hi": 0.7518210656172667
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 224,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.4011604425083255,
+     "slack_nominal": -0.319297932895102
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.4083085448235193,
+     "slack_nominal": -0.2812551976139487
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.12087
+     },
+     "slack_pess": -0.41326355109416074,
+     "slack_nominal": -0.2851703403028869
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.133043
+     },
+     "slack_pess": -0.42685175983172874,
+     "slack_nominal": -0.36789205291681826
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.145217
+     },
+     "slack_pess": -0.42884723574355504,
+     "slack_nominal": -0.22227084609457917
+    }
+   ],
+   "f_lo_Hz": 19500.0,
+   "f_hi_Hz": 29250.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.5140656858921482,
+     "f_hi": 0.7710985288382222
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 210,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.4211314314456172,
+     "slack_nominal": -0.319297932895102
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.133043
+     },
+     "slack_pess": -0.42685175983172874,
+     "slack_nominal": -0.36789205291681826
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.4281008312029312,
+     "slack_nominal": -0.2812551976139487
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.12087
+     },
+     "slack_pess": -0.4329319623168066,
+     "slack_nominal": -0.2851703403028869
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.43416552530598906,
+     "slack_nominal": -0.37595818477482623
+    }
+   ],
+   "f_lo_Hz": 20000.0,
+   "f_hi_Hz": 30000.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.5269173280394518,
+     "f_hi": 0.7903759920591777
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 191,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.43416552530598906,
+     "slack_nominal": -0.37595818477482623
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.133043
+     },
+     "slack_pess": -0.4380920216499549,
+     "slack_nominal": -0.36789205291681826
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.4401282258006022,
+     "slack_nominal": -0.319297932895102
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.4469276401979817,
+     "slack_nominal": -0.2812551976139487
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.108696
+     },
+     "slack_pess": -0.4473946191243661,
+     "slack_nominal": -0.3905481542613419
+    }
+   ],
+   "f_lo_Hz": 20500.0,
+   "f_hi_Hz": 30750.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.5397689701867555,
+     "f_hi": 0.8096534552801333
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 150,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.44148950868699627,
+     "slack_nominal": -0.37595818477482623
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.108696
+     },
+     "slack_pess": -0.4543820822206467,
+     "slack_nominal": -0.3905481542613419
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.133043
+     },
+     "slack_pess": -0.4562326878011465,
+     "slack_nominal": -0.36789205291681826
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.45822041090058785,
+     "slack_nominal": -0.319297932895102
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.46485793447898216,
+     "slack_nominal": -0.2812551976139487
+    }
+   ],
+   "f_lo_Hz": 21000.0,
+   "f_hi_Hz": 31500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.5526206123340592,
+     "f_hi": 0.8289309185010889
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 116,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.4591292875547406,
+     "slack_nominal": -0.37595818477482623
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.46560991367724275,
+     "slack_nominal": -0.41063725449473676
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.108696
+     },
+     "slack_pess": -0.47172203379691074,
+     "slack_nominal": -0.3905481542613419
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.133043
+     },
+     "slack_pess": -0.47352960203832917,
+     "slack_nominal": -0.36789205291681826
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.4754710990191789,
+     "slack_nominal": -0.319297932895102
+    }
+   ],
+   "f_lo_Hz": 21500.0,
+   "f_hi_Hz": 32250.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.565472254481363,
+     "f_hi": 0.8482083817220445
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 89,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.4663360797352983,
+     "slack_nominal": -0.41063725449473676
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.4759672582921328,
+     "slack_nominal": -0.37595818477482623
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.108696
+     },
+     "slack_pess": -0.4882738057560719,
+     "slack_nominal": -0.3905481542613419
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.133043
+     },
+     "slack_pess": -0.4900402929010944,
+     "slack_nominal": -0.36789205291681826
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.133043
+     },
+     "slack_pess": -0.4919376649505612,
+     "slack_nominal": -0.319297932895102
+    }
+   ],
+   "f_lo_Hz": 22000.0,
+   "f_hi_Hz": 33000.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.5783238966286667,
+     "f_hi": 0.867485844943
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 61,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.4826397224078472,
+     "slack_nominal": -0.41063725449473676
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.4920568747745298,
+     "slack_nominal": -0.37595818477482623
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5040899434059368,
+     "slack_nominal": -0.3905481542613419
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.505747202339077,
+     "slack_nominal": -0.4549034623610793
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.133043
+     },
+     "slack_pess": -0.5058171752810701,
+     "slack_nominal": -0.36789205291681826
+    }
+   ],
+   "f_lo_Hz": 22500.0,
+   "f_hi_Hz": 33750.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.5911755387759704,
+     "f_hi": 0.8867633081639555
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 30,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.49823451105115485,
+     "slack_nominal": -0.41063725449473676
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.505747202339077,
+     "slack_nominal": -0.4549034623610793
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.507446942714214,
+     "slack_nominal": -0.37595818477482623
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5192184228971122,
+     "slack_nominal": -0.3905481542613419
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.133043
+     },
+     "slack_pess": -0.5209081062532207,
+     "slack_nominal": -0.36789205291681826
+    }
+   ],
+   "f_lo_Hz": 23000.0,
+   "f_hi_Hz": 34500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.6040271809232741,
+     "f_hi": 0.9060407713849111
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 11,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5073072305234476,
+     "slack_nominal": -0.4549034623610793
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5131656916670878,
+     "slack_nominal": -0.41063725449473676
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5221821141458265,
+     "slack_nominal": -0.37595818477482623
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5228032658350052,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5337031373035567,
+     "slack_nominal": -0.3905481542613419
+    }
+   ],
+   "f_lo_Hz": 23500.0,
+   "f_hi_Hz": 35250.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.6168788230705777,
+     "f_hi": 0.9253182346058667
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 2,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5217383298875425,
+     "slack_nominal": -0.4549034623610793
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5228032658350052,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5274747397573568,
+     "slack_nominal": -0.41063725449473676
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5363033201011218,
+     "slack_nominal": -0.37595818477482623
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.415652,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5475843219430659,
+     "slack_nominal": -0.3905481542613419
+    }
+   ],
+   "f_lo_Hz": 24000.0,
+   "f_hi_Hz": 36000.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.6297304652178815,
+     "f_hi": 0.9445956978268222
+    }
+   },
+   "verdict": "NOT_FOUND_IN_FAMILIES",
+   "n_clear": 0,
+   "n_possible": 0,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5287678758387424,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5355804047877967,
+     "slack_nominal": -0.4549034623610793
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.541199745068431,
+     "slack_nominal": -0.41063725449473676
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5498481503031396,
+     "slack_nominal": -0.37595818477482623
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5507492282940747,
+     "slack_nominal": -0.5045348425998918
+    }
+   ],
+   "f_lo_Hz": 24500.0,
+   "f_hi_Hz": 36750.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.6425821073651852,
+     "f_hi": 0.9638731610477778
+    }
+   },
+   "verdict": "NOT_FOUND_IN_FAMILIES",
+   "n_clear": 0,
+   "n_possible": 0,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5421925183219676,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5488687966920408,
+     "slack_nominal": -0.4549034623610793
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5507492282940747,
+     "slack_nominal": -0.5045348425998918
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5543757501670625,
+     "slack_nominal": -0.41063725449473676
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5628511872970768,
+     "slack_nominal": -0.37595818477482623
+    }
+   ],
+   "f_lo_Hz": 25000.0,
+   "f_hi_Hz": 37500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.6554337495124889,
+     "f_hi": 0.9831506242687333
+    }
+   },
+   "verdict": "NOT_FOUND_IN_FAMILIES",
+   "n_clear": 0,
+   "n_possible": 0,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5507492282940747,
+     "slack_nominal": -0.5045348425998918
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5550907042372232,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5616360751882753,
+     "slack_nominal": -0.4549034623610793
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.356522,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5646643084119591,
+     "slack_nominal": -0.5198813657336478
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5670350491833946,
+     "slack_nominal": -0.41063725449473676
+    }
+   ],
+   "f_lo_Hz": 25500.0,
+   "f_hi_Hz": 38250.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.6682853916597926,
+     "f_hi": 1.002428087489689
+    }
+   },
+   "verdict": "NOT_FOUND_IN_FAMILIES",
+   "n_clear": 0,
+   "n_possible": 0,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5566981680801363,
+     "slack_nominal": -0.5045348425998918
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.567492806078815,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.356522,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5732065921138699,
+     "slack_nominal": -0.5198813657336478
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5739123045115777,
+     "slack_nominal": -0.4549034623610793
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5792074520837139,
+     "slack_nominal": -0.41063725449473676
+    }
+   ],
+   "f_lo_Hz": 26000.0,
+   "f_hi_Hz": 39000.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.6811370338070963,
+     "f_hi": 1.0217055507106445
+    }
+   },
+   "verdict": "NOT_FOUND_IN_FAMILIES",
+   "n_clear": 0,
+   "n_possible": 0,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5688359384937186,
+     "slack_nominal": -0.5045348425998918
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.579426904077328,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.356522,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5850328828287026,
+     "slack_nominal": -0.5198813657336478
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5857252798981517,
+     "slack_nominal": -0.4549034623610793
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.108696
+     },
+     "slack_pess": -0.587633882082396,
+     "slack_nominal": -0.5452138173415128
+    }
+   ],
+   "f_lo_Hz": 26500.0,
+   "f_hi_Hz": 39750.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.6939886759544,
+     "f_hi": 1.0409830139316
+    }
+   },
+   "verdict": "NOT_FOUND_IN_FAMILIES",
+   "n_clear": 0,
+   "n_possible": 0,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.580524161854946,
+     "slack_nominal": -0.5045348425998918
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.108696
+     },
+     "slack_pess": -0.587633882082396,
+     "slack_nominal": -0.5452138173415128
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5909189984462664,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.356522,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5964211627763193,
+     "slack_nominal": -0.5198813657336478
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.5971007376778156,
+     "slack_nominal": -0.4549034623610793
+    }
+   ],
+   "f_lo_Hz": 27000.0,
+   "f_hi_Hz": 40500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.7068403181017037,
+     "f_hi": 1.0602604771525554
+    }
+   },
+   "verdict": "NOT_FOUND_IN_FAMILIES",
+   "n_clear": 0,
+   "n_possible": 0,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.108696
+     },
+     "slack_pess": -0.587633882082396,
+     "slack_nominal": -0.5452138173415128
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5917873589121287,
+     "slack_nominal": -0.5045348425998918
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6019931984745159,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.356522,
+      "w": 0.12087
+     },
+     "slack_pess": -0.6073953234531134,
+     "slack_nominal": -0.5198813657336478
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.6080625424473097,
+     "slack_nominal": -0.4549034623610793
+    }
+   ],
+   "f_lo_Hz": 27500.0,
+   "f_hi_Hz": 41250.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.7196919602490074,
+     "f_hi": 1.079537940373511
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 2,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.108696
+     },
+     "slack_pess": -0.5943844287796248,
+     "slack_nominal": -0.5452138173415128
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6026482989315551,
+     "slack_nominal": -0.5045348425998918
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6126718913588997,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.356522,
+      "w": 0.12087
+     },
+     "slack_pess": -0.6179775498200221,
+     "slack_nominal": -0.5198813657336478
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.6186328541893221,
+     "slack_nominal": -0.4549034623610793
+    }
+   ],
+   "f_lo_Hz": 28000.0,
+   "f_hi_Hz": 42000.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.7325436023963111,
+     "f_hi": 1.0988154035944666
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 3,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6050092633624384,
+     "slack_nominal": -0.5452138173415128
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6131281533362647,
+     "slack_nominal": -0.5045348425998918
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6229758932648839,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.356522,
+      "w": 0.12087
+     },
+     "slack_pess": -0.6281884699986182,
+     "slack_nominal": -0.5198813657336478
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.12087
+     },
+     "slack_pess": -0.6288322778000358,
+     "slack_nominal": -0.4549034623610793
+    }
+   ],
+   "f_lo_Hz": 28500.0,
+   "f_hi_Hz": 42750.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.7453952445436148,
+     "f_hi": 1.1180928668154222
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 7,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6152677243389482,
+     "slack_nominal": -0.5452138173415128
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6232466334511567,
+     "slack_nominal": -0.5045348425998918
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6329245847603169,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.356522,
+      "w": 0.12087
+     },
+     "slack_pess": -0.6380472894814007,
+     "slack_nominal": -0.5198813657336478
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.356522,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6381454078960608,
+     "slack_nominal": -0.6009214591842946
+    }
+   ],
+   "f_lo_Hz": 29000.0,
+   "f_hi_Hz": 43500.0
+  },
+  {
+   "norm": {
+    "E100_min": 0.058823529411764705,
+    "gap": {
+     "f_lo": 0.7582468866909186,
+     "f_hi": 1.1373703300363778
+    }
+   },
+   "verdict": "BORDERLINE",
+   "n_clear": 0,
+   "n_possible": 6,
+   "best": [
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.371304,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6251784408755762,
+     "slack_nominal": -0.5452138173415128
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.386087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6330221142401201,
+     "slack_nominal": -0.5045348425998918
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.356522,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6381454078960608,
+     "slack_nominal": -0.6009214591842946
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.40087,
+      "w": 0.108696
+     },
+     "slack_pess": -0.6425360324762438,
+     "slack_nominal": -0.4737140815449859
+    },
+    {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.356522,
+      "w": 0.12087
+     },
+     "slack_pess": -0.6475719116935803,
+     "slack_nominal": -0.5198813657336478
+    }
+   ],
+   "f_lo_Hz": 29500.0,
+   "f_hi_Hz": 44250.0
+  }
+ ],
+ "filter": [
+  {
+   "f_lo_Hz": 20000.0,
+   "f_hi_Hz": 25000.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.2570328429460741,
+      "f_hi": 0.3212910536825926
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 22,
+    "n_possible": 554,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.112174
+      },
+      "slack_pess": 0.15518585072367136,
+      "slack_nominal": 0.15518585072367136
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.112174
+      },
+      "slack_pess": 0.11505263102567431,
+      "slack_nominal": 0.11505263102567431
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.616522,
+       "w": 0.112174
+      },
+      "slack_pess": 0.09775090779007936,
+      "slack_nominal": 0.09775090779007936
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.689565,
+       "w": 0.112174
+      },
+      "slack_pess": 0.08187744993451652,
+      "slack_nominal": 0.08187744993451652
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.312174,
+       "w": 0.108696
+      },
+      "slack_pess": 0.07814597694406941,
+      "slack_nominal": 0.07814597694406941
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.06565729836823583,
+      "f_hi": 0.0820716229602948
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 102,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.786957,
+       "w": 0.06
+      },
+      "slack_pess": -0.606295655976135,
+      "slack_nominal": -0.606295655976135
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.06
+      },
+      "slack_pess": -0.6267520430723317,
+      "slack_nominal": -0.6267520430723317
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.762609,
+       "w": 0.06
+      },
+      "slack_pess": -0.6581067700841062,
+      "slack_nominal": -0.6581067700841062
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.06
+      },
+      "slack_pess": -0.7103917250579721,
+      "slack_nominal": -0.7103917250579721
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.738261,
+       "w": 0.06
+      },
+      "slack_pess": -0.7127338527665374,
+      "slack_nominal": -0.7127338527665374
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 25000.0,
+   "f_hi_Hz": 31250.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.3212910536825926,
+      "f_hi": 0.40161381710324073
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 40,
+    "n_possible": 728,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.312174,
+       "w": 0.108696
+      },
+      "slack_pess": 0.19738334868434926,
+      "slack_nominal": 0.24029455933303326
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.112174
+      },
+      "slack_pess": 0.16925554335487042,
+      "slack_nominal": 0.2698198825983172
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.543478,
+       "w": 0.112174
+      },
+      "slack_pess": 0.15759241654004755,
+      "slack_nominal": 0.23812553258640817
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.15360265486173738,
+      "slack_nominal": 0.15360265486173738
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.125217
+      },
+      "slack_pess": 0.14394938125032739,
+      "slack_nominal": 0.1999158024873794
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.0820716229602948,
+      "f_hi": 0.1025895287003685
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 133,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.786957,
+       "w": 0.06
+      },
+      "slack_pess": -0.30725874700313016,
+      "slack_nominal": -0.30725874700313016
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.06
+      },
+      "slack_pess": -0.3236238566800875,
+      "slack_nominal": -0.3236238566800875
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.762609,
+       "w": 0.06
+      },
+      "slack_pess": -0.3487076382895071,
+      "slack_nominal": -0.3487076382895071
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.06
+      },
+      "slack_pess": -0.39053560226859985,
+      "slack_nominal": -0.39053560226859985
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.738261,
+       "w": 0.06
+      },
+      "slack_pess": -0.3924093044354521,
+      "slack_nominal": -0.3924093044354521
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 30000.0,
+   "f_hi_Hz": 37500.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.3855492644191111,
+      "f_hi": 0.4819365805238889
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 20,
+    "n_possible": 882,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": 0.15541980536118427,
+      "slack_nominal": 0.18842558618228797
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": 0.14541933407538704,
+      "slack_nominal": 0.1909040127900919
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": 0.14498044401262997,
+      "slack_nominal": 0.20751523484518705
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.12784056517899683,
+      "slack_nominal": 0.23860277380298064
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.10705089199635628,
+      "slack_nominal": 0.27615036053292924
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.09848594755235375,
+      "f_hi": 0.1231074344404422
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 166,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.786957,
+       "w": 0.06
+      },
+      "slack_pess": -0.10790080768779375,
+      "slack_nominal": -0.10790080768779375
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.06
+      },
+      "slack_pess": -0.12153839908525815,
+      "slack_nominal": -0.12153839908525815
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.762609,
+       "w": 0.06
+      },
+      "slack_pess": -0.1424415504264412,
+      "slack_nominal": -0.1424415504264412
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.06
+      },
+      "slack_pess": -0.17729818707568515,
+      "slack_nominal": -0.17729818707568515
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.738261,
+       "w": 0.06
+      },
+      "slack_pess": -0.17885960554806202,
+      "slack_nominal": -0.17885960554806202
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 35000.0,
+   "f_hi_Hz": 43750.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.44980747515562963,
+      "f_hi": 0.562259343944537
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 977,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.025513182706286497,
+      "slack_nominal": 0.28849177228323103
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.034085015236969836,
+      "slack_nominal": 0.2906161379470629
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.03446120671933305,
+      "slack_nominal": 0.30485432828000164
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.049152531433875726,
+      "slack_nominal": 0.33150079024382473
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.06697225130471049,
+      "slack_nominal": 0.3636844360123521
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.11490027214441272,
+      "f_hi": 0.1436253401805159
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 3,
+    "n_possible": 202,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.786957,
+       "w": 0.06
+      },
+      "slack_pess": 0.03449772039458953,
+      "slack_nominal": 0.03449772039458953
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.06
+      },
+      "slack_pess": 0.022808356339620046,
+      "slack_nominal": 0.022808356339620046
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.762609,
+       "w": 0.06
+      },
+      "slack_pess": 0.004891369475748872,
+      "slack_nominal": 0.004891369475748872
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.06
+      },
+      "slack_pess": -0.024985747652174525,
+      "slack_nominal": -0.024985747652174525
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.738261,
+       "w": 0.06
+      },
+      "slack_pess": -0.02632410634278326,
+      "slack_nominal": -0.02632410634278326
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 40000.0,
+   "f_hi_Hz": 50000.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.5140656858921482,
+      "f_hi": 0.6425821073651852
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 1022,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.16121292375688956,
+      "slack_nominal": 0.3635414118589383
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.1687132772212375,
+      "slack_nominal": 0.36540023181479125
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.1690424447683053,
+      "slack_nominal": 0.3778586483561126
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.18189735389353015,
+      "slack_nominal": 0.4011743025744578
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.19748960878051056,
+      "slack_nominal": 0.42933499262191926
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.13131459673647167,
+      "f_hi": 0.1641432459205896
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 11,
+    "n_possible": 241,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.06
+      },
+      "slack_pess": 0.1310684229082786,
+      "slack_nominal": 0.1310684229082786
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.06
+      },
+      "slack_pess": 0.08924858191545836,
+      "slack_nominal": 0.08924858191545836
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.738261,
+       "w": 0.06
+      },
+      "slack_pess": 0.06910325049935871,
+      "slack_nominal": 0.08807751806117571
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.713913,
+       "w": 0.06
+      },
+      "slack_pess": 0.060919667290182784,
+      "slack_nominal": 0.060919667290182784
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.543478,
+       "w": 0.06
+      },
+      "slack_pess": 0.04336724778639785,
+      "slack_nominal": 0.04336724778639785
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 45000.0,
+   "f_hi_Hz": 56250.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.5783238966286667,
+      "f_hi": 0.7229048707858333
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 989,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.2667571667962475,
+      "slack_nominal": 0.421913353751155
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.2734241476534457,
+      "slack_nominal": 0.4235656381563576
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.27371674102861704,
+      "slack_nominal": 0.43463978619308774
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.28514332691770583,
+      "slack_nominal": 0.42140342433242683
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.2990031090394662,
+      "slack_nominal": 0.3857263772500425
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.14772892132853063,
+      "f_hi": 0.1846611516606633
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 17,
+    "n_possible": 281,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.06
+      },
+      "slack_pess": 0.21527069690612421,
+      "slack_nominal": 0.21527069690612421
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.06
+      },
+      "slack_pess": 0.17809750491250623,
+      "slack_nominal": 0.17809750491250623
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.543478,
+       "w": 0.06
+      },
+      "slack_pess": 0.13731409679778578,
+      "slack_nominal": 0.13731409679778578
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.616522,
+       "w": 0.06
+      },
+      "slack_pess": 0.11123630234968931,
+      "slack_nominal": 0.11123630234968931
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.06
+      },
+      "slack_pess": 0.10982230103559078,
+      "slack_nominal": 0.10982230103559078
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 50000.0,
+   "f_hi_Hz": 62500.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.6425821073651852,
+      "f_hi": 0.8032276342064815
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 851,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.3511925612277339,
+      "slack_nominal": 0.3108712845567432
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.3571928439992122,
+      "slack_nominal": 0.3006707722929593
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.35745617803686647,
+      "slack_nominal": 0.2946685994271393
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.3677401053370463,
+      "slack_nominal": 0.26815197078807307
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.3802139092466307,
+      "slack_nominal": 0.23604262841392717
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.1641432459205896,
+      "f_hi": 0.205179057400737
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 27,
+    "n_possible": 324,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.06
+      },
+      "slack_pess": 0.23089729567214373,
+      "slack_nominal": 0.24917664331014452
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.06
+      },
+      "slack_pess": 0.19705309144757038,
+      "slack_nominal": 0.2826325161044007
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.543478,
+       "w": 0.06
+      },
+      "slack_pess": 0.19171385746502706,
+      "slack_nominal": 0.21247157600689612
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.06
+      },
+      "slack_pess": 0.1877289598209206,
+      "slack_nominal": 0.1877289598209206
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.51913,
+       "w": 0.06
+      },
+      "slack_pess": 0.1448743473660573,
+      "slack_nominal": 0.17299927804682272
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 55000.0,
+   "f_hi_Hz": 68750.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.7068403181017037,
+      "f_hi": 0.8835503976271296
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 664,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.42027606576258636,
+      "slack_nominal": 0.18160015767784735
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.4257308682821121,
+      "slack_nominal": 0.1723269647107711
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.4259702628617978,
+      "slack_nominal": 0.16687044392366196
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.43531928768014316,
+      "slack_nominal": 0.14276441788814723
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.4466591094161289,
+      "slack_nominal": 0.11357410663892369
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.18055757051264856,
+      "f_hi": 0.2256969631408107
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 21,
+    "n_possible": 376,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.06
+      },
+      "slack_pess": 0.2514707715543723,
+      "slack_nominal": 0.2514707715543723
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.06
+      },
+      "slack_pess": 0.2108952243678366,
+      "slack_nominal": 0.2108952243678366
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.312174,
+       "w": 0.06
+      },
+      "slack_pess": 0.20833525293650945,
+      "slack_nominal": 0.20833525293650945
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.06
+      },
+      "slack_pess": 0.15296602469009263,
+      "slack_nominal": 0.15296602469009263
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.072174
+      },
+      "slack_pess": 0.12392019498849588,
+      "slack_nominal": 0.12392019498849588
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 60000.0,
+   "f_hi_Hz": 75000.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.7710985288382222,
+      "f_hi": 0.9638731610477778
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 542,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.47784565287496344,
+      "slack_nominal": 0.0738742186121008
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.48284588851786203,
+      "slack_nominal": 0.06537379172561425
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.4830653335492406,
+      "slack_nominal": 0.06037198100409755
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.49163527296605714,
+      "slack_nominal": 0.03827479047154236
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.5020301095573775,
+      "slack_nominal": 0.011517005159754118
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.1969718951047075,
+      "f_hi": 0.2462148688808844
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 17,
+    "n_possible": 421,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.06
+      },
+      "slack_pess": 0.2968430303511715,
+      "slack_nominal": 0.3045889479989153
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.06
+      },
+      "slack_pess": 0.2673946964112575,
+      "slack_nominal": 0.2673946964112575
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.312174,
+       "w": 0.06
+      },
+      "slack_pess": 0.265048055932541,
+      "slack_nominal": 0.265048055932541
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.06
+      },
+      "slack_pess": 0.21429293003999222,
+      "slack_nominal": 0.21429293003999222
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.072174
+      },
+      "slack_pess": 0.18766758614686188,
+      "slack_nominal": 0.18766758614686188
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 65000.0,
+   "f_hi_Hz": 81250.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.8353567395747408,
+      "f_hi": 1.044195924468426
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 514,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.5265583804315902,
+      "slack_nominal": -0.017278499058915608
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.5311739825634967,
+      "slack_nominal": -0.025125046954133975
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.5313765472078461,
+      "slack_nominal": -0.029742103004764774
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.5392872605156768,
+      "slack_nominal": -0.05013950965020034
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.5488824942922801,
+      "slack_nominal": -0.0748390037841587
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.21338621969676647,
+      "f_hi": 0.26673277462095807
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 23,
+    "n_possible": 480,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.06
+      },
+      "slack_pess": 0.25265535487552176,
+      "slack_nominal": 0.2661849268745228
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.06
+      },
+      "slack_pess": 0.22381359068989257,
+      "slack_nominal": 0.31520194198645995
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.06
+      },
+      "slack_pess": 0.22370379148644298,
+      "slack_nominal": 0.22370379148644298
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.06
+      },
+      "slack_pess": 0.20651638566067143,
+      "slack_nominal": 0.20651638566067143
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.06
+      },
+      "slack_pess": 0.19022042550787985,
+      "slack_nominal": 0.19022042550787985
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 70000.0,
+   "f_hi_Hz": 87500.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.8996149503112593,
+      "f_hi": 1.124518687889074
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 465,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.5683121469086988,
+      "slack_nominal": -0.0954093999197866
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.5725980631740404,
+      "slack_nominal": -0.10269548010820366
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.572786158915222,
+      "slack_nominal": -0.10698274644093225
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.5801318212724934,
+      "slack_nominal": -0.1259231954688367
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.5890416812079108,
+      "slack_nominal": -0.14885844002179804
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.22980054428882543,
+      "f_hi": 0.2872506803610318
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 30,
+    "n_possible": 526,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.06
+      },
+      "slack_pess": 0.23515613449442077,
+      "slack_nominal": 0.25525727874840126
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.06
+      },
+      "slack_pess": 0.2128915800854169,
+      "slack_nominal": 0.24012531574938054
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.06
+      },
+      "slack_pess": 0.1848279343686045,
+      "slack_nominal": 0.27121701272947485
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.06
+      },
+      "slack_pess": 0.15524346444790502,
+      "slack_nominal": 0.31066378130412037
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.06
+      },
+      "slack_pess": 0.12846182627553504,
+      "slack_nominal": 0.3561795810509192
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 75000.0,
+   "f_hi_Hz": 93750.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.9638731610477778,
+      "f_hi": 1.2048414513097223
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 344,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.5714359364761037,
+      "slack_nominal": -0.16161263261994746
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.604498744522193,
+      "slack_nominal": -0.16312284733254165
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6084989330365118,
+      "slack_nominal": -0.1699231888417309
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6086744890616147,
+      "slack_nominal": -0.17392463741894426
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6155304405950679,
+      "slack_nominal": -0.19160238984498842
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.2462148688808844,
+      "f_hi": 0.30776858610110547
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 36,
+    "n_possible": 571,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.112174
+      },
+      "slack_pess": 0.16805147685285188,
+      "slack_nominal": 0.16805147685285188
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.06
+      },
+      "slack_pess": 0.14540498478738542,
+      "slack_nominal": 0.29749938609110044
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.112174
+      },
+      "slack_pess": 0.12786255099273963,
+      "slack_nominal": 0.12786255099273963
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.713913,
+       "w": 0.112174
+      },
+      "slack_pess": 0.12588054234225443,
+      "slack_nominal": 0.12588054234225443
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.06
+      },
+      "slack_pess": 0.12462473400564845,
+      "slack_nominal": 0.2833762206253478
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 80000.0,
+   "f_hi_Hz": 100000.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.0281313717842964,
+      "f_hi": 1.2851642147303703
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 245,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6051656348907917,
+      "slack_nominal": -0.12296847455163604
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6361620174340004,
+      "slack_nominal": -0.22237211381870217
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6399121941661743,
+      "slack_nominal": -0.2287474339835671
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6400767779397082,
+      "slack_nominal": -0.17974670373096782
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6465042325023206,
+      "slack_nominal": -0.14238182891605972
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.26262919347294333,
+      "f_hi": 0.3282864918411792
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 37,
+    "n_possible": 616,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.112174
+      },
+      "slack_pess": 0.2131038151051041,
+      "slack_nominal": 0.2131038151051041
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.112174
+      },
+      "slack_pess": 0.1754266971112489,
+      "slack_nominal": 0.1754266971112489
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.616522,
+       "w": 0.112174
+      },
+      "slack_pess": 0.16400713224318683,
+      "slack_nominal": 0.16400713224318683
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.312174,
+       "w": 0.108696
+      },
+      "slack_pess": 0.14048093325151534,
+      "slack_nominal": 0.14048093325151534
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.543478,
+       "w": 0.112174
+      },
+      "slack_pess": 0.13764804178898776,
+      "slack_nominal": 0.13764804178898776
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 85000.0,
+   "f_hi_Hz": 106250.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.0923895825208148,
+      "f_hi": 1.3654869781510186
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 138,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.634927133491987,
+      "slack_nominal": -0.1306155240239642
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.664100199415007,
+      "slack_nominal": -0.15808883211456354
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6676297775158766,
+      "slack_nominal": -0.1983406501200039
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6677846798909673,
+      "slack_nominal": -0.1168857865180352
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6738340488910731,
+      "slack_nominal": -0.08171884551576875
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.2790435180650023,
+      "f_hi": 0.34880439758125287
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 41,
+    "n_possible": 671,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.112174
+      },
+      "slack_pess": 0.25285587826885625,
+      "slack_nominal": 0.25285587826885625
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.112174
+      },
+      "slack_pess": 0.21739506133346312,
+      "slack_nominal": 0.21739506133346312
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.616522,
+       "w": 0.112174
+      },
+      "slack_pess": 0.20664723557528705,
+      "slack_nominal": 0.20664723557528705
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.312174,
+       "w": 0.108696
+      },
+      "slack_pess": 0.1845049306419492,
+      "slack_nominal": 0.1845049306419492
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.543478,
+       "w": 0.112174
+      },
+      "slack_pess": 0.18183867985368796,
+      "slack_nominal": 0.18183867985368796
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 90000.0,
+   "f_hi_Hz": 112500.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.1566477932573334,
+      "f_hi": 1.4458097415716666
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 71,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6613817989152716,
+      "slack_nominal": -0.14822047160461307
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6889341389536793,
+      "slack_nominal": -0.09992340316992722
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6922676293822784,
+      "slack_nominal": -0.13793900906395423
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6924139260698641,
+      "slack_nominal": -0.0610094156620949
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6981272190144084,
+      "slack_nominal": -0.027796193604398802
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.29545784265706126,
+      "f_hi": 0.3693223033213266
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 52,
+    "n_possible": 714,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.112174
+      },
+      "slack_pess": 0.25470027397543116,
+      "slack_nominal": 0.25470027397543116
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.312174,
+       "w": 0.108696
+      },
+      "slack_pess": 0.2236373727667791,
+      "slack_nominal": 0.2236373727667791
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.543478,
+       "w": 0.112174
+      },
+      "slack_pess": 0.22111924702231014,
+      "slack_nominal": 0.22111924702231014
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.112174
+      },
+      "slack_pess": 0.2197132673402483,
+      "slack_nominal": 0.28819104552552466
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.125217
+      },
+      "slack_pess": 0.20275496044915842,
+      "slack_nominal": 0.21791518021483172
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 95000.0,
+   "f_hi_Hz": 118750.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.2209060039938517,
+      "f_hi": 1.526132504992315
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 33,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.6850517627150526,
+      "slack_nominal": -0.19889892631548145
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7111539795935442,
+      "slack_nominal": -0.05551688099229261
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7143120231574801,
+      "slack_nominal": -0.12593598846646967
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7144506200194034,
+      "slack_nominal": -0.030711986638937473
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7198632133352876,
+      "slack_nominal": -0.034358094972415605
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.3118721672491202,
+      "f_hi": 0.38984020906140027
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 54,
+    "n_possible": 755,
+    "best": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.112174
+      },
+      "slack_pess": 0.20053035465008717,
+      "slack_nominal": 0.288078622128771
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.312174,
+       "w": 0.108696
+      },
+      "slack_pess": 0.19973044404928056,
+      "slack_nominal": 0.25865061045741644
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.17856366615200292,
+      "slack_nominal": 0.17856366615200292
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.543478,
+       "w": 0.112174
+      },
+      "slack_pess": 0.16129086286325786,
+      "slack_nominal": 0.2562650176468669
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.125217
+      },
+      "slack_pess": 0.15604067459567925,
+      "slack_nominal": 0.2197172797619487
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 100000.0,
+   "f_hi_Hz": 125000.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.2851642147303703,
+      "f_hi": 1.606455268412963
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 25,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7063547301348555,
+      "slack_nominal": -0.2057973305299388
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7311518361694226,
+      "slack_nominal": -0.10829659249823347
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7341519775551617,
+      "slack_nominal": -0.1159905508941062
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7342836445739888,
+      "slack_nominal": -0.08473194286254608
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7394256082240788,
+      "slack_nominal": -0.0881957457793503
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.3282864918411792,
+      "f_hi": 0.410358114801474
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 44,
+    "n_possible": 796,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.21407992728884728,
+      "slack_nominal": 0.21407992728884728
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": 0.1866052800532275,
+      "slack_nominal": 0.1866052800532275
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.17233590083457015,
+      "slack_nominal": 0.17233590083457015
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": 0.13724730779954541,
+      "slack_nominal": 0.13724730779954541
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.112174
+      },
+      "slack_pess": 0.13494828136202713,
+      "slack_nominal": 0.31811913546677695
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 105000.0,
+   "f_hi_Hz": 131250.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.349422425466889,
+      "f_hi": 1.6867780318336112
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 16,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7256288435146773,
+      "slack_nominal": -0.15366941531951836
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7492451349761696,
+      "slack_nominal": -0.11604936960568721
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7521024124863974,
+      "slack_nominal": -0.16337724423777317
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.752227809647185,
+      "slack_nominal": -0.13350408010497974
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.757124917885366,
+      "slack_nominal": -0.1261573978573154
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.34470081643323813,
+      "f_hi": 0.43087602054154767
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 33,
+    "n_possible": 827,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.2462136873650397,
+      "slack_nominal": 0.2462136873650397
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": 0.22004735666444944,
+      "slack_nominal": 0.22004735666444944
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.2064574716942996,
+      "slack_nominal": 0.2064574716942996
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": 0.17303976404189506,
+      "slack_nominal": 0.17303976404189506
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.415652,
+       "w": 0.108696
+      },
+      "slack_pess": 0.16636602166945721,
+      "slack_nominal": 0.16636602166945721
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 110000.0,
+   "f_hi_Hz": 137500.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.4136806362034073,
+      "f_hi": 1.7671007952542592
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 8,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7431507647690606,
+      "slack_nominal": -0.10628040149186357
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7656935884368486,
+      "slack_nominal": -0.1485665081652461
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7684209896966117,
+      "slack_nominal": -0.20310566491741783
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7685406869864545,
+      "slack_nominal": -0.13438445857395198
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7732151993956271,
+      "slack_nominal": -0.14220014806274756
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.3611151410252971,
+      "f_hi": 0.4513939262816214
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 30,
+    "n_possible": 861,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.22410734805659555,
+      "slack_nominal": 0.237477081566781
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": 0.2055783606258494,
+      "slack_nominal": 0.2055783606258494
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.20167052251118253,
+      "slack_nominal": 0.2754261965252147
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": 0.18877608659677314,
+      "slack_nominal": 0.18877608659677314
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": 0.18614473134668785,
+      "slack_nominal": 0.18614473134668785
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 115000.0,
+   "f_hi_Hz": 143750.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.477938846939926,
+      "f_hi": 1.8474235586749075
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 2,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7591490406969759,
+      "slack_nominal": -0.06301217147530906
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7807117415965993,
+      "slack_nominal": -0.19041627351071855
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7833205601928942,
+      "slack_nominal": -0.1556276408388827
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.783435053252744,
+      "slack_nominal": -0.17685083477121982
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7879063259919525,
+      "slack_nominal": -0.18432671167354603
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.37752946561735606,
+      "f_hi": 0.47191183202169507
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 25,
+    "n_possible": 894,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": 0.19125782721398532,
+      "slack_nominal": 0.21669882515287048
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": 0.18297539578515917,
+      "slack_nominal": 0.23528751402859022
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": 0.1763639791002376,
+      "slack_nominal": 0.21921577365295206
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.1660543715710432,
+      "slack_nominal": 0.26579933405904654
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.14459306017977855,
+      "slack_nominal": 0.30209848749754836
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 120000.0,
+   "f_hi_Hz": 150000.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.5421970576764443,
+      "f_hi": 1.9277463220955555
+     }
+    },
+    "verdict": "NOT_FOUND_IN_FAMILIES",
+    "n_clear": 0,
+    "n_possible": 0,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7738141269642315,
+      "slack_nominal": -0.07285267121785753
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7944783819930373,
+      "slack_nominal": -0.22877855841073486
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7969784998144865,
+      "slack_nominal": -0.1121061187668923
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7970882223301758,
+      "slack_nominal": -0.2157783462853819
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8013731920385841,
+      "slack_nominal": -0.22294272831677786
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.393943790209415,
+      "f_hi": 0.4924297377617688
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 17,
+    "n_possible": 936,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": 0.1369924547837729,
+      "slack_nominal": 0.24470674447520452
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": 0.12905512466448116,
+      "slack_nominal": 0.2625209046477693
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": 0.12271918367476467,
+      "slack_nominal": 0.24711882012111605
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.11283914312595335,
+      "slack_nominal": 0.29176139884362323
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.09227205304265808,
+      "slack_nominal": 0.32654808755552084
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 125000.0,
+   "f_hi_Hz": 156250.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.606455268412963,
+      "f_hi": 2.0080690855162038
+     }
+    },
+    "verdict": "NOT_FOUND_IN_FAMILIES",
+    "n_clear": 0,
+    "n_possible": 0,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7873060063301067,
+      "slack_nominal": -0.11438300881358773
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8071436911577603,
+      "slack_nominal": -0.26407186051875
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8095438042663516,
+      "slack_nominal": -0.1397827546750869
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8096491378814132,
+      "slack_nominal": -0.2515916568784111
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8137627088014853,
+      "slack_nominal": -0.2584694636285512
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.410358114801474,
+      "f_hi": 0.5129476435018425
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 11,
+    "n_possible": 959,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": 0.08706831214797746,
+      "slack_nominal": 0.27047403025175193
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": 0.0794484752334574,
+      "slack_nominal": 0.2875756240174141
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": 0.07336597188332956,
+      "slack_nominal": 0.272789622871827
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.0638811329564707,
+      "slack_nominal": 0.3156464984454339
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.04413672647650724,
+      "slack_nominal": 0.3490417196088556
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 130000.0,
+   "f_hi_Hz": 162500.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.6707134791494815,
+      "f_hi": 2.088391848936852
+     }
+    },
+    "verdict": "NOT_FOUND_IN_FAMILIES",
+    "n_clear": 0,
+    "n_possible": 0,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.7997600488216838,
+      "slack_nominal": -0.1527187050558002
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8188347457713507,
+      "slack_nominal": -0.29665029323384084
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8211425468373039,
+      "slack_nominal": -0.17714153761493404
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8212438291594786,
+      "slack_nominal": -0.2846500974258227
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8251991858133939,
+      "slack_nominal": -0.29126337314711126
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.42677243939353293,
+      "f_hi": 0.5334655492419161
+     }
+    },
+    "verdict": "FEASIBLE",
+    "n_clear": 4,
+    "n_possible": 981,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": 0.040984488176474224,
+      "slack_nominal": 0.29425921712241104
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": 0.033657721912512636,
+      "slack_nominal": 0.31070305728170156
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": 0.027809160998928183,
+      "slack_nominal": 0.29648574848786785
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": 0.018689123569256186,
+      "slack_nominal": 0.3376942826932591
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.0002958826614779111,
+      "slack_nominal": 0.36980507227347226
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 135000.0,
+   "f_hi_Hz": 168750.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.734971689886,
+      "f_hi": 2.1687146123575
+     }
+    },
+    "verdict": "NOT_FOUND_IN_FAMILIES",
+    "n_clear": 0,
+    "n_possible": 0,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.811291569647218,
+      "slack_nominal": -0.18821472009488566
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8296597963394899,
+      "slack_nominal": -0.3268155087107766
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8318821232918893,
+      "slack_nominal": -0.21173300329997746
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8319796544169463,
+      "slack_nominal": -0.31525976459935173
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.835788516379976,
+      "slack_nominal": -0.32162810418281484
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.4431867639855919,
+      "f_hi": 0.5539834549819899
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 998,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.0016857192045475113,
+      "slack_nominal": 0.3162825382989473
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.008741123755029041,
+      "slack_nominal": 0.3321173473412271
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.014373071301443703,
+      "slack_nominal": 0.31842660553975755
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.02315532956705377,
+      "slack_nominal": 0.35810889773754173
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.04143718741887179,
+      "slack_nominal": 0.389030398814784
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 140000.0,
+   "f_hi_Hz": 175000.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.7992299006225185,
+      "f_hi": 2.249037375778148
+     }
+    },
+    "verdict": "NOT_FOUND_IN_FAMILIES",
+    "n_clear": 0,
+    "n_possible": 0,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8219994104137857,
+      "slack_nominal": -0.22117530548832232
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8397116290099049,
+      "slack_nominal": -0.35482606593936
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8418545871425758,
+      "slack_nominal": -0.243853650007518
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8419486350131665,
+      "slack_nominal": -0.34368302697477177
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8456214661918022,
+      "slack_nominal": -0.34982392585882544
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.45960108857765086,
+      "f_hi": 0.5745013607220636
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 1028,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.04130805462978198,
+      "slack_nominal": 0.3367327651057309
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.048111480446317745,
+      "slack_nominal": 0.35200204525364354
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.053542287008931884,
+      "slack_nominal": 0.33880025851651224
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.062010893193627306,
+      "slack_nominal": 0.37706532599294695
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.07963982755073754,
+      "slack_nominal": 0.40688248774600205
+     }
+    ]
+   }
+  },
+  {
+   "f_lo_Hz": 145000.0,
+   "f_hi_Hz": 181250.0,
+   "PA12": {
+    "norm": {
+     "gap": {
+      "f_lo": 1.863488111359037,
+      "f_hi": 2.3293601391987964
+     }
+    },
+    "verdict": "NOT_FOUND_IN_FAMILIES",
+    "n_clear": 0,
+    "n_possible": 0,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.326957,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8319687794033486,
+      "slack_nominal": -0.25186274706152195
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8490702318409811,
+      "slack_nominal": -0.3809048606004549
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8511392948656287,
+      "slack_nominal": -0.27375907970074537
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8512300997061991,
+      "slack_nominal": -0.3701460643587835
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.8547762815338473,
+      "slack_nominal": -0.37607520810890427
+     }
+    ]
+   },
+   "316L": {
+    "norm": {
+     "gap": {
+      "f_lo": 0.4760154131697098,
+      "f_hi": 0.5950192664621373
+     }
+    },
+    "verdict": "BORDERLINE",
+    "n_clear": 0,
+    "n_possible": 1038,
+    "best": [
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.356522,
+       "w": 0.108696
+      },
+      "slack_pess": -0.07819781519810373,
+      "slack_nominal": 0.35577263144308113
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.371304,
+       "w": 0.108696
+      },
+      "slack_pess": -0.08476664012441412,
+      "slack_nominal": 0.37051538468934164
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.341739,
+       "w": 0.108696
+      },
+      "slack_pess": -0.09001017749521398,
+      "slack_nominal": 0.3577688319776286
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.386087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.09818676277698887,
+      "slack_nominal": 0.39471441436866905
+     },
+     {
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      },
+      "slack_pess": -0.11520780284592289,
+      "slack_nominal": 0.42350339813023946
+     }
+    ]
+   }
+  }
+ ],
+ "mount_chosen": null,
+ "filter_chosen": null
+}

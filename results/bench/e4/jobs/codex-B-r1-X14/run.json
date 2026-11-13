@@ -1,0 +1,33 @@
+{
+ "brief": "X14",
+ "arm": "B",
+ "profile": "B",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 29.7,
+ "usage": {
+  "input_tokens": 75097,
+  "cached_input_tokens": 61184,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 887,
+  "reasoning_output_tokens": 282
+ },
+ "final": "The request is **proven infeasible** under the tool\u2019s 316L model (solid Young\u2019s modulus 193 GPa). At 14% solid fraction, the theoretical upper bound on axial Young\u2019s modulus is **27.02 GPa**, below your 36.5 GPa target. Reaching that target requires at least **18.91% solid fraction**, and actual lattice designs may require more.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-B-r1-X14",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.1,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

@@ -1,0 +1,19 @@
+{
+ "brief": "A02",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 240.7,
+ "usage": {
+  "input_tokens": 739247,
+  "cached_input_tokens": 720640,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1787,
+  "reasoning_output_tokens": 315
+ },
+ "final": "Released a certified 12 mm Ti6Al4V sphere-and-ligament unit cell with parameters \\(c=0.312174a\\), \\(w=0.108696a\\). Its complete band gap covers **68.6\u2013114 kHz**, and robustness checks passed for geometry offsets of \u00b10.12 mm.",
+ "stderr_tail": "2026-11-05T20:51:41.539967Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command \\\\\\\"rg --files -g '*amm*' -g '*tool*' -g 'AGENTS.md' -g 'README*' -g '*.json' -g '*.py'\\\\\\\"` rejected: blocked by policy\\\")\" }\n"
+}

@@ -1,0 +1,1 @@
+Submitted **need_info**. The requirements are recorded as Ti6Al4V LPBF, ≤29% solid volume, and C44 ≥6.51 GPa. The unit-cell edge length is still needed to assess printable feature dimensions; no design was released.

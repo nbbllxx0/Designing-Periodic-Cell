@@ -1,0 +1,1 @@
+No design released; more information is needed. The stiffness requirement is confirmed as C44 ≥ 6.51 GPa, but the unit-cell edge length is still needed to assess LPBF feature dimensions and printability.

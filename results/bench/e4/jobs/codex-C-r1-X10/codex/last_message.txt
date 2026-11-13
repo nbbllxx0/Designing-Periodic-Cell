@@ -1,0 +1,1 @@
+The amm verdict is **PROVEN_INFEASIBLE**; no design was released. Using its 316L modulus of 193 GPa, the rigorous upper bound at 12% solid is **23.16 GPa**, below your 25.1 GPa requirement. Reaching 25.1 GPa requires at least **13.01% solid**, and actual designs may require more.

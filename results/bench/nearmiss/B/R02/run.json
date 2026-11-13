@@ -1,0 +1,19 @@
+{
+ "brief": "R02",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 199.6,
+ "usage": {
+  "input_tokens": 532142,
+  "cached_input_tokens": 489984,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1727,
+  "reasoning_output_tokens": 524
+ },
+ "final": "No design released; verdict: **UNDETERMINED**. A 316L Schwarz P sheet at approximately 16% solid fraction nominally predicts C44 = 6.116 GPa, but its calibrated estimate is about 5.902 GPa, below your 6.07 GPa minimum. No reliable passing design was found; infeasibility has not been proven.",
+ "stderr_tail": "2026-11-06T11:29:59.399053Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

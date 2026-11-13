@@ -1,0 +1,19 @@
+{
+ "brief": "G02",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 245.3,
+ "usage": {
+  "input_tokens": 734185,
+  "cached_input_tokens": 693632,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2088,
+  "reasoning_output_tokens": 577
+ },
+ "final": "Released a 12 mm Ti-6Al-4V sphere-and-ligament unit cell with normalized parameters **c = 0.312174** and **w = 0.108696**. Its certified full 3D elastic band gap spans **59.04\u2013121.94 kHz**, covering the required **68.6\u2013114 kHz** for all propagation directions and polarizations.",
+ "stderr_tail": "2026-11-05T19:16:53.347249Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

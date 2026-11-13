@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":null,"targets":{"density_max":0.27,"E100_min":{"value":23.7,"unit":"GPa"},"nu100_max":0.12},"verdict":"UNDETERMINED","note":"Without verified homogenized elastic tensors, I cannot establish a design in the listed families that meets all three targets or prove that none exists."}

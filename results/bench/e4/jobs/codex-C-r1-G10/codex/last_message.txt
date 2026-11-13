@@ -1,0 +1,1 @@
+Released a certified 5 mm 316L sphere-and-ligament unit cell with normalized parameters **c = 0.402036**, **w = 0.060598**. Its complete elastic band gap covers **141–384 kHz**, across all directions and polarizations. LPBF manufacturability was not evaluated.

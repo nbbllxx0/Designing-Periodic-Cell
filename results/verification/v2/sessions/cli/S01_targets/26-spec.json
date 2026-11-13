@@ -1,0 +1,12 @@
+{
+ "material": {
+  "name": "316L"
+ },
+ "targets": {
+  "gap": {
+   "f_lo": 2.5,
+   "f_hi": 3.0,
+   "unit": "f*"
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "brief": "P4",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 867.7,
+ "usage": {
+  "input_tokens": 2409947,
+  "cached_input_tokens": 2341632,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 4577,
+  "reasoning_output_tokens": 1671
+ },
+ "final": "Released a certified 316L Schwarz P sheet unit cell at 25.5% nominal solid fraction. Guarded bounds satisfy all targets: solid fraction \u226425.501%, axial Young\u2019s modulus \u226512.307 GPa, and shear modulus \u226510.228 GPa. The design fails the tool\u2019s erosion robustness check, so certification applies to the nominal geometry.",
+ "stderr_tail": "2026-11-05T07:43:25.454640Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

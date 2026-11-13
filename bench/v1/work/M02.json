@@ -1,0 +1,113 @@
+{
+ "id": "M02",
+ "attempts": [
+  {
+   "request": {
+    "density_max": 0.32,
+    "G_min": [
+     5.96,
+     "MPa"
+    ],
+    "gap": {
+     "f_lo": [
+      16.6,
+      "kHz"
+     ],
+     "f_hi": [
+      27.6,
+      "kHz"
+     ]
+    }
+   },
+   "normalized": {
+    "density_max": 0.32,
+    "G_min": 0.0035058823529411764,
+    "gap": {
+     "f_lo": 0.42667451929048295,
+     "f_hi": 0.7094106465311645
+    }
+   },
+   "verdict": "certified",
+   "seconds": 1431.9,
+   "static_rung": [
+    64,
+    80,
+    96
+   ],
+   "static_bounds": {
+    "density": {
+     "lower": 0.27999999707912987,
+     "upper": 0.2800591505963353
+    },
+    "E100": {
+     "lower": 0.04324564520702999,
+     "upper": 0.04527455395947082
+    },
+    "G": {
+     "lower": 0.0035799451873629127,
+     "upper": 0.004250572456215374
+    },
+    "bulk": {
+     "lower": 0.015615849481911342,
+     "upper": 0.01641249085195882
+    },
+    "nu100": {
+     "lower": 0.03850319390514077,
+     "upper": 0.04024446568953975
+    }
+   },
+   "safe_interval": [
+    0.29189540042188244,
+    0.905528074579131
+   ],
+   "spec_hash": "c164039ca1167141",
+   "spec": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.40087,
+     "w": 0.145217
+    }
+   },
+   "pass_": 1
+  }
+ ],
+ "final": {
+  "spec": {
+   "family": "resonator",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.40087,
+    "w": 0.145217
+   }
+  },
+  "request": {
+   "density_max": 0.32,
+   "G_min": [
+    5.96,
+    "MPa"
+   ],
+   "gap": {
+    "f_lo": [
+     16.6,
+     "kHz"
+    ],
+    "f_hi": [
+     27.6,
+     "kHz"
+    ]
+   }
+  },
+  "normalized": {
+   "density_max": 0.32,
+   "G_min": 0.0035058823529411764,
+   "gap": {
+    "f_lo": 0.42667451929048295,
+    "f_hi": 0.7094106465311645
+   }
+  },
+  "verdict": "certified",
+  "passes": 1
+ },
+ "seconds": 1431.9
+}

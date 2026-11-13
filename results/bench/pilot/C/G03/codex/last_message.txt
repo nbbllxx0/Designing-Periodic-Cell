@@ -1,0 +1,1 @@
+Released a certified sphere-and-ligament PA12 cell, size 10 mm, with normalized parameters **c = 0.365407** and **w = 0.106886**. Its complete 3D band gap covers **44–54.6 kHz** for all elastic-wave directions and polarizations. The ±0.1 mm geometry-offset robustness checks also passed.

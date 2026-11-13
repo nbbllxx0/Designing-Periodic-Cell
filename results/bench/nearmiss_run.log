@@ -1,0 +1,33 @@
+03:15:07 start B R01
+03:18:14 done  B R01 rc=0 wall=186.6s
+03:18:14 start C R01
+03:29:50 done  C R01 rc=0 wall=696.2s
+03:29:50 start B R02
+03:33:10 done  B R02 rc=0 wall=199.6s
+03:33:10 start C R02
+03:40:15 done  C R02 rc=0 wall=425.5s
+03:40:15 start B R03
+03:45:02 done  B R03 rc=0 wall=286.4s
+03:45:02 start C R03
+04:16:19 done  C R03 rc=0 wall=1877.7s
+04:16:19 start B R04
+04:20:37 done  B R04 rc=0 wall=258.1s
+04:20:37 start C R04
+04:34:53 done  C R04 rc=0 wall=855.5s
+04:34:53 start B R05
+04:38:16 done  B R05 rc=0 wall=202.6s
+04:38:16 start C R05
+04:54:14 done  C R05 rc=0 wall=958.9s
+04:54:14 start B R06
+04:57:17 done  B R06 rc=0 wall=182.4s
+04:57:17 start C R06
+05:05:46 done  C R06 rc=0 wall=508.9s
+05:05:46 start B R07
+05:08:44 done  B R07 rc=0 wall=178.1s
+05:08:44 start C R07
+05:18:48 done  C R07 rc=0 wall=604.5s
+05:18:48 start B R08
+05:22:10 done  B R08 rc=0 wall=202.0s
+05:22:10 start C R08
+05:36:41 done  C R08 rc=0 wall=870.8s
+all sessions done; code 692363aa91ab4158

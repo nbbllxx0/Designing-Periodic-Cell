@@ -1,0 +1,27 @@
+{
+ "key": "e3ea2a25fc5ff1f5",
+ "checker": "f2e482d81382b400",
+ "spec": {
+  "family": "tpms",
+  "kind": "diamond",
+  "params": {
+   "density": 0.24,
+   "mode": "sheet"
+  }
+ },
+ "targets": {
+  "density_max": 0.36,
+  "bulk_min": 0.04818652849740933
+ },
+ "nu": 0.3,
+ "verdict": "certified",
+ "seconds": 99.0,
+ "static_verdict": {
+  "verdict": "certified",
+  "targets": {
+   "density_max": "certified",
+   "bulk_min": "certified"
+  }
+ },
+ "gap_verdict": null
+}

@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. After 192 search evaluations, a promising candidate remained uncertified, with uncertain coverage of the full 92.8–114 kHz gap. The available amm tools cannot certify compliance; infeasibility has not been proven.

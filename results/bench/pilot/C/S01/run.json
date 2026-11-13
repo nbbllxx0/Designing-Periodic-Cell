@@ -1,0 +1,19 @@
+{
+ "brief": "S01",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 261.3,
+ "usage": {
+  "input_tokens": 810120,
+  "cached_input_tokens": 777344,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1976,
+  "reasoning_output_tokens": 659
+ },
+ "final": "Released a certified 316L cube-and-bars design with \\(c=0.51913a\\) and \\(w=0.36a\\). Guarded bounds give relative density \u226432.74% and cube-axis Young\u2019s modulus \u226531.19 GPa. Certification covers nominal geometry; the tested erosion offset failed robustness.",
+ "stderr_tail": "2026-11-05T18:34:14.230184Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

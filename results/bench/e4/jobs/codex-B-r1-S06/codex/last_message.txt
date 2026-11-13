@@ -1,0 +1,1 @@
+No design released; verdict **UNDETERMINED**. Promising PA12 candidates met the 18% density and 132 MPa stiffness limits in search estimates, but conservative estimates fell short, and certification was unavailable. This does not establish infeasibility.

@@ -1,0 +1,1 @@
+Released a PA12 sphere-and-ligament cell with normalized parameters c = 0.260413 and w = 0.266768. Predicted solid fraction is 16.01%, axial Young’s modulus is 122.86 MPa, and C44 is 7.56 MPa, meeting all requested limits. These are uncertified search estimates.

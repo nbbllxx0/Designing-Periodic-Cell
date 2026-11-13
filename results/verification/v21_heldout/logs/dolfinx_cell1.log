@@ -1,0 +1,43 @@
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/ho_cb_c0.6191_w0.0657_nu0.3.json --deg 2 --nev 10 --model exact --n 10  --mode search  --out results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/search.json
+wrote results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/search.json (522.1 s)
+<< 0 in 523 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/ho_cb_c0.6191_w0.0657_nu0.3.json --deg 2 --nev 10 --model exact --n 10 --split --ks results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/ks_all.json --out results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n10.json
+wrote results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n10.json (28.6 s)
+<< 0 in 30 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/ho_cb_c0.6191_w0.0657_nu0.3.json --deg 2 --nev 10 --model exact --n 15 --split --ks results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/ks_all.json --out results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n15.json
+wrote results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n15.json (69.4 s)
+<< 0 in 71 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/ho_cb_c0.6191_w0.0657_nu0.3.json --deg 2 --nev 10 --model exact --n 20 --ks '[3.141592653589793, 3.141592653589793, 3.141592653589793]' --out results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n20_k0.json
+k/pi=[1.0, 1.0, 1.0] f[nb-1:nb+1]=[0.10457617351781567, 0.5791417045254246] t=11.6s
+wrote results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n20_k0.json (12.8 s)
+<< 0 in 14 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/ho_cb_c0.6191_w0.0657_nu0.3.json --deg 2 --nev 10 --model exact --n 20 --ks '[3.141592653589793, 3.1385974736087876, 3.1385974736087876]' --out results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n20_k1.json
+k/pi=[1.0, 0.999, 0.999] f[nb-1:nb+1]=[0.10457616721023572, 0.579141700191887] t=11.8s
+wrote results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n20_k1.json (13.1 s)
+<< 0 in 14 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/ho_cb_c0.6191_w0.0657_nu0.3.json --deg 2 --nev 10 --model exact --n 20 --ks '[3.1317751765473254, 0.0, 0.0]' --out results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n20_k2.json
+k/pi=[0.9969, 0.0, 0.0] f[nb-1:nb+1]=[0.10138431179798892, 0.5753435848839531] t=14.1s
+wrote results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n20_k2.json (15.3 s)
+<< 0 in 17 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/ho_cb_c0.6191_w0.0657_nu0.3.json --deg 2 --nev 10 --model exact --n 20 --ks '[3.141592653589793, 0.0, 0.0]' --out results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n20_k3.json
+k/pi=[1.0, 0.0, 0.0] f[nb-1:nb+1]=[0.10138555298718582, 0.5753435848839513] t=14.4s
+wrote results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n20_k3.json (15.6 s)
+<< 0 in 17 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/ho_cb_c0.6191_w0.0657_nu0.3.json --deg 2 --nev 10 --model exact --n 20 --ks '[0.0, 0.0, 0.0]' --out results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n20_k4.json
+k/pi=[0.0, 0.0, 0.0] f[nb-1:nb+1]=[0.04754092852774301, 0.575343584883954] t=11.1s
+wrote results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n20_k4.json (12.2 s)
+<< 0 in 13 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/ho_cb_c0.6191_w0.0657_nu0.3.json --deg 2 --nev 10 --model exact --n 20 --ks '[3.141592653589793, 3.141592653589793, 0.0]' --out results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n20_k5.json
+k/pi=[1.0, 1.0, 0.0] f[nb-1:nb+1]=[0.1029844075418251, 0.5789531240275905] t=12.9s
+wrote results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n20_k5.json (14.1 s)
+<< 0 in 15 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/ho_cb_c0.6191_w0.0657_nu0.3.json --deg 2 --nev 10 --model exact --n 30 --ks '[3.141592653589793, 3.141592653589793, 3.141592653589793]' --out results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n30_k0.json
+k/pi=[1.0, 1.0, 1.0] f[nb-1:nb+1]=[0.10416145525656574, 0.5632736574981368] t=49.1s
+wrote results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n30_k0.json (50.4 s)
+<< 0 in 52 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/ho_cb_c0.6191_w0.0657_nu0.3.json --deg 2 --nev 10 --model exact --n 30 --ks '[3.141592653589793, 0.0, 0.0]' --out results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n30_k1.json
+k/pi=[1.0, 0.0, 0.0] f[nb-1:nb+1]=[0.10107269134982769, 0.5598958246537842] t=57.8s
+wrote results/verification/dolfinx/raw/ho_cb_c0.6191_w0.0657_nu0.3/q2_n30_k1.json (59.0 s)
+<< 0 in 60 s
+done ho_cb_c0.6191_w0.0657_nu0.3 {'search': 523.3, 'q2_n10': 29.8, 'q2_n15': 70.6, 'q2_n20_k0': 14.1, 'q2_n20_k1': 14.3, 'q2_n20_k2': 16.6, 'q2_n20_k3': 16.7, 'q2_n20_k4': 13.5, 'q2_n20_k5': 15.2, 'q2_n30_k0': 51.7, 'q2_n30_k1': 60.2}
+ho_cb_c0.6191_w0.0657_nu0.3 exit 0

@@ -1,0 +1,56 @@
+{
+ "calls": [
+  {
+   "args": {
+    "E100_min": {
+     "unit": "GPa",
+     "value": 5.0
+    }
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [
+     "E100_min given in GPa but no material: cannot normalize by E_s"
+    ],
+    "normalized": {},
+    "targets": {
+     "E100_min": [
+      5.0,
+      "GPa"
+     ]
+    }
+   },
+   "seq": 1,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "error": "no targets that can be normalized yet: E100_min given in GPa but no material: cannot normalize by E_s",
+   "ok": false,
+   "seq": 2,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": {
+  "error": "no targets that can be normalized yet: E100_min given in GPa but no material: cannot normalize by E_s",
+  "tool": "check_bounds"
+ },
+ "ok": false,
+ "profile": "C",
+ "result": {
+  "cannot_normalize_yet": [
+   "E100_min given in GPa but no material: cannot normalize by E_s"
+  ],
+  "normalized": {},
+  "targets": {
+   "E100_min": [
+    5.0,
+    "GPa"
+   ]
+  }
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S03_underspecified\\01-check-bounds"
+}

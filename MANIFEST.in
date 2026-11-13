@@ -1,0 +1,7 @@
+# sdist contents (plan B7). The wheel holds only the amm package and amm/data_manifest.json (pyproject.toml).
+include LICENSE CITATION.cff README.md pyproject.toml
+recursive-include tests *.py
+recursive-include docs *.md *.py
+recursive-include examples *.py *.log *.json *.jsonl
+global-exclude *.stl *.pyc
+prune **/__pycache__

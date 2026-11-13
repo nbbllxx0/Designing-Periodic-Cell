@@ -1,0 +1,1 @@
+No design was released: **NOT_FOUND_IN_FAMILIES**. The atlas and 80-evaluation search found no 316L cell meeting both ≤12% solid volume and ≥16.2 GPa Young’s modulus along all three axes. This does not prove impossibility. LPBF manufacturability was not evaluated.

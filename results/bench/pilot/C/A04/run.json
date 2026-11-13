@@ -1,0 +1,19 @@
+{
+ "brief": "A04",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 38.0,
+ "usage": {
+  "input_tokens": 288595,
+  "cached_input_tokens": 258688,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1168,
+  "reasoning_output_tokens": 203
+ },
+ "final": "Submitted **need_info**. The requirements are recorded as Ti6Al4V LPBF, \u226429% solid volume, and C44 \u22656.51 GPa. The unit-cell edge length is still needed to assess printable feature dimensions; no design was released.",
+ "stderr_tail": "2026-11-05T21:11:10.246792Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

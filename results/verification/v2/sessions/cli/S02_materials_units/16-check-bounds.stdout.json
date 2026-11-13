@@ -1,0 +1,24 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "steel"
+   },
+   "error": "name: Input should be 'PA12', 'Ti6Al4V', '316L' or 'AlSi10Mg'",
+   "ok": false,
+   "seq": 1,
+   "tool": "set_material"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": {
+  "error": "name: Input should be 'PA12', 'Ti6Al4V', '316L' or 'AlSi10Mg'",
+  "tool": "set_material"
+ },
+ "ok": false,
+ "profile": "C",
+ "result": null,
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S02_materials_units\\16-check-bounds"
+}

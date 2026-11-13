@@ -1,0 +1,31 @@
+{
+ "brief": "M13",
+ "arm": "D",
+ "profile": "D",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 12.9,
+ "usage": {
+  "input_tokens": 12765,
+  "cached_input_tokens": 10752,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 376,
+  "reasoning_output_tokens": 254
+ },
+ "final": "{\"decision\":\"refuse\",\"material\":\"Ti6Al4V\",\"cell_size\":[10,\"mm\"],\"targets\":{\"density_max\":0.32,\"E100_min\":{\"value\":13.4,\"unit\":\"GPa\"},\"gap\":{\"f_lo\":182,\"f_hi\":244,\"unit\":\"kHz\"}},\"verdict\":\"UNDETERMINED\",\"note\":\"I cannot certify a design meeting both the stiffness target and the complete 3D band gap without homogenization and full-Brillouin-zone wave analysis; infeasibility has not been established.\"}",
+ "rounds": 1,
+ "parsed": true,
+ "job": "codex-D-r1-M13",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

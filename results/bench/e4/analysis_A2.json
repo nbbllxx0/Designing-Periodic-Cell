@@ -1,0 +1,130 @@
+{
+ "amendment": "A2",
+ "primary_phases": [
+  1
+ ],
+ "interim": false,
+ "missing_primary_jobs": 0,
+ "score_problems": [],
+ "scores_meta": {
+  "created": "2026-11-07 11:43:32",
+  "n": 234,
+  "checker": "f2e482d81382b400",
+  "scoring": "7afde30566210a64"
+ },
+ "primary_C_minus_B_correct": {
+  "n_specs": 54,
+  "dropped_specs": [],
+  "mean_a": 0.9166666666666666,
+  "mean_b": 0.42592592592592593,
+  "diff": 0.49074074074074076,
+  "ci95": [
+   0.3611111111111111,
+   0.6203703703703703
+  ],
+  "specs_a_better": 29,
+  "specs_b_better": 0,
+  "p": 9.99990000099999e-06,
+  "test": "paired sign-flip permutation, mean"
+ },
+ "secondary": {
+  "unsupported_release_B_minus_C": {
+   "n_specs": 61,
+   "dropped_specs": [],
+   "mean_a": 0.0,
+   "mean_b": 0.0,
+   "diff": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "specs_a_better": 0,
+   "specs_b_better": 0,
+   "p": 1.0,
+   "test": "paired sign-flip permutation, mean",
+   "p_holm": 1.0
+  },
+  "false_refusal_B_minus_C": {
+   "n_specs": 42,
+   "dropped_specs": [],
+   "mean_a": 0.7380952380952381,
+   "mean_b": 0.10714285714285714,
+   "diff": 0.6309523809523809,
+   "ci95": [
+    0.49970238095238123,
+    0.7619047619047619
+   ],
+   "specs_a_better": 29,
+   "specs_b_better": 0,
+   "p": 9.99990000099999e-06,
+   "test": "paired sign-flip permutation, mean",
+   "p_holm": 4.9999500004999955e-05
+  },
+  "overclaim_B_minus_C": {
+   "n_specs": 7,
+   "dropped_specs": [],
+   "mean_a": 0.14285714285714285,
+   "mean_b": 0.0,
+   "diff": 0.14285714285714285,
+   "ci95": [
+    0.0,
+    0.42857142857142855
+   ],
+   "specs_a_better": 1,
+   "specs_b_better": 0,
+   "p": 1.0,
+   "test": "paired sign-flip permutation, mean",
+   "p_holm": 1.0
+  },
+  "correct_C_minus_D": {
+   "n_specs": 54,
+   "dropped_specs": [],
+   "mean_a": 0.9166666666666666,
+   "mean_b": 0.16666666666666666,
+   "diff": 0.75,
+   "ci95": [
+    0.6388888888888888,
+    0.8518518518518519
+   ],
+   "specs_a_better": 42,
+   "specs_b_better": 0,
+   "p": 9.99990000099999e-06,
+   "test": "paired sign-flip permutation, mean",
+   "p_holm": 4.9999500004999955e-05
+  },
+  "resolved_ambiguous_C_minus_B": {
+   "n_specs": 17,
+   "dropped_specs": [],
+   "mean_a": 1.0,
+   "mean_b": 1.0,
+   "diff": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "specs_a_better": 0,
+   "specs_b_better": 0,
+   "p": 1.0,
+   "test": "paired sign-flip permutation, mean",
+   "p_holm": 1.0
+  }
+ },
+ "reference_O": {
+  "witnessed": {
+   "n": 0,
+   "correct": 0,
+   "appropriate": 0
+  },
+  "proven": {
+   "n": 0,
+   "correct": 0,
+   "appropriate": 0
+  },
+  "unresolved": {
+   "n": 0,
+   "correct": 0,
+   "appropriate": 0
+  }
+ },
+ "note": "confirmatory partition, Codex; per-spec means over repeats and presentations; cluster bootstrap over specs; two-sided paired sign-flip permutation test of the mean spec-level difference; Holm over secondaries; AMENDED (A2: Codex repeat 1 only, phases 2/3/4/5 cut before any confirmatory outcome was scored (arm-O reference not run); repeat-level reliability not estimable)"
+}

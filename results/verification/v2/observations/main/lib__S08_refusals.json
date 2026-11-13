@@ -1,0 +1,448 @@
+{
+ "scenario": "S08_refusals",
+ "interface": "lib",
+ "rows": [
+  {
+   "scenario": "S08_refusals",
+   "check": "C_refuse_no_evidence",
+   "capability": "profile C: refusal without evidence rejected",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: refusal needs evidence: refuse with verdict PROVEN_INFEASIBLE must cite an evidence record held in this session for the current spec: a check_bounds result with a violated rigorous bound (call check_bounds). No evidence ",
+   "passed": true,
+   "failures": [],
+   "seq": 3,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S08_refusals/session.jsonl"
+  },
+  {
+   "scenario": "S08_refusals",
+   "check": "stale_bound_record",
+   "capability": "stale evidence: bound record after a spec edit",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: refusal needs evidence: refuse with verdict PROVEN_INFEASIBLE must cite an evidence record held in this session for the current spec: a check_bounds result with a violated rigorous bound (call check_bounds). No evidence ",
+   "passed": true,
+   "failures": [],
+   "seq": 6,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S08_refusals/session.jsonl"
+  },
+  {
+   "scenario": "S08_refusals",
+   "check": "wrong_verdict",
+   "capability": "refusal with the wrong verdict for the evidence held",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "accepted: outcome=not_found_in_families",
+   "passed": false,
+   "failures": [
+    "ok=True (expected False); ",
+    "error missing"
+   ],
+   "seq": 8,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S08_refusals/session.jsonl"
+  },
+  {
+   "scenario": "S08_refusals",
+   "check": "unknown_evidence_seq",
+   "capability": "refusal citing an unknown record",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: already submitted",
+   "passed": false,
+   "failures": [
+    "error does not contain 'not an evidence record': already submitted"
+   ],
+   "seq": 9,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S08_refusals/session.jsonl"
+  },
+  {
+   "scenario": "S08_refusals",
+   "check": "proven_infeasible",
+   "capability": "outcome: proven_infeasible (cites the bound record)",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": false,
+   "observed": "refused: already submitted",
+   "passed": false,
+   "failures": [
+    "ok=False (expected True); already submitted",
+    "result.outcome_card.outcome missing",
+    "result.outcome_card.evidence[0].seq missing",
+    "result.outcome_card.evidence[0].kind missing"
+   ],
+   "seq": 10,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S08_refusals/session.jsonl"
+  },
+  {
+   "scenario": "S08_refusals",
+   "check": "already_submitted",
+   "capability": "second submit refused",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: already submitted",
+   "passed": true,
+   "failures": [],
+   "seq": 11,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S08_refusals/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_material",
+   "args": {
+    "name": "Ti6Al4V"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 113800000000.0,
+    "atlas_available": true,
+    "material": "Ti6Al4V",
+    "nu": 0.342,
+    "rho_kg_m3": 4430.0
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.2,
+    "E100_min": {
+     "value": 0.5,
+     "unit": "E_s"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    },
+    "targets": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "PROVEN_INFEASIBLE"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 3,
+   "error": "refusal needs evidence: refuse with verdict PROVEN_INFEASIBLE must cite an evidence record held in this session for the current spec: a check_bounds result with a violated rigorous bound (call check_bounds). No evidence record is held for the current spec.",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.15,
+   "ok": true,
+   "exit": null,
+   "seq": 4,
+   "error": null,
+   "result": {
+    "advisory": [
+     {
+      "bound": "HS",
+      "limit": 0.11119734101723071,
+      "scope": "isotropic",
+      "statement": "E100_min exceeds the Hashin-Shtrikman upper bound on E",
+      "target": 0.5
+     }
+    ],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.6569516603102323,
+       "slack_opt": -0.6569516603102323,
+       "slack_pess": -0.6889494063583352,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.51913,
+         "w": 0.36
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6692161519846187,
+       "slack_opt": -0.6692161519846187,
+       "slack_pess": -0.7000699307120782,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.543478,
+         "w": 0.346957
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6703256260747612,
+       "slack_opt": -0.6703256260747612,
+       "slack_pess": -0.70107591889054,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.494783,
+         "w": 0.36
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 0,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "bounds_verdict": "PROVEN_INFEASIBLE",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    },
+    "verdict": "PROVEN_INFEASIBLE",
+    "violated": [
+     {
+      "bound": "V1",
+      "limit": 0.2,
+      "scope": "any",
+      "statement": "E100_min exceeds the Voigt bound phi_max * E_s (any geometry)",
+      "target": 0.5
+     }
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 4,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.21
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 5,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.5,
+     "density_max": 0.21
+    },
+    "targets": {
+     "E100_min": 0.5,
+     "density_max": 0.21
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 5,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "PROVEN_INFEASIBLE"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 6,
+   "error": "refusal needs evidence: refuse with verdict PROVEN_INFEASIBLE must cite an evidence record held in this session for the current spec: a check_bounds result with a violated rigorous bound (call check_bounds). No evidence record is held for the current spec.",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 6,
+   "tool": "undo",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 7,
+   "error": null,
+   "result": {
+    "state": {
+     "cell_size": null,
+     "families": [
+      "tpms",
+      "struts",
+      "resonator"
+     ],
+     "gap_type": null,
+     "material": "Ti6Al4V",
+     "sources": {},
+     "targets": {
+      "E100_min": 0.5,
+      "density_max": 0.2
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 7,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "NOT_FOUND_IN_FAMILIES"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 8,
+   "error": null,
+   "result": {
+    "outcome_card": {
+     "decision": "refuse",
+     "definition": "nothing found in a bounded search of the declared families; the atlas is an estimate with calibrated error ranges, not a bound",
+     "design": null,
+     "evidence": [
+      {
+       "kind": "atlas_not_found",
+       "outcome": "not_found_in_families",
+       "seq": 4,
+       "summary": "atlas NOT_FOUND_IN_FAMILIES: 2714 cells, 0 possible with the most favourable search-tier error (estimate, not a bound)",
+       "tool": "check_bounds"
+      }
+     ],
+     "evidence_checked": true,
+     "outcome": "not_found_in_families",
+     "profile": "C",
+     "schema_version": "amm-outcome/1",
+     "title": "Not found in families",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "submitted": {
+     "decision": "refuse",
+     "evidence": [
+      {
+       "kind": "atlas_not_found",
+       "seq": 4,
+       "tool": "check_bounds"
+      }
+     ],
+     "note": "",
+     "outcome": "not_found_in_families",
+     "spec": {
+      "cell_size": null,
+      "gap_type": null,
+      "material": "Ti6Al4V",
+      "nu": 0.342,
+      "targets": {
+       "E100_min": 0.5,
+       "density_max": 0.2
+      }
+     },
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 8,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "PROVEN_INFEASIBLE",
+    "evidence": [
+     9999
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 9,
+   "error": "already submitted",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 9,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "PROVEN_INFEASIBLE",
+    "evidence": [
+     "$cb1.seq"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 10,
+   "error": "already submitted",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 10,
+   "tool": "submit",
+   "args": {
+    "decision": "need_info"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 11,
+   "error": "already submitted",
+   "result": null,
+   "cli": null
+  }
+ ],
+ "seconds": 0.2,
+ "root": "results/verification/v2/sessions/lib/S08_refusals",
+ "finished": "2026-11-08 08:17:19"
+}

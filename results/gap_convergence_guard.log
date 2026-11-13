@@ -1,0 +1,4 @@
+overstated_upper_0.478|guard=False {"claim_fa_over_cl": [0.055, 0.478], "passed": true, "counts_passed": {"20": true, "30": true}, "below_band": 6, "seconds": 101.1}
+overstated_upper_0.478|guard=True {"claim_fa_over_cl": [0.055, 0.478], "passed": false, "counts_passed": {"20": true, "30": true}, "below_band": 6, "seconds": 323.1, "edges_fa_over_cl": {"20": [0.0488, 0.4806], "30": [0.047, 0.4785]}, "extrapolated_fa_over_cl": [0.0434, 0.4742], "safe_interval_fa_over_cl": [0.0488, 0.4699]}
+conservative_0.46|guard=False {"claim_fa_over_cl": [0.055, 0.46], "passed": true, "counts_passed": {"20": true, "30": true}, "below_band": 6, "seconds": 101.2}
+conservative_0.46|guard=True {"claim_fa_over_cl": [0.055, 0.46], "passed": true, "counts_passed": {"20": true, "30": true}, "below_band": 6, "seconds": 325.8, "edges_fa_over_cl": {"20": [0.0488, 0.4806], "30": [0.047, 0.4785]}, "extrapolated_fa_over_cl": [0.0434, 0.4742], "safe_interval_fa_over_cl": [0.0488, 0.4699]}

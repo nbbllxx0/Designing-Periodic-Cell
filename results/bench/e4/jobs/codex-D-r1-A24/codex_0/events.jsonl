@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b6f0-7201-79a1-b08f-e29da362168b"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"decision\":\"ask\",\"question\":\"What kind of wave suppression do you need across 216–250 kHz?\",\"options\":[{\"label\":\"Complete band gap for all directions and polarizations in the infinite lattice\",\"set\":{\"gap_type\":\"complete\"}},{\"label\":\"Directional band gap along a particular propagation direction\",\"set\":{\"gap_type\":\"directional\"}},{\"label\":\"Specified attenuation through a finite lattice core\",\"set\":{\"gap_type\":\"finite_core_attenuation\"}}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":12748,"cached_input_tokens":10752,"cache_write_input_tokens":0,"output_tokens":236,"reasoning_output_tokens":137}}

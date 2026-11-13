@@ -1,0 +1,1 @@
+Released a preliminary 12 mm Ti-6Al-4V sphere-and-ligament cell with normalized parameters `c=0.314278`, `w=0.110281`. Its estimated complete band gap is **59.7–223.5 kHz**, covering your requested interval. The gap and 3D printability remain unverified; this is not a certified guarantee of blocking every elastic wave.

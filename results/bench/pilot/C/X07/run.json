@@ -1,0 +1,19 @@
+{
+ "brief": "X07",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 20.5,
+ "usage": {
+  "input_tokens": 132273,
+  "cached_input_tokens": 107008,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 498,
+  "reasoning_output_tokens": 24
+ },
+ "final": "No design released: **PROVEN_INFEASIBLE** in amm\u2019s cubic design space. Its stability bound requires the cube-axis Poisson ratio to be below 0.5, so the requested minimum of 0.55 cannot be met, regardless of the 30% solid-volume limit.",
+ "stderr_tail": "2026-11-05T20:34:35.967251Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

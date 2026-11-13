@@ -1,0 +1,23 @@
+env {"python": "3.10.18", "platform": "Windows-10-10.0.26200-SP0", "machine": "AMD64", "torch": "2.5.1+cu124", "cuda": true, "device": "NVIDIA GeForce RTX 4090", "code": "f1a6d625064a6d18", "checker": "c5f8c89871b3bad6", "mkl_cbwr": 65538}
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+results/bench/e4/jobs/codex-C-r1-M13/session/session.jsonl: exact False mism 1 tol False [1790.8 s]
+set e4_m13_extra done in 1790.8 s

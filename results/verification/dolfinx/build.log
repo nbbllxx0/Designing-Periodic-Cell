@@ -1,0 +1,122 @@
+dolfinx 0.11.0.post0 <class 'numpy.complex128'>
+Cloning into 'dolfinx_mpc'...
+Note: switching to '0302798d4ffcd7c8a5802a59a636dc431ff8bc7a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found MPI_C: /usr/local/lib/libmpi.so (found version "5.0")
+-- Found MPI_CXX: /usr/local/lib/libmpicxx.so (found version "5.0")
+-- Found MPI: TRUE (found version "5.0")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found Boost 1.83.0 at /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0
+--   Requested configuration: REQUIRED
+-- Found boost_headers 1.83.0 at /usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.83.0
+-- Checking for Basix hints with /dolfinx-env/bin/python3.12
+-- Adding /dolfinx-env/lib/python3.12/site-packages/basix to Basix search hints
+-- Found HDF5 at /usr/local/cmake via NO_MODULE. Now trying to extract locations etc.
+-- Trying to get properties of target hdf5-shared
+-- Found imported configurations: RELEASE
+-- Start search through imported configurations in the following order: Release;RELWITHDEBINFO;RELEASE;DEBUG;RELEASE
+-- Selected imported configuration: RELEASE
+-- Found HDF5: hdf5-shared (found version "2.1.1") found components: C
+-- HDF5_DIR: /usr/local/cmake
+-- HDF5_DEFINITIONS: 
+-- HDF5_INCLUDE_DIRS: /usr/local/include
+-- HDF5_LIBRARIES: hdf5-shared
+-- HDF5_HL_LIBRARIES: 
+-- HDF5_C_DEFINITIONS: 
+-- HDF5_C_INCLUDE_DIR: 
+-- HDF5_C_INCLUDE_DIRS: /usr/local/include
+-- HDF5_C_LIBRARY: /usr/local/lib/libhdf5.so.320.1.1
+-- HDF5_C_LIBRARIES: hdf5-shared
+-- HDF5_C_HL_LIBRARY: 
+-- HDF5_C_HL_LIBRARIES: 
+-- Defined targets (if any):
+-- ... hdf5::hdf5
+-- ... hdf5-static
+-- ... hdf5-shared
+-- ... hdf5_hl-static
+-- ... hdf5_hl-shared
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1")
+-- Checking for one of the modules 'PETSc;petsc'
+-- Checking for one of the modules 'SLEPc;slepc'
+-- Found ADIOS2: /usr/local/lib/cmake/adios2/adios2-config.cmake (found suitable version "2.12.1", minimum required is "2.8.1") found components: CXX MPI
+-- The following features have been enabled:
+
+ * BUILD_SHARED_LIBS, Build DOLFINX_MPC with shared libraries.
+ * CMAKE_INSTALL_RPATH_USE_LINK_PATH, Add paths to linker search and installed rpath.
+
+-- The following REQUIRED packages have been found:
+
+ * boost_headers (required version == 1.83.0)
+ * Boost (required version >= 1.70)
+ * Threads
+ * PkgConfig
+ * DOLFINX (required version >= 0.11.0.0), New generation Dynamic Object-oriented Library for - FINite element computation, <https://github.com/FEniCS/dolfinx>
+   Main dependency of library
+
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/dolfinx_mpc/build-dir
+ninja: Entering directory `build-dir'
+[1/8] Building CXX object CMakeFiles/dolfinx_mpc.dir/assemble_utils.cpp.o
+[2/8] Building CXX object CMakeFiles/dolfinx_mpc.dir/mpi_utils.cpp.o
+[3/8] Building CXX object CMakeFiles/dolfinx_mpc.dir/utils.cpp.o
+[4/8] Building CXX object CMakeFiles/dolfinx_mpc.dir/assemble_vector.cpp.o
+[5/8] Building CXX object CMakeFiles/dolfinx_mpc.dir/assemble_matrix.cpp.o
+[6/8] Linking CXX shared library libdolfinx_mpc.so.0.11.0
+[7/8] Creating library symlink libdolfinx_mpc.so.0.11 libdolfinx_mpc.so
+[7/8] Install the project...
+-- Install configuration: "Release"
+-- Installing: /usr/local/include/dolfinx_mpc/dolfinx_mpc.h
+-- Installing: /usr/local/include/dolfinx_mpc/assemble_utils.h
+-- Installing: /usr/local/include/dolfinx_mpc/mpi_utils.h
+-- Installing: /usr/local/include/dolfinx_mpc/ContactConstraint.h
+-- Installing: /usr/local/include/dolfinx_mpc/utils.h
+-- Installing: /usr/local/include/dolfinx_mpc/MultiPointConstraint.h
+-- Installing: /usr/local/include/dolfinx_mpc/SlipConstraint.h
+-- Installing: /usr/local/include/dolfinx_mpc/PeriodicConstraint.h
+-- Installing: /usr/local/include/dolfinx_mpc/assemble_matrix.h
+-- Installing: /usr/local/include/dolfinx_mpc/assemble_vector.h
+-- Installing: /usr/local/include/dolfinx_mpc/lifting.h
+-- Installing: /usr/local/include/dolfinx_mpc/mpc_helpers.h
+-- Installing: /usr/local/lib/libdolfinx_mpc.so.0.11.0
+-- Installing: /usr/local/lib/libdolfinx_mpc.so.0.11
+-- Set non-toolchain portion of runtime path of "/usr/local/lib/libdolfinx_mpc.so.0.11.0" to "/usr/local/dolfinx-complex/lib:/usr/local/lib:/usr/local/slepc/linux-gnu-complex128-32/lib:/usr/local/petsc/linux-gnu-complex128-32/lib"
+-- Installing: /usr/local/lib/libdolfinx_mpc.so
+-- Installing: /usr/local/share/dolfinx_mpc/DOLFINX_MPCTargets.cmake
+-- Installing: /usr/local/share/dolfinx_mpc/DOLFINX_MPCTargets-release.cmake
+-- Installing: /usr/local/share/dolfinx_mpc/DOLFINX_MPCConfig.cmake
+
+[notice] A new release of pip is available: 26.1.2 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+AttributeError: module 'dolfinx_mpc' has no attribute '__version__'

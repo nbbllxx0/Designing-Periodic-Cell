@@ -1,0 +1,1151 @@
+{
+ "scenario": "S02_materials_units",
+ "interface": "mcp",
+ "rows": [
+  {
+   "scenario": "S02_materials_units",
+   "check": "material_PA12",
+   "capability": "material PA12",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "set_material",
+   "expected_refusal": false,
+   "observed": "accepted",
+   "passed": true,
+   "failures": [],
+   "seq": 2,
+   "dt_s": 0.38,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "units_PA12",
+   "capability": "units: GPa, MPa, kHz with cell size (PA12)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "set_target",
+   "expected_refusal": false,
+   "observed": "accepted: normalized={\"E100_min\": 0.5882352941176471, \"G_min\": 0.029411764705882353, \"gap\": {\"f_hi\": 0.3855492644191111, \"f_lo\": 0.2570328429460741}}",
+   "passed": true,
+   "failures": [],
+   "seq": 3,
+   "dt_s": 0.02,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "bounds_PA12",
+   "capability": "material PA12: bounds + atlas availability",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=NOT_FOUND_IN_FAMILIES; atlas=NOT_FOUND_IN_FAMILIES",
+   "passed": true,
+   "failures": [],
+   "seq": 4,
+   "dt_s": 1.38,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "material_Ti6Al4V",
+   "capability": "material Ti6Al4V",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "set_material",
+   "expected_refusal": false,
+   "observed": "accepted",
+   "passed": true,
+   "failures": [],
+   "seq": 5,
+   "dt_s": 0.3,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "units_Ti6Al4V",
+   "capability": "units: GPa, MPa, kHz with cell size (Ti6Al4V)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "set_target",
+   "expected_refusal": false,
+   "observed": "accepted: normalized={\"E100_min\": 0.008787346221441126, \"G_min\": 0.0004393673110720562, \"gap\": {\"f_hi\": 0.09697130552335231, \"f_lo\": 0.06464753701556822}}",
+   "passed": true,
+   "failures": [],
+   "seq": 6,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "bounds_Ti6Al4V",
+   "capability": "material Ti6Al4V: bounds + atlas availability",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=BORDERLINE; atlas=BORDERLINE",
+   "passed": true,
+   "failures": [],
+   "seq": 7,
+   "dt_s": 1.81,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "material_316L",
+   "capability": "material 316L",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "set_material",
+   "expected_refusal": false,
+   "observed": "accepted",
+   "passed": true,
+   "failures": [],
+   "seq": 8,
+   "dt_s": 0.45,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "units_316L",
+   "capability": "units: GPa, MPa, kHz with cell size (316L)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "set_target",
+   "expected_refusal": false,
+   "observed": "accepted: normalized={\"E100_min\": 0.0051813471502590676, \"G_min\": 0.00025906735751295336, \"gap\": {\"f_hi\": 0.09848594755235375, \"f_lo\": 0.06565729836823583}}",
+   "passed": true,
+   "failures": [],
+   "seq": 9,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "bounds_316L",
+   "capability": "material 316L: bounds + atlas availability",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=BORDERLINE; atlas=BORDERLINE",
+   "passed": true,
+   "failures": [],
+   "seq": 10,
+   "dt_s": 1.56,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "material_AlSi10Mg",
+   "capability": "material AlSi10Mg",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "set_material",
+   "expected_refusal": false,
+   "observed": "accepted",
+   "passed": true,
+   "failures": [],
+   "seq": 11,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "units_AlSi10Mg",
+   "capability": "units: GPa, MPa, kHz with cell size (AlSi10Mg)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "set_target",
+   "expected_refusal": false,
+   "observed": "accepted: normalized={\"E100_min\": 0.014285714285714285, \"G_min\": 0.0007142857142857143, \"gap\": {\"f_hi\": 0.0955583591319985, \"f_lo\": 0.06370557275466567}}",
+   "passed": true,
+   "failures": [],
+   "seq": 12,
+   "dt_s": 0.03,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "bounds_AlSi10Mg",
+   "capability": "material AlSi10Mg: bounds + atlas availability",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=UNAVAILABLE; atlas=UNAVAILABLE",
+   "passed": true,
+   "failures": [],
+   "seq": 13,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "material_custom",
+   "capability": "material: custom (E, nu, rho)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "set_material",
+   "expected_refusal": false,
+   "observed": "accepted",
+   "passed": true,
+   "failures": [],
+   "seq": 14,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "material_bad_nu",
+   "capability": "invalid: custom material nu >= 0.5",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "set_material",
+   "expected_refusal": true,
+   "observed": "refused: Error executing tool set_material: need E_Pa > 0, rho_kg_m3 > 0 and -1 < nu < 0.5",
+   "passed": true,
+   "failures": [],
+   "seq": 15,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "material_unknown",
+   "capability": "invalid: unknown material name",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "set_material",
+   "expected_refusal": true,
+   "observed": "refused: Error executing tool set_material: name: Input should be 'PA12', 'Ti6Al4V', '316L' or 'AlSi10Mg'",
+   "passed": true,
+   "failures": [],
+   "seq": 16,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "matchange_before",
+   "capability": "material change mid-session (before: 316L)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=FEASIBLE; atlas=FEASIBLE",
+   "passed": true,
+   "failures": [],
+   "seq": 19,
+   "dt_s": 0.13,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  },
+  {
+   "scenario": "S02_materials_units",
+   "check": "matchange_after",
+   "capability": "material change mid-session (after: PA12)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=PROVEN_INFEASIBLE; atlas=NOT_FOUND_IN_FAMILIES; violated=V1",
+   "passed": true,
+   "failures": [],
+   "seq": 21,
+   "dt_s": 0.09,
+   "session": "results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_constraints",
+   "args": {
+    "cell_size": 10,
+    "cell_size_unit": "mm"
+   },
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "cell_size": [
+     10.0,
+     "mm"
+    ],
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_material",
+   "args": {
+    "name": "PA12"
+   },
+   "argv": null,
+   "dt_s": 0.38,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "E_Pa": 1700000000.0,
+    "atlas_available": true,
+    "material": "PA12",
+    "nu": 0.39,
+    "rho_kg_m3": 1010.0
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "set_target",
+   "args": {
+    "E100_min": {
+     "value": 1.0,
+     "unit": "GPa"
+    },
+    "G_min": {
+     "value": 50.0,
+     "unit": "MPa"
+    },
+    "gap": {
+     "f_lo": 20.0,
+     "f_hi": 30.0,
+     "unit": "kHz"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": true,
+   "exit": null,
+   "seq": 3,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.5882352941176471,
+     "G_min": 0.029411764705882353,
+     "gap": {
+      "f_hi": 0.3855492644191111,
+      "f_lo": 0.2570328429460741
+     }
+    },
+    "targets": {
+     "E100_min": [
+      1.0,
+      "GPa"
+     ],
+     "G_min": [
+      50.0,
+      "MPa"
+     ],
+     "gap": {
+      "f_hi": [
+       30.0,
+       "kHz"
+      ],
+      "f_lo": [
+       20.0,
+       "kHz"
+      ]
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 1.38,
+   "ok": true,
+   "exit": null,
+   "seq": 4,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.720574551953263,
+       "slack_opt": -0.7007513378521554,
+       "slack_pess": -0.7286636801923065,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.786957,
+         "w": 0.294783
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.7176950649694243,
+       "slack_opt": -0.7176950649694243,
+       "slack_pess": -0.7440269855011008,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.786957,
+         "w": 0.281739
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.7310572590233679,
+       "slack_opt": -0.7262186223092949,
+       "slack_pess": -0.7517555102125255,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.762609,
+         "w": 0.281739
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 0,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.5882352941176471,
+     "G_min": 0.029411764705882353,
+     "gap": {
+      "f_hi": 0.3855492644191111,
+      "f_lo": 0.2570328429460741
+     }
+    },
+    "verdict": "NOT_FOUND_IN_FAMILIES",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 4,
+   "tool": "set_material",
+   "args": {
+    "name": "Ti6Al4V"
+   },
+   "argv": null,
+   "dt_s": 0.3,
+   "ok": true,
+   "exit": null,
+   "seq": 5,
+   "error": null,
+   "result": {
+    "E_Pa": 113800000000.0,
+    "atlas_available": true,
+    "material": "Ti6Al4V",
+    "nu": 0.342,
+    "rho_kg_m3": 4430.0
+   },
+   "cli": null
+  },
+  {
+   "i": 5,
+   "tool": "set_target",
+   "args": {
+    "E100_min": {
+     "value": 1.0,
+     "unit": "GPa"
+    },
+    "G_min": {
+     "value": 50.0,
+     "unit": "MPa"
+    },
+    "gap": {
+     "f_lo": 20.0,
+     "f_hi": 30.0,
+     "unit": "kHz"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 6,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.008787346221441126,
+     "G_min": 0.0004393673110720562,
+     "gap": {
+      "f_hi": 0.09697130552335231,
+      "f_lo": 0.06464753701556822
+     }
+    },
+    "targets": {
+     "E100_min": [
+      1.0,
+      "GPa"
+     ],
+     "G_min": [
+      50.0,
+      "MPa"
+     ],
+     "gap": {
+      "f_hi": [
+       30.0,
+       "kHz"
+      ],
+      "f_lo": [
+       20.0,
+       "kHz"
+      ]
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 6,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 1.81,
+   "ok": true,
+   "exit": null,
+   "seq": 7,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.6124095706540421,
+       "slack_opt": 0.6040508459068107,
+       "slack_pess": -0.6124095706540421,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.786957,
+         "w": 0.06
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6615127561201111,
+       "slack_opt": 0.5954734960140321,
+       "slack_pess": -0.6615127561201111,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.762609,
+         "w": 0.06
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.7119524194164055,
+       "slack_opt": 0.5812914361844292,
+       "slack_pess": -0.7119524194164055,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.738261,
+         "w": 0.06
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 41,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "BORDERLINE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.008787346221441126,
+     "G_min": 0.0004393673110720562,
+     "gap": {
+      "f_hi": 0.09697130552335231,
+      "f_lo": 0.06464753701556822
+     }
+    },
+    "verdict": "BORDERLINE",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 7,
+   "tool": "set_material",
+   "args": {
+    "name": "316L"
+   },
+   "argv": null,
+   "dt_s": 0.45,
+   "ok": true,
+   "exit": null,
+   "seq": 8,
+   "error": null,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "cli": null
+  },
+  {
+   "i": 8,
+   "tool": "set_target",
+   "args": {
+    "E100_min": {
+     "value": 1.0,
+     "unit": "GPa"
+    },
+    "G_min": {
+     "value": 50.0,
+     "unit": "MPa"
+    },
+    "gap": {
+     "f_lo": 20.0,
+     "f_hi": 30.0,
+     "unit": "kHz"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 9,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.0051813471502590676,
+     "G_min": 0.00025906735751295336,
+     "gap": {
+      "f_hi": 0.09848594755235375,
+      "f_lo": 0.06565729836823583
+     }
+    },
+    "targets": {
+     "E100_min": [
+      1.0,
+      "GPa"
+     ],
+     "G_min": [
+      50.0,
+      "MPa"
+     ],
+     "gap": {
+      "f_hi": [
+       30.0,
+       "kHz"
+      ],
+      "f_lo": [
+       20.0,
+       "kHz"
+      ]
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 9,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 1.56,
+   "ok": true,
+   "exit": null,
+   "seq": 10,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.5456660903785215,
+       "slack_opt": 0.6456078841558939,
+       "slack_pess": -0.5456660903785215,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.786957,
+         "w": 0.06
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.5922960930756955,
+       "slack_opt": 0.6386361612338596,
+       "slack_pess": -0.5922960930756955,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.762609,
+         "w": 0.06
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6414604674898837,
+       "slack_opt": 0.6345097479514027,
+       "slack_pess": -0.6414604674898837,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.738261,
+         "w": 0.06
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 64,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "BORDERLINE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.0051813471502590676,
+     "G_min": 0.00025906735751295336,
+     "gap": {
+      "f_hi": 0.09848594755235375,
+      "f_lo": 0.06565729836823583
+     }
+    },
+    "verdict": "BORDERLINE",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 10,
+   "tool": "set_material",
+   "args": {
+    "name": "AlSi10Mg"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 11,
+   "error": null,
+   "result": {
+    "E_Pa": 70000000000.0,
+    "atlas_available": false,
+    "material": "AlSi10Mg",
+    "nu": 0.33,
+    "rho_kg_m3": 2670.0
+   },
+   "cli": null
+  },
+  {
+   "i": 11,
+   "tool": "set_target",
+   "args": {
+    "E100_min": {
+     "value": 1.0,
+     "unit": "GPa"
+    },
+    "G_min": {
+     "value": 50.0,
+     "unit": "MPa"
+    },
+    "gap": {
+     "f_lo": 20.0,
+     "f_hi": 30.0,
+     "unit": "kHz"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.03,
+   "ok": true,
+   "exit": null,
+   "seq": 12,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.014285714285714285,
+     "G_min": 0.0007142857142857143,
+     "gap": {
+      "f_hi": 0.0955583591319985,
+      "f_lo": 0.06370557275466567
+     }
+    },
+    "targets": {
+     "E100_min": [
+      1.0,
+      "GPa"
+     ],
+     "G_min": [
+      50.0,
+      "MPa"
+     ],
+     "gap": {
+      "f_hi": [
+       30.0,
+       "kHz"
+      ],
+      "f_lo": [
+       20.0,
+       "kHz"
+      ]
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 12,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 13,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "note": "no atlas at nu_s = 0.33 (atlases: 0.3, 0.342, 0.39)",
+     "verdict": "UNAVAILABLE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.014285714285714285,
+     "G_min": 0.0007142857142857143,
+     "gap": {
+      "f_hi": 0.0955583591319985,
+      "f_lo": 0.06370557275466567
+     }
+    },
+    "verdict": "UNAVAILABLE",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 13,
+   "tool": "set_material",
+   "args": {
+    "E_Pa": 2000000000.0,
+    "nu": 0.35,
+    "rho_kg_m3": 1200.0
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 14,
+   "error": null,
+   "result": {
+    "E_Pa": 2000000000.0,
+    "atlas_available": false,
+    "material": {
+     "E": 2000000000.0,
+     "nu": 0.35,
+     "rho": 1200.0
+    },
+    "nu": 0.35,
+    "rho_kg_m3": 1200.0
+   },
+   "cli": null
+  },
+  {
+   "i": 14,
+   "tool": "set_material",
+   "args": {
+    "E_Pa": 2000000000.0,
+    "nu": 0.6,
+    "rho_kg_m3": 1200.0
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": false,
+   "exit": null,
+   "seq": 15,
+   "error": "Error executing tool set_material: need E_Pa > 0, rho_kg_m3 > 0 and -1 < nu < 0.5",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 15,
+   "tool": "set_material",
+   "args": {
+    "name": "steel"
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": false,
+   "exit": null,
+   "seq": 16,
+   "error": "Error executing tool set_material: name: Input should be 'PA12', 'Ti6Al4V', '316L' or 'AlSi10Mg'",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 16,
+   "tool": "set_material",
+   "args": {
+    "name": "316L"
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 17,
+   "error": null,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "cli": null
+  },
+  {
+   "i": 17,
+   "tool": "set_target",
+   "args": {
+    "E100_min": {
+     "value": 5.0,
+     "unit": "GPa"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 18,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.025906735751295335
+    },
+    "targets": {
+     "E100_min": [
+      5.0,
+      "GPa"
+     ]
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 18,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.13,
+   "ok": true,
+   "exit": null,
+   "seq": 19,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": 14.891096161760043,
+       "slack_opt": 14.891096161760043,
+       "slack_pess": 12.438208361241571,
+       "spec": {
+        "family": "tpms",
+        "kind": "iwp",
+        "params": {
+         "density": 0.6,
+         "mode": "sheet"
+        }
+       }
+      },
+      {
+       "slack_nominal": 14.82343345140151,
+       "slack_opt": 14.82343345140151,
+       "slack_pess": 12.380989803702894,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.6,
+         "mode": "network"
+        }
+       }
+      },
+      {
+       "slack_nominal": 14.046935435981776,
+       "slack_opt": 14.046935435981776,
+       "slack_pess": 11.724349002018561,
+       "spec": {
+        "family": "tpms",
+        "kind": "iwp",
+        "params": {
+         "density": 0.58,
+         "mode": "sheet"
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 1646,
+     "n_possible": 1871,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "FEASIBLE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.025906735751295335
+    },
+    "verdict": "FEASIBLE",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 19,
+   "tool": "set_material",
+   "args": {
+    "name": "PA12"
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 20,
+   "error": null,
+   "result": {
+    "E_Pa": 1700000000.0,
+    "atlas_available": true,
+    "material": "PA12",
+    "nu": 0.39,
+    "rho_kg_m3": 1010.0
+   },
+   "cli": null
+  },
+  {
+   "i": 20,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.09,
+   "ok": true,
+   "exit": null,
+   "seq": 21,
+   "error": null,
+   "result": {
+    "advisory": [
+     {
+      "bound": "HS",
+      "limit": 1.0,
+      "scope": "isotropic",
+      "statement": "E100_min exceeds the Hashin-Shtrikman upper bound on E",
+      "target": 2.9411764705882355
+     }
+    ],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.857611949046826,
+       "slack_opt": -0.857611949046826,
+       "slack_pess": -0.8795904148220883,
+       "spec": {
+        "family": "tpms",
+        "kind": "iwp",
+        "params": {
+         "density": 0.6,
+         "mode": "sheet"
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.8579287921523907,
+       "slack_opt": -0.8579287921523907,
+       "slack_pess": -0.8798583512581313,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.6,
+         "mode": "network"
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.8650888156817281,
+       "slack_opt": -0.8650888156817281,
+       "slack_pess": -0.8859131814019553,
+       "spec": {
+        "family": "tpms",
+        "kind": "iwp",
+        "params": {
+         "density": 0.58,
+         "mode": "sheet"
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 0,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "bounds_verdict": "PROVEN_INFEASIBLE",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 2.9411764705882355
+    },
+    "verdict": "PROVEN_INFEASIBLE",
+    "violated": [
+     {
+      "bound": "V1",
+      "limit": 1.0,
+      "scope": "any",
+      "statement": "E100_min exceeds the Voigt bound phi_max * E_s (any geometry)",
+      "target": 2.9411764705882355
+     }
+    ]
+   },
+   "cli": null
+  }
+ ],
+ "seconds": 9.8,
+ "root": "results/verification/v2/sessions/mcp/S02_materials_units",
+ "finished": "2026-11-08 08:27:40"
+}

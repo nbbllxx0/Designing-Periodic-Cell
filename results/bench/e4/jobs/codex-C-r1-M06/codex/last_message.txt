@@ -1,0 +1,1 @@
+Released a certified 316L BCC unit cell with an 8 mm period, 2.490024 mm node radius, and 0.501152 mm strut radius. It meets all requirements: solid fraction ≤27.75%, C44 ≥3.76 GPa, and a complete elastic band gap covering 216–250 kHz across all directions and polarizations.

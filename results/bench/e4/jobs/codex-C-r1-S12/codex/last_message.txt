@@ -1,0 +1,1 @@
+Released a certified PA12 Schwarz P sheet unit cell with nominal relative density 18.95%. Its certified density upper bound is 18.9505%, and its C44 lower bound is 60.96 MPa, meeting both targets. SLS manufacturability was not assessed; the design did not pass the ±0.01-cell-size robustness check.

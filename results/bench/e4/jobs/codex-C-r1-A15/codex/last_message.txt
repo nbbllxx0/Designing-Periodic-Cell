@@ -1,0 +1,1 @@
+Released a certified Ti-6Al-4V BCC design with a 6 mm cell, 1.62 mm node radius, and 0.36 mm strut radius. Certified bounds give relative density ≤19.52%, C44 ≥1,700 MPa, and a complete band gap covering 189.6–310.1 kHz, satisfying all requested targets.

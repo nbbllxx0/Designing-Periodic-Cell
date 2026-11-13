@@ -1,0 +1,1 @@
+No design released; verdict **UNDETERMINED**. For 316L at 5 mm cell size, candidates certified the ≤12% solid fraction and ≥3.53 GPa stiffness requirements, but none of four certification runs verified the complete 174–271 kHz gap. This does not prove the request impossible.

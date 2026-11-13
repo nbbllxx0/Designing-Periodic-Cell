@@ -1,0 +1,1 @@
+No design released: **NOT_FOUND_IN_FAMILIES**. The atlas and optimization search found no Ti6Al4V unit cell meeting both solid fraction ≤22% and bulk modulus ≥18.1 GPa. This is not proof of physical impossibility. LPBF manufacturability was not evaluated.

@@ -1,0 +1,15 @@
+results/bench/e4/jobs/codex-D-r1-G15/session/session.jsonl
+results/bench/e4/jobs/codex-D-r1-M12/session/session.jsonl
+results/bench/e4/jobs/codex-D-r1-M15/session/session.jsonl
+results/bench/e4/jobs/codex-D-r1-S14/session/session.jsonl
+results/bench/e4/jobs/codex-D-r1-X05/session/session.jsonl
+results/bench/e4/jobs/codex-B-r1-S09/session/session.jsonl
+results/bench/e4/jobs/codex-B-r1-A07/session/session.jsonl
+results/bench/e4/jobs/codex-B-r1-M14/session/session.jsonl
+results/bench/e4/jobs/codex-B-r1-S14/session/session.jsonl
+results/bench/e4/jobs/codex-B-r1-N09/session/session.jsonl
+results/bench/e4/jobs/codex-C-r1-A15/session/session.jsonl
+results/bench/e4/jobs/codex-C-r1-M05/session/session.jsonl
+results/bench/e4/jobs/codex-C-r1-S13/session/session.jsonl
+results/bench/e4/jobs/codex-C-r1-A10/session/session.jsonl
+results/bench/e4/jobs/codex-C-r1-G07/session/session.jsonl

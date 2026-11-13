@@ -1,0 +1,26 @@
+{
+ "key": "02448dcc7c273433",
+ "spec": {
+  "family": "resonator",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.517893,
+   "w": 0.358949
+  }
+ },
+ "targets": {
+  "density_max": 0.33,
+  "E100_min": 0.16062176165803108
+ },
+ "nu": 0.3,
+ "verdict": "undetermined",
+ "seconds": 1128.5,
+ "static_verdict": {
+  "verdict": "undetermined",
+  "targets": {
+   "density_max": "certified",
+   "E100_min": "undetermined"
+  }
+ },
+ "gap_verdict": null
+}

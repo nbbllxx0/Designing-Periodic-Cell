@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":[5,"mm"],"targets":{"density_max":0.2,"G_min":{"value":2.73,"unit":"GPa"},"gap":{"f_lo":287,"f_hi":353,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without homogenization and full-Brillouin-zone elastic band analysis, I cannot certify a design meeting the density, C44, and complete-gap targets or establish infeasibility."}

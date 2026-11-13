@@ -1,0 +1,32 @@
+{
+ "id": "P2",
+ "class": "feasible_gap",
+ "text": "I need a 316L stainless-steel metamaterial with a 10 mm unit cell that blocks all elastic waves (a complete band gap) between 100 kHz and 195 kHz.",
+ "intended": {
+  "material": "316L",
+  "cell_size": [
+   10,
+   "mm"
+  ],
+  "gap_type": "complete",
+  "targets": {
+   "gap": {
+    "f_lo": [
+     100,
+     "kHz"
+    ],
+    "f_hi": [
+     195,
+     "kHz"
+    ]
+   }
+  }
+ },
+ "oracle": {
+  "facts": "316L, 10 mm cell, complete gap from 100 to 195 kHz."
+ },
+ "expected": {
+  "decision": "release"
+ },
+ "truth_source": "G2 cell cube_bars c 0.6 w 0.2: certified and true gap claim f* 0.3273-0.6547 = 99.7-199.4 kHz for 316L at a = 10 mm, which covers 100-195 kHz."
+}

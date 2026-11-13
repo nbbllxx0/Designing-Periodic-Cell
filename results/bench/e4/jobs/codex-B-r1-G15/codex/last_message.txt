@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. A promising 20 mm PA12 resonator predicts a complete gap of 11.82–39.99 kHz, but conservative verification failed and certification is unavailable in this session. The requested gap is not proven infeasible.

@@ -1,0 +1,59 @@
+[project]
+name = "amm"
+version = "0.2.0"
+description = "AgenticMetamaterials: certified agentic design of mechanical and phononic metamaterial cells"
+readme = "README.md"
+requires-python = ">=3.10"
+# B7 (2026-11-08): licence proposed, awaiting the author's confirmation (release/MANIFEST.md); an SPDX expression,
+# changed by editing this one line (no licence classifier is used)
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+authors = [{ name = "Shaoliang Yang" }]
+# Core: geometry, homogenization (PARDISO), Bloch certification, bounds, atlas, tool contract, export.
+# Versions used for every result so far (env "amm"); exact pins in each run's snapshot/environment.txt.
+# torch: the search-tier Bloch solver and the certificate's adversarial k search; a CPU build works (the CUDA
+# device is used when available, else the CPU: amm.bloch.resolve_device).
+dependencies = ["numpy>=2.2", "scipy>=1.15", "pypardiso>=0.4.7", "mkl", "torch>=2.5", "pydantic>=2.14"]
+
+[project.scripts]
+# V2 (2026-11-08): the command line, a thin wrapper over amm.tools.Session (docs/quickstart.md)
+amm = "amm.cli:main"
+
+[project.optional-dependencies]
+# the `search` tool (Bayesian optimization); without it `search` returns a clear error, every other tool works
+search = ["botorch>=0.14", "gpytorch>=1.14"]
+# the MCP server (python -m amm.mcp_server) for LLM agents
+mcp = ["mcp>=2.3"]
+# the browser GUI (app/ in the source tree, outside the amm package: python -m app.server)
+gui = ["starlette>=1.7", "uvicorn>=0.54"]
+# marching-cubes STL export; without it amm.export writes the voxel boundary surface (method "voxel_faces")
+export = ["scikit-image>=0.25"]
+# CuPy is not imported by amm (the GPU path is torch); kept as an extra for GPU scripts outside the package
+gpu = ["cupy-cuda12x>=13.6"]
+# third-party FE check of the certificates (scripts/verify/skfem_check.py); not used by amm itself
+verify = ["scikit-fem>=12.0.2"]
+all = ["amm[search,mcp,gui,export]"]
+test = ["pytest>=9.0", "amm[search,mcp,gui,export]"]
+
+[build-system]
+requires = ["setuptools>=77"]  # B7: >=77 for the SPDX `license` string and `license-files`
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["amm"]
+
+[tool.setuptools.package-data]
+# the versioned data manifest (amm.data); the atlas and error-model files themselves are downloaded (GitHub release asset amm-data-1.zip) and
+# found through AMM_DATA_DIR, see amm/data.py
+amm = ["data_manifest.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# B6 (2026-11-08): tests/conftest.py assigns these markers and skips a test whose requirement is absent, so the same
+# suite runs in a full checkout, in CI (CPU only) and against an installed wheel. CI: pytest -m "not gpu".
+markers = [
+    "gpu: needs a CUDA device (skipped without one)",
+    "data: needs the runtime data files (search atlas, error model; amm.data.verify), skipped when absent",
+    "repo: needs source-checkout files outside the amm package (app/, bench/, scripts/, results/), skipped when absent",
+    "slow: takes more than about 10 s on a desktop CPU without CUDA",
+]

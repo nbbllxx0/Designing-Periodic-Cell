@@ -1,0 +1,33 @@
+{
+ "brief": "A15",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 1274.2,
+ "usage": {
+  "input_tokens": 2603348,
+  "cached_input_tokens": 2503168,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 6008,
+  "reasoning_output_tokens": 1245
+ },
+ "final": "Released a certified Ti-6Al-4V BCC design with a 6 mm cell, 1.62 mm node radius, and 0.36 mm strut radius. Certified bounds give relative density \u226419.52%, C44 \u22651,700 MPa, and a complete band gap covering 189.6\u2013310.1 kHz, satisfying all requested targets.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-A15",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.1,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

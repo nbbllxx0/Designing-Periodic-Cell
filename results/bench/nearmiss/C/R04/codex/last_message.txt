@@ -1,0 +1,1 @@
+No design released; verdict: **NOT_FOUND_IN_FAMILIES**. The closest candidate, a PA12 diamond sheet cell, met the 24% density limit but its certified bulk modulus range was 157.46–157.66 MPa, below 159 MPa. This does not prove the requirements physically impossible.

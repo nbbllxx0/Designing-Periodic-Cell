@@ -1,0 +1,208 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "E100_min": {
+     "unit": "GPa",
+     "value": 96.5
+    },
+    "density_max": 0.2
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    },
+    "targets": {
+     "E100_min": [
+      96.5,
+      "GPa"
+     ],
+     "density_max": 0.2
+    }
+   },
+   "seq": 2,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [
+     {
+      "bound": "HS",
+      "limit": 0.11088709677419349,
+      "scope": "isotropic",
+      "statement": "E100_min exceeds the Hashin-Shtrikman upper bound on E",
+      "target": 0.5
+     }
+    ],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.6594183704346142,
+       "slack_opt": -0.6594183704346142,
+       "slack_pess": -0.6911860347274588,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.51913,
+         "w": 0.36
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6930589153906841,
+       "slack_opt": -0.6839509543601732,
+       "slack_pess": -0.7022659363981165,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.543478,
+         "w": 0.36
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6718854431775404,
+       "slack_opt": -0.6718854431775404,
+       "slack_pess": -0.7024902444524439,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.543478,
+         "w": 0.346957
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 0,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "bounds_verdict": "PROVEN_INFEASIBLE",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    },
+    "verdict": "PROVEN_INFEASIBLE",
+    "violated": [
+     {
+      "bound": "V1",
+      "limit": 0.2,
+      "scope": "any",
+      "statement": "E100_min exceeds the Voigt bound phi_max * E_s (any geometry)",
+      "target": 0.5
+     }
+    ]
+   },
+   "seq": 3,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [
+   {
+    "bound": "HS",
+    "limit": 0.11088709677419349,
+    "scope": "isotropic",
+    "statement": "E100_min exceeds the Hashin-Shtrikman upper bound on E",
+    "target": 0.5
+   }
+  ],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": -0.6594183704346142,
+     "slack_opt": -0.6594183704346142,
+     "slack_pess": -0.6911860347274588,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.51913,
+       "w": 0.36
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.6930589153906841,
+     "slack_opt": -0.6839509543601732,
+     "slack_pess": -0.7022659363981165,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.543478,
+       "w": 0.36
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.6718854431775404,
+     "slack_opt": -0.6718854431775404,
+     "slack_pess": -0.7024902444524439,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.543478,
+       "w": 0.346957
+      }
+     }
+    }
+   ],
+   "n_cells": 2714,
+   "n_clear": 0,
+   "n_possible": 0,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "NOT_FOUND_IN_FAMILIES"
+  },
+  "bounds_verdict": "PROVEN_INFEASIBLE",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "E100_min": 0.5,
+   "density_max": 0.2
+  },
+  "verdict": "PROVEN_INFEASIBLE",
+  "violated": [
+   {
+    "bound": "V1",
+    "limit": 0.2,
+    "scope": "any",
+    "statement": "E100_min exceeds the Voigt bound phi_max * E_s (any geometry)",
+    "target": 0.5
+   }
+  ]
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S01_targets\\11-check-bounds"
+}

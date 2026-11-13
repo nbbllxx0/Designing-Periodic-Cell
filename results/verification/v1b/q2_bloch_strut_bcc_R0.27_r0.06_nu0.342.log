@@ -1,0 +1,9 @@
+strut_bcc_R0.27_r0.06_nu0.342   Q2FCM n=6 s=5: ne=120 (cut 104), ndof=3726, density=0.19514, removed=-6.74e-16, setup 0.9s
+strut_bcc_R0.27_r0.06_nu0.342   search done 655.5s {'lo': [{'k': [0.0, 0.0, 0.0], 'value': 0.373349386277727}, {'k': [0.0, 0.0, 0.0], 'value': 0.37334938627772607}], 'hi': [{'k': [0.0, 0.0, 0.0], 'value': 0.8505178506710214}, {'k': [0.0, 0.0, 0.0], 'value': 0.8505178506710216}]}
+strut_bcc_R0.27_r0.06_nu0.342   Q2FCM n=12 s=5: ne=720 (cut 592), ndof=22446, density=0.19505, removed=-3.20e-15, setup 5.9s
+strut_bcc_R0.27_r0.06_nu0.342   level n=12: 45 k, 635.8s
+strut_bcc_R0.27_r0.06_nu0.342   Q2FCM n=16 s=5: ne=1456 (cut 1056), ndof=42486, density=0.19497, removed=7.83e-15, setup 11.6s
+strut_bcc_R0.27_r0.06_nu0.342   level n=16: 8 k, 222.8s
+strut_bcc_R0.27_r0.06_nu0.342   Q2FCM n=20 s=5: ne=2432 (cut 1536), ndof=69726, density=0.19499, removed=4.23e-15, setup 13.7s
+strut_bcc_R0.27_r0.06_nu0.342   level n=20: 8 k, 454.3s
+strut_bcc_R0.27_r0.06_nu0.342 done 1968.5 s

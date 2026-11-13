@@ -1,0 +1,1 @@
+Released a certified Ti6Al4V sphere-and-ligament resonator with a 12 mm cell and parameters \(c/a=0.356522\), \(w/a=0.108696\). Its complete infinite-lattice band gap covers **132–177 kHz** in all directions and polarizations. LPBF manufacturability and finite-part attenuation were not evaluated.

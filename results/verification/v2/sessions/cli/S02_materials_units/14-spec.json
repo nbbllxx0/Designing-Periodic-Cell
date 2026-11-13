@@ -1,0 +1,26 @@
+{
+ "constraints": {
+  "cell_size": 10,
+  "cell_size_unit": "mm"
+ },
+ "material": {
+  "E_Pa": 2000000000.0,
+  "nu": 0.35,
+  "rho_kg_m3": 1200.0
+ },
+ "targets": {
+  "E100_min": {
+   "value": 1.0,
+   "unit": "GPa"
+  },
+  "G_min": {
+   "value": 50.0,
+   "unit": "MPa"
+  },
+  "gap": {
+   "f_lo": 20.0,
+   "f_hi": 30.0,
+   "unit": "kHz"
+  }
+ }
+}

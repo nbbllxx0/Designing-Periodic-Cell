@@ -1,0 +1,1 @@
+Released a certified 12 mm Ti6Al4V sphere-and-ligament unit cell with parameters \(c=0.312174a\), \(w=0.108696a\). Its complete band gap covers **68.6–114 kHz**, and robustness checks passed for geometry offsets of ±0.12 mm.

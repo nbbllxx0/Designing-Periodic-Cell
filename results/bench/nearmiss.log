@@ -1,0 +1,14 @@
+{"mat": "PA12", "q": "G", "cap": 0.32, "result": "rounding leaves the window", "t": 0.06823529411764706, "u_max": 0.06754040989678016, "e_max": 0.06823495473266224}
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+{"mat": "316L", "q": "G", "cap": 0.24, "result": "raised u_max", "by": [{"family": "tpms", "kind": "schwarz_p", "params": {"density": 0.243647, "mode": "sheet"}}, {"family": "tpms", "kind": "schwarz_p", "params": {"density": 0.244741, "mode": "sheet"}}], "u_max": 0.05094937804060283}
+{"mat": "316L", "q": "G", "cap": 0.24, "result": "no window", "u_max": 0.05094937804060283, "e_max": 0.050318328010522696}
+{"mat": "PA12", "q": "bulk", "cap": 0.28, "result": "no window", "u_max": 0.11141460603817395, "e_max": 0.1123573691655932}
+{"id": "R06", "mat": "PA12", "q": "E100", "cap": 0.16, "t": 0.07176470588235294, "nominal_slack": 0.006478849334094795, "expected_slack": -0.10170158067928604, "n_proof": 5, "result": "near-miss brief"}
+{"mat": "PA12", "q": "bulk", "cap": 0.16, "result": "no window", "u_max": 0.05968467362581037, "e_max": 0.060191032353210126}
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+{"id": "R07", "mat": "316L", "q": "E100", "cap": 0.24, "t": 0.11554404145077721, "nominal_slack": 0.009209256914308956, "expected_slack": -0.03193044778679101, "n_proof": 4, "result": "near-miss brief"}
+{"id": "R08", "mat": "Ti6Al4V", "q": "E100", "cap": 0.2, "t": 0.09314586994727592, "nominal_slack": 0.00342359836935414, "expected_slack": -0.03748025803526007, "n_proof": 4, "result": "near-miss brief"}

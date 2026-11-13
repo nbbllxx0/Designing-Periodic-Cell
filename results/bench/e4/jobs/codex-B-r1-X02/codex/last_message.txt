@@ -1,0 +1,1 @@
+The request is **proven infeasible**. Using the tool’s Ti-6Al-4V modulus of 113.8 GPa, the theoretical upper bound at 16% solid fraction is 18.208 GPa, below your 20.4 GPa target. Even an ideal structure would require at least 17.93% solid fraction.

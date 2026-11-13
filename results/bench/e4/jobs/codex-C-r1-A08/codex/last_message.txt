@@ -1,0 +1,1 @@
+Released a certified 316L Schwarz P sheet unit cell at 28% nominal solid fraction. Its certified solid-fraction upper bound is 28.005%, and its homogenized C44 lower bound is 11.46 GPa, satisfying both requirements.

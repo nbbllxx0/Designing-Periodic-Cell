@@ -1,0 +1,19 @@
+{
+ "brief": "A01",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 95.0,
+ "usage": {
+  "input_tokens": 346697,
+  "cached_input_tokens": 325888,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1119,
+  "reasoning_output_tokens": 97
+ },
+ "final": "Released a PA12 sphere-and-ligament cell with normalized parameters c = 0.260413 and w = 0.266768. Predicted solid fraction is 16.01%, axial Young\u2019s modulus is 122.86 MPa, and C44 is 7.56 MPa, meeting all requested limits. These are uncertified search estimates.",
+ "stderr_tail": "2026-11-05T20:47:00.049293Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'rg --files -g \\\\\\\"*\\\\\\\"'` rejected: blocked by policy\\\")\" }\n"
+}

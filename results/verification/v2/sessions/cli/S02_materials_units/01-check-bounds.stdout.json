@@ -1,0 +1,52 @@
+{
+ "calls": [
+  {
+   "args": {
+    "cell_size": 10,
+    "cell_size_unit": "mm"
+   },
+   "ok": true,
+   "result": {
+    "cell_size": [
+     10.0,
+     "mm"
+    ],
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "seq": 1,
+   "tool": "set_constraints"
+  },
+  {
+   "args": {},
+   "error": "no targets that can be normalized yet",
+   "ok": false,
+   "seq": 2,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": {
+  "error": "no targets that can be normalized yet",
+  "tool": "check_bounds"
+ },
+ "ok": false,
+ "profile": "C",
+ "result": {
+  "cell_size": [
+   10.0,
+   "mm"
+  ],
+  "families": [
+   "tpms",
+   "struts",
+   "resonator"
+  ]
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S02_materials_units\\01-check-bounds"
+}

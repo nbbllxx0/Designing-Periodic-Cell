@@ -1,0 +1,49 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "G_min": {
+     "unit": "GPa",
+     "value": -5.0
+    },
+    "density_max": 0.3
+   },
+   "error": "G_min must be positive: a minimum modulus <= 0 constrains nothing (bound P1); leave it out",
+   "ok": false,
+   "seq": 2,
+   "tool": "set_target"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": {
+  "error": "G_min must be positive: a minimum modulus <= 0 constrains nothing (bound P1); leave it out",
+  "tool": "set_target"
+ },
+ "ok": false,
+ "profile": "C",
+ "result": {
+  "E_Pa": 193000000000.0,
+  "atlas_available": true,
+  "material": "316L",
+  "nu": 0.3,
+  "rho_kg_m3": 8000.0
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S01_targets\\41-check-bounds"
+}

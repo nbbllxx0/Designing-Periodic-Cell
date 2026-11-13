@@ -1,0 +1,1 @@
+Released a certified PA12 cube-and-bar unit cell with \(c=0.446087a\) and \(w=0.346957a\), where \(a\) is the cell size. Certified bounds give relative density ≤28.91% and \(E_{[100]}\) ≥239.63 MPa, meeting both requirements. The design fails the erosion robustness check at \(0.01a\); SLS manufacturability was not evaluated.

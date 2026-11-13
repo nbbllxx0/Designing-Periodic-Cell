@@ -1,0 +1,1 @@
+No design released; verdict: **NOT_FOUND_IN_FAMILIES**. A candidate reached 19.99% solid and nominal axial modulus of 162.1 MPa, but its stiffness margin falls within the tool’s estimation bias. Corrected searches found no feasible design; this does not prove physical infeasibility.

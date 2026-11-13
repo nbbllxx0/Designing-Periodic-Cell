@@ -1,0 +1,12 @@
+{"case": "cb_c0.5_w0.2_nu0.3", "n_k": 1771, "n_fail": 0, "numerical_flags": 0, "seconds": 470.6}
+{"case": "cb_c0.6_w0.2_nu0.342", "n_k": 1771, "n_fail": 0, "numerical_flags": 0, "seconds": 677.2}
+{"case": "cb_c0.6_w0.3_nu0.3", "n_k": 1771, "n_fail": 0, "numerical_flags": 0, "seconds": 1010.3}
+{"case": "cb_c0.7_w0.3_nu0.3", "n_k": 1771, "n_fail": 0, "numerical_flags": 0, "seconds": 1303.5}
+{"case": "cb_c0.8_w0.3_nu0.3", "n_k": 1771, "n_fail": 0, "numerical_flags": 0, "seconds": 1888.5}
+{"case": "strut_bcc_R0.27_r0.06_nu0.342", "n_k": 1771, "n_fail": 0, "numerical_flags": 0, "seconds": 736.2}
+{"case": "thin_sl_c0.402_w0.061_nu0.3", "n_k": 1771, "n_fail": 0, "numerical_flags": 0, "seconds": 846.6}
+{"case": "tpms_schwarzp_d0.25_nu0.3", "n_k": 1771, "n_fail": 0, "numerical_flags": 0, "seconds": 793.0}
+{"case": "thin_sl_c0.357_w0.109_nu0.3", "n_k": 1771, "n_fail": 0, "numerical_flags": 0, "seconds": 570.3}
+{"case": "mount_PA12", "n_k": 1771, "n_fail": 0, "numerical_flags": 0, "seconds": 479.6}
+{"case": "filter_PA12", "n_k": 1771, "n_fail": 0, "numerical_flags": 0, "seconds": 569.5}
+{"case": "filter_316L", "n_k": 1771, "n_fail": 0, "numerical_flags": 0, "seconds": 1044.7}

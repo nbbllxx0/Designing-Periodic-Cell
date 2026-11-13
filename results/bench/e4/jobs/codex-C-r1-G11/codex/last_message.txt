@@ -1,0 +1,1 @@
+Released a Ti6Al4V sphere-and-ligament resonator with **8 mm cells**, using normalized parameters **c = 0.356522, w = 0.108696**. Certification confirms a complete infinite-lattice elastic band gap covering **232–265 kHz**, for all directions and polarizations. LPBF manufacturability was not evaluated.

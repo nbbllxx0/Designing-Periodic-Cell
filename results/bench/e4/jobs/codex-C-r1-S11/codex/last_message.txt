@@ -1,0 +1,1 @@
+Released a certified Ti-6Al-4V I-WP sheet unit cell with nominal solid fraction 38%. Its certified solid-fraction upper bound is 38.002%, and its axial Young’s-modulus lower bound is 21.61 GPa along x, y, and z—meeting both requirements. A surface erosion of 0.01 cell widths fails the robustness check.

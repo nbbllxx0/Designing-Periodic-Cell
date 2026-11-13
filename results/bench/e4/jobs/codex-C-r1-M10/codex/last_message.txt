@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. Two BCC candidates certified solid fraction ≤27% and C44 ≥615 MPa, but neither certified a complete gap covering 97.7–172 kHz. This does not prove the request infeasible.

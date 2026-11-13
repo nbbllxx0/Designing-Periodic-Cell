@@ -1,0 +1,34 @@
+50 cells; (verdict, claim truth): {('undetermined', 'true'): 6, ('certified', 'true'): 35, ('undetermined', 'undetermined'): 5, ('undetermined', 'false'): 4}
+targets: {'certified': 241, 'abstention': 22}
+false certifications: []
+false refutations: []
+
+abstentions on true static claims (claim distance vs guard band):
+  sphere_ligaments {"c": 0.2, "w": 0.2}           G_min     distance 0.027 band 0.043 rung [64, 80, 96]  
+  cube_bars        {"c": 0.8, "w": 0.1}           G_min     distance 1.077 band 0.204 rung [64, 80, 96]  OUTSIDE BAND
+  cube_bars        {"c": 0.7, "w": 0.15}          G_min     distance 0.455 band 0.111 rung [64, 80, 96]  OUTSIDE BAND
+  bcc              {"r": 0.1, "R": 0.0}           E100_min  distance 0.064 band 0.122 rung [64, 80, 96]  
+  sphere_ligaments {"c": 0.3, "w": 0.1}           G_min     distance 0.074 band 0.105 rung [64, 80, 96]  
+  sphere_ligaments {"c": 0.35, "w": 0.1}          G_min     distance 0.022 band 0.166 rung [64, 80, 96]  
+  bcc              {"r": 0.06, "R": 0.22}         E100_min  distance 0.023 band 0.146 rung [64, 80, 96]  
+  bcc              {"r": 0.06, "R": 0.22}         G_min     distance 0.029 band 0.070 rung [64, 80, 96]  
+  sc               {"r": 0.1, "R": 0.15}          G_min     distance 0.031 band 0.037 rung [64, 80, 96]  
+  bcc              {"r": 0.1, "R": 0.15}          E100_min  distance 0.066 band 0.114 rung [64, 80, 96]  
+  sc               {"r": 0.06, "R": 0.22}         G_min     distance 0.152 band 0.121 rung [64, 80, 96]  OUTSIDE BAND
+
+cell table (old class -> new verdict):
+  false alarm (static)               -> undetermined truth true         sphere_ligaments {"c": 0.2, "w": 0.2} [('G_min', 'undetermined')] 
+  undetermined (reference not conver -> undetermined truth undetermined cube_bars        {"c": 0.8, "w": 0.1} [('G_min', 'undetermined'), ('gap', 'undetermined')] modes inside the claimed interval at every resolution (likely false, not provable)
+  undetermined (reference not conver -> undetermined truth undetermined sphere_ligaments {"c": 0.35, "w": 0.15} [('G_min', 'undetermined'), ('gap', 'undetermined')] modes inside the claimed interval at every resolution (likely false, not provable)
+  correct refusal (claim false)      -> undetermined truth false        cube_bars        {"c": 0.7, "w": 0.2} [('gap', 'undetermined')] modes inside the claimed interval at every resolution (likely false, not provable)
+  correct refusal (claim false)      -> undetermined truth false        cube_bars        {"c": 0.7, "w": 0.15} [('G_min', 'undetermined'), ('gap', 'undetermined')] modes inside the claimed interval at every resolution (likely false, not provable)
+  false alarm (static)               -> undetermined truth true         bcc              {"r": 0.1, "R": 0.0} [('E100_min', 'undetermined')] 
+  false alarm (static)               -> undetermined truth true         sphere_ligaments {"c": 0.3, "w": 0.1} [('G_min', 'undetermined')] 
+  correct refusal (claim false)      -> undetermined truth false        cube_bars        {"c": 0.7, "w": 0.3} [('gap', 'undetermined')] modes inside the claimed interval at every resolution (likely false, not provable)
+  correct refusal (claim false)      -> undetermined truth false        sphere_ligaments {"c": 0.35, "w": 0.1} [('G_min', 'undetermined'), ('gap', 'undetermined')] modes inside the claimed interval at every resolution (likely false, not provable)
+  undetermined (reference not conver -> undetermined truth undetermined bcc              {"r": 0.06, "R": 0.22} [('E100_min', 'undetermined'), ('G_min', 'undetermined'), ('gap', 'undetermined')] claim inside the edge guard band
+  false alarm (static)               -> undetermined truth true         sc               {"r": 0.1, "R": 0.15} [('G_min', 'undetermined')] 
+  false alarm (static)               -> undetermined truth true         bcc              {"r": 0.1, "R": 0.15} [('E100_min', 'undetermined')] 
+  undetermined (reference not conver -> undetermined truth undetermined sphere_ligaments {"c": 0.4, "w": 0.2} [('gap', 'undetermined')] modes inside the claimed interval at every resolution (likely false, not provable)
+  false alarm (static)               -> undetermined truth true         sc               {"r": 0.06, "R": 0.22} [('G_min', 'undetermined')] 
+  undetermined (reference not conver -> undetermined truth undetermined sphere_ligaments {"c": 0.3, "w": 0.2} [('G_min', 'undetermined'), ('gap', 'undetermined')] modes inside the claimed interval at every resolution (likely false, not provable)

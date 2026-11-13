@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"PA12","cell_size":[15,"mm"],"targets":{"gap":{"f_lo":26.4,"f_hi":36.5,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without a periodic elastodynamic calculation across all wave directions and polarizations, I cannot certify a design covering this complete band gap."}

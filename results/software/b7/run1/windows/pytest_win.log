@@ -1,0 +1,56 @@
+.........F..s........................................................... [ 61%]
+....................s........................                            [100%]
+================================== FAILURES ===================================
+_______________ test_contracts_of_schemas_1_and_2_are_unchanged _______________
+
+    @pytest.mark.repo
+    def test_contracts_of_schemas_1_and_2_are_unchanged():
+        for sch in (tools.SCHEMA_V1, tools.SCHEMA_V2):
+            p = ROOT / "results" / "software" / f"contract_{sch.replace('/', '-')}.json"
+>           assert p.read_text(encoding="utf-8") == json.dumps(tools.contract(sch), indent=1, sort_keys=True) + "\n"
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_b9.py:234: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\nbbll\anaconda3\Lib\pathlib.py:1058: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = WindowsPath('C:/AI/AgenticMetamaterials_workspaces/b7/win/t/results/software/contract_amm-tools-1.json')
+mode = 'r', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: 'C:\\AI\\AgenticMetamaterials_workspaces\\b7\\win\\t\\results\\software\\contract_amm-tools-1.json'
+
+C:\Users\nbbll\anaconda3\Lib\pathlib.py:1044: FileNotFoundError
+============================== warnings summary ===============================
+..\venv\Lib\site-packages\torch\jit\_script.py:1491
+  C:\AI\AgenticMetamaterials_workspaces\b7\win\venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+============================ slowest 10 durations =============================
+123.38s call     tests/test_mutations.py::test_interior_k_gap_closure_is_caught_by_the_adversarial_k_search
+81.35s call     tests/test_verdict.py::test_static_block_without_static_targets_stops_at_the_first_rung
+38.12s call     tests/test_mutations.py::test_overstated_stiffness_is_refused_and_honest_claim_passes
+34.37s call     tests/test_mutations.py::test_floating_core_is_refused_by_static_and_bloch_blocks
+33.09s call     tests/test_tools.py::test_replay_detects_a_changed_result
+32.69s call     tests/test_tools.py::test_profile_b_has_no_certificates
+32.52s call     tests/test_tools.py::test_contract_and_exact_replay
+26.53s call     tests/test_b9.py::test_progress_hook_reports_and_never_changes_the_certificate
+25.95s setup    tests/test_bounds.py::test_bounds_never_refute_an_achieved_design
+20.07s call     tests/test_mutations.py::test_density_claim_violation_is_refused
+=========================== short test summary info ===========================
+SKIPPED [1] tests\test_b9.py:279: no results/atlas in this checkout
+SKIPPED [1] tests\test_runtime.py: source-checkout file absent: results/bench/e4/jobs.json
+1 failed, 114 passed, 2 skipped, 1 deselected, 1 warning in 549.49s (0:09:09)

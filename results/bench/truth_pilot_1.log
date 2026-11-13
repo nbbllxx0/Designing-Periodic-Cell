@@ -1,0 +1,10 @@
+S02 schwarz_p {'density': 0.28, 'mode': 'sheet'} pass 1: certified 129.9 s
+S02 pass 2 u 0.9849817145848676 : certified 132.9 s
+S02 done: certified 262.9 s
+G01 sphere_ligaments {'c': 0.326957, 'w': 0.145217} pass 1: undetermined 382.5 s
+G01 pass 2 u 0.9839608561346348 : certified 935.3 s
+G01 done: certified 1318.0 s
+G03 sphere_ligaments {'c': 0.46, 'w': 0.145217} pass 1: certified 2399.5 s
+G03 done: certified 2399.8 s
+M02 sphere_ligaments {'c': 0.40087, 'w': 0.145217} pass 1: certified 1431.9 s
+M02 done: certified 1431.9 s

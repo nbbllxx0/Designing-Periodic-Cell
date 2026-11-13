@@ -1,0 +1,61 @@
+waiting for gpu.lock held by {'pid': 37968, 'who': 'V1b amm marginal tpms_schwarzp_sheet_d0.2895_nu0.342', 't': 1794090683.0002959}
+lock acquired by V1c amm_bands cb_c0.5_w0.2_nu0.3 cert n20
+cb_c0.5_w0.2_nu0.3 cert 20 [1.0, 0.0, 0.0] [0.370584 0.591882] 23
+cb_c0.5_w0.2_nu0.3 cert 20 [1.0, 0.0, 0.0] [0.370584 0.591882] 23
+cb_c0.5_w0.2_nu0.3 cert 20 [0.9969, 0.0, 0.0] [0.370584 0.591882] 23
+cb_c0.5_w0.2_nu0.3 cert 20 [1.0, 0.0, 0.0] [0.370584 0.591882] 23
+cb_c0.5_w0.2_nu0.3 cert 20 [1.0, 0.0, 0.0] [0.370584 0.591882] 23
+cb_c0.5_w0.2_nu0.3 cert 20 [0.9969, 0.0, 0.0] [0.370584 0.591882] 23
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.5_w0.2_nu0.3_cert_n20_ks_dfx.json 73.3 s
+lock acquired by V1c amm_bands cb_c0.5_w0.2_nu0.3 cert n30
+cb_c0.5_w0.2_nu0.3 cert 30 [1.0, 0.0, 0.0] [0.370029 0.586804] 23
+cb_c0.5_w0.2_nu0.3 cert 30 [1.0, 0.0, 0.0] [0.370029 0.586804] 23
+cb_c0.5_w0.2_nu0.3 cert 30 [0.9969, 0.0, 0.0] [0.370028 0.586804] 23
+cb_c0.5_w0.2_nu0.3 cert 30 [1.0, 0.0, 0.0] [0.370029 0.586804] 23
+cb_c0.5_w0.2_nu0.3 cert 30 [1.0, 0.0, 0.0] [0.370029 0.586804] 23
+cb_c0.5_w0.2_nu0.3 cert 30 [0.9969, 0.0, 0.0] [0.370028 0.586804] 23
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.5_w0.2_nu0.3_cert_n30_ks_dfx.json 894.6 s
+done cb_c0.5_w0.2_nu0.3 {'search': 243.8, 'q2_n10': 19.7, 'q2_n15': 35.5, 'q2_n20': 59.1, 'q1id_n20': 5.9, 'amm_cert_n20': 1845.6, 'amm_cert_n30': 897.7}
+lock acquired by V1c amm_bands cb_c0.6_w0.2_nu0.342 cert n20
+cb_c0.6_w0.2_nu0.342 cert 20 [1.0, 1.0, 1.0] [0.327358 0.790315] 46
+cb_c0.6_w0.2_nu0.342 cert 20 [1.0, 0.999, 0.999] [0.327358 0.790315] 46
+cb_c0.6_w0.2_nu0.342 cert 20 [1.0, 0.9555, 0.9555] [0.327239 0.79035 ] 45
+cb_c0.6_w0.2_nu0.342 cert 20 [1.0, 0.0, 0.0] [0.31848  0.726627] 31
+cb_c0.6_w0.2_nu0.342 cert 20 [1.0, 0.0, 0.0] [0.31848  0.726627] 31
+cb_c0.6_w0.2_nu0.342 cert 20 [0.9969, 0.0, 0.0] [0.318479 0.726627] 31
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.6_w0.2_nu0.342_cert_n20_ks_dfx.json 175.9 s
+lock acquired by V1c amm_bands cb_c0.6_w0.2_nu0.342 cert n30
+cb_c0.6_w0.2_nu0.342 cert 30 [1.0, 1.0, 1.0] [0.324182 0.783639] 42
+cb_c0.6_w0.2_nu0.342 cert 30 [1.0, 0.999, 0.999] [0.324182 0.783639] 43
+cb_c0.6_w0.2_nu0.342 cert 30 [1.0, 0.9555, 0.9555] [0.324063 0.783674] 43
+cb_c0.6_w0.2_nu0.342 cert 30 [1.0, 0.0, 0.0] [0.312084 0.714774] 32
+cb_c0.6_w0.2_nu0.342 cert 30 [1.0, 0.0, 0.0] [0.312084 0.714774] 32
+cb_c0.6_w0.2_nu0.342 cert 30 [0.9969, 0.0, 0.0] [0.312084 0.714774] 32
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.6_w0.2_nu0.342_cert_n30_ks_dfx.json 1965.4 s
+done cb_c0.6_w0.2_nu0.342 {'search': 426.7, 'q2_n10': 23.0, 'q2_n15': 98.5, 'q2_n20': 98.5, 'q1id_n20': 7.0, 'amm_cert_n20': 178.7, 'amm_cert_n30': 1968.0}
+lock acquired by V1c amm_bands cb_c0.6_w0.3_nu0.3 cert n20
+cb_c0.6_w0.3_nu0.3 cert 20 [1.0, 0.0, 0.0] [0.544505 0.701252] 30
+cb_c0.6_w0.3_nu0.3 cert 20 [1.0, 0.0, 0.0] [0.544505 0.701252] 30
+cb_c0.6_w0.3_nu0.3 cert 20 [0.9969, 0.0, 0.0] [0.544505 0.701252] 30
+cb_c0.6_w0.3_nu0.3 cert 20 [0.0, 0.0, 0.0] [0.512992 0.700951] 34
+cb_c0.6_w0.3_nu0.3 cert 20 [0.0, 0.0, 0.0] [0.512992 0.700951] 34
+cb_c0.6_w0.3_nu0.3 cert 20 [0.0031, 0.0, 0.0] [0.512992 0.700951] 600
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.6_w0.3_nu0.3_cert_n20_ks_dfx.json 389.0 s
+lock acquired by V1c amm_bands cb_c0.6_w0.3_nu0.3 cert n30
+cb_c0.6_w0.3_nu0.3 cert 30 [1.0, 0.0, 0.0] [0.539773 0.694983] 30
+cb_c0.6_w0.3_nu0.3 cert 30 [1.0, 0.0, 0.0] [0.539773 0.694983] 30
+cb_c0.6_w0.3_nu0.3 cert 30 [0.9969, 0.0, 0.0] [0.539773 0.694983] 30
+cb_c0.6_w0.3_nu0.3 cert 30 [0.0, 0.0, 0.0] [0.508555 0.694717] 32
+cb_c0.6_w0.3_nu0.3 cert 30 [0.0, 0.0, 0.0] [0.508555 0.694717] 32
+cb_c0.6_w0.3_nu0.3 cert 30 [0.0031, 0.0, 0.0] [0.508556 0.694717] 600
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.6_w0.3_nu0.3_cert_n30_ks_dfx.json 5606.2 s
+done cb_c0.6_w0.3_nu0.3 {'search': 685.2, 'q2_n10': 54.3, 'q2_n15': 162.2, 'q2_n20': 168.1, 'q1id_n20': 7.8, 'amm_cert_n20': 391.6, 'amm_cert_n30': 5608.9}
+lock acquired by V1c amm_bands cb_c0.7_w0.3_nu0.3 cert n20
+cb_c0.7_w0.3_nu0.3 cert 20 [1.0, 0.0, 0.0] [0.472785 0.722575] 38
+cb_c0.7_w0.3_nu0.3 cert 20 [1.0, 0.0, 0.0] [0.472785 0.722575] 38
+cb_c0.7_w0.3_nu0.3 cert 20 [0.9969, 0.0, 0.0] [0.472784 0.722575] 38
+cb_c0.7_w0.3_nu0.3 cert 20 [1.0, 1.0, 1.0] [0.439518 0.70792 ] 49
+cb_c0.7_w0.3_nu0.3 cert 20 [1.0, 0.999, 0.999] [0.439518 0.70792 ] 48
+cb_c0.7_w0.3_nu0.3 cert 20 [0.9939, 0.9913, 0.5902] [0.431045 0.708305] 49
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.7_w0.3_nu0.3_cert_n20_ks_dfx.json 369.2 s
+lock acquired by V1c amm_bands cb_c0.7_w0.3_nu0.3 cert n30

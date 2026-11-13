@@ -1,0 +1,1 @@
+{"decision":"ask","question":"What unit-cell size a should I use for the 26.4–36.5 kHz complete-gap target?","options":[{"label":"1 mm","set":{"cell_size":[1,"mm"]}},{"label":"5 mm","set":{"cell_size":[5,"mm"]}},{"label":"10 mm","set":{"cell_size":[10,"mm"]}}]}

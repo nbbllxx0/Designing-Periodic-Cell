@@ -1,0 +1,1 @@
+Released a certified 10 mm PA12 sphere-and-ligament unit cell with normalized parameters **c = 0.356522, w = 0.108696**. It meets all targets: solid fraction ≤19.802%, E[100] ≥36.4 MPa, and a complete band gap covering 44.6–50.9 kHz. SLS manufacturability was not evaluated.

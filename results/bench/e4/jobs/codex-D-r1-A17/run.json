@@ -1,0 +1,31 @@
+{
+ "brief": "A17",
+ "arm": "D",
+ "profile": "D",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 21.5,
+ "usage": {
+  "input_tokens": 25488,
+  "cached_input_tokens": 19200,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 594,
+  "reasoning_output_tokens": 409
+ },
+ "final": "{\"decision\":\"refuse\",\"material\":\"316L\",\"cell_size\":[8,\"mm\"],\"targets\":{\"gap\":{\"f_lo\":68.5,\"f_hi\":466,\"unit\":\"kHz\"}},\"verdict\":\"UNDETERMINED\",\"note\":\"Without a solver, I cannot certify a complete gap across this interval for any permitted design or establish that the target is infeasible.\"}",
+ "rounds": 2,
+ "parsed": true,
+ "job": "codex-D-r1-A17",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.1,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

@@ -1,0 +1,1 @@
+Submitted **UNDETERMINED**; no design released. An IWP sheet at 37% nominal solid fraction predicts \(E_{[100]}=22.36\) GPa and \(C_{44}=6.64\) GPa, but certification is unavailable and the uncertainty-adjusted search found no passing design. This does not prove infeasibility.

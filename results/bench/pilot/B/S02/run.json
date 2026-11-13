@@ -1,0 +1,19 @@
+{
+ "brief": "S02",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 402.3,
+ "usage": {
+  "input_tokens": 1059006,
+  "cached_input_tokens": 1003008,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 3420,
+  "reasoning_output_tokens": 1530
+ },
+ "final": "Released a Ti6Al4V Schwarz P sheet cell with density parameter 0.284253: predicted solid volume 28.41% and C44 6.86 GPa. Calibrated expected estimates meet both limits, but the design is uncertified and the pessimistic estimate misses the stiffness requirement.",
+ "stderr_tail": "2026-11-05T18:38:34.820209Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

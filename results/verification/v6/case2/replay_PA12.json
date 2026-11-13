@@ -1,0 +1,27 @@
+{
+ "exact": true,
+ "n_calls": 14,
+ "n_compared": 14,
+ "mismatches": [],
+ "same_code": true,
+ "schema": "amm-tools/3",
+ "decision_changes": [],
+ "identity": {
+  "code_log": "f1a6d625064a6d18",
+  "code_now": "f1a6d625064a6d18",
+  "checker_log": "c5f8c89871b3bad6",
+  "checker_now": "c5f8c89871b3bad6",
+  "checker_aliased": false,
+  "checker_log_source": "header",
+  "code_aliased": false
+ },
+ "root": "temporary directory (removed)",
+ "tolerance": {
+  "max_rel_numeric": 0.0,
+  "non_numeric_differences": 0,
+  "calls_with_numeric_differences": [],
+  "derived_differences": [],
+  "other": []
+ },
+ "seconds": 1040.7
+}

@@ -1,0 +1,1 @@
+Released a certified PA12 sphere-and-ligament unit cell with **a = 10 mm**, using normalized parameters **c = 0.365407** and **w = 0.106886**. The amm certificate confirms a complete elastic band gap covering **44–54.6 kHz**, across all directions and polarizations, with robustness checks passed.

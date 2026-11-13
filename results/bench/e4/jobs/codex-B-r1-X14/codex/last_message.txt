@@ -1,0 +1,1 @@
+The request is **proven infeasible** under the tool’s 316L model (solid Young’s modulus 193 GPa). At 14% solid fraction, the theoretical upper bound on axial Young’s modulus is **27.02 GPa**, below your 36.5 GPa target. Reaching that target requires at least **18.91% solid fraction**, and actual lattice designs may require more.

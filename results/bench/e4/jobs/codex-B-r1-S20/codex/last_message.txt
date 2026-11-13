@@ -1,0 +1,1 @@
+Released a Ti-6Al-4V Schwarz P TPMS sheet cell at 30% solid volume. Estimated homogenized \(E_{[100]}=10.43\) GPa and \(C_{44}=7.34\) GPa meet both stiffness targets within the 35% volume limit. These are search estimates; the design is not certified.

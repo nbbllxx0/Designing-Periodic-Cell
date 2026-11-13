@@ -1,0 +1,11 @@
+{
+ "material": {
+  "name": "316L"
+ },
+ "targets": {
+  "E100_max": {
+   "value": -1.0,
+   "unit": "GPa"
+  }
+ }
+}

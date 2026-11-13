@@ -1,0 +1,20 @@
+
+### 2026-11-07 18:43:18 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\search_child.py M02 M1,M2,M3,M4,M5,M6 results\verification\v3\pilot --targets results\verification\v3\pilot\targets_pilot.json
+[M02] warm-up 3.4 s
+[M02] M1 atlas_only: 0 evals, 0.8 s, final bcc nominal +0.2331 expected +0.3430 (eval 0, atlas True)
+[M02] M2 sobol: 48 evals, 51.4 s, final sphere_ligaments nominal -0.1206 expected -0.2130 (eval 9, atlas False)
+[M02] M3 de: 48 evals, 37.8 s, final bcc nominal +0.1434 expected +0.2079 (eval 42, atlas False)
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+C:\Users\nbbll\anaconda3\envs\amm\lib\site-packages\linear_operator\utils\cholesky.py:40: NumericalWarning: A not p.d., added jitter of 1.0e-08 to the diagonal
+  warnings.warn(
+[M02] M4 bo_full: 48 evals, 49.6 s, final bcc nominal +0.2331 expected +0.3430 (eval 0, atlas True)
+[M02] M5 bo_no_seed: 48 evals, 50.2 s, final cube_bars nominal -0.0495 expected +0.0027 (eval 45, atlas False)
+[M02] M6 bo_no_correction: 48 evals, 51.2 s, final bcc nominal +0.2509 expected +0.2720 (eval 0, atlas True)
+
+### 2026-11-07 18:47:25 C:\Users\nbbll\anaconda3\envs\amm\python.exe C:\AI\AgenticMetamaterials\scripts\verify\v3\cert_child.py M02 results\verification\v3\pilot --targets results\verification\v3\pilot\targets_pilot.json
+[M02] cert bcc {'r': 0.04, 'R': 0.287273} for ['M1', 'M4']: undetermined in 284 s (certified slack None)
+[M02] cert bcc {'r': 0.043532, 'R': 0.266671} for ['M3']: undetermined in 292 s (certified slack -0.0808963453043207)
+[M02] cert bcc {'r': 0.04, 'R': 0.298182} for ['M6']: undetermined in 343 s (certified slack None)

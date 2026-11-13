@@ -1,0 +1,19 @@
+{
+ "brief": "X07",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 150.2,
+ "usage": {
+  "input_tokens": 456328,
+  "cached_input_tokens": 418176,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1426,
+  "reasoning_output_tokens": 411
+ },
+ "final": "Submitted **PROVEN_INFEASIBLE** for the available cubic-symmetric unit cells. Stable cubic elasticity requires an axial Poisson ratio below 0.5, so the requested minimum of 0.55 cannot be met, regardless of the 30% solid-volume limit. No design was released.",
+ "stderr_tail": "2026-11-05T16:55:42.663537Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

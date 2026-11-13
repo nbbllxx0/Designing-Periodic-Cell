@@ -1,0 +1,1 @@
+No design was released: the amm search found no supported 316L unit cell meeting both ≤33% solid volume and cube-axis Poisson ratio ≤−0.21. The verdict is **NOT_FOUND_IN_FAMILIES**, not proven infeasibility. LPBF manufacturability was not evaluated.

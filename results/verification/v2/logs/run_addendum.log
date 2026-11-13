@@ -1,0 +1,37 @@
+== lib S16_addendum: addendum: corrected rows of run 1
+  [lib] S16_addendum/validity_rule_r2: PASS (0.0 s) 
+  [lib] S16_addendum/cb_records_r2: PASS (0.1 s) 
+  [lib] S16_addendum/wrong_verdict_r2: PASS (0.0 s) 
+  [lib] S16_addendum/unknown_evidence_seq_r2: PASS (0.0 s) 
+  [lib] S16_addendum/proven_infeasible_r2: PASS (0.0 s) 
+   5/5 passed, 1.5 s, session results/verification/v2/sessions/lib/S16_addendum
+== lib S17_addendum_not_found: addendum: not found in families
+  [lib] S17_addendum_not_found/nf_bounds_r2: PASS (0.5 s) 
+  [lib] S17_addendum_not_found/stale_family_record_r2: PASS (0.0 s) 
+  [lib] S17_addendum_not_found/nf_holds_r2: PASS (0.0 s) 
+  [lib] S17_addendum_not_found/not_found_in_families_r2: PASS (0.0 s) 
+   4/4 passed, 0.8 s, session results/verification/v2/sessions/lib/S17_addendum_not_found
+== mcp S16_addendum: addendum: corrected rows of run 1
+Tool 'evaluate' failed: "Error executing tool evaluate: cube_bars parameters {'c': 0.35, 'w': 0.33} violate the family's validity rule"
+  [mcp] S16_addendum/validity_rule_r2: PASS (0.0 s) 
+  [mcp] S16_addendum/cb_records_r2: PASS (0.1 s) 
+Tool 'submit' failed: 'Error executing tool submit: refusal needs evidence: refuse with verdict UNDETERMINED must cite an evidence record held in this session for the current spec: a certificate with verdict undetermined for the current targets (call certify). Records held for the current spec: seq 4 bound_violation (supports proven_infeasible); seq 4 atlas_not_found (supports not_found_in_families).'
+  [mcp] S16_addendum/wrong_verdict_r2: PASS (0.0 s) 
+Tool 'submit' failed: 'Error executing tool submit: refusal needs evidence: evidence seq 9999 is not an evidence record of this session (get_session lists the records)'
+  [mcp] S16_addendum/unknown_evidence_seq_r2: PASS (0.0 s) 
+  [mcp] S16_addendum/proven_infeasible_r2: PASS (0.0 s) 
+   5/5 passed, 3.1 s, session results/verification/v2/sessions/mcp/S16_addendum
+== mcp S17_addendum_not_found: addendum: not found in families
+  [mcp] S17_addendum_not_found/nf_bounds_r2: PASS (0.5 s) 
+Tool 'submit' failed: 'Error executing tool submit: refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas verdict NOT_FOUND_IN_FAMILIES, or a search over every declared family that found nothing. No evidence record is held for the current spec.'
+  [mcp] S17_addendum_not_found/stale_family_record_r2: PASS (0.0 s) 
+  [mcp] S17_addendum_not_found/nf_holds_r2: PASS (0.0 s) 
+  [mcp] S17_addendum_not_found/not_found_in_families_r2: PASS (0.0 s) 
+   4/4 passed, 3.0 s, session results/verification/v2/sessions/mcp/S17_addendum_not_found
+== cli S16_addendum: addendum: corrected rows of run 1
+  [cli] S16_addendum/validity_rule_r2: PASS (1.6 s) 
+  [cli] S16_addendum/cb_records_r2: PASS (1.7 s) 
+   2/2 passed, 6.6 s, session results/verification/v2/sessions/cli/S16_addendum/04-check-bounds
+== cli S17_addendum_not_found: addendum: not found in families
+  [cli] S17_addendum_not_found/nf_bounds_r2: PASS (2.5 s) 
+   1/1 passed, 8.7 s, session results/verification/v2/sessions/cli/S17_addendum_not_found/04-check-bounds

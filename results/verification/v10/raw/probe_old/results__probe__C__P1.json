@@ -1,0 +1,267 @@
+{
+ "set": "probe_old",
+ "log": "results/probe/C/P1/session/session.jsonl",
+ "log_sha256": "c26b3845d8115f1ee6cbf893bd2b5bba8c7ce50b7145386cc2d7c36fab808169",
+ "started": "2026-11-08 12:41:05",
+ "seconds": 731.2,
+ "header": {
+  "code": "b072e26f18aac521",
+  "id": "2cc1ab4823b0",
+  "profile": "C",
+  "schema": "amm-tools/1",
+  "t": "2026-11-05T08:13:59.466+00:00",
+  "type": "session"
+ },
+ "n_calls": 14,
+ "tools": [
+  "certify",
+  "check_bounds",
+  "get_session",
+  "list_families",
+  "search",
+  "set_material",
+  "set_source",
+  "set_target",
+  "submit"
+ ],
+ "n_certify": 2,
+ "n_search": 1,
+ "n_export": 0,
+ "logged_tool_seconds": 738.7,
+ "env": {
+  "python": "3.10.18",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "torch": "2.5.1+cu124",
+  "cuda": true,
+  "device": "NVIDIA GeForce RTX 4090",
+  "code": "f1a6d625064a6d18",
+  "checker": "c5f8c89871b3bad6",
+  "mkl_cbwr": 65538
+ },
+ "replay": {
+  "exact": false,
+  "n_calls": 14,
+  "n_compared": 14,
+  "mismatches": [
+   {
+    "seq": 1,
+    "tool": "get_session",
+    "field": "result",
+    "log": "fb6799e6423ba869",
+    "replay": "8a70164eb9b12871",
+    "diff": {
+     "path": ".budget",
+     "log": null,
+     "replay": {
+      "certify": 4,
+      "designs": 400
+     }
+    }
+   },
+   {
+    "seq": 11,
+    "tool": "certify",
+    "field": "state_hash",
+    "log": "78c1800bfec21ea2",
+    "replay": "993d8de396c420c2"
+   },
+   {
+    "seq": 12,
+    "tool": "get_session",
+    "field": "state_hash",
+    "log": "78c1800bfec21ea2",
+    "replay": "993d8de396c420c2"
+   },
+   {
+    "seq": 12,
+    "tool": "get_session",
+    "field": "result",
+    "log": "cad99de7d8178932",
+    "replay": "3589cc973ccaeda4",
+    "diff": {
+     "path": ".budget",
+     "log": null,
+     "replay": {
+      "certify": 4,
+      "designs": 400
+     }
+    }
+   },
+   {
+    "seq": 13,
+    "tool": "certify",
+    "field": "state_hash",
+    "log": "38b682c4b99f9cc6",
+    "replay": "8e125edfd98c4502"
+   },
+   {
+    "seq": 14,
+    "tool": "submit",
+    "field": "state_hash",
+    "log": "5cd63fedd600b3de",
+    "replay": "537198821522fd2f"
+   },
+   {
+    "seq": 14,
+    "tool": "submit",
+    "field": "result",
+    "log": "e297baa9a24703e8",
+    "replay": "935b32808d8f7532",
+    "diff": {
+     "path": ".submitted.certificate.checker",
+     "log": null,
+     "replay": "c5f8c89871b3bad6"
+    }
+   }
+  ],
+  "same_code": false,
+  "schema": "amm-tools/1",
+  "decision_changes": [],
+  "identity": {
+   "code_log": "b072e26f18aac521",
+   "code_now": "f1a6d625064a6d18",
+   "checker_log": null,
+   "checker_now": "c5f8c89871b3bad6",
+   "checker_aliased": false,
+   "checker_log_source": null,
+   "code_aliased": true
+  },
+  "root": null
+ },
+ "tolerance": {
+  "aligned": true,
+  "within_tolerance": false,
+  "max_rel_numeric": 0.0,
+  "max_rel_by_tier": {
+   "T64": 0.0,
+   "T32": 0.0
+  },
+  "n_numeric_differences": 0,
+  "calls_with_numeric_differences": [],
+  "over_tolerance": [],
+  "non_numeric_differences": [
+   [
+    1,
+    "get_session",
+    [
+     {
+      "path": ".budget",
+      "log": "None",
+      "replay": "{'certify': 4, 'designs': 400}"
+     },
+     {
+      "path": ".budget_used",
+      "log": "None",
+      "replay": "{'certify': 0, 'designs': 0}"
+     },
+     {
+      "path": ".tools",
+      "log": "len 13",
+      "replay": "len 14"
+     }
+    ]
+   ],
+   [
+    12,
+    "get_session",
+    [
+     {
+      "path": ".budget",
+      "log": "None",
+      "replay": "{'certify': 4, 'designs': 400}"
+     },
+     {
+      "path": ".budget_used",
+      "log": "None",
+      "replay": "{'certify': 1, 'designs': 40}"
+     },
+     {
+      "path": ".certificates.1b64c3083bd4d8bf",
+      "log": "{'robust': False, 'verdict': 'undetermined'}",
+      "replay": "None"
+     },
+     {
+      "path": ".certificates.89787d914606df21",
+      "log": "None",
+      "replay": "{'checker': 'c5f8c89871b3bad6', 'material': '316L', 'nu': 0.3, 'robust': False, "
+     }
+    ]
+   ],
+   [
+    14,
+    "submit",
+    [
+     {
+      "path": ".submitted.certificate.checker",
+      "log": "None",
+      "replay": "c5f8c89871b3bad6"
+     },
+     {
+      "path": ".submitted.certificate.material",
+      "log": "None",
+      "replay": "316L"
+     },
+     {
+      "path": ".submitted.certificate.nu",
+      "log": "None",
+      "replay": "0.3"
+     },
+     {
+      "path": ".submitted.spec",
+      "log": "None",
+      "replay": "{'cell_size': None, 'gap_type': None, 'material': '316L', 'nu': 0.3, 'targets': "
+     }
+    ]
+   ]
+  ],
+  "environment_fields": [],
+  "derived_differences": [
+   [
+    11,
+    "certify",
+    [
+     "state_hash"
+    ]
+   ],
+   [
+    12,
+    "get_session",
+    [
+     "state_hash"
+    ]
+   ],
+   [
+    13,
+    "certify",
+    [
+     "state_hash"
+    ]
+   ],
+   [
+    14,
+    "submit",
+    [
+     "state_hash"
+    ]
+   ]
+  ],
+  "unexplained_derived": [
+   [
+    11,
+    "certify",
+    [
+     "state_hash"
+    ]
+   ],
+   [
+    13,
+    "certify",
+    [
+     "state_hash"
+    ]
+   ]
+  ]
+ },
+ "error": null
+}

@@ -1,0 +1,19 @@
+{
+ "brief": "N02",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 994.4,
+ "usage": {
+  "input_tokens": 2031206,
+  "cached_input_tokens": 1972992,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 4015,
+  "reasoning_output_tokens": 1193
+ },
+ "final": "Submitted **NOT_FOUND_IN_FAMILIES**; no design was released. The 96-evaluation amm search found no 6 mm Ti6Al4V cell with a complete gap covering 216\u2013673 kHz. The best candidate\u2019s predicted gap ends near 536 kHz. This does not prove the target is globally infeasible.",
+ "stderr_tail": ""
+}

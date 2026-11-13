@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":[10,"mm"],"targets":{"gap":{"f_lo":124,"f_hi":219,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Certifying a complete gap covering 124–219 kHz requires Bloch-wave analysis across all propagation directions and polarizations, which I cannot perform without a solver."}

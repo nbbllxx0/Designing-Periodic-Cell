@@ -1,0 +1,1 @@
+No design was released: **NOT_FOUND_IN_FAMILIES**. For 316L with an 8 mm unit cell, the searches found no complete gap covering 68.5–466 kHz. The best nominal candidate predicts 64.39–435.89 kHz, missing the upper end. This does not prove infeasibility.

@@ -1,0 +1,9 @@
+env {"python": "3.10.18", "platform": "Windows-10-10.0.26200-SP0", "machine": "AMD64", "torch": "2.5.1+cu124", "cuda": true, "device": "NVIDIA GeForce RTX 4090", "code": "f1a6d625064a6d18", "checker": "c5f8c89871b3bad6", "mkl_cbwr": 65538}
+results/verification/v6/case1/session_design/session.jsonl: exact True mism 0 tol True [324.1 s]
+results/verification/v6/case1/session_reference/session.jsonl: exact True mism 0 tol True [762.1 s]
+results/verification/v6/case2/session_PA12/session.jsonl: exact True mism 0 tol True [346.1 s]
+results/verification/v6/case2/session_316L/session.jsonl: exact True mism 0 tol True [767.6 s]
+results/verification/v6/case2/session_scaling_316L/session.jsonl: exact True mism 0 tol True [322.8 s]
+results/verification/v6/case1/gui_sessions/live-20261108-083130-d69b/session.jsonl: exact True mism 0 tol True [0.0 s]
+results/verification/v6/case1/gui_sessions/live-20261108-083132-7040/session.jsonl: exact True mism 0 tol True [316.6 s]
+set release_v6 done in 2839.4 s

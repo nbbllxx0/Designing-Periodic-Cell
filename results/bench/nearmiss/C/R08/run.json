@@ -1,0 +1,19 @@
+{
+ "brief": "R08",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 870.8,
+ "usage": {
+  "input_tokens": 1733547,
+  "cached_input_tokens": 1681920,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 3614,
+  "reasoning_output_tokens": 916
+ },
+ "final": "Released a certified Ti-6Al-4V sphere-and-ligament cell with parameters \\(c=0.260815\\), \\(w=0.316982\\), relative to cell size. Its guarded bounds confirm \u226419.9896% solid and \u226510.6505 GPa axial modulus in x, y, and z. It meets your targets, but fails the tested manufacturing-tolerance robustness check.",
+ "stderr_tail": ""
+}

@@ -1,0 +1,19 @@
+{
+ "brief": "X01",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 24.9,
+ "usage": {
+  "input_tokens": 132048,
+  "cached_input_tokens": 96896,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 532,
+  "reasoning_output_tokens": 16
+ },
+ "final": "The amm tools returned **PROVEN_INFEASIBLE**, so no design was released. Using 316L\u2019s Young\u2019s modulus of 193 GPa, the rigorous upper bound at 16% solid is **30.88 GPa**, below your required **38.6 GPa**. No unit-cell geometry can meet both requirements under this material model.",
+ "stderr_tail": "2026-11-05T16:54:42.041354Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

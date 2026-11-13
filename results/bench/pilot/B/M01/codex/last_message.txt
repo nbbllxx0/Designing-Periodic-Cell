@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. The amm searches could not establish a cell satisfying all requirements. A marginal candidate’s predicted gap began at 208.72 kHz, leaving part of the required interval uncovered. This does not prove infeasibility.

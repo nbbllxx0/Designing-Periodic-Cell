@@ -1,0 +1,19 @@
+{
+ "brief": "A05",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 206.3,
+ "usage": {
+  "input_tokens": 728618,
+  "cached_input_tokens": 699136,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2348,
+  "reasoning_output_tokens": 617
+ },
+ "final": "Released a 20 mm PA12 sphere-and-ligament design with normalized parameters c=0.386087, w=0.157391. Predicted performance: 25.50% solid, C44=9.26 MPa, and a complete gap of 15.37\u201336.90 kHz, covering your requested interval. These are search estimates; the design is uncertified and does not pass the pessimistic uncertainty check.",
+ "stderr_tail": ""
+}

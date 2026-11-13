@@ -1,0 +1,1 @@
+Released a Ti-6Al-4V **IWP sheet** unit cell with predicted solid fraction **38.0%** and **Ex = Ey = Ez ≈ 23.28 GPa**, meeting both targets. These are search estimates, not certified properties; manufacturability was not evaluated.

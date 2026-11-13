@@ -1,0 +1,3 @@
+R01 {'kind': 'sphere_ligaments', 'params': {'c': 0.234, 'w': 0.2792}} independent certificate: certified 38.6 s
+R06 {'kind': 'sphere_ligaments', 'params': {'c': 0.23, 'w': 0.28035}} independent certificate: certified 87.3 s
+R08 {'kind': 'sphere_ligaments', 'params': {'c': 0.260815, 'w': 0.316982}} independent certificate: certified 303.9 s

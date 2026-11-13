@@ -1,0 +1,101 @@
+{
+ "spec": {
+  "family": "tpms",
+  "kind": "diamond",
+  "params": {
+   "density": 0.25,
+   "mode": "network"
+  }
+ },
+ "targets": {
+  "density_max": 0.26254222585044057,
+  "E100_min": 0.04448558237263086,
+  "G_min": 0.035947336184229385,
+  "nu100_min": 0.30666553842375655,
+  "nu100_max": 0.38105138457362564
+ },
+ "passed": true,
+ "used": [
+  32,
+  48,
+  64
+ ],
+ "ladder": [
+  {
+   "resolutions": [
+    32,
+    48,
+    64
+   ],
+   "converged": true,
+   "checks_failed": [],
+   "not_converged": []
+  }
+ ],
+ "checks_failed": [],
+ "reason": null,
+ "block_seconds": 61.9,
+ "reference": {
+  "80@0": {
+   "density": 0.24999595409896924,
+   "E100": 0.04696928457560495,
+   "G": 0.037935195408016854,
+   "bulk": 0.05003758597683792,
+   "nu100": 0.3435533221055778
+  }
+ },
+ "finest_min": {
+  "E100": 0.04696928457560495,
+  "G": 0.037935195408016854,
+  "bulk": 0.05003758597683792
+ },
+ "oh_ref": {
+  "density": 0.25004021509565766,
+  "E100": 0.04682692881329564,
+  "G": 0.037839301246557246,
+  "bulk": 0.04998355223236684,
+  "nu100": 0.3438584614986911
+ },
+ "guard": {
+  "density": {
+   "lower": 0.24994919576854224,
+   "upper": 0.2500298493556985,
+   "phase_spread": 5.8970079888920335e-06,
+   "converged": true,
+   "monotone": true
+  },
+  "E100": {
+   "lower": 0.04653270230665098,
+   "upper": 0.047253755798692,
+   "phase_spread": 7.646631289846828e-06,
+   "converged": true,
+   "monotone": true
+  },
+  "G": {
+   "lower": 0.03766398976318621,
+   "upper": 0.03815675448795346,
+   "phase_spread": 4.3224907933375745e-06,
+   "converged": true,
+   "monotone": true
+  },
+  "bulk": {
+   "lower": 0.050037267795709765,
+   "upper": 0.05015235476441188,
+   "phase_spread": 6.913308622985559e-06,
+   "converged": true,
+   "monotone": true
+  },
+  "nu100": {
+   "lower": 0.34286087775910007,
+   "upper": 0.3440931967554997,
+   "phase_spread": 4.029093347029944e-05,
+   "converged": true,
+   "monotone": true
+  }
+ },
+ "lower_over_finest_min": {
+  "E100": -0.009295058949667867,
+  "G": -0.007149182755318839,
+  "bulk": -6.358842496889672e-06
+ }
+}

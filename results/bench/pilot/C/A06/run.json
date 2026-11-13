@@ -1,0 +1,19 @@
+{
+ "brief": "A06",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 25.4,
+ "usage": {
+  "input_tokens": 194363,
+  "cached_input_tokens": 176896,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 667,
+  "reasoning_output_tokens": 17
+ },
+ "final": "The request is **proven infeasible** for your selected 316L. At 16% solid volume, the Voigt upper bound on axial Young\u2019s modulus is 30.88 GPa, below the required 38.6 GPa. No design was released.",
+ "stderr_tail": ""
+}

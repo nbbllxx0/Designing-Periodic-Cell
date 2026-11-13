@@ -1,0 +1,174 @@
+log,tag,interface,n_calls,n_compared,exact,mismatches,mismatch_tools,code_aliased,checker_aliased,certify_calls,export_calls,tools,seconds
+results/verification/v2/sessions/cli/S01_targets/01-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,check_bounds set_material,0.4
+results/verification/v2/sessions/cli/S01_targets/02-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/03-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.3
+results/verification/v2/sessions/cli/S01_targets/04-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/05-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/06-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.3
+results/verification/v2/sessions/cli/S01_targets/07-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/08-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/09-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.3
+results/verification/v2/sessions/cli/S01_targets/10-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/11-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.3
+results/verification/v2/sessions/cli/S01_targets/12-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.5
+results/verification/v2/sessions/cli/S01_targets/13-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.4
+results/verification/v2/sessions/cli/S01_targets/14-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.4
+results/verification/v2/sessions/cli/S01_targets/15-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.5
+results/verification/v2/sessions/cli/S01_targets/16-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.7
+results/verification/v2/sessions/cli/S01_targets/17-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.4
+results/verification/v2/sessions/cli/S01_targets/18-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.3
+results/verification/v2/sessions/cli/S01_targets/19-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.4
+results/verification/v2/sessions/cli/S01_targets/20-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/21-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/22-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/23-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/24-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,1.4
+results/verification/v2/sessions/cli/S01_targets/25-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,1.3
+results/verification/v2/sessions/cli/S01_targets/26-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,1.4
+results/verification/v2/sessions/cli/S01_targets/27-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,1.5
+results/verification/v2/sessions/cli/S01_targets/28-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_material set_target,0.1
+results/verification/v2/sessions/cli/S01_targets/29-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,1.9
+results/verification/v2/sessions/cli/S01_targets/30-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,1.5
+results/verification/v2/sessions/cli/S01_targets/31-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,1.5
+results/verification/v2/sessions/cli/S01_targets/32-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,1.3
+results/verification/v2/sessions/cli/S01_targets/33-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/34-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.3
+results/verification/v2/sessions/cli/S01_targets/35-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/36-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.3
+results/verification/v2/sessions/cli/S01_targets/37-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/38-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/39-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.3
+results/verification/v2/sessions/cli/S01_targets/40-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S01_targets/41-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_material set_target,0.1
+results/verification/v2/sessions/cli/S01_targets/42-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.3
+results/verification/v2/sessions/cli/S01_targets/43-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_material set_target,0.1
+results/verification/v2/sessions/cli/S01_targets/44-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_material set_target,0.1
+results/verification/v2/sessions/cli/S01_targets/45-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_material set_target,0.0
+results/verification/v2/sessions/cli/S01_targets/46-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_material set_target,0.1
+results/verification/v2/sessions/cli/S02_materials_units/01-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,check_bounds set_constraints,0.1
+results/verification/v2/sessions/cli/S02_materials_units/02-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_constraints set_material,0.4
+results/verification/v2/sessions/cli/S02_materials_units/03-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,1.5
+results/verification/v2/sessions/cli/S02_materials_units/04-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,1.2
+results/verification/v2/sessions/cli/S02_materials_units/05-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,1.9
+results/verification/v2/sessions/cli/S02_materials_units/06-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,1.4
+results/verification/v2/sessions/cli/S02_materials_units/07-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,1.3
+results/verification/v2/sessions/cli/S02_materials_units/08-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,1.4
+results/verification/v2/sessions/cli/S02_materials_units/09-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,1.4
+results/verification/v2/sessions/cli/S02_materials_units/10-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,1.5
+results/verification/v2/sessions/cli/S02_materials_units/11-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.1
+results/verification/v2/sessions/cli/S02_materials_units/12-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.2
+results/verification/v2/sessions/cli/S02_materials_units/13-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.1
+results/verification/v2/sessions/cli/S02_materials_units/14-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.1
+results/verification/v2/sessions/cli/S02_materials_units/15-check-bounds/session.jsonl,main,cli,1,1,True,0,,False,False,0,0,set_material,0.1
+results/verification/v2/sessions/cli/S02_materials_units/16-check-bounds/session.jsonl,main,cli,1,1,True,0,,False,False,0,0,set_material,0.1
+results/verification/v2/sessions/cli/S02_materials_units/17-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,1.2
+results/verification/v2/sessions/cli/S02_materials_units/18-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.2
+results/verification/v2/sessions/cli/S02_materials_units/19-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.2
+results/verification/v2/sessions/cli/S02_materials_units/20-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.2
+results/verification/v2/sessions/cli/S02_materials_units/21-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.2
+results/verification/v2/sessions/cli/S03_underspecified/01-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,check_bounds set_target,0.2
+results/verification/v2/sessions/cli/S03_underspecified/02-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,check_bounds set_target,0.1
+results/verification/v2/sessions/cli/S03_underspecified/03-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S03_underspecified/04-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.1
+results/verification/v2/sessions/cli/S03_underspecified/05-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S03_underspecified/06-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S03_underspecified/07-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S03_underspecified/08-certify/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,certify set_material set_target,0.1
+results/verification/v2/sessions/cli/S04_families/01-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,check_bounds set_material,0.0
+results/verification/v2/sessions/cli/S04_families/02-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,1.5
+results/verification/v2/sessions/cli/S04_families/03-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.2
+results/verification/v2/sessions/cli/S04_families/04-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.2
+results/verification/v2/sessions/cli/S04_families/05-atlas-suggest/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,atlas_suggest set_constraints set_material set_target,0.2
+results/verification/v2/sessions/cli/S04_families/06-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.7
+results/verification/v2/sessions/cli/S04_families/07-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.6
+results/verification/v2/sessions/cli/S04_families/08-atlas-suggest/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,atlas_suggest set_constraints set_material set_target,0.8
+results/verification/v2/sessions/cli/S04_families/09-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.7
+results/verification/v2/sessions/cli/S04_families/10-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.6
+results/verification/v2/sessions/cli/S04_families/11-atlas-suggest/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,atlas_suggest set_constraints set_material set_target,0.7
+results/verification/v2/sessions/cli/S04_families/12-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,1.4
+results/verification/v2/sessions/cli/S04_families/13-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,1.2
+results/verification/v2/sessions/cli/S04_families/14-evaluate/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,evaluate set_constraints set_material set_target,8.3
+results/verification/v2/sessions/cli/S04_families/15-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_constraints set_material,0.1
+results/verification/v2/sessions/cli/S04_families/16-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_constraints set_material,0.1
+results/verification/v2/sessions/cli/S05_invalid/01-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,check_bounds set_material,0.1
+results/verification/v2/sessions/cli/S05_invalid/02-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S05_invalid/03-evaluate/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,evaluate set_material set_target,0.3
+results/verification/v2/sessions/cli/S05_invalid/04-evaluate/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,evaluate set_material set_target,0.1
+results/verification/v2/sessions/cli/S05_invalid/05-evaluate/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,evaluate set_material set_target,0.1
+results/verification/v2/sessions/cli/S05_invalid/06-evaluate/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,evaluate set_material set_target,0.1
+results/verification/v2/sessions/cli/S05_invalid/07-evaluate/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,evaluate set_material set_target,0.1
+results/verification/v2/sessions/cli/S05_invalid/08-atlas-suggest/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,atlas_suggest set_material set_target,0.1
+results/verification/v2/sessions/cli/S05_invalid/09-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_constraints set_material,0.3
+results/verification/v2/sessions/cli/S06_profile_B/01-check-bounds/session.jsonl,main,cli,1,1,True,0,,False,False,0,0,set_material,0.1
+results/verification/v2/sessions/cli/S06_profile_B/02-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_material set_target,0.1
+results/verification/v2/sessions/cli/S06_profile_B/03-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_material set_target,0.1
+results/verification/v2/sessions/cli/S06_profile_B/04-certify/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_material set_target,0.1
+results/verification/v2/sessions/cli/S12_cli/01-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.3
+results/verification/v2/sessions/cli/S12_cli/02-atlas-suggest/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,atlas_suggest set_constraints set_material set_target,0.4
+results/verification/v2/sessions/cli/S12_cli/03-evaluate/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,evaluate set_constraints set_material set_target,0.9
+results/verification/v2/sessions/cli/S12_cli/04-certify/session.jsonl,main,cli,6,6,True,0,,False,False,1,1,certify export set_constraints set_material set_target submit,42.1
+results/verification/v2/sessions/cli/S12_cli/06-export/session.jsonl,main,cli,4,4,True,0,,False,False,0,1,export set_constraints set_material set_target,9.8
+results/verification/v2/sessions/cli/S12_cli/07-export/session.jsonl,main,cli,3,3,True,0,,False,False,0,1,export set_constraints set_material,9.8
+results/verification/v2/sessions/cli/S12_cli/09-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_material set_target,0.1
+results/verification/v2/sessions/cli/S12_cli/10-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,set_material set_target,0.1
+results/verification/v2/sessions/cli/S16_addendum/01-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,check_bounds set_material,0.1
+results/verification/v2/sessions/cli/S16_addendum/02-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.2
+results/verification/v2/sessions/cli/S16_addendum/03-evaluate/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,evaluate set_material set_target,0.1
+results/verification/v2/sessions/cli/S16_addendum/04-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,0.4
+results/verification/v2/sessions/cli/S17_addendum_not_found/01-check-bounds/session.jsonl,main,cli,2,2,True,0,,False,False,0,0,check_bounds set_material,0.1
+results/verification/v2/sessions/cli/S17_addendum_not_found/02-check-bounds/session.jsonl,main,cli,3,3,True,0,,False,False,0,0,check_bounds set_material set_target,1.3
+results/verification/v2/sessions/cli/S17_addendum_not_found/03-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.9
+results/verification/v2/sessions/cli/S17_addendum_not_found/04-check-bounds/session.jsonl,main,cli,4,4,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,0.9
+results/verification/v2/sessions/gui/live-20261108-085203-74ac/session.jsonl,main,gui,0,0,True,0,,False,False,0,0,,0.0
+results/verification/v2/sessions/gui/live-20261108-085204-a655/session.jsonl,main,gui,46,46,True,0,,False,False,0,0,check_bounds set_material set_target,7.6
+results/verification/v2/sessions/gui/live-20261108-085216-00ea/session.jsonl,main,gui,21,21,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,4.2
+results/verification/v2/sessions/gui/live-20261108-085222-6ca6/session.jsonl,main,gui,9,9,True,0,,False,False,0,0,certify check_bounds set_material set_target submit,0.1
+results/verification/v2/sessions/gui/live-20261108-085227-a2b0/session.jsonl,main,gui,16,16,True,0,,False,False,0,0,atlas_suggest check_bounds evaluate set_constraints set_material set_target,9.8
+results/verification/v2/sessions/gui/live-20261108-085247-3fd3/session.jsonl,main,gui,3,3,True,0,,False,False,0,0,set_material set_target submit,0.0
+results/verification/v2/sessions/gui/live-20261108-085247-7d0b/session.jsonl,main,gui,11,11,True,0,,False,False,0,0,check_bounds set_material set_target submit undo,0.6
+results/verification/v2/sessions/gui/live-20261108-085247-c443/session.jsonl,main,gui,4,4,True,0,,False,False,0,0,get_session set_material set_target submit,0.1
+results/verification/v2/sessions/gui/live-20261108-085247-eacf/session.jsonl,main,gui,10,10,True,0,,False,False,0,0,atlas_suggest evaluate get_session set_constraints set_material set_target,0.1
+results/verification/v2/sessions/gui/live-20261108-085248-e5d6/session.jsonl,main,gui,9,9,True,0,,False,False,0,0,check_bounds get_session set_constraints set_material set_target submit,0.2
+results/verification/v2/sessions/gui/live-20261108-085249-4bd6/session.jsonl,main,gui,9,9,True,0,,False,False,4,0,certify set_material set_target submit,107.4
+results/verification/v2/sessions/gui/live-20261108-085518-d521/session.jsonl,main,gui,22,22,True,0,,False,False,1,2,as_built certify check_bounds evaluate export get_session screen_manufacturing set_constraints set_material set_target submit undo,44.7
+results/verification/v2/sessions/gui/live-20261108-085702-9919/session.jsonl,main,gui,4,4,True,0,,False,False,0,0,set_material set_target submit,0.1
+results/verification/v2/sessions/gui/live-20261108-085702-fcf6/session.jsonl,main,gui,7,7,True,0,,False,False,0,0,check_bounds evaluate set_material set_target submit,0.2
+results/verification/v2/sessions/gui/live-20261108-085703-7196/session.jsonl,main,gui,9,9,True,0,,False,False,0,0,check_bounds get_session set_constraints set_material set_target submit,1.2
+results/verification/v2/sessions/gui/live-20261108-085706-e605/session.jsonl,main,gui,1,1,True,0,,False,False,0,0,set_material,0.4
+results/verification/v2/sessions/gui/live-20261108-085706-fbea/session.jsonl,main,gui,0,0,True,0,,False,False,0,0,,0.1
+results/verification/v2/sessions/gui/live-20261108-085708-4176/session.jsonl,main,gui,13,13,True,0,,False,False,1,1,atlas_suggest certify check_bounds evaluate export screen_manufacturing set_constraints set_material set_target submit,99.5
+results/verification/v2/sessions/gui/live-20261108-090145-bedb/session.jsonl,main,gui,6,6,True,0,,False,False,0,0,check_bounds set_material set_target submit,0.3
+results/verification/v2/sessions/lib/S01_targets/session.jsonl,main,lib,46,46,True,0,,False,False,0,0,check_bounds set_material set_target,8.5
+results/verification/v2/sessions/lib/S02_materials_units/session.jsonl,main,lib,21,21,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,3.0
+results/verification/v2/sessions/lib/S03_underspecified/session.jsonl,main,lib,9,9,True,0,,False,False,0,0,certify check_bounds set_material set_target submit,0.1
+results/verification/v2/sessions/lib/S04_families/session.jsonl,main,lib,16,16,True,0,,False,False,0,0,atlas_suggest check_bounds evaluate set_constraints set_material set_target,11.5
+results/verification/v2/sessions/lib/S05_invalid/session.jsonl,main,lib,10,10,True,0,,False,False,0,0,atlas_suggest evaluate get_session set_constraints set_material set_target,0.0
+results/verification/v2/sessions/lib/S06_profile_B/session.jsonl,main,lib,4,4,True,0,,False,False,0,0,get_session set_material set_target submit,0.1
+results/verification/v2/sessions/lib/S07_profile_B_release/session.jsonl,main,lib,3,3,True,0,,False,False,0,0,set_material set_target submit,0.0
+results/verification/v2/sessions/lib/S08_refusals/session.jsonl,main,lib,11,11,True,0,,False,False,0,0,check_bounds set_material set_target submit undo,0.1
+results/verification/v2/sessions/lib/S09_not_found/session.jsonl,main,lib,9,9,True,0,,False,False,0,0,check_bounds get_session set_constraints set_material set_target submit,0.1
+results/verification/v2/sessions/lib/S10_refuted_budget/session.jsonl,main,lib,9,9,True,0,,False,False,4,0,certify set_material set_target submit,87.2
+results/verification/v2/sessions/lib/S13_lib_combined/session.jsonl,main,lib,19,19,True,0,,False,False,1,2,as_built certify check_bounds evaluate export screen_manufacturing set_constraints set_material set_target submit undo,253.7
+results/verification/v2/sessions/lib/S14_lib_undetermined/session.jsonl,main,lib,8,8,True,0,,False,False,1,0,certify set_constraints set_material set_target submit undo,176.7
+results/verification/v2/sessions/lib/S15_lib_release_without_cert/session.jsonl,main,lib,4,4,True,0,,False,False,0,0,set_material set_target submit,0.1
+results/verification/v2/sessions/lib/S16_addendum/session.jsonl,main,lib,7,7,True,0,,False,False,0,0,check_bounds evaluate set_material set_target submit,0.6
+results/verification/v2/sessions/lib/S17_addendum_not_found/session.jsonl,main,lib,9,9,True,0,,False,False,0,0,check_bounds get_session set_constraints set_material set_target submit,1.1
+results/verification/v2/sessions/mcp/S01_targets/session.jsonl,main,mcp,46,46,True,0,,False,False,0,0,check_bounds set_material set_target,4.4
+results/verification/v2/sessions/mcp/S02_materials_units/session.jsonl,main,mcp,21,21,True,0,,False,False,0,0,check_bounds set_constraints set_material set_target,2.3
+results/verification/v2/sessions/mcp/S03_underspecified/session.jsonl,main,mcp,9,9,True,0,,False,False,0,0,certify check_bounds set_material set_target submit,0.1
+results/verification/v2/sessions/mcp/S04_families/session.jsonl,main,mcp,16,16,True,0,,False,False,0,0,atlas_suggest check_bounds evaluate set_constraints set_material set_target,5.9
+results/verification/v2/sessions/mcp/S05_invalid/session.jsonl,main,mcp,10,10,True,0,,False,False,0,0,atlas_suggest evaluate get_session set_constraints set_material set_target,0.1
+results/verification/v2/sessions/mcp/S06_profile_B/session.jsonl,main,mcp,4,4,True,0,,False,False,0,0,get_session set_material set_target submit,0.0
+results/verification/v2/sessions/mcp/S07_profile_B_release/session.jsonl,main,mcp,3,3,True,0,,False,False,0,0,set_material set_target submit,0.0
+results/verification/v2/sessions/mcp/S08_refusals/session.jsonl,main,mcp,11,11,True,0,,False,False,0,0,check_bounds set_material set_target submit undo,0.1
+results/verification/v2/sessions/mcp/S09_not_found/session.jsonl,main,mcp,9,9,True,0,,False,False,0,0,check_bounds get_session set_constraints set_material set_target submit,0.1
+results/verification/v2/sessions/mcp/S10_refuted_budget/session.jsonl,main,mcp,9,9,True,0,,False,False,4,0,certify set_material set_target submit,82.5
+results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl,main,mcp,22,22,True,0,,False,False,1,2,as_built certify check_bounds evaluate export get_session screen_manufacturing set_constraints set_material set_target submit undo,32.4
+results/verification/v2/sessions/mcp/S15_lib_release_without_cert/session.jsonl,main,mcp,4,4,True,0,,False,False,0,0,set_material set_target submit,0.0
+results/verification/v2/sessions/mcp/S16_addendum/session.jsonl,main,mcp,7,7,True,0,,False,False,0,0,check_bounds evaluate set_material set_target submit,0.1
+results/verification/v2/sessions/mcp/S17_addendum_not_found/session.jsonl,main,mcp,9,9,True,0,,False,False,0,0,check_bounds get_session set_constraints set_material set_target submit,0.4
+results/verification/v2/sessions/mcp/X_transport_B/session.jsonl,main,mcp,0,0,True,0,,False,False,0,0,,0.0
+results/verification/v2/sessions/mcp/X_transport_C/session.jsonl,main,mcp,2,2,True,0,,False,False,0,0,set_material set_target,0.0
+results/verification/v2/sessions/probe/lib/S01_targets/session.jsonl,probe,lib,46,46,False,8,41:set_target:ok;42:check_bounds:state_hash;42:check_bounds:result;43:set_target:state_hash;44:set_target:state_hash;44:set_target:error;45:set_target:state_hash;46:set_target:state_hash,True,False,0,0,check_bounds set_material set_target,4.2
+results/verification/v2/sessions/probe/lib/S03_underspecified/session.jsonl,probe,lib,9,9,False,1,7:check_bounds:result,True,False,0,0,certify check_bounds set_material set_target submit,0.1
+results/verification/v2/sessions/probe/lib/S10_refuted_budget/session.jsonl,probe,lib,9,9,True,0,,True,False,4,0,certify set_material set_target submit,82.0

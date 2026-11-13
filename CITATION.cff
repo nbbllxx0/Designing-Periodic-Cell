@@ -1,0 +1,52 @@
+# Release plan: release/RELEASE_PLAN.md. Software and data are distributed as GitHub release v0.2.0 (wheel, sdist,
+# amm-data-1.zip, amm-results-archive.zip). Licences confirmed by the authors on 2026-11-08: BSD-3-Clause
+# (software), CC-BY-4.0 (data assets).
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "AMM (AgenticMetamaterials)"
+version: "0.2.0"
+date-released: "2026-11-08"
+license: BSD-3-Clause
+repository-code: "https://github.com/nbbllxx0/Designing-Periodic-Cell"
+authors:
+  - family-names: Yang
+    given-names: Shaoliang
+    affiliation: "Department of Mechanical Engineering, Santa Clara University"
+  - family-names: Wang
+    given-names: Jun
+    affiliation: "Department of Mechanical Engineering, Santa Clara University"
+url: "https://github.com/nbbllxx0/Designing-Periodic-Cell/releases/tag/v0.2.0"
+identifiers:
+  - type: other
+    value: "arXiv:2611.14796"
+    description: "Accompanying article (arXiv preprint)"
+preferred-citation:
+  type: article
+  title: "Selecting and verifying load-bearing periodic cells for elastic-wave band gaps with numerical acceptance checks"
+  authors:
+    - family-names: Yang
+      given-names: Shaoliang
+    - family-names: Wang
+      given-names: Jun
+  journal: "arXiv preprint"
+  year: 2026
+  url: "https://arxiv.org/abs/2611.14796"
+  identifiers:
+    - type: other
+      value: "arXiv:2611.14796"
+keywords:
+  - metamaterials
+  - phononic crystals
+  - homogenization
+  - band gap
+  - design automation
+  - numerical verification
+  - lattice structures
+abstract: >-
+  AMM (Python package amm) is a Python library, command line, browser application and MCP interface for designing cubic periodic cells
+  (triply periodic minimal surfaces, strut lattices and resonators) against stiffness, solid-fraction and complete
+  elastic-wave band-gap targets in physical units. Search-tier estimates are kept apart from a checker that issues
+  certificates from periodic homogenization across resolutions and grid offsets and from Bloch-mode counts at the
+  claimed gap edges, refutes candidates, proves requests infeasible under named bounds, or records why it cannot
+  decide. The runtime data set amm-data/1 (search atlas and error model) is attached to the release under CC-BY-4.0.

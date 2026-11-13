@@ -1,0 +1,79 @@
+{
+ "set": "e4_frozen",
+ "log": "results/bench/e4/jobs/codex-C-r1-G07/session/session.jsonl",
+ "log_sha256": "3472708ac5a4215da6860eca82a01142d71b731b14c9b8f29bee5197b9f2adf5",
+ "started": "2026-11-08 12:30:21",
+ "seconds": 633.2,
+ "header": {
+  "code": "90f3823f15cbeff4",
+  "id": "b51a857ba8c0",
+  "profile": "C",
+  "schema": "amm-tools/1",
+  "t": "2026-11-07T17:55:11.050+00:00",
+  "type": "session"
+ },
+ "n_calls": 15,
+ "tools": [
+  "atlas_suggest",
+  "certify",
+  "check_bounds",
+  "list_families",
+  "search",
+  "set_constraints",
+  "set_material",
+  "set_source",
+  "set_target",
+  "submit"
+ ],
+ "n_certify": 2,
+ "n_search": 3,
+ "n_export": 0,
+ "logged_tool_seconds": 677.4,
+ "env": {
+  "python": "3.10.18",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "torch": "2.5.1+cu124",
+  "cuda": true,
+  "device": "NVIDIA GeForce RTX 4090",
+  "code": "f1a6d625064a6d18",
+  "checker": "c5f8c89871b3bad6",
+  "mkl_cbwr": 65538
+ },
+ "replay": {
+  "exact": true,
+  "n_calls": 15,
+  "n_compared": 15,
+  "mismatches": [],
+  "same_code": false,
+  "schema": "amm-tools/1",
+  "decision_changes": [],
+  "identity": {
+   "code_log": "90f3823f15cbeff4",
+   "code_now": "f1a6d625064a6d18",
+   "checker_log": "f2e482d81382b400",
+   "checker_now": "c5f8c89871b3bad6",
+   "checker_aliased": true,
+   "checker_log_source": "known code identity",
+   "code_aliased": true
+  },
+  "root": null
+ },
+ "tolerance": {
+  "aligned": true,
+  "within_tolerance": true,
+  "max_rel_numeric": 0.0,
+  "max_rel_by_tier": {
+   "T64": 0.0,
+   "T32": 0.0
+  },
+  "n_numeric_differences": 0,
+  "calls_with_numeric_differences": [],
+  "over_tolerance": [],
+  "non_numeric_differences": [],
+  "environment_fields": [],
+  "derived_differences": [],
+  "unexplained_derived": []
+ },
+ "error": null
+}

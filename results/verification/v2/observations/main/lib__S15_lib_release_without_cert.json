@@ -1,0 +1,123 @@
+{
+ "scenario": "S15_lib_release_without_cert",
+ "interface": "lib",
+ "rows": [
+  {
+   "scenario": "S15_lib_release_without_cert",
+   "check": "C_release_uncertified",
+   "capability": "profile C: release without a certificate refused",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first",
+   "passed": true,
+   "failures": [],
+   "seq": 3,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S15_lib_release_without_cert/session.jsonl"
+  },
+  {
+   "scenario": "S15_lib_release_without_cert",
+   "check": "release_no_design",
+   "capability": "invalid: release without a design",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: release needs a design",
+   "passed": true,
+   "failures": [],
+   "seq": 4,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S15_lib_release_without_cert/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_material",
+   "args": {
+    "name": "PA12"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 1700000000.0,
+    "atlas_available": true,
+    "material": "PA12",
+    "nu": 0.39,
+    "rho_kg_m3": 1010.0
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.25,
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "density_max": 0.25
+    },
+    "targets": {
+     "density_max": 0.25
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "submit",
+   "args": {
+    "decision": "release",
+    "design": {
+     "kind": "bcc",
+     "params": {
+      "r": 0.08,
+      "R": 0.0
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 3,
+   "error": "release needs a certificate with verdict 'certified' for this design and the current targets: call certify first",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "submit",
+   "args": {
+    "decision": "release"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 4,
+   "error": "release needs a design",
+   "result": null,
+   "cli": null
+  }
+ ],
+ "seconds": 0.2,
+ "root": "results/verification/v2/sessions/lib/S15_lib_release_without_cert",
+ "finished": "2026-11-08 08:27:16"
+}

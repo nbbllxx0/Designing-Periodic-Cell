@@ -1,0 +1,19 @@
+{
+ "brief": "X01",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 17.6,
+ "usage": {
+  "input_tokens": 112589,
+  "cached_input_tokens": 93824,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 374,
+  "reasoning_output_tokens": 12
+ },
+ "final": "The amm verdict is **PROVEN_INFEASIBLE**; no design was released. Using its 316L modulus of 193 GPa, the theoretical axial stiffness ceiling at 16% solid is 30.88 GPa, below your required 38.6 GPa. The volume limit or stiffness requirement must change.",
+ "stderr_tail": ""
+}

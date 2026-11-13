@@ -1,0 +1,116 @@
+B R01 false_refusal refuse NOT_FOUND_IN_FAMILIES 
+B R02 abstention refuse UNDETERMINED 
+B R03 abstention refuse NOT_FOUND_IN_FAMILIES 
+B R04 abstention refuse UNDETERMINED 
+B R05 abstention refuse NOT_FOUND_IN_FAMILIES 
+B R06 false_refusal refuse NOT_FOUND_IN_FAMILIES 
+B R07 abstention refuse NOT_FOUND_IN_FAMILIES 
+B R08 false_refusal refuse UNDETERMINED 
+C R01 success release  certified
+C R02 abstention refuse UNDETERMINED 
+C R03 abstention refuse UNDETERMINED 
+C R04 abstention refuse NOT_FOUND_IN_FAMILIES 
+C R05 abstention refuse UNDETERMINED 
+C R06 success release  certified
+C R07 abstention refuse UNDETERMINED 
+C R08 success release  certified
+{
+ "B": {
+  "n": 8,
+  "n_specs": 8,
+  "witnessed": {
+   "n": 3,
+   "success": 0,
+   "correct": 0,
+   "false_refusals": 3,
+   "spec_error_releases": 0
+  },
+  "proven": {
+   "n": 0,
+   "correct_refusals": 0,
+   "correct": 0,
+   "exact_verdict": 0
+  },
+  "unresolved": {
+   "n": 5,
+   "abstentions": 5,
+   "overclaims": 0,
+   "witness_found": 0,
+   "appropriate": 5
+  },
+  "correct": 0,
+  "decided": 3,
+  "releases": 0,
+  "silent_failures": 0,
+  "unverified_releases": 0,
+  "unsupported_releases": 0,
+  "supported_releases": 0,
+  "no_answer": 0,
+  "ambiguous": 0,
+  "asked_on_ambiguous": 0,
+  "resolved_on_ambiguous": 0,
+  "asked_on_clear": 3,
+  "wall_s": 1695.8,
+  "designs_evaluated": 1421,
+  "certify_calls": 0,
+  "input_tokens": 4469668,
+  "output_tokens": 15037,
+  "by_class": {
+   "infeasible_nearmiss": {
+    "abstention": 5
+   },
+   "nearmiss_feasible": {
+    "false_refusal": 3
+   }
+  }
+ },
+ "C": {
+  "n": 8,
+  "n_specs": 8,
+  "witnessed": {
+   "n": 3,
+   "success": 3,
+   "correct": 3,
+   "false_refusals": 0,
+   "spec_error_releases": 0
+  },
+  "proven": {
+   "n": 0,
+   "correct_refusals": 0,
+   "correct": 0,
+   "exact_verdict": 0
+  },
+  "unresolved": {
+   "n": 5,
+   "abstentions": 5,
+   "overclaims": 0,
+   "witness_found": 0,
+   "appropriate": 5
+  },
+  "correct": 3,
+  "decided": 3,
+  "releases": 3,
+  "silent_failures": 0,
+  "unverified_releases": 0,
+  "unsupported_releases": 0,
+  "supported_releases": 3,
+  "no_answer": 0,
+  "ambiguous": 0,
+  "asked_on_ambiguous": 0,
+  "resolved_on_ambiguous": 0,
+  "asked_on_clear": 2,
+  "wall_s": 6798.0,
+  "designs_evaluated": 1296,
+  "certify_calls": 14,
+  "input_tokens": 12794462,
+  "output_tokens": 32368,
+  "by_class": {
+   "infeasible_nearmiss": {
+    "abstention": 5
+   },
+   "nearmiss_feasible": {
+    "success": 3
+   }
+  }
+ }
+}

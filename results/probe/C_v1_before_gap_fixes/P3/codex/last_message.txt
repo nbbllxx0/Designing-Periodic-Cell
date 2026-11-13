@@ -1,0 +1,1 @@
+The amm tools returned **PROVEN_INFEASIBLE**, so no design was released. Using Ti-6Al-4V’s solid modulus of 113.8 GPa, the Voigt upper bound at 20% solid fraction is **22.76 GPa**, below the required 35 GPa. Both targets cannot be met under this material model.

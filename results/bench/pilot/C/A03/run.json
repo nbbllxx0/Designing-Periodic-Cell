@@ -1,0 +1,19 @@
+{
+ "brief": "A03",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 698.9,
+ "usage": {
+  "input_tokens": 1199473,
+  "cached_input_tokens": 1127936,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2781,
+  "reasoning_output_tokens": 673
+ },
+ "final": "Released a certified PA12 sphere-and-ligament unit cell with **a = 10 mm**, using normalized parameters **c = 0.365407** and **w = 0.106886**. The amm certificate confirms a complete elastic band gap covering **44\u201354.6 kHz**, across all directions and polarizations, with robustness checks passed.",
+ "stderr_tail": "2026-11-05T20:57:36.503332Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command \\\\\\\"Get-Location; rg --files -g AGENTS.md -g '*amm*' -g '*tool*' -g '*.json' -g '*.py' -g '*.md'\\\\\\\"` rejected: blocked by policy\\\")\" }\n"
+}

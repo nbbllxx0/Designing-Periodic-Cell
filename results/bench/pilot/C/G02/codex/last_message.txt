@@ -1,0 +1,1 @@
+Released a 12 mm Ti-6Al-4V sphere-and-ligament unit cell with normalized parameters **c = 0.312174** and **w = 0.108696**. Its certified full 3D elastic band gap spans **59.04–121.94 kHz**, covering the required **68.6–114 kHz** for all propagation directions and polarizations.

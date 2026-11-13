@@ -1,0 +1,19 @@
+{
+ "brief": "M01",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 195.1,
+ "usage": {
+  "input_tokens": 490753,
+  "cached_input_tokens": 446976,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1713,
+  "reasoning_output_tokens": 468
+ },
+ "final": "No design released; verdict: **UNDETERMINED**. The amm searches could not establish a cell satisfying all requirements. A marginal candidate\u2019s predicted gap began at 208.72 kHz, leaving part of the required interval uncovered. This does not prove infeasibility.",
+ "stderr_tail": "2026-11-05T19:29:19.508615Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

@@ -1,0 +1,1 @@
+Released a certified 25 mm PA12 sphere-and-ligament resonator with parameters `c=0.345576`, `w=0.12838` in cell-size units. Certified bounds give relative density ≤18.52%, cube-axis Young’s modulus ≥44.37 MPa, and a complete gap covering 13.2–23.2 kHz for all directions and polarizations. Geometry-offset robustness was not established; SLS manufacturability was not evaluated.

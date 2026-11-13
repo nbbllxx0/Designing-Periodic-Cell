@@ -1,0 +1,9 @@
+{
+ "material": {
+  "name": "316L"
+ },
+ "targets": {
+  "density_max": -0.1,
+  "porosity_max": 0.5
+ }
+}

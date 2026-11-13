@@ -1,0 +1,1 @@
+Released a 12 mm Ti6Al4V sphere-ligament design with normalized parameters **c = 0.314278**, **w = 0.110281**. Its estimated complete band gap is **59.66–223.47 kHz**, covering your required 68.6–114 kHz. Band-gap certification and print-process qualification remain unverified.

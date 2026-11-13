@@ -1,0 +1,101 @@
+{
+ "spec": {
+  "family": "tpms",
+  "kind": "iwp",
+  "params": {
+   "density": 0.5,
+   "mode": "network"
+  }
+ },
+ "targets": {
+  "density_max": 0.5250329966104339,
+  "E100_min": 0.2788241288560344,
+  "G_min": 0.05650348522798831,
+  "nu100_min": 0.14037078890020627,
+  "nu100_max": 0.19725192457391216
+ },
+ "passed": true,
+ "used": [
+  32,
+  48,
+  64
+ ],
+ "ladder": [
+  {
+   "resolutions": [
+    32,
+    48,
+    64
+   ],
+   "converged": true,
+   "checks_failed": [],
+   "not_converged": []
+  }
+ ],
+ "checks_failed": [],
+ "reason": null,
+ "block_seconds": 148.4,
+ "reference": {
+  "80@0": {
+   "density": 0.49999309922113666,
+   "E100": 0.2938969646076098,
+   "G": 0.05981547272653041,
+   "bulk": 0.14792692023106066,
+   "nu100": 0.16887144437199636
+  }
+ },
+ "finest_min": {
+  "E100": 0.2938969646076098,
+  "G": 0.05981547272653041,
+  "bulk": 0.14792692023106066
+ },
+ "oh_ref": {
+  "density": 0.5000314253432704,
+  "E100": 0.293499083006352,
+  "G": 0.05947735287156664,
+  "bulk": 0.14769980121806556,
+  "nu100": 0.16881135673705921
+ },
+ "guard": {
+  "density": {
+   "lower": 0.4999592052701628,
+   "upper": 0.5000154918306192,
+   "phase_spread": 1.0658046671996324e-05,
+   "converged": true,
+   "monotone": true
+  },
+  "E100": {
+   "lower": 0.29299123412191735,
+   "upper": 0.29469754786898306,
+   "phase_spread": 2.912365301260822e-05,
+   "converged": true,
+   "monotone": true
+  },
+  "G": {
+   "lower": 0.05899545140862889,
+   "upper": 0.06051925439429571,
+   "phase_spread": 2.5637766747840796e-06,
+   "converged": true,
+   "monotone": true
+  },
+  "bulk": {
+   "lower": 0.1473530526158586,
+   "upper": 0.14842404041059956,
+   "phase_spread": 8.833765132887361e-06,
+   "converged": true,
+   "monotone": true
+  },
+  "nu100": {
+   "lower": 0.16860773800273374,
+   "upper": 0.1690815191239273,
+   "phase_spread": 2.8539019340828586e-05,
+   "converged": true,
+   "monotone": true
+  }
+ },
+ "lower_over_finest_min": {
+  "E100": -0.0030817959855478083,
+  "G": -0.01370918393724918,
+  "bulk": -0.003879399464990496
+ }
+}

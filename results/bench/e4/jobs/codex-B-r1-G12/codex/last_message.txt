@@ -1,0 +1,1 @@
+No design released; verdict **UNDETERMINED**. A PA12 sphere-and-ligament candidate predicts a gap covering 25.4–33.8 kHz, but the available tools cannot certify it for every wave direction and polarization. Feasibility remains unverified.

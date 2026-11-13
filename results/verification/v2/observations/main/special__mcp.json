@@ -1,0 +1,75 @@
+{
+ "rows": [
+  {
+   "scenario": "X_transport",
+   "check": "mcp_tools_C",
+   "capability": "tool list profile C (MCP)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "17 tools",
+   "expected_refusal": false,
+   "observed": "17 tools",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/mcp/X_transport_C/session.jsonl"
+  },
+  {
+   "scenario": "X_transport",
+   "check": "mcp_malformed_line",
+   "capability": "invalid: malformed JSON (MCP)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "server alive; no record; next call answered",
+   "expected_refusal": true,
+   "observed": "reply to the malformed line: none; alive True; next call ok True; records +1 (the valid call)",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/mcp/X_transport_C/session.jsonl"
+  },
+  {
+   "scenario": "X_transport",
+   "check": "mcp_args_not_object",
+   "capability": "invalid: arguments not an object (MCP)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "error reply; no crash; no record",
+   "expected_refusal": true,
+   "observed": "reply {\"jsonrpc\": \"2.0\", \"id\": 5, \"error\": {\"code\": -32602, \"message\": \"Invalid request parameters\", \"data\": \"\"}}; records +0",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/mcp/X_transport_C/session.jsonl"
+  },
+  {
+   "scenario": "X_transport",
+   "check": "mcp_wrong_type",
+   "capability": "invalid: wrong value type, logged (MCP)",
+   "interface": "mcp",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "isError; logged with ok false",
+   "expected_refusal": true,
+   "observed": "isError True: Error executing tool set_target: density_max: Input should be a valid number, unable to parse string as a number; logged ok=False error=density_max: Input should be a valid number, unable to parse string as a number",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/mcp/X_transport_C/session.jsonl"
+  },
+  {
+   "scenario": "X_transport",
+   "check": "mcp_tools_B",
+   "capability": "tool list profile B (MCP)",
+   "interface": "mcp",
+   "profile": "B",
+   "tool": "transport",
+   "expected": "14 tools, no check_bounds/certify/as_built",
+   "expected_refusal": false,
+   "observed": "14 tools: ['ask_clarification', 'atlas_suggest', 'evaluate', 'export', 'get_session', 'list_families', 'screen_manufacturing', 'search', 'set_constraints', 'set_material', 'set_source', 'set_target', 'submit', 'undo']",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/mcp/X_transport_B/session.jsonl"
+  }
+ ],
+ "finished": "2026-11-08 08:51:47"
+}

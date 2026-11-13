@@ -1,0 +1,201 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "ok": true,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "seq": 2,
+   "tool": "set_constraints"
+  },
+  {
+   "args": {
+    "gap": {
+     "f_hi": 0.35,
+     "f_lo": 0.25,
+     "unit": "f*"
+    }
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    }
+   },
+   "seq": 3,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": 0.16777999999999998,
+       "slack_opt": 0.6361618854656957,
+       "slack_pess": 0.16777999999999998,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.592174,
+         "w": 0.112174
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.1306733333333333,
+       "slack_opt": 0.6201950468367753,
+       "slack_pess": 0.1306733333333333,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.567826,
+         "w": 0.112174
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.11942666666666667,
+       "slack_opt": 0.5802802458440707,
+       "slack_pess": 0.11942666666666667,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.616522,
+         "w": 0.112174
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 22,
+     "n_possible": 572,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "FEASIBLE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "verdict": "FEASIBLE",
+    "violated": []
+   },
+   "seq": 4,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": 0.16777999999999998,
+     "slack_opt": 0.6361618854656957,
+     "slack_pess": 0.16777999999999998,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.592174,
+       "w": 0.112174
+      }
+     }
+    },
+    {
+     "slack_nominal": 0.1306733333333333,
+     "slack_opt": 0.6201950468367753,
+     "slack_pess": 0.1306733333333333,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.112174
+      }
+     }
+    },
+    {
+     "slack_nominal": 0.11942666666666667,
+     "slack_opt": 0.5802802458440707,
+     "slack_pess": 0.11942666666666667,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.616522,
+       "w": 0.112174
+      }
+     }
+    }
+   ],
+   "n_cells": 2714,
+   "n_clear": 22,
+   "n_possible": 572,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "FEASIBLE"
+  },
+  "bounds_verdict": "NOT_REFUTED",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "gap": {
+    "f_hi": 0.35,
+    "f_lo": 0.25
+   }
+  },
+  "verdict": "FEASIBLE",
+  "violated": []
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S04_families\\13-check-bounds"
+}

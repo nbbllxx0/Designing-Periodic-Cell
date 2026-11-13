@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. A preliminary candidate predicts a gap covering 132–177 kHz, but this amm session lacks certification tools to verify complete wave blocking. Feasibility remains unresolved; LPBF manufacturability was not evaluated.

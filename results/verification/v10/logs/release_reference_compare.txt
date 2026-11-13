@@ -1,0 +1,8 @@
+arrays/dicts compared: 132
+checker identity: {'gap': ('f141e46cb67a78db', 'c5f8c89871b3bad6'), 'static': ('f141e46cb67a78db', 'c5f8c89871b3bad6')}
+replay codex-B-r1-S01 pre exact True post exact True
+replay codex-C-r1-N01 pre exact True post exact True
+replay codex-C-r1-N02 pre exact True post exact True
+replay codex-C-r1-S01 pre exact True post exact True
+replay codex-C-r1-X01 pre exact True post exact True
+DIFFERENT: none

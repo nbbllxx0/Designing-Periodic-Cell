@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":[12,"mm"],"targets":{"gap":{"f_lo":99.4,"f_hi":113,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"I cannot certify a design blocking every elastic wave throughout this interval without a validated complete-band-gap analysis; feasibility remains undetermined."}

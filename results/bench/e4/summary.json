@@ -1,0 +1,247 @@
+{
+ "codex/B/1": {
+  "confirmatory": {
+   "n": 78,
+   "n_specs": 61,
+   "witnessed": {
+    "n": 58,
+    "success": 15,
+    "correct": 15,
+    "false_refusals": 43,
+    "spec_error_releases": 0
+   },
+   "proven": {
+    "n": 12,
+    "correct_refusals": 12,
+    "correct": 12,
+    "exact_verdict": 12
+   },
+   "unresolved": {
+    "n": 8,
+    "abstentions": 6,
+    "overclaims": 1,
+    "witness_found": 0,
+    "appropriate": 6
+   },
+   "correct": 27,
+   "decided": 70,
+   "releases": 15,
+   "silent_failures": 0,
+   "unverified_releases": 0,
+   "unsupported_releases": 0,
+   "supported_releases": 15,
+   "no_answer": 1,
+   "ambiguous": 17,
+   "asked_on_ambiguous": 17,
+   "resolved_on_ambiguous": 17,
+   "asked_on_clear": 0,
+   "wall_s": 10445.8,
+   "designs_evaluated": 6363,
+   "certify_calls": 0,
+   "input_tokens": 21691980,
+   "output_tokens": 112552,
+   "by_class": {
+    "ambiguous_cell_size": {
+     "abstention": 1,
+     "false_refusal": 4
+    },
+    "ambiguous_gap_type": {
+     "false_refusal": 3
+    },
+    "ambiguous_material": {
+     "false_refusal": 3,
+     "success": 2
+    },
+    "ambiguous_quantity": {
+     "false_refusal": 1,
+     "success": 1
+    },
+    "ambiguous_unit": {
+     "false_refusal": 1,
+     "success": 1
+    },
+    "feasible_combined": {
+     "false_refusal": 13
+    },
+    "feasible_gap": {
+     "false_refusal": 11,
+     "success": 1
+    },
+    "feasible_static": {
+     "false_refusal": 7,
+     "success": 10
+    },
+    "infeasible_notfound": {
+     "abstention": 5,
+     "no_answer": 1,
+     "overclaim": 1
+    },
+    "infeasible_proven": {
+     "correct_refusal": 12
+    }
+   }
+  },
+  "development": {}
+ },
+ "codex/C/1": {
+  "confirmatory": {
+   "n": 78,
+   "n_specs": 61,
+   "witnessed": {
+    "n": 58,
+    "success": 52,
+    "correct": 52,
+    "false_refusals": 6,
+    "spec_error_releases": 0
+   },
+   "proven": {
+    "n": 12,
+    "correct_refusals": 12,
+    "correct": 12,
+    "exact_verdict": 12
+   },
+   "unresolved": {
+    "n": 8,
+    "abstentions": 8,
+    "overclaims": 0,
+    "witness_found": 0,
+    "appropriate": 8
+   },
+   "correct": 64,
+   "decided": 70,
+   "releases": 52,
+   "silent_failures": 0,
+   "unverified_releases": 0,
+   "unsupported_releases": 0,
+   "supported_releases": 52,
+   "no_answer": 0,
+   "ambiguous": 17,
+   "asked_on_ambiguous": 17,
+   "resolved_on_ambiguous": 17,
+   "asked_on_clear": 0,
+   "wall_s": 34471.8,
+   "designs_evaluated": 5646,
+   "certify_calls": 82,
+   "input_tokens": 53052420,
+   "output_tokens": 170312,
+   "by_class": {
+    "ambiguous_cell_size": {
+     "abstention": 1,
+     "false_refusal": 1,
+     "success": 3
+    },
+    "ambiguous_gap_type": {
+     "success": 3
+    },
+    "ambiguous_material": {
+     "false_refusal": 1,
+     "success": 4
+    },
+    "ambiguous_quantity": {
+     "success": 2
+    },
+    "ambiguous_unit": {
+     "success": 2
+    },
+    "feasible_combined": {
+     "false_refusal": 3,
+     "success": 10
+    },
+    "feasible_gap": {
+     "false_refusal": 1,
+     "success": 11
+    },
+    "feasible_static": {
+     "success": 17
+    },
+    "infeasible_notfound": {
+     "abstention": 7
+    },
+    "infeasible_proven": {
+     "correct_refusal": 12
+    }
+   }
+  },
+  "development": {}
+ },
+ "codex/D/1": {
+  "confirmatory": {
+   "n": 78,
+   "n_specs": 61,
+   "witnessed": {
+    "n": 58,
+    "success": 0,
+    "correct": 0,
+    "false_refusals": 55,
+    "spec_error_releases": 0
+   },
+   "proven": {
+    "n": 12,
+    "correct_refusals": 9,
+    "correct": 9,
+    "exact_verdict": 9
+   },
+   "unresolved": {
+    "n": 8,
+    "abstentions": 7,
+    "overclaims": 1,
+    "witness_found": 0,
+    "appropriate": 7
+   },
+   "correct": 9,
+   "decided": 70,
+   "releases": 0,
+   "silent_failures": 0,
+   "unverified_releases": 0,
+   "unsupported_releases": 0,
+   "supported_releases": 0,
+   "no_answer": 6,
+   "ambiguous": 17,
+   "asked_on_ambiguous": 17,
+   "resolved_on_ambiguous": 17,
+   "asked_on_clear": 0,
+   "wall_s": 1356.7,
+   "designs_evaluated": 0,
+   "certify_calls": 0,
+   "input_tokens": 1210250,
+   "output_tokens": 37348,
+   "by_class": {
+    "ambiguous_cell_size": {
+     "abstention": 1,
+     "false_refusal": 4
+    },
+    "ambiguous_gap_type": {
+     "false_refusal": 3
+    },
+    "ambiguous_material": {
+     "false_refusal": 5
+    },
+    "ambiguous_quantity": {
+     "false_refusal": 2
+    },
+    "ambiguous_unit": {
+     "false_refusal": 2
+    },
+    "feasible_combined": {
+     "false_refusal": 13
+    },
+    "feasible_gap": {
+     "false_refusal": 12
+    },
+    "feasible_static": {
+     "false_refusal": 14,
+     "no_answer": 3
+    },
+    "infeasible_notfound": {
+     "abstention": 6,
+     "overclaim": 1
+    },
+    "infeasible_proven": {
+     "correct_refusal": 9,
+     "no_answer": 3
+    }
+   }
+  },
+  "development": {}
+ }
+}

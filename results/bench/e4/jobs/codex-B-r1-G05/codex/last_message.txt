@@ -1,0 +1,1 @@
+Submitted **UNDETERMINED**; no design released. For Ti-6Al-4V at 1 cm cell size, a resonator candidate predicts a complete gap covering 124–219 kHz, but its uncertainty bounds fail the target and certification is unavailable. Feasibility remains unresolved.

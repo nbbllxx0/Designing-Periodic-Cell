@@ -1,0 +1,1 @@
+No design was released; the verdict is **UNDETERMINED**. Candidates met the nominal targets but failed the pessimistic error estimate, and this session provided no certification tool. Feasibility remains unresolved.

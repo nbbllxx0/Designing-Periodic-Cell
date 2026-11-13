@@ -1,0 +1,5 @@
+  [mcp] mcp_tools_C: PASS  17 tools
+  [mcp] mcp_malformed_line: PASS  reply to the malformed line: none; alive True; next call ok True; records +1 (the valid call)
+  [mcp] mcp_args_not_object: PASS  reply {"jsonrpc": "2.0", "id": 5, "error": {"code": -32602, "message": "Invalid request parameters", "data": ""}}; records +0
+  [mcp] mcp_wrong_type: PASS  isError True: Error executing tool set_target: density_max: Input should be a valid number, unable to parse string as a number; logged ok=False error=density_max: Input should be a valid number, unabl
+  [mcp] mcp_tools_B: PASS  14 tools: ['ask_clarification', 'atlas_suggest', 'evaluate', 'export', 'get_session', 'list_families', 'screen_manufacturing', 'search', 'set_constraints', 'set_material', 'set_source', 'set_target', 

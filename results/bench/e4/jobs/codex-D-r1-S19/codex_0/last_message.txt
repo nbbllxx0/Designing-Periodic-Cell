@@ -1,0 +1,1 @@
+{"decision":"need_info","material":"316L","cell_size":null,"targets":{"density_max":0.16,"G_min":{"value":4.43,"unit":"GPa"}},"note":"The shear target is interpreted as C44; candidate-specific homogenization is needed to establish feasibility, and I cannot certify a qualifying design or prove infeasibility from these constraints alone."}

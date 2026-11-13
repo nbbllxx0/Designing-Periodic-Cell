@@ -1,0 +1,1 @@
+The request is **proven infeasible**. Using the tool’s Ti-6Al-4V modulus of 113.8 GPa, the rigorous upper bound at 16% solid fraction is \(0.16 \times 113.8 = 18.208\) GPa, below your 20.4 GPa requirement. No design was released.

@@ -1,0 +1,19 @@
+{
+ "brief": "A03",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 113.6,
+ "usage": {
+  "input_tokens": 366817,
+  "cached_input_tokens": 329728,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1333,
+  "reasoning_output_tokens": 251
+ },
+ "final": "Submitted **UNDETERMINED**; no design released. At the selected 10 mm cell size, the best PA12 candidate nominally covers 44\u201354.6 kHz but fails the pessimistic check. The requested complete band gap remains unverified.",
+ "stderr_tail": ""
+}

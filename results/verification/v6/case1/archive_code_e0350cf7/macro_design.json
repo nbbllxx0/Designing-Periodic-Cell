@@ -1,0 +1,199 @@
+{
+ "label": "design",
+ "design": {
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.592174,
+   "w": 0.151304
+  }
+ },
+ "spec": {
+  "family": "resonator",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.592174,
+   "w": 0.151304
+  }
+ },
+ "material": "PA12",
+ "E_s": 1700000000.0,
+ "cell_size_m": 0.02,
+ "load_N": 1800.0,
+ "delta_max_m": 0.00025,
+ "k_req_N_per_m": 7200000.0,
+ "guarded": {
+  "E100_lower": 0.03750527594259675,
+  "G_lower": 0.0014663506138519692,
+  "nu100_bounds": [
+   0.04150213452546216,
+   0.043936469848912585
+  ]
+ },
+ "extrapolated": {
+  "E100": 0.039357290298450205,
+  "G": 0.0018442949744577088,
+  "nu100": 0.04256805725364068,
+  "density": 0.2357681815247251
+ },
+ "homogenized_6x6x6": {
+  "m2": {
+   "nu_lower": {
+    "k_star": 0.22512599458841456,
+    "k_N_per_m": 7654283.816006095,
+    "deflection_m": 0.00023516243234095497,
+    "residual": 5.978627335686498e-16,
+    "ndof": 6591,
+    "seconds": 0.59
+   },
+   "nu_upper": {
+    "k_star": 0.22513754438382327,
+    "k_N_per_m": 7654676.509049991,
+    "deflection_m": 0.00023515036825813492,
+    "residual": 5.589774247147194e-16,
+    "ndof": 6591,
+    "seconds": 0.41
+   },
+   "worst": {
+    "k_star": 0.22512599458841456,
+    "k_N_per_m": 7654283.816006095,
+    "deflection_m": 0.00023516243234095497,
+    "residual": 5.978627335686498e-16,
+    "ndof": 6591,
+    "seconds": 0.59
+   }
+  },
+  "m4": {
+   "nu_lower": {
+    "k_star": 0.2251184970993669,
+    "k_N_per_m": 7654028.901378474,
+    "deflection_m": 0.00023517026433958512,
+    "residual": 9.061692439633613e-16,
+    "ndof": 46875,
+    "seconds": 0.84
+   },
+   "nu_upper": {
+    "k_star": 0.22512910906566203,
+    "k_N_per_m": 7654389.708232509,
+    "deflection_m": 0.00023515917906087927,
+    "residual": 9.127744136679924e-16,
+    "ndof": 46875,
+    "seconds": 2.16
+   },
+   "worst": {
+    "k_star": 0.2251184970993669,
+    "k_N_per_m": 7654028.901378474,
+    "deflection_m": 0.00023517026433958512,
+    "residual": 9.061692439633613e-16,
+    "ndof": 46875,
+    "seconds": 0.84
+   }
+  },
+  "m8": {
+   "nu_lower": {
+    "k_star": 0.22511601570428225,
+    "k_N_per_m": 7653944.533945597,
+    "deflection_m": 0.00023517285656002825,
+    "residual": 1.3674597031080654e-15,
+    "ndof": 352947,
+    "seconds": 10.21
+   },
+   "nu_upper": {
+    "k_star": 0.2251263168646063,
+    "k_N_per_m": 7654294.773396614,
+    "deflection_m": 0.00023516209569771312,
+    "residual": 1.3604419946580543e-15,
+    "ndof": 352947,
+    "seconds": 10.06
+   },
+   "worst": {
+    "k_star": 0.22511601570428225,
+    "k_N_per_m": 7653944.533945597,
+    "deflection_m": 0.00023517285656002825,
+    "residual": 1.3674597031080654e-15,
+    "ndof": 352947,
+    "seconds": 10.21
+   }
+  }
+ },
+ "homogenized_3x3x3": {
+  "guarded_worst": {
+   "k_star": 0.11255924854968354,
+   "k_N_per_m": 3827014.4506892404
+  },
+  "extrapolated": {
+   "k_star": 0.11812391370589599,
+   "k_N_per_m": 4016213.066000464
+  }
+ },
+ "voxel_3x3x3": {
+  "n16": {
+   "k_star": 0.13135590018204701,
+   "k_N_per_m": 4466100.606189598,
+   "residual": 5.9434744281061835e-15,
+   "n_perturbed": 0,
+   "ndof": 140211,
+   "ne": 34776,
+   "density": 0.23579998603430674,
+   "seconds": 4.2,
+   "periodic_E100_same_n": 0.043024333265619205,
+   "k_star_hom_same_n": 0.1291446582179161,
+   "ratio_same_n": 1.0171222100444892
+  },
+  "n24": {
+   "k_star": 0.12737344850099022,
+   "k_N_per_m": 4330697.249033667,
+   "residual": 6.665648321870064e-15,
+   "n_perturbed": 0,
+   "ndof": 441855,
+   "ne": 120744,
+   "density": 0.2357962547588648,
+   "seconds": 17.9,
+   "periodic_E100_same_n": 0.04182599808353855,
+   "k_star_hom_same_n": 0.12554320352180237,
+   "ratio_same_n": 1.0145786066297886
+  },
+  "n32": {
+   "k_star": 0.1271377684708781,
+   "k_N_per_m": 4322684.128009855,
+   "residual": 7.615348200390199e-15,
+   "n_perturbed": 0,
+   "ndof": 885087,
+   "ne": 250992,
+   "density": 0.23579998603430674,
+   "seconds": 23.5,
+   "periodic_E100_same_n": 0.041838732907057176,
+   "k_star_hom_same_n": 0.12558002500595278,
+   "ratio_same_n": 1.0124043888735608
+  },
+  "extrapolated": {
+   "k_star": 0.12643072838054173,
+   "order": 6.756290966048618,
+   "order_used": 1.0,
+   "k_N_per_m": 4298644.764938419
+  }
+ },
+ "A2": {
+  "deflection_mm": 0.23517285656002826,
+  "k_kN_per_mm": 7.653944533945597,
+  "mesh_change_m4_to_m8": -1.1022617495193288e-05,
+  "uniaxial_estimate_kN_per_mm": 7.651076292289737,
+  "passed": true
+ },
+ "size_effect": {
+  "ratio_same_n": {
+   "n16": 1.0171222100444892,
+   "n24": 1.0145786066297886,
+   "n32": 1.0124043888735608
+  },
+  "ratio_voxel_over_hom_3x3x3_extrapolated": 1.0703228873310784,
+  "ratio_voxel_n32_over_hom": 1.076308466949586,
+  "ratio_voxel_ext_over_hom_guarded": 1.1232371396361565
+ },
+ "A2s": {
+  "size_corrected_deflection_mm": 0.23517285656002826,
+  "ratio_used": 1.0,
+  "passed": true,
+  "note": "homogenized 6x6x6 (guarded) / min(1, voxel/homogenized ratio at 3x3x3, matched resolution n = 32); reported flag"
+ },
+ "seconds": 86.2
+}

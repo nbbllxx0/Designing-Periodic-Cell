@@ -1,0 +1,1 @@
+Released a certified 5 mm 316L sphere–ligament resonator with cell-normalized parameters **c = 0.289, w = 0.124**: solid fraction ≤11.671%, E[100] ≥3.9085 GPa, and a complete gap covering 174–271 kHz. Certification applies to nominal geometry; ±0.05 mm offset robustness failed, and LPBF manufacturability was not evaluated.

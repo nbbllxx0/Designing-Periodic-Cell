@@ -1,0 +1,549 @@
+{
+ "id": "tpms_schwarzp_sheet_d0.2895_nu0.342",
+ "flagged_only": true,
+ "q2_levels": [
+  12,
+  16,
+  20
+ ],
+ "amm_levels": [
+  20,
+  30,
+  40
+ ],
+ "rows": [
+  {
+   "set": "amm_path",
+   "i": 4,
+   "k": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "probes": [
+    0.4256355701443667,
+    0.5266795331167438,
+    0.5995148450690287,
+    0.6545848179105217,
+    0.7335933280486084
+   ],
+   "q2": {
+    "12": [
+     {
+      "probe": 0.4256355701443667,
+      "count": 4,
+      "lanczos": 4,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.5266795331167438,
+      "count": 6,
+      "lanczos": 6,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.5995148450690287,
+      "count": 8,
+      "lanczos": 8,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.6545848179105217,
+      "count": 12,
+      "lanczos": 11,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.7335933280486084,
+      "count": 14,
+      "lanczos": 13,
+      "perturbed": 0,
+      "odd": 0
+     }
+    ],
+    "16": [
+     {
+      "probe": 0.4256355701443667,
+      "count": 4,
+      "lanczos": 4,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.5266795331167438,
+      "count": 6,
+      "lanczos": 6,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.5995148450690287,
+      "count": 8,
+      "lanczos": 8,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.6545848179105217,
+      "count": 12,
+      "lanczos": 11,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.7335933280486084,
+      "count": 14,
+      "lanczos": 13,
+      "perturbed": 0,
+      "odd": 0
+     }
+    ],
+    "20": [
+     {
+      "probe": 0.4256355701443667,
+      "count": 4,
+      "lanczos": 4,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.5266795331167438,
+      "count": 6,
+      "lanczos": 6,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.5995148450690287,
+      "count": 8,
+      "lanczos": 8,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.6545848179105217,
+      "count": 12,
+      "lanczos": 12,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.7335933280486084,
+      "count": 14,
+      "lanczos": 14,
+      "perturbed": 0,
+      "odd": 0
+     }
+    ]
+   },
+   "amm": {
+    "20": [
+     {
+      "probe": 0.4256355701443667,
+      "count": 4,
+      "lanczos": 4,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.5266795331167438,
+      "count": 6,
+      "lanczos": 6,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.5995148450690287,
+      "count": 8,
+      "lanczos": 8,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.6545848179105217,
+      "count": 8,
+      "lanczos": 8,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.7335933280486084,
+      "count": 14,
+      "lanczos": 13,
+      "perturbed": 0
+     }
+    ],
+    "30": [
+     {
+      "probe": 0.4256355701443667,
+      "count": 4,
+      "lanczos": 4,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.5266795331167438,
+      "count": 6,
+      "lanczos": 6,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.5995148450690287,
+      "count": 8,
+      "lanczos": 8,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.6545848179105217,
+      "count": 12,
+      "lanczos": 11,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.7335933280486084,
+      "count": 14,
+      "lanczos": 13,
+      "perturbed": 0
+     }
+    ],
+    "40": [
+     {
+      "probe": 0.4256355701443667,
+      "count": 4,
+      "lanczos": 4,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.5266795331167438,
+      "count": 6,
+      "lanczos": 6,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.5995148450690287,
+      "count": 8,
+      "lanczos": 8,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.6545848179105217,
+      "count": 12,
+      "lanczos": 11,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.7335933280486084,
+      "count": 14,
+      "lanczos": 13,
+      "perturbed": 0
+     }
+    ]
+   }
+  },
+  {
+   "set": "amm_path",
+   "i": 16,
+   "k": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "probes": [
+    0.5566556036779748,
+    0.6778215337194677
+   ],
+   "q2": {
+    "12": [
+     {
+      "probe": 0.5566556036779748,
+      "count": 10,
+      "lanczos": 9,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.6778215337194677,
+      "count": 16,
+      "lanczos": 13,
+      "perturbed": 0,
+      "odd": 0
+     }
+    ],
+    "16": [
+     {
+      "probe": 0.5566556036779748,
+      "count": 10,
+      "lanczos": 9,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.6778215337194677,
+      "count": 16,
+      "lanczos": 13,
+      "perturbed": 0,
+      "odd": 0
+     }
+    ],
+    "20": [
+     {
+      "probe": 0.5566556036779748,
+      "count": 10,
+      "lanczos": 9,
+      "perturbed": 0,
+      "odd": 0
+     },
+     {
+      "probe": 0.6778215337194677,
+      "count": 16,
+      "lanczos": 13,
+      "perturbed": 0,
+      "odd": 0
+     }
+    ]
+   },
+   "amm": {
+    "20": [
+     {
+      "probe": 0.5566556036779748,
+      "count": 10,
+      "lanczos": 8,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.6778215337194677,
+      "count": 16,
+      "lanczos": 11,
+      "perturbed": 0
+     }
+    ],
+    "30": [
+     {
+      "probe": 0.5566556036779748,
+      "count": 10,
+      "lanczos": 9,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.6778215337194677,
+      "count": 16,
+      "lanczos": 13,
+      "perturbed": 0
+     }
+    ],
+    "40": [
+     {
+      "probe": 0.5566556036779748,
+      "count": 10,
+      "lanczos": 10,
+      "perturbed": 0
+     },
+     {
+      "probe": 0.6778215337194677,
+      "count": 16,
+      "lanczos": 15,
+      "perturbed": 0
+     }
+    ]
+   }
+  }
+ ],
+ "seconds": 699.2,
+ "summary": {
+  "n_probes": 7,
+  "q2_lanczos_vs_inertia_mismatch": [
+   {
+    "set": "amm_path",
+    "i": 4,
+    "n": "12",
+    "probe": 0.6545848179105217,
+    "count": 12,
+    "lanczos": 11,
+    "perturbed": 0,
+    "odd": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 4,
+    "n": "12",
+    "probe": 0.7335933280486084,
+    "count": 14,
+    "lanczos": 13,
+    "perturbed": 0,
+    "odd": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 4,
+    "n": "16",
+    "probe": 0.6545848179105217,
+    "count": 12,
+    "lanczos": 11,
+    "perturbed": 0,
+    "odd": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 4,
+    "n": "16",
+    "probe": 0.7335933280486084,
+    "count": 14,
+    "lanczos": 13,
+    "perturbed": 0,
+    "odd": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 16,
+    "n": "12",
+    "probe": 0.5566556036779748,
+    "count": 10,
+    "lanczos": 9,
+    "perturbed": 0,
+    "odd": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 16,
+    "n": "12",
+    "probe": 0.6778215337194677,
+    "count": 16,
+    "lanczos": 13,
+    "perturbed": 0,
+    "odd": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 16,
+    "n": "16",
+    "probe": 0.5566556036779748,
+    "count": 10,
+    "lanczos": 9,
+    "perturbed": 0,
+    "odd": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 16,
+    "n": "16",
+    "probe": 0.6778215337194677,
+    "count": 16,
+    "lanczos": 13,
+    "perturbed": 0,
+    "odd": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 16,
+    "n": "20",
+    "probe": 0.5566556036779748,
+    "count": 10,
+    "lanczos": 9,
+    "perturbed": 0,
+    "odd": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 16,
+    "n": "20",
+    "probe": 0.6778215337194677,
+    "count": 16,
+    "lanczos": 13,
+    "perturbed": 0,
+    "odd": 0
+   }
+  ],
+  "amm_lanczos_vs_inertia_mismatch": [
+   {
+    "set": "amm_path",
+    "i": 4,
+    "n": "20",
+    "probe": 0.7335933280486084,
+    "count": 14,
+    "lanczos": 13,
+    "perturbed": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 4,
+    "n": "30",
+    "probe": 0.6545848179105217,
+    "count": 12,
+    "lanczos": 11,
+    "perturbed": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 4,
+    "n": "30",
+    "probe": 0.7335933280486084,
+    "count": 14,
+    "lanczos": 13,
+    "perturbed": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 4,
+    "n": "40",
+    "probe": 0.6545848179105217,
+    "count": 12,
+    "lanczos": 11,
+    "perturbed": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 4,
+    "n": "40",
+    "probe": 0.7335933280486084,
+    "count": 14,
+    "lanczos": 13,
+    "perturbed": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 16,
+    "n": "20",
+    "probe": 0.5566556036779748,
+    "count": 10,
+    "lanczos": 8,
+    "perturbed": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 16,
+    "n": "20",
+    "probe": 0.6778215337194677,
+    "count": 16,
+    "lanczos": 11,
+    "perturbed": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 16,
+    "n": "30",
+    "probe": 0.5566556036779748,
+    "count": 10,
+    "lanczos": 9,
+    "perturbed": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 16,
+    "n": "30",
+    "probe": 0.6778215337194677,
+    "count": 16,
+    "lanczos": 13,
+    "perturbed": 0
+   },
+   {
+    "set": "amm_path",
+    "i": 16,
+    "n": "40",
+    "probe": 0.6778215337194677,
+    "count": 16,
+    "lanczos": 15,
+    "perturbed": 0
+   }
+  ],
+  "q2_finest_vs_amm40_count_mismatch": []
+ }
+}

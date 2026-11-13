@@ -1,0 +1,415 @@
+{
+ "scenario": "S03_underspecified",
+ "interface": "gui",
+ "rows": [
+  {
+   "scenario": "S03_underspecified",
+   "check": "gpa_no_material",
+   "capability": "units: GPa without a material",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "set_target",
+   "expected_refusal": false,
+   "observed": "accepted: normalized={}",
+   "passed": true,
+   "failures": [],
+   "seq": 1,
+   "dt_s": 0.03,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085222-6ca6/session.jsonl"
+  },
+  {
+   "scenario": "S03_underspecified",
+   "check": "gpa_no_material_check",
+   "capability": "GPa without a material: check refused",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": true,
+   "observed": "refused: no targets that can be normalized yet: E100_min given in GPa but no material: cannot normalize by E_s",
+   "passed": true,
+   "failures": [],
+   "seq": 2,
+   "dt_s": 0.03,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085222-6ca6/session.jsonl"
+  },
+  {
+   "scenario": "S03_underspecified",
+   "check": "hz_no_cell",
+   "capability": "units: Hz without a cell size",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "set_target",
+   "expected_refusal": false,
+   "observed": "accepted: normalized={}",
+   "passed": true,
+   "failures": [],
+   "seq": 4,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085222-6ca6/session.jsonl"
+  },
+  {
+   "scenario": "S03_underspecified",
+   "check": "hz_no_cell_check",
+   "capability": "Hz without a cell size: check refused (nothing normalizable)",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": true,
+   "observed": "refused: no targets that can be normalized yet: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+   "passed": true,
+   "failures": [],
+   "seq": 5,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085222-6ca6/session.jsonl"
+  },
+  {
+   "scenario": "S03_underspecified",
+   "check": "hz_partial_check",
+   "capability": "Hz without a cell size + a normalizable target: UNDERSPECIFIED",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=UNDERSPECIFIED; atlas=FEASIBLE",
+   "passed": true,
+   "failures": [],
+   "seq": 7,
+   "dt_s": 0.1,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085222-6ca6/session.jsonl"
+  },
+  {
+   "scenario": "S03_underspecified",
+   "check": "hz_no_cell_certify",
+   "capability": "Hz without a cell size: certify refused",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "certify",
+   "expected_refusal": true,
+   "observed": "refused: targets cannot be normalized: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+   "passed": true,
+   "failures": [],
+   "seq": 8,
+   "dt_s": 4.82,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085222-6ca6/session.jsonl"
+  },
+  {
+   "scenario": "S03_underspecified",
+   "check": "need_info",
+   "capability": "outcome: need_info",
+   "interface": "gui",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": false,
+   "observed": "accepted: outcome=need_info",
+   "passed": true,
+   "failures": [],
+   "seq": 9,
+   "dt_s": 0.02,
+   "session": "results/verification/v2/sessions/gui/live-20261108-085222-6ca6/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_target",
+   "args": {
+    "E100_min": {
+     "value": 5.0,
+     "unit": "GPa"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.03,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [
+     "E100_min given in GPa but no material: cannot normalize by E_s"
+    ],
+    "normalized": {},
+    "targets": {
+     "E100_min": [
+      5.0,
+      "GPa"
+     ]
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.03,
+   "ok": false,
+   "exit": null,
+   "seq": 2,
+   "error": "no targets that can be normalized yet: E100_min given in GPa but no material: cannot normalize by E_s",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "set_material",
+   "args": {
+    "name": "PA12"
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 3,
+   "error": null,
+   "result": {
+    "E_Pa": 1700000000.0,
+    "atlas_available": true,
+    "material": "PA12",
+    "nu": 0.39,
+    "rho_kg_m3": 1010.0
+   },
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "set_target",
+   "args": {
+    "gap": {
+     "f_lo": 1000.0,
+     "f_hi": 2000.0,
+     "unit": "Hz"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 4,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [
+     "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+     "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+    ],
+    "normalized": {},
+    "targets": {
+     "gap": {
+      "f_hi": [
+       2000.0,
+       "Hz"
+      ],
+      "f_lo": [
+       1000.0,
+       "Hz"
+      ]
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 4,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": false,
+   "exit": null,
+   "seq": 5,
+   "error": "no targets that can be normalized yet: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 5,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.3
+   },
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": true,
+   "exit": null,
+   "seq": 6,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [
+     "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+     "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+    ],
+    "normalized": {
+     "density_max": 0.3
+    },
+    "targets": {
+     "density_max": 0.3,
+     "gap": {
+      "f_hi": [
+       2000.0,
+       "Hz"
+      ],
+      "f_lo": [
+       1000.0,
+       "Hz"
+      ]
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 6,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.1,
+   "ok": true,
+   "exit": null,
+   "seq": 7,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": 0.9534907807489112,
+       "slack_opt": 0.9537409812308011,
+       "slack_pess": 0.9532378590373327,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.12,
+         "w": 0.06
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.9525536711798066,
+       "slack_opt": 0.9537101562495763,
+       "slack_pess": 0.951337919183945,
+       "spec": {
+        "family": "struts",
+        "kind": "sc",
+        "params": {
+         "R": 0.0,
+         "r": 0.04
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.9503320568504788,
+       "slack_opt": 0.951542692870734,
+       "slack_pess": 0.949059378805288,
+       "spec": {
+        "family": "struts",
+        "kind": "sc",
+        "params": {
+         "R": 0.08,
+         "r": 0.04
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 1776,
+     "n_possible": 1803,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "FEASIBLE"
+    },
+    "bounds_verdict": "UNDERSPECIFIED",
+    "cannot_normalize": [
+     "gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t",
+     "gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t"
+    ],
+    "normalized_targets": {
+     "density_max": 0.3
+    },
+    "verdict": "UNDERSPECIFIED",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 7,
+   "tool": "certify",
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 4.82,
+   "ok": false,
+   "exit": null,
+   "seq": 8,
+   "error": "targets cannot be normalized: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 8,
+   "tool": "submit",
+   "args": {
+    "decision": "need_info",
+    "note": "cell size missing"
+   },
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": true,
+   "exit": null,
+   "seq": 9,
+   "error": null,
+   "result": {
+    "outcome_card": {
+     "decision": "need_info",
+     "definition": "the request cannot be stated in solver units; the session stops and asks",
+     "design": null,
+     "evidence": [],
+     "evidence_checked": true,
+     "outcome": "need_info",
+     "profile": "C",
+     "schema_version": "amm-outcome/1",
+     "title": "Information needed",
+     "verdict": null
+    },
+    "submitted": {
+     "decision": "need_info",
+     "evidence": [],
+     "note": "cell size missing",
+     "outcome": "need_info",
+     "spec": {
+      "cell_size": null,
+      "gap_type": null,
+      "material": "PA12",
+      "nu": 0.39,
+      "targets": {
+       "density_max": 0.3,
+       "gap": {
+        "f_hi": [
+         2000.0,
+         "Hz"
+        ],
+        "f_lo": [
+         1000.0,
+         "Hz"
+        ]
+       }
+      }
+     }
+    }
+   },
+   "cli": null
+  }
+ ],
+ "seconds": 5.1,
+ "root": "results/verification/v2/sessions/gui/live-20261108-085222-6ca6",
+ "finished": "2026-11-08 08:52:27"
+}

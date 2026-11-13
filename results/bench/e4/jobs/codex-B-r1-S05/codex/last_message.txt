@@ -1,0 +1,1 @@
+Released a Schwarz P TPMS sheet cell in 316L with 28% nominal solid volume. AMM estimates 27.995% solid and C44 = 11.68 GPa, meeting both targets. These are search estimates, not certified results; LPBF manufacturability was not evaluated.

@@ -1,0 +1,1 @@
+{"decision":"ask","question":"What is the unit-cell size a? It sets the physical frequency scale of the complete band gap.","options":[{"label":"1 mm","set":{"cell_size":[1,"mm"]}},{"label":"2 mm","set":{"cell_size":[2,"mm"]}},{"label":"5 mm","set":{"cell_size":[5,"mm"]}}]}

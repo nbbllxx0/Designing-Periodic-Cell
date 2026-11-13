@@ -1,0 +1,1 @@
+2026-11-05T21:15:14.943097Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: "Rejected(\"`\\\"C:\\\\\\\\WINDOWS\\\\\\\\System32\\\\\\\\WindowsPowerShell\\\\\\\\v1.0\\\\\\\\powershell.exe\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\")" }

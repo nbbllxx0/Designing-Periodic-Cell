@@ -1,0 +1,737 @@
+{
+ "scenario": "S16_addendum",
+ "interface": "cli",
+ "rows": [
+  {
+   "scenario": "S16_addendum",
+   "check": "validity_rule_r2",
+   "capability": "invalid: family validity rule (inside the box)",
+   "interface": "cli",
+   "profile": "C",
+   "tool": "evaluate",
+   "expected_refusal": true,
+   "observed": "refused: cube_bars parameters {'c': 0.35, 'w': 0.33} violate the family's validity rule",
+   "passed": true,
+   "failures": [],
+   "seq": 3,
+   "dt_s": 1.57,
+   "session": "results/verification/v2/sessions/cli/S16_addendum/03-evaluate/session.jsonl"
+  },
+  {
+   "scenario": "S16_addendum",
+   "check": "cb_records_r2",
+   "capability": "bound and atlas records of an infeasible spec",
+   "interface": "cli",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=PROVEN_INFEASIBLE; atlas=NOT_FOUND_IN_FAMILIES; violated=V1",
+   "passed": true,
+   "failures": [],
+   "seq": 3,
+   "dt_s": 1.73,
+   "session": "results/verification/v2/sessions/cli/S16_addendum/04-check-bounds/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_material",
+   "args": {
+    "name": "Ti6Al4V"
+   },
+   "argv": null,
+   "dt_s": 1.54,
+   "ok": true,
+   "exit": 1,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 113800000000.0,
+    "atlas_available": true,
+    "material": "Ti6Al4V",
+    "nu": 0.342,
+    "rho_kg_m3": 4430.0
+   },
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "Ti6Al4V"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 113800000000.0,
+       "atlas_available": true,
+       "material": "Ti6Al4V",
+       "nu": 0.342,
+       "rho_kg_m3": 4430.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {},
+      "error": "no targets that can be normalized yet",
+      "ok": false,
+      "seq": 2,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": {
+     "error": "no targets that can be normalized yet",
+     "tool": "check_bounds"
+    },
+    "ok": false,
+    "profile": "C",
+    "result": {
+     "E_Pa": 113800000000.0,
+     "atlas_available": true,
+     "material": "Ti6Al4V",
+     "nu": 0.342,
+     "rho_kg_m3": 4430.0
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S16_addendum\\01-check-bounds"
+   }
+  },
+  {
+   "i": 1,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.2,
+    "E100_min": {
+     "value": 0.5,
+     "unit": "E_s"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 1.73,
+   "ok": true,
+   "exit": 0,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    },
+    "targets": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    }
+   },
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "Ti6Al4V"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 113800000000.0,
+       "atlas_available": true,
+       "material": "Ti6Al4V",
+       "nu": 0.342,
+       "rho_kg_m3": 4430.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {
+       "E100_min": {
+        "unit": "E_s",
+        "value": 0.5
+       },
+       "density_max": 0.2
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [],
+       "normalized": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       },
+       "targets": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       }
+      },
+      "seq": 2,
+      "tool": "set_target"
+     },
+     {
+      "args": {},
+      "ok": true,
+      "result": {
+       "advisory": [
+        {
+         "bound": "HS",
+         "limit": 0.11119734101723071,
+         "scope": "isotropic",
+         "statement": "E100_min exceeds the Hashin-Shtrikman upper bound on E",
+         "target": 0.5
+        }
+       ],
+       "atlas": {
+        "best": [
+         {
+          "slack_nominal": -0.6569516603102323,
+          "slack_opt": -0.6569516603102323,
+          "slack_pess": -0.6889494063583352,
+          "spec": {
+           "family": "resonator",
+           "kind": "cube_bars",
+           "params": {
+            "c": 0.51913,
+            "w": 0.36
+           }
+          }
+         },
+         {
+          "slack_nominal": -0.6692161519846187,
+          "slack_opt": -0.6692161519846187,
+          "slack_pess": -0.7000699307120782,
+          "spec": {
+           "family": "resonator",
+           "kind": "cube_bars",
+           "params": {
+            "c": 0.543478,
+            "w": 0.346957
+           }
+          }
+         },
+         {
+          "slack_nominal": -0.6703256260747612,
+          "slack_opt": -0.6703256260747612,
+          "slack_pess": -0.70107591889054,
+          "spec": {
+           "family": "resonator",
+           "kind": "cube_bars",
+           "params": {
+            "c": 0.494783,
+            "w": 0.36
+           }
+          }
+         }
+        ],
+        "n_cells": 2714,
+        "n_clear": 0,
+        "n_possible": 0,
+        "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+        "verdict": "NOT_FOUND_IN_FAMILIES"
+       },
+       "bounds_verdict": "PROVEN_INFEASIBLE",
+       "cannot_normalize": [],
+       "normalized_targets": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       },
+       "verdict": "PROVEN_INFEASIBLE",
+       "violated": [
+        {
+         "bound": "V1",
+         "limit": 0.2,
+         "scope": "any",
+         "statement": "E100_min exceeds the Voigt bound phi_max * E_s (any geometry)",
+         "target": 0.5
+        }
+       ]
+      },
+      "seq": 3,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": null,
+    "ok": true,
+    "profile": "C",
+    "result": {
+     "advisory": [
+      {
+       "bound": "HS",
+       "limit": 0.11119734101723071,
+       "scope": "isotropic",
+       "statement": "E100_min exceeds the Hashin-Shtrikman upper bound on E",
+       "target": 0.5
+      }
+     ],
+     "atlas": {
+      "best": [
+       {
+        "slack_nominal": -0.6569516603102323,
+        "slack_opt": -0.6569516603102323,
+        "slack_pess": -0.6889494063583352,
+        "spec": {
+         "family": "resonator",
+         "kind": "cube_bars",
+         "params": {
+          "c": 0.51913,
+          "w": 0.36
+         }
+        }
+       },
+       {
+        "slack_nominal": -0.6692161519846187,
+        "slack_opt": -0.6692161519846187,
+        "slack_pess": -0.7000699307120782,
+        "spec": {
+         "family": "resonator",
+         "kind": "cube_bars",
+         "params": {
+          "c": 0.543478,
+          "w": 0.346957
+         }
+        }
+       },
+       {
+        "slack_nominal": -0.6703256260747612,
+        "slack_opt": -0.6703256260747612,
+        "slack_pess": -0.70107591889054,
+        "spec": {
+         "family": "resonator",
+         "kind": "cube_bars",
+         "params": {
+          "c": 0.494783,
+          "w": 0.36
+         }
+        }
+       }
+      ],
+      "n_cells": 2714,
+      "n_clear": 0,
+      "n_possible": 0,
+      "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+      "verdict": "NOT_FOUND_IN_FAMILIES"
+     },
+     "bounds_verdict": "PROVEN_INFEASIBLE",
+     "cannot_normalize": [],
+     "normalized_targets": {
+      "E100_min": 0.5,
+      "density_max": 0.2
+     },
+     "verdict": "PROVEN_INFEASIBLE",
+     "violated": [
+      {
+       "bound": "V1",
+       "limit": 0.2,
+       "scope": "any",
+       "statement": "E100_min exceeds the Voigt bound phi_max * E_s (any geometry)",
+       "target": 0.5
+      }
+     ]
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S16_addendum\\02-check-bounds"
+   }
+  },
+  {
+   "i": 2,
+   "tool": "evaluate",
+   "args": {
+    "designs": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.35,
+       "w": 0.33
+      }
+     }
+    ]
+   },
+   "argv": null,
+   "dt_s": 1.57,
+   "ok": false,
+   "exit": 1,
+   "seq": 3,
+   "error": "cube_bars parameters {'c': 0.35, 'w': 0.33} violate the family's validity rule",
+   "result": null,
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "Ti6Al4V"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 113800000000.0,
+       "atlas_available": true,
+       "material": "Ti6Al4V",
+       "nu": 0.342,
+       "rho_kg_m3": 4430.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {
+       "E100_min": {
+        "unit": "E_s",
+        "value": 0.5
+       },
+       "density_max": 0.2
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [],
+       "normalized": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       },
+       "targets": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       }
+      },
+      "seq": 2,
+      "tool": "set_target"
+     },
+     {
+      "args": {
+       "designs": [
+        {
+         "kind": "cube_bars",
+         "params": {
+          "c": 0.35,
+          "w": 0.33
+         }
+        }
+       ]
+      },
+      "error": "cube_bars parameters {'c': 0.35, 'w': 0.33} violate the family's validity rule",
+      "ok": false,
+      "seq": 3,
+      "tool": "evaluate"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "evaluate",
+    "error": {
+     "error": "cube_bars parameters {'c': 0.35, 'w': 0.33} violate the family's validity rule",
+     "tool": "evaluate"
+    },
+    "ok": false,
+    "profile": "C",
+    "result": {
+     "cannot_normalize_yet": [],
+     "normalized": {
+      "E100_min": 0.5,
+      "density_max": 0.2
+     },
+     "targets": {
+      "E100_min": 0.5,
+      "density_max": 0.2
+     }
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S16_addendum\\03-evaluate"
+   }
+  },
+  {
+   "i": 3,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 1.73,
+   "ok": true,
+   "exit": 0,
+   "seq": 3,
+   "error": null,
+   "result": {
+    "advisory": [
+     {
+      "bound": "HS",
+      "limit": 0.11119734101723071,
+      "scope": "isotropic",
+      "statement": "E100_min exceeds the Hashin-Shtrikman upper bound on E",
+      "target": 0.5
+     }
+    ],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.6569516603102323,
+       "slack_opt": -0.6569516603102323,
+       "slack_pess": -0.6889494063583352,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.51913,
+         "w": 0.36
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6692161519846187,
+       "slack_opt": -0.6692161519846187,
+       "slack_pess": -0.7000699307120782,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.543478,
+         "w": 0.346957
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6703256260747612,
+       "slack_opt": -0.6703256260747612,
+       "slack_pess": -0.70107591889054,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.494783,
+         "w": 0.36
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 0,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "bounds_verdict": "PROVEN_INFEASIBLE",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    },
+    "verdict": "PROVEN_INFEASIBLE",
+    "violated": [
+     {
+      "bound": "V1",
+      "limit": 0.2,
+      "scope": "any",
+      "statement": "E100_min exceeds the Voigt bound phi_max * E_s (any geometry)",
+      "target": 0.5
+     }
+    ]
+   },
+   "cli": {
+    "calls": [
+     {
+      "args": {
+       "name": "Ti6Al4V"
+      },
+      "ok": true,
+      "result": {
+       "E_Pa": 113800000000.0,
+       "atlas_available": true,
+       "material": "Ti6Al4V",
+       "nu": 0.342,
+       "rho_kg_m3": 4430.0
+      },
+      "seq": 1,
+      "tool": "set_material"
+     },
+     {
+      "args": {
+       "E100_min": {
+        "unit": "E_s",
+        "value": 0.5
+       },
+       "density_max": 0.2
+      },
+      "ok": true,
+      "result": {
+       "cannot_normalize_yet": [],
+       "normalized": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       },
+       "targets": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       }
+      },
+      "seq": 2,
+      "tool": "set_target"
+     },
+     {
+      "args": {},
+      "ok": true,
+      "result": {
+       "advisory": [
+        {
+         "bound": "HS",
+         "limit": 0.11119734101723071,
+         "scope": "isotropic",
+         "statement": "E100_min exceeds the Hashin-Shtrikman upper bound on E",
+         "target": 0.5
+        }
+       ],
+       "atlas": {
+        "best": [
+         {
+          "slack_nominal": -0.6569516603102323,
+          "slack_opt": -0.6569516603102323,
+          "slack_pess": -0.6889494063583352,
+          "spec": {
+           "family": "resonator",
+           "kind": "cube_bars",
+           "params": {
+            "c": 0.51913,
+            "w": 0.36
+           }
+          }
+         },
+         {
+          "slack_nominal": -0.6692161519846187,
+          "slack_opt": -0.6692161519846187,
+          "slack_pess": -0.7000699307120782,
+          "spec": {
+           "family": "resonator",
+           "kind": "cube_bars",
+           "params": {
+            "c": 0.543478,
+            "w": 0.346957
+           }
+          }
+         },
+         {
+          "slack_nominal": -0.6703256260747612,
+          "slack_opt": -0.6703256260747612,
+          "slack_pess": -0.70107591889054,
+          "spec": {
+           "family": "resonator",
+           "kind": "cube_bars",
+           "params": {
+            "c": 0.494783,
+            "w": 0.36
+           }
+          }
+         }
+        ],
+        "n_cells": 2714,
+        "n_clear": 0,
+        "n_possible": 0,
+        "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+        "verdict": "NOT_FOUND_IN_FAMILIES"
+       },
+       "bounds_verdict": "PROVEN_INFEASIBLE",
+       "cannot_normalize": [],
+       "normalized_targets": {
+        "E100_min": 0.5,
+        "density_max": 0.2
+       },
+       "verdict": "PROVEN_INFEASIBLE",
+       "violated": [
+        {
+         "bound": "V1",
+         "limit": 0.2,
+         "scope": "any",
+         "statement": "E100_min exceeds the Voigt bound phi_max * E_s (any geometry)",
+         "target": 0.5
+        }
+       ]
+      },
+      "seq": 3,
+      "tool": "check_bounds"
+     }
+    ],
+    "cli": "amm-cli/1",
+    "command": "check-bounds",
+    "error": null,
+    "ok": true,
+    "profile": "C",
+    "result": {
+     "advisory": [
+      {
+       "bound": "HS",
+       "limit": 0.11119734101723071,
+       "scope": "isotropic",
+       "statement": "E100_min exceeds the Hashin-Shtrikman upper bound on E",
+       "target": 0.5
+      }
+     ],
+     "atlas": {
+      "best": [
+       {
+        "slack_nominal": -0.6569516603102323,
+        "slack_opt": -0.6569516603102323,
+        "slack_pess": -0.6889494063583352,
+        "spec": {
+         "family": "resonator",
+         "kind": "cube_bars",
+         "params": {
+          "c": 0.51913,
+          "w": 0.36
+         }
+        }
+       },
+       {
+        "slack_nominal": -0.6692161519846187,
+        "slack_opt": -0.6692161519846187,
+        "slack_pess": -0.7000699307120782,
+        "spec": {
+         "family": "resonator",
+         "kind": "cube_bars",
+         "params": {
+          "c": 0.543478,
+          "w": 0.346957
+         }
+        }
+       },
+       {
+        "slack_nominal": -0.6703256260747612,
+        "slack_opt": -0.6703256260747612,
+        "slack_pess": -0.70107591889054,
+        "spec": {
+         "family": "resonator",
+         "kind": "cube_bars",
+         "params": {
+          "c": 0.494783,
+          "w": 0.36
+         }
+        }
+       }
+      ],
+      "n_cells": 2714,
+      "n_clear": 0,
+      "n_possible": 0,
+      "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+      "verdict": "NOT_FOUND_IN_FAMILIES"
+     },
+     "bounds_verdict": "PROVEN_INFEASIBLE",
+     "cannot_normalize": [],
+     "normalized_targets": {
+      "E100_min": 0.5,
+      "density_max": 0.2
+     },
+     "verdict": "PROVEN_INFEASIBLE",
+     "violated": [
+      {
+       "bound": "V1",
+       "limit": 0.2,
+       "scope": "any",
+       "statement": "E100_min exceeds the Voigt bound phi_max * E_s (any geometry)",
+       "target": 0.5
+      }
+     ]
+    },
+    "schema_version": "amm-tools/3",
+    "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S16_addendum\\04-check-bounds"
+   }
+  }
+ ],
+ "seconds": 6.6,
+ "root": "results/verification/v2/sessions/cli/S16_addendum/04-check-bounds",
+ "cli_sessions": [
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S16_addendum\\01-check-bounds\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S16_addendum\\02-check-bounds\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S16_addendum\\03-evaluate\\session.jsonl",
+  "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S16_addendum\\04-check-bounds\\session.jsonl"
+ ],
+ "finished": "2026-11-08 08:51:25"
+}

@@ -1,0 +1,22 @@
+{
+ "spec": {
+  "family": "resonator",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.7,
+   "w": 0.2
+  }
+ },
+ "raw": {
+  "50": [
+   0.2723994635864278,
+   0.6681450197672203
+  ]
+ },
+ "seconds": {
+  "50": 185.8
+ },
+ "method": {
+  "50": "lanczos at first-pass extremum k"
+ }
+}

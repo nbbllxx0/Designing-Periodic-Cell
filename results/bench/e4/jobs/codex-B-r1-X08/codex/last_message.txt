@@ -1,0 +1,1 @@
+The request is **proven infeasible**: for a lattice made of 316L and void, relative density equals solid fraction. It cannot be both at least 25% and at most 15%. One of these limits must change before a design can be released.

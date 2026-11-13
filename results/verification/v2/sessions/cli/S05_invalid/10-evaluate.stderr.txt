@@ -1,0 +1,1 @@
+amm: --design is not valid JSON (Expecting property name enclosed in double quotes at position 1): '{bad json'

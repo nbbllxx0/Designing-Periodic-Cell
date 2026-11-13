@@ -1,0 +1,56 @@
+{
+ "B": {
+  "n": 6,
+  "correct": 5,
+  "releases": 0,
+  "silent_failures": 0,
+  "unverified_releases": 0,
+  "unsupported_releases": 0,
+  "false_refusals": 0,
+  "correct_refusals": 5,
+  "no_answer": 1,
+  "label_errors": 0,
+  "ambiguous": 0,
+  "asked_on_ambiguous": 0,
+  "asked_on_clear": 2,
+  "wall_s": 2421.8,
+  "input_tokens": 6100531,
+  "output_tokens": 14969,
+  "by_class": {
+   "infeasible_notfound": {
+    "correct_refusal": 2,
+    "no_answer": 1
+   },
+   "infeasible_proven": {
+    "correct_refusal": 3
+   }
+  }
+ },
+ "C": {
+  "n": 6,
+  "correct": 4,
+  "releases": 0,
+  "silent_failures": 0,
+  "unverified_releases": 0,
+  "unsupported_releases": 0,
+  "false_refusals": 0,
+  "correct_refusals": 4,
+  "no_answer": 2,
+  "label_errors": 0,
+  "ambiguous": 0,
+  "asked_on_ambiguous": 0,
+  "asked_on_clear": 1,
+  "wall_s": 1987.2,
+  "input_tokens": 4937634,
+  "output_tokens": 11436,
+  "by_class": {
+   "infeasible_notfound": {
+    "correct_refusal": 1,
+    "no_answer": 2
+   },
+   "infeasible_proven": {
+    "correct_refusal": 3
+   }
+  }
+ }
+}

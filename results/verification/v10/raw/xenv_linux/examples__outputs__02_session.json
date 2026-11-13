@@ -1,0 +1,117 @@
+{
+ "set": "xenv_linux",
+ "log": "examples/outputs/02_session/session.jsonl",
+ "log_sha256": "0fa1d7320718cd627db1e3963601277ee9583884fc6a5ed92b937f0eb760cebe",
+ "started": "2026-11-08 18:41:17",
+ "seconds": 22.7,
+ "header": {
+  "code": "5970bf55108f1584",
+  "id": "e0845690acf6",
+  "profile": "C",
+  "schema": "amm-tools/2",
+  "schema_version": "amm-tools/2",
+  "t": "2026-11-08T13:50:38.165+00:00",
+  "type": "session"
+ },
+ "n_calls": 12,
+ "tools": [
+  "atlas_suggest",
+  "certify",
+  "check_bounds",
+  "evaluate",
+  "set_constraints",
+  "set_material",
+  "set_source",
+  "set_target",
+  "submit"
+ ],
+ "n_certify": 1,
+ "n_search": 0,
+ "n_export": 0,
+ "logged_tool_seconds": 24.3,
+ "env": {
+  "python": "3.12.16",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.41",
+  "machine": "x86_64",
+  "torch": "2.15.0+cpu",
+  "cuda": false,
+  "device": "cpu",
+  "code": "f1a6d625064a6d18",
+  "checker": "c5f8c89871b3bad6",
+  "mkl_cbwr": 65538
+ },
+ "replay": {
+  "exact": false,
+  "n_calls": 12,
+  "n_compared": 12,
+  "mismatches": [
+   {
+    "seq": 10,
+    "tool": "evaluate",
+    "field": "result",
+    "log": "9c9fe7bac5abfdde",
+    "replay": "bcc09268b8244f8c",
+    "diff": {
+     "path": ".results[0].C[0][0]",
+     "log": 0.028562841984392198,
+     "replay": 0.028562841984392216
+    }
+   },
+   {
+    "seq": 11,
+    "tool": "certify",
+    "field": "result",
+    "log": "d47062dbaab89457",
+    "replay": "7332a96076ae6d81",
+    "diff": {
+     "path": ".G_MPa",
+     "log": 0.627840323367267,
+     "replay": 0.6278403233672707
+    }
+   }
+  ],
+  "same_code": false,
+  "schema": "amm-tools/2",
+  "decision_changes": [],
+  "identity": {
+   "code_log": "5970bf55108f1584",
+   "code_now": "f1a6d625064a6d18",
+   "checker_log": "f141e46cb67a78db",
+   "checker_now": "c5f8c89871b3bad6",
+   "checker_aliased": true,
+   "checker_log_source": "results",
+   "code_aliased": true
+  },
+  "root": null
+ },
+ "tolerance": {
+  "aligned": true,
+  "within_tolerance": true,
+  "max_rel_numeric": 9.535655879758415e-09,
+  "max_rel_by_tier": {
+   "T64": 9.535655879758415e-09,
+   "T32": 0.0
+  },
+  "n_numeric_differences": 297,
+  "calls_with_numeric_differences": [
+   [
+    10,
+    "evaluate",
+    9.535655879758415e-09,
+    ".results[1].C_MPa[3][4]"
+   ],
+   [
+    11,
+    "certify",
+    1.0902165300972482e-14,
+    ".static.bounds.nu100.lower"
+   ]
+  ],
+  "over_tolerance": [],
+  "non_numeric_differences": [],
+  "environment_fields": [],
+  "derived_differences": [],
+  "unexplained_derived": []
+ },
+ "error": null
+}

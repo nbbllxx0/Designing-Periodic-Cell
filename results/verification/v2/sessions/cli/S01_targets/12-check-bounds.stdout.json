@@ -1,0 +1,173 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "G_min": {
+     "unit": "E_s",
+     "value": 0.01
+    },
+    "density_max": 0.3
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "G_min": 0.01,
+     "density_max": 0.3
+    },
+    "targets": {
+     "G_min": 0.01,
+     "density_max": 0.3
+    }
+   },
+   "seq": 2,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": 0.6001311642974193,
+       "slack_opt": 0.6015729372402681,
+       "slack_pess": 0.5986789188797859,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.12,
+         "mode": "sheet"
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.6670440359472648,
+       "slack_opt": 0.6682445468580186,
+       "slack_pess": 0.585667185881593,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.1,
+         "mode": "sheet"
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.5336084512751093,
+       "slack_opt": 0.5352900794883793,
+       "slack_pess": 0.5319146083721769,
+       "spec": {
+        "family": "tpms",
+        "kind": "gyroid",
+        "params": {
+         "density": 0.14,
+         "mode": "sheet"
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 418,
+     "n_possible": 584,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "FEASIBLE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "G_min": 0.01,
+     "density_max": 0.3
+    },
+    "verdict": "FEASIBLE",
+    "violated": []
+   },
+   "seq": 3,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": 0.6001311642974193,
+     "slack_opt": 0.6015729372402681,
+     "slack_pess": 0.5986789188797859,
+     "spec": {
+      "family": "tpms",
+      "kind": "schwarz_p",
+      "params": {
+       "density": 0.12,
+       "mode": "sheet"
+      }
+     }
+    },
+    {
+     "slack_nominal": 0.6670440359472648,
+     "slack_opt": 0.6682445468580186,
+     "slack_pess": 0.585667185881593,
+     "spec": {
+      "family": "tpms",
+      "kind": "schwarz_p",
+      "params": {
+       "density": 0.1,
+       "mode": "sheet"
+      }
+     }
+    },
+    {
+     "slack_nominal": 0.5336084512751093,
+     "slack_opt": 0.5352900794883793,
+     "slack_pess": 0.5319146083721769,
+     "spec": {
+      "family": "tpms",
+      "kind": "gyroid",
+      "params": {
+       "density": 0.14,
+       "mode": "sheet"
+      }
+     }
+    }
+   ],
+   "n_cells": 2714,
+   "n_clear": 418,
+   "n_possible": 584,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "FEASIBLE"
+  },
+  "bounds_verdict": "NOT_REFUTED",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "G_min": 0.01,
+   "density_max": 0.3
+  },
+  "verdict": "FEASIBLE",
+  "violated": []
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S01_targets\\12-check-bounds"
+}

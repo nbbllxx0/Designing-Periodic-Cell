@@ -1,0 +1,1 @@
+Submitted **UNDETERMINED**; no design released. Tested candidates met the density and C44 requirements, but certification could not confirm a complete 3D gap covering 16.6–27.6 kHz because of numerical uncertainty at the gap edges. This does not prove the request impossible.

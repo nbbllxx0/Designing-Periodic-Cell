@@ -1,0 +1,1 @@
+{"decision":"ask","question":"Which base material should the lattice use?","options":[{"label":"Ti6Al4V","set":{"material":"Ti6Al4V"}},{"label":"316L","set":{"material":"316L"}},{"label":"AlSi10Mg","set":{"material":"AlSi10Mg"}},{"label":"PA12","set":{"material":"PA12"}}]}

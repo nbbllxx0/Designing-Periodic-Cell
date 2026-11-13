@@ -1,0 +1,33 @@
+lock acquired by V1c amm_bands cb_c0.5_w0.2_nu0.3 id n20
+cb_c0.5_w0.2_nu0.3 id 20 [0.0, 0.0, 0.0] [0.363821 0.598482] 21
+cb_c0.5_w0.2_nu0.3 id 20 [1.0, 0.0, 0.0] [0.377374 0.598481] 24
+cb_c0.5_w0.2_nu0.3 id 20 [1.0, 1.0, 0.0] [0.330892 0.661787] 26
+cb_c0.5_w0.2_nu0.3 id 20 [1.0, 1.0, 1.0] [0.366776 0.661786] 29
+cb_c0.5_w0.2_nu0.3 id 20 [0.637, 0.2698, 0.041] [0.352956 0.606403] 22
+cb_c0.5_w0.2_nu0.3 id 20 [0.72, 0.7133, 0.0016] [0.298894 0.634134] 24
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.5_w0.2_nu0.3_id_n20_ks_id.json 49.1 s
+lock acquired by V1c amm_bands cb_c0.6_w0.2_nu0.342 id n20
+cb_c0.6_w0.2_nu0.342 id 20 [0.0, 0.0, 0.0] [0.317311 0.733229] 28
+cb_c0.6_w0.2_nu0.342 id 20 [1.0, 0.0, 0.0] [0.324989 0.733226] 30
+cb_c0.6_w0.2_nu0.342 id 20 [1.0, 1.0, 0.0] [0.302731 0.7916  ] 33
+cb_c0.6_w0.2_nu0.342 id 20 [1.0, 1.0, 1.0] [0.330265 0.791658] 48
+cb_c0.6_w0.2_nu0.342 id 20 [0.637, 0.2698, 0.041] [0.309499 0.743117] 29
+cb_c0.6_w0.2_nu0.342 id 20 [1.0, 0.0, 0.0] [0.324989 0.733226] 30
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.6_w0.2_nu0.342_id_n20_ks_id.json 101.8 s
+lock acquired by V1c amm_bands cb_c0.6_w0.3_nu0.3 id n20
+cb_c0.6_w0.3_nu0.3 id 20 [0.0, 0.0, 0.0] [0.518635 0.704545] 33
+cb_c0.6_w0.3_nu0.3 id 20 [1.0, 0.0, 0.0] [0.550382 0.704869] 29
+cb_c0.6_w0.3_nu0.3 id 20 [1.0, 1.0, 0.0] [0.406759 0.789607] 36
+cb_c0.6_w0.3_nu0.3 id 20 [1.0, 1.0, 1.0] [0.475103 0.789383] 37
+cb_c0.6_w0.3_nu0.3 id 20 [0.637, 0.2698, 0.041] [0.510698 0.720235] 29
+cb_c0.6_w0.3_nu0.3 id 20 [1.0, 0.0033, 0.0033] [0.550372 0.704874] 29
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.6_w0.3_nu0.3_id_n20_ks_id.json 186.1 s
+lock acquired by V1c amm_bands cb_c0.7_w0.3_nu0.3 id n20
+cb_c0.7_w0.3_nu0.3 id 20 [0.0, 0.0, 0.0] [0.458704 0.752158] 27
+cb_c0.7_w0.3_nu0.3 id 20 [1.0, 0.0, 0.0] [0.477538 0.723996] 38
+cb_c0.7_w0.3_nu0.3 id 20 [1.0, 1.0, 0.0] [0.382285 0.710279] 47
+cb_c0.7_w0.3_nu0.3 id 20 [1.0, 1.0, 1.0] [0.442533 0.709098] 48
+cb_c0.7_w0.3_nu0.3 id 20 [0.637, 0.2698, 0.041] [0.453165 0.730789] 35
+cb_c0.7_w0.3_nu0.3 id 20 [0.8877, 0.8783, 0.0] [0.376189 0.711628] 46
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.7_w0.3_nu0.3_id_n20_ks_id.json 359.8 s
+AMM_ID_DONE

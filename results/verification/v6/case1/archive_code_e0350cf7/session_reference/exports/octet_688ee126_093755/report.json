@@ -1,0 +1,478 @@
+{
+ "cannot_normalize": [],
+ "certificate": {
+  "as_built": {
+   "cases": {
+    "dilate": {
+     "E100": 0.060264394640384876,
+     "density": 0.26232724995002504,
+     "gap_ok": null,
+     "passed": true,
+     "reason": null,
+     "static_ok": true
+    },
+    "erode": {
+     "E100": 0.028355991452047778,
+     "density": 0.17650165129832351,
+     "gap_ok": null,
+     "passed": false,
+     "reason": null,
+     "static_ok": false
+    }
+   },
+   "offset": 0.01,
+   "passed": false
+  },
+  "certify_seq": 11,
+  "checker": "c5f8c89871b3bad6",
+  "robust": false,
+  "solver": {
+   "element": "hex8i",
+   "nu": 0.39,
+   "partial_voxels": "finite-cell"
+  },
+  "spec_hash": "688ee12613fae6f7",
+  "static": {
+   "bounds": {
+    "E100": {
+     "converged": true,
+     "extrapolated": 0.03923606416018861,
+     "lower": 0.036384884039249624,
+     "upper": 0.04231792279341952
+    },
+    "G": {
+     "converged": true,
+     "extrapolated": 0.025090307080415732,
+     "lower": 0.02371460196274828,
+     "upper": 0.026466012198083186
+    },
+    "bulk": {
+     "converged": true,
+     "extrapolated": 0.037234458324117585,
+     "lower": 0.035467076938583995,
+     "upper": 0.039001839709651175
+    },
+    "density": {
+     "converged": true,
+     "extrapolated": 0.21749565405659044,
+     "lower": 0.21719616293949395,
+     "upper": 0.21767412052018043
+    },
+    "nu100": {
+     "converged": true,
+     "extrapolated": 0.32491833336917697,
+     "lower": 0.3187462657176001,
+     "upper": 0.33033046070397476
+    }
+   },
+   "checks_failed": [],
+   "rung": [
+    32,
+    48,
+    64
+   ],
+   "verdict": {
+    "targets": {
+     "E100_min": "certified"
+    },
+    "verdict": "certified"
+   }
+  },
+  "targets": {
+   "E100_min": 0.03529411764705882
+  },
+  "verdict": "certified"
+ },
+ "design": {
+  "family": "struts",
+  "kind": "octet",
+  "params": {
+   "R": 0.2,
+   "r": 0.05913
+  }
+ },
+ "disclaimers": [
+  "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+  "certificates are acceptance under stated discretization, sampling and guard assumptions, not continuum theorems; a gap is certified for the infinite periodic lattice, not for a finite printed block",
+  "search-tier values (evaluate, search, atlas) are estimates, biased stiff and high in frequency, NOT certificates",
+  "material values are typical datasheet inputs of the request, not measured properties of a printed part",
+  "the as-built check is a robustness flag (surface offset +-offset a), not a tolerance analysis"
+ ],
+ "geometry": {
+  "cell_size_mm": 20.0,
+  "contour": "solid fraction 0.5 of the cleaned field",
+  "files": {
+   "cell": {
+    "bytes": 3782084,
+    "method": "marching_cubes",
+    "n_triangles": 75640,
+    "path": "exports/octet_688ee126_093755/cell.stl",
+    "sha256": "60ae2ffa57cc20b3664193da97f65e694e871d561bed1a8ac446c7d1d723fa2c",
+    "unit": "mm"
+   },
+   "tiled": {
+    "bytes": 20118484,
+    "method": "marching_cubes",
+    "n_triangles": 402368,
+    "path": "exports/octet_688ee126_093755/tiled_3x3x3.stl",
+    "sha256": "d1449691bd2c6678060edcd79ab5ad46249ceb4192a0c58733ebcc33854c5bc8",
+    "unit": "mm"
+   }
+  },
+  "removed_islands_fraction": -2.5498692685884377e-16,
+  "resolution": 64,
+  "tile_resolution": 32,
+  "tiles": 3,
+  "unit": "mm"
+ },
+ "identity": {
+  "checker": "c5f8c89871b3bad6",
+  "code": "f1a6d625064a6d18",
+  "profile": "C",
+  "schema": "amm-tools/3"
+ },
+ "normalized_targets": {
+  "E100_min": 0.03529411764705882
+ },
+ "outcome": {
+  "decision": "export",
+  "definition": "every target accepted by the certificate (guarded static bounds, inertia-count gap, edge guard)",
+  "design": {
+   "kind": "octet",
+   "params": {
+    "R": 0.2,
+    "r": 0.05913
+   }
+  },
+  "evidence": [
+   {
+    "kind": "certificate_certified",
+    "outcome": "certified_candidate",
+    "seq": 11,
+    "summary": "certificate certified: octet {'R': 0.2, 'r': 0.05913}",
+    "tool": "certify"
+   }
+  ],
+  "evidence_checked": true,
+  "outcome": "certified_candidate",
+  "profile": "C",
+  "schema_version": "amm-outcome/1",
+  "title": "Certified candidate",
+  "verdict": null
+ },
+ "schema_version": "amm-export/1",
+ "screening": {
+  "cell_connectivity": {
+   "largest_fraction": 1.0,
+   "n_components": 1,
+   "note": "one cell cut at its walls, as a single printed cell",
+   "spans": [
+    true,
+    true,
+    true
+   ]
+  },
+  "cell_size_mm": 20.0,
+  "complete": true,
+  "design": {
+   "kind": "octet",
+   "params": {
+    "R": 0.2,
+    "r": 0.05913
+   }
+  },
+  "disclaimer": "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+  "min_feature": {
+   "limit_source": "typical minimum feature of PA12 by SLS (amm.units.MATERIALS, a datasheet value, not a machine capability)",
+   "limit_voxels": 2.56,
+   "passed": true,
+   "printer_limit_mm": 0.8,
+   "solid_est_cell_units": 0.1015625,
+   "solid_est_mm": 2.03125,
+   "solid_thinner_than_limit": 0.0,
+   "tolerance": 0.01,
+   "void_est_cell_units": 0.2578125,
+   "void_est_mm": 5.15625,
+   "void_narrower_than_limit": 0.0,
+   "void_passed": true
+  },
+  "passed": true,
+  "removed_islands_fraction": -2.5498692685884377e-16,
+  "resolution": 64,
+  "schema_version": "amm-screen/1",
+  "tiled_connectivity": {
+   "largest_fraction": 1.0,
+   "n_components": 1,
+   "passed": true,
+   "spans": [
+    true,
+    true,
+    true
+   ],
+   "tiles": 3
+  },
+  "verdict": "screen passed",
+  "voxel": {
+   "cell_units": 0.015625,
+   "mm": 0.3125
+  },
+  "watertight": {
+   "cell": {
+    "boundary_edges": 0,
+    "method": "marching_cubes",
+    "n_shells": 1,
+    "n_triangles": 75640,
+    "nonmanifold_edges": 0,
+    "orientation_ok": true,
+    "volume": 0.21617304075603502,
+    "volume_rel_diff": -0.02964956171318416,
+    "voxel_volume_cell_units": 0.2227783203125,
+    "watertight": true
+   },
+   "passed": true,
+   "tiled": {
+    "boundary_edges": 0,
+    "method": "marching_cubes",
+    "n_shells": 1,
+    "n_triangles": 402368,
+    "nonmanifold_edges": 0,
+    "orientation_ok": true,
+    "volume": 5.8139561142732,
+    "volume_rel_diff": -0.03342610881530079,
+    "voxel_volume_cell_units": 6.0150146484375,
+    "watertight": true
+   }
+  }
+ },
+ "search_tier": {
+  "C": [
+   [
+    0.0633875462203338,
+    0.02885391239819126,
+    0.028853912398191253,
+    1.141959231576407e-18,
+    3.6676526616111205e-18,
+    1.684134433202044e-17
+   ],
+   [
+    0.02885391239819126,
+    0.06338754622033378,
+    0.028853912398191323,
+    -7.531181692274798e-19,
+    3.596713652278573e-18,
+    1.2585533167659615e-17
+   ],
+   [
+    0.028853912398191253,
+    0.028853912398191323,
+    0.06338754622033385,
+    -1.1767405219730367e-18,
+    4.663763407582178e-18,
+    2.2653896174316263e-18
+   ],
+   [
+    1.141959231576407e-18,
+    -7.531181692274798e-19,
+    -1.1767405219730367e-18,
+    0.027610797007228044,
+    6.720465282634026e-18,
+    2.1386523126987016e-18
+   ],
+   [
+    3.6676526616111205e-18,
+    3.596713652278573e-18,
+    4.663763407582178e-18,
+    6.720465282634026e-18,
+    0.027610797007228103,
+    1.1484707973584245e-18
+   ],
+   [
+    1.684134433202044e-17,
+    1.2585533167659615e-17,
+    2.2653896174316263e-18,
+    2.1386523126987016e-18,
+    1.1484707973584245e-18,
+    0.027610797007228103
+   ]
+  ],
+  "C_MPa": [
+   [
+    107.75882857456746,
+    49.05165107692514,
+    49.05165107692513,
+    1.941330693679892e-15,
+    6.235009524738905e-15,
+    2.863028536443475e-14
+   ],
+   [
+    49.05165107692514,
+    107.75882857456743,
+    49.051651076925246,
+    -1.2803008876867156e-15,
+    6.114413208873574e-15,
+    2.1395406385021345e-14
+   ],
+   [
+    49.05165107692513,
+    49.051651076925246,
+    107.75882857456754,
+    -2.0004588873541625e-15,
+    7.928397792889702e-15,
+    3.851162349633765e-15
+   ],
+   [
+    1.941330693679892e-15,
+    -1.2803008876867156e-15,
+    -2.0004588873541625e-15,
+    46.93835491228767,
+    1.1424790980477844e-14,
+    3.635708931587793e-15
+   ],
+   [
+    6.235009524738905e-15,
+    6.114413208873574e-15,
+    7.928397792889702e-15,
+    1.1424790980477844e-14,
+    46.93835491228778,
+    1.9524003555093216e-15
+   ],
+   [
+    2.863028536443475e-14,
+    2.1395406385021345e-14,
+    3.851162349633765e-15,
+    3.635708931587793e-15,
+    1.9524003555093216e-15,
+    46.93835491228778
+   ]
+  ],
+  "E100": 0.04533604805126014,
+  "E100_MPa": 77.07128168714223,
+  "G": 0.027610797007228082,
+  "G_MPa": 46.93835491228774,
+  "bulk": 0.04036512367223879,
+  "bulk_MPa": 68.62071024280594,
+  "density": 0.2179695469310454,
+  "derived": {
+   "C11": 0.06338754622033381,
+   "C12": 0.028853912398191277,
+   "C44": 0.027610797007228082,
+   "E100": 0.04533604805126014,
+   "E110": 0.06012038585164705,
+   "E111": 0.06745260977579264,
+   "bulk_reuss": 0.04036512367223878,
+   "bulk_voigt": 0.040365123672238795,
+   "cubic_deviation": 7.867496950976963e-16,
+   "eigenvalues": [
+    0.027610797007228034,
+    0.027610797007228096,
+    0.027610797007228096,
+    0.034533633822142466,
+    0.03453363382214257,
+    0.12109537101671636
+   ],
+   "min_eig": 0.027610797007228034,
+   "note": "C11, C12, C44 are cubic averages; E100/E110/E111 from the full tensor",
+   "nu12": 0.31280850097481516,
+   "shear_reuss": 0.022273475423526767,
+   "shear_voigt": 0.023473204968765357,
+   "voigt_order": "11, 22, 33, 23 (yz), 13 (xz), 12 (xy); engineering shear strains",
+   "zener": 1.5990669936115665
+  },
+  "design": {
+   "kind": "octet",
+   "params": {
+    "R": 0.2,
+    "r": 0.05913
+   }
+  },
+  "gaps": [],
+  "gaps_Hz": [],
+  "nu100": 0.31280850097481516,
+  "valid": true
+ },
+ "spec": {
+  "cell_size": [
+   20.0,
+   "mm"
+  ],
+  "families": [
+   "tpms",
+   "struts",
+   "resonator"
+  ],
+  "gap_type": null,
+  "material": "PA12",
+  "material_values": {
+   "E": 1700000000.0,
+   "min_feature": 0.0008,
+   "nu": 0.39,
+   "process": "SLS",
+   "rho": 1010.0,
+   "tolerance": 0.00015
+  },
+  "sources": {
+   "E100_min": {
+    "note": "V6 case 1 reference: same stiffness, no gap",
+    "source": "stated"
+   },
+   "cell_size": {
+    "note": "V6 case 1 reference: same stiffness, no gap",
+    "source": "stated"
+   },
+   "material": {
+    "note": "V6 case 1 reference: same stiffness, no gap",
+    "source": "stated"
+   }
+  },
+  "targets": {
+   "E100_min": [
+    60.0,
+    "MPa"
+   ]
+  }
+ },
+ "submission": {
+  "certificate": {
+   "checker": "c5f8c89871b3bad6",
+   "material": "PA12",
+   "nu": 0.39,
+   "robust": false,
+   "verdict": "certified"
+  },
+  "decision": "release",
+  "design": {
+   "kind": "octet",
+   "params": {
+    "R": 0.2,
+    "r": 0.05913
+   }
+  },
+  "evidence": [
+   {
+    "kind": "certificate_certified",
+    "seq": 11,
+    "tool": "certify"
+   }
+  ],
+  "note": "V6 case 1 reference: same stiffness, no gap",
+  "outcome": "certified_candidate",
+  "spec": {
+   "cell_size": [
+    20.0,
+    "mm"
+   ],
+   "gap_type": null,
+   "material": "PA12",
+   "nu": 0.39,
+   "targets": {
+    "E100_min": [
+     60.0,
+     "MPa"
+    ]
+   }
+  },
+  "targets": {
+   "E100_min": 0.03529411764705882
+  }
+ }
+}

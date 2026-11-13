@@ -1,0 +1,27 @@
+{
+ "brief": "A04",
+ "arm": "D",
+ "profile": "D",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 21.1,
+ "usage": {
+  "input_tokens": 25485,
+  "cached_input_tokens": 16896,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 718,
+  "reasoning_output_tokens": 516
+ },
+ "final": "{\"decision\":\"refuse\",\"material\":\"Ti6Al4V\",\"cell_size\":null,\"targets\":{\"density_max\":0.29,\"G_min\":{\"value\":6.51,\"unit\":\"GPa\"}},\"verdict\":\"UNDETERMINED\",\"note\":\"Interpreting G_min as C44, I cannot certify a design meeting both targets without homogenization results, nor establish infeasibility from the available information.\"}",
+ "rounds": 2,
+ "parsed": true,
+ "job": "codex-D-r1-A04",
+ "rep": 1,
+ "partition": "development",
+ "gpu_wait_s": 0.0,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "17ca80e2ff0053c1",
+ "briefs": "194701c05dce17d2"
+}

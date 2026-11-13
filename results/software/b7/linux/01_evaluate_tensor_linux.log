@@ -1,0 +1,53 @@
+amm 0.2.0, Python 3.12.16, torch 2.15.0+cpu, band solver device: cpu
+tools: set_material, set_constraints, set_target, set_source, check_bounds, ask_clarification, list_families, atlas_suggest, evaluate, search, certify, as_built, screen_manufacturing, export, submit, undo, get_session
+material: {'material': 'Ti6Al4V', 'E_Pa': 113800000000.0, 'nu': 0.342, 'rho_kg_m3': 4430.0}
+
+evaluate {'kind': 'gyroid', 'params': {'density': 0.25, 'mode': 'sheet'}} (search (not certified)), 21.4 s
+  density  0.249834525736096
+  E100     0.09541189920967831
+  G        0.04101069464999823
+  bulk     0.08988084532405151
+  nu100    0.32307706225635824
+  valid    True
+  E100_MPa 10857.9
+  G_MPa    4667.0
+  bulk_MPa 10228.4
+  complete gaps (f* = f a / c_t): none
+  gaps in Hz (5 mm cell): none
+
+C* / E_s (Voigt order 11 22 33 23 13 12, engineering shear):
+[[ 0.13796  0.06584  0.06584  0.       0.       0.     ]
+ [ 0.06584  0.13796  0.06584  0.       0.       0.     ]
+ [ 0.06584  0.06584  0.13796 -0.       0.       0.     ]
+ [ 0.       0.      -0.       0.04101  0.       0.     ]
+ [ 0.       0.       0.       0.       0.04101  0.     ]
+ [ 0.       0.       0.       0.       0.       0.04101]]
+
+C* in MPa:
+[[15699.5  7492.9  7492.9     0.      0.      0. ]
+ [ 7492.9 15699.5  7492.9     0.      0.      0. ]
+ [ 7492.9  7492.9 15699.5    -0.      0.      0. ]
+ [    0.      0.     -0.   4667.      0.      0. ]
+ [    0.      0.      0.      0.   4667.      0. ]
+ [    0.      0.      0.      0.      0.   4667. ]]
+
+derived:
+  C11              0.137957
+  C12              0.065843
+  C44              0.0410107
+  zener            1.13739
+  cubic_deviation  3.95837e-16
+  E100             0.0954119
+  E110             0.103698
+  E111             0.10679
+  nu12             0.323077
+  bulk_voigt       0.0898808
+  bulk_reuss       0.0898808
+  shear_voigt      0.0390291
+  shear_reuss      0.0388743
+  min_eig          0.0410107
+  eigenvalues      [0.04101 0.04101 0.04101 0.07211 0.07211 0.26964]
+  note: C11, C12, C44 are cubic averages; E100/E110/E111 from the full tensor
+
+checks passed (symmetric, positive definite, E100 consistent); total 23.6 s
+summary: {"design": {"kind": "gyroid", "params": {"density": 0.25, "mode": "sheet"}}, "density": 0.249834525736096, "E100": 0.09541189920967831, "zener": 1.137390825422501, "seconds_evaluate": 21.4, "python": "3.12.16", "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.41"}

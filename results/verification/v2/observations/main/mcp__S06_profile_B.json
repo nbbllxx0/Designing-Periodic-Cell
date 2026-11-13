@@ -1,0 +1,261 @@
+{
+ "scenario": "S06_profile_B",
+ "interface": "mcp",
+ "rows": [
+  {
+   "scenario": "S06_profile_B",
+   "check": "B_tools",
+   "capability": "profile B: tool set (no check_bounds / certify / as_built)",
+   "interface": "mcp",
+   "profile": "B",
+   "tool": "get_session",
+   "expected_refusal": false,
+   "observed": "accepted",
+   "passed": true,
+   "failures": [],
+   "seq": 1,
+   "dt_s": 0.02,
+   "session": "results/verification/v2/sessions/mcp/S06_profile_B/session.jsonl"
+  },
+  {
+   "scenario": "S06_profile_B",
+   "check": "B_no_bounds",
+   "capability": "profile B: check_bounds not offered",
+   "interface": "mcp",
+   "profile": "B",
+   "tool": "check_bounds",
+   "expected_refusal": true,
+   "observed": "refused: Unknown tool: check_bounds",
+   "passed": true,
+   "failures": [],
+   "seq": null,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/mcp/S06_profile_B/session.jsonl"
+  },
+  {
+   "scenario": "S06_profile_B",
+   "check": "B_no_certify",
+   "capability": "profile B: certify not offered",
+   "interface": "mcp",
+   "profile": "B",
+   "tool": "certify",
+   "expected_refusal": true,
+   "observed": "refused: Unknown tool: certify",
+   "passed": true,
+   "failures": [],
+   "seq": null,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/mcp/S06_profile_B/session.jsonl"
+  },
+  {
+   "scenario": "S06_profile_B",
+   "check": "B_refuse_unchecked",
+   "capability": "profile B: refusal without evidence accepted, evidence not checked",
+   "interface": "mcp",
+   "profile": "B",
+   "tool": "submit",
+   "expected_refusal": false,
+   "observed": "accepted: outcome=proven_infeasible",
+   "passed": true,
+   "failures": [],
+   "seq": 4,
+   "dt_s": 0.01,
+   "session": "results/verification/v2/sessions/mcp/S06_profile_B/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "get_session",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.02,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "budget": {
+     "as_built": 8,
+     "certify": 4,
+     "designs": 400
+    },
+    "budget_used": {
+     "as_built": 0,
+     "certify": 0,
+     "designs": 0
+    },
+    "cannot_normalize": [],
+    "certificates": {},
+    "evidence": [],
+    "normalized_targets": {},
+    "profile": "B",
+    "schema_version": "amm-tools/3",
+    "state": {
+     "cell_size": null,
+     "families": [
+      "tpms",
+      "struts",
+      "resonator"
+     ],
+     "gap_type": null,
+     "material": null,
+     "sources": {},
+     "targets": {}
+    },
+    "submission": null,
+    "tools": [
+     "set_material",
+     "set_constraints",
+     "set_target",
+     "set_source",
+     "ask_clarification",
+     "list_families",
+     "atlas_suggest",
+     "evaluate",
+     "search",
+     "screen_manufacturing",
+     "export",
+     "submit",
+     "undo",
+     "get_session"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_material",
+   "args": {
+    "name": "Ti6Al4V"
+   },
+   "argv": null,
+   "dt_s": 0.28,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "E_Pa": 113800000000.0,
+    "atlas_available": true,
+    "material": "Ti6Al4V",
+    "nu": 0.342,
+    "rho_kg_m3": 4430.0
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.2,
+    "E100_min": {
+     "value": 0.5,
+     "unit": "E_s"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 3,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    },
+    "targets": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": null,
+   "error": "Unknown tool: check_bounds",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 4,
+   "tool": "certify",
+   "args": {
+    "design": {
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.12,
+      "w": 0.181739
+     }
+    }
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": null,
+   "error": "Unknown tool: certify",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 5,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "PROVEN_INFEASIBLE"
+   },
+   "argv": null,
+   "dt_s": 0.01,
+   "ok": true,
+   "exit": null,
+   "seq": 4,
+   "error": null,
+   "result": {
+    "outcome_card": {
+     "decision": "refuse",
+     "definition": "a named rigorous bound (Voigt, cubic stability, gap rules) is violated",
+     "design": null,
+     "evidence": [],
+     "evidence_checked": false,
+     "outcome": "proven_infeasible",
+     "profile": "B",
+     "schema_version": "amm-outcome/1",
+     "title": "Proven infeasible",
+     "verdict": "PROVEN_INFEASIBLE"
+    },
+    "submitted": {
+     "decision": "refuse",
+     "evidence": [],
+     "note": "",
+     "outcome": "proven_infeasible",
+     "spec": {
+      "cell_size": null,
+      "gap_type": null,
+      "material": "Ti6Al4V",
+      "nu": 0.342,
+      "targets": {
+       "E100_min": 0.5,
+       "density_max": 0.2
+      }
+     },
+     "verdict": "PROVEN_INFEASIBLE"
+    }
+   },
+   "cli": null
+  }
+ ],
+ "seconds": 4.0,
+ "root": "results/verification/v2/sessions/mcp/S06_profile_B",
+ "finished": "2026-11-08 08:28:10"
+}

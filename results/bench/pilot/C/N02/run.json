@@ -1,0 +1,19 @@
+{
+ "brief": "N02",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 101.6,
+ "usage": {
+  "input_tokens": 342549,
+  "cached_input_tokens": 323456,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1118,
+  "reasoning_output_tokens": 248
+ },
+ "final": "No design released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm atlas and 80-evaluation search found no 6 mm Ti6Al4V unit cell with a complete gap covering 216\u2013673 kHz. This does not prove physical impossibility.",
+ "stderr_tail": ""
+}

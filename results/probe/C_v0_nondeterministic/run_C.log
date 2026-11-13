@@ -1,0 +1,5 @@
+P4 running 21:11:26
+{"brief": "P4", "rc": 0, "calls": 15, "failed": 0, "submission": {"decision": "release", "verdict": null, "design": {"kind": "schwarz_p", "params": {"density": 0.255, "mode": "sheet"}}}, "replay": false, "wall": 836.5, "tokens": {"input_tokens": 1869428, "cached_input_tokens": 1816832, "cache_write_input_tokens": 0, "output_tokens": 4087, "reasoning_output_tokens": 1318}}
+P5 running 21:38:02
+{"brief": "P5", "rc": 0, "calls": 10, "failed": 0, "submission": {"decision": "refuse", "verdict": "NOT_FOUND_IN_FAMILIES", "design": null}, "replay": false, "wall": 93.5, "tokens": {"input_tokens": 321145, "cached_input_tokens": 299392, "cache_write_input_tokens": 0, "output_tokens": 826, "reasoning_output_tokens": 85}}
+P1 running 21:40:37

@@ -1,0 +1,1359 @@
+{
+ "scenario": "S04_families",
+ "interface": "lib",
+ "rows": [
+  {
+   "scenario": "S04_families",
+   "check": "fam_tpms_bounds",
+   "capability": "family restriction: tpms only (gap below every tpms gap)",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=BORDERLINE; atlas=BORDERLINE",
+   "passed": false,
+   "failures": [
+    "result.verdict = 'BORDERLINE' (expected 'NOT_FOUND_IN_FAMILIES')",
+    "result.atlas.n_cells = 216 (expected one of [212, 224])"
+   ],
+   "seq": 4,
+   "dt_s": 0.11,
+   "session": "results/verification/v2/sessions/lib/S04_families/session.jsonl"
+  },
+  {
+   "scenario": "S04_families",
+   "check": "fam_tpms_suggest",
+   "capability": "family restriction: tpms only (suggestions)",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "atlas_suggest",
+   "expected_refusal": false,
+   "observed": "accepted: kinds=schwarz_p,gyroid,schwarz_p,gyroid,gyroid",
+   "passed": true,
+   "failures": [],
+   "seq": 5,
+   "dt_s": 0.13,
+   "session": "results/verification/v2/sessions/lib/S04_families/session.jsonl"
+  },
+  {
+   "scenario": "S04_families",
+   "check": "fam_struts_bounds",
+   "capability": "family restriction: struts only",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=BORDERLINE; atlas=BORDERLINE",
+   "passed": true,
+   "failures": [],
+   "seq": 7,
+   "dt_s": 0.4,
+   "session": "results/verification/v2/sessions/lib/S04_families/session.jsonl"
+  },
+  {
+   "scenario": "S04_families",
+   "check": "fam_struts_suggest",
+   "capability": "family restriction: struts only (suggestions)",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "atlas_suggest",
+   "expected_refusal": false,
+   "observed": "accepted: kinds=sc,sc,sc,sc,sc",
+   "passed": true,
+   "failures": [],
+   "seq": 8,
+   "dt_s": 0.36,
+   "session": "results/verification/v2/sessions/lib/S04_families/session.jsonl"
+  },
+  {
+   "scenario": "S04_families",
+   "check": "fam_res_bounds",
+   "capability": "family restriction: resonators only",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=FEASIBLE; atlas=FEASIBLE",
+   "passed": true,
+   "failures": [],
+   "seq": 10,
+   "dt_s": 0.28,
+   "session": "results/verification/v2/sessions/lib/S04_families/session.jsonl"
+  },
+  {
+   "scenario": "S04_families",
+   "check": "fam_res_suggest",
+   "capability": "family restriction: resonators only (suggestions)",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "atlas_suggest",
+   "expected_refusal": false,
+   "observed": "accepted: kinds=cube_bars,cube_bars,cube_bars,sphere_ligaments,cube_bars",
+   "passed": true,
+   "failures": [],
+   "seq": 11,
+   "dt_s": 0.28,
+   "session": "results/verification/v2/sessions/lib/S04_families/session.jsonl"
+  },
+  {
+   "scenario": "S04_families",
+   "check": "fam_all_bounds",
+   "capability": "families: all three",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=FEASIBLE; atlas=FEASIBLE",
+   "passed": false,
+   "failures": [
+    "result.atlas.n_cells = 2714 (expected one of [2710, 2722])"
+   ],
+   "seq": 13,
+   "dt_s": 0.91,
+   "session": "results/verification/v2/sessions/lib/S04_families/session.jsonl"
+  },
+  {
+   "scenario": "S04_families",
+   "check": "evaluate_families",
+   "capability": "evaluate one design per family (C*, Zener output)",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "evaluate",
+   "expected_refusal": false,
+   "observed": "accepted: 3 results",
+   "passed": true,
+   "failures": [],
+   "seq": 14,
+   "dt_s": 6.24,
+   "session": "results/verification/v2/sessions/lib/S04_families/session.jsonl"
+  },
+  {
+   "scenario": "S04_families",
+   "check": "fam_empty",
+   "capability": "invalid: empty family list",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "set_constraints",
+   "expected_refusal": true,
+   "observed": "refused: families must not be empty",
+   "passed": true,
+   "failures": [],
+   "seq": 15,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S04_families/session.jsonl"
+  },
+  {
+   "scenario": "S04_families",
+   "check": "fam_unknown",
+   "capability": "invalid: unknown family",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "set_constraints",
+   "expected_refusal": true,
+   "observed": "refused: families.0: Input should be 'tpms', 'struts' or 'resonator'",
+   "passed": true,
+   "failures": [],
+   "seq": 16,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S04_families/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_material",
+   "args": {
+    "name": "316L"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_target",
+   "args": {
+    "gap": {
+     "f_lo": 0.25,
+     "f_hi": 0.35,
+     "unit": "f*"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "set_constraints",
+   "args": {
+    "families": [
+     "tpms"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 3,
+   "error": null,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "tpms"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.11,
+   "ok": true,
+   "exit": null,
+   "seq": 4,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.5344466666666666,
+       "slack_opt": 0.09112436594625259,
+       "slack_pess": -0.5344466666666666,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.22,
+         "mode": "network"
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6539666666666666,
+       "slack_opt": -0.2368985917681867,
+       "slack_pess": -0.7483595940400605,
+       "spec": {
+        "family": "tpms",
+        "kind": "gyroid",
+        "params": {
+         "density": 0.16,
+         "mode": "network"
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.8075100000000001,
+       "slack_opt": -0.16586069615975196,
+       "slack_pess": -0.8075100000000001,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.24,
+         "mode": "network"
+        }
+       }
+      }
+     ],
+     "n_cells": 216,
+     "n_clear": 0,
+     "n_possible": 1,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "BORDERLINE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "verdict": "BORDERLINE",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 4,
+   "tool": "atlas_suggest",
+   "args": {
+    "top": 5
+   },
+   "argv": null,
+   "dt_s": 0.13,
+   "ok": true,
+   "exit": null,
+   "seq": 5,
+   "error": null,
+   "result": {
+    "best": [
+     {
+      "design": {
+       "kind": "schwarz_p",
+       "params": {
+        "density": 0.22,
+        "mode": "network"
+       }
+      },
+      "slack_nominal": -0.5344466666666666,
+      "slack_pess": -0.5344466666666666
+     },
+     {
+      "design": {
+       "kind": "gyroid",
+       "params": {
+        "density": 0.16,
+        "mode": "network"
+       }
+      },
+      "slack_nominal": -0.6539666666666666,
+      "slack_pess": -0.7483595940400605
+     },
+     {
+      "design": {
+       "kind": "schwarz_p",
+       "params": {
+        "density": 0.24,
+        "mode": "network"
+       }
+      },
+      "slack_nominal": -0.8075100000000001,
+      "slack_pess": -0.8075100000000001
+     },
+     {
+      "design": {
+       "kind": "gyroid",
+       "params": {
+        "density": 0.08,
+        "mode": "network"
+       }
+      },
+      "slack_nominal": -1.0,
+      "slack_pess": -1.0
+     },
+     {
+      "design": {
+       "kind": "gyroid",
+       "params": {
+        "density": 0.1,
+        "mode": "network"
+       }
+      },
+      "slack_nominal": -1.0,
+      "slack_pess": -1.0
+     }
+    ],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "tier": "search (not certified)"
+   },
+   "cli": null
+  },
+  {
+   "i": 5,
+   "tool": "set_constraints",
+   "args": {
+    "families": [
+     "struts"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 6,
+   "error": null,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "struts"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 6,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.4,
+   "ok": true,
+   "exit": null,
+   "seq": 7,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.02883000000000006,
+       "slack_opt": 0.4695225644667691,
+       "slack_pess": -0.02883000000000006,
+       "spec": {
+        "family": "struts",
+        "kind": "sc",
+        "params": {
+         "R": 0.309091,
+         "r": 0.063913
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.08447999999999993,
+       "slack_opt": 0.41246065651438957,
+       "slack_pess": -0.08447999999999993,
+       "spec": {
+        "family": "struts",
+        "kind": "sc",
+        "params": {
+         "R": 0.298182,
+         "r": 0.063913
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.09267666666666674,
+       "slack_opt": 0.4394551295664657,
+       "slack_pess": -0.09267666666666674,
+       "spec": {
+        "family": "struts",
+        "kind": "sc",
+        "params": {
+         "R": 0.32,
+         "r": 0.063913
+        }
+       }
+      }
+     ],
+     "n_cells": 1395,
+     "n_clear": 0,
+     "n_possible": 178,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "BORDERLINE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "verdict": "BORDERLINE",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 7,
+   "tool": "atlas_suggest",
+   "args": {
+    "top": 5
+   },
+   "argv": null,
+   "dt_s": 0.36,
+   "ok": true,
+   "exit": null,
+   "seq": 8,
+   "error": null,
+   "result": {
+    "best": [
+     {
+      "design": {
+       "kind": "sc",
+       "params": {
+        "R": 0.309091,
+        "r": 0.063913
+       }
+      },
+      "slack_nominal": -0.02883000000000006,
+      "slack_pess": -0.02883000000000006
+     },
+     {
+      "design": {
+       "kind": "sc",
+       "params": {
+        "R": 0.298182,
+        "r": 0.063913
+       }
+      },
+      "slack_nominal": -0.08447999999999993,
+      "slack_pess": -0.08447999999999993
+     },
+     {
+      "design": {
+       "kind": "sc",
+       "params": {
+        "R": 0.32,
+        "r": 0.063913
+       }
+      },
+      "slack_nominal": -0.09267666666666674,
+      "slack_pess": -0.09267666666666674
+     },
+     {
+      "design": {
+       "kind": "sc",
+       "params": {
+        "R": 0.309091,
+        "r": 0.068696
+       }
+      },
+      "slack_nominal": -0.12045333333333334,
+      "slack_pess": -0.12045333333333334
+     },
+     {
+      "design": {
+       "kind": "sc",
+       "params": {
+        "R": 0.287273,
+        "r": 0.063913
+       }
+      },
+      "slack_nominal": -0.13976000000000008,
+      "slack_pess": -0.13976000000000008
+     }
+    ],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "tier": "search (not certified)"
+   },
+   "cli": null
+  },
+  {
+   "i": 8,
+   "tool": "set_constraints",
+   "args": {
+    "families": [
+     "resonator"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 9,
+   "error": null,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "resonator"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 9,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.28,
+   "ok": true,
+   "exit": null,
+   "seq": 10,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": 0.16777999999999998,
+       "slack_opt": 0.6361618854656957,
+       "slack_pess": 0.16777999999999998,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.592174,
+         "w": 0.112174
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.1306733333333333,
+       "slack_opt": 0.6201950468367753,
+       "slack_pess": 0.1306733333333333,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.567826,
+         "w": 0.112174
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.11942666666666667,
+       "slack_opt": 0.5802802458440707,
+       "slack_pess": 0.11942666666666667,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.616522,
+         "w": 0.112174
+        }
+       }
+      }
+     ],
+     "n_cells": 1103,
+     "n_clear": 22,
+     "n_possible": 393,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "FEASIBLE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "verdict": "FEASIBLE",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 10,
+   "tool": "atlas_suggest",
+   "args": {
+    "top": 5
+   },
+   "argv": null,
+   "dt_s": 0.28,
+   "ok": true,
+   "exit": null,
+   "seq": 11,
+   "error": null,
+   "result": {
+    "best": [
+     {
+      "design": {
+       "kind": "cube_bars",
+       "params": {
+        "c": 0.592174,
+        "w": 0.112174
+       }
+      },
+      "slack_nominal": 0.16777999999999998,
+      "slack_pess": 0.16777999999999998
+     },
+     {
+      "design": {
+       "kind": "cube_bars",
+       "params": {
+        "c": 0.567826,
+        "w": 0.112174
+       }
+      },
+      "slack_nominal": 0.1306733333333333,
+      "slack_pess": 0.1306733333333333
+     },
+     {
+      "design": {
+       "kind": "cube_bars",
+       "params": {
+        "c": 0.616522,
+        "w": 0.112174
+       }
+      },
+      "slack_nominal": 0.11942666666666667,
+      "slack_pess": 0.11942666666666667
+     },
+     {
+      "design": {
+       "kind": "sphere_ligaments",
+       "params": {
+        "c": 0.312174,
+        "w": 0.108696
+       }
+      },
+      "slack_nominal": 0.09625666666666671,
+      "slack_pess": 0.09625666666666671
+     },
+     {
+      "design": {
+       "kind": "cube_bars",
+       "params": {
+        "c": 0.543478,
+        "w": 0.112174
+       }
+      },
+      "slack_nominal": 0.0934666666666667,
+      "slack_pess": 0.0934666666666667
+     }
+    ],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "tier": "search (not certified)"
+   },
+   "cli": null
+  },
+  {
+   "i": 11,
+   "tool": "set_constraints",
+   "args": {
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 12,
+   "error": null,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 12,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.91,
+   "ok": true,
+   "exit": null,
+   "seq": 13,
+   "error": null,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": 0.16777999999999998,
+       "slack_opt": 0.6361618854656957,
+       "slack_pess": 0.16777999999999998,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.592174,
+         "w": 0.112174
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.1306733333333333,
+       "slack_opt": 0.6201950468367753,
+       "slack_pess": 0.1306733333333333,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.567826,
+         "w": 0.112174
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.11942666666666667,
+       "slack_opt": 0.5802802458440707,
+       "slack_pess": 0.11942666666666667,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.616522,
+         "w": 0.112174
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 22,
+     "n_possible": 572,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "FEASIBLE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "verdict": "FEASIBLE",
+    "violated": []
+   },
+   "cli": null
+  },
+  {
+   "i": 13,
+   "tool": "evaluate",
+   "args": {
+    "designs": [
+     {
+      "kind": "gyroid",
+      "params": {
+       "density": 0.3,
+       "mode": "sheet"
+      }
+     },
+     {
+      "kind": "octet",
+      "params": {
+       "r": 0.06,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.6,
+       "w": 0.2
+      }
+     }
+    ]
+   },
+   "argv": null,
+   "dt_s": 6.24,
+   "ok": true,
+   "exit": null,
+   "seq": 14,
+   "error": null,
+   "result": {
+    "results": [
+     {
+      "C": [
+       [
+        0.16528221577645255,
+        0.07210102101750535,
+        0.0721010210175051,
+        -6.596269076742864e-19,
+        -5.4786091028408146e-18,
+        -7.50640597856761e-18
+       ],
+       [
+        0.07210102101750535,
+        0.16528221577645275,
+        0.07210102101750535,
+        -5.061868892791699e-18,
+        5.264309767185477e-19,
+        -6.272278974418094e-18
+       ],
+       [
+        0.0721010210175051,
+        0.07210102101750535,
+        0.16528221577645258,
+        -7.27601301691444e-18,
+        -7.923146188616725e-18,
+        -7.68470641396464e-19
+       ],
+       [
+        -6.596269076742864e-19,
+        -5.061868892791699e-18,
+        -7.27601301691444e-18,
+        0.05279863169132026,
+        -3.255782891008717e-18,
+        -2.3932915924670256e-18
+       ],
+       [
+        -5.4786091028408146e-18,
+        5.264309767185477e-19,
+        -7.923146188616725e-18,
+        -3.255782891008717e-18,
+        0.052798631691320354,
+        -2.4771478542452013e-18
+       ],
+       [
+        -7.50640597856761e-18,
+        -6.272278974418094e-18,
+        -7.68470641396464e-19,
+        -2.3932915924670256e-18,
+        -2.4771478542452013e-18,
+        0.05279863169132013
+       ]
+      ],
+      "C_MPa": [
+       [
+        31899.467644855344,
+        13915.497056378532,
+        13915.497056378483,
+        -1.2730799318113727e-13,
+        -1.0573715568482772e-12,
+        -1.4487363538635487e-12
+       ],
+       [
+        13915.497056378532,
+        31899.46764485538,
+        13915.497056378532,
+        -9.769406963087979e-13,
+        1.016011785066797e-13,
+        -1.2105498420626921e-12
+       ],
+       [
+        13915.497056378483,
+        13915.497056378532,
+        31899.467644855347,
+        -1.404270512264487e-12,
+        -1.529167214403028e-12,
+        -1.4831483378951755e-13
+       ],
+       [
+        -1.2730799318113727e-13,
+        -9.769406963087979e-13,
+        -1.404270512264487e-12,
+        10190.13591642481,
+        -6.283660979646824e-13,
+        -4.619052773461359e-13
+       ],
+       [
+        -1.0573715568482772e-12,
+        1.016011785066797e-13,
+        -1.529167214403028e-12,
+        -6.283660979646824e-13,
+        10190.135916424828,
+        -4.780895358693239e-13
+       ],
+       [
+        -1.4487363538635487e-12,
+        -1.2105498420626921e-12,
+        -1.4831483378951755e-13,
+        -4.619052773461359e-13,
+        -4.780895358693239e-13,
+        10190.135916424786
+       ]
+      ],
+      "E100": 0.12148335868799748,
+      "E100_MPa": 23446.288226783512,
+      "G": 0.05279863169132024,
+      "G_MPa": 10190.135916424806,
+      "bulk": 0.10316141927048772,
+      "bulk_MPa": 19910.153919204127,
+      "density": 0.29999987946426837,
+      "derived": {
+       "C11": 0.1652822157764526,
+       "C12": 0.07210102101750526,
+       "C44": 0.05279863169132024,
+       "E100": 0.12148335868799748,
+       "E110": 0.13156749146620675,
+       "E111": 0.13531148571390222,
+       "bulk_reuss": 0.10316141927048772,
+       "bulk_voigt": 0.10316141927048772,
+       "cubic_deviation": 1.0412386644859271e-15,
+       "eigenvalues": [
+        0.05279863169132013,
+        0.0527986316913203,
+        0.052798631691320354,
+        0.0931811947589472,
+        0.09318119475894747,
+        0.30948425781146316
+       ],
+       "min_eig": 0.05279863169132013,
+       "note": "C11, C12, C44 are cubic averages; E100/E110/E111 from the full tensor",
+       "nu12": 0.30373257181629526,
+       "shear_reuss": 0.050126936057474265,
+       "shear_voigt": 0.050315417966581615,
+       "voigt_order": "11, 22, 33, 23 (yz), 13 (xz), 12 (xy); engineering shear strains",
+       "zener": 1.1332465059694992
+      },
+      "design": {
+       "kind": "gyroid",
+       "params": {
+        "density": 0.3,
+        "mode": "sheet"
+       }
+      },
+      "gaps": [],
+      "nu100": 0.30373257181629526,
+      "valid": true
+     },
+     {
+      "C": [
+       [
+        0.045358884583993855,
+        0.021911439536506552,
+        0.021911439536506542,
+        -6.500977870176755e-20,
+        -4.132885507890545e-18,
+        -4.609341540721089e-18
+       ],
+       [
+        0.021911439536506552,
+        0.04535888458399381,
+        0.021911439536506445,
+        -3.252818275693327e-18,
+        -4.980553729855286e-19,
+        -4.6184471449040726e-18
+       ],
+       [
+        0.021911439536506542,
+        0.021911439536506445,
+        0.04535888458399385,
+        -3.944420677126463e-18,
+        -5.851727116106334e-18,
+        -1.1434944787933055e-19
+       ],
+       [
+        -6.500977870176755e-20,
+        -3.252818275693327e-18,
+        -3.944420677126463e-18,
+        0.020660152651970992,
+        -2.5334755452376123e-18,
+        -2.304353133005324e-18
+       ],
+       [
+        -4.132885507890545e-18,
+        -4.980553729855286e-19,
+        -5.851727116106334e-18,
+        -2.5334755452376123e-18,
+        0.02066015265197103,
+        -2.1340995106072097e-18
+       ],
+       [
+        -4.609341540721089e-18,
+        -4.6184471449040726e-18,
+        -1.1434944787933055e-19,
+        -2.304353133005324e-18,
+        -2.1340995106072097e-18,
+        0.020660152651971027
+       ]
+      ],
+      "C_MPa": [
+       [
+        8754.264724710814,
+        4228.907830545764,
+        4228.907830545762,
+        -1.2546887289441137e-14,
+        -7.976469030228752e-13,
+        -8.896029173591702e-13
+       ],
+       [
+        4228.907830545764,
+        8754.264724710805,
+        4228.907830545744,
+        -6.277939272088121e-13,
+        -9.612468698620702e-14,
+        -8.91360298966486e-13
+       ],
+       [
+        4228.907830545762,
+        4228.907830545744,
+        8754.264724710813,
+        -7.612731906854074e-13,
+        -1.1293833334085224e-12,
+        -2.2069443440710795e-14
+       ],
+       [
+        -1.2546887289441137e-14,
+        -6.277939272088121e-13,
+        -7.612731906854074e-13,
+        3987.4094618304016,
+        -4.889607802308592e-13,
+        -4.4474015467002755e-13
+       ],
+       [
+        -7.976469030228752e-13,
+        -9.612468698620702e-14,
+        -1.1293833334085224e-12,
+        -4.889607802308592e-13,
+        3987.409461830409,
+        -4.1188120554719147e-13
+       ],
+       [
+        -8.896029173591702e-13,
+        -8.91360298966486e-13,
+        -2.2069443440710795e-14,
+        -4.4474015467002755e-13,
+        -4.1188120554719147e-13,
+        3987.409461830408
+       ]
+      ],
+      "E100": 0.031084798979709664,
+      "E100_MPa": 5999.366203083965,
+      "G": 0.020660152651971016,
+      "G_MPa": 3987.409461830406,
+      "bulk": 0.02972725455233562,
+      "bulk_MPa": 5737.360128600775,
+      "density": 0.15881259657517124,
+      "derived": {
+       "C11": 0.045358884583993835,
+       "C12": 0.02191143953650651,
+       "C44": 0.020660152651971016,
+       "E100": 0.031084798979709664,
+       "E110": 0.043579881305960244,
+       "E111": 0.05032256117262854,
+       "bulk_reuss": 0.02972725455233563,
+       "bulk_voigt": 0.029727254552335616,
+       "cubic_deviation": 1.2700299499508907e-15,
+       "eigenvalues": [
+        0.02066015265197098,
+        0.020660152651971016,
+        0.02066015265197103,
+        0.023447445047487282,
+        0.023447445047487386,
+        0.08918176365700689
+       ],
+       "min_eig": 0.02066015265197098,
+       "note": "C11, C12, C44 are cubic averages; E100/E110/E111 from the full tensor",
+       "nu12": 0.3257222233277332,
+       "shear_reuss": 0.01583273846649322,
+       "shear_voigt": 0.017085580600680075,
+       "voigt_order": "11, 22, 33, 23 (yz), 13 (xz), 12 (xy); engineering shear strains",
+       "zener": 1.7622519306584323
+      },
+      "design": {
+       "kind": "octet",
+       "params": {
+        "R": 0.0,
+        "r": 0.06
+       }
+      },
+      "gaps": [],
+      "nu100": 0.3257222233277332,
+      "valid": true
+     },
+     {
+      "C": [
+       [
+        0.06580340170068649,
+        0.004055606030781388,
+        0.004055606030781251,
+        -2.3102294240769008e-18,
+        2.6395240702338507e-17,
+        -5.816236435616379e-17
+       ],
+       [
+        0.004055606030781388,
+        0.06580340170068602,
+        0.0040556060307812315,
+        9.45251198592377e-17,
+        2.2556487385382018e-17,
+        -6.833226543737254e-17
+       ],
+       [
+        0.004055606030781251,
+        0.0040556060307812315,
+        0.065803401700686,
+        2.224465882329525e-16,
+        1.83809749444209e-16,
+        -1.2700454362778342e-16
+       ],
+       [
+        -2.3102294240769008e-18,
+        9.45251198592377e-17,
+        2.224465882329525e-16,
+        0.005056731294758496,
+        -8.873863677938261e-16,
+        2.3958857963041144e-17
+       ],
+       [
+        2.6395240702338507e-17,
+        2.2556487385382018e-17,
+        1.83809749444209e-16,
+        -8.873863677938261e-16,
+        0.005056731294758556,
+        4.45134342627856e-17
+       ],
+       [
+        -5.816236435616379e-17,
+        -6.833226543737254e-17,
+        -1.2700454362778342e-16,
+        2.3958857963041144e-17,
+        4.45134342627856e-17,
+        0.005056731294759387
+       ]
+      ],
+      "C_MPa": [
+       [
+        12700.056528232493,
+        782.7319639408079,
+        782.7319639407814,
+        -4.4587427884684185e-13,
+        5.094281455551332e-12,
+        -1.1225336320739611e-11
+       ],
+       [
+        782.7319639408079,
+        12700.056528232402,
+        782.7319639407776,
+        1.8243348132832876e-11,
+        4.3534020653787295e-12,
+        -1.3188127229412901e-11
+       ],
+       [
+        782.7319639407814,
+        782.7319639407776,
+        12700.056528232399,
+        4.293219152895983e-11,
+        3.547528164273234e-11,
+        -2.45118769201622e-11
+       ],
+       [
+        -4.4587427884684185e-13,
+        1.8243348132832876e-11,
+        4.293219152895983e-11,
+        975.9491398883898,
+        -1.7126556898420844e-10,
+        4.624059586866941e-12
+       ],
+       [
+        5.094281455551332e-12,
+        4.3534020653787295e-12,
+        3.547528164273234e-11,
+        -1.7126556898420844e-10,
+        975.9491398884013,
+        8.591092812717621e-12
+       ],
+       [
+        -1.1225336320739611e-11,
+        -1.3188127229412901e-11,
+        -2.45118769201622e-11,
+        4.624059586866941e-12,
+        8.591092812717621e-12,
+        975.9491398885617
+       ]
+      ],
+      "E100": 0.0653325120957229,
+      "E100_MPa": 12609.17483447452,
+      "G": 0.005056731294758814,
+      "G_MPa": 975.9491398884511,
+      "bulk": 0.02463820458741625,
+      "bulk_MPa": 4755.173485371337,
+      "density": 0.264,
+      "derived": {
+       "C11": 0.06580340170068617,
+       "C12": 0.00405560603078129,
+       "C44": 0.005056731294758814,
+       "E100": 0.0653325120957229,
+       "E110": 0.017652901462382815,
+       "E111": 0.014198808705172372,
+       "bulk_reuss": 0.024638204587416248,
+       "bulk_voigt": 0.02463820458741625,
+       "cubic_deviation": 1.3760641331347817e-14,
+       "eigenvalues": [
+        0.005056731294757634,
+        0.005056731294759382,
+        0.005056731294759422,
+        0.06174779566990469,
+        0.06174779566990501,
+        0.07391461376224875
+       ],
+       "min_eig": 0.005056731294757634,
+       "note": "C11, C12, C44 are cubic averages; E100/E110/E111 from the full tensor",
+       "nu12": 0.05805416026478417,
+       "shear_reuss": 0.007598226902472115,
+       "shear_voigt": 0.015383597910836265,
+       "voigt_order": "11, 22, 33, 23 (yz), 13 (xz), 12 (xy); engineering shear strains",
+       "zener": 0.16378661747834353
+      },
+      "design": {
+       "kind": "cube_bars",
+       "params": {
+        "c": 0.6,
+        "w": 0.2
+       }
+      },
+      "gaps": [
+       {
+        "f_hi": 0.7690774450503212,
+        "f_lo": 0.33419022900933676,
+        "rel": 0.7883621106032124
+       }
+      ],
+      "nu100": 0.05805416026478417,
+      "valid": true
+     }
+    ],
+    "tier": "search (not certified)"
+   },
+   "cli": null
+  },
+  {
+   "i": 14,
+   "tool": "set_constraints",
+   "args": {
+    "families": []
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 15,
+   "error": "families must not be empty",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 15,
+   "tool": "set_constraints",
+   "args": {
+    "families": [
+     "lattice"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 16,
+   "error": "families.0: Input should be 'tpms', 'struts' or 'resonator'",
+   "result": null,
+   "cli": null
+  }
+ ],
+ "seconds": 8.8,
+ "root": "results/verification/v2/sessions/lib/S04_families",
+ "finished": "2026-11-08 08:17:19"
+}

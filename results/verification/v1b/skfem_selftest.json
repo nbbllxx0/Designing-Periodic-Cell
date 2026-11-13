@@ -1,0 +1,1 @@
+{"exact_cube_bars_c0.5_w0.2_n20": {"periodic_vs_indep_fe_Q2Cell_rel": 6.061785608045708e-13, "kubc_ge_periodic": [true, true, true]}, "homogeneous_solid_C_err": 1.3322676295501878e-15, "skfem": "12.0.2"}

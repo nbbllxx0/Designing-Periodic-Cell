@@ -1,0 +1,192 @@
+GUI server pid 71280
+health: {'code': 'ff8b3a682221f9a3', 'lock': {'held_by_this_server': False, 'owner': {'pid': 79448, 't': 1794156709.5019703, 'who': 'amm-gui-live pid 79448'}, 'path': 'C:\\AI\\AgenticMetamaterials_workspaces\\gpu.lock', 'used': True}, 'mode': 'live', 'ok': True, 'pid': 71280, 'schema': 'amm-tools/2', 'version': '0.2.0', 'worker': {'alive': True, 'current': None}}
+== gui S01_targets: target types, feasible and infeasible (316L)
+  [gui] S01_targets/density_feasible: PASS (0.4 s) 
+  [gui] S01_targets/density_infeasible: PASS (0.4 s) 
+  [gui] S01_targets/E100_feasible: PASS (0.5 s) 
+  [gui] S01_targets/E100_Es_equals_GPa: PASS (0.5 s) 
+  [gui] S01_targets/E100_infeasible: PASS (0.4 s) 
+  [gui] S01_targets/G_feasible: PASS (0.4 s) 
+  [gui] S01_targets/G_infeasible: PASS (0.3 s) 
+  [gui] S01_targets/bulk_feasible: PASS (0.3 s) 
+  [gui] S01_targets/bulk_infeasible: PASS (0.2 s) 
+  [gui] S01_targets/nu100_feasible: PASS (0.2 s) 
+  [gui] S01_targets/nu100_infeasible: PASS (0.1 s) 
+  [gui] S01_targets/gap_feasible: PASS (1.3 s) 
+  [gui] S01_targets/gap_infeasible: PASS (1.1 s) 
+  [gui] S01_targets/gap_contains_zero: PASS (0.0 s) 
+  [gui] S01_targets/combo_feasible: PASS (1.4 s) 
+  [gui] S01_targets/combo_infeasible: PASS (1.9 s) 
+  [gui] S01_targets/contradictory_density: PASS (0.3 s) 
+  [gui] S01_targets/contradictory_E100: PASS (0.3 s) 
+  [gui] S01_targets/negative_E100_max: PASS (0.2 s) 
+  [gui] S01_targets/negative_density: PASS (0.2 s) 
+  [gui] S01_targets/negative_G_min: PASS (0.2 s) 
+  [gui] S01_targets/unknown_target: PASS (0.0 s) 
+  [gui] S01_targets/zener_target: PASS (0.0 s) 
+  [gui] S01_targets/unknown_unit: PASS (0.0 s) 
+  [gui] S01_targets/wrong_type: PASS (0.0 s) 
+   25/25 passed, 12.0 s, session results/verification/v2/sessions/gui/live-20261108-085204-a655
+== gui S02_materials_units: every material; GPa/MPa/kHz with a cell size
+  [gui] S02_materials_units/material_PA12: PASS (0.6 s) 
+  [gui] S02_materials_units/units_PA12: PASS (0.0 s) 
+  [gui] S02_materials_units/bounds_PA12: PASS (2.2 s) 
+  [gui] S02_materials_units/material_Ti6Al4V: PASS (0.5 s) 
+  [gui] S02_materials_units/units_Ti6Al4V: PASS (0.0 s) 
+  [gui] S02_materials_units/bounds_Ti6Al4V: PASS (1.4 s) 
+  [gui] S02_materials_units/material_316L: PASS (0.0 s) 
+  [gui] S02_materials_units/units_316L: PASS (0.0 s) 
+  [gui] S02_materials_units/bounds_316L: PASS (1.0 s) 
+  [gui] S02_materials_units/material_AlSi10Mg: PASS (0.0 s) 
+  [gui] S02_materials_units/units_AlSi10Mg: PASS (0.0 s) 
+  [gui] S02_materials_units/bounds_AlSi10Mg: PASS (0.0 s) 
+  [gui] S02_materials_units/material_custom: PASS (0.0 s) 
+  [gui] S02_materials_units/material_bad_nu: PASS (0.0 s) 
+  [gui] S02_materials_units/material_unknown: PASS (0.0 s) 
+  [gui] S02_materials_units/matchange_before: PASS (0.1 s) 
+  [gui] S02_materials_units/matchange_after: PASS (0.1 s) 
+   17/17 passed, 6.3 s, session results/verification/v2/sessions/gui/live-20261108-085216-00ea
+== gui S03_underspecified: Hz without a cell size; GPa without material
+  [gui] S03_underspecified/gpa_no_material: PASS (0.0 s) 
+  [gui] S03_underspecified/gpa_no_material_check: PASS (0.0 s) 
+  [gui] S03_underspecified/hz_no_cell: PASS (0.0 s) 
+  [gui] S03_underspecified/hz_no_cell_check: PASS (0.0 s) 
+  [gui] S03_underspecified/hz_partial_check: PASS (0.1 s) 
+  [gui] S03_underspecified/hz_no_cell_certify: PASS (4.8 s) 
+  [gui] S03_underspecified/need_info: PASS (0.0 s) 
+   7/7 passed, 5.1 s, session results/verification/v2/sessions/gui/live-20261108-085222-6ca6
+== gui S04_families: families alone and together
+  [gui] S04_families/fam_tpms_bounds: FAIL (0.2 s) result.verdict = 'BORDERLINE' (expected 'NOT_FOUND_IN_FAMILIES'); result.atlas.n_cells = 216 (expected one of [212, 224])
+  [gui] S04_families/fam_tpms_suggest: PASS (0.2 s) 
+  [gui] S04_families/fam_struts_bounds: PASS (1.4 s) 
+  [gui] S04_families/fam_struts_suggest: PASS (1.6 s) 
+  [gui] S04_families/fam_res_bounds: PASS (1.2 s) 
+  [gui] S04_families/fam_res_suggest: PASS (0.7 s) 
+  [gui] S04_families/fam_all_bounds: FAIL (1.5 s) result.atlas.n_cells = 2714 (expected one of [2710, 2722])
+  [gui] S04_families/evaluate_families: PASS (12.1 s) 
+  [gui] S04_families/fam_empty: PASS (0.0 s) 
+  [gui] S04_families/fam_unknown: PASS (0.0 s) 
+   8/10 passed, 19.3 s, session results/verification/v2/sessions/gui/live-20261108-085227-a2b0
+== gui S05_invalid: invalid designs, ranges and tools
+  [gui] S05_invalid/out_of_box: PASS (0.0 s) 
+  [gui] S05_invalid/validity_rule: FAIL (0.0 s) error does not contain 'validity rule': cube_bars.w = 0.48 outside the family box [0.06, 0.36]
+  [gui] S05_invalid/tpms_no_mode: PASS (0.0 s) 
+  [gui] S05_invalid/unknown_kind: PASS (0.0 s) 
+  [gui] S05_invalid/too_many: PASS (0.0 s) 
+  [gui] S05_invalid/top_range: PASS (0.0 s) 
+  [gui] S05_invalid/neg_cell: PASS (0.0 s) 
+  [gui] S05_invalid/no_spend: PASS (0.0 s) 
+  [gui] S05_invalid/unknown_tool: PASS (0.0 s) 
+   8/9 passed, 0.4 s, session results/verification/v2/sessions/gui/live-20261108-085247-eacf
+== gui S06_profile_B: profile B (ablation arm)
+  [gui] S06_profile_B/B_tools: PASS (0.0 s) 
+  [gui] S06_profile_B/B_no_bounds: PASS (0.0 s) 
+  [gui] S06_profile_B/B_no_certify: PASS (0.0 s) 
+  [gui] S06_profile_B/B_refuse_unchecked: PASS (0.0 s) 
+   4/4 passed, 0.2 s, session results/verification/v2/sessions/gui/live-20261108-085247-c443
+== gui S07_profile_B_release: profile B uncertified release
+  [gui] S07_profile_B_release/B_release_uncertified: PASS (0.0 s) 
+   1/1 passed, 0.2 s, session results/verification/v2/sessions/gui/live-20261108-085247-3fd3
+== gui S08_refusals: refusal evidence: proven infeasible, not found
+  [gui] S08_refusals/C_refuse_no_evidence: PASS (0.0 s) 
+  [gui] S08_refusals/stale_bound_record: PASS (0.0 s) 
+  [gui] S08_refusals/wrong_verdict: FAIL (0.0 s) ok=True (expected False); ; error missing
+  [gui] S08_refusals/unknown_evidence_seq: FAIL (0.0 s) error does not contain 'not an evidence record': already submitted
+  [gui] S08_refusals/proven_infeasible: FAIL (0.0 s) ok=False (expected True); already submitted; result.outcome_card.outcome missing; result.outcome_card.evidence[0].seq missing; result.outcome_card.evidence[0].kind missing
+  [gui] S08_refusals/already_submitted: PASS (0.0 s) 
+   3/6 passed, 0.9 s, session results/verification/v2/sessions/gui/live-20261108-085247-7d0b
+== gui S09_not_found: not found in families; stale family edit
+  [gui] S09_not_found/nf_bounds: FAIL (0.1 s) result.verdict = 'BORDERLINE' (expected 'NOT_FOUND_IN_FAMILIES')
+  [gui] S09_not_found/stale_family_record: PASS (0.0 s) 
+  [gui] S09_not_found/nf_holds: FAIL (0.0 s) result.evidence[0].holds_for_current_spec missing; result.evidence[0].kind missing
+  [gui] S09_not_found/not_found_in_families: FAIL (0.0 s) ok=False (expected True); refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas verdict NOT_FOUND_IN_FAMILIES; result.outcome_card.outcome missing; result.outcome_card.evidence[0].seq
+   1/4 passed, 0.3 s, session results/verification/v2/sessions/gui/live-20261108-085248-e5d6
+== gui S10_refuted_budget: refuted certificates; certify budget
+  [gui] S10_refuted_budget/refuted_cert: PASS (37.7 s) 
+  [gui] S10_refuted_budget/budget_exhausted: PASS (0.0 s) 
+  [gui] S10_refuted_budget/release_refuted: PASS (0.0 s) 
+  [gui] S10_refuted_budget/refuted_candidate: PASS (0.0 s) 
+   4/4 passed, 149.4 s, session results/verification/v2/sessions/gui/live-20261108-085249-4bd6
+== gui S11_certified_static: PA12 static certificate
+  [gui] S11_certified_static/pa12_bounds: PASS (0.2 s) 
+  [gui] S11_certified_static/pa12_eval: PASS (7.1 s) 
+  [gui] S11_certified_static/pa12_certify: PASS (75.5 s) 
+  [gui] S11_certified_static/pa12_cert_key: PASS (0.0 s) 
+  [gui] S11_certified_static/as_built_from_cert: PASS (0.0 s) 
+  [gui] S11_certified_static/stale_spec_evidence: PASS (0.0 s) 
+  [gui] S11_certified_static/stale_spec_release: PASS (0.0 s) 
+  [gui] S11_certified_static/stale_spec_export: PASS (1.5 s) 
+  [gui] S11_certified_static/stale_material_release: PASS (0.0 s) 
+  [gui] S11_certified_static/stale_material_evidence: PASS (0.0 s) 
+  [gui] S11_certified_static/stale_design_release: PASS (0.0 s) 
+  [gui] S11_certified_static/screen_pass: PASS (5.3 s) 
+  [gui] S11_certified_static/screen_fail: PASS (6.6 s) 
+  [gui] S11_certified_static/pa12_release: PASS (0.0 s) 
+  [gui] S11_certified_static/pa12_export: PASS (6.9 s) 
+   15/15 passed, 103.6 s, session results/verification/v2/sessions/gui/live-20261108-085518-d521
+== gui S15_lib_release_without_cert: release without certificate (C)
+  [gui] S15_lib_release_without_cert/C_release_uncertified: PASS (0.0 s) 
+  [gui] S15_lib_release_without_cert/release_no_design: PASS (0.0 s) 
+   2/2 passed, 0.6 s, session results/verification/v2/sessions/gui/live-20261108-085702-9919
+== gui S16_addendum: addendum: corrected rows of run 1
+  [gui] S16_addendum/validity_rule_r2: PASS (0.0 s) 
+  [gui] S16_addendum/cb_records_r2: PASS (0.4 s) 
+  [gui] S16_addendum/wrong_verdict_r2: PASS (0.0 s) 
+  [gui] S16_addendum/unknown_evidence_seq_r2: PASS (0.0 s) 
+  [gui] S16_addendum/proven_infeasible_r2: PASS (0.0 s) 
+   5/5 passed, 0.6 s, session results/verification/v2/sessions/gui/live-20261108-085702-fcf6
+== gui S17_addendum_not_found: addendum: not found in families
+  [gui] S17_addendum_not_found/nf_bounds_r2: PASS (1.8 s) 
+  [gui] S17_addendum_not_found/stale_family_record_r2: PASS (0.0 s) 
+  [gui] S17_addendum_not_found/nf_holds_r2: PASS (0.0 s) 
+  [gui] S17_addendum_not_found/not_found_in_families_r2: PASS (0.0 s) 
+   4/4 passed, 2.1 s, session results/verification/v2/sessions/gui/live-20261108-085703-7196
+  [gui] gui_malformed_json: PASS  HTTP 400 {'ok': False, 'error': 'body must be JSON'}; seq 1 (before 1)
+  [gui] gui_json_not_object: PASS  HTTP 400 {'ok': False, 'error': 'body must be a JSON object'}; seq 1
+  [gui] gui_wrong_ctype: PASS  HTTP 415 {'ok': False, 'error': 'POST requests must send Content-Type: application/json'}; seq 1
+  [gui] gui_foreign_host: PASS  HTTP 403 {'ok': False, 'error': 'the GUI server answers localhost requests only'}
+  [gui] gui_bad_actor: PASS  HTTP 400 {'ok': False, 'error': 'actor must be user, agent or script'}
+  [gui] gui_tools_C: PASS  17 available of 17
+  [gui] gui_health: FAIL  mode live, schema amm-tools/2, code ff8b3a682221f9a3
+  [gui] gui_tools_B: PASS  14 available: ['ask_clarification', 'atlas_suggest', 'evaluate', 'export', 'get_session', 'list_families', 'screen_manufacturing', 'search', 'set_constraints', 'set_material', 'set_source', 'set_targe
+  [    0.7 s] open GUI (0.69 s)
+scenario 1: spec -> atlas suggestion -> evaluate -> certify (cancel once) -> release -> screen -> export
+  [    1.6 s] new session (0.87 s)
+  [    2.4 s] material 316L (0.86 s)
+  [    3.6 s] cell size 5 mm (1.18 s)
+  [    4.9 s] families: struts only (1.29 s)
+  [    5.3 s] target density <= 0.3 (0.46 s)
+  [    5.9 s] target E100 >= 5 GPa (0.58 s)
+  [    6.9 s] check bounds (0.97 s)
+  [    7.6 s] atlas suggest (0.74 s)
+  [    8.2 s] load suggestion 1 (0.21 s)
+  [   10.3 s] evaluate (search tier, GPU) (2.07 s)
+  [   10.6 s] full C* shown (0.30 s)
+    screenshot gui_live_evaluate_full_tensor.png (259 kB, height 1255)
+    screenshot gui_live_certify_progress.png (263 kB, height 1288)
+  [   21.5 s] certify, cancelled while running (7.69 s)
+  [  236.4 s] certify (static-only certificate) (214.92 s)
+   certificate: {'status': 'done', 'seconds': 214.5, 'verdict': 'certified', 'outcome': 'certified_candidate', 'robust': True, 'error': None, 'rung': [32, 48, 64]}
+  [  236.7 s] submit release (0.26 s)
+    screenshot gui_live_certified.png (287 kB, height 1503)
+  [  256.0 s] screen manufacturing (16.79 s)
+  [  273.8 s] export STL + report (17.78 s)
+    screenshot gui_live_export_screening.png (330 kB, height 1636)
+scenario 2: infeasible spec -> refusal rejected without evidence -> check bounds -> proven infeasible
+  [  277.4 s] new session (0.23 s)
+  [  277.7 s] material Ti6Al4V (0.26 s)
+  [  278.1 s] target density <= 0.2 (0.45 s)
+  [  278.6 s] target E100 >= 0.5 E_s (0.46 s)
+  [  278.8 s] refusal rejected (no evidence held) (0.26 s)
+    screenshot gui_live_refusal_rejected.png (305 kB, height 1336)
+  [  282.1 s] check bounds (0.71 s)
+  [  282.3 s] refuse PROVEN_INFEASIBLE accepted (0.27 s)
+    screenshot gui_live_proven_infeasible.png (303 kB, height 1394)
+record: C:\AI\AgenticMetamaterials\results\verification\v2\sessions\gui_edge\e2e_live_20261108-090158.json
+  [gui-edge] edge_certified: PASS  verdict certified, outcome certified_candidate, 214.5 s, rung [32, 48, 64]
+  [gui-edge] edge_cancel_rollback: PASS  {"status": "cancelled", "error": "certify cancelled by the user after 8 s; the call was rolled back (not logged)", "seconds": 7.5, "seq_before": 9, "seq_after": 9, "budget_certify_after": 0}
+  [gui-edge] edge_screen: PASS  {"status": "done", "seconds": 16.4, "verdict": "screen passed"}
+  [gui-edge] edge_export: PASS  {"export": {"status": "done", "seconds": 17.6, "name": "sc_bfeda9f7_8a6def", "outcome": "certified_candidate", "screening": "screen passed", "unit": "mm"}, "downloads": {"cell.stl": {"bytes": 1084684,
+  [gui-edge] edge_refusal_rejected: PASS  Submit #4 rejected by the refusal-evidence rule: refusal needs evidence: refuse with verdict PROVEN_INFEASIBLE must cite an evidence record held in this session for the current spec: a check_bounds re
+  [gui-edge] edge_proven_infeasible: PASS  {"outcome": "proven_infeasible", "cites": [[5, "bound_violation"]], "submits": [[4, false, "refusal needs evidence: refuse with verdict PROVEN_INFEASIBL"], [6, true, ""]]}
+GUI phase done: [{"step": "api rows", "exit": 0, "seconds": 301.8}, {"step": "transport rows", "exit": 0, "seconds": 0.8}, {"step": "edge pass", "exit": 0, "seconds": 291.9}, {"step": "edge rows", "exit": 0}] server exit 0

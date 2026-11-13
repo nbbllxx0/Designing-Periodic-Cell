@@ -1,0 +1,197 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "E100_min": {
+     "unit": "GPa",
+     "value": 3.53
+    },
+    "density_max": 0.12,
+    "gap": {
+     "f_hi": 0.4448281964447978,
+     "f_lo": 0.2856092479018259,
+     "unit": "f*"
+    }
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.01829015544041451,
+     "density_max": 0.12,
+     "gap": {
+      "f_hi": 0.4448281964447978,
+      "f_lo": 0.2856092479018259
+     }
+    },
+    "targets": {
+     "E100_min": [
+      3.53,
+      "GPa"
+     ],
+     "density_max": 0.12,
+     "gap": {
+      "f_hi": 0.4448281964447978,
+      "f_lo": 0.2856092479018259
+     }
+    }
+   },
+   "seq": 2,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.03640516092800831,
+       "slack_opt": -0.030829727178040743,
+       "slack_pess": -0.08157428809348774,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.297391,
+         "w": 0.12087
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.014190571240122223,
+       "slack_opt": -0.014190571240122223,
+       "slack_pess": -0.10614169329426251,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.297391,
+         "w": 0.108696
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.06233837513989112,
+       "slack_opt": -0.05662343135734854,
+       "slack_pess": -0.13883090516348012,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.297391,
+         "w": 0.133043
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 75,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "BORDERLINE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.01829015544041451,
+     "density_max": 0.12,
+     "gap": {
+      "f_hi": 0.4448281964447978,
+      "f_lo": 0.2856092479018259
+     }
+    },
+    "verdict": "BORDERLINE",
+    "violated": []
+   },
+   "seq": 3,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": -0.03640516092800831,
+     "slack_opt": -0.030829727178040743,
+     "slack_pess": -0.08157428809348774,
+     "spec": {
+      "family": "resonator",
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.297391,
+       "w": 0.12087
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.014190571240122223,
+     "slack_opt": -0.014190571240122223,
+     "slack_pess": -0.10614169329426251,
+     "spec": {
+      "family": "resonator",
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.297391,
+       "w": 0.108696
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.06233837513989112,
+     "slack_opt": -0.05662343135734854,
+     "slack_pess": -0.13883090516348012,
+     "spec": {
+      "family": "resonator",
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.297391,
+       "w": 0.133043
+      }
+     }
+    }
+   ],
+   "n_cells": 2714,
+   "n_clear": 0,
+   "n_possible": 75,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "BORDERLINE"
+  },
+  "bounds_verdict": "NOT_REFUTED",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "E100_min": 0.01829015544041451,
+   "density_max": 0.12,
+   "gap": {
+    "f_hi": 0.4448281964447978,
+    "f_lo": 0.2856092479018259
+   }
+  },
+  "verdict": "BORDERLINE",
+  "violated": []
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S01_targets\\30-check-bounds"
+}

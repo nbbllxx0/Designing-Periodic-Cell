@@ -1,0 +1,12 @@
+{"case": "cb_c0.5_w0.2_nu0.3", "n_miss_lo": 0, "n_miss_hi": 0, "excess_lo_pct": 0.0, "excess_hi_pct": 0.0, "beyond_safe_lo": false, "beyond_safe_hi": false, "numerical_flags": 0, "seconds": 407.3}
+{"case": "cb_c0.6_w0.2_nu0.342", "n_miss_lo": 0, "n_miss_hi": 0, "excess_lo_pct": 0.0, "excess_hi_pct": 0.0, "beyond_safe_lo": false, "beyond_safe_hi": false, "numerical_flags": 0, "seconds": 532.0}
+{"case": "cb_c0.6_w0.3_nu0.3", "n_miss_lo": 0, "n_miss_hi": 0, "excess_lo_pct": 0.0, "excess_hi_pct": 0.0, "beyond_safe_lo": false, "beyond_safe_hi": false, "numerical_flags": 0, "seconds": 697.6}
+{"case": "cb_c0.7_w0.3_nu0.3", "n_miss_lo": 0, "n_miss_hi": 0, "excess_lo_pct": 0.0, "excess_hi_pct": 0.0, "beyond_safe_lo": false, "beyond_safe_hi": false, "numerical_flags": 0, "seconds": 1004.1}
+{"case": "cb_c0.8_w0.3_nu0.3", "n_miss_lo": 0, "n_miss_hi": 0, "excess_lo_pct": 0.0, "excess_hi_pct": 0.0, "beyond_safe_lo": false, "beyond_safe_hi": false, "numerical_flags": 0, "seconds": 1338.3}
+{"case": "strut_bcc_R0.27_r0.06_nu0.342", "n_miss_lo": 0, "n_miss_hi": 0, "excess_lo_pct": 0.0, "excess_hi_pct": 0.0, "beyond_safe_lo": false, "beyond_safe_hi": false, "numerical_flags": 0, "seconds": 555.6}
+{"case": "thin_sl_c0.402_w0.061_nu0.3", "n_miss_lo": 0, "n_miss_hi": 0, "excess_lo_pct": 0.0, "excess_hi_pct": 0.0, "beyond_safe_lo": false, "beyond_safe_hi": false, "numerical_flags": 0, "seconds": 698.5}
+{"case": "tpms_schwarzp_d0.25_nu0.3", "n_miss_lo": 0, "n_miss_hi": 0, "excess_lo_pct": 0.0, "excess_hi_pct": 0.0, "beyond_safe_lo": false, "beyond_safe_hi": false, "numerical_flags": 0, "seconds": 789.5}
+Traceback (most recent call last):
+  File "C:\AI\AgenticMetamaterials\scripts\experiments\v12_kscan_power.py", line 79, in <module>
+    if ca["below"] < nb:  # band j above lo20 here
+TypeError: '<' not supported between instances of 'int' and 'NoneType'

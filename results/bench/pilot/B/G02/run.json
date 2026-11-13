@@ -1,0 +1,19 @@
+{
+ "brief": "G02",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 143.2,
+ "usage": {
+  "input_tokens": 608075,
+  "cached_input_tokens": 580224,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2022,
+  "reasoning_output_tokens": 838
+ },
+ "final": "Released a preliminary 12 mm Ti-6Al-4V sphere-and-ligament cell with normalized parameters `c=0.314278`, `w=0.110281`. Its estimated complete band gap is **59.7\u2013223.5 kHz**, covering your requested interval. The gap and 3D printability remain unverified; this is not a certified guarantee of blocking every elastic wave.",
+ "stderr_tail": ""
+}

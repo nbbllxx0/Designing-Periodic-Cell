@@ -1,0 +1,3 @@
+{"checker":"c5f8c89871b3bad6","code":"f1a6d625064a6d18","id":"0bfed6e802eb","profile":"C","schema":"amm-tools/3","schema_version":"amm-tools/3","t":"2026-11-08T16:32:03.298+00:00","type":"session"}
+{"actor":"cli","args":{"cell_size":10,"cell_size_unit":"mm"},"dt_s":0.0,"ok":true,"result":{"cell_size":[10.0,"mm"],"families":["tpms","struts","resonator"]},"result_hash":"bb0f9cdaa8f97d7f","schema_version":"amm-tools/3","seq":1,"state_hash":"9b19908199cca71b","t":"2026-11-08T16:32:03.331+00:00","tool":"set_constraints","type":"call"}
+{"actor":"cli","args":{},"dt_s":0.0,"error":"no targets that can be normalized yet","ok":false,"schema_version":"amm-tools/3","seq":2,"state_hash":"9b19908199cca71b","t":"2026-11-08T16:32:03.332+00:00","tool":"check_bounds","type":"call"}

@@ -1,0 +1,1 @@
+{"decision":"need_info","material":"PA12","cell_size":null,"targets":{"density_max":0.29,"E100_min":{"value":592,"unit":"MPa"}},"note":"The necessary bound E100 ≤ 0.29 E_PA12 requires solid PA12 Young’s modulus of at least approximately 2.041 GPa; please specify its elastic constants so feasibility can be assessed."}

@@ -1,0 +1,1 @@
+No design was released; the verdict is **UNDETERMINED**. For 5 mm 316L cells and the clarified 264–410 kHz target, the best candidate predicts a complete gap covering the interval, but fails the pessimistic check. Certification is unavailable in this session, so full coverage remains unverified.

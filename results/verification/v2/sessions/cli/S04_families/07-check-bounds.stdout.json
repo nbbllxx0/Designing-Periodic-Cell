@@ -1,0 +1,197 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "families": [
+     "struts"
+    ]
+   },
+   "ok": true,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "struts"
+    ]
+   },
+   "seq": 2,
+   "tool": "set_constraints"
+  },
+  {
+   "args": {
+    "gap": {
+     "f_hi": 0.35,
+     "f_lo": 0.25,
+     "unit": "f*"
+    }
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    }
+   },
+   "seq": 3,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.02883000000000006,
+       "slack_opt": 0.4695225644667691,
+       "slack_pess": -0.02883000000000006,
+       "spec": {
+        "family": "struts",
+        "kind": "sc",
+        "params": {
+         "R": 0.309091,
+         "r": 0.063913
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.08447999999999993,
+       "slack_opt": 0.41246065651438957,
+       "slack_pess": -0.08447999999999993,
+       "spec": {
+        "family": "struts",
+        "kind": "sc",
+        "params": {
+         "R": 0.298182,
+         "r": 0.063913
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.09267666666666674,
+       "slack_opt": 0.4394551295664657,
+       "slack_pess": -0.09267666666666674,
+       "spec": {
+        "family": "struts",
+        "kind": "sc",
+        "params": {
+         "R": 0.32,
+         "r": 0.063913
+        }
+       }
+      }
+     ],
+     "n_cells": 1395,
+     "n_clear": 0,
+     "n_possible": 178,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "BORDERLINE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.35,
+      "f_lo": 0.25
+     }
+    },
+    "verdict": "BORDERLINE",
+    "violated": []
+   },
+   "seq": 4,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": -0.02883000000000006,
+     "slack_opt": 0.4695225644667691,
+     "slack_pess": -0.02883000000000006,
+     "spec": {
+      "family": "struts",
+      "kind": "sc",
+      "params": {
+       "R": 0.309091,
+       "r": 0.063913
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.08447999999999993,
+     "slack_opt": 0.41246065651438957,
+     "slack_pess": -0.08447999999999993,
+     "spec": {
+      "family": "struts",
+      "kind": "sc",
+      "params": {
+       "R": 0.298182,
+       "r": 0.063913
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.09267666666666674,
+     "slack_opt": 0.4394551295664657,
+     "slack_pess": -0.09267666666666674,
+     "spec": {
+      "family": "struts",
+      "kind": "sc",
+      "params": {
+       "R": 0.32,
+       "r": 0.063913
+      }
+     }
+    }
+   ],
+   "n_cells": 1395,
+   "n_clear": 0,
+   "n_possible": 178,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "BORDERLINE"
+  },
+  "bounds_verdict": "NOT_REFUTED",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "gap": {
+    "f_hi": 0.35,
+    "f_lo": 0.25
+   }
+  },
+  "verdict": "BORDERLINE",
+  "violated": []
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S04_families\\07-check-bounds"
+}

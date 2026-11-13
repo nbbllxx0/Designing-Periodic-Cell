@@ -1,0 +1,29 @@
+{
+ "brief": "A16",
+ "arm": "D",
+ "profile": "D",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 20.2,
+ "usage": {
+  "input_tokens": 25540,
+  "cached_input_tokens": 19200,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 722,
+  "reasoning_output_tokens": 522
+ },
+ "final": "{\"decision\":\"refuse\",\"material\":\"PA12\",\"cell_size\":[25,\"mm\"],\"targets\":{\"density_max\":0.24,\"E100_min\":{\"value\":36.8,\"unit\":\"MPa\"},\"gap\":{\"f_lo\":13.2,\"f_hi\":23.2,\"unit\":\"kHz\"}},\"verdict\":\"UNDETERMINED\",\"note\":\"Without homogenization and full Bloch-spectrum calculations, I cannot certify a design meeting these targets, including the complete 3D band gap, or establish infeasibility.\"}",
+ "rounds": 2,
+ "parsed": true,
+ "job": "codex-D-r1-A16",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "e1dd6ec8e912acde",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "01274f97dc97276b"
+}

@@ -1,0 +1,43 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "Ti6Al4V"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 113800000000.0,
+    "atlas_available": true,
+    "material": "Ti6Al4V",
+    "nu": 0.342,
+    "rho_kg_m3": 4430.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {},
+   "error": "no targets that can be normalized yet",
+   "ok": false,
+   "seq": 2,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": {
+  "error": "no targets that can be normalized yet",
+  "tool": "check_bounds"
+ },
+ "ok": false,
+ "profile": "C",
+ "result": {
+  "E_Pa": 113800000000.0,
+  "atlas_available": true,
+  "material": "Ti6Al4V",
+  "nu": 0.342,
+  "rho_kg_m3": 4430.0
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S16_addendum\\01-check-bounds"
+}

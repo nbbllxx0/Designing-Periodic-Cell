@@ -1,0 +1,288 @@
+{
+ "seed": 20261108,
+ "per_arm": 5,
+ "rule": "python scripts/verify/v10/select_e4.py",
+ "strata": {
+  "D/released": {
+   "size": 0,
+   "n": 0,
+   "picked": []
+  },
+  "D/refused": {
+   "size": 72,
+   "n": 4,
+   "picked": [
+    "codex-D-r1-G15",
+    "codex-D-r1-M12",
+    "codex-D-r1-M15",
+    "codex-D-r1-S14"
+   ]
+  },
+  "D/other": {
+   "size": 6,
+   "n": 1,
+   "picked": [
+    "codex-D-r1-X05"
+   ]
+  },
+  "B/released": {
+   "size": 15,
+   "n": 1,
+   "picked": [
+    "codex-B-r1-S09"
+   ]
+  },
+  "B/refused": {
+   "size": 62,
+   "n": 3,
+   "picked": [
+    "codex-B-r1-A07",
+    "codex-B-r1-M14",
+    "codex-B-r1-S14"
+   ]
+  },
+  "B/other": {
+   "size": 1,
+   "n": 1,
+   "picked": [
+    "codex-B-r1-N09"
+   ]
+  },
+  "C/released": {
+   "size": 52,
+   "n": 3,
+   "picked": [
+    "codex-C-r1-A15",
+    "codex-C-r1-M05",
+    "codex-C-r1-S13"
+   ]
+  },
+  "C/refused": {
+   "size": 26,
+   "n": 2,
+   "picked": [
+    "codex-C-r1-A10",
+    "codex-C-r1-G07"
+   ]
+  },
+  "C/other": {
+   "size": 0,
+   "n": 0,
+   "picked": []
+  }
+ },
+ "sample": [
+  {
+   "job": "codex-D-r1-G15",
+   "arm": "D",
+   "stratum": "refused",
+   "brief": "G15",
+   "decision": "refuse",
+   "verdict": "UNDETERMINED",
+   "score_outcome": "false_refusal",
+   "n_calls": 4,
+   "n_certify": 0,
+   "n_search": 0,
+   "logged_tool_seconds": 0.0,
+   "log": "results/bench/e4/jobs/codex-D-r1-G15/session/session.jsonl"
+  },
+  {
+   "job": "codex-D-r1-M12",
+   "arm": "D",
+   "stratum": "refused",
+   "brief": "M12",
+   "decision": "refuse",
+   "verdict": "UNDETERMINED",
+   "score_outcome": "false_refusal",
+   "n_calls": 4,
+   "n_certify": 0,
+   "n_search": 0,
+   "logged_tool_seconds": 0.0,
+   "log": "results/bench/e4/jobs/codex-D-r1-M12/session/session.jsonl"
+  },
+  {
+   "job": "codex-D-r1-M15",
+   "arm": "D",
+   "stratum": "refused",
+   "brief": "M15",
+   "decision": "refuse",
+   "verdict": "UNDETERMINED",
+   "score_outcome": "false_refusal",
+   "n_calls": 4,
+   "n_certify": 0,
+   "n_search": 0,
+   "logged_tool_seconds": 0.0,
+   "log": "results/bench/e4/jobs/codex-D-r1-M15/session/session.jsonl"
+  },
+  {
+   "job": "codex-D-r1-S14",
+   "arm": "D",
+   "stratum": "refused",
+   "brief": "S14",
+   "decision": "refuse",
+   "verdict": "UNDETERMINED",
+   "score_outcome": "false_refusal",
+   "n_calls": 3,
+   "n_certify": 0,
+   "n_search": 0,
+   "logged_tool_seconds": 0.0,
+   "log": "results/bench/e4/jobs/codex-D-r1-S14/session/session.jsonl"
+  },
+  {
+   "job": "codex-D-r1-X05",
+   "arm": "D",
+   "stratum": "other",
+   "brief": "X05",
+   "decision": "need_info",
+   "verdict": null,
+   "score_outcome": "no_answer",
+   "n_calls": 3,
+   "n_certify": 0,
+   "n_search": 0,
+   "logged_tool_seconds": 0.0,
+   "log": "results/bench/e4/jobs/codex-D-r1-X05/session/session.jsonl"
+  },
+  {
+   "job": "codex-B-r1-S09",
+   "arm": "B",
+   "stratum": "released",
+   "brief": "S09",
+   "decision": "release",
+   "verdict": null,
+   "score_outcome": "success",
+   "n_calls": 10,
+   "n_certify": 0,
+   "n_search": 0,
+   "logged_tool_seconds": 5.6,
+   "log": "results/bench/e4/jobs/codex-B-r1-S09/session/session.jsonl"
+  },
+  {
+   "job": "codex-B-r1-A07",
+   "arm": "B",
+   "stratum": "refused",
+   "brief": "A07",
+   "decision": "refuse",
+   "verdict": "UNDETERMINED",
+   "score_outcome": "false_refusal",
+   "n_calls": 15,
+   "n_certify": 0,
+   "n_search": 2,
+   "logged_tool_seconds": 194.3,
+   "log": "results/bench/e4/jobs/codex-B-r1-A07/session/session.jsonl"
+  },
+  {
+   "job": "codex-B-r1-M14",
+   "arm": "B",
+   "stratum": "refused",
+   "brief": "M14",
+   "decision": "refuse",
+   "verdict": "UNDETERMINED",
+   "score_outcome": "false_refusal",
+   "n_calls": 14,
+   "n_certify": 0,
+   "n_search": 1,
+   "logged_tool_seconds": 63.9,
+   "log": "results/bench/e4/jobs/codex-B-r1-M14/session/session.jsonl"
+  },
+  {
+   "job": "codex-B-r1-S14",
+   "arm": "B",
+   "stratum": "refused",
+   "brief": "S14",
+   "decision": "refuse",
+   "verdict": "UNDETERMINED",
+   "score_outcome": "false_refusal",
+   "n_calls": 11,
+   "n_certify": 0,
+   "n_search": 1,
+   "logged_tool_seconds": 107.4,
+   "log": "results/bench/e4/jobs/codex-B-r1-S14/session/session.jsonl"
+  },
+  {
+   "job": "codex-B-r1-N09",
+   "arm": "B",
+   "stratum": "other",
+   "brief": "N09",
+   "decision": "none",
+   "verdict": null,
+   "score_outcome": "no_answer",
+   "n_calls": 16,
+   "n_certify": 0,
+   "n_search": 2,
+   "logged_tool_seconds": 282.8,
+   "log": "results/bench/e4/jobs/codex-B-r1-N09/session/session.jsonl"
+  },
+  {
+   "job": "codex-C-r1-A15",
+   "arm": "C",
+   "stratum": "released",
+   "brief": "A15",
+   "decision": "release",
+   "verdict": null,
+   "score_outcome": "success",
+   "n_calls": 23,
+   "n_certify": 3,
+   "n_search": 2,
+   "logged_tool_seconds": 1195.6,
+   "log": "results/bench/e4/jobs/codex-C-r1-A15/session/session.jsonl"
+  },
+  {
+   "job": "codex-C-r1-M05",
+   "arm": "C",
+   "stratum": "released",
+   "brief": "M05",
+   "decision": "release",
+   "verdict": null,
+   "score_outcome": "success",
+   "n_calls": 16,
+   "n_certify": 1,
+   "n_search": 1,
+   "logged_tool_seconds": 419.2,
+   "log": "results/bench/e4/jobs/codex-C-r1-M05/session/session.jsonl"
+  },
+  {
+   "job": "codex-C-r1-S13",
+   "arm": "C",
+   "stratum": "released",
+   "brief": "S13",
+   "decision": "release",
+   "verdict": null,
+   "score_outcome": "success",
+   "n_calls": 13,
+   "n_certify": 1,
+   "n_search": 1,
+   "logged_tool_seconds": 144.3,
+   "log": "results/bench/e4/jobs/codex-C-r1-S13/session/session.jsonl"
+  },
+  {
+   "job": "codex-C-r1-A10",
+   "arm": "C",
+   "stratum": "refused",
+   "brief": "A10",
+   "decision": "refuse",
+   "verdict": "UNDETERMINED",
+   "score_outcome": "false_refusal",
+   "n_calls": 25,
+   "n_certify": 4,
+   "n_search": 3,
+   "logged_tool_seconds": 1020.5,
+   "log": "results/bench/e4/jobs/codex-C-r1-A10/session/session.jsonl"
+  },
+  {
+   "job": "codex-C-r1-G07",
+   "arm": "C",
+   "stratum": "refused",
+   "brief": "G07",
+   "decision": "refuse",
+   "verdict": "UNDETERMINED",
+   "score_outcome": "false_refusal",
+   "n_calls": 15,
+   "n_certify": 2,
+   "n_search": 2,
+   "logged_tool_seconds": 677.4,
+   "log": "results/bench/e4/jobs/codex-C-r1-G07/session/session.jsonl"
+  }
+ ],
+ "n": 15,
+ "sum_logged_tool_seconds": 4111.0
+}

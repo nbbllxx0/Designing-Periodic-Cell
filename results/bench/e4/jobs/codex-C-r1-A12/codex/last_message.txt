@@ -1,0 +1,1 @@
+Released a certified PA12 cube-and-bars unit cell with \(c=0.340331a\) and \(w=0.2655a\). Its guarded solid fraction is at most **17.921%**, and its axial Young’s modulus is at least **136.62 MPa** in x, y and z. These meet both targets for the nominal geometry; the ±0.01a robustness check did not pass.

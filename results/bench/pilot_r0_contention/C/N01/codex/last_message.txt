@@ -1,0 +1,1 @@
+No design released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm atlas and additional search found no 316L unit cell meeting both ≤12% solid volume and ≥16.2 GPa axial modulus in x, y, and z. This does not prove that all possible geometries are infeasible.

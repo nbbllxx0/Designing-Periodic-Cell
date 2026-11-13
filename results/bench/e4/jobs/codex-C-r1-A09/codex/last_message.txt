@@ -1,0 +1,1 @@
+Released a certified 12 mm 316L sphere-and-ligament resonator with parameters \(c=0.356522\), \(w=0.108696\), in cell-size units. Its complete infinite-lattice band gap covers **99.4–113 kHz** for every wave direction and polarization. Manufacturability and finite-core attenuation were not evaluated.

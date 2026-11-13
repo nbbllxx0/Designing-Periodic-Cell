@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b6c8-377b-7a50-b0c4-056afad63853"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"decision\":\"ask\",\"question\":\"What kind of vibration suppression do you need between 132 and 177 kHz?\",\"options\":[{\"label\":\"Complete band gap for all propagation directions and polarizations\",\"set\":{\"gap_type\":\"complete\"}},{\"label\":\"Band gap along a particular propagation direction\",\"set\":{\"gap_type\":\"directional\"}},{\"label\":\"Reduced vibration transmission through a finite component\",\"set\":{\"gap_type\":\"finite_structure_attenuation\"}}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":12724,"cached_input_tokens":10752,"cache_write_input_tokens":0,"output_tokens":179,"reasoning_output_tokens":83}}

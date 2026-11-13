@@ -1,0 +1,7 @@
+results/gui/sessions/live-20261108-060336-5e8b/session.jsonl True 0 None known code identity 0.0 []
+results/gui/sessions/live-20261108-060337-8729/session.jsonl True 13 temporary directory (removed) results 52.4 []
+results/gui/sessions/live-20261108-060500-1bed/session.jsonl True 6 None known code identity 0.3 []
+examples/outputs/02_session/session.jsonl True 12 None results 22.4 []
+examples/outputs/03_session/session.jsonl True 8 temporary directory (removed) known code identity 18.8 []
+exact: 5 of 5
+replays exit 0

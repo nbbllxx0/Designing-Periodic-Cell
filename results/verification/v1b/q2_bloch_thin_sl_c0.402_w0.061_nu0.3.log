@@ -1,0 +1,9 @@
+thin_sl_c0.402_w0.061_nu0.3   Q2FCM n=8 s=5: ne=280 (cut 224), ndof=8154, density=0.27395, removed=0.00e+00, setup 0.3s
+thin_sl_c0.402_w0.061_nu0.3   search done 832.9s {'lo': [{'k': [1.0, 1.0, 1.0], 'value': 0.12900667829324686}, {'k': [0.9982544674878416, 0.9980270866461951, 0.9978957956051929], 'value': 0.12900620735302457}], 'hi': [{'k': [1.0, 0.0, 0.0], 'value': 0.9777104244357394}, {'k': [1.0, 0.0, 0.0], 'value': 0.9777104244357413}]}
+thin_sl_c0.402_w0.061_nu0.3   Q2FCM n=16 s=5: ne=1616 (cut 848), ndof=45042, density=0.27388, removed=-1.01e-15, setup 1.4s
+thin_sl_c0.402_w0.061_nu0.3   level n=16: 45 k, 603.5s
+thin_sl_c0.402_w0.061_nu0.3   Q2FCM n=20 s=5: ne=2776 (cut 1208), ndof=75402, density=0.27391, removed=-6.23e-16, setup 2.3s
+thin_sl_c0.402_w0.061_nu0.3   level n=20: 8 k, 207.8s
+thin_sl_c0.402_w0.061_nu0.3   Q2FCM n=24 s=5: ne=4776 (cut 1808), ndof=127362, density=0.27391, removed=-2.16e-15, setup 4.0s
+thin_sl_c0.402_w0.061_nu0.3   level n=24: 8 k, 388.2s
+thin_sl_c0.402_w0.061_nu0.3 done 2032.5 s

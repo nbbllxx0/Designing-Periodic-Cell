@@ -1,0 +1,527 @@
+{
+ "scenario": "S05_invalid",
+ "interface": "lib",
+ "rows": [
+  {
+   "scenario": "S05_invalid",
+   "check": "out_of_box",
+   "capability": "invalid: out-of-box parameter",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "evaluate",
+   "expected_refusal": true,
+   "observed": "refused: cube_bars.c = 0.95 outside the family box [0.3, 0.86]",
+   "passed": true,
+   "failures": [],
+   "seq": 3,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S05_invalid/session.jsonl"
+  },
+  {
+   "scenario": "S05_invalid",
+   "check": "validity_rule",
+   "capability": "invalid: family validity rule",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "evaluate",
+   "expected_refusal": true,
+   "observed": "refused: cube_bars.w = 0.48 outside the family box [0.06, 0.36]",
+   "passed": false,
+   "failures": [
+    "error does not contain 'validity rule': cube_bars.w = 0.48 outside the family box [0.06, 0.36]"
+   ],
+   "seq": 4,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S05_invalid/session.jsonl"
+  },
+  {
+   "scenario": "S05_invalid",
+   "check": "tpms_no_mode",
+   "capability": "invalid: TPMS without mode",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "evaluate",
+   "expected_refusal": true,
+   "observed": "refused: TPMS design needs params.mode in ['network', 'sheet']",
+   "passed": true,
+   "failures": [],
+   "seq": 5,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S05_invalid/session.jsonl"
+  },
+  {
+   "scenario": "S05_invalid",
+   "check": "unknown_kind",
+   "capability": "invalid: unknown kind",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "evaluate",
+   "expected_refusal": true,
+   "observed": "refused: designs.0.kind: Input should be 'gyroid', 'schwarz_p', 'diamond', 'iwp', 'sc', 'bcc', 'octet', 'cube_bars' or 'sphere_ligaments'",
+   "passed": true,
+   "failures": [],
+   "seq": 6,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S05_invalid/session.jsonl"
+  },
+  {
+   "scenario": "S05_invalid",
+   "check": "too_many",
+   "capability": "invalid: more than 16 designs",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "evaluate",
+   "expected_refusal": true,
+   "observed": "refused: give 1-16 designs",
+   "passed": true,
+   "failures": [],
+   "seq": 7,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S05_invalid/session.jsonl"
+  },
+  {
+   "scenario": "S05_invalid",
+   "check": "top_range",
+   "capability": "invalid: top out of range",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "atlas_suggest",
+   "expected_refusal": true,
+   "observed": "refused: top must be 1-10",
+   "passed": true,
+   "failures": [],
+   "seq": 8,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S05_invalid/session.jsonl"
+  },
+  {
+   "scenario": "S05_invalid",
+   "check": "neg_cell",
+   "capability": "invalid: negative cell size",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "set_constraints",
+   "expected_refusal": true,
+   "observed": "refused: cell_size must be positive",
+   "passed": true,
+   "failures": [],
+   "seq": 9,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S05_invalid/session.jsonl"
+  },
+  {
+   "scenario": "S05_invalid",
+   "check": "no_spend",
+   "capability": "rejections spend no budget",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "get_session",
+   "expected_refusal": false,
+   "observed": "accepted",
+   "passed": true,
+   "failures": [],
+   "seq": 10,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S05_invalid/session.jsonl"
+  },
+  {
+   "scenario": "S05_invalid",
+   "check": "unknown_tool",
+   "capability": "invalid: unknown tool",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "design_everything",
+   "expected_refusal": true,
+   "observed": "refused: unknown tool 'design_everything'",
+   "passed": true,
+   "failures": [],
+   "seq": null,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S05_invalid/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_material",
+   "args": {
+    "name": "316L"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.3,
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "density_max": 0.3
+    },
+    "targets": {
+     "density_max": 0.3
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "evaluate",
+   "args": {
+    "designs": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.95,
+       "w": 0.2
+      }
+     }
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 3,
+   "error": "cube_bars.c = 0.95 outside the family box [0.3, 0.86]",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "evaluate",
+   "args": {
+    "designs": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.5,
+       "w": 0.48
+      }
+     }
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 4,
+   "error": "cube_bars.w = 0.48 outside the family box [0.06, 0.36]",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 4,
+   "tool": "evaluate",
+   "args": {
+    "designs": [
+     {
+      "kind": "gyroid",
+      "params": {
+       "density": 0.3
+      }
+     }
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 5,
+   "error": "TPMS design needs params.mode in ['network', 'sheet']",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 5,
+   "tool": "evaluate",
+   "args": {
+    "designs": [
+     {
+      "kind": "honeycomb",
+      "params": {
+       "t": 0.1
+      }
+     }
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 6,
+   "error": "designs.0.kind: Input should be 'gyroid', 'schwarz_p', 'diamond', 'iwp', 'sc', 'bcc', 'octet', 'cube_bars' or 'sphere_ligaments'",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 6,
+   "tool": "evaluate",
+   "args": {
+    "designs": [
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     },
+     {
+      "kind": "bcc",
+      "params": {
+       "r": 0.08,
+       "R": 0.0
+      }
+     }
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 7,
+   "error": "give 1-16 designs",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 7,
+   "tool": "atlas_suggest",
+   "args": {
+    "top": 50
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 8,
+   "error": "top must be 1-10",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 8,
+   "tool": "set_constraints",
+   "args": {
+    "cell_size": -5
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 9,
+   "error": "cell_size must be positive",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 9,
+   "tool": "get_session",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 10,
+   "error": null,
+   "result": {
+    "budget": {
+     "as_built": 8,
+     "certify": 4,
+     "designs": 400
+    },
+    "budget_used": {
+     "as_built": 0,
+     "certify": 0,
+     "designs": 0
+    },
+    "cannot_normalize": [],
+    "certificates": {},
+    "evidence": [],
+    "normalized_targets": {
+     "density_max": 0.3
+    },
+    "profile": "C",
+    "schema_version": "amm-tools/3",
+    "state": {
+     "cell_size": null,
+     "families": [
+      "tpms",
+      "struts",
+      "resonator"
+     ],
+     "gap_type": null,
+     "material": "316L",
+     "sources": {},
+     "targets": {
+      "density_max": 0.3
+     }
+    },
+    "submission": null,
+    "tools": [
+     "set_material",
+     "set_constraints",
+     "set_target",
+     "set_source",
+     "check_bounds",
+     "ask_clarification",
+     "list_families",
+     "atlas_suggest",
+     "evaluate",
+     "search",
+     "certify",
+     "as_built",
+     "screen_manufacturing",
+     "export",
+     "submit",
+     "undo",
+     "get_session"
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 10,
+   "tool": "design_everything",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": null,
+   "error": "unknown tool 'design_everything'",
+   "result": null,
+   "cli": null
+  }
+ ],
+ "seconds": 0.1,
+ "root": "results/verification/v2/sessions/lib/S05_invalid",
+ "finished": "2026-11-08 08:17:19"
+}

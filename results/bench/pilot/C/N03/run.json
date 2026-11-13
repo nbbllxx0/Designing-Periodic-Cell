@@ -1,0 +1,19 @@
+{
+ "brief": "N03",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 110.3,
+ "usage": {
+  "input_tokens": 542336,
+  "cached_input_tokens": 512000,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1210,
+  "reasoning_output_tokens": 229
+ },
+ "final": "No design was released. AMM returned **NOT_FOUND_IN_FAMILIES**: the atlas and optimization search found no 12 mm PA12 cell meeting the solid-fraction, stiffness, and complete-band-gap requirements simultaneously. This does not prove the request is physically impossible.",
+ "stderr_tail": "2026-11-05T20:45:09.561077Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

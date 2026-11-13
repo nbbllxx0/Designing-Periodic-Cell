@@ -1,0 +1,1 @@
+Released a 316L sphere-and-ligament unit cell with normalized parameters **c = 0.253043** and **w = 0.291304**. Tool predictions give **17.52% relative density** and **E[100] = 15.49 GPa**, meeting both targets. These results are not certified; manufacturability was not evaluated.

@@ -1,0 +1,19 @@
+{
+ "brief": "G03",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 394.0,
+ "usage": {
+  "input_tokens": 557745,
+  "cached_input_tokens": 521984,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1495,
+  "reasoning_output_tokens": 257
+ },
+ "final": "Released a certified sphere-and-ligament PA12 cell, size 10 mm, with normalized parameters **c = 0.365407** and **w = 0.106886**. Its complete 3D band gap covers **44\u201354.6 kHz** for all elastic-wave directions and polarizations. The \u00b10.1 mm geometry-offset robustness checks also passed.",
+ "stderr_tail": "2026-11-05T19:22:45.469277Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

@@ -1,0 +1,1 @@
+No design released: **NOT_FOUND_IN_FAMILIES**. The amm searches found no 316L unit cell meeting both solid fraction ≤24% and E[100] ≥22.3 GPa. This does not prove the requirements are infeasible.

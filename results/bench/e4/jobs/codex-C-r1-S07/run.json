@@ -1,0 +1,33 @@
+{
+ "brief": "S07",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 126.0,
+ "usage": {
+  "input_tokens": 230270,
+  "cached_input_tokens": 210560,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 943,
+  "reasoning_output_tokens": 69
+ },
+ "final": "Released a certified **316L diamond TPMS sheet** with 24% nominal solid volume. Its certified solid fraction is at most **24.01%**, and bulk modulus is at least **15.36 GPa**, satisfying both limits. LPBF manufacturability was not evaluated.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-S07",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

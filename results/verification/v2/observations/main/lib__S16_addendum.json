@@ -1,0 +1,345 @@
+{
+ "scenario": "S16_addendum",
+ "interface": "lib",
+ "rows": [
+  {
+   "scenario": "S16_addendum",
+   "check": "validity_rule_r2",
+   "capability": "invalid: family validity rule (inside the box)",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "evaluate",
+   "expected_refusal": true,
+   "observed": "refused: cube_bars parameters {'c': 0.35, 'w': 0.33} violate the family's validity rule",
+   "passed": true,
+   "failures": [],
+   "seq": 3,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S16_addendum/session.jsonl"
+  },
+  {
+   "scenario": "S16_addendum",
+   "check": "cb_records_r2",
+   "capability": "bound and atlas records of an infeasible spec",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "check_bounds",
+   "expected_refusal": false,
+   "observed": "accepted: verdict=PROVEN_INFEASIBLE; atlas=NOT_FOUND_IN_FAMILIES; violated=V1",
+   "passed": true,
+   "failures": [],
+   "seq": 4,
+   "dt_s": 0.11,
+   "session": "results/verification/v2/sessions/lib/S16_addendum/session.jsonl"
+  },
+  {
+   "scenario": "S16_addendum",
+   "check": "wrong_verdict_r2",
+   "capability": "refusal with the wrong verdict for the evidence held",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: refusal needs evidence: refuse with verdict UNDETERMINED must cite an evidence record held in this session for the current spec: a certificate with verdict undetermined for the current targets (call certify). Records hel",
+   "passed": true,
+   "failures": [],
+   "seq": 5,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S16_addendum/session.jsonl"
+  },
+  {
+   "scenario": "S16_addendum",
+   "check": "unknown_evidence_seq_r2",
+   "capability": "refusal citing an unknown record",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": true,
+   "observed": "refused: refusal needs evidence: evidence seq 9999 is not an evidence record of this session (get_session lists the records)",
+   "passed": true,
+   "failures": [],
+   "seq": 6,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S16_addendum/session.jsonl"
+  },
+  {
+   "scenario": "S16_addendum",
+   "check": "proven_infeasible_r2",
+   "capability": "outcome: proven_infeasible (cites the bound record)",
+   "interface": "lib",
+   "profile": "C",
+   "tool": "submit",
+   "expected_refusal": false,
+   "observed": "accepted: outcome=proven_infeasible",
+   "passed": true,
+   "failures": [],
+   "seq": 7,
+   "dt_s": 0.0,
+   "session": "results/verification/v2/sessions/lib/S16_addendum/session.jsonl"
+  }
+ ],
+ "calls": [
+  {
+   "i": 0,
+   "tool": "set_material",
+   "args": {
+    "name": "Ti6Al4V"
+   },
+   "argv": null,
+   "dt_s": 0.21,
+   "ok": true,
+   "exit": null,
+   "seq": 1,
+   "error": null,
+   "result": {
+    "E_Pa": 113800000000.0,
+    "atlas_available": true,
+    "material": "Ti6Al4V",
+    "nu": 0.342,
+    "rho_kg_m3": 4430.0
+   },
+   "cli": null
+  },
+  {
+   "i": 1,
+   "tool": "set_target",
+   "args": {
+    "density_max": 0.2,
+    "E100_min": {
+     "value": 0.5,
+     "unit": "E_s"
+    },
+    "clear": true
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 2,
+   "error": null,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    },
+    "targets": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    }
+   },
+   "cli": null
+  },
+  {
+   "i": 2,
+   "tool": "evaluate",
+   "args": {
+    "designs": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.35,
+       "w": 0.33
+      }
+     }
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 3,
+   "error": "cube_bars parameters {'c': 0.35, 'w': 0.33} violate the family's validity rule",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 3,
+   "tool": "check_bounds",
+   "args": {},
+   "argv": null,
+   "dt_s": 0.11,
+   "ok": true,
+   "exit": null,
+   "seq": 4,
+   "error": null,
+   "result": {
+    "advisory": [
+     {
+      "bound": "HS",
+      "limit": 0.11119734101723071,
+      "scope": "isotropic",
+      "statement": "E100_min exceeds the Hashin-Shtrikman upper bound on E",
+      "target": 0.5
+     }
+    ],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.6569516603102323,
+       "slack_opt": -0.6569516603102323,
+       "slack_pess": -0.6889494063583352,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.51913,
+         "w": 0.36
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6692161519846187,
+       "slack_opt": -0.6692161519846187,
+       "slack_pess": -0.7000699307120782,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.543478,
+         "w": 0.346957
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.6703256260747612,
+       "slack_opt": -0.6703256260747612,
+       "slack_pess": -0.70107591889054,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.494783,
+         "w": 0.36
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 0,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "bounds_verdict": "PROVEN_INFEASIBLE",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    },
+    "verdict": "PROVEN_INFEASIBLE",
+    "violated": [
+     {
+      "bound": "V1",
+      "limit": 0.2,
+      "scope": "any",
+      "statement": "E100_min exceeds the Voigt bound phi_max * E_s (any geometry)",
+      "target": 0.5
+     }
+    ]
+   },
+   "cli": null
+  },
+  {
+   "i": 4,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "UNDETERMINED"
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 5,
+   "error": "refusal needs evidence: refuse with verdict UNDETERMINED must cite an evidence record held in this session for the current spec: a certificate with verdict undetermined for the current targets (call certify). Records held for the current spec: seq 4 bound_violation (supports proven_infeasible); seq 4 atlas_not_found (supports not_found_in_families).",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 5,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "PROVEN_INFEASIBLE",
+    "evidence": [
+     9999
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": false,
+   "exit": null,
+   "seq": 6,
+   "error": "refusal needs evidence: evidence seq 9999 is not an evidence record of this session (get_session lists the records)",
+   "result": null,
+   "cli": null
+  },
+  {
+   "i": 6,
+   "tool": "submit",
+   "args": {
+    "decision": "refuse",
+    "verdict": "PROVEN_INFEASIBLE",
+    "evidence": [
+     "$cb1.seq"
+    ]
+   },
+   "argv": null,
+   "dt_s": 0.0,
+   "ok": true,
+   "exit": null,
+   "seq": 7,
+   "error": null,
+   "result": {
+    "outcome_card": {
+     "decision": "refuse",
+     "definition": "a named rigorous bound (Voigt, cubic stability, gap rules) is violated",
+     "design": null,
+     "evidence": [
+      {
+       "kind": "bound_violation",
+       "outcome": "proven_infeasible",
+       "seq": 4,
+       "summary": "bound V1 (any): E100_min exceeds the Voigt bound phi_max * E_s (any geometry); target 0.5 vs limit 0.2",
+       "tool": "check_bounds"
+      }
+     ],
+     "evidence_checked": true,
+     "outcome": "proven_infeasible",
+     "profile": "C",
+     "schema_version": "amm-outcome/1",
+     "title": "Proven infeasible",
+     "verdict": "PROVEN_INFEASIBLE"
+    },
+    "submitted": {
+     "decision": "refuse",
+     "evidence": [
+      {
+       "kind": "bound_violation",
+       "seq": 4,
+       "tool": "check_bounds"
+      }
+     ],
+     "note": "",
+     "outcome": "proven_infeasible",
+     "spec": {
+      "cell_size": null,
+      "gap_type": null,
+      "material": "Ti6Al4V",
+      "nu": 0.342,
+      "targets": {
+       "E100_min": 0.5,
+       "density_max": 0.2
+      }
+     },
+     "verdict": "PROVEN_INFEASIBLE"
+    }
+   },
+   "cli": null
+  }
+ ],
+ "seconds": 1.5,
+ "root": "results/verification/v2/sessions/lib/S16_addendum",
+ "finished": "2026-11-08 08:51:11"
+}

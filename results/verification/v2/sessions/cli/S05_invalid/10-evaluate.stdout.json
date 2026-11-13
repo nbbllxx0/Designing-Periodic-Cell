@@ -1,0 +1,1 @@
+{"cli": "amm-cli/1", "command": "evaluate", "ok": false, "usage_error": "--design is not valid JSON (Expecting property name enclosed in double quotes at position 1): '{bad json'"}

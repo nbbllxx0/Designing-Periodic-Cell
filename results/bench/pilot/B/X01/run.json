@@ -1,0 +1,19 @@
+{
+ "brief": "X01",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 30.7,
+ "usage": {
+  "input_tokens": 155561,
+  "cached_input_tokens": 122880,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 840,
+  "reasoning_output_tokens": 231
+ },
+ "final": "Submitted **PROVEN_INFEASIBLE**; no design was released. Using amm\u2019s 316L modulus of 193 GPa, the theoretical axial modulus upper bound at 16% solid is **30.88 GPa**, below the required **38.6 GPa** in every axis.",
+ "stderr_tail": "2026-11-05T20:31:18.593790Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

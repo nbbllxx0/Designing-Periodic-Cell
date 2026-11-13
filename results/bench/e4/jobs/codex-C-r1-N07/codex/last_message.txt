@@ -1,0 +1,1 @@
+No design was released: **NOT_FOUND_IN_FAMILIES**. The atlas and a 96-evaluation search found no PA12 unit cell meeting both solid fraction ≤14% and C44 ≥74.8 MPa. This does not prove physical impossibility.

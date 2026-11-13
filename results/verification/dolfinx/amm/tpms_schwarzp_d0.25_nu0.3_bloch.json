@@ -1,0 +1,201 @@
+{
+ "spec": {
+  "family": "tpms",
+  "kind": "schwarz_p",
+  "params": {
+   "density": 0.25,
+   "mode": "network"
+  }
+ },
+ "spec_hash": "d55743f4a44e0d21",
+ "targets": {
+  "gap": {
+   "f_lo": 0.4821542675645598,
+   "f_hi": 0.787663739130882
+  }
+ },
+ "solver": {
+  "nu": 0.3,
+  "element": "hex8i",
+  "partial_voxels": "finite-cell"
+ },
+ "checker": "f2e482d81382b400",
+ "blocks": {
+  "bloch": {
+   "claim": {
+    "below_band": 6,
+    "f_lo": 0.4821542675645598,
+    "f_hi": 0.787663739130882
+   },
+   "n_k": 37,
+   "resolutions": {
+    "20": {
+     "ndof": 9918,
+     "passed": true,
+     "numerically_sane": true,
+     "failures": [],
+     "n_failures": 0,
+     "seconds": 46.42
+    },
+    "30": {
+     "ndof": 28452,
+     "passed": true,
+     "numerically_sane": true,
+     "failures": [],
+     "n_failures": 0,
+     "seconds": 188.35
+    }
+   },
+   "passed": true,
+   "edge_extra_seconds": 62.7,
+   "edge_k_kept": {
+    "lo": [
+     [
+      1.0,
+      0.0,
+      0.0
+     ]
+    ],
+    "hi": [
+     [
+      0.0,
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "convergence": {
+    "edges": {
+     "20": [
+      0.4798839383592626,
+      0.8390312121376483
+     ],
+     "30": [
+      0.47121626147347434,
+      0.8348415396911049
+     ],
+     "40": [
+      0.4682108312395357,
+      0.8334110861185622
+     ]
+    },
+    "mode": "three-resolution",
+    "lower_edge": {
+     "p": 2.025991105091971,
+     "p_used": 2.0,
+     "extrapolated": 0.46434670665304323,
+     "remaining": 0.0038641245864925156,
+     "phase_spread": 0.00030650772816093186,
+     "noise": false
+    },
+    "upper_edge": {
+     "p": 2.0688784581697743,
+     "p_used": 2.0,
+     "extrapolated": 0.8315719315252931,
+     "remaining": 0.0018391545932691584,
+     "phase_spread": 6.608119949069735e-05,
+     "noise": false
+    },
+    "phase_edges": [
+     [
+      0.47121626147347434,
+      0.8348415396911049
+     ],
+     [
+      0.471320064149236,
+      0.8347754584916142
+     ],
+     [
+      0.4715227692016353,
+      0.8347920677071852
+     ]
+    ],
+    "safe_interval": [
+     0.4798839383592626,
+     0.8278936223387547
+    ],
+    "safety": 2.0,
+    "passed": true,
+    "edge_search": {
+     "20": {
+      "k_lo": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "k_hi": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "lanczos_solves": 8,
+      "seconds": 28.3
+     },
+     "30": {
+      "k_lo": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "k_hi": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "lanczos_solves": 2,
+      "seconds": 101.0
+     }
+    }
+   },
+   "adversarial": {
+    "n": 10,
+    "ks": [
+     [
+      0.9946,
+      0.9867,
+      0.0054
+     ],
+     [
+      0.9995,
+      0.9789,
+      0.0135
+     ],
+     [
+      0.9992,
+      0.9961,
+      0.0
+     ],
+     [
+      0.9922,
+      0.4258,
+      0.4236
+     ],
+     [
+      0.9907,
+      0.429,
+      0.4221
+     ],
+     [
+      0.9938,
+      0.4261,
+      0.4245
+     ]
+    ],
+    "search_edges": [
+     0.35747906342300284,
+     0.27336180363796575
+    ]
+   },
+   "density_spread": 2.106509870569706e-05,
+   "verdict": {
+    "verdict": "certified"
+   }
+  }
+ },
+ "timing": {
+  "bloch": 330.9
+ },
+ "verdict": "certified",
+ "note": "Bloch block only (certify.bloch_block, frozen E4 code); static block not run",
+ "pid": 73468
+}

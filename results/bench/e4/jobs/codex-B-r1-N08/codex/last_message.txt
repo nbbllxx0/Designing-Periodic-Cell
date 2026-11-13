@@ -1,0 +1,1 @@
+No design was released: **NOT_FOUND_IN_FAMILIES**. Atlas screening and a 96-evaluation search found no 10 mm PA12 cell with a continuous complete gap covering 10.3–139 kHz. This does not prove infeasibility; SLS manufacturability was not evaluated.

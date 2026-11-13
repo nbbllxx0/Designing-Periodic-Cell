@@ -1,0 +1,1 @@
+Released a certified Ti-6Al-4V BCC unit cell with 6 mm period, node radius 1.65 mm, and strut radius 0.33 mm. Certified bounds give solid fraction ≤19.904%, C44 ≥1,584.7 MPa, and a complete elastic band gap of approximately 172.2–354.0 kHz, covering the required 252–288 kHz interval.

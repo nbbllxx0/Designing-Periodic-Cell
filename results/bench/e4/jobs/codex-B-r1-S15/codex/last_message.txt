@@ -1,0 +1,1 @@
+Released a PA12 Schwarz P TPMS sheet with 28% solid fraction. Search estimates predict axial Young’s modulus of 138.9 MPa in x, y and z, and C44 of 98.4 MPa, meeting all three limits. These results are uncertified; SLS manufacturability was not evaluated.

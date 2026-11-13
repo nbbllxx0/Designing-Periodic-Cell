@@ -1,0 +1,19 @@
+{
+ "brief": "R08",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 202.0,
+ "usage": {
+  "input_tokens": 499350,
+  "cached_input_tokens": 468992,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2023,
+  "reasoning_output_tokens": 723
+ },
+ "final": "No design released; verdict: **UNDETERMINED**. A Ti-6Al-4V candidate reached 19.92% solid volume and an estimated axial modulus of 10.73 GPa, but the tool\u2019s optimistic bias exceeds that stiffness margin. Compliance remains unverified; infeasibility has not been proven.",
+ "stderr_tail": ""
+}

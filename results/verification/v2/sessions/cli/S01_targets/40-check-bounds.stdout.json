@@ -1,0 +1,181 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "density_max": -0.1
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "density_max": -0.1
+    },
+    "targets": {
+     "density_max": -0.1
+    }
+   },
+   "seq": 2,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -1.0,
+       "slack_opt": -1.0,
+       "slack_pess": -1.0,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.08,
+         "mode": "network"
+        }
+       }
+      },
+      {
+       "slack_nominal": -1.0,
+       "slack_opt": -1.0,
+       "slack_pess": -1.0,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.1,
+         "mode": "network"
+        }
+       }
+      },
+      {
+       "slack_nominal": -1.0,
+       "slack_opt": -1.0,
+       "slack_pess": -1.0,
+       "spec": {
+        "family": "tpms",
+        "kind": "schwarz_p",
+        "params": {
+         "density": 0.12,
+         "mode": "network"
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 0,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "bounds_verdict": "PROVEN_INFEASIBLE",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "density_max": -0.1
+    },
+    "verdict": "PROVEN_INFEASIBLE",
+    "violated": [
+     {
+      "bound": "P1",
+      "limit": "(0,1]",
+      "scope": "any",
+      "statement": "solid fraction outside (0, 1]",
+      "target": -0.1
+     }
+    ]
+   },
+   "seq": 3,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": -1.0,
+     "slack_opt": -1.0,
+     "slack_pess": -1.0,
+     "spec": {
+      "family": "tpms",
+      "kind": "schwarz_p",
+      "params": {
+       "density": 0.08,
+       "mode": "network"
+      }
+     }
+    },
+    {
+     "slack_nominal": -1.0,
+     "slack_opt": -1.0,
+     "slack_pess": -1.0,
+     "spec": {
+      "family": "tpms",
+      "kind": "schwarz_p",
+      "params": {
+       "density": 0.1,
+       "mode": "network"
+      }
+     }
+    },
+    {
+     "slack_nominal": -1.0,
+     "slack_opt": -1.0,
+     "slack_pess": -1.0,
+     "spec": {
+      "family": "tpms",
+      "kind": "schwarz_p",
+      "params": {
+       "density": 0.12,
+       "mode": "network"
+      }
+     }
+    }
+   ],
+   "n_cells": 2714,
+   "n_clear": 0,
+   "n_possible": 0,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "NOT_FOUND_IN_FAMILIES"
+  },
+  "bounds_verdict": "PROVEN_INFEASIBLE",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "density_max": -0.1
+  },
+  "verdict": "PROVEN_INFEASIBLE",
+  "violated": [
+   {
+    "bound": "P1",
+    "limit": "(0,1]",
+    "scope": "any",
+    "statement": "solid fraction outside (0, 1]",
+    "target": -0.1
+   }
+  ]
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S01_targets\\40-check-bounds"
+}

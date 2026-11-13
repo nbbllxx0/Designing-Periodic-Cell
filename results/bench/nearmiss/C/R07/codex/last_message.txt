@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. The tested cube-and-bars cell met the 24% solid-fraction limit, but its certified [100] modulus range was 21.70–22.06 GPa, below 22.3 GPa. This rejects that candidate without proving the overall request impossible.

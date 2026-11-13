@@ -1,0 +1,30 @@
+{
+ "root": "results/verification/v6/case2/session_scaling_316L",
+ "material": "316L",
+ "cell_size_mm": 39.148,
+ "targets": {
+  "gap": {
+   "f_lo": 35000,
+   "f_hi": 42000,
+   "unit": "Hz"
+  }
+ },
+ "gap_type": "complete",
+ "note": "V6 case 2 scaling check: the PA12 design in 316L at a = 10 mm x c_t(316L)/c_t(PA12)",
+ "top": 5,
+ "certify_max": 1,
+ "candidates": [
+  {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.356522,
+    "w": 0.108696
+   }
+  }
+ ],
+ "export": {
+  "tiles": 3,
+  "resolution": 64,
+  "tile_resolution": 32
+ }
+}

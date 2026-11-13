@@ -1,0 +1,43 @@
+[
+ {
+  "amendment": "A1",
+  "date": "2026-11-07",
+  "primary_phases": [
+   1
+  ],
+  "run_phases": [
+   1,
+   3
+  ],
+  "cut_phases": [
+   2,
+   4,
+   5
+  ],
+  "allowed_changes": [
+   "scripts/bench/e4.py",
+   "plan/E4_PREREG.md"
+  ],
+  "plan_identity": {
+   "code": "90f3823f15cbeff4",
+   "checker": "f2e482d81382b400",
+   "full_source": "e1dd6ec8e912acde",
+   "briefs": "194701c05dce17d2",
+   "data": "de79a79e98e88731",
+   "prereg": "01274f97dc97276b"
+  },
+  "amended_identity": {
+   "code": "90f3823f15cbeff4",
+   "checker": "f2e482d81382b400",
+   "full_source": "7d045a2c69bd6d70",
+   "briefs": "194701c05dce17d2",
+   "data": "de79a79e98e88731",
+   "prereg": "17016d8e7699fe1b"
+  },
+  "harness": "34193563196998ce",
+  "changed_files": [
+   "scripts/bench/e4.py"
+  ],
+  "t": "2026-11-07 00:07:17"
+ }
+]

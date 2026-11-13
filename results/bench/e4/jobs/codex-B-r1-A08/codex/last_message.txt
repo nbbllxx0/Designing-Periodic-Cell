@@ -1,0 +1,1 @@
+Released a 316L Schwarz P TPMS sheet unit cell with estimated solid fraction **28.0%** and **C44 = 11.68 GPa**, meeting both targets. Results are search-tier estimates, not certified; manufacturability was not evaluated.

@@ -1,0 +1,68 @@
+{
+ "verdict": "undetermined",
+ "passed": false,
+ "seconds": 569.6,
+ "timing": {
+  "static": 569.6
+ },
+ "static_verdict": "undetermined",
+ "static_rung": [
+  64,
+  80,
+  96
+ ],
+ "bounds": {
+  "density": {
+   "lower": 0.28019964524199337,
+   "upper": 0.28047773685750543,
+   "extrapolated": 0.28035095436282886,
+   "converged": true
+  },
+  "E100": {
+   "lower": 0.1375880170128729,
+   "upper": 0.1399056375273105,
+   "extrapolated": 0.13873355184466,
+   "converged": true
+  },
+  "G": {
+   "lower": 0.013226168062509144,
+   "upper": 0.014123804730224062,
+   "extrapolated": 0.013674986396366603,
+   "converged": true
+  },
+  "bulk": {
+   "lower": 0.06190041802892925,
+   "upper": 0.06315852304153632,
+   "extrapolated": 0.06251899477786453,
+   "converged": true
+  },
+  "nu100": {
+   "lower": 0.12956097875662587,
+   "upper": 0.1308082404140899,
+   "extrapolated": 0.1301585361596368,
+   "converged": true
+  }
+ },
+ "checker": "f141e46cb67a78db",
+ "spec_hash": "0b9c362fdd7b3fd3",
+ "slack_by_target": {
+  "density_max": 0.032835390146532924,
+  "E100_min": -0.013081734506818782
+ },
+ "certified_slack": -0.013081734506818782,
+ "target_id": "S18",
+ "spec": {
+  "family": "resonator",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.447815,
+   "w": 0.339124
+  }
+ },
+ "methods": [
+  "M6"
+ ],
+ "wall_seconds_v3": 569.6,
+ "finished": "2026-11-07 22:40:59",
+ "verdict_before_rules": "undetermined"
+}

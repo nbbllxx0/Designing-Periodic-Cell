@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":null,"targets":{"density_max":0.37,"E100_min":{"value":21,"unit":"GPa"},"G_min":{"value":2.53,"unit":"GPa"}},"verdict":"UNDETERMINED","note":"Without validated homogenized elastic tensors, I cannot establish a design satisfying both stiffness targets at this solid fraction or prove infeasibility."}

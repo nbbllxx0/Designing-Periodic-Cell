@@ -1,0 +1,14 @@
+[
+ {
+  "row": "S13_lib_combined/combo_export (lib)",
+  "corrected_predicate": "report certificate.gap.verdict.verdict == 'certified'",
+  "value": "certified",
+  "holds": true,
+  "other_predicates": {
+   "certify_seq": 6,
+   "expected_seq": 6,
+   "outcome": "certified_candidate",
+   "tiled": "exports/sphere_ligaments_c125c99a_e7a8f8/tiled_3x3x3.stl"
+  }
+ }
+]

@@ -1,0 +1,33 @@
+{
+ "brief": "A07",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 1218.9,
+ "usage": {
+  "input_tokens": 1701193,
+  "cached_input_tokens": 1660672,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 4551,
+  "reasoning_output_tokens": 815
+ },
+ "final": "Released a certified **Ti6Al4V IWP sheet** unit cell with density parameter **0.369**: solid fraction \u226436.900%, cube-axis Young\u2019s modulus \u226521.045 GPa, and C44 \u22656.320 GPa. It meets all requested limits, but fails the tested \u00b10.01-cell-size geometry-offset robustness check.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-A07",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

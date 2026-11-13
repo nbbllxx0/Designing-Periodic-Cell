@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"PA12","cell_size":[15,"mm"],"targets":{"gap":{"f_lo":26.4,"f_hi":36.5,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without a solver, I cannot certify a design with the requested complete band gap or establish infeasibility within the allowed families."}

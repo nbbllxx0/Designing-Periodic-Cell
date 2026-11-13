@@ -1,0 +1,27 @@
+{
+ "key": "75ee08b6fc1ba3ce",
+ "checker": "f2e482d81382b400",
+ "spec": {
+  "family": "tpms",
+  "kind": "schwarz_p",
+  "params": {
+   "density": 0.32,
+   "mode": "sheet"
+  }
+ },
+ "targets": {
+  "density_max": 0.33,
+  "E100_min": 0.16062176165803108
+ },
+ "nu": 0.3,
+ "verdict": "refuted",
+ "seconds": 945.2,
+ "static_verdict": {
+  "verdict": "refuted",
+  "targets": {
+   "density_max": "certified",
+   "E100_min": "refuted"
+  }
+ },
+ "gap_verdict": null
+}

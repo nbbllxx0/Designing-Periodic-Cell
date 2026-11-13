@@ -1,0 +1,120 @@
+2026-11-06 18:47:16 ALLOWED DRIFT: identity differs from the plan-time snapshot: {'full_source': ('17ca80e2ff0053c1', '704b2d8369133043')}
+2026-11-06 18:47:16 run: 2 jobs selected (run --tag smoke --smoke --allow-drift --provider none --arms O --ids X01,S01)
+2026-11-06 20:35:14 start none-O-r1-X01 (order 1364, development, waited 0.1 s for the GPU)
+2026-11-06 20:35:14 done  none-O-r1-X01 status=done rc=0 wall=0.3s
+2026-11-06 20:35:14 run finished: 1 jobs this call
+2026-11-06 20:35:16 ALLOWED DRIFT: identity differs from the plan-time snapshot: {'full_source': ('17ca80e2ff0053c1', '704b2d8369133043')}
+2026-11-06 20:35:16 run: 3 jobs selected (run --tag smoke --smoke --allow-drift --provider claude --arms D,B,C --reps 1 --ids S01)
+2026-11-06 20:35:16 start claude-C-r1-S01 (order 1143, development, waited 0.0 s for the GPU)
+2026-11-06 20:53:45 done  claude-C-r1-S01 status=done rc=0 wall=1108.6s
+2026-11-06 20:53:45 start claude-B-r1-S01 (order 1144, development, waited 0.0 s for the GPU)
+2026-11-06 20:55:05 done  claude-B-r1-S01 status=done rc=0 wall=79.6s
+2026-11-06 20:55:05 start claude-D-r1-S01 (order 1145, development, waited 0.1 s for the GPU)
+2026-11-06 20:55:23 done  claude-D-r1-S01 status=done rc=0 wall=18.8s
+2026-11-06 20:55:23 run finished: 3 jobs this call
+2026-11-06 20:55:25 ALLOWED DRIFT: identity differs from the plan-time snapshot: {'full_source': ('17ca80e2ff0053c1', '704b2d8369133043')}
+2026-11-06 20:55:25 run: 1 jobs selected (run --tag smoke --smoke --allow-drift --provider codex --arms C --reps 1 --ids N02 --timeout 60)
+2026-11-06 20:55:25 start codex-C-r1-N02 (order 313, development, waited 0.0 s for the GPU)
+2026-11-06 20:56:25 done  codex-C-r1-N02 status=timeout rc=-9 wall=60.4s
+2026-11-06 20:56:25 run finished: 1 jobs this call
+{
+ "claude/B/1": {
+  "confirmatory": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  },
+  "development": {
+   "n": 1,
+   "correct": 0,
+   "decided": 1,
+   "unsupported": 1
+  }
+ },
+ "claude/C/1": {
+  "confirmatory": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  },
+  "development": {
+   "n": 1,
+   "correct": 1,
+   "decided": 1,
+   "unsupported": 0
+  }
+ },
+ "claude/D/1": {
+  "confirmatory": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  },
+  "development": {
+   "n": 1,
+   "correct": 0,
+   "decided": 1,
+   "unsupported": 1
+  }
+ },
+ "codex/B/1": {
+  "confirmatory": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  },
+  "development": {
+   "n": 4,
+   "correct": 1,
+   "decided": 3,
+   "unsupported": 0
+  }
+ },
+ "codex/C/1": {
+  "confirmatory": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  },
+  "development": {
+   "n": 5,
+   "correct": 3,
+   "decided": 3,
+   "unsupported": 0
+  }
+ },
+ "codex/D/1": {
+  "confirmatory": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  },
+  "development": {
+   "n": 4,
+   "correct": 1,
+   "decided": 3,
+   "unsupported": 0
+  }
+ },
+ "none/O/1": {
+  "confirmatory": {
+   "n": null,
+   "correct": null,
+   "decided": null,
+   "unsupported": null
+  },
+  "development": {
+   "n": 2,
+   "correct": 2,
+   "decided": 2,
+   "unsupported": 0
+  }
+ }
+}
+SMOKE_DONE

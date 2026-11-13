@@ -1,0 +1,4 @@
+
+[notice] A new release of pip is available: 23.2.1 -> 26.3
+[notice] To update, run: C:\AI\AgenticMetamaterials_workspaces\b9_venv\Scripts\python.exe -m pip install --upgrade pip
+exit 0

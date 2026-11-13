@@ -1,0 +1,16 @@
+S01 cube_bars {'c': 0.51913, 'w': 0.36} pass 1: certified 129.4 s
+S01 pass 2 u 0.9939975399546516 : certified 133.3 s
+S01 done: certified 262.9 s
+S03 sphere_ligaments {'c': 0.238261, 'w': 0.266957} pass 1: certified 43.8 s
+S03 done: certified 44.0 s
+G02 sphere_ligaments {'c': 0.46, 'w': 0.27913} pass 1: undetermined 2822.0 s
+Traceback (most recent call last):
+  File "C:\AI\AgenticMetamaterials\scripts\bench\build.py", line 436, in <module>
+    truth(a[1:], sh)
+  File "C:\AI\AgenticMetamaterials\scripts\bench\build.py", line 420, in truth
+    w = truth_one(P["briefs"][bid])
+  File "C:\AI\AgenticMetamaterials\scripts\bench\build.py", line 391, in truth_one
+    req2 = _tight_request(b, c1, req, u, gs)
+  File "C:\AI\AgenticMetamaterials\scripts\bench\build.py", line 349, in _tight_request
+    if not si or si[1] <= si[0]:
+TypeError: '<=' not supported between instances of 'float' and 'NoneType'

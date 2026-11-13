@@ -1,0 +1,17 @@
+{
+ "material": {
+  "name": "316L"
+ },
+ "targets": {
+  "gap": {
+   "f_lo": 0.25,
+   "f_hi": 0.35,
+   "unit": "f*"
+  }
+ },
+ "constraints": {
+  "families": [
+   "tpms"
+  ]
+ }
+}

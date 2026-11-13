@@ -1,0 +1,8 @@
+{
+ "material": {
+  "name": "316L"
+ },
+ "targets": {
+  "nu100_max": 0.1
+ }
+}

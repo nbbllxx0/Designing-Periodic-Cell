@@ -1,0 +1,19 @@
+{
+ "brief": "P3",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 23.5,
+ "usage": {
+  "input_tokens": 145227,
+  "cached_input_tokens": 101504,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 553,
+  "reasoning_output_tokens": 40
+ },
+ "final": "Submitted **PROVEN_INFEASIBLE**; no design was released. Using the amm Ti-6Al-4V modulus of 113.8 GPa, the geometry-independent Voigt bound at 20% solid fraction is **22.76 GPa**, below the required 35 GPa.",
+ "stderr_tail": "2026-11-05T05:11:04.118913Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

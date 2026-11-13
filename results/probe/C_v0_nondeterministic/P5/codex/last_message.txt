@@ -1,0 +1,1 @@
+No design was released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm atlas and optimization found no supported 316L design with a 10 mm cell that provides a complete band gap covering 140–375 kHz. This does not prove physical impossibility.

@@ -1,0 +1,1107 @@
+{
+ "summary": {
+  "edges": {
+   "no safe edge": 34,
+   "unsound": 1,
+   "sound": 5
+  },
+  "claims": {
+   "false/undetermined": 17,
+   "indeterminate/undetermined": 1,
+   "true/undetermined": 1,
+   "true/certified": 1
+  },
+  "primary": {
+   "unsound_safe_edges": 1,
+   "certified_false_claims": 0,
+   "passed": false
+  }
+ },
+ "cells": {
+  "ho_cb_c0.6191_w0.0657_nu0.3": {
+   "stratum": "T",
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.6191,
+     "w": 0.0657
+    }
+   },
+   "nu": 0.3,
+   "below_band": 6,
+   "levels": [
+    15,
+    20,
+    30
+   ],
+   "ref_lo": {
+    "mode": "non-monotone",
+    "p": null,
+    "p_used": null,
+    "ext": 0.10416145525656574,
+    "u": 0.00041471826124993283,
+    "seq": [
+     0.10499046561369171,
+     0.10457617351781567,
+     0.10416145525656574
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "ref_hi": {
+    "mode": "non-monotone",
+    "p": null,
+    "p_used": null,
+    "ext": 0.5598958246537842,
+    "u": 0.01544776023016714,
+    "seq": [
+     0.5831679760382263,
+     0.5753435848839513,
+     0.5598958246537842
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "dolfinx_finest": [
+    0.10416145525656574,
+    0.5598958246537842
+   ],
+   "claims": {
+    "A": {
+     "claim": [
+      0.29166620817943234,
+      0.6023515645538411
+     ],
+     "verdict": "undetermined",
+     "reason": "no safe lower edge: edge sequence neither convergent nor within phase noise",
+     "truth": "false",
+     "safe": [
+      null,
+      0.6068935919166049
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "unsound",
+     "unsound_for_certain": true,
+     "feature": {
+      "size": 0.0657,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 2.6279999999999997,
+      "min_voxels": 3.0,
+      "passed": false
+     },
+     "seconds": 325.6
+    },
+    "B": {
+     "claim": [
+      0.1673920656296688,
+      0.7266257071036046
+     ],
+     "verdict": "undetermined",
+     "reason": "count failures",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.0657,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 2.6279999999999997,
+      "min_voxels": 3.0,
+      "passed": false
+     },
+     "seconds": 200.6
+    }
+   }
+  },
+  "ho_cb_c0.639_w0.0667_nu0.3": {
+   "stratum": "T",
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.639,
+     "w": 0.0667
+    }
+   },
+   "nu": 0.3,
+   "below_band": 6,
+   "levels": [
+    15,
+    20,
+    30
+   ],
+   "ref_lo": {
+    "mode": "non-monotone",
+    "p": null,
+    "p_used": null,
+    "ext": 0.10329659624178678,
+    "u": 0.0004798989331032677,
+    "seq": [
+     0.10421483767252075,
+     0.10377649517489004,
+     0.10329659624178678
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "ref_hi": {
+    "mode": "non-monotone",
+    "p": null,
+    "p_used": null,
+    "ext": 0.6145100587807599,
+    "u": 0.01783566201718323,
+    "seq": [
+     0.6409793651946754,
+     0.6323457207979432,
+     0.6145100587807599
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "dolfinx_finest": [
+    0.10329659624178678,
+    0.6145100587807599
+   ],
+   "claims": {
+    "A": {
+     "claim": [
+      0.2876388977994766,
+      0.5861291681256253
+     ],
+     "verdict": "undetermined",
+     "reason": "no safe upper edge: monotone drift toward the claim without an admissible convergence order",
+     "truth": "indeterminate",
+     "safe": [
+      0.11423142975853229,
+      null
+     ],
+     "edge_lo": "sound",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.0667,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 2.6679999999999997,
+      "min_voxels": 3.0,
+      "passed": false
+     },
+     "seconds": 549.8
+    },
+    "B": {
+     "claim": [
+      0.16824278966901704,
+      0.7055252762560849
+     ],
+     "verdict": "undetermined",
+     "reason": "count failures",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.0667,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 2.6679999999999997,
+      "min_voxels": 3.0,
+      "passed": false
+     },
+     "seconds": 202.8
+    }
+   }
+  },
+  "ho_cb_c0.4759_w0.0613_nu0.3": {
+   "stratum": "T",
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.4759,
+     "w": 0.0613
+    }
+   },
+   "nu": 0.3,
+   "below_band": 6,
+   "levels": [
+    15,
+    20,
+    30
+   ],
+   "ref_lo": {
+    "mode": "non-monotone",
+    "p": null,
+    "p_used": null,
+    "ext": 0.12429936738969838,
+    "u": 0.00040825060540171376,
+    "seq": [
+     0.12498366853687762,
+     0.12470761799510009,
+     0.12429936738969838
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "ref_hi": {
+    "mode": "non-monotone",
+    "p": null,
+    "p_used": null,
+    "ext": 0.3108030874399815,
+    "u": 0.0074998191109149626,
+    "seq": [
+     0.3210412603021872,
+     0.31830290655089644,
+     0.3108030874399815
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "dolfinx_finest": [
+    0.12429936738969838,
+    0.3108030874399815
+   ],
+   "claims": {
+    "A": {
+     "claim": [
+      0.3031872740752114,
+      0.610714588023928
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.0613,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 2.452,
+      "min_voxels": 3.0,
+      "passed": false
+     },
+     "seconds": 258.8
+    },
+    "B": {
+     "claim": [
+      0.18017634849572475,
+      0.7337255136034146
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.0613,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 2.452,
+      "min_voxels": 3.0,
+      "passed": false
+     },
+     "seconds": 272.5
+    }
+   }
+  },
+  "ho_cb_c0.6853_w0.2222_nu0.3": {
+   "stratum": "R",
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.6853,
+     "w": 0.2222
+    }
+   },
+   "nu": 0.3,
+   "below_band": 6,
+   "levels": [
+    15,
+    20,
+    30
+   ],
+   "ref_lo": {
+    "mode": "order-fit",
+    "p": 2.5025294815935215,
+    "p_used": 2.5025294815935215,
+    "ext": 0.32175092463035354,
+    "u": 0.0006896075232709563,
+    "seq": [
+     0.32565877952970157,
+     0.3236532095191696,
+     0.3224405321536245
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "ref_hi": {
+    "mode": "order-fit",
+    "p": 2.6578902156913324,
+    "p_used": 2.6578902156913324,
+    "ext": 0.6869063736182478,
+    "u": 0.00040333144561688106,
+    "seq": [
+     0.6894518364682826,
+     0.6880913053164592,
+     0.6873097050638647
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "dolfinx_finest": [
+    0.3224405321536245,
+    0.6873097050638647
+   ],
+   "claims": {
+    "A": {
+     "claim": [
+      0.49238130405932046,
+      0.6495442186884013
+     ],
+     "verdict": "undetermined",
+     "reason": "no safe upper edge: monotone drift toward the claim without an admissible convergence order",
+     "truth": "true",
+     "safe": [
+      0.3470077358407941,
+      null
+     ],
+     "edge_lo": "sound",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.2222,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 8.888,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 739.5
+    },
+    "B": {
+     "claim": [
+      0.4295161382076881,
+      0.7124093845400337
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.2222,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 8.888,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 359.1
+    }
+   }
+  },
+  "ho_cb_c0.4464_w0.166_nu0.342": {
+   "stratum": "R",
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.4464,
+     "w": 0.166
+    }
+   },
+   "nu": 0.342,
+   "below_band": 6,
+   "levels": [
+    15,
+    20,
+    30
+   ],
+   "ref_lo": {
+    "mode": "order-fit",
+    "p": 2.772639548988127,
+    "p_used": 2.772639548988127,
+    "ext": 0.3385585031613476,
+    "u": 0.00030853889702067916,
+    "seq": [
+     0.3406669254279663,
+     0.33950811804257297,
+     0.3388670420583683
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "ref_hi": {
+    "mode": "order-fit",
+    "p": 3.1038764720944556,
+    "p_used": 3.1038764720944556,
+    "ext": 0.49146179861133815,
+    "u": 0.0009894039172907373,
+    "seq": [
+     0.49996795859088095,
+     0.494944683663754,
+     0.4924512025286289
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "dolfinx_finest": [
+    0.3388670420583683,
+    0.4924512025286289
+   ],
+   "claims": {
+    "A": {
+     "claim": [
+      0.4719513032814947,
+      0.5795995453681486
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.166,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 6.640000000000001,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 97.8
+    },
+    "B": {
+     "claim": [
+      0.4288920064468331,
+      0.6226588422028101
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.166,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 6.640000000000001,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 96.0
+    }
+   }
+  },
+  "ho_cb_c0.6875_w0.2229_nu0.3": {
+   "stratum": "R",
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.6875,
+     "w": 0.2229
+    }
+   },
+   "nu": 0.3,
+   "below_band": 6,
+   "levels": [
+    15,
+    20,
+    30
+   ],
+   "ref_lo": {
+    "mode": "order-fit",
+    "p": 2.5018723063203914,
+    "p_used": 2.5018723063203914,
+    "ext": 0.322275079491651,
+    "u": 0.0006943337721416458,
+    "seq": [
+     0.32620792511417723,
+     0.3241898914634286,
+     0.32296941326379264
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "ref_hi": {
+    "mode": "order-fit",
+    "p": 2.65684231024968,
+    "p_used": 2.65684231024968,
+    "ext": 0.6848196981243723,
+    "u": 0.00040044635180287036,
+    "seq": [
+     0.6873451178630308,
+     0.685995654061157,
+     0.6852201444761752
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "dolfinx_finest": [
+    0.32296941326379264,
+    0.6852201444761752
+   ],
+   "claims": {
+    "A": {
+     "claim": [
+      0.49172850147591773,
+      0.6476513838281936
+     ],
+     "verdict": "certified",
+     "reason": null,
+     "truth": "true",
+     "safe": [
+      0.34868834051520625,
+      0.6830589896687653
+     ],
+     "edge_lo": "sound",
+     "edge_hi": "sound",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.2229,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 8.916,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 731.0,
+     "gap_given_up": 0.07771172989800756,
+     "margin_over_2u": {
+      "lo": 19.020579210834402,
+      "hi": 2.1984323838636106
+     }
+    },
+    "B": {
+     "claim": [
+      0.4293593485350074,
+      0.7100205367691039
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.2229,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 8.916,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 371.1
+    }
+   }
+  },
+  "ho_cb_c0.5515_w0.2001_nu0.3": {
+   "stratum": "R",
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.5515,
+     "w": 0.2001
+    }
+   },
+   "nu": 0.3,
+   "below_band": 6,
+   "levels": [
+    15,
+    20,
+    30
+   ],
+   "ref_lo": {
+    "mode": "order-fit",
+    "p": 1.5926311060652523,
+    "p_used": 1.5926311060652523,
+    "ext": 0.33286478468723874,
+    "u": 0.0008080295206178516,
+    "seq": [
+     0.33530179273054084,
+     0.3344060437534997,
+     0.3336728142078566
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "ref_hi": {
+    "mode": "order-fit",
+    "p": 1.6721570952903668,
+    "p_used": 1.6721570952903668,
+    "ext": 0.6318949770506707,
+    "u": 0.0022762731306597314,
+    "seq": [
+     0.6391492487103735,
+     0.6363790907930486,
+     0.6341712501813304
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "dolfinx_finest": [
+    0.3336728142078566,
+    0.6341712501813304
+   ],
+   "claims": {
+    "A": {
+     "claim": [
+      0.47099388298765366,
+      0.64703033794255
+     ],
+     "verdict": "undetermined",
+     "reason": "no safe upper edge: edge sequence neither convergent nor within phase noise",
+     "truth": "false",
+     "safe": [
+      0.3484468831102287,
+      null
+     ],
+     "edge_lo": "sound",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.2001,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 8.004,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 346.2
+    },
+    "B": {
+     "claim": [
+      0.40057930100569517,
+      0.7174449199245085
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.2001,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 8.004,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 188.2
+    }
+   }
+  },
+  "ho_cb_c0.4094_w0.115_nu0.39": {
+   "stratum": "R",
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.4094,
+     "w": 0.115
+    }
+   },
+   "nu": 0.39,
+   "below_band": 6,
+   "levels": [
+    15,
+    20,
+    30
+   ],
+   "ref_lo": {
+    "mode": "order-fit",
+    "p": 1.8807042941834682,
+    "p_used": 1.8807042941834682,
+    "ext": 0.27050472167659295,
+    "u": 0.0005110068262376116,
+    "seq": [
+     0.2723865287956598,
+     0.27160019621705894,
+     0.27101572850283057
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "ref_hi": {
+    "mode": "order-fit",
+    "p": 1.4545125738255884,
+    "p_used": 1.4545125738255884,
+    "ext": 0.39262144484047107,
+    "u": 0.004320289238295216,
+    "seq": [
+     0.4044618002056933,
+     0.4004132803139291,
+     0.39694173407876626
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "dolfinx_finest": [
+    0.27101572850283057,
+    0.39694173407876626
+   ],
+   "claims": {
+    "A": {
+     "claim": [
+      0.37602634460710577,
+      0.5153701909512161
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.115,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 4.6000000000000005,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 69.6
+    },
+    "B": {
+     "claim": [
+      0.3202888060694617,
+      0.5711077294888601
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.115,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 4.6000000000000005,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 72.9
+    }
+   }
+  },
+  "ho_cb_c0.4231_w0.1652_nu0.3": {
+   "stratum": "R",
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.4231,
+     "w": 0.1652
+    }
+   },
+   "nu": 0.3,
+   "below_band": 6,
+   "levels": [
+    15,
+    20,
+    30
+   ],
+   "ref_lo": {
+    "mode": "order-fit",
+    "p": 2.6130728279469824,
+    "p_used": 2.6130728279469824,
+    "ext": 0.3452589787588693,
+    "u": 0.0003081717571341968,
+    "seq": [
+     0.3471443901936725,
+     0.3461480409036883,
+     0.3455671505160035
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "ref_hi": {
+    "mode": "order-fit",
+    "p": 2.940212935068873,
+    "p_used": 2.940212935068873,
+    "ext": 0.45819273786050513,
+    "u": 0.0009966636303503247,
+    "seq": [
+     0.4658423761052178,
+     0.46147591570319246,
+     0.45918940149085546
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "dolfinx_finest": [
+    0.3455671505160035,
+    0.45918940149085546
+   ],
+   "claims": {
+    "A": {
+     "claim": [
+      0.4522516800078781,
+      0.5361994101256486
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.1652,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 6.6080000000000005,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 85.6
+    },
+    "B": {
+     "claim": [
+      0.4186725879607699,
+      0.5697785021727568
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.1652,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 6.6080000000000005,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 92.7
+    }
+   }
+  },
+  "ho_cb_c0.4547_w0.1378_nu0.342": {
+   "stratum": "R",
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.4547,
+     "w": 0.1378
+    }
+   },
+   "nu": 0.342,
+   "below_band": 6,
+   "levels": [
+    15,
+    20,
+    30
+   ],
+   "ref_lo": {
+    "mode": "order-fit",
+    "p": 1.809446068726726,
+    "p_used": 1.809446068726726,
+    "ext": 0.28177285849843736,
+    "u": 0.0006989597302886583,
+    "seq": [
+     0.28422276605552943,
+     0.2832285850104929,
+     0.282471818228726
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "ref_hi": {
+    "mode": "order-fit",
+    "p": 2.1051283083854067,
+    "p_used": 2.1051283083854067,
+    "ext": 0.47088834828331194,
+    "u": 0.002726672742799661,
+    "seq": [
+     0.4826194765215025,
+     0.4772905257872922,
+     0.4736150210261116
+    ],
+    "h": [
+     0.06666666666666667,
+     0.05,
+     0.03333333333333333
+    ]
+   },
+   "dolfinx_finest": [
+    0.282471818228726,
+    0.4736150210261116
+   ],
+   "claims": {
+    "A": {
+     "claim": [
+      0.4284642877424928,
+      0.5981697765443933
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.1378,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 5.5120000000000005,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 102.1
+    },
+    "B": {
+     "claim": [
+      0.3605820922217326,
+      0.6660519720651535
+     ],
+     "verdict": "undetermined",
+     "reason": "modes inside the claimed interval at every resolution (likely false, not provable)",
+     "truth": "false",
+     "safe": [
+      null,
+      null
+     ],
+     "edge_lo": "no safe edge",
+     "edge_hi": "no safe edge",
+     "unsound_for_certain": false,
+     "feature": {
+      "size": 0.1378,
+      "method": "parameter w (bar width)",
+      "n": 40,
+      "voxels": 5.5120000000000005,
+      "min_voxels": 3.0,
+      "passed": true
+     },
+     "seconds": 100.8
+    }
+   }
+  }
+ }
+}

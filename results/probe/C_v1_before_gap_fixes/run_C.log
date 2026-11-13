@@ -1,0 +1,19 @@
+P3 running 21:59:19
+{"brief": "P3", "rc": 0, "calls": 8, "failed": 0, "submission": {"decision": "refuse", "verdict": "PROVEN_INFEASIBLE", "design": null}, "replay": true, "wall": 25.3, "tokens": {"input_tokens": 222671, "cached_input_tokens": 185472, "cache_write_input_tokens": 0, "output_tokens": 568, "reasoning_output_tokens": 26}}
+P4 running 21:59:44
+{"brief": "P4", "rc": 0, "calls": 15, "failed": 0, "submission": {"decision": "release", "verdict": null, "design": {"kind": "schwarz_p", "params": {"density": 0.259, "mode": "sheet"}}}, "replay": true, "wall": 828.0, "tokens": {"input_tokens": 1561484, "cached_input_tokens": 1511296, "cache_write_input_tokens": 0, "output_tokens": 3284, "reasoning_output_tokens": 699}}
+P5 running 22:26:28
+{"brief": "P5", "rc": 0, "calls": 11, "failed": 0, "submission": {"decision": "refuse", "verdict": "NOT_FOUND_IN_FAMILIES", "design": null}, "replay": true, "wall": 107.8, "tokens": {"input_tokens": 496522, "cached_input_tokens": 466944, "cache_write_input_tokens": 0, "output_tokens": 1071, "reasoning_output_tokens": 160}}
+P1 running 22:29:29
+{"brief": "P1", "rc": 0, "calls": 16, "failed": 0, "submission": {"decision": "release", "verdict": null, "design": {"kind": "schwarz_p", "params": {"density": 0.255, "mode": "sheet"}}}, "replay": true, "wall": 845.0, "tokens": {"input_tokens": 2148608, "cached_input_tokens": 2116096, "cache_write_input_tokens": 0, "output_tokens": 4384, "reasoning_output_tokens": 1113}}
+P2 running 22:56:30
+Traceback (most recent call last):
+  File "C:\AI\AgenticMetamaterials\scripts\probe\run_probe.py", line 43, in <module>
+    rep = tools.replay(log, root=out / "replay")
+  File "C:\AI\AgenticMetamaterials\amm\tools.py", line 579, in replay
+    
+  File "C:\AI\AgenticMetamaterials\amm\tools.py", line 233, in call
+    except Exception as ex:                    # noqa: BLE001 -- a tool bug is reported, never kills the server
+  File "C:\AI\AgenticMetamaterials\amm\tools.py", line 186, in _append
+    self.log_path = None
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\AI\\AgenticMetamaterials\\results\\probe\\C\\P2\\replay\\session.jsonl'

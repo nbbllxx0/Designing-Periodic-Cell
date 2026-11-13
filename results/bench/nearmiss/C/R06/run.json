@@ -1,0 +1,19 @@
+{
+ "brief": "R06",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 508.9,
+ "usage": {
+  "input_tokens": 1334075,
+  "cached_input_tokens": 1310080,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 3590,
+  "reasoning_output_tokens": 1311
+ },
+ "final": "Released a certified PA12 sphere-and-ligament cell: 20 mm cube edge, parameters `c=0.23`, `w=0.28035`. Guarded bounds meet both targets: solid fraction \u226415.97% and cube-axis Young\u2019s modulus \u2265122.19 MPa. Compliance is not robust to the tested 0.2 mm erosion offset.",
+ "stderr_tail": ""
+}

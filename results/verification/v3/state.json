@@ -1,0 +1,200 @@
+{
+ "spent_seconds": 29125.26915550232,
+ "per_target": {
+  "M13": {
+   "seconds": 246.9,
+   "search": 245.9,
+   "cert": 1.0,
+   "set": "primary",
+   "done": "2026-11-07 19:07:49"
+  },
+  "S14": {
+   "seconds": 666.3,
+   "search": 310.3,
+   "cert": 356.0,
+   "set": "primary",
+   "done": "2026-11-07 19:18:55"
+  },
+  "G06": {
+   "seconds": 1962.9,
+   "search": 235.1,
+   "cert": 1727.7,
+   "set": "primary",
+   "done": "2026-11-07 19:51:38"
+  },
+  "S11": {
+   "seconds": 895.7,
+   "search": 290.7,
+   "cert": 604.9,
+   "set": "primary",
+   "done": "2026-11-07 20:06:33"
+  },
+  "G07": {
+   "seconds": 1717.9,
+   "search": 239.0,
+   "cert": 1478.8,
+   "set": "primary",
+   "done": "2026-11-07 20:35:11"
+  },
+  "S20": {
+   "seconds": 1007.6,
+   "search": 306.7,
+   "cert": 700.8,
+   "set": "primary",
+   "done": "2026-11-07 20:51:59"
+  },
+  "G15": {
+   "seconds": 2154.9,
+   "search": 239.2,
+   "cert": 1915.6,
+   "set": "primary",
+   "done": "2026-11-07 21:27:54"
+  },
+  "M06": {
+   "seconds": 2954.8,
+   "search": 252.6,
+   "cert": 2702.2,
+   "set": "primary",
+   "done": "2026-11-07 22:17:09"
+  },
+  "S18": {
+   "seconds": 1430.0,
+   "search": 237.8,
+   "cert": 1192.1,
+   "set": "primary",
+   "done": "2026-11-07 22:40:59"
+  },
+  "M05": {
+   "seconds": 1014.3,
+   "search": 214.4,
+   "cert": 799.8,
+   "set": "primary",
+   "done": "2026-11-07 22:57:53"
+  },
+  "G09": {
+   "seconds": 1563.7,
+   "search": 225.2,
+   "cert": 1338.5,
+   "set": "primary",
+   "done": "2026-11-07 23:23:57"
+  },
+  "S08": {
+   "seconds": 1020.8,
+   "search": 253.6,
+   "cert": 767.1,
+   "set": "primary",
+   "done": "2026-11-07 23:40:57"
+  },
+  "S19": {
+   "seconds": 345.8,
+   "search": 237.4,
+   "cert": 108.3,
+   "set": "primary",
+   "done": "2026-11-07 23:46:43"
+  },
+  "S07": {
+   "seconds": 808.9,
+   "search": 310.7,
+   "cert": 498.2,
+   "set": "primary",
+   "done": "2026-11-08 00:00:12"
+  },
+  "G10": {
+   "seconds": 1845.6,
+   "search": 225.0,
+   "cert": 1620.5,
+   "set": "primary",
+   "done": "2026-11-08 00:30:58"
+  },
+  "M11": {
+   "seconds": 1856.2,
+   "search": 214.0,
+   "cert": 1642.1,
+   "set": "primary",
+   "done": "2026-11-08 01:01:54"
+  },
+  "S04": {
+   "seconds": 1377.6,
+   "search": 297.9,
+   "cert": 1079.7,
+   "set": "primary",
+   "done": "2026-11-08 01:24:51"
+  },
+  "M07": {
+   "seconds": 215.3,
+   "search": 214.3,
+   "cert": 0.9,
+   "set": "primary",
+   "done": "2026-11-08 01:28:27"
+  },
+  "S10": {
+   "seconds": 313.4,
+   "search": 219.6,
+   "cert": 93.7,
+   "set": "primary",
+   "done": "2026-11-08 01:33:40"
+  },
+  "M09": {
+   "seconds": 2363.6,
+   "search": 253.9,
+   "cert": 2109.6,
+   "set": "primary",
+   "done": "2026-11-08 02:13:04"
+  },
+  "G14": {
+   "seconds": 636.7,
+   "search": 81.9,
+   "cert": 554.7,
+   "set": "calibration",
+   "done": "2026-11-08 02:23:40"
+  },
+  "M04": {
+   "seconds": 305.1,
+   "search": 105.9,
+   "cert": 199.2,
+   "set": "calibration",
+   "done": "2026-11-08 02:28:45"
+  },
+  "G12": {
+   "seconds": 749.5,
+   "search": 76.3,
+   "cert": 673.2,
+   "set": "calibration",
+   "done": "2026-11-08 02:41:15"
+  },
+  "S12": {
+   "seconds": 232.1,
+   "search": 100.8,
+   "cert": 131.2,
+   "set": "calibration",
+   "done": "2026-11-08 02:45:07"
+  }
+ },
+ "cuts": [],
+ "log": [
+  "2026-11-07 19:07:49 M13 done in 247 s (search 246, cert 1); spent 0.47 h, projected 2.05 h",
+  "2026-11-07 19:18:55 S14 done in 666 s (search 310, cert 356); spent 0.65 h, projected 3.44 h",
+  "2026-11-07 19:51:38 G06 done in 1963 s (search 235, cert 1728); spent 1.20 h, projected 6.79 h",
+  "2026-11-07 20:06:33 S11 done in 896 s (search 291, cert 605); spent 1.45 h, projected 6.69 h",
+  "2026-11-07 20:35:11 G07 done in 1718 s (search 239, cert 1479); spent 1.92 h, projected 7.72 h",
+  "2026-11-07 20:51:59 S20 done in 1008 s (search 307, cert 701); spent 2.20 h, projected 7.62 h",
+  "2026-11-07 21:27:54 G15 done in 2155 s (search 239, cert 1916); spent 2.80 h, projected 8.64 h",
+  "2026-11-07 22:17:09 M06 done in 2955 s (search 253, cert 2702); spent 3.62 h, projected 10.07 h",
+  "2026-11-07 22:40:59 S18 done in 1430 s (search 238, cert 1192); spent 4.02 h, projected 10.06 h",
+  "2026-11-07 22:57:53 M05 done in 1014 s (search 214, cert 800); spent 4.30 h, projected 9.77 h",
+  "2026-11-07 23:23:57 G09 done in 1564 s (search 225, cert 1338); spent 4.74 h, projected 9.86 h",
+  "2026-11-07 23:40:57 S08 done in 1021 s (search 254, cert 767); spent 5.02 h, projected 9.64 h",
+  "2026-11-07 23:46:43 S19 done in 346 s (search 237, cert 108); spent 5.12 h, projected 9.11 h",
+  "2026-11-08 00:00:12 S07 done in 809 s (search 311, cert 498); spent 5.34 h, projected 8.87 h",
+  "2026-11-08 00:30:58 G10 done in 1846 s (search 225, cert 1620); spent 5.85 h, projected 9.13 h",
+  "2026-11-08 01:01:54 M11 done in 1856 s (search 214, cert 1642); spent 6.37 h, projected 9.36 h",
+  "2026-11-08 01:24:51 S04 done in 1378 s (search 298, cert 1080); spent 6.75 h, projected 9.37 h",
+  "2026-11-08 01:28:27 M07 done in 215 s (search 214, cert 1); spent 6.81 h, projected 8.95 h",
+  "2026-11-08 01:33:40 S10 done in 313 s (search 220, cert 94); spent 6.90 h, projected 8.61 h",
+  "2026-11-08 02:13:04 M09 done in 2364 s (search 254, cert 2110); spent 7.56 h, projected 8.99 h",
+  "2026-11-08 02:23:40 G14 done in 637 s (search 82, cert 555); spent 7.73 h, projected 8.78 h",
+  "2026-11-08 02:28:45 M04 done in 305 s (search 106, cert 199); spent 7.82 h, projected 8.49 h",
+  "2026-11-08 02:41:15 G12 done in 750 s (search 76, cert 673); spent 8.03 h, projected 8.36 h",
+  "2026-11-08 02:45:07 S12 done in 232 s (search 101, cert 131); spent 8.09 h, projected 8.09 h"
+ ]
+}

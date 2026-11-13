@@ -1,0 +1,1 @@
+Released the certified Ti-6Al-4V sphere-and-ligament design with \(c=0.234\), \(w=0.2792\), normalized by cell size. Guarded bounds confirm ≤15.986% solid and ≥8.1367 GPa along x, y, and z. The nominal geometry passes; robustness to ±0.01-cell-size offsets was not certified.

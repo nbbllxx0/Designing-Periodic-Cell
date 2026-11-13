@@ -1,0 +1,1 @@
+Released a certified Ti-6Al-4V Schwarz P sheet unit cell with density parameter 0.309. Its certified relative density is at most **30.903%**, and its bulk modulus is at least **13.068 GPa**, meeting both targets. The erosion robustness check failed; manufacturability was not evaluated.

@@ -1,0 +1,19 @@
+{
+ "brief": "P3",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 25.3,
+ "usage": {
+  "input_tokens": 222671,
+  "cached_input_tokens": 185472,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 568,
+  "reasoning_output_tokens": 26
+ },
+ "final": "The amm tools returned **PROVEN_INFEASIBLE**, so no design was released. Using Ti-6Al-4V\u2019s solid modulus of 113.8 GPa, the Voigt upper bound at 20% solid fraction is **22.76 GPa**, below the required 35 GPa. Both targets cannot be met under this material model.",
+ "stderr_tail": "2026-11-05T05:59:28.276492Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

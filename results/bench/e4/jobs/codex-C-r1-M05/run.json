@@ -1,0 +1,33 @@
+{
+ "brief": "M05",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 454.3,
+ "usage": {
+  "input_tokens": 490702,
+  "cached_input_tokens": 457984,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1955,
+  "reasoning_output_tokens": 420
+ },
+ "final": "Released a certified 25 mm PA12 sphere-ligament unit cell with normalized parameters **c = 0.345576, w = 0.12838**. Certified bounds give solid fraction \u226418.52%, axial Young\u2019s modulus \u226544.37 MPa, and a complete gap covering 13.2\u201323.2 kHz. Certification applies to the ideal periodic geometry; the \u22120.25 mm erosion check failed, and manufacturability was not evaluated.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-M05",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

@@ -1,0 +1,27 @@
+== system
+Python 3.12.16
+Linux 3775727a3939 6.18.54.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct  6 19:13:07 UTC 2026 x86_64 GNU/Linux
+32
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+Sun Nov  8 18:39:52 UTC 2026
+== pip install torch (CPU build, PyTorch CPU index)
+exit 0 30 s
+Successfully installed MarkupSafe-3.0.3 filelock-4.2.4 fsspec-2026.9.0 jinja2-3.1.6 mpmath-1.3.0 networkx-3.7 setuptools-78.1.0 sympy-1.14.0 torch-2.15.0+cpu typing-extensions-4.16.0
+== pip install amm[all] from the source copy (PyPI)
+exit 0 50 s
+[notice] To update, run: pip install --upgrade pip
+== smoke
+0.2.0 /usr/local/lib/python3.12/site-packages/amm/__init__.py
+torch 2.15.0+cpu cuda False
+MKL CBWR 65538
+code f1a6d625064a6d18 checker c5f8c89871b3bad6
+data True
+== replays
+exit 0 45 s
+env {"python": "3.12.16", "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.41", "machine": "x86_64", "torch": "2.15.0+cpu", "cuda": false, "device": "cpu", "code": "f1a6d625064a6d18", "checker": "c5f8c89871b3bad6", "mkl_cbwr": 65538}
+examples/outputs/02_session/session.jsonl: exact False mism 2 tol True [22.7 s]
+examples/outputs/03_session/session.jsonl: exact False mism 3 tol False [19.3 s]
+results/bench/smoke/jobs/codex-C-r1-N02/session/session.jsonl: exact True mism 0 tol True [1.3 s]
+set xenv_linux done in 43.4 s
+== total 129 s

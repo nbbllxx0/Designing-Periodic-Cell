@@ -1,0 +1,1 @@
+Released a certified PA12 Schwarz P sheet cell at 28% nominal solid fraction. Certified bounds meet all targets: solid fraction ≤28.005%, axial Young’s modulus ≥129.84 MPa in x/y/z, and C44 ≥96.46 MPa. Certification covers the ideal periodic geometry; erosion by 0.01 cell widths fails the robustness check, and SLS manufacturability was not evaluated.

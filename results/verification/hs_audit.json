@@ -1,0 +1,655 @@
+{
+ "rows": [
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "gyroid",
+    "params": {
+     "density": 0.1,
+     "mode": "network"
+    }
+   },
+   "rho": 0.09997589511907068,
+   "bulk_over_HS": 0.4755733823740151,
+   "C44_over_HSmu": 0.26814598822603225,
+   "shear_cubic2_over_HSmu": 0.11642486035124583,
+   "E100_over_HSE": 0.13385587477661967
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "gyroid",
+    "params": {
+     "density": 0.1,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.09985940464788635,
+   "bulk_over_HS": 0.94737739084558,
+   "C44_over_HSmu": 0.6557850703621125,
+   "shear_cubic2_over_HSmu": 0.6019797456351521,
+   "E100_over_HSE": 0.6423640850157216
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "gyroid",
+    "params": {
+     "density": 0.2,
+     "mode": "network"
+    }
+   },
+   "rho": 0.19998149483406358,
+   "bulk_over_HS": 0.541056027352353,
+   "C44_over_HSmu": 0.4744047250793138,
+   "shear_cubic2_over_HSmu": 0.2460778474244552,
+   "E100_over_HSE": 0.2712190874650151
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "gyroid",
+    "params": {
+     "density": 0.2,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.19978321846742308,
+   "bulk_over_HS": 0.9077074134226858,
+   "C44_over_HSmu": 0.6921973512989952,
+   "shear_cubic2_over_HSmu": 0.6204392801010702,
+   "E100_over_HSE": 0.6557246564050481
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "gyroid",
+    "params": {
+     "density": 0.35,
+     "mode": "network"
+    }
+   },
+   "rho": 0.34994515949450716,
+   "bulk_over_HS": 0.616385161849235,
+   "C44_over_HSmu": 0.6736893959037662,
+   "shear_cubic2_over_HSmu": 0.4412741209121648,
+   "E100_over_HSE": 0.46309591179416154
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "gyroid",
+    "params": {
+     "density": 0.35,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.34994080125184973,
+   "bulk_over_HS": 0.8699956734160884,
+   "C44_over_HSmu": 0.7684690572664233,
+   "shear_cubic2_over_HSmu": 0.6740124978800698,
+   "E100_over_HSE": 0.7001742149395517
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "gyroid",
+    "params": {
+     "density": 0.5,
+     "mode": "network"
+    }
+   },
+   "rho": 0.49996379026344573,
+   "bulk_over_HS": 0.6895729265953209,
+   "C44_over_HSmu": 0.7921821033175862,
+   "shear_cubic2_over_HSmu": 0.6189813811010416,
+   "E100_over_HSE": 0.6293455190387115
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "gyroid",
+    "params": {
+     "density": 0.5,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.4998860768011746,
+   "bulk_over_HS": 0.8559444395102335,
+   "C44_over_HSmu": 0.8456250793331371,
+   "shear_cubic2_over_HSmu": 0.744748201887849,
+   "E100_over_HSE": 0.7606448547944695
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.1,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.09993772075176614,
+   "bulk_over_HS": 0.9243724093203298,
+   "C44_over_HSmu": 0.8974756738249745,
+   "shear_cubic2_over_HSmu": 0.29371900375883786,
+   "E100_over_HSE": 0.33288088067158406
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.2,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.19987881497894242,
+   "bulk_over_HS": 0.901155023482908,
+   "C44_over_HSmu": 0.9111077065457986,
+   "shear_cubic2_over_HSmu": 0.36820621865193626,
+   "E100_over_HSE": 0.40937128521872745
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.35,
+     "mode": "network"
+    }
+   },
+   "rho": 0.3499862795368767,
+   "bulk_over_HS": 0.5129142942105674,
+   "C44_over_HSmu": 0.37521072865938937,
+   "shear_cubic2_over_HSmu": 0.8899592761486919,
+   "E100_over_HSE": 0.7932410402252537
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.35,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.3499422993826472,
+   "bulk_over_HS": 0.8877736922646803,
+   "C44_over_HSmu": 0.942408271542889,
+   "shear_cubic2_over_HSmu": 0.5266310358742325,
+   "E100_over_HSE": 0.5647358822305577
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.5,
+     "mode": "network"
+    }
+   },
+   "rho": 0.49996122314335273,
+   "bulk_over_HS": 0.6763929178990351,
+   "C44_over_HSmu": 0.576400034022578,
+   "shear_cubic2_over_HSmu": 0.9860387054843615,
+   "E100_over_HSE": 0.9184036962526354
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.5,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.4999906439579628,
+   "bulk_over_HS": 0.9197921514423187,
+   "C44_over_HSmu": 0.9834258954622114,
+   "shear_cubic2_over_HSmu": 0.70954394247281,
+   "E100_over_HSE": 0.7366309780896242
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "diamond",
+    "params": {
+     "density": 0.1,
+     "mode": "network"
+    }
+   },
+   "rho": 0.09999940147991776,
+   "bulk_over_HS": 0.26344914098935696,
+   "C44_over_HSmu": 0.2609594555009656,
+   "shear_cubic2_over_HSmu": 0.11162078730757917,
+   "E100_over_HSE": 0.12393722753304447
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "diamond",
+    "params": {
+     "density": 0.1,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.09994189480290487,
+   "bulk_over_HS": 0.9476161958956423,
+   "C44_over_HSmu": 0.5543904432433017,
+   "shear_cubic2_over_HSmu": 0.799047899383001,
+   "E100_over_HSE": 0.8212502953158124
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "diamond",
+    "params": {
+     "density": 0.2,
+     "mode": "network"
+    }
+   },
+   "rho": 0.1999394741457339,
+   "bulk_over_HS": 0.4890387845872658,
+   "C44_over_HSmu": 0.5825475280985234,
+   "shear_cubic2_over_HSmu": 0.25764078037142807,
+   "E100_over_HSE": 0.2801820365355532
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "diamond",
+    "params": {
+     "density": 0.2,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.19976388550894394,
+   "bulk_over_HS": 0.9090346848296013,
+   "C44_over_HSmu": 0.6111144354324718,
+   "shear_cubic2_over_HSmu": 0.7928306415592581,
+   "E100_over_HSE": 0.8104462615504898
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "diamond",
+    "params": {
+     "density": 0.35,
+     "mode": "network"
+    }
+   },
+   "rho": 0.34992455273514084,
+   "bulk_over_HS": 0.6042707786396686,
+   "C44_over_HSmu": 0.7930472586933084,
+   "shear_cubic2_over_HSmu": 0.40143288978423597,
+   "E100_over_HSE": 0.4251013320771845
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "diamond",
+    "params": {
+     "density": 0.35,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.3498821492441585,
+   "bulk_over_HS": 0.8743485093877013,
+   "C44_over_HSmu": 0.7248674954521234,
+   "shear_cubic2_over_HSmu": 0.8037520076626773,
+   "E100_over_HSE": 0.8146623743922198
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "diamond",
+    "params": {
+     "density": 0.5,
+     "mode": "network"
+    }
+   },
+   "rho": 0.49996664004745306,
+   "bulk_over_HS": 0.6903306220720742,
+   "C44_over_HSmu": 0.8972766268596835,
+   "shear_cubic2_over_HSmu": 0.5328823804784707,
+   "E100_over_HSE": 0.5531787050666429
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "diamond",
+    "params": {
+     "density": 0.5,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.4999913366351987,
+   "bulk_over_HS": 0.8655049212619946,
+   "C44_over_HSmu": 0.832963690345614,
+   "shear_cubic2_over_HSmu": 0.8339281694901571,
+   "E100_over_HSE": 0.8388514182570254
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "iwp",
+    "params": {
+     "density": 0.1,
+     "mode": "network"
+    }
+   },
+   "rho": 0.09994100888325444,
+   "bulk_over_HS": 0.10292342838489826,
+   "C44_over_HSmu": 0.002222351596999763,
+   "shear_cubic2_over_HSmu": 0.2380496804894172,
+   "E100_over_HSE": 0.19410610683839016
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "iwp",
+    "params": {
+     "density": 0.1,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.09989683233929403,
+   "bulk_over_HS": 0.6005434196020739,
+   "C44_over_HSmu": 0.5636123285585734,
+   "shear_cubic2_over_HSmu": 0.6054038160237047,
+   "E100_over_HSE": 0.6045600928443023
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "iwp",
+    "params": {
+     "density": 0.2,
+     "mode": "network"
+    }
+   },
+   "rho": 0.19998493004511614,
+   "bulk_over_HS": 0.45848674569456427,
+   "C44_over_HSmu": 0.09848651871109036,
+   "shear_cubic2_over_HSmu": 0.8771781348270479,
+   "E100_over_HSE": 0.7592845025169489
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "iwp",
+    "params": {
+     "density": 0.2,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.19992722204440577,
+   "bulk_over_HS": 0.6761602938745175,
+   "C44_over_HSmu": 0.5844705119237904,
+   "shear_cubic2_over_HSmu": 0.7104658292370866,
+   "E100_over_HSE": 0.7043893830579859
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "iwp",
+    "params": {
+     "density": 0.35,
+     "mode": "network"
+    }
+   },
+   "rho": 0.3499761623545626,
+   "bulk_over_HS": 0.5705307074722831,
+   "C44_over_HSmu": 0.2639634404651548,
+   "shear_cubic2_over_HSmu": 0.9510376393146142,
+   "E100_over_HSE": 0.8563112803765699
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "iwp",
+    "params": {
+     "density": 0.35,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.34985589795523037,
+   "bulk_over_HS": 0.7580038400163578,
+   "C44_over_HSmu": 0.6407163295508946,
+   "shear_cubic2_over_HSmu": 0.8499711859705433,
+   "E100_over_HSE": 0.8332032969285474
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "iwp",
+    "params": {
+     "density": 0.5,
+     "mode": "network"
+    }
+   },
+   "rho": 0.49991334709442675,
+   "bulk_over_HS": 0.6473928729197316,
+   "C44_over_HSmu": 0.4620445846496466,
+   "shear_cubic2_over_HSmu": 0.9553177602172052,
+   "E100_over_HSE": 0.8874160518738509
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "iwp",
+    "params": {
+     "density": 0.5,
+     "mode": "sheet"
+    }
+   },
+   "rho": 0.4999456123855659,
+   "bulk_over_HS": 0.8101752926651375,
+   "C44_over_HSmu": 0.7191671531394956,
+   "shear_cubic2_over_HSmu": 0.9395219126695648,
+   "E100_over_HSE": 0.9159961828733297
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "sc",
+    "params": {
+     "r": 0.06,
+     "R": 0.0
+    }
+   },
+   "rho": 0.03156864240522381,
+   "bulk_over_HS": 0.4189908949651603,
+   "C44_over_HSmu": 0.014194862939352019,
+   "shear_cubic2_over_HSmu": 0.9021152560647048,
+   "E100_over_HSE": 0.7514072976542383
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "sc",
+    "params": {
+     "r": 0.1,
+     "R": 0.0
+    }
+   },
+   "rho": 0.08284620616135324,
+   "bulk_over_HS": 0.45619700182666856,
+   "C44_over_HSmu": 0.042739505192478176,
+   "shear_cubic2_over_HSmu": 0.9274452167863837,
+   "E100_over_HSE": 0.7869538280904299
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "sc",
+    "params": {
+     "r": 0.14,
+     "R": 0.0
+    }
+   },
+   "rho": 0.15380074677249894,
+   "bulk_over_HS": 0.4950754926327304,
+   "C44_over_HSmu": 0.092945846469285,
+   "shear_cubic2_over_HSmu": 0.9475912596653095,
+   "E100_over_HSE": 0.8193915158463672
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "bcc",
+    "params": {
+     "r": 0.06,
+     "R": 0.0
+    }
+   },
+   "rho": 0.07002691169241035,
+   "bulk_over_HS": 0.45954793349475687,
+   "C44_over_HSmu": 0.6590172149404812,
+   "shear_cubic2_over_HSmu": 0.02622269312464135,
+   "E100_over_HSE": 0.031338034392420167
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "bcc",
+    "params": {
+     "r": 0.1,
+     "R": 0.0
+    }
+   },
+   "rho": 0.1786290640355835,
+   "bulk_over_HS": 0.5172401898569395,
+   "C44_over_HSmu": 0.7088799860690365,
+   "shear_cubic2_over_HSmu": 0.08660512317550255,
+   "E100_over_HSE": 0.10093898934406673
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "bcc",
+    "params": {
+     "r": 0.14,
+     "R": 0.0
+    }
+   },
+   "rho": 0.31922696711363874,
+   "bulk_over_HS": 0.5781098089789336,
+   "C44_over_HSmu": 0.759940010009865,
+   "shear_cubic2_over_HSmu": 0.20892042895178345,
+   "E100_over_HSE": 0.23382453559326719
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "octet",
+    "params": {
+     "r": 0.06,
+     "R": 0.0
+    }
+   },
+   "rho": 0.15851165052231342,
+   "bulk_over_HS": 0.5230997319457582,
+   "C44_over_HSmu": 0.5864511868723983,
+   "shear_cubic2_over_HSmu": 0.3285425868006419,
+   "E100_over_HSE": 0.35086528914985327
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "octet",
+    "params": {
+     "r": 0.1,
+     "R": 0.0
+    }
+   },
+   "rho": 0.3783656051694707,
+   "bulk_over_HS": 0.6268995192153715,
+   "C44_over_HSmu": 0.7279290742323465,
+   "shear_cubic2_over_HSmu": 0.4751265773278061,
+   "E100_over_HSE": 0.4948948537678245
+  },
+  {
+   "spec": {
+    "family": "struts",
+    "kind": "octet",
+    "params": {
+     "r": 0.14,
+     "R": 0.0
+    }
+   },
+   "rho": 0.6207383937646365,
+   "bulk_over_HS": 0.7693381114984692,
+   "C44_over_HSmu": 0.9028730665544266,
+   "shear_cubic2_over_HSmu": 0.7041275354720512,
+   "E100_over_HSE": 0.7135661146021774
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.4,
+     "w": 0.15
+    }
+   },
+   "rho": 0.10443262862832939,
+   "bulk_over_HS": 0.3107942246512018,
+   "C44_over_HSmu": 0.03949590140502039,
+   "shear_cubic2_over_HSmu": 0.6638148263505559,
+   "E100_over_HSE": 0.5551457412537457
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.4,
+     "w": 0.3
+    }
+   },
+   "rho": 0.22602194391145697,
+   "bulk_over_HS": 0.5324995187468463,
+   "C44_over_HSmu": 0.17204007490672907,
+   "shear_cubic2_over_HSmu": 0.9682496468425544,
+   "E100_over_HSE": 0.8503970607903284
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.6,
+     "w": 0.15
+    }
+   },
+   "rho": 0.24321048960195885,
+   "bulk_over_HS": 0.16266678949252697,
+   "C44_over_HSmu": 0.042857915564416,
+   "shear_cubic2_over_HSmu": 0.3562247874369865,
+   "E100_over_HSE": 0.2966127365298187
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.6,
+     "w": 0.3
+    }
+   },
+   "rho": 0.3243163761905226,
+   "bulk_over_HS": 0.43447438099144514,
+   "C44_over_HSmu": 0.22747170685917037,
+   "shear_cubic2_over_HSmu": 0.7904333447622883,
+   "E100_over_HSE": 0.6954868980456835
+  }
+ ],
+ "max": {
+  "bulk_over_HS": 0.9476161958956423,
+  "C44_over_HSmu": 0.9834258954622114,
+  "shear_cubic2_over_HSmu": 0.9860387054843615,
+  "E100_over_HSE": 0.9184036962526354
+ }
+}

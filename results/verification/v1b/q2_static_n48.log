@@ -1,0 +1,4 @@
+  Q2FCM n=48 s=5: ne=34128 (cut 7328), ndof=866730, density=0.27391, removed=1.02e-14, setup 30.4s
+thin_sl_c0.402_w0.061_nu0.3 48 E100=0.0107267 G=0.000326674 bulk=0.00363773 rho=0.273906 ndof=866730 res=9.7e-14 406.6s
+  Q2FCM n=48 s=5: ne=24992 (cut 6200), ndof=640626, density=0.19793, removed=-4.99e-16, setup 32.9s
+thin_sl_c0.357_w0.109_nu0.3 48 E100=0.0218124 G=0.000844786 bulk=0.00756336 rho=0.197925 ndof=640626 res=8.7e-14 251.0s

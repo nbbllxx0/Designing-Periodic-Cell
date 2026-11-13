@@ -1,0 +1,19 @@
+10 mm cell: screen passed: min solid feature 1.56 mm, narrowest channel 2.58 mm, limit 0.8 mm (pass; 0.0 % of the solid thinner than the limit); 3x3x3 block connected True; watertight True  [6.3 s]
+  limit source: typical minimum feature of PA12 by SLS (amm.units.MATERIALS, a datasheet value, not a machine capability)
+  surface method: marching_cubes; disclaimer: manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not
+4 mm cell:  screen failed: min solid feature 0.62 mm, narrowest channel 1.03 mm, limit 0.8 mm (FAIL; 83.9 % of the solid thinner than the limit); 3x3x3 block connected True; watertight True
+
+export bcc_268f8017_bf53ba (mm), outcome not_certified (Not certified), 6.8 s
+  cell    exports/bcc_268f8017_bf53ba/cell.stl  1898284 bytes  sha256 d78a730abb14ba59  37964 triangles (marching_cubes)
+  report  exports/bcc_268f8017_bf53ba/report.json  4973 bytes  sha256 05c1914c6f4fcec1
+  tiled   exports/bcc_268f8017_bf53ba/tiled_3x3x3.stl  11257084 bytes  sha256 f445cf04ab137fb8  225140 triangles (marching_cubes)
+  report.json keys: ['cannot_normalize', 'certificate', 'design', 'disclaimers', 'geometry', 'identity', 'normalized_targets', 'outcome', 'schema_version', 'screening', 'search_tier', 'spec', 'submission']
+  disclaimers:
+    - manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not
+    - certificates are acceptance under stated discretization, sampling and guard assumptions, not continuum theorems; a gap is certified for the infinite periodic lattice, not for a finite printed block
+    - search-tier values (evaluate, search, atlas) are estimates, biased stiff and high in frequency, NOT certificates
+    - material values are typical datasheet inputs of the request, not measured properties of a printed part
+    - the as-built check is a robustness flag (surface offset +-offset a), not a tolerance analysis
+
+total 20.0 s
+summary: {"design": {"kind": "bcc", "params": {"r": 0.08, "R": 0.0}}, "screen_10mm": "screen passed", "screen_4mm": "screen failed", "export": "bcc_268f8017_bf53ba", "seconds_total": 20.0}

@@ -1,0 +1,1 @@
+Submitted **UNDETERMINED**; no design released. A BCC candidate is predicted to meet all requirements, but fails the pessimistic check, and this session lacks certification tools. Feasibility remains unverified.

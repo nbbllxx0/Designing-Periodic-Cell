@@ -1,0 +1,222 @@
+=== cb_c0.5_w0.2_nu0.3 Sat Nov  7 12:24:16 PST 2026
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.5_w0.2_nu0.3.json --deg 2 --nev 10 --model exact --n 10  --mode search --out results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/search.json
+wrote results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/search.json (242.4 s)
+<< 0 in 244 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.5_w0.2_nu0.3.json --deg 2 --nev 10 --model exact --n 10 --split --ks results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/ks_all.json --out results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/q2_n10.json
+wrote results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/q2_n10.json (18.3 s)
+<< 0 in 20 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.5_w0.2_nu0.3.json --deg 2 --nev 10 --model exact --n 15 --split --ks results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/ks_all.json --out results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/q2_n15.json
+wrote results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/q2_n15.json (34.1 s)
+<< 0 in 35 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.5_w0.2_nu0.3.json --deg 2 --nev 10 --model exact --n 20 --ks results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/ks_sub.json --out results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/q2_n20.json
+k/pi=[1.0, 0.0, 0.0] f[nb-1:nb+1]=[0.35924965963955946, 0.5712583800866713] t=7.8s
+k/pi=[0.9969, 0.0, 0.0] f[nb-1:nb+1]=[0.3592493336472784, 0.5712583800984249] t=8.2s
+k/pi=[0.75, 0.0, 0.0] f[nb-1:nb+1]=[0.3572760476836507, 0.5712584515351773] t=6.3s
+k/pi=[0.5, 0.0, 0.0] f[nb-1:nb+1]=[0.35257201531257293, 0.5712586240271058] t=8.2s
+k/pi=[0.0, 0.0, 0.0] f[nb-1:nb+1]=[0.3460539994208244, 0.5712588679673816] t=6.9s
+k/pi=[1.0, 1.0, 0.0] f[nb-1:nb+1]=[0.3247446983158854, 0.6258364934582725] t=9.7s
+k/pi=[1.0, 1.0, 1.0] f[nb-1:nb+1]=[0.35965113291726675, 0.6258364504554641] t=9.0s
+wrote results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/q2_n20.json (57.4 s)
+<< 0 in 59 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.5_w0.2_nu0.3.json --deg 1 --nev 10 --model fcm_id --n 20 --split --ks results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/ks_id.json --out results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/q1id_n20.json
+wrote results/verification/dolfinx/raw/cb_c0.5_w0.2_nu0.3/q1id_n20.json (4.3 s)
+<< 0 in 6 s
+done cb_c0.5_w0.2_nu0.3 {'search': 243.8, 'q2_n10': 19.7, 'q2_n15': 35.5, 'q2_n20': 59.1, 'q1id_n20': 5.9}
+=== cb_c0.6_w0.2_nu0.342 Sat Nov  7 12:30:20 PST 2026
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.6_w0.2_nu0.342.json --deg 2 --nev 10 --model exact --n 10  --mode search --out results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/search.json
+wrote results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/search.json (425.2 s)
+<< 0 in 427 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.6_w0.2_nu0.342.json --deg 2 --nev 10 --model exact --n 10 --split --ks results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/ks_all.json --out results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/q2_n10.json
+wrote results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/q2_n10.json (21.7 s)
+<< 0 in 23 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.6_w0.2_nu0.342.json --deg 2 --nev 10 --model exact --n 15 --split --ks results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/ks_all.json --out results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/q2_n15.json
+wrote results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/q2_n15.json (97.2 s)
+<< 0 in 99 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.6_w0.2_nu0.342.json --deg 2 --nev 10 --model exact --n 20 --ks results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/ks_sub.json --out results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/q2_n20.json
+k/pi=[1.0, 1.0, 1.0] f[nb-1:nb+1]=[0.32182194697584704, 0.7780401090016039] t=16.8s
+k/pi=[1.0, 0.999, 0.999] f[nb-1:nb+1]=[0.32182189230422903, 0.7780401250003938] t=16.0s
+k/pi=[1.0, 0.0, 0.0] f[nb-1:nb+1]=[0.3073269088480128, 0.7053765047949131] t=15.6s
+k/pi=[0.9969, 0.0, 0.0] f[nb-1:nb+1]=[0.30732672748595746, 0.705376504794039] t=15.7s
+k/pi=[0.0, 0.0, 0.0] f[nb-1:nb+1]=[0.29986254499243314, 0.7053764683944584] t=15.0s
+k/pi=[1.0, 1.0, 0.0] f[nb-1:nb+1]=[0.29610616941282597, 0.7728998482972453] t=16.6s
+wrote results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/q2_n20.json (97.0 s)
+<< 0 in 98 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.6_w0.2_nu0.342.json --deg 1 --nev 10 --model fcm_id --n 20 --split --ks results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/ks_id.json --out results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/q1id_n20.json
+wrote results/verification/dolfinx/raw/cb_c0.6_w0.2_nu0.342/q1id_n20.json (5.6 s)
+<< 0 in 7 s
+done cb_c0.6_w0.2_nu0.342 {'search': 426.7, 'q2_n10': 23.0, 'q2_n15': 98.5, 'q2_n20': 98.5, 'q1id_n20': 7.0}
+=== cb_c0.6_w0.3_nu0.3 Sat Nov  7 12:41:14 PST 2026
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.6_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 10  --mode search --out results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/search.json
+wrote results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/search.json (683.8 s)
+<< 0 in 685 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.6_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 10 --split --ks results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/ks_all.json --out results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/q2_n10.json
+wrote results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/q2_n10.json (52.8 s)
+<< 0 in 54 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.6_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 15 --split --ks results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/ks_all.json --out results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/q2_n15.json
+wrote results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/q2_n15.json (160.9 s)
+<< 0 in 162 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.6_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 20 --ks results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/ks_sub.json --out results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/q2_n20.json
+k/pi=[1.0, 0.0, 0.0] f[nb-1:nb+1]=[0.5305270770082197, 0.6858807217576453] t=16.7s
+k/pi=[0.9969, 0.0, 0.0] f[nb-1:nb+1]=[0.5305262295255797, 0.6858807163172422] t=18.6s
+k/pi=[0.0, 0.0, 0.0] f[nb-1:nb+1]=[0.4996369685891927, 0.6856513740125432] t=17.7s
+k/pi=[0.0031, 0.0, 0.0] f[nb-1:nb+1]=[0.4996376238841727, 0.6856513795366134] t=73.5s
+k/pi=[1.0, 1.0, 0.0] f[nb-1:nb+1]=[0.39951061926967835, 0.7707389908830202] t=20.4s
+k/pi=[1.0, 1.0, 1.0] f[nb-1:nb+1]=[0.465666163701706, 0.7705389336766476] t=18.3s
+wrote results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/q2_n20.json (166.5 s)
+<< 0 in 168 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.6_w0.3_nu0.3.json --deg 1 --nev 10 --model fcm_id --n 20 --split --ks results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/ks_id.json --out results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/q1id_n20.json
+wrote results/verification/dolfinx/raw/cb_c0.6_w0.3_nu0.3/q1id_n20.json (6.4 s)
+<< 0 in 8 s
+done cb_c0.6_w0.3_nu0.3 {'search': 685.2, 'q2_n10': 54.3, 'q2_n15': 162.2, 'q2_n20': 168.1, 'q1id_n20': 7.8}
+=== cb_c0.7_w0.3_nu0.3 Sat Nov  7 12:59:12 PST 2026
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.7_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 10  --mode search --out results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/search.json
+wrote results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/search.json (864.3 s)
+<< 0 in 866 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.7_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 10 --split --ks results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/ks_all.json --out results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/q2_n10.json
+wrote results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/q2_n10.json (41.0 s)
+<< 0 in 42 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.7_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 15 --split --ks results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/ks_all.json --out results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/q2_n15.json
+wrote results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/q2_n15.json (231.9 s)
+<< 0 in 233 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.7_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 20 --ks results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/ks_sub.json --out results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/q2_n20.json
+k/pi=[1.0, 0.0, 0.0] f[nb-1:nb+1]=[0.4595121433688854, 0.7124557900853912] t=26.6s
+k/pi=[0.9969, 0.0, 0.0] f[nb-1:nb+1]=[0.4595116708235033, 0.7124564655300425] t=26.8s
+k/pi=[1.0, 1.0, 1.0] f[nb-1:nb+1]=[0.43182729863082087, 0.6981680102459301] t=27.6s
+k/pi=[1.0, 0.999, 0.999] f[nb-1:nb+1]=[0.43182721995695017, 0.698168041827821] t=36.2s
+k/pi=[0.0, 0.0, 0.0] f[nb-1:nb+1]=[0.44130101274083555, 0.7397645635348008] t=28.4s
+k/pi=[1.0, 1.0, 0.0] f[nb-1:nb+1]=[0.3744713520781158, 0.6992241412797379] t=43.1s
+wrote results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/q2_n20.json (190.1 s)
+<< 0 in 192 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.7_w0.3_nu0.3.json --deg 1 --nev 10 --model fcm_id --n 20 --split --ks results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/ks_id.json --out results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/q1id_n20.json
+wrote results/verification/dolfinx/raw/cb_c0.7_w0.3_nu0.3/q1id_n20.json (9.9 s)
+<< 0 in 11 s
+done cb_c0.7_w0.3_nu0.3 {'search': 865.8, 'q2_n10': 42.4, 'q2_n15': 233.4, 'q2_n20': 192.3, 'q1id_n20': 11.3}
+=== cb_c0.8_w0.3_nu0.3 Sat Nov  7 13:21:37 PST 2026
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.8_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 10  --mode search --out results/verification/dolfinx/raw/cb_c0.8_w0.3_nu0.3/search.json
+wrote results/verification/dolfinx/raw/cb_c0.8_w0.3_nu0.3/search.json (604.0 s)
+<< 0 in 605 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.8_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 10 --split --ks results/verification/dolfinx/raw/cb_c0.8_w0.3_nu0.3/ks_all.json --out results/verification/dolfinx/raw/cb_c0.8_w0.3_nu0.3/q2_n10.json
+wrote results/verification/dolfinx/raw/cb_c0.8_w0.3_nu0.3/q2_n10.json (33.9 s)
+<< 0 in 35 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.8_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 15 --split --ks results/verification/dolfinx/raw/cb_c0.8_w0.3_nu0.3/ks_all.json --out results/verification/dolfinx/raw/cb_c0.8_w0.3_nu0.3/q2_n15.json
+wrote results/verification/dolfinx/raw/cb_c0.8_w0.3_nu0.3/q2_n15.json (452.6 s)
+<< 0 in 454 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.8_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 20 --ks results/verification/dolfinx/raw/cb_c0.8_w0.3_nu0.3/ks_sub.json --out results/verification/dolfinx/raw/cb_c0.8_w0.3_nu0.3/q2_n20.json
+k/pi=[1.0, 0.0, 0.0] f[nb-1:nb+1]=[0.41735728564560287, 0.61451362676649] t=69.8s
+k/pi=[0.9969, 0.0, 0.0] f[nb-1:nb+1]=[0.4173569491421145, 0.6145139930766319] t=72.0s
+k/pi=[1.0, 1.0, 1.0] f[nb-1:nb+1]=[0.41472446227708387, 0.6026450710094808] t=63.3s
+k/pi=[0.9995, 0.9995, 0.9995] f[nb-1:nb+1]=[0.41472433699753264, 0.6026450878479233] t=55.2s
+k/pi=[0.0, 0.0, 0.0] f[nb-1:nb+1]=[0.40419780621092255, 0.6289507867162583] t=75.5s
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 10 RUNNING AT b4272e88603b
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
+<< 9 in 344 s
+container step failed: mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/cb_c0.8_w0.3_nu0.3.json --deg 2 --nev 10 --model exact --n 20 --ks results/verification/dolfinx/raw/cb_c0.8_w0.3_nu0.3/ks_sub.json --out results/verification/dolfinx/raw/cb_c0.8_w0.3_nu0.3/q2_n20.json
+FAILED cb_c0.8_w0.3_nu0.3
+=== tpms_schwarzp_d0.25_nu0.3 Sat Nov  7 13:45:36 PST 2026
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/tpms_schwarzp_d0.25_nu0.3.json --deg 2 --nev 10 --model fcm --n 10 --qsub 1 --mode search --out results/verification/dolfinx/raw/tpms_schwarzp_d0.25_nu0.3/search.json
+wrote results/verification/dolfinx/raw/tpms_schwarzp_d0.25_nu0.3/search.json (1308.7 s)
+<< 0 in 1311 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/tpms_schwarzp_d0.25_nu0.3.json --deg 2 --nev 10 --model fcm --n 16 --split --ks results/verification/dolfinx/raw/tpms_schwarzp_d0.25_nu0.3/ks_all.json --out results/verification/dolfinx/raw/tpms_schwarzp_d0.25_nu0.3/q2_n16.json
+wrote results/verification/dolfinx/raw/tpms_schwarzp_d0.25_nu0.3/q2_n16.json (367.8 s)
+<< 0 in 370 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/tpms_schwarzp_d0.25_nu0.3.json --deg 2 --nev 10 --model fcm --n 20 --split --ks results/verification/dolfinx/raw/tpms_schwarzp_d0.25_nu0.3/ks_all.json --out results/verification/dolfinx/raw/tpms_schwarzp_d0.25_nu0.3/q2_n20.json
+wrote results/verification/dolfinx/raw/tpms_schwarzp_d0.25_nu0.3/q2_n20.json (841.6 s)
+<< 0 in 844 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/tpms_schwarzp_d0.25_nu0.3.json --deg 2 --nev 10 --model fcm --n 30 --ks results/verification/dolfinx/raw/tpms_schwarzp_d0.25_nu0.3/ks_sub.json --out results/verification/dolfinx/raw/tpms_schwarzp_d0.25_nu0.3/q2_n30.json
+k/pi=[1.0, 0.0, 0.0] f[nb-1:nb+1]=[0.4646231093438325, 0.8315497200889564] t=209.0s
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 9 RUNNING AT f3ccd7a6df9c
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
+<< 9 in 268 s
+container step failed: mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/tpms_schwarzp_d0.25_nu0.3.json --deg 2 --nev 10 --model fcm --n 30 --ks results/verification/dolfinx/raw/tpms_schwarzp_d0.25_nu0.3/ks_sub.json --out results/verification/dolfinx/raw/tpms_schwarzp_d0.25_nu0.3/q2_n30.json
+FAILED tpms_schwarzp_d0.25_nu0.3
+=== strut_bcc_R0.27_r0.06_nu0.342 Sat Nov  7 14:32:08 PST 2026
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/strut_bcc_R0.27_r0.06_nu0.342.json --deg 2 --nev 16 --model fcm --n 10 --qsub 1 --mode search --out results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/search.json
+wrote results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/search.json (2635.3 s)
+<< 0 in 2637 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/strut_bcc_R0.27_r0.06_nu0.342.json --deg 2 --nev 16 --model fcm --n 16 --split --ks results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/ks_all.json --out results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n16.json
+wrote results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n16.json (443.1 s)
+<< 0 in 445 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/strut_bcc_R0.27_r0.06_nu0.342.json --deg 2 --nev 16 --model fcm --n 20 --split --ks results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/ks_all.json --out results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n20.json
+wrote results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n20.json (955.7 s)
+<< 0 in 957 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/strut_bcc_R0.27_r0.06_nu0.342.json --deg 2 --nev 16 --model fcm --n 30 --ks '[0.0, 0.0, 0.0]' --out results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k0.json
+k/pi=[0.0, 0.0, 0.0] f[nb-1:nb+1]=[0.34974479827679034, 0.7711743358689931] t=107.5s
+wrote results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k0.json (112.5 s)
+<< 0 in 115 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/strut_bcc_R0.27_r0.06_nu0.342.json --deg 2 --nev 16 --model fcm --n 30 --ks '[0.0029951799810055135, 0.0029951799810055135, 0.0]' --out results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k1.json
+k/pi=[0.001, 0.001, 0.0] f[nb-1:nb+1]=[0.3497447640413204, 0.7711744431651688] t=398.9s
+wrote results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k1.json (404.1 s)
+<< 0 in 406 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/strut_bcc_R0.27_r0.06_nu0.342.json --deg 2 --nev 16 --model fcm --n 30 --ks '[0.009738937226128359, 0.0, 0.0]' --out results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k2.json
+k/pi=[0.0031, 0.0, 0.0] f[nb-1:nb+1]=[0.34974365042267674, 0.7711746641076596] t=385.8s
+wrote results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k2.json (390.8 s)
+<< 0 in 393 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/strut_bcc_R0.27_r0.06_nu0.342.json --deg 2 --nev 16 --model fcm --n 30 --ks '[0.009817477042468603, 0.0, 0.0]' --out results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k3.json
+k/pi=[0.0031, 0.0, 0.0] f[nb-1:nb+1]=[0.3497436318342885, 0.7711746694231729] t=388.4s
+wrote results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k3.json (393.4 s)
+<< 0 in 395 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/strut_bcc_R0.27_r0.06_nu0.342.json --deg 2 --nev 16 --model fcm --n 30 --ks '[3.141592653589793, 0.0, 0.0]' --out results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k4.json
+k/pi=[1.0, 0.0, 0.0] f[nb-1:nb+1]=[0.2623593295881874, 0.8009885109639339] t=92.1s
+wrote results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k4.json (97.2 s)
+<< 0 in 99 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/strut_bcc_R0.27_r0.06_nu0.342.json --deg 2 --nev 16 --model fcm --n 30 --ks '[3.141592653589793, 3.141592653589793, 0.0]' --out results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k5.json
+k/pi=[1.0, 1.0, 0.0] f[nb-1:nb+1]=[0.3235428295952817, 0.7971341795595933] t=89.3s
+wrote results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k5.json (93.5 s)
+<< 0 in 95 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/strut_bcc_R0.27_r0.06_nu0.342.json --deg 2 --nev 16 --model fcm --n 30 --ks '[3.141592653589793, 3.141592653589793, 3.141592653589793]' --out results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k6.json
+k/pi=[1.0, 1.0, 1.0] f[nb-1:nb+1]=[0.23489853836650973, 0.810429974180405] t=85.4s
+wrote results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q2_n30_k6.json (89.2 s)
+<< 0 in 91 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/strut_bcc_R0.27_r0.06_nu0.342.json --deg 1 --nev 16 --model fcm_id --n 20 --split --ks results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/ks_id.json --out results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q1id_n20.json
+wrote results/verification/dolfinx/raw/strut_bcc_R0.27_r0.06_nu0.342/q1id_n20.json (8.5 s)
+<< 0 in 10 s
+done strut_bcc_R0.27_r0.06_nu0.342 {'search': 2637.3, 'q2_n16': 444.8, 'q2_n20': 957.2, 'q2_n30_k0': 114.5, 'q2_n30_k1': 406.0, 'q2_n30_k2': 392.8, 'q2_n30_k3': 395.4, 'q2_n30_k4': 99.1, 'q2_n30_k5': 95.0, 'q2_n30_k6': 90.8, 'q1id_n20': 10.0}
+=== thin_sl_c0.402_w0.061_nu0.3 Sat Nov  7 16:06:12 PST 2026
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/thin_sl_c0.402_w0.061_nu0.3.json --deg 2 --nev 10 --model fcm --n 10 --qsub 1 --mode search --n-random 40 --rounds 3 --top 2 --out results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/search.json
+wrote results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/search.json (531.4 s)
+<< 0 in 533 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/thin_sl_c0.402_w0.061_nu0.3.json --deg 2 --nev 10 --model fcm --n 16 --split --ks results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/ks_all.json --out results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q2_n16.json
+wrote results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q2_n16.json (472.0 s)
+<< 0 in 474 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/thin_sl_c0.402_w0.061_nu0.3.json --deg 2 --nev 10 --model fcm --n 20 --split --ks results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/ks_all.json --out results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q2_n20.json
+wrote results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q2_n20.json (1004.8 s)
+<< 0 in 1006 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/thin_sl_c0.402_w0.061_nu0.3.json --deg 2 --nev 10 --model fcm --n 30 --ks '[3.141592653589793, 3.141592653589793, 3.141592653589793]' --out results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q2_n30_k0.json
+k/pi=[1.0, 1.0, 1.0] f[nb-1:nb+1]=[0.10906352410886651, 0.9898158546835352] t=172.7s
+wrote results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q2_n30_k0.json (178.1 s)
+<< 0 in 180 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/thin_sl_c0.402_w0.061_nu0.3.json --deg 2 --nev 10 --model fcm --n 30 --ks '[3.141592653589793, 0.0, 0.0]' --out results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q2_n30_k1.json
+k/pi=[1.0, 0.0, 0.0] f[nb-1:nb+1]=[0.10267761367198731, 0.9708488661076715] t=150.2s
+wrote results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q2_n30_k1.json (155.6 s)
+<< 0 in 157 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/thin_sl_c0.402_w0.061_nu0.3.json --deg 2 --nev 10 --model fcm --n 30 --ks '[0.0, 0.0, 0.0]' --out results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q2_n30_k2.json
+k/pi=[0.0, 0.0, 0.0] f[nb-1:nb+1]=[0.07134801849466972, 0.9708488666992858] t=152.8s
+wrote results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q2_n30_k2.json (157.1 s)
+<< 0 in 159 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/thin_sl_c0.402_w0.061_nu0.3.json --deg 2 --nev 10 --model fcm --n 30 --ks '[3.141592653589793, 3.141592653589793, 0.0]' --out results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q2_n30_k3.json
+k/pi=[1.0, 1.0, 0.0] f[nb-1:nb+1]=[0.10590567875919153, 0.9800771908142324] t=405.9s
+wrote results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q2_n30_k3.json (412.5 s)
+<< 0 in 415 s
+>> mpirun -n 8 python3 scripts/verify/dolfinx/bloch_dolfinx.py --case results/verification/dolfinx/inputs/thin_sl_c0.402_w0.061_nu0.3.json --deg 1 --nev 10 --model fcm_id --n 20 --split --ks results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/ks_id.json --out results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q1id_n20.json
+wrote results/verification/dolfinx/raw/thin_sl_c0.402_w0.061_nu0.3/q1id_n20.json (21.2 s)
+<< 0 in 24 s
+done thin_sl_c0.402_w0.061_nu0.3 {'search': 533.0, 'q2_n16': 473.6, 'q2_n20': 1006.5, 'q2_n30_k0': 180.4, 'q2_n30_k1': 157.5, 'q2_n30_k2': 159.0, 'q2_n30_k3': 415.2, 'q1id_n20': 23.7}
+ALL DONE Sat Nov  7 16:55:21 PST 2026

@@ -1,0 +1,31 @@
+{
+ "brief": "A13",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 988.8,
+ "usage": {
+  "input_tokens": 2101876,
+  "cached_input_tokens": 2035584,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 5209,
+  "reasoning_output_tokens": 1126
+ },
+ "final": "No design released\u2014verdict: **UNDETERMINED**. For Ti-6Al-4V with the clarified 1 cm unit cell, none of four candidates certified a complete gap covering 124\u2013219 kHz. Numerical count failures, edge uncertainty, and detected modes prevented certification; this does not prove the target impossible.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-A13",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "e1dd6ec8e912acde",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "01274f97dc97276b"
+}

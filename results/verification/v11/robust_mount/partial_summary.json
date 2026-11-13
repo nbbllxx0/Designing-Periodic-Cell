@@ -1,0 +1,37 @@
+{
+ "status": "stopped after 1 of at most 5 certifications (budget: estimate 5 GPU-min, first certification held the GPU lock 1327 s); rest needs LS approve",
+ "candidate": {
+  "kind": "cube_bars",
+  "c": 0.616522,
+  "w": 0.151304
+ },
+ "verdict": "undetermined",
+ "robust": false,
+ "E100_MPa": {
+  "extrapolated": 69.5,
+  "lower": 67.2,
+  "upper": 72.1,
+  "target": 70.4
+ },
+ "static_verdict": {
+  "targets": {
+   "E100_min": "undetermined"
+  },
+  "verdict": "undetermined"
+ },
+ "bloch_verdict": {
+  "reason": "claim inside the edge guard band",
+  "verdict": "undetermined"
+ },
+ "as_built_E100_MPa": {
+  "dilate": 91.1,
+  "erode": 55.0
+ },
+ "as_built_passed": {
+  "dilate": true,
+  "erode": false
+ },
+ "gpu_lock_wall_s": 1337.8,
+ "llm_calls": false,
+ "certificate": "results/verification/v11/robust_mount/session_design/certificates/f4d7db96e59c0b00_f4af4f7134fac261.json"
+}

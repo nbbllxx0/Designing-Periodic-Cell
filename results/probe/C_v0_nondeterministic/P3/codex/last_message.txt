@@ -1,0 +1,1 @@
+Submitted **PROVEN_INFEASIBLE**; no design was released. Using the amm Ti-6Al-4V modulus of 113.8 GPa, the geometry-independent Voigt bound at 20% solid fraction is **22.76 GPa**, below the required 35 GPa.

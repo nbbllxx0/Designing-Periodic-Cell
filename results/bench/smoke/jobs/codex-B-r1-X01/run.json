@@ -1,0 +1,29 @@
+{
+ "brief": "X01",
+ "arm": "B",
+ "profile": "B",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 24.1,
+ "usage": {
+  "input_tokens": 92476,
+  "cached_input_tokens": 82944,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 634,
+  "reasoning_output_tokens": 124
+ },
+ "final": "Submitted **PROVEN_INFEASIBLE**. For the tool\u2019s 316L steel (193 GPa), the theoretical axial modulus ceiling at 16% solid is **30.88 GPa**, below your 38.6 GPa requirement. Reaching 38.6 GPa requires at least **20% solid**, and practical designs may require more.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-B-r1-X01",
+ "rep": 1,
+ "partition": "development",
+ "gpu_wait_s": 0.1,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "17ca80e2ff0053c1",
+ "briefs": "194701c05dce17d2"
+}

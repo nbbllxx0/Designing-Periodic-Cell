@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"PA12","cell_size":null,"targets":{"density_max":0.18,"E100_min":{"value":132,"unit":"MPa"}},"verdict":"UNDETERMINED","note":"Without homogenization results, I cannot verify a design meeting both targets or prove them infeasible in the allowed families."}

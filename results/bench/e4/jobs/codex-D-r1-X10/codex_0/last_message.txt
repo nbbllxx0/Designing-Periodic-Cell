@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":null,"targets":{"density_max":0.12,"E100_min":{"value":25.1,"unit":"GPa"}},"verdict":"PROVEN_INFEASIBLE","note":"Using 316L's approximately 200 GPa Young's modulus, the Voigt upper bound at 12% solid is E100 ≤ 24 GPa, below the required 25.1 GPa."}

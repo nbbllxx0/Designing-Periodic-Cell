@@ -1,0 +1,181 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "gap": {
+     "f_hi": 0.4,
+     "f_lo": 0.3,
+     "unit": "f*"
+    }
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "gap": {
+      "f_hi": 0.4,
+      "f_lo": 0.3
+     }
+    },
+    "targets": {
+     "gap": {
+      "f_hi": 0.4,
+      "f_lo": 0.3
+     }
+    }
+   },
+   "seq": 2,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": 0.2548628571428571,
+       "slack_opt": 0.6744528972886645,
+       "slack_pess": 0.17199292829529225,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.567826,
+         "w": 0.112174
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.22536285714285717,
+       "slack_opt": 0.6512338746713738,
+       "slack_pess": 0.17119106091168085,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.312174,
+         "w": 0.108696
+        }
+       }
+      },
+      {
+       "slack_nominal": 0.14508,
+       "slack_opt": 0.6344249829813845,
+       "slack_pess": 0.14508,
+       "spec": {
+        "family": "resonator",
+        "kind": "sphere_ligaments",
+        "params": {
+         "c": 0.40087,
+         "w": 0.108696
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 41,
+     "n_possible": 710,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "FEASIBLE"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 0.4,
+      "f_lo": 0.3
+     }
+    },
+    "verdict": "FEASIBLE",
+    "violated": []
+   },
+   "seq": 3,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": 0.2548628571428571,
+     "slack_opt": 0.6744528972886645,
+     "slack_pess": 0.17199292829529225,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.567826,
+       "w": 0.112174
+      }
+     }
+    },
+    {
+     "slack_nominal": 0.22536285714285717,
+     "slack_opt": 0.6512338746713738,
+     "slack_pess": 0.17119106091168085,
+     "spec": {
+      "family": "resonator",
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.312174,
+       "w": 0.108696
+      }
+     }
+    },
+    {
+     "slack_nominal": 0.14508,
+     "slack_opt": 0.6344249829813845,
+     "slack_pess": 0.14508,
+     "spec": {
+      "family": "resonator",
+      "kind": "sphere_ligaments",
+      "params": {
+       "c": 0.40087,
+       "w": 0.108696
+      }
+     }
+    }
+   ],
+   "n_cells": 2714,
+   "n_clear": 41,
+   "n_possible": 710,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "FEASIBLE"
+  },
+  "bounds_verdict": "NOT_REFUTED",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "gap": {
+    "f_hi": 0.4,
+    "f_lo": 0.3
+   }
+  },
+  "verdict": "FEASIBLE",
+  "violated": []
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S01_targets\\24-check-bounds"
+}

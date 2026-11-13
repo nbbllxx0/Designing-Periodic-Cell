@@ -1,0 +1,1 @@
+Verdict: **PROVEN_INFEASIBLE**. No design was released. A passive periodic PA12 lattice has acoustic modes at arbitrarily low frequencies, so 20 mm cells cannot block every elastic wave below 16.8 kHz. A feasible band-gap target requires a positive lower frequency.

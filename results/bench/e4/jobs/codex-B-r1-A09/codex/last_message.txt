@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. A 12 mm 316L sphere-and-ligament candidate predicts a complete gap covering 99.4–113 kHz, but the available amm tools cannot certify it. Feasibility remains unverified.

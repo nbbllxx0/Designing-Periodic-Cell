@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. Both certified candidates met the 32% density limit but failed the 31.4 GPa stiffness requirement. The search found no compliant design, although physical impossibility was not established.

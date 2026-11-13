@@ -1,0 +1,10 @@
+P2 running 23:21:11
+{"brief": "P2", "rc": 0, "calls": 13, "failed": 1, "submission": {"decision": "release", "verdict": null, "design": {"kind": "sphere_ligaments", "params": {"c": 0.393746, "w": 0.061183}}}, "replay": true, "wall": 748.2, "tokens": {"input_tokens": 1996553, "cached_input_tokens": 1940352, "cache_write_input_tokens": 0, "output_tokens": 3053, "reasoning_output_tokens": 413}}
+P3 running 23:42:34
+{"brief": "P3", "rc": 0, "calls": 4, "failed": 0, "submission": {"decision": "refuse", "verdict": "PROVEN_INFEASIBLE", "design": null}, "replay": true, "wall": 34.2, "tokens": {"input_tokens": 101378, "cached_input_tokens": 85376, "cache_write_input_tokens": 0, "output_tokens": 369, "reasoning_output_tokens": 33}}
+P4 running 23:43:08
+{"brief": "P4", "rc": 0, "calls": 15, "failed": 0, "submission": {"decision": "release", "verdict": null, "design": {"kind": "schwarz_p", "params": {"density": 0.255, "mode": "sheet"}}}, "replay": true, "wall": 867.7, "tokens": {"input_tokens": 2409947, "cached_input_tokens": 2341632, "cache_write_input_tokens": 0, "output_tokens": 4577, "reasoning_output_tokens": 1671}}
+P5 running 00:10:47
+{"brief": "P5", "rc": 0, "calls": 12, "failed": 1, "submission": {"decision": "refuse", "verdict": "NOT_FOUND_IN_FAMILIES", "design": null}, "replay": true, "wall": 116.1, "tokens": {"input_tokens": 384964, "cached_input_tokens": 362752, "cache_write_input_tokens": 0, "output_tokens": 935, "reasoning_output_tokens": 118}}
+P1 running 00:13:58
+{"brief": "P1", "rc": 0, "calls": 14, "failed": 0, "submission": {"decision": "release", "verdict": null, "design": {"kind": "schwarz_p", "params": {"density": 0.255, "mode": "sheet"}}}, "replay": true, "wall": 835.7, "tokens": {"input_tokens": 2135123, "cached_input_tokens": 2066816, "cache_write_input_tokens": 0, "output_tokens": 4836, "reasoning_output_tokens": 1993}}

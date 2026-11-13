@@ -1,0 +1,19 @@
+{
+ "brief": "A04",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 447.1,
+ "usage": {
+  "input_tokens": 894091,
+  "cached_input_tokens": 842880,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 3582,
+  "reasoning_output_tokens": 1377
+ },
+ "final": "Submitted **need_info**. A Ti6Al4V Schwarz P sheet candidate predicts 28.4% solid and C44 \u2248 6.86 GPa, but conservative estimates fall below 6.51 GPa. Please clarify whether preliminary predicted performance is acceptable or verified compliance is required.",
+ "stderr_tail": "2026-11-05T22:22:31.348209Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command \\\\\\\"Get-Location; rg --files -g '*'\\\\\\\"` rejected: blocked by policy\\\")\" }\n"
+}

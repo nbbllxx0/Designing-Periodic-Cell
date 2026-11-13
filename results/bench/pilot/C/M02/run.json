@@ -1,0 +1,19 @@
+{
+ "brief": "M02",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 1709.4,
+ "usage": {
+  "input_tokens": 4537007,
+  "cached_input_tokens": 4467328,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 6486,
+  "reasoning_output_tokens": 1390
+ },
+ "final": "Submitted **UNDETERMINED**; no design released. Tested candidates met the density and C44 requirements, but certification could not confirm a complete 3D gap covering 16.6\u201327.6 kHz because of numerical uncertainty at the gap edges. This does not prove the request impossible.",
+ "stderr_tail": ""
+}

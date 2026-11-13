@@ -1,0 +1,13 @@
+queue shell winpid 25840
+start 2026-11-08 10:39:04
+reference exit 0
+compare exit 0
+release_tutorial 2026-11-08 10:47:01
+release_tutorial exit 0
+release_gui 2026-11-08 10:47:46
+release_gui exit 0
+release_v6 2026-11-08 10:48:40
+release_v6 exit 0
+e4_frozen 2026-11-08 11:36:03
+e4_frozen exit 0
+end 2026-11-08 12:40:56

@@ -1,0 +1,1297 @@
+{
+ "summary": {
+  "n": 94,
+  "before": {
+   "certified": 63,
+   "undetermined": 30,
+   "refuted": 1
+  },
+  "after": {
+   "certified": 59,
+   "undetermined": 34,
+   "refuted": 1
+  },
+  "changed": [
+   {
+    "file": "bench/v1/work/certs/G07_e31cb0f872402baa.json",
+    "brief": "G07",
+    "benchmark_set": "primary",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.592174,
+     "w": 0.242609
+    },
+    "before": "certified",
+    "after": "undetermined",
+    "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+   },
+   {
+    "file": "bench/v1/work/certs/G07_feedc20f97a1cf5a.json",
+    "brief": "G07",
+    "benchmark_set": "primary",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.592174,
+     "w": 0.242609
+    },
+    "before": "certified",
+    "after": "undetermined",
+    "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+   },
+   {
+    "file": "bench/v1/work/certs/G14_9e3c6d6965e09ac5.json",
+    "brief": "G14",
+    "benchmark_set": "calibration",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.64087,
+     "w": 0.294783
+    },
+    "before": "certified",
+    "after": "undetermined",
+    "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+   },
+   {
+    "file": "bench/v1/work/certs/M05_58e6684e9257cebb.json",
+    "brief": "M05",
+    "benchmark_set": "primary",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.356522,
+     "w": 0.12087
+    },
+    "before": "certified",
+    "after": "undetermined",
+    "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+   }
+  ],
+  "primary_targets_losing_witness": [
+   "G07",
+   "M05"
+  ]
+ },
+ "rows": [
+  {
+   "file": "bench/v1/work/certs/G01_2dae53699946ef65.json",
+   "brief": "G01",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.326957,
+    "w": 0.145217
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G02_404a65bd7a35b981.json",
+   "brief": "G02",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.46,
+    "w": 0.27913
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G02_821b5bd816edf0a8.json",
+   "brief": "G02",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.786957,
+    "w": 0.125217
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G03_8a5cc425a1235716.json",
+   "brief": "G03",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.46,
+    "w": 0.145217
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G04_41f3ebe86617c820.json",
+   "brief": "G04",
+   "benchmark_set": null,
+   "kind": "bcc",
+   "params": {
+    "r": 0.063913,
+    "R": 0.276364
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G04_ea3d4d1488aa3770.json",
+   "brief": "G04",
+   "benchmark_set": null,
+   "kind": "bcc",
+   "params": {
+    "r": 0.063913,
+    "R": 0.276364
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G05_100b0e7a9a0218d8.json",
+   "brief": "G05",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.40087,
+    "w": 0.133043
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G05_2fc67e22ece7d8eb.json",
+   "brief": "G05",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.665217,
+    "w": 0.255652
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G06_6161784a2beec599.json",
+   "brief": "G06",
+   "benchmark_set": "primary",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.445217,
+    "w": 0.133043
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G07_7982a8c2f4e531af.json",
+   "brief": "G07",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.689565,
+    "w": 0.112174
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G07_e31cb0f872402baa.json",
+   "brief": "G07",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.592174,
+    "w": 0.242609
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+  },
+  {
+   "file": "bench/v1/work/certs/G07_feedc20f97a1cf5a.json",
+   "brief": "G07",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.592174,
+    "w": 0.242609
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+  },
+  {
+   "file": "bench/v1/work/certs/G08_41afb151285a3323.json",
+   "brief": "G08",
+   "benchmark_set": null,
+   "kind": "bcc",
+   "params": {
+    "r": 0.068696,
+    "R": 0.276364
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G09_110fbab20edc9161.json",
+   "brief": "G09",
+   "benchmark_set": "primary",
+   "kind": "sc",
+   "params": {
+    "r": 0.073478,
+    "R": 0.232727
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G09_8790da5fdbf99a5f.json",
+   "brief": "G09",
+   "benchmark_set": "primary",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.386087,
+    "w": 0.218261
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G09_a0354a81d4776542.json",
+   "brief": "G09",
+   "benchmark_set": "primary",
+   "kind": "sc",
+   "params": {
+    "r": 0.073478,
+    "R": 0.232727
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G10_3b38516996b00b5b.json",
+   "brief": "G10",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.567826,
+    "w": 0.125217
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G10_caa14d4e25ffe9eb.json",
+   "brief": "G10",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.567826,
+    "w": 0.125217
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G11_42ac37f76e639848.json",
+   "brief": "G11",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.40087,
+    "w": 0.291304
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G12_4e5a625687d936cc.json",
+   "brief": "G12",
+   "benchmark_set": "calibration",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.738261,
+    "w": 0.216522
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G13_3f5882a47089d41c.json",
+   "brief": "G13",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.762609,
+    "w": 0.190435
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G13_553a59db6cc32e42.json",
+   "brief": "G13",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.51913,
+    "w": 0.164348
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G13_a58b48b7a3181d9b.json",
+   "brief": "G13",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.762609,
+    "w": 0.190435
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G13_bc5cb4684b7c6661.json",
+   "brief": "G13",
+   "benchmark_set": null,
+   "kind": "sc",
+   "params": {
+    "r": 0.073478,
+    "R": 0.287273
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G14_080d52dd3e0dc7f6.json",
+   "brief": "G14",
+   "benchmark_set": "calibration",
+   "kind": "sc",
+   "params": {
+    "r": 0.073478,
+    "R": 0.243636
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G14_9e3c6d6965e09ac5.json",
+   "brief": "G14",
+   "benchmark_set": "calibration",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.64087,
+    "w": 0.294783
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+  },
+  {
+   "file": "bench/v1/work/certs/G15_078cdd9bfade4c17.json",
+   "brief": "G15",
+   "benchmark_set": "primary",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.267826,
+    "w": 0.12087
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/G15_94b1775ddd16981e.json",
+   "brief": "G15",
+   "benchmark_set": "primary",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.430435,
+    "w": 0.181739
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M01_612ed424c27bb2fb.json",
+   "brief": "M01",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.326957,
+    "w": 0.254783
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M01_622601f68b9d2d85.json",
+   "brief": "M01",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.282609,
+    "w": 0.169565
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M01_84034bc48d3a9aef.json",
+   "brief": "M01",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.326957,
+    "w": 0.254783
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M02_6b7ae7b29594664f.json",
+   "brief": "M02",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.40087,
+    "w": 0.145217
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M03_313abdcd390e2d5b.json",
+   "brief": "M03",
+   "benchmark_set": null,
+   "kind": "sc",
+   "params": {
+    "r": 0.073478,
+    "R": 0.287273
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M03_8f4303305d547e59.json",
+   "brief": "M03",
+   "benchmark_set": null,
+   "kind": "sc",
+   "params": {
+    "r": 0.063913,
+    "R": 0.287273
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M03_9d51b6ff9a2378a2.json",
+   "brief": "M03",
+   "benchmark_set": null,
+   "kind": "sc",
+   "params": {
+    "r": 0.063913,
+    "R": 0.287273
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M03_f83663c218944ce1.json",
+   "brief": "M03",
+   "benchmark_set": null,
+   "kind": "sc",
+   "params": {
+    "r": 0.083043,
+    "R": 0.276364
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M04_414062eb942a0521.json",
+   "brief": "M04",
+   "benchmark_set": "calibration",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.494783,
+    "w": 0.229565
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M04_4654fc66b596239b.json",
+   "brief": "M04",
+   "benchmark_set": "calibration",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.494783,
+    "w": 0.229565
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M05_58e6684e9257cebb.json",
+   "brief": "M05",
+   "benchmark_set": "primary",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.356522,
+    "w": 0.12087
+   },
+   "before": "certified",
+   "after": "undetermined",
+   "reason": "bloch: no safe upper edge: monotone drift toward the claim without an admissible convergence order"
+  },
+  {
+   "file": "bench/v1/work/certs/M06_1e27ea46a8fbff25.json",
+   "brief": "M06",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.738261,
+    "w": 0.125217
+   },
+   "before": "refuted",
+   "after": "refuted",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M06_73524e5207169b4d.json",
+   "brief": "M06",
+   "benchmark_set": "primary",
+   "kind": "bcc",
+   "params": {
+    "r": 0.073478,
+    "R": 0.232727
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M06_d0797e67c386a78d.json",
+   "brief": "M06",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.665217,
+    "w": 0.294783
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M07_a55dbb925b361817.json",
+   "brief": "M07",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.421739,
+    "w": 0.138261
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M07_a6319a62aed3d491.json",
+   "brief": "M07",
+   "benchmark_set": "primary",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.356522,
+    "w": 0.27913
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M07_ab0c3edc85e6c4a9.json",
+   "brief": "M07",
+   "benchmark_set": "primary",
+   "kind": "sc",
+   "params": {
+    "r": 0.078261,
+    "R": 0.243636
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M07_aecc9506999673b4.json",
+   "brief": "M07",
+   "benchmark_set": "primary",
+   "kind": "sc",
+   "params": {
+    "r": 0.078261,
+    "R": 0.243636
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M08_f9a9723c47f51887.json",
+   "brief": "M08",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.40087,
+    "w": 0.291304
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M09_53209755196b8b70.json",
+   "brief": "M09",
+   "benchmark_set": "primary",
+   "kind": "sc",
+   "params": {
+    "r": 0.068696,
+    "R": 0.243636
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M09_bc6368221c0db13e.json",
+   "brief": "M09",
+   "benchmark_set": "primary",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.430435,
+    "w": 0.303478
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M10_5fffdd5f267b54ec.json",
+   "brief": "M10",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.592174,
+    "w": 0.216522
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M10_99db7faca58ae4c8.json",
+   "brief": "M10",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.592174,
+    "w": 0.216522
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M11_e6a06811a10a7e31.json",
+   "brief": "M11",
+   "benchmark_set": "primary",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.386087,
+    "w": 0.169565
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M11_fd6505d4a43b706e.json",
+   "brief": "M11",
+   "benchmark_set": "primary",
+   "kind": "bcc",
+   "params": {
+    "r": 0.087826,
+    "R": 0.276364
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M12_306541feee7ad064.json",
+   "brief": "M12",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.415652,
+    "w": 0.169565
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M12_8db46f3cf07132a5.json",
+   "brief": "M12",
+   "benchmark_set": null,
+   "kind": "bcc",
+   "params": {
+    "r": 0.068696,
+    "R": 0.243636
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M12_b721f7d05adbba0f.json",
+   "brief": "M12",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.543478,
+    "w": 0.229565
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M12_d2c8eabe17684ca2.json",
+   "brief": "M12",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.415652,
+    "w": 0.169565
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M13_2f527d4dc9744f0d.json",
+   "brief": "M13",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.665217,
+    "w": 0.151304
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M13_d539db5751be837f.json",
+   "brief": "M13",
+   "benchmark_set": "primary",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.40087,
+    "w": 0.291304
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M13_e9a7c01a383689a1.json",
+   "brief": "M13",
+   "benchmark_set": "primary",
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.40087,
+    "w": 0.291304
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M14_9f479faa9ce8c2c5.json",
+   "brief": "M14",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.415652,
+    "w": 0.157391
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M14_c32e28237f810057.json",
+   "brief": "M14",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.567826,
+    "w": 0.255652
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M15_31accd6f4211bef1.json",
+   "brief": "M15",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.373043,
+    "w": 0.125217
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M15_40c3802c10d55b03.json",
+   "brief": "M15",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.689565,
+    "w": 0.190435
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M15_a0e98cca267969be.json",
+   "brief": "M15",
+   "benchmark_set": null,
+   "kind": "bcc",
+   "params": {
+    "r": 0.078261,
+    "R": 0.287273
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/M15_f269346966fb4870.json",
+   "brief": "M15",
+   "benchmark_set": null,
+   "kind": "bcc",
+   "params": {
+    "r": 0.078261,
+    "R": 0.287273
+   },
+   "before": "undetermined",
+   "after": "undetermined",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S01_5227734e9aeda483.json",
+   "brief": "S01",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.51913,
+    "w": 0.36
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S02_27bb738f648ec7fb.json",
+   "brief": "S02",
+   "benchmark_set": null,
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.28,
+    "mode": "sheet"
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S03_118f2865e5890c63.json",
+   "brief": "S03",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.238261,
+    "w": 0.266957
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S04_b79e81b40c881929.json",
+   "brief": "S04",
+   "benchmark_set": "primary",
+   "kind": "iwp",
+   "params": {
+    "density": 0.36,
+    "mode": "network"
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S04_d90c0faceec56007.json",
+   "brief": "S04",
+   "benchmark_set": "primary",
+   "kind": "iwp",
+   "params": {
+    "density": 0.36,
+    "mode": "network"
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S05_4d0793df7d4e3a1e.json",
+   "brief": "S05",
+   "benchmark_set": null,
+   "kind": "bcc",
+   "params": {
+    "r": 0.135652,
+    "R": 0.232727
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S06_6d8514612f1b0fef.json",
+   "brief": "S06",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.253043,
+    "w": 0.291304
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S06_f754269dc0d2619d.json",
+   "brief": "S06",
+   "benchmark_set": null,
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.253043,
+    "w": 0.291304
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S07_abd85cb4fd094df3.json",
+   "brief": "S07",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.543478,
+    "w": 0.346957
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S08_af27cdf5be49ad00.json",
+   "brief": "S08",
+   "benchmark_set": "primary",
+   "kind": "octet",
+   "params": {
+    "r": 0.111739,
+    "R": 0.0
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S09_3ce3274516f4df9f.json",
+   "brief": "S09",
+   "benchmark_set": null,
+   "kind": "octet",
+   "params": {
+    "r": 0.073478,
+    "R": 0.265455
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S10_498e611295deb313.json",
+   "brief": "S10",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.324348,
+    "w": 0.255652
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S10_6879edefb37626a4.json",
+   "brief": "S10",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.324348,
+    "w": 0.255652
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S11_701cbfe888a83946.json",
+   "brief": "S11",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.689565,
+    "w": 0.346957
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S12_0a55d0dfa8236345.json",
+   "brief": "S12",
+   "benchmark_set": "calibration",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.18,
+    "mode": "sheet"
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S12_dd621ee3d53f2f35.json",
+   "brief": "S12",
+   "benchmark_set": "calibration",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.18,
+    "mode": "sheet"
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S13_19236bc417a9a741.json",
+   "brief": "S13",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.421739,
+    "w": 0.333913
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S13_76be1f43e5c3efea.json",
+   "brief": "S13",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.421739,
+    "w": 0.333913
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S14_406ec4d46f344363.json",
+   "brief": "S14",
+   "benchmark_set": "primary",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.3,
+    "mode": "sheet"
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S14_b8ef98cf077e8a90.json",
+   "brief": "S14",
+   "benchmark_set": "primary",
+   "kind": "schwarz_p",
+   "params": {
+    "density": 0.3,
+    "mode": "sheet"
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S15_cc5bc8a1039f45c1.json",
+   "brief": "S15",
+   "benchmark_set": null,
+   "kind": "octet",
+   "params": {
+    "r": 0.087826,
+    "R": 0.123636
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S16_9e017cf0daef0057.json",
+   "brief": "S16",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.446087,
+    "w": 0.242609
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S17_4869485a2f8e654b.json",
+   "brief": "S17",
+   "benchmark_set": null,
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.397391,
+    "w": 0.229565
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S18_47ebbc75bdd2c91f.json",
+   "brief": "S18",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.446087,
+    "w": 0.346957
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S18_d7090a3d769840fd.json",
+   "brief": "S18",
+   "benchmark_set": "primary",
+   "kind": "cube_bars",
+   "params": {
+    "c": 0.446087,
+    "w": 0.346957
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S19_180b3d9322a3faa1.json",
+   "brief": "S19",
+   "benchmark_set": "primary",
+   "kind": "bcc",
+   "params": {
+    "r": 0.092609,
+    "R": 0.156364
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S19_a31fe159a4aaeaa3.json",
+   "brief": "S19",
+   "benchmark_set": "primary",
+   "kind": "bcc",
+   "params": {
+    "r": 0.092609,
+    "R": 0.156364
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  },
+  {
+   "file": "bench/v1/work/certs/S20_7ef64bb593129faf.json",
+   "brief": "S20",
+   "benchmark_set": "primary",
+   "kind": "octet",
+   "params": {
+    "r": 0.087826,
+    "R": 0.189091
+   },
+   "before": "certified",
+   "after": "certified",
+   "reason": null
+  }
+ ]
+}

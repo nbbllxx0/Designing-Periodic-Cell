@@ -1,0 +1,48 @@
+{
+ "exact": false,
+ "n_calls": 15,
+ "n_compared": 15,
+ "mismatches": [
+  {
+   "seq": 14,
+   "tool": "export",
+   "field": "result",
+   "log": "e8cb8ceaa202597b",
+   "replay": "64aac234b72d5380",
+   "diff": {
+    "path": ".files.report.sha256",
+    "log": "bd44bf58be4a798e636c119a8d345479b29606cb72a5e1179e91093a347dbb52",
+    "replay": "bb8305feafa6db3dc798dfaa81b11f288f09688b5525ebeb1a07810c577256b4"
+   }
+  }
+ ],
+ "same_code": false,
+ "schema": "amm-tools/3",
+ "decision_changes": [],
+ "identity": {
+  "code_log": "e0350cf7efa454b0",
+  "code_now": "f1a6d625064a6d18",
+  "checker_log": "c5f8c89871b3bad6",
+  "checker_now": "c5f8c89871b3bad6",
+  "checker_aliased": false,
+  "checker_log_source": "header",
+  "code_aliased": true
+ },
+ "root": "temporary directory (removed)",
+ "tolerance": {
+  "max_rel_numeric": 0.0,
+  "non_numeric_differences": 0,
+  "calls_with_numeric_differences": [],
+  "derived_differences": [
+   [
+    14,
+    "export",
+    [
+     ".files.report.sha256"
+    ]
+   ]
+  ],
+  "other": []
+ },
+ "seconds": 933.2
+}

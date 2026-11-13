@@ -1,0 +1,1 @@
+No design released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm search found no cell meeting both ≤12% solid volume and ≥16.2 GPa axial modulus in all three directions. This does not prove that every possible topology is infeasible.

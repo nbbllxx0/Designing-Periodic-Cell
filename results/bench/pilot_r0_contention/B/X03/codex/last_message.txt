@@ -1,0 +1,1 @@
+Refused as **PROVEN_INFEASIBLE**: a connected passive PA12 lattice cannot block all elastic waves from zero to 16.8 kHz because acoustic modes persist near zero frequency. No design was released; a feasible band-gap specification needs a positive lower frequency cutoff.

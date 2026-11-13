@@ -1,0 +1,1 @@
+Submitted **UNDETERMINED**; no design was released. A cube-bar resonator nominally meets all targets: 31.45% solid, 13.28 GPa axial modulus, and a complete gap of 129.2–283.2 kHz. However, its conservative margin fails and the available tools cannot certify it. This does not establish infeasibility.

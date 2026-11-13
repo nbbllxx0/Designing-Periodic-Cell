@@ -1,0 +1,1 @@
+No design was released: the targets are **proven infeasible** under the tool’s PA12 model (E = 1.7 GPa, ν = 0.39). At 26% relative density, the rigorous Voigt upper bound gives **C44 ≤ 159 MPa**, below the required 183 MPa, regardless of unit-cell geometry.

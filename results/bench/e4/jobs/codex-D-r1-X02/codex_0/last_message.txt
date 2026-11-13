@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":null,"targets":{"density_max":0.16,"E100_min":{"value":20.4,"unit":"GPa"}},"verdict":"PROVEN_INFEASIBLE","note":"Using Ti-6Al-4V's typical solid Young's modulus of approximately 114 GPa, the Voigt bound limits E100 to 0.16 × 114 = 18.24 GPa, below your target for every permitted geometry."}

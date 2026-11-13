@@ -1,0 +1,1 @@
+Released a certified 5 mm 316L sphere-and-ligament resonator cell with parameters **c = 0.365407, w = 0.106886** in cell-size units. Its complete infinite-lattice band gap covers **264–410 kHz**, for all propagation directions and polarizations. LPBF manufacturability and finite-part transmission were not evaluated.

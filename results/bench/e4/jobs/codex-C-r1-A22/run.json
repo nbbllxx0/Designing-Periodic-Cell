@@ -1,0 +1,33 @@
+{
+ "brief": "A22",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 593.6,
+ "usage": {
+  "input_tokens": 1030571,
+  "cached_input_tokens": 994560,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2783,
+  "reasoning_output_tokens": 363
+ },
+ "final": "Released a certified Ti6Al4V sphere-and-ligament resonator with a 12 mm cell and parameters \\(c/a=0.356522\\), \\(w/a=0.108696\\). Its complete infinite-lattice band gap covers **132\u2013177 kHz** in all directions and polarizations. LPBF manufacturability and finite-part attenuation were not evaluated.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-A22",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

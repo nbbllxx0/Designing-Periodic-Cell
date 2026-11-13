@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. For 10 mm Ti6Al4V cells, promising candidates predict a complete gap covering 181–204 kHz, but none passed the conservative uncertainty check, and certification is unavailable in this session. This does not establish infeasibility.

@@ -1,0 +1,24 @@
+{
+ "id": "P3",
+ "class": "infeasible_proven",
+ "text": "Design a Ti-6Al-4V lattice unit cell with a solid fraction of at most 20 % and a Young's modulus along the cube axes of at least 35 GPa.",
+ "intended": {
+  "material": "Ti6Al4V",
+  "cell_size": null,
+  "targets": {
+   "density_max": 0.2,
+   "E100_min": [
+    35,
+    "GPa"
+   ]
+  }
+ },
+ "oracle": {
+  "facts": "Ti-6Al-4V, solid fraction at most 20 %, E100 at least 35 GPa."
+ },
+ "expected": {
+  "decision": "refuse",
+  "verdict": "PROVEN_INFEASIBLE"
+ },
+ "truth_source": "Voigt bound: E <= phi E_s = 0.20 x 113.8 GPa = 22.8 GPa < 35 GPa."
+}

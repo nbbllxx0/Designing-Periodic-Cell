@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. Preliminary resonator designs met the nominal targets, but none passed the pessimistic uncertainty check, and the available tools cannot certify the complete 13.2–23.2 kHz gap. This does not prove the requirements are infeasible.

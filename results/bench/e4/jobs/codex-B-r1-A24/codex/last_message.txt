@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. The search found promising BCC candidates, but none met the pessimistic margin, and this session has no certification tool to verify all requirements. This does not prove the request infeasible.

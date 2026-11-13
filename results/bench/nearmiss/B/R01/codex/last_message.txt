@@ -1,0 +1,1 @@
+No design released. The AMM searches found no Ti-6Al-4V unit cell meeting both ≤16% solid volume and ≥8.13 GPa axial modulus in x, y, and z. Submitted verdict: **NOT_FOUND_IN_FAMILIES**; this does not prove physical infeasibility.

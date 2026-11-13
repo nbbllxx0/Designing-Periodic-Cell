@@ -1,0 +1,1 @@
+Released a 316L diamond TPMS sheet with density parameter 0.24. Predicted relative density is **24.0%** and homogenized bulk modulus is **15.54 GPa**, meeting your clarified targets. These predictions are uncertified; laser powder-bed-fusion manufacturability was not evaluated.

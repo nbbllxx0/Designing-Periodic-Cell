@@ -1,0 +1,19 @@
+{
+ "brief": "X07",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 97.1,
+ "usage": {
+  "input_tokens": 363082,
+  "cached_input_tokens": 347776,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1335,
+  "reasoning_output_tokens": 420
+ },
+ "final": "No design was released: **NOT_FOUND_IN_FAMILIES**. The amm search found no candidate meeting both requirements; its best candidate had 3.19% solid volume and an axial Poisson ratio of 0.491, below 0.55. This does not prove infeasibility for other architectures.",
+ "stderr_tail": "2026-11-05T20:32:59.284843Z ERROR codex_core::tools::router: error=exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\\\\\"C:\\\\\\\\\\\\\\\\WINDOWS\\\\\\\\\\\\\\\\System32\\\\\\\\\\\\\\\\WindowsPowerShell\\\\\\\\\\\\\\\\v1.0\\\\\\\\\\\\\\\\powershell.exe\\\\\\\" -Command 'Get-ChildItem -Force'` rejected: blocked by policy\\\")\" }\n"
+}

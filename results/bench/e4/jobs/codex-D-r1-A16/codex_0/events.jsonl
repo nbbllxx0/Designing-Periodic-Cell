@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b4ab-1074-7352-84f1-99e95dfbbfff"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"decision\":\"ask\",\"question\":\"What cell size a should I use? The absolute band-gap frequencies depend on this length.\",\"options\":[{\"label\":\"5 mm\",\"set\":{\"cell_size\":[5,\"mm\"]}},{\"label\":\"10 mm\",\"set\":{\"cell_size\":[10,\"mm\"]}},{\"label\":\"20 mm\",\"set\":{\"cell_size\":[20,\"mm\"]}}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":12753,"cached_input_tokens":10752,"cache_write_input_tokens":0,"output_tokens":351,"reasoning_output_tokens":269}}

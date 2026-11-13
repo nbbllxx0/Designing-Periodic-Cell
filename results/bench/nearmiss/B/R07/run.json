@@ -1,0 +1,19 @@
+{
+ "brief": "R07",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 178.1,
+ "usage": {
+  "input_tokens": 511766,
+  "cached_input_tokens": 471424,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1387,
+  "reasoning_output_tokens": 380
+ },
+ "final": "No design released: **NOT_FOUND_IN_FAMILIES**. The amm searches found no 316L unit cell meeting both solid fraction \u226424% and E[100] \u226522.3 GPa. This does not prove the requirements are infeasible.",
+ "stderr_tail": ""
+}

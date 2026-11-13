@@ -1,0 +1,1 @@
+The tools returned **PROVEN_INFEASIBLE**: a stable cubic elastic material must have a Poisson ratio along its cube axes below 0.5. The requested minimum of 0.6 is therefore impossible within the specified design scope, regardless of the 16% solid-fraction limit. No design was released.

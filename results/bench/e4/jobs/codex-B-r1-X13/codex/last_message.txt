@@ -1,0 +1,1 @@
+Submitted **PROVEN_INFEASIBLE**: with the tool’s Ti-6Al-4V properties, the universal bound \(K\leq\phi K_s\) limits bulk modulus to **22.81 GPa** at 19% solid, below the required 32 GPa. Reaching 32 GPa requires at least **26.66% solid**, and geometry may require more.

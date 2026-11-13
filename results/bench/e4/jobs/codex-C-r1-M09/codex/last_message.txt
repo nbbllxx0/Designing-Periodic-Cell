@@ -1,0 +1,1 @@
+Released a certified 12 mm 316L sphere-and-ligament cell with parameters \(c=0.429916\), \(w=0.275710\) in cell-size units. It has ≤36.203% solid volume, axial Young’s modulus ≥21.114 GPa in x, y, and z, and a complete band gap covering 149–175 kHz. The stiffness margin is narrow; LPBF manufacturability was not evaluated.

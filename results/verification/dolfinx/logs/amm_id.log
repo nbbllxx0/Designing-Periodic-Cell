@@ -1,0 +1,68 @@
+waiting for gpu.lock held by {'pid': 54640, 'who': 'B1B3 reference post', 't': 1794082603.5634122}
+lock acquired by V1c amm_bands cb_c0.5_w0.2_nu0.3 id n20
+cb_c0.5_w0.2_nu0.3 id 20 [0.0, 0.0, 0.0] [0.363821 0.598482] 12
+cb_c0.5_w0.2_nu0.3 id 20 [1.0, 0.0, 0.0] [0.377374 0.598481] 15
+cb_c0.5_w0.2_nu0.3 id 20 [1.0, 1.0, 0.0] [0.330892 0.661787] 15
+cb_c0.5_w0.2_nu0.3 id 20 [1.0, 1.0, 1.0] [0.366776 0.661786] 17
+cb_c0.5_w0.2_nu0.3 id 20 [0.637, 0.2698, 0.041] [0.352956 0.606403] 14
+cb_c0.5_w0.2_nu0.3 id 20 [0.72, 0.7133, 0.0016] [0.298894 0.634134] 15
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.5_w0.2_nu0.3_id_n20_ks_id.json 40.1 s
+lock acquired by V1c amm_bands cb_c0.6_w0.2_nu0.342 id n20
+cb_c0.6_w0.2_nu0.342 id 20 [0.0, 0.0, 0.0] [0.317311 0.733229] 17
+cb_c0.6_w0.2_nu0.342 id 20 [1.0, 0.0, 0.0] [0.324989 0.733226] 19
+cb_c0.6_w0.2_nu0.342 id 20 [1.0, 1.0, 0.0] [0.302731 0.7916  ] 21
+cb_c0.6_w0.2_nu0.342 id 20 [1.0, 1.0, 1.0] [0.330265 0.791658] 28
+cb_c0.6_w0.2_nu0.342 id 20 [0.637, 0.2698, 0.041] [0.309499 0.743117] 19
+cb_c0.6_w0.2_nu0.342 id 20 [1.0, 0.0, 0.0] [0.324989 0.733226] 19
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.6_w0.2_nu0.342_id_n20_ks_id.json 87.6 s
+lock acquired by V1c amm_bands cb_c0.6_w0.3_nu0.3 id n20
+cb_c0.6_w0.3_nu0.3 id 20 [0.0, 0.0, 0.0] [0.518635 0.704545] 20
+cb_c0.6_w0.3_nu0.3 id 20 [1.0, 0.0, 0.0] [0.550382 0.704869] 19
+cb_c0.6_w0.3_nu0.3 id 20 [1.0, 1.0, 0.0] [0.406759 0.789607] 23
+cb_c0.6_w0.3_nu0.3 id 20 [1.0, 1.0, 1.0] [0.475103 0.789383] 22
+cb_c0.6_w0.3_nu0.3 id 20 [0.637, 0.2698, 0.041] [0.510698 0.720235] 19
+cb_c0.6_w0.3_nu0.3 id 20 [1.0, 0.0033, 0.0033] [0.550372 0.704874] 19
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.6_w0.3_nu0.3_id_n20_ks_id.json 157.2 s
+lock acquired by V1c amm_bands cb_c0.7_w0.3_nu0.3 id n20
+cb_c0.7_w0.3_nu0.3 id 20 [0.0, 0.0, 0.0] [0.458704 0.752158] 17
+cb_c0.7_w0.3_nu0.3 id 20 [1.0, 0.0, 0.0] [0.477538 0.723996] 23
+cb_c0.7_w0.3_nu0.3 id 20 [1.0, 1.0, 0.0] [0.382285 0.710279] 28
+cb_c0.7_w0.3_nu0.3 id 20 [1.0, 1.0, 1.0] [0.442533 0.709098] 31
+cb_c0.7_w0.3_nu0.3 id 20 [0.637, 0.2698, 0.041] [0.453165 0.730789] 22
+cb_c0.7_w0.3_nu0.3 id 20 [0.8877, 0.8783, 0.0] [0.376189 0.711628] 28
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.7_w0.3_nu0.3_id_n20_ks_id.json 317.0 s
+lock acquired by V1c amm_bands cb_c0.8_w0.3_nu0.3 id n20
+cb_c0.8_w0.3_nu0.3 id 20 [0.0, 0.0, 0.0] [0.419941 0.637422] 34
+cb_c0.8_w0.3_nu0.3 id 20 [1.0, 0.0, 0.0] [0.433703 0.622152] 38
+cb_c0.8_w0.3_nu0.3 id 20 [1.0, 1.0, 0.0] [0.363394 0.612843] 50
+cb_c0.8_w0.3_nu0.3 id 20 [1.0, 1.0, 1.0] [0.426674 0.609323] 37
+cb_c0.8_w0.3_nu0.3 id 20 [0.637, 0.2698, 0.041] [0.415885 0.625572] 40
+cb_c0.8_w0.3_nu0.3 id 20 [1.0, 0.0, 0.0] [0.433703 0.622152] 38
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\cb_c0.8_w0.3_nu0.3_id_n20_ks_id.json 783.7 s
+waiting for gpu.lock held by {'pid': 83180, 'who': 'B1B3 new tests', 't': 1794084482.9159575}
+lock acquired by V1c amm_bands strut_bcc_R0.27_r0.06_nu0.342 id n20
+strut_bcc_R0.27_r0.06_nu0.342 id 20 [0.0, 0.0, 0.0] [0.363533 0.828372] 31
+strut_bcc_R0.27_r0.06_nu0.342 id 20 [1.0, 0.0, 0.0] [0.285372 0.868563] 28
+strut_bcc_R0.27_r0.06_nu0.342 id 20 [1.0, 1.0, 0.0] [0.333373 0.862684] 29
+strut_bcc_R0.27_r0.06_nu0.342 id 20 [1.0, 1.0, 1.0] [0.244218 0.880886] 26
+strut_bcc_R0.27_r0.06_nu0.342 id 20 [0.637, 0.2698, 0.041] [0.341084 0.84942 ] 29
+strut_bcc_R0.27_r0.06_nu0.342 id 20 [0.0099, 0.0066, 0.0033] [0.363528 0.828383] 600
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\strut_bcc_R0.27_r0.06_nu0.342_id_n20_ks_id.json 430.6 s
+lock acquired by V1c amm_bands thin_sl_c0.402_w0.061_nu0.3 id n20
+thin_sl_c0.402_w0.061_nu0.3 id 20 [0.0, 0.0, 0.0] [0.090491 0.980832] 27
+thin_sl_c0.402_w0.061_nu0.3 id 20 [1.0, 0.0, 0.0] [0.106206 0.980833] 27
+thin_sl_c0.402_w0.061_nu0.3 id 20 [1.0, 1.0, 0.0] [0.111145 0.989604] 30
+thin_sl_c0.402_w0.061_nu0.3 id 20 [1.0, 1.0, 1.0] [0.115927 0.992052] 30
+thin_sl_c0.402_w0.061_nu0.3 id 20 [0.637, 0.2698, 0.041] [0.091161 0.982334] 31
+thin_sl_c0.402_w0.061_nu0.3 id 20 [0.9916, 0.9916, 0.9783] [0.115915 0.992052] 31
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\thin_sl_c0.402_w0.061_nu0.3_id_n20_ks_id.json 313.4 s
+waiting for gpu.lock held by {'pid': 78008, 'who': 'B1B3 final tests+reference', 't': 1794085292.7321262}
+lock acquired by V1c amm_bands tpms_schwarzp_d0.25_nu0.3 id n20
+tpms_schwarzp_d0.25_nu0.3 id 20 [0.0, 0.0, 0.0] [0.474134 0.840056] 37
+tpms_schwarzp_d0.25_nu0.3 id 20 [1.0, 0.0, 0.0] [0.480638 0.840076] 34
+tpms_schwarzp_d0.25_nu0.3 id 20 [1.0, 1.0, 0.0] [0.335308 0.943365] 38
+tpms_schwarzp_d0.25_nu0.3 id 20 [1.0, 1.0, 1.0] [0.379095 1.020121] 38
+tpms_schwarzp_d0.25_nu0.3 id 20 [0.637, 0.2698, 0.041] [0.454623 0.858124] 36
+tpms_schwarzp_d0.25_nu0.3 id 20 [0.9946, 0.9867, 0.0054] [0.335382 0.943325] 38
+wrote C:\AI\AgenticMetamaterials\results\verification\dolfinx\amm\tpms_schwarzp_d0.25_nu0.3_id_n20_ks_id.json 264.1 s
+AMM_ID_DONE

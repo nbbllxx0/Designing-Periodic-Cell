@@ -1,0 +1,4 @@
+{"root": "results/verification/v6/case2/session_316L", "material": "316L", "cell_size_mm": 10,
+ "targets": {"gap": {"f_lo": 35000, "f_hi": 42000, "unit": "Hz"}},
+ "gap_type": "complete", "note": "V6 case 2 filter: complete gap 35-42 kHz, 10 mm cell",
+ "top": 5, "certify_max": 3, "export": {"tiles": 3, "resolution": 64, "tile_resolution": 32}}

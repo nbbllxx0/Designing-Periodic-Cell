@@ -1,0 +1,27 @@
+{
+ "id": "P1",
+ "class": "feasible_static",
+ "text": "Design a 316L stainless-steel lattice unit cell (laser powder-bed fusion) with a solid fraction of at most 26 %, a Young's modulus along the cube axes of at least 11.5 GPa and a shear modulus of at least 9.5 GPa.",
+ "intended": {
+  "material": "316L",
+  "cell_size": null,
+  "targets": {
+   "density_max": 0.26,
+   "E100_min": [
+    11.5,
+    "GPa"
+   ],
+   "G_min": [
+    9.5,
+    "GPa"
+   ]
+  }
+ },
+ "oracle": {
+  "facts": "Use 316L stainless steel. The cell size is free."
+ },
+ "expected": {
+  "decision": "release"
+ },
+ "truth_source": "G2 cell schwarz_p sheet 0.25: certified and true for density <= 0.2625, E100 >= 11.58 GPa, G >= 9.56 GPa (results/g2/classification_v3.json); this brief is looser on E100 and G and tighter on density (cell density 0.25)."
+}

@@ -1,0 +1,92 @@
+{
+ "material": "316L",
+ "q": "E100",
+ "key": "E100_min",
+ "cap": 0.32,
+ "t": 0.16269430051813472,
+ "t_phys": [
+  31.4,
+  "GPa"
+ ],
+ "e_max": 0.16374192328631137,
+ "u_max": 0.16133094246338797,
+ "best_nominal": {
+  "family": "resonator",
+  "kind": "cube_bars",
+  "params": {
+   "c": 0.494783,
+   "w": 0.36
+  }
+ },
+ "nominal_slack": 0.006439210008219593,
+ "expected_slack": -0.034587575681343456,
+ "proof": [
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.494783,
+     "w": 0.36
+    }
+   },
+   "upper": 0.16133094246338797,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.494783,
+     "w": 0.36
+    }
+   },
+   "upper": 0.16133094246338797,
+   "source": "atlas, nominal >= t"
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.50811,
+     "w": 0.357963
+    }
+   },
+   "upper": 0.16126291077022056,
+   "source": "search top 3"
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.470435,
+     "w": 0.36
+    }
+   },
+   "upper": 0.15733593932172327,
+   "source": "search top 3"
+  }
+ ],
+ "n_certified": 4,
+ "id": "R03",
+ "seconds": 4283.0,
+ "intended": {
+  "material": "316L",
+  "cell_size": null,
+  "targets": {
+   "density_max": 0.32,
+   "E100_min": [
+    31.4,
+    "GPa"
+   ]
+  }
+ },
+ "truth": {
+  "decision": "refuse",
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "near_miss": true
+ }
+}

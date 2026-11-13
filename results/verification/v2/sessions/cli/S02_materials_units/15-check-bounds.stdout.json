@@ -1,0 +1,26 @@
+{
+ "calls": [
+  {
+   "args": {
+    "E_Pa": 2000000000.0,
+    "nu": 0.6,
+    "rho_kg_m3": 1200.0
+   },
+   "error": "need E_Pa > 0, rho_kg_m3 > 0 and -1 < nu < 0.5",
+   "ok": false,
+   "seq": 1,
+   "tool": "set_material"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": {
+  "error": "need E_Pa > 0, rho_kg_m3 > 0 and -1 < nu < 0.5",
+  "tool": "set_material"
+ },
+ "ok": false,
+ "profile": "C",
+ "result": null,
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S02_materials_units\\15-check-bounds"
+}

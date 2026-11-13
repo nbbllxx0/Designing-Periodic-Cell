@@ -1,0 +1,1 @@
+Submitted **PROVEN_INFEASIBLE**; no design released. Using the amm PA12 properties (E = 1,700 MPa, ν = 0.39), the theoretical upper bound on C44 at 26% relative density is **159 MPa**, below your required 183 MPa. Reaching 183 MPa requires at least **29.93% relative density**, and actual designs may require more.

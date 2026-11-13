@@ -1,0 +1,31 @@
+{
+ "brief": "A12",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 405.1,
+ "usage": {
+  "input_tokens": 691714,
+  "cached_input_tokens": 658176,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 2659,
+  "reasoning_output_tokens": 662
+ },
+ "final": "Released a certified PA12 cube-and-bars unit cell with \\(c=0.340331a\\) and \\(w=0.2655a\\). Its guarded solid fraction is at most **17.921%**, and its axial Young\u2019s modulus is at least **136.62 MPa** in x, y and z. These meet both targets for the nominal geometry; the \u00b10.01a robustness check did not pass.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-A12",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "e1dd6ec8e912acde",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "01274f97dc97276b"
+}

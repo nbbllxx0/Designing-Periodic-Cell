@@ -1,0 +1,31 @@
+{
+ "brief": "S11",
+ "arm": "B",
+ "profile": "B",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 31.2,
+ "usage": {
+  "input_tokens": 136982,
+  "cached_input_tokens": 112512,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 799,
+  "reasoning_output_tokens": 136
+ },
+ "final": "Released a Ti-6Al-4V **IWP sheet** unit cell with predicted solid fraction **38.0%** and **Ex = Ey = Ez \u2248 23.28 GPa**, meeting both targets. These are search estimates, not certified properties; manufacturability was not evaluated.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-B-r1-S11",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "e1dd6ec8e912acde",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "01274f97dc97276b"
+}

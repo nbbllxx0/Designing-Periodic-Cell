@@ -1,0 +1,125 @@
+[
+ {
+  "file": "results/verification/v6/case1/recheck_design.json",
+  "before": "certified",
+  "after": "certified",
+  "sides": [
+   {
+    "side": "lo",
+    "edges": [
+     0.2666554447769303,
+     0.2624958099181303,
+     0.2602122399377166
+    ],
+    "order": 0.7348327294789522,
+    "drift_toward_claim": false,
+    "fails_closed": false
+   },
+   {
+    "side": "hi",
+    "edges": [
+     0.7580376194848364,
+     0.7352455966994291,
+     0.7243607348645424
+    ],
+    "order": 1.1297129180939884,
+    "drift_toward_claim": true,
+    "fails_closed": false
+   }
+  ],
+  "feature": {
+   "size": 0.151304,
+   "method": "parameter w (bar width)",
+   "n": 40,
+   "voxels": 6.05216,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "safe_interval_stored": [
+   0.2699128739872262,
+   0.6393289720397535
+  ]
+ },
+ {
+  "file": "results/verification/v6/case2/recheck_PA12.json",
+  "before": "certified",
+  "after": "undetermined",
+  "sides": [
+   {
+    "side": "lo",
+    "edges": [
+     0.20489996239271327,
+     0.20357818124011604,
+     0.19859212808976512
+    ],
+    "order": null,
+    "drift_toward_claim": false,
+    "fails_closed": false
+   },
+   {
+    "side": "hi",
+    "edges": [
+     0.9468402316995497,
+     0.937960253270825,
+     0.9131844321454526
+    ],
+    "order": null,
+    "drift_toward_claim": true,
+    "fails_closed": true
+   }
+  ],
+  "feature": {
+   "size": 0.108696,
+   "method": "parameter w (bar width)",
+   "n": 40,
+   "voxels": 4.34784,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "safe_interval_stored": [
+   0.20719564670492974,
+   0.8773250948676664
+  ]
+ },
+ {
+  "file": "results/verification/v6/case2/recheck_316L.json",
+  "before": "certified",
+  "after": "undetermined",
+  "sides": [
+   {
+    "side": "lo",
+    "edges": [
+     0.0973546237349422,
+     0.09380985490853246,
+     0.09100887097621548
+    ],
+    "order": null,
+    "drift_toward_claim": false,
+    "fails_closed": false
+   },
+   {
+    "side": "hi",
+    "edges": [
+     0.5836999051013133,
+     0.5817548191633775,
+     0.5814305200659032
+    ],
+    "order": 4.0247328034186225,
+    "drift_toward_claim": true,
+    "fails_closed": false
+   }
+  ],
+  "feature": {
+   "size": 0.06,
+   "method": "parameter w (bar width)",
+   "n": 40,
+   "voxels": 2.4,
+   "min_voxels": 3.0,
+   "passed": false
+  },
+  "safe_interval_stored": [
+   0.0973546237349422,
+   0.5801796521185026
+  ]
+ }
+]

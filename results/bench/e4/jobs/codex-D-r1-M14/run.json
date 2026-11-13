@@ -1,0 +1,31 @@
+{
+ "brief": "M14",
+ "arm": "D",
+ "profile": "D",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 9.3,
+ "usage": {
+  "input_tokens": 12772,
+  "cached_input_tokens": 10752,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 226,
+  "reasoning_output_tokens": 109
+ },
+ "final": "{\"decision\":\"refuse\",\"material\":\"PA12\",\"cell_size\":[12,\"mm\"],\"targets\":{\"density_max\":0.3,\"G_min\":{\"value\":12.2,\"unit\":\"MPa\"},\"gap\":{\"f_lo\":33.7,\"f_hi\":39.3,\"unit\":\"kHz\"}},\"verdict\":\"UNDETERMINED\",\"note\":\"Without homogenization and full Bloch-spectrum verification, I cannot certify a design meeting both the C44 target and the complete band gap; infeasibility is not established.\"}",
+ "rounds": 1,
+ "parsed": true,
+ "job": "codex-D-r1-M14",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

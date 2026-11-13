@@ -1,0 +1,24 @@
+{"block": "static", "kind": "schwarz_p", "params": {"density": 0.25, "mode": "sheet"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 99.7}
+{"block": "static", "kind": "gyroid", "params": {"density": 0.35, "mode": "network"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 192.5}
+{"block": "static", "kind": "iwp", "params": {"density": 0.25, "mode": "network"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 85.7}
+{"block": "static", "kind": "gyroid", "params": {"density": 0.25, "mode": "sheet"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 136.7}
+{"block": "static", "kind": "diamond", "params": {"density": 0.35, "mode": "sheet"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 195.1}
+{"block": "static", "kind": "diamond", "params": {"density": 0.25, "mode": "sheet"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 102.7}
+{"block": "static", "kind": "gyroid", "params": {"density": 0.25, "mode": "network"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 79.8}
+{"block": "static", "kind": "iwp", "params": {"density": 0.35, "mode": "network"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 95.6}
+{"block": "static", "kind": "gyroid", "params": {"density": 0.5, "mode": "network"}, "passed": true, "used": [32, 48, 64], "fails": [], "s": 305.9}
+{"block": "static", "kind": "iwp", "params": {"density": 0.15, "mode": "sheet"}, "passed": true, "used": [64, 80, 96], "fails": [], "s": 279.2}
+{"block": "static", "kind": "bcc", "params": {"r": 0.1, "R": 0.22}, "passed": true, "used": [64, 80, 96], "fails": [], "s": 348.6}
+{"block": "static", "kind": "octet", "params": {"r": 0.1, "R": 0.0}, "passed": true, "used": [64, 80, 96], "fails": [], "s": 1065.9}
+{"block": "static", "kind": "sc", "params": {"r": 0.1, "R": 0.22}, "passed": true, "used": [64, 80, 96], "fails": [], "s": 121.6}
+{"block": "static", "kind": "bcc", "params": {"r": 0.1, "R": 0.15}, "passed": false, "used": [64, 80, 96], "fails": ["static values not converged on the ladder"], "s": 220.7}
+{"block": "static", "kind": "octet", "params": {"r": 0.06, "R": 0.15}, "passed": true, "used": [48, 64, 80], "fails": [], "s": 164.9}
+{"block": "static", "kind": "sphere_ligaments", "params": {"c": 0.2, "w": 0.2}, "passed": false, "used": [64, 80, 96], "fails": ["G_min: guarded lower G=0.00096258 vs 0.000978804046099363"], "s": 91.5}
+{"block": "static", "kind": "sphere_ligaments", "params": {"c": 0.3, "w": 0.15}, "passed": true, "used": [48, 64, 80], "fails": [], "s": 82.8}
+{"block": "static", "kind": "sphere_ligaments", "params": {"c": 0.3, "w": 0.25}, "passed": true, "used": [48, 64, 80], "fails": [], "s": 112.7}
+{"block": "static", "kind": "cube_bars", "params": {"c": 0.4, "w": 0.2}, "passed": true, "used": [64, 80, 96], "fails": [], "s": 159.6}
+{"block": "static", "kind": "cube_bars", "params": {"c": 0.6, "w": 0.2}, "passed": true, "used": [48, 64, 80], "fails": [], "s": 177.6}
+{"block": "static", "kind": "cube_bars", "params": {"c": 0.7, "w": 0.15}, "passed": false, "used": [64, 80, 96], "fails": ["static values not converged on the ladder"], "s": 837.3}
+{"block": "static", "kind": "cube_bars", "params": {"c": 0.7, "w": 0.3}, "passed": true, "used": [64, 80, 96], "fails": [], "s": 1309.6}
+{"block": "static", "kind": "cube_bars", "params": {"c": 0.5, "w": 0.3}, "passed": true, "used": [48, 64, 80], "fails": [], "s": 190.6}
+{"block": "static", "kind": "sphere_ligaments", "params": {"c": 0.3, "w": 0.2}, "passed": false, "used": [64, 80, 96], "fails": ["G_min: guarded lower G=0.002342 vs 0.0025045917183786374"], "s": 229.7}

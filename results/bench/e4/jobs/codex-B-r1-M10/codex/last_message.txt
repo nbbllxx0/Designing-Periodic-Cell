@@ -1,0 +1,1 @@
+No design released; verdict **UNDETERMINED**. A BCC candidate meets the nominal estimates, but fails the pessimistic check, and certification is unavailable in this amm session. Compliance with all three limits remains unverified; infeasibility has not been proven.

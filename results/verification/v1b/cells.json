@@ -1,0 +1,70 @@
+{
+ "schema": "amm-v1b-cells/1",
+ "written": "2026-11-07, before any V1b computation",
+ "note": "V1b two-sided verification cells (plan item V1b). 2 per family. The three cells marked dolfinx_v1c=true are the cells the V1c DOLFINx protocol (results/verification/dolfinx/NOTES.md) already names; same spec, nu and nominal claim. 'nominal' targets come from existing material (source); 'marginal' claims are derived from the V1b amm pass-1 certificate by the rule in results/verification/v1b/NOTES.md and written to results/verification/v1b/marginal_claims.json.",
+ "cells": [
+  {
+   "id": "tpms_schwarzp_d0.25_nu0.3",
+   "family": "tpms",
+   "spec": {"family": "tpms", "kind": "schwarz_p", "params": {"density": 0.25, "mode": "network"}},
+   "nu": 0.3,
+   "targets": {"density_max": 0.2624900932283981, "E100_min": 0.06733445791016682, "G_min": 0.009624497578082081, "nu100_min": 0.03297623336845327, "nu100_max": 0.0785526789861852, "gap": {"f_lo": 0.4821542675645598, "f_hi": 0.787663739130882}},
+   "source": "results/g2/cells/d55743f4a44e0d21_m0.05.json (G2 clean cell, claims 5 % inside the G2 reference)",
+   "dolfinx_v1c": true,
+   "marginal": false
+  },
+  {
+   "id": "tpms_schwarzp_sheet_d0.2895_nu0.342",
+   "family": "tpms",
+   "spec": {"family": "tpms", "kind": "schwarz_p", "params": {"density": 0.2895, "mode": "sheet"}},
+   "nu": 0.342,
+   "targets": {"G_min": 0.05720562390158172, "density_max": 0.29},
+   "source": "results/bench/smoke/jobs/codex-C-r1-A04/session/certificates/d236c47edd0a1366_8c1ebde38ccc0300.json (certified agent design; density margin 0.0005 already small)",
+   "dolfinx_v1c": false,
+   "marginal": true,
+   "marginal_kind": "static (G_min pressed against the guarded lower bound; density_max as recorded)"
+  },
+  {
+   "id": "strut_bcc_R0.27_r0.06_nu0.342",
+   "family": "struts",
+   "spec": {"family": "struts", "kind": "bcc", "params": {"R": 0.27, "r": 0.06}},
+   "nu": 0.342,
+   "targets": {"G_min": 0.004077328646748682, "density_max": 0.21, "gap": {"f_hi": 0.5585547198145093, "f_lo": 0.48873537983769566}},
+   "source": "results/bench/e4/jobs/codex-C-r1-A15/session/certificates/feceec63a345ee84_8306e070463fa197.json (E4 certified design)",
+   "dolfinx_v1c": true,
+   "marginal": true,
+   "marginal_kind": "gap (claim pressed against both safe edges) and G_min"
+  },
+  {
+   "id": "strut_octet_r0.06_nu0.3",
+   "family": "struts",
+   "spec": {"family": "struts", "kind": "octet", "params": {"r": 0.06, "R": 0.0}},
+   "nu": 0.3,
+   "targets": {"density_max": 0.16543335155264235, "E100_min": 0.025688132946291332, "G_min": 0.017397610480468614, "nu100_min": 0.29209690297953905, "nu100_max": 0.3649492085563326},
+   "source": "results/g2/cells/e582eb3b1972f247_m0.05.json (G2 clean cell; no complete gap, Bloch part = band comparison)",
+   "dolfinx_v1c": false,
+   "marginal": false
+  },
+  {
+   "id": "thin_sl_c0.402_w0.061_nu0.3",
+   "family": "resonator",
+   "spec": {"family": "resonator", "kind": "sphere_ligaments", "params": {"c": 0.402036, "w": 0.060598}},
+   "nu": 0.3,
+   "targets": {"gap": {"f_hi": 0.630310064335064, "f_lo": 0.23144197674803133}},
+   "source": "results/bench/e4/jobs/codex-C-r1-G10/session/certificates/40d98d0c519c50a5_f8934f3a9d393e14.json (E4 certified; ligament at the calibrated thin limit)",
+   "dolfinx_v1c": true,
+   "marginal": false
+  },
+  {
+   "id": "thin_sl_c0.357_w0.109_nu0.3",
+   "family": "resonator",
+   "spec": {"family": "resonator", "kind": "sphere_ligaments", "params": {"c": 0.356522, "w": 0.108696}},
+   "nu": 0.3,
+   "targets": {"gap": {"f_hi": 0.44515648293663895, "f_lo": 0.3915801274681585}},
+   "source": "results/bench/e4/jobs/codex-C-r1-A09/session/certificates/e5519f4fdbef64db_eb5f595648ea00e1.json (the most frequently certified E4 design, spec hash e5519f4fdbef64db)",
+   "dolfinx_v1c": false,
+   "marginal": true,
+   "marginal_kind": "gap (claim pressed against both safe edges)"
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"Ti6Al4V","cell_size":[12,"mm"],"targets":{"gap":{"f_lo":132,"f_hi":177,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without a band-structure analysis covering all propagation directions and polarizations, I cannot certify a complete gap spanning 132–177 kHz for an allowed design or establish infeasibility."}

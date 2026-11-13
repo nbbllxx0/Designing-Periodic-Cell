@@ -1,0 +1,19 @@
+{
+ "brief": "N01",
+ "profile": "C",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 85.8,
+ "usage": {
+  "input_tokens": 308763,
+  "cached_input_tokens": 270720,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 918,
+  "reasoning_output_tokens": 192
+ },
+ "final": "No design released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm atlas and an additional 80-evaluation search found no supported 316L cell meeting both \u226412% solid volume and \u226516.2 GPa Young\u2019s modulus along x, y, and z. This does not prove physical impossibility.",
+ "stderr_tail": ""
+}

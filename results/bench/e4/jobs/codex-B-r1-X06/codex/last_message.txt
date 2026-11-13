@@ -1,0 +1,1 @@
+Submitted verdict: **PROVEN_INFEASIBLE**. Using amm’s 316L properties, the theoretical bulk-modulus upper bound at 35% relative density is **56.3 GPa**, below your required **67.6 GPa**. Reaching that target requires at least **42.1% relative density**, even under the ideal bound; actual designs may require more.

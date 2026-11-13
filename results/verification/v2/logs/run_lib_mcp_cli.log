@@ -1,0 +1,388 @@
+== lib S01_targets: target types, feasible and infeasible (316L)
+  [lib] S01_targets/density_feasible: PASS (0.1 s) 
+  [lib] S01_targets/density_infeasible: PASS (0.1 s) 
+  [lib] S01_targets/E100_feasible: PASS (0.2 s) 
+  [lib] S01_targets/E100_Es_equals_GPa: PASS (0.1 s) 
+  [lib] S01_targets/E100_infeasible: PASS (0.1 s) 
+  [lib] S01_targets/G_feasible: PASS (0.1 s) 
+  [lib] S01_targets/G_infeasible: PASS (0.1 s) 
+  [lib] S01_targets/bulk_feasible: PASS (0.1 s) 
+  [lib] S01_targets/bulk_infeasible: PASS (0.1 s) 
+  [lib] S01_targets/nu100_feasible: PASS (0.1 s) 
+  [lib] S01_targets/nu100_infeasible: PASS (0.1 s) 
+  [lib] S01_targets/gap_feasible: PASS (0.7 s) 
+  [lib] S01_targets/gap_infeasible: PASS (1.0 s) 
+  [lib] S01_targets/gap_contains_zero: PASS (0.0 s) 
+  [lib] S01_targets/combo_feasible: PASS (0.9 s) 
+  [lib] S01_targets/combo_infeasible: PASS (0.7 s) 
+  [lib] S01_targets/contradictory_density: PASS (0.1 s) 
+  [lib] S01_targets/contradictory_E100: PASS (0.1 s) 
+  [lib] S01_targets/negative_E100_max: PASS (0.1 s) 
+  [lib] S01_targets/negative_density: PASS (0.1 s) 
+  [lib] S01_targets/negative_G_min: PASS (0.1 s) 
+  [lib] S01_targets/unknown_target: PASS (0.0 s) 
+  [lib] S01_targets/zener_target: PASS (0.0 s) 
+  [lib] S01_targets/unknown_unit: PASS (0.0 s) 
+  [lib] S01_targets/wrong_type: PASS (0.0 s) 
+   25/25 passed, 6.4 s, session results/verification/v2/sessions/lib/S01_targets
+== lib S02_materials_units: every material; GPa/MPa/kHz with a cell size
+  [lib] S02_materials_units/material_PA12: PASS (0.3 s) 
+  [lib] S02_materials_units/units_PA12: PASS (0.0 s) 
+  [lib] S02_materials_units/bounds_PA12: PASS (1.0 s) 
+  [lib] S02_materials_units/material_Ti6Al4V: PASS (0.3 s) 
+  [lib] S02_materials_units/units_Ti6Al4V: PASS (0.0 s) 
+  [lib] S02_materials_units/bounds_Ti6Al4V: PASS (0.7 s) 
+  [lib] S02_materials_units/material_316L: PASS (0.0 s) 
+  [lib] S02_materials_units/units_316L: PASS (0.0 s) 
+  [lib] S02_materials_units/bounds_316L: PASS (0.9 s) 
+  [lib] S02_materials_units/material_AlSi10Mg: PASS (0.0 s) 
+  [lib] S02_materials_units/units_AlSi10Mg: PASS (0.0 s) 
+  [lib] S02_materials_units/bounds_AlSi10Mg: PASS (0.0 s) 
+  [lib] S02_materials_units/material_custom: PASS (0.0 s) 
+  [lib] S02_materials_units/material_bad_nu: PASS (0.0 s) 
+  [lib] S02_materials_units/material_unknown: PASS (0.0 s) 
+  [lib] S02_materials_units/matchange_before: PASS (0.1 s) 
+  [lib] S02_materials_units/matchange_after: PASS (0.1 s) 
+   17/17 passed, 3.4 s, session results/verification/v2/sessions/lib/S02_materials_units
+== lib S03_underspecified: Hz without a cell size; GPa without material
+  [lib] S03_underspecified/gpa_no_material: PASS (0.0 s) 
+  [lib] S03_underspecified/gpa_no_material_check: PASS (0.0 s) 
+  [lib] S03_underspecified/hz_no_cell: PASS (0.0 s) 
+  [lib] S03_underspecified/hz_no_cell_check: PASS (0.0 s) 
+  [lib] S03_underspecified/hz_partial_check: PASS (0.1 s) 
+  [lib] S03_underspecified/hz_no_cell_certify: PASS (0.0 s) 
+  [lib] S03_underspecified/need_info: PASS (0.0 s) 
+   7/7 passed, 0.2 s, session results/verification/v2/sessions/lib/S03_underspecified
+== lib S04_families: families alone and together
+  [lib] S04_families/fam_tpms_bounds: FAIL (0.1 s) result.verdict = 'BORDERLINE' (expected 'NOT_FOUND_IN_FAMILIES'); result.atlas.n_cells = 216 (expected one of [212, 224])
+  [lib] S04_families/fam_tpms_suggest: PASS (0.1 s) 
+  [lib] S04_families/fam_struts_bounds: PASS (0.4 s) 
+  [lib] S04_families/fam_struts_suggest: PASS (0.4 s) 
+  [lib] S04_families/fam_res_bounds: PASS (0.3 s) 
+  [lib] S04_families/fam_res_suggest: PASS (0.3 s) 
+  [lib] S04_families/fam_all_bounds: FAIL (0.9 s) result.atlas.n_cells = 2714 (expected one of [2710, 2722])
+  [lib] S04_families/evaluate_families: PASS (6.2 s) 
+  [lib] S04_families/fam_empty: PASS (0.0 s) 
+  [lib] S04_families/fam_unknown: PASS (0.0 s) 
+   8/10 passed, 8.8 s, session results/verification/v2/sessions/lib/S04_families
+== lib S05_invalid: invalid designs, ranges and tools
+  [lib] S05_invalid/out_of_box: PASS (0.0 s) 
+  [lib] S05_invalid/validity_rule: FAIL (0.0 s) error does not contain 'validity rule': cube_bars.w = 0.48 outside the family box [0.06, 0.36]
+  [lib] S05_invalid/tpms_no_mode: PASS (0.0 s) 
+  [lib] S05_invalid/unknown_kind: PASS (0.0 s) 
+  [lib] S05_invalid/too_many: PASS (0.0 s) 
+  [lib] S05_invalid/top_range: PASS (0.0 s) 
+  [lib] S05_invalid/neg_cell: PASS (0.0 s) 
+  [lib] S05_invalid/no_spend: PASS (0.0 s) 
+  [lib] S05_invalid/unknown_tool: PASS (0.0 s) 
+   8/9 passed, 0.1 s, session results/verification/v2/sessions/lib/S05_invalid
+== lib S06_profile_B: profile B (ablation arm)
+  [lib] S06_profile_B/B_tools: PASS (0.0 s) 
+  [lib] S06_profile_B/B_no_bounds: PASS (0.0 s) 
+  [lib] S06_profile_B/B_no_certify: PASS (0.0 s) 
+  [lib] S06_profile_B/B_refuse_unchecked: PASS (0.0 s) 
+   4/4 passed, 0.0 s, session results/verification/v2/sessions/lib/S06_profile_B
+== lib S07_profile_B_release: profile B uncertified release
+  [lib] S07_profile_B_release/B_release_uncertified: PASS (0.0 s) 
+   1/1 passed, 0.0 s, session results/verification/v2/sessions/lib/S07_profile_B_release
+== lib S08_refusals: refusal evidence: proven infeasible, not found
+  [lib] S08_refusals/C_refuse_no_evidence: PASS (0.0 s) 
+  [lib] S08_refusals/stale_bound_record: PASS (0.0 s) 
+  [lib] S08_refusals/wrong_verdict: FAIL (0.0 s) ok=True (expected False); ; error missing
+  [lib] S08_refusals/unknown_evidence_seq: FAIL (0.0 s) error does not contain 'not an evidence record': already submitted
+  [lib] S08_refusals/proven_infeasible: FAIL (0.0 s) ok=False (expected True); already submitted; result.outcome_card.outcome missing; result.outcome_card.evidence[0].seq missing; result.outcome_card.evidence[0].kind missing
+  [lib] S08_refusals/already_submitted: PASS (0.0 s) 
+   3/6 passed, 0.2 s, session results/verification/v2/sessions/lib/S08_refusals
+== lib S09_not_found: not found in families; stale family edit
+  [lib] S09_not_found/nf_bounds: FAIL (0.1 s) result.verdict = 'BORDERLINE' (expected 'NOT_FOUND_IN_FAMILIES')
+  [lib] S09_not_found/stale_family_record: PASS (0.0 s) 
+  [lib] S09_not_found/nf_holds: FAIL (0.0 s) result.evidence[0].holds_for_current_spec missing; result.evidence[0].kind missing
+  [lib] S09_not_found/not_found_in_families: FAIL (0.0 s) ok=False (expected True); refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas verdict NOT_FOUND_IN_FAMILIES; result.outcome_card.outcome missing; result.outcome_card.evidence[0].seq
+   1/4 passed, 0.1 s, session results/verification/v2/sessions/lib/S09_not_found
+== lib S10_refuted_budget: refuted certificates; certify budget
+  [lib] S10_refuted_budget/refuted_cert: PASS (21.1 s) 
+  [lib] S10_refuted_budget/budget_exhausted: PASS (0.0 s) 
+  [lib] S10_refuted_budget/release_refuted: PASS (0.0 s) 
+  [lib] S10_refuted_budget/refuted_candidate: PASS (0.0 s) 
+   4/4 passed, 104.7 s, session results/verification/v2/sessions/lib/S10_refuted_budget
+== lib S13_lib_combined: 316L stiffness + gap certificate
+  [lib] S13_lib_combined/combo_units: PASS (0.0 s) 
+  [lib] S13_lib_combined/combo_certify: PASS (247.0 s) 
+  [lib] S13_lib_combined/combo_as_built: PASS (0.0 s) 
+  [lib] S13_lib_combined/combo_stale_spec: PASS (0.0 s) 
+  [lib] S13_lib_combined/combo_stale_export: PASS (0.8 s) 
+  [lib] S13_lib_combined/combo_stale_material: PASS (0.0 s) 
+  [lib] S13_lib_combined/combo_stale_design: PASS (0.0 s) 
+  [lib] S13_lib_combined/combo_screen_pass: PASS (3.0 s) 
+  [lib] S13_lib_combined/combo_screen_fail: PASS (3.0 s) 
+  [lib] S13_lib_combined/combo_release: PASS (0.0 s) 
+  [lib] S13_lib_combined/combo_export: FAIL (3.1 s) report.certificate.gap.verdict = {'verdict': 'certified'} (expected 'certified')
+   10/11 passed, 260.4 s, session results/verification/v2/sessions/lib/S13_lib_combined
+== lib S14_lib_undetermined: Ti6Al4V gap: undetermined
+  [lib] S14_lib_undetermined/undet_certify: PASS (231.2 s) 
+  [lib] S14_lib_undetermined/undet_stale: PASS (0.0 s) 
+  [lib] S14_lib_undetermined/numerically_undetermined: PASS (0.0 s) 
+   3/3 passed, 231.3 s, session results/verification/v2/sessions/lib/S14_lib_undetermined
+== lib S15_lib_release_without_cert: release without certificate (C)
+  [lib] S15_lib_release_without_cert/C_release_uncertified: PASS (0.0 s) 
+  [lib] S15_lib_release_without_cert/release_no_design: PASS (0.0 s) 
+   2/2 passed, 0.2 s, session results/verification/v2/sessions/lib/S15_lib_release_without_cert
+== mcp S01_targets: target types, feasible and infeasible (316L)
+  [mcp] S01_targets/density_feasible: PASS (0.1 s) 
+  [mcp] S01_targets/density_infeasible: PASS (0.2 s) 
+  [mcp] S01_targets/E100_feasible: PASS (0.3 s) 
+  [mcp] S01_targets/E100_Es_equals_GPa: PASS (0.2 s) 
+  [mcp] S01_targets/E100_infeasible: PASS (0.2 s) 
+  [mcp] S01_targets/G_feasible: PASS (0.3 s) 
+  [mcp] S01_targets/G_infeasible: PASS (0.2 s) 
+  [mcp] S01_targets/bulk_feasible: PASS (0.1 s) 
+  [mcp] S01_targets/bulk_infeasible: PASS (0.2 s) 
+  [mcp] S01_targets/nu100_feasible: PASS (0.1 s) 
+  [mcp] S01_targets/nu100_infeasible: PASS (0.1 s) 
+  [mcp] S01_targets/gap_feasible: PASS (1.6 s) 
+  [mcp] S01_targets/gap_infeasible: PASS (1.5 s) 
+Tool 'set_target' failed: 'Error executing tool set_target: gap needs 0 < f_lo < f_hi (a band gap cannot contain f = 0)'
+  [mcp] S01_targets/gap_contains_zero: PASS (0.0 s) 
+  [mcp] S01_targets/combo_feasible: PASS (1.2 s) 
+  [mcp] S01_targets/combo_infeasible: PASS (1.6 s) 
+  [mcp] S01_targets/contradictory_density: PASS (0.1 s) 
+  [mcp] S01_targets/contradictory_E100: PASS (0.2 s) 
+  [mcp] S01_targets/negative_E100_max: PASS (0.1 s) 
+  [mcp] S01_targets/negative_density: PASS (0.2 s) 
+Tool 'set_target' failed: 'Error executing tool set_target: G_min must be positive: a minimum modulus <= 0 constrains nothing (bound P1); leave it out'
+  [mcp] S01_targets/negative_G_min: PASS (0.2 s) 
+Tool 'set_target' failed: 'Error executing tool set_target: porosity_max: Extra inputs are not permitted'
+  [mcp] S01_targets/unknown_target: PASS (0.0 s) 
+Tool 'set_target' failed: 'Error executing tool set_target: zener_min: Extra inputs are not permitted; zener_min: not a design target: the Zener ratio, the cubic constants C11, C12, C44 and E110 / E111 are computed outputs of evaluate (results[].derived), never targets or certified quantities. Targets: density_min, density_max, E100_min, E100_max, G_min, bulk_min, nu100_min, nu100_max, gap'
+  [mcp] S01_targets/zener_target: PASS (0.0 s) 
+Tool 'set_target' failed: "Error executing tool set_target: E100_min.unit: Input should be 'Pa', 'kPa', 'MPa', 'GPa', 'psi' or 'E_s'"
+  [mcp] S01_targets/unknown_unit: PASS (0.0 s) 
+Tool 'set_target' failed: 'Error executing tool set_target: density_max: Input should be a valid number, unable to parse string as a number'
+  [mcp] S01_targets/wrong_type: PASS (0.0 s) 
+   25/25 passed, 14.1 s, session results/verification/v2/sessions/mcp/S01_targets
+== mcp S02_materials_units: every material; GPa/MPa/kHz with a cell size
+  [mcp] S02_materials_units/material_PA12: PASS (0.4 s) 
+  [mcp] S02_materials_units/units_PA12: PASS (0.0 s) 
+  [mcp] S02_materials_units/bounds_PA12: PASS (1.4 s) 
+  [mcp] S02_materials_units/material_Ti6Al4V: PASS (0.3 s) 
+  [mcp] S02_materials_units/units_Ti6Al4V: PASS (0.0 s) 
+  [mcp] S02_materials_units/bounds_Ti6Al4V: PASS (1.8 s) 
+  [mcp] S02_materials_units/material_316L: PASS (0.5 s) 
+  [mcp] S02_materials_units/units_316L: PASS (0.0 s) 
+  [mcp] S02_materials_units/bounds_316L: PASS (1.6 s) 
+  [mcp] S02_materials_units/material_AlSi10Mg: PASS (0.0 s) 
+  [mcp] S02_materials_units/units_AlSi10Mg: PASS (0.0 s) 
+  [mcp] S02_materials_units/bounds_AlSi10Mg: PASS (0.0 s) 
+  [mcp] S02_materials_units/material_custom: PASS (0.0 s) 
+Tool 'set_material' failed: 'Error executing tool set_material: need E_Pa > 0, rho_kg_m3 > 0 and -1 < nu < 0.5'
+  [mcp] S02_materials_units/material_bad_nu: PASS (0.0 s) 
+Tool 'set_material' failed: "Error executing tool set_material: name: Input should be 'PA12', 'Ti6Al4V', '316L' or 'AlSi10Mg'"
+  [mcp] S02_materials_units/material_unknown: PASS (0.0 s) 
+  [mcp] S02_materials_units/matchange_before: PASS (0.1 s) 
+  [mcp] S02_materials_units/matchange_after: PASS (0.1 s) 
+   17/17 passed, 9.8 s, session results/verification/v2/sessions/mcp/S02_materials_units
+== mcp S03_underspecified: Hz without a cell size; GPa without material
+  [mcp] S03_underspecified/gpa_no_material: PASS (0.0 s) 
+Tool 'check_bounds' failed: 'Error executing tool check_bounds: no targets that can be normalized yet: E100_min given in GPa but no material: cannot normalize by E_s'
+  [mcp] S03_underspecified/gpa_no_material_check: PASS (0.0 s) 
+  [mcp] S03_underspecified/hz_no_cell: PASS (0.0 s) 
+Tool 'check_bounds' failed: 'Error executing tool check_bounds: no targets that can be normalized yet: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t'
+  [mcp] S03_underspecified/hz_no_cell_check: PASS (0.0 s) 
+  [mcp] S03_underspecified/hz_partial_check: PASS (0.1 s) 
+Tool 'certify' failed: 'Error executing tool certify: targets cannot be normalized: gap.f_lo given in Hz but no cell size: cannot convert to f* = f a / c_t; gap.f_hi given in Hz but no cell size: cannot convert to f* = f a / c_t'
+  [mcp] S03_underspecified/hz_no_cell_certify: PASS (0.0 s) 
+  [mcp] S03_underspecified/need_info: PASS (0.0 s) 
+   7/7 passed, 4.4 s, session results/verification/v2/sessions/mcp/S03_underspecified
+== mcp S04_families: families alone and together
+  [mcp] S04_families/fam_tpms_bounds: FAIL (0.1 s) result.verdict = 'BORDERLINE' (expected 'NOT_FOUND_IN_FAMILIES'); result.atlas.n_cells = 216 (expected one of [212, 224])
+  [mcp] S04_families/fam_tpms_suggest: PASS (0.1 s) 
+  [mcp] S04_families/fam_struts_bounds: PASS (0.5 s) 
+  [mcp] S04_families/fam_struts_suggest: PASS (0.9 s) 
+  [mcp] S04_families/fam_res_bounds: PASS (0.7 s) 
+  [mcp] S04_families/fam_res_suggest: PASS (0.6 s) 
+  [mcp] S04_families/fam_all_bounds: FAIL (1.6 s) result.atlas.n_cells = 2714 (expected one of [2710, 2722])
+  [mcp] S04_families/evaluate_families: PASS (9.0 s) 
+Tool 'set_constraints' failed: 'Error executing tool set_constraints: families must not be empty'
+  [mcp] S04_families/fam_empty: PASS (0.0 s) 
+Tool 'set_constraints' failed: "Error executing tool set_constraints: families.0: Input should be 'tpms', 'struts' or 'resonator'"
+  [mcp] S04_families/fam_unknown: PASS (0.0 s) 
+   8/10 passed, 18.3 s, session results/verification/v2/sessions/mcp/S04_families
+== mcp S05_invalid: invalid designs, ranges and tools
+Tool 'evaluate' failed: 'Error executing tool evaluate: cube_bars.c = 0.95 outside the family box [0.3, 0.86]'
+  [mcp] S05_invalid/out_of_box: PASS (0.0 s) 
+Tool 'evaluate' failed: 'Error executing tool evaluate: cube_bars.w = 0.48 outside the family box [0.06, 0.36]'
+  [mcp] S05_invalid/validity_rule: FAIL (0.0 s) error does not contain 'validity rule': Error executing tool evaluate: cube_bars.w = 0.48 outside the family box [0.06, 0.36]
+Tool 'evaluate' failed: "Error executing tool evaluate: TPMS design needs params.mode in ['network', 'sheet']"
+  [mcp] S05_invalid/tpms_no_mode: PASS (0.0 s) 
+Tool 'evaluate' failed: "Error executing tool evaluate: designs.0.kind: Input should be 'gyroid', 'schwarz_p', 'diamond', 'iwp', 'sc', 'bcc', 'octet', 'cube_bars' or 'sphere_ligaments'"
+  [mcp] S05_invalid/unknown_kind: PASS (0.0 s) 
+Tool 'evaluate' failed: 'Error executing tool evaluate: give 1-16 designs'
+  [mcp] S05_invalid/too_many: PASS (0.0 s) 
+Tool 'atlas_suggest' failed: 'Error executing tool atlas_suggest: top must be 1-10'
+  [mcp] S05_invalid/top_range: PASS (0.0 s) 
+Tool 'set_constraints' failed: 'Error executing tool set_constraints: cell_size must be positive'
+  [mcp] S05_invalid/neg_cell: PASS (0.0 s) 
+  [mcp] S05_invalid/no_spend: PASS (0.0 s) 
+Tool 'design_everything' failed: 'Unknown tool: design_everything'
+  [mcp] S05_invalid/unknown_tool: PASS (0.0 s) 
+   8/9 passed, 4.0 s, session results/verification/v2/sessions/mcp/S05_invalid
+== mcp S06_profile_B: profile B (ablation arm)
+  [mcp] S06_profile_B/B_tools: PASS (0.0 s) 
+Tool 'check_bounds' failed: 'Unknown tool: check_bounds'
+  [mcp] S06_profile_B/B_no_bounds: PASS (0.0 s) 
+Tool 'certify' failed: 'Unknown tool: certify'
+  [mcp] S06_profile_B/B_no_certify: PASS (0.0 s) 
+  [mcp] S06_profile_B/B_refuse_unchecked: PASS (0.0 s) 
+   4/4 passed, 4.0 s, session results/verification/v2/sessions/mcp/S06_profile_B
+== mcp S07_profile_B_release: profile B uncertified release
+  [mcp] S07_profile_B_release/B_release_uncertified: PASS (0.0 s) 
+   1/1 passed, 4.0 s, session results/verification/v2/sessions/mcp/S07_profile_B_release
+== mcp S08_refusals: refusal evidence: proven infeasible, not found
+Tool 'submit' failed: 'Error executing tool submit: refusal needs evidence: refuse with verdict PROVEN_INFEASIBLE must cite an evidence record held in this session for the current spec: a check_bounds result with a violated rigorous bound (call check_bounds). No evidence record is held for the current spec.'
+  [mcp] S08_refusals/C_refuse_no_evidence: PASS (0.0 s) 
+Tool 'submit' failed: 'Error executing tool submit: refusal needs evidence: refuse with verdict PROVEN_INFEASIBLE must cite an evidence record held in this session for the current spec: a check_bounds result with a violated rigorous bound (call check_bounds). No evidence record is held for the current spec.'
+  [mcp] S08_refusals/stale_bound_record: PASS (0.0 s) 
+  [mcp] S08_refusals/wrong_verdict: FAIL (0.0 s) ok=True (expected False); ; error missing
+Tool 'submit' failed: 'Error executing tool submit: already submitted'
+  [mcp] S08_refusals/unknown_evidence_seq: FAIL (0.0 s) error does not contain 'not an evidence record': Error executing tool submit: already submitted
+Tool 'submit' failed: 'Error executing tool submit: already submitted'
+  [mcp] S08_refusals/proven_infeasible: FAIL (0.0 s) ok=False (expected True); Error executing tool submit: already submitted; result.outcome_card.outcome missing; result.outcome_card.evidence[0].seq missing; result.outcome_card.evidence[0].kind missing
+Tool 'submit' failed: 'Error executing tool submit: already submitted'
+  [mcp] S08_refusals/already_submitted: PASS (0.0 s) 
+   3/6 passed, 4.1 s, session results/verification/v2/sessions/mcp/S08_refusals
+== mcp S09_not_found: not found in families; stale family edit
+  [mcp] S09_not_found/nf_bounds: FAIL (0.1 s) result.verdict = 'BORDERLINE' (expected 'NOT_FOUND_IN_FAMILIES')
+Tool 'submit' failed: 'Error executing tool submit: refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas verdict NOT_FOUND_IN_FAMILIES, or a search over every declared family that found nothing. No evidence record is held for the current spec.'
+  [mcp] S09_not_found/stale_family_record: PASS (0.0 s) 
+  [mcp] S09_not_found/nf_holds: FAIL (0.0 s) result.evidence[0].holds_for_current_spec missing; result.evidence[0].kind missing
+Tool 'submit' failed: 'Error executing tool submit: refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas verdict NOT_FOUND_IN_FAMILIES, or a search over every declared family that found nothing. No evidence record is held for the current spec.'
+  [mcp] S09_not_found/not_found_in_families: FAIL (0.0 s) ok=False (expected True); Error executing tool submit: refusal needs evidence: refuse with verdict NOT_FOUND_IN_FAMILIES must cite an evidence record held in this session for the current spec: a check_bounds result with atlas ; result.outcome_card.outcome missing; result.outcome_card.evidence[0].seq
+   1/4 passed, 2.7 s, session results/verification/v2/sessions/mcp/S09_not_found
+== mcp S10_refuted_budget: refuted certificates; certify budget
+  [mcp] S10_refuted_budget/refuted_cert: PASS (18.6 s) 
+Tool 'certify' failed: 'Error executing tool certify: session budget exhausted: 4 of 4 certify used, this call needs 1'
+  [mcp] S10_refuted_budget/budget_exhausted: PASS (0.0 s) 
+Tool 'submit' failed: "Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first (its verdict was refuted)"
+  [mcp] S10_refuted_budget/release_refuted: PASS (0.0 s) 
+  [mcp] S10_refuted_budget/refuted_candidate: PASS (0.0 s) 
+   4/4 passed, 92.4 s, session results/verification/v2/sessions/mcp/S10_refuted_budget
+== mcp S11_certified_static: PA12 static certificate
+  [mcp] S11_certified_static/pa12_bounds: PASS (0.1 s) 
+  [mcp] S11_certified_static/pa12_eval: PASS (2.7 s) 
+  [mcp] S11_certified_static/pa12_certify: PASS (25.7 s) 
+  [mcp] S11_certified_static/pa12_cert_key: PASS (0.0 s) 
+  [mcp] S11_certified_static/as_built_from_cert: PASS (0.0 s) 
+  [mcp] S11_certified_static/stale_spec_evidence: PASS (0.0 s) 
+Tool 'submit' failed: "Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first"
+  [mcp] S11_certified_static/stale_spec_release: PASS (0.0 s) 
+  [mcp] S11_certified_static/stale_spec_export: PASS (0.8 s) 
+Tool 'submit' failed: "Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first"
+  [mcp] S11_certified_static/stale_material_release: PASS (0.0 s) 
+  [mcp] S11_certified_static/stale_material_evidence: PASS (0.0 s) 
+Tool 'submit' failed: "Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first"
+  [mcp] S11_certified_static/stale_design_release: PASS (0.0 s) 
+  [mcp] S11_certified_static/screen_pass: PASS (5.1 s) 
+  [mcp] S11_certified_static/screen_fail: PASS (3.3 s) 
+  [mcp] S11_certified_static/pa12_release: PASS (0.0 s) 
+  [mcp] S11_certified_static/pa12_export: PASS (2.4 s) 
+   15/15 passed, 43.9 s, session results/verification/v2/sessions/mcp/S11_certified_static
+== mcp S15_lib_release_without_cert: release without certificate (C)
+Tool 'submit' failed: "Error executing tool submit: release needs a certificate with verdict 'certified' for this design and the current targets: call certify first"
+  [mcp] S15_lib_release_without_cert/C_release_uncertified: PASS (0.0 s) 
+Tool 'submit' failed: 'Error executing tool submit: release needs a design'
+  [mcp] S15_lib_release_without_cert/release_no_design: PASS (0.0 s) 
+   2/2 passed, 2.0 s, session results/verification/v2/sessions/mcp/S15_lib_release_without_cert
+== cli S01_targets: target types, feasible and infeasible (316L)
+  [cli] S01_targets/density_feasible: PASS (1.7 s) 
+  [cli] S01_targets/density_infeasible: PASS (1.6 s) 
+  [cli] S01_targets/E100_feasible: PASS (1.5 s) 
+  [cli] S01_targets/E100_Es_equals_GPa: PASS (1.6 s) 
+  [cli] S01_targets/E100_infeasible: PASS (1.7 s) 
+  [cli] S01_targets/G_feasible: PASS (1.5 s) 
+  [cli] S01_targets/G_infeasible: PASS (1.7 s) 
+  [cli] S01_targets/bulk_feasible: PASS (1.6 s) 
+  [cli] S01_targets/bulk_infeasible: PASS (1.5 s) 
+  [cli] S01_targets/nu100_feasible: PASS (1.7 s) 
+  [cli] S01_targets/nu100_infeasible: PASS (1.6 s) 
+  [cli] S01_targets/gap_feasible: PASS (2.1 s) 
+  [cli] S01_targets/gap_infeasible: PASS (2.1 s) 
+  [cli] S01_targets/gap_contains_zero: PASS (1.4 s) 
+  [cli] S01_targets/combo_feasible: PASS (2.4 s) 
+  [cli] S01_targets/combo_infeasible: PASS (2.6 s) 
+  [cli] S01_targets/contradictory_density: PASS (1.8 s) 
+  [cli] S01_targets/contradictory_E100: PASS (1.8 s) 
+  [cli] S01_targets/negative_E100_max: PASS (1.6 s) 
+  [cli] S01_targets/negative_density: PASS (1.7 s) 
+  [cli] S01_targets/negative_G_min: PASS (1.7 s) 
+  [cli] S01_targets/unknown_target: PASS (1.7 s) 
+  [cli] S01_targets/zener_target: PASS (2.6 s) 
+  [cli] S01_targets/unknown_unit: PASS (1.6 s) 
+  [cli] S01_targets/wrong_type: PASS (1.7 s) 
+   25/25 passed, 82.0 s, session results/verification/v2/sessions/cli/S01_targets/46-check-bounds
+== cli S02_materials_units: every material; GPa/MPa/kHz with a cell size
+  [cli] S02_materials_units/material_PA12: PASS (1.6 s) 
+  [cli] S02_materials_units/units_PA12: PASS (2.5 s) 
+  [cli] S02_materials_units/bounds_PA12: PASS (2.5 s) 
+  [cli] S02_materials_units/material_Ti6Al4V: PASS (2.5 s) 
+  [cli] S02_materials_units/units_Ti6Al4V: PASS (2.6 s) 
+  [cli] S02_materials_units/bounds_Ti6Al4V: PASS (2.5 s) 
+  [cli] S02_materials_units/material_316L: PASS (2.5 s) 
+  [cli] S02_materials_units/units_316L: PASS (2.5 s) 
+  [cli] S02_materials_units/bounds_316L: PASS (3.3 s) 
+  [cli] S02_materials_units/material_AlSi10Mg: PASS (1.3 s) 
+  [cli] S02_materials_units/units_AlSi10Mg: PASS (1.3 s) 
+  [cli] S02_materials_units/bounds_AlSi10Mg: PASS (1.3 s) 
+  [cli] S02_materials_units/material_custom: PASS (1.3 s) 
+  [cli] S02_materials_units/material_bad_nu: PASS (2.2 s) 
+  [cli] S02_materials_units/material_unknown: PASS (1.4 s) 
+  [cli] S02_materials_units/matchange_before: PASS (1.7 s) 
+  [cli] S02_materials_units/matchange_after: PASS (1.8 s) 
+   17/17 passed, 42.2 s, session results/verification/v2/sessions/cli/S02_materials_units/21-check-bounds
+== cli S03_underspecified: Hz without a cell size; GPa without material
+  [cli] S03_underspecified/gpa_no_material: PASS (1.3 s) 
+  [cli] S03_underspecified/gpa_no_material_check: PASS (1.3 s) 
+  [cli] S03_underspecified/hz_no_cell: PASS (1.6 s) 
+  [cli] S03_underspecified/hz_no_cell_check: PASS (1.7 s) 
+  [cli] S03_underspecified/hz_partial_check: PASS (1.7 s) 
+  [cli] S03_underspecified/hz_no_cell_certify: PASS (1.6 s) 
+   6/6 passed, 12.8 s, session results/verification/v2/sessions/cli/S03_underspecified/08-certify
+== cli S04_families: families alone and together
+  [cli] S04_families/fam_tpms_bounds: FAIL (1.7 s) result.verdict = 'BORDERLINE' (expected 'NOT_FOUND_IN_FAMILIES'); result.atlas.n_cells = 216 (expected one of [212, 224])
+  [cli] S04_families/fam_tpms_suggest: PASS (1.8 s) 
+  [cli] S04_families/fam_struts_bounds: PASS (2.9 s) 
+  [cli] S04_families/fam_struts_suggest: PASS (2.8 s) 
+  [cli] S04_families/fam_res_bounds: PASS (2.2 s) 
+  [cli] S04_families/fam_res_suggest: PASS (2.3 s) 
+  [cli] S04_families/fam_all_bounds: FAIL (3.5 s) result.atlas.n_cells = 2714 (expected one of [2710, 2722])
+  [cli] S04_families/evaluate_families: PASS (9.7 s) 
+  [cli] S04_families/fam_empty: PASS (1.6 s) 
+  [cli] S04_families/fam_unknown: PASS (1.6 s) 
+   8/10 passed, 44.7 s, session results/verification/v2/sessions/cli/S04_families/16-check-bounds
+== cli S05_invalid: invalid designs, ranges and tools
+  [cli] S05_invalid/out_of_box: PASS (1.6 s) 
+  [cli] S05_invalid/validity_rule: FAIL (1.6 s) error does not contain 'validity rule': cube_bars.w = 0.48 outside the family box [0.06, 0.36]
+  [cli] S05_invalid/tpms_no_mode: PASS (1.6 s) 
+  [cli] S05_invalid/unknown_kind: PASS (1.6 s) 
+  [cli] S05_invalid/too_many: PASS (1.6 s) 
+  [cli] S05_invalid/top_range: PASS (1.6 s) 
+  [cli] S05_invalid/neg_cell: PASS (1.6 s) 
+  [cli] S05_invalid/malformed_json_cli: PASS (1.4 s) 
+  [cli] S05_invalid/unknown_command_cli: PASS (0.1 s) 
+   8/9 passed, 15.8 s, session results/verification/v2/sessions/cli/S05_invalid/09-check-bounds
+== cli S06_profile_B: profile B (ablation arm)
+  [cli] S06_profile_B/B_no_bounds: PASS (1.7 s) 
+  [cli] S06_profile_B/B_no_certify: PASS (1.6 s) 
+   2/2 passed, 6.7 s, session results/verification/v2/sessions/cli/S06_profile_B/04-certify
+== cli S12_cli: CLI subcommands
+  [cli] S12_cli/cli_check_bounds: PASS (1.9 s) 
+  [cli] S12_cli/cli_atlas_suggest: PASS (2.0 s) 
+  [cli] S12_cli/cli_evaluate_bands: PASS (932.1 s) 
+  [cli] S12_cli/cli_certify_release_export: PASS (29.6 s) 
+  [cli] S12_cli/cli_replay: PASS (29.3 s) 
+  [cli] S12_cli/cli_export_uncertified: PASS (8.0 s) 
+  [cli] S12_cli/cli_export_screen_fail: PASS (8.0 s) 
+  [cli] S12_cli/cli_export_no_session: PASS (1.2 s) 
+  [cli] S12_cli/cli_profile_B: PASS (1.6 s) 
+  [cli] S12_cli/cli_zener: PASS (1.6 s) 
+   10/10 passed, 1015.2 s, session results/verification/v2/sessions/cli/S12_cli/10-check-bounds
+EXITCODE 0

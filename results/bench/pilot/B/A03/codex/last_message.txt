@@ -1,0 +1,1 @@
+Submitted **UNDETERMINED**; no design released. At the selected 10 mm cell size, the best PA12 candidate nominally covers 44–54.6 kHz but fails the pessimistic check. The requested complete band gap remains unverified.

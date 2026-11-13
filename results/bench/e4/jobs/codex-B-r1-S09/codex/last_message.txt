@@ -1,0 +1,1 @@
+Released a PA12 **cube-bars unit cell** with parameters \(c=0.40\), \(w=0.32\), relative to cell size. Predicted solid fraction is **24.9%** and Young’s modulus is **208 MPa along x, y, and z**, meeting both targets. These are uncertified search estimates; SLS manufacturability was not evaluated.

@@ -1,0 +1,350 @@
+{
+ "cannot_normalize": [],
+ "certificate": null,
+ "design": {
+  "family": "resonator",
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.345576,
+   "w": 0.12838
+  }
+ },
+ "disclaimers": [
+  "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+  "certificates are acceptance under stated discretization, sampling and guard assumptions, not continuum theorems; a gap is certified for the infinite periodic lattice, not for a finite printed block",
+  "search-tier values (evaluate, search, atlas) are estimates, biased stiff and high in frequency, NOT certificates",
+  "material values are typical datasheet inputs of the request, not measured properties of a printed part",
+  "the as-built check is a robustness flag (surface offset +-offset a), not a tolerance analysis"
+ ],
+ "geometry": {
+  "cell_size_mm": 10.0,
+  "contour": "solid fraction 0.5 of the cleaned field",
+  "files": {
+   "cell": {
+    "bytes": 1113484,
+    "method": "marching_cubes",
+    "n_triangles": 22268,
+    "path": "exports/sphere_ligaments_8dc9a1fe_4c864f/cell.stl",
+    "sha256": "a82679bf87099ad0dda657e05ca3e99e6a1f14b0776fef27592efc5355b6fcb9",
+    "unit": "mm"
+   },
+   "tiled": {
+    "bytes": 7392684,
+    "method": "marching_cubes",
+    "n_triangles": 147852,
+    "path": "exports/sphere_ligaments_8dc9a1fe_4c864f/tiled_3x3x3.stl",
+    "sha256": "4daa3c155695dbd10929845be879cbf7ba203ac125db67bf4768901f7649f188",
+    "unit": "mm"
+   }
+  },
+  "removed_islands_fraction": 0.0,
+  "resolution": 64,
+  "tile_resolution": 32,
+  "tiles": 3,
+  "unit": "mm"
+ },
+ "identity": {
+  "checker": "f141e46cb67a78db",
+  "code": "5970bf55108f1584",
+  "profile": "C",
+  "schema": "amm-tools/2"
+ },
+ "normalized_targets": {
+  "E100_min": 0.02164705882352941,
+  "density_max": 0.24,
+  "gap": {
+   "f_hi": 0.7453952445436148,
+   "f_lo": 0.42410419086102225
+  }
+ },
+ "outcome": {
+  "decision": "export",
+  "definition": "no certificate of this design for the current targets in this session; any values are search-tier estimates",
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.345576,
+    "w": 0.12838
+   }
+  },
+  "evidence": [],
+  "evidence_checked": true,
+  "outcome": "not_certified",
+  "profile": "C",
+  "schema_version": "amm-outcome/1",
+  "title": "Not certified",
+  "verdict": null
+ },
+ "schema_version": "amm-export/1",
+ "screening": {
+  "cell_connectivity": {
+   "largest_fraction": 1.0,
+   "n_components": 1,
+   "note": "one cell cut at its walls, as a single printed cell",
+   "spans": [
+    true,
+    true,
+    true
+   ]
+  },
+  "cell_size_mm": 10.0,
+  "complete": true,
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.345576,
+    "w": 0.12838
+   }
+  },
+  "disclaimer": "manufacturing screening only, NOT a printability claim: minimum feature against a stated printer limit (one-voxel resolution), tiled connectivity and a watertight surface are checked; support, powder removal, residual stress, roughness and process parameters are not",
+  "min_feature": {
+   "limit_source": "typical minimum feature of PA12 by SLS (amm.units.MATERIALS, a datasheet value, not a machine capability)",
+   "limit_voxels": 5.12,
+   "passed": true,
+   "printer_limit_mm": 0.8,
+   "solid_est_cell_units": 0.09765625,
+   "solid_est_mm": 0.9765625,
+   "solid_thinner_than_limit": 0.0,
+   "tolerance": 0.01,
+   "void_est_cell_units": 0.47265625,
+   "void_est_mm": 4.7265625,
+   "void_narrower_than_limit": 0.0,
+   "void_passed": true
+  },
+  "passed": true,
+  "removed_islands_fraction": 0.0,
+  "resolution": 64,
+  "schema_version": "amm-screen/1",
+  "tiled_connectivity": {
+   "largest_fraction": 1.0,
+   "n_components": 1,
+   "passed": true,
+   "spans": [
+    true,
+    true,
+    true
+   ],
+   "tiles": 3
+  },
+  "verdict": "screen passed",
+  "voxel": {
+   "cell_units": 0.015625,
+   "mm": 0.15625
+  },
+  "watertight": {
+   "cell": {
+    "boundary_edges": 0,
+    "method": "marching_cubes",
+    "n_shells": 1,
+    "n_triangles": 22268,
+    "nonmanifold_edges": 0,
+    "orientation_ok": true,
+    "volume": 0.18477259893648243,
+    "volume_rel_diff": -0.0015454284382163176,
+    "voxel_volume_cell_units": 0.18505859375,
+    "watertight": true
+   },
+   "passed": true,
+   "tiled": {
+    "boundary_edges": 0,
+    "method": "marching_cubes",
+    "n_shells": 1,
+    "n_triangles": 147852,
+    "nonmanifold_edges": 0,
+    "orientation_ok": true,
+    "volume": 4.9754772265297005,
+    "volume_rel_diff": -0.0042238483403863394,
+    "voxel_volume_cell_units": 4.99658203125,
+    "watertight": true
+   }
+  }
+ },
+ "search_tier": {
+  "C": [
+   [
+    0.029994771160029066,
+    0.0009556393865008603,
+    0.0009556393865008375,
+    -2.504976691593323e-18,
+    -5.563206518447838e-18,
+    2.796606330302161e-17
+   ],
+   [
+    0.0009556393865008603,
+    0.029994771160028876,
+    0.0009556393865007358,
+    -3.9216149974456464e-18,
+    -1.0382612230087993e-17,
+    2.7434550128619534e-17
+   ],
+   [
+    0.0009556393865008375,
+    0.0009556393865007358,
+    0.02999477116002893,
+    5.22253912631514e-17,
+    2.7787445230269357e-17,
+    -3.781335071044488e-17
+   ],
+   [
+    -2.504976691593323e-18,
+    -3.9216149974456464e-18,
+    5.22253912631514e-17,
+    0.001679341120575638,
+    -2.433525086706982e-16,
+    -4.816877847688193e-18
+   ],
+   [
+    -5.563206518447838e-18,
+    -1.0382612230087993e-17,
+    2.7787445230269357e-17,
+    -2.433525086706982e-16,
+    0.0016793411205759399,
+    1.192092994142021e-18
+   ],
+   [
+    2.796606330302161e-17,
+    2.7434550128619534e-17,
+    -3.781335071044488e-17,
+    -4.816877847688193e-18,
+    1.192092994142021e-18,
+    0.0016793411205760535
+   ]
+  ],
+  "C_MPa": [
+   [
+    50.99111097204941,
+    1.6245869570514624,
+    1.6245869570514238,
+    -4.258460375708649e-15,
+    -9.457451081361324e-15,
+    4.754230761513673e-14
+   ],
+   [
+    1.6245869570514624,
+    50.991110972049086,
+    1.6245869570512508,
+    -6.666745495657599e-15,
+    -1.765044079114959e-14,
+    4.663873521865321e-14
+   ],
+   [
+    1.6245869570514238,
+    1.6245869570512508,
+    50.991110972049185,
+    8.878316514735738e-14,
+    4.7238656891457906e-14,
+    -6.42826962077563e-14
+   ],
+   [
+    -4.258460375708649e-15,
+    -6.666745495657599e-15,
+    8.878316514735738e-14,
+    2.8548799049785845,
+    -4.13699264740187e-13,
+    -8.188692341069929e-15
+   ],
+   [
+    -9.457451081361324e-15,
+    -1.765044079114959e-14,
+    4.7238656891457906e-14,
+    -4.13699264740187e-13,
+    2.854879904979098,
+    2.0265580900414356e-15
+   ],
+   [
+    4.754230761513673e-14,
+    4.663873521865321e-14,
+    -6.42826962077563e-14,
+    -8.188692341069929e-15,
+    2.0265580900414356e-15,
+    2.854879904979291
+   ]
+  ],
+  "E100": 0.02993575762056995,
+  "E100_MPa": 50.890787954968914,
+  "G": 0.0016793411205758772,
+  "G_MPa": 2.854879904978991,
+  "bulk": 0.010635349977676858,
+  "bulk_MPa": 18.08009496205066,
+  "density": 0.18499951884737775,
+  "derived": {
+   "C11": 0.029994771160028955,
+   "C12": 0.0009556393865008112,
+   "C44": 0.0016793411205758772,
+   "E100": 0.02993575762056995,
+   "E110": 0.006058600126514945,
+   "E111": 0.004786111457998958,
+   "bulk_reuss": 0.01063534997767686,
+   "bulk_voigt": 0.01063534997767686,
+   "cubic_deviation": 9.804612778284938e-15,
+   "eigenvalues": [
+    0.001679341120575508,
+    0.001679341120576053,
+    0.0016793411205760765,
+    0.02903913177352811,
+    0.029039131773528182,
+    0.031906049933030575
+   ],
+   "min_eig": 0.001679341120575508,
+   "note": "C11, C12, C44 are cubic averages; E100/E110/E111 from the full tensor",
+   "nu12": 0.03087646882952299,
+   "shear_reuss": 0.0025985364163316387,
+   "shear_voigt": 0.006815431027051155,
+   "voigt_order": "11, 22, 33, 23 (yz), 13 (xz), 12 (xy); engineering shear strains",
+   "zener": 0.11566055994186107
+  },
+  "design": {
+   "kind": "sphere_ligaments",
+   "params": {
+    "c": 0.345576,
+    "w": 0.12838
+   }
+  },
+  "gaps": [
+   {
+    "f_hi": 0.977884812614815,
+    "f_lo": 0.34570667700946356,
+    "rel": 0.955246600723921
+   }
+  ],
+  "gaps_Hz": [
+   [
+    26899.80572498227,
+    76090.26157174606
+   ]
+  ],
+  "nu100": 0.03087646882952299,
+  "valid": true
+ },
+ "spec": {
+  "cell_size": [
+   10.0,
+   "mm"
+  ],
+  "families": [
+   "tpms",
+   "struts",
+   "resonator"
+  ],
+  "gap_type": null,
+  "material": "PA12",
+  "material_values": {
+   "E": 1700000000.0,
+   "min_feature": 0.0008,
+   "nu": 0.39,
+   "process": "SLS",
+   "rho": 1010.0,
+   "tolerance": 0.00015
+  },
+  "sources": {},
+  "targets": {
+   "E100_min": 0.02164705882352941,
+   "density_max": 0.24,
+   "gap": {
+    "f_hi": 0.7453952445436148,
+    "f_lo": 0.42410419086102225
+   }
+  }
+ },
+ "submission": null
+}

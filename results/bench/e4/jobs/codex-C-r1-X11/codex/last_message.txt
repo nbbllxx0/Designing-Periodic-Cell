@@ -1,0 +1,1 @@
+The request is **proven infeasible** within the stated scope. Periodic elastic lattices support acoustic waves at arbitrarily low frequencies, so no 6 mm Ti-6Al-4V unit cell can block all elastic waves below 279 kHz. A feasible band-gap target must specify a positive lower frequency.

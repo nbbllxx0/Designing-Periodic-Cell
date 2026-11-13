@@ -1,0 +1,28 @@
+{
+ "key": "9458f95b75bbd543",
+ "spec": {
+  "family": "resonator",
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.314278,
+   "w": 0.110281
+  }
+ },
+ "targets": {
+  "gap": {
+   "f_lo": 0.26608926235607877,
+   "f_hi": 0.44218915318648655
+  }
+ },
+ "nu": 0.342,
+ "verdict": "undetermined",
+ "seconds": 237.5,
+ "static_verdict": {
+  "verdict": "certified",
+  "targets": {}
+ },
+ "gap_verdict": {
+  "verdict": "undetermined",
+  "reason": "claim inside the edge guard band"
+ }
+}

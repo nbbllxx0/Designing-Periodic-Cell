@@ -1,0 +1,1 @@
+No design released; verdict: **UNDETERMINED**. For 12 mm 316L cells, promising candidates predicted coverage of 77.5–150 kHz, but none passed the conservative uncertainty check. Certification was unavailable, so the requested complete gap remains unverified; this does not establish infeasibility.

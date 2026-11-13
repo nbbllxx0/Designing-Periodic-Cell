@@ -1,0 +1,33 @@
+{
+ "brief": "M12",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 452.0,
+ "usage": {
+  "input_tokens": 398776,
+  "cached_input_tokens": 368384,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1765,
+  "reasoning_output_tokens": 410
+ },
+ "final": "Released a certified 5 mm 316L BCC cell with strut radius 0.319565 mm and node radius 1.272725 mm. Certified bounds give relative density \u226417.60%, C44 \u22653.013 GPa, and a complete gap covering 287\u2013353 kHz. Certification applies to nominal geometry; erosion robustness failed, and LPBF manufacturability was not evaluated.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-M12",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

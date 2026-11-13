@@ -1,0 +1,1 @@
+No design released: **NOT_FOUND_IN_FAMILIES**. For 316L with the clarified 8 mm cell size, the atlas and parameter search found no complete band gap covering 68.5–466 kHz. This does not prove physical impossibility.

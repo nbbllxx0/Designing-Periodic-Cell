@@ -1,0 +1,2 @@
+examples/outputs/02_session/session.jsonl
+examples/outputs/03_session/session.jsonl

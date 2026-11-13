@@ -1,0 +1,31 @@
+{
+ "brief": "S06",
+ "arm": "D",
+ "profile": "D",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 24.9,
+ "usage": {
+  "input_tokens": 12727,
+  "cached_input_tokens": 10752,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 604,
+  "reasoning_output_tokens": 516
+ },
+ "final": "{\"decision\":\"need_info\",\"material\":\"PA12\",\"cell_size\":null,\"targets\":{\"density_max\":0.18,\"E100_min\":{\"value\":132,\"unit\":\"MPa\"}},\"note\":\"PA12 elastic constants and a verified homogenized stiffness calculation are needed to establish whether a permitted cubic unit cell meets 132 MPa along all three axes at no more than 18% relative density.\"}",
+ "rounds": 1,
+ "parsed": true,
+ "job": "codex-D-r1-S06",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.1,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

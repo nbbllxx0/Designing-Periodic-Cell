@@ -1,0 +1,199 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "families": [
+     "tpms",
+     "struts"
+    ]
+   },
+   "ok": true,
+   "result": {
+    "cell_size": null,
+    "families": [
+     "tpms",
+     "struts"
+    ]
+   },
+   "seq": 2,
+   "tool": "set_constraints"
+  },
+  {
+   "args": {
+    "gap": {
+     "f_hi": 3.0,
+     "f_lo": 2.5,
+     "unit": "f*"
+    }
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "gap": {
+      "f_hi": 3.0,
+      "f_lo": 2.5
+     }
+    },
+    "targets": {
+     "gap": {
+      "f_hi": 3.0,
+      "f_lo": 2.5
+     }
+    }
+   },
+   "seq": 3,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.7085792727272727,
+       "slack_opt": -0.7085792727272727,
+       "slack_pess": -0.9043823821500687,
+       "spec": {
+        "family": "struts",
+        "kind": "bcc",
+        "params": {
+         "R": 0.32,
+         "r": 0.063913
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.7153745454545454,
+       "slack_opt": -0.7153745454545454,
+       "slack_pess": -0.9088989507728633,
+       "spec": {
+        "family": "struts",
+        "kind": "bcc",
+        "params": {
+         "R": 0.309091,
+         "r": 0.063913
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.7163058181818182,
+       "slack_opt": -0.7163058181818182,
+       "slack_pess": -0.9143203304179409,
+       "spec": {
+        "family": "struts",
+        "kind": "bcc",
+        "params": {
+         "R": 0.32,
+         "r": 0.068696
+        }
+       }
+      }
+     ],
+     "n_cells": 1611,
+     "n_clear": 0,
+     "n_possible": 0,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "gap": {
+      "f_hi": 3.0,
+      "f_lo": 2.5
+     }
+    },
+    "verdict": "NOT_FOUND_IN_FAMILIES",
+    "violated": []
+   },
+   "seq": 4,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": -0.7085792727272727,
+     "slack_opt": -0.7085792727272727,
+     "slack_pess": -0.9043823821500687,
+     "spec": {
+      "family": "struts",
+      "kind": "bcc",
+      "params": {
+       "R": 0.32,
+       "r": 0.063913
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.7153745454545454,
+     "slack_opt": -0.7153745454545454,
+     "slack_pess": -0.9088989507728633,
+     "spec": {
+      "family": "struts",
+      "kind": "bcc",
+      "params": {
+       "R": 0.309091,
+       "r": 0.063913
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.7163058181818182,
+     "slack_opt": -0.7163058181818182,
+     "slack_pess": -0.9143203304179409,
+     "spec": {
+      "family": "struts",
+      "kind": "bcc",
+      "params": {
+       "R": 0.32,
+       "r": 0.068696
+      }
+     }
+    }
+   ],
+   "n_cells": 1611,
+   "n_clear": 0,
+   "n_possible": 0,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "NOT_FOUND_IN_FAMILIES"
+  },
+  "bounds_verdict": "NOT_REFUTED",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "gap": {
+    "f_hi": 3.0,
+    "f_lo": 2.5
+   }
+  },
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "violated": []
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S17_addendum_not_found\\03-check-bounds"
+}

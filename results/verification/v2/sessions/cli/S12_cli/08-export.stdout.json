@@ -1,0 +1,30 @@
+{
+ "calls": [
+  {
+   "args": {
+    "design": {
+     "kind": "bcc",
+     "params": {
+      "R": 0.0,
+      "r": 0.08
+     }
+    }
+   },
+   "error": "export writes files: it needs a session directory",
+   "ok": false,
+   "seq": 1,
+   "tool": "export"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "export",
+ "error": {
+  "error": "export writes files: it needs a session directory",
+  "tool": "export"
+ },
+ "ok": false,
+ "profile": "C",
+ "result": null,
+ "schema_version": "amm-tools/3",
+ "session": null
+}

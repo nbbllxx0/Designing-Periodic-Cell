@@ -1,0 +1,49 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "E100_min": {
+     "unit": "GPA",
+     "value": 5
+    },
+    "density_max": -0.1
+   },
+   "error": "E100_min.unit: Input should be 'Pa', 'kPa', 'MPa', 'GPa', 'psi' or 'E_s'",
+   "ok": false,
+   "seq": 2,
+   "tool": "set_target"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": {
+  "error": "E100_min.unit: Input should be 'Pa', 'kPa', 'MPa', 'GPa', 'psi' or 'E_s'",
+  "tool": "set_target"
+ },
+ "ok": false,
+ "profile": "C",
+ "result": {
+  "E_Pa": 193000000000.0,
+  "atlas_available": true,
+  "material": "316L",
+  "nu": 0.3,
+  "rho_kg_m3": 8000.0
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S01_targets\\45-check-bounds"
+}

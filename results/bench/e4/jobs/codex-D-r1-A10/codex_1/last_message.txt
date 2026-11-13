@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":[5,"mm"],"targets":{"density_max":0.12,"E100_min":{"value":3.53,"unit":"GPa"},"gap":{"f_lo":174,"f_hi":271,"unit":"kHz"}},"verdict":"UNDETERMINED","note":"Without homogenization and full Brillouin-zone band analysis, I cannot certify a design meeting both the stiffness target and the complete gap, or prove infeasibility."}

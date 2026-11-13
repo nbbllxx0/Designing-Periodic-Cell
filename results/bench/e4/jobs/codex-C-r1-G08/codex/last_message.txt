@@ -1,0 +1,1 @@
+Released a certified 12 mm Ti6Al4V sphere-and-ligament unit cell with normalized parameters **c = 0.357041, w = 0.107613**. Its certified complete infinite-lattice band gap spans **52.69–216.98 kHz**, covering 132–177 kHz for every wave direction and polarization. LPBF manufacturability was not evaluated.

@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"316L","cell_size":null,"targets":{"density_min":0.25,"density_max":0.15},"verdict":"PROVEN_INFEASIBLE","note":"Solid fraction and relative density are the same quantity here, so a value cannot be both at least 25% and at most 15%."}

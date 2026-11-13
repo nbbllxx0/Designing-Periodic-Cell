@@ -1,0 +1,22 @@
+{
+ "spec": {
+  "family": "resonator",
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.3,
+   "w": 0.15
+  }
+ },
+ "raw": {
+  "50": [
+   0.2644224494587722,
+   0.6397922055968563
+  ]
+ },
+ "seconds": {
+  "50": 82.5
+ },
+ "method": {
+  "50": "lanczos at first-pass extremum k"
+ }
+}

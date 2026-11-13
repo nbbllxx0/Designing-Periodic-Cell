@@ -1,0 +1,7 @@
+G02 sphere_ligaments {'c': 0.46, 'w': 0.27913} pass 1: undetermined 1086.2 s
+G02 cube_bars {'c': 0.786957, 'w': 0.125217} pass 1: certified 973.2 s
+G02 done: certified 2059.6 s
+M01 sphere_ligaments {'c': 0.282609, 'w': 0.169565} pass 1: undetermined 257.4 s
+M01 sphere_ligaments {'c': 0.326957, 'w': 0.254783} pass 1: undetermined 247.3 s
+M01 pass 2 u 0.9800546976047994 : certified 252.4 s
+M01 done: certified 757.0 s

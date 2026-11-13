@@ -1,0 +1,19 @@
+{
+ "brief": "A06",
+ "profile": "B",
+ "provider": "codex",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "returncode": 0,
+ "wall_s": 29.5,
+ "usage": {
+  "input_tokens": 182464,
+  "cached_input_tokens": 158720,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 817,
+  "reasoning_output_tokens": 94
+ },
+ "final": "Submitted **PROVEN_INFEASIBLE** for the selected 316L material. At 16% solid volume, the theoretical axial Young\u2019s modulus upper bound is **30.88 GPa**, below the required **38.6 GPa**. No design was released.",
+ "stderr_tail": ""
+}

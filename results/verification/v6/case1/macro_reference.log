@@ -1,0 +1,31 @@
+reference hom 6^3 m=2: k = 8.131 kN/mm, delta = 0.2214 mm
+reference hom 6^3 m=4: k = 8.107 kN/mm, delta = 0.2220 mm
+reference hom 6^3 m=8: k = 8.097 kN/mm, delta = 0.2223 mm
+reference voxel 3^3 n=16: k* = 0.14989 (220728 dof, 5 s), hom ext 0.12902
+reference voxel 3^3 n=24: k* = 0.14223 (551262 dof, 11 s), hom ext 0.12902
+reference voxel 3^3 n=32: k* = 0.13882 (1126146 dof, 23 s), hom ext 0.12902
+{
+ "A2": {
+  "deflection_mm": 0.22231107812408235,
+  "k_kN_per_mm": 8.09676249689786,
+  "mesh_change_m4_to_m8": -0.0012278394360619727,
+  "uniaxial_estimate_kN_per_mm": 7.422516344006922,
+  "passed": true
+ },
+ "A2s": {
+  "size_corrected_deflection_mm": 0.22231107812408235,
+  "ratio_used": 1.0,
+  "passed": true,
+  "note": "homogenized 6x6x6 (guarded) / min(1, voxel/homogenized ratio at 3x3x3, matched resolution n = 32); reported flag"
+ },
+ "size": {
+  "ratio_same_n": {
+   "n16": 1.0080571394655715,
+   "n24": 1.0070660899781867,
+   "n32": 1.0066901836070774
+  },
+  "ratio_voxel_over_hom_3x3x3_extrapolated": 0.9967539844194051,
+  "ratio_voxel_n32_over_hom": 1.0760110668696725,
+  "ratio_voxel_ext_over_hom_guarded": 1.0787000684488126
+ }
+}

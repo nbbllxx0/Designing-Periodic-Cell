@@ -1,0 +1,50 @@
+{
+ "jobs_by_arm_and_harness": {
+  "B|original": 10,
+  "B|amended": 68,
+  "C|original": 10,
+  "C|amended": 68,
+  "D|original": 9,
+  "D|amended": 69
+ },
+ "full": {
+  "n_specs": 54,
+  "mean_C": 0.9166666666666666,
+  "mean_B": 0.42592592592592593,
+  "diff": 0.49074074074074076,
+  "ci95": [
+   0.3611111111111111,
+   0.6203703703703703
+  ],
+  "specs_C_better": 29,
+  "specs_B_better": 0,
+  "p": 9.99990000099999e-06
+ },
+ "amended_only": {
+  "n_specs": 52,
+  "mean_C": 0.9230769230769231,
+  "mean_B": 0.40384615384615385,
+  "diff": 0.5192307692307693,
+  "ci95": [
+   0.38461538461538464,
+   0.6538461538461539
+  ],
+  "specs_C_better": 28,
+  "specs_B_better": 0,
+  "p": 9.99990000099999e-06
+ },
+ "both_arms_same_harness": {
+  "n_specs": 48,
+  "mean_C": 0.9166666666666666,
+  "mean_B": 0.4583333333333333,
+  "diff": 0.4583333333333333,
+  "ci95": [
+   0.3229166666666667,
+   0.59375
+  ],
+  "specs_C_better": 23,
+  "specs_B_better": 0,
+  "p": 9.99990000099999e-06
+ },
+ "note": "primary contrast C - B, per-spec correctness over witnessed and proven specs; paired sign-flip permutation (100,000 draws) and spec bootstrap, as in scripts/bench/e4.py analyze"
+}

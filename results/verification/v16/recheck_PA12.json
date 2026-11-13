@@ -1,0 +1,146 @@
+{
+ "settings": {
+  "counted": [
+   [
+    30,
+    5
+   ],
+   [
+    40,
+    3
+   ]
+  ],
+  "edge": [
+   [
+    60,
+    3
+   ]
+  ],
+  "bloch_phases": [
+   0.25,
+   0.5
+  ],
+  "phase_samples": 3,
+  "n_extra_k": 18,
+  "feature_min_voxels": 3.0,
+  "checker": "a900aa3f152174bc"
+ },
+ "stl": "exports/sphere_ligaments_e5519f4f_e212dc/cell.stl",
+ "stl_sha256": "8612c74a526f375752bfcc8f897168c3d1f48feb0037e9bdd3aac18fe7aee715",
+ "spec": {
+  "family": "resonator",
+  "kind": "sphere_ligaments",
+  "params": {
+   "c": 0.356522,
+   "w": 0.108696
+  }
+ },
+ "targets": {
+  "gap": {
+   "f_hi": 0.5397689701867555,
+   "f_lo": 0.44980747515562963
+  }
+ },
+ "material": "PA12",
+ "static_carried": {
+  "source": "results/verification/v6/case2/recheck_PA12.json",
+  "passed": true,
+  "diff_extrapolated": {
+   "density": -0.002747923110157771,
+   "E100": -0.03219232036135604,
+   "G": -0.014532811952883083,
+   "bulk": -0.033664520504828196,
+   "nu100": -0.03234299115785212
+  }
+ },
+ "gap": {
+  "passed": true,
+  "verdict": {
+   "verdict": "certified"
+  },
+  "safe_interval": [
+   0.20357818124011604,
+   0.8798442904814263
+  ],
+  "certificate_safe_interval": [
+   0.20717566917757396,
+   0.865562668669535
+  ],
+  "below_band": 6,
+  "certificate_below_band": 6,
+  "lower_edge": {
+   "p": 5.033314808442108,
+   "p_used": 2.0,
+   "extrapolated": 0.19619277383858993,
+   "remaining": 0.0010663796671889654,
+   "phase_spread": 0.0019327809280670905,
+   "noise": false,
+   "drift_toward_claim": false
+  },
+  "upper_edge": {
+   "p": 3.802489073729595,
+   "p_used": 2.0,
+   "extrapolated": 0.8955337689115563,
+   "remaining": 0.00784473921506503,
+   "phase_spread": 0.007750867786021631,
+   "noise": false,
+   "drift_toward_claim": true
+  },
+  "edges": {
+   "30": [
+    0.20357818124011604,
+    0.937960253270825
+   ],
+   "40": [
+    0.19859212808976512,
+    0.9131844321454526
+   ],
+   "60": [
+    0.1972591535057789,
+    0.9033785081266213
+   ]
+  },
+  "phase_edges": [
+   [
+    0.19859212808976512,
+    0.9131844321454526
+   ],
+   [
+    0.19956095604633925,
+    0.9182087338139754
+   ],
+   [
+    0.2005249090178322,
+    0.9209352999314743
+   ]
+  ],
+  "mode": "three-resolution",
+  "density_spread": 6.691410443984691e-05,
+  "feature": {
+   "size": 0.108696,
+   "method": "parameter w (bar width)",
+   "n": 60,
+   "voxels": 6.5217600000000004,
+   "min_voxels": 3.0,
+   "passed": true
+  },
+  "n_k": 49,
+  "resolutions": {
+   "30": {
+    "passed": true,
+    "n_failures": 0,
+    "ndof": 23328,
+    "seconds": 200.85
+   },
+   "40": {
+    "passed": true,
+    "n_failures": 0,
+    "ndof": 50430,
+    "seconds": 508.79
+   }
+  },
+  "seconds": 1026.7
+ },
+ "overall": "certified",
+ "seconds": 1032.1
+}

@@ -1,0 +1,229 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "PA12"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 1700000000.0,
+    "atlas_available": true,
+    "material": "PA12",
+    "nu": 0.39,
+    "rho_kg_m3": 1010.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "cell_size": 10,
+    "cell_size_unit": "mm"
+   },
+   "ok": true,
+   "result": {
+    "cell_size": [
+     10.0,
+     "mm"
+    ],
+    "families": [
+     "tpms",
+     "struts",
+     "resonator"
+    ]
+   },
+   "seq": 2,
+   "tool": "set_constraints"
+  },
+  {
+   "args": {
+    "E100_min": {
+     "unit": "GPa",
+     "value": 1.0
+    },
+    "G_min": {
+     "unit": "MPa",
+     "value": 50.0
+    },
+    "gap": {
+     "f_hi": 30.0,
+     "f_lo": 20.0,
+     "unit": "kHz"
+    }
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.5882352941176471,
+     "G_min": 0.029411764705882353,
+     "gap": {
+      "f_hi": 0.3855492644191111,
+      "f_lo": 0.2570328429460741
+     }
+    },
+    "targets": {
+     "E100_min": [
+      1.0,
+      "GPa"
+     ],
+     "G_min": [
+      50.0,
+      "MPa"
+     ],
+     "gap": {
+      "f_hi": [
+       30.0,
+       "kHz"
+      ],
+      "f_lo": [
+       20.0,
+       "kHz"
+      ]
+     }
+    }
+   },
+   "seq": 3,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "ok": true,
+   "result": {
+    "advisory": [],
+    "atlas": {
+     "best": [
+      {
+       "slack_nominal": -0.720574551953263,
+       "slack_opt": -0.7007513378521554,
+       "slack_pess": -0.7286636801923065,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.786957,
+         "w": 0.294783
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.7176950649694243,
+       "slack_opt": -0.7176950649694243,
+       "slack_pess": -0.7440269855011008,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.786957,
+         "w": 0.281739
+        }
+       }
+      },
+      {
+       "slack_nominal": -0.7310572590233679,
+       "slack_opt": -0.7262186223092949,
+       "slack_pess": -0.7517555102125255,
+       "spec": {
+        "family": "resonator",
+        "kind": "cube_bars",
+        "params": {
+         "c": 0.762609,
+         "w": 0.281739
+        }
+       }
+      }
+     ],
+     "n_cells": 2714,
+     "n_clear": 0,
+     "n_possible": 0,
+     "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+     "verdict": "NOT_FOUND_IN_FAMILIES"
+    },
+    "bounds_verdict": "NOT_REFUTED",
+    "cannot_normalize": [],
+    "normalized_targets": {
+     "E100_min": 0.5882352941176471,
+     "G_min": 0.029411764705882353,
+     "gap": {
+      "f_hi": 0.3855492644191111,
+      "f_lo": 0.2570328429460741
+     }
+    },
+    "verdict": "NOT_FOUND_IN_FAMILIES",
+    "violated": []
+   },
+   "seq": 4,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": null,
+ "ok": true,
+ "profile": "C",
+ "result": {
+  "advisory": [],
+  "atlas": {
+   "best": [
+    {
+     "slack_nominal": -0.720574551953263,
+     "slack_opt": -0.7007513378521554,
+     "slack_pess": -0.7286636801923065,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.786957,
+       "w": 0.294783
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.7176950649694243,
+     "slack_opt": -0.7176950649694243,
+     "slack_pess": -0.7440269855011008,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.786957,
+       "w": 0.281739
+      }
+     }
+    },
+    {
+     "slack_nominal": -0.7310572590233679,
+     "slack_opt": -0.7262186223092949,
+     "slack_pess": -0.7517555102125255,
+     "spec": {
+      "family": "resonator",
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.762609,
+       "w": 0.281739
+      }
+     }
+    }
+   ],
+   "n_cells": 2714,
+   "n_clear": 0,
+   "n_possible": 0,
+   "note": "search-tier atlas with calibrated error ranges; FEASIBLE is not a certificate",
+   "verdict": "NOT_FOUND_IN_FAMILIES"
+  },
+  "bounds_verdict": "NOT_REFUTED",
+  "cannot_normalize": [],
+  "normalized_targets": {
+   "E100_min": 0.5882352941176471,
+   "G_min": 0.029411764705882353,
+   "gap": {
+    "f_hi": 0.3855492644191111,
+    "f_lo": 0.2570328429460741
+   }
+  },
+  "verdict": "NOT_FOUND_IN_FAMILIES",
+  "violated": []
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S02_materials_units\\03-check-bounds"
+}

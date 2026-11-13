@@ -1,0 +1,33 @@
+{
+ "brief": "S19",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "done",
+ "returncode": 0,
+ "wall_s": 180.9,
+ "usage": {
+  "input_tokens": 283039,
+  "cached_input_tokens": 256000,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1270,
+  "reasoning_output_tokens": 251
+ },
+ "final": "Released a certified 316L Schwarz P sheet unit cell with density parameter 0.148784: relative density \u226414.880% and C44 \u22655.482 GPa, meeting both limits. Certification covers ideal geometry; the tested erosion offset fails robustness, and LPBF manufacturability remains unevaluated.",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "",
+ "job": "codex-C-r1-S19",
+ "rep": 1,
+ "partition": "confirmatory",
+ "gpu_wait_s": 0.0,
+ "harness": "34193563196998ce",
+ "amendment": "A1",
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "7d045a2c69bd6d70",
+ "briefs": "194701c05dce17d2",
+ "data": "de79a79e98e88731",
+ "prereg": "17016d8e7699fe1b"
+}

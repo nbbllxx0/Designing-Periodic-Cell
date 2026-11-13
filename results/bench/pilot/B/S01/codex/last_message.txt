@@ -1,0 +1,1 @@
+Released a preliminary 316L cube-bars design with normalized parameters **c = 0.517893, w = 0.358949**. Predicted relative density is **32.61%** and cube-axis Young’s modulus is **32.65 GPa**. It passes the calibrated expected screen, but compliance is uncertified; LPBF printability still requires validation.

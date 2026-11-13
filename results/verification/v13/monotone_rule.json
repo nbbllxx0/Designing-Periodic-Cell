@@ -1,0 +1,2617 @@
+{
+ "variants": {
+  "current": "as released",
+  "abstain_toward": "phase-noise edge drifting monotonically toward the claim -> undetermined",
+  "extrap_p1": "monotone phase-noise edge -> first-order extrapolation, error max(P, remaining), safety 2",
+  "extrap_p025": "monotone phase-noise edge -> extrapolation at the order floor 0.25, error max(P, remaining)"
+ },
+ "certified_gaps": [
+  {
+   "case": "cb_c0.5_w0.2_nu0.3",
+   "src": "DOLFINx comparison",
+   "claim": [
+    0.4126,
+    0.5184
+   ],
+   "ref": [
+    0.3583740586003741,
+    0.5653226454556517
+   ],
+   "current": {
+    "safe": [
+     0.37961783163993407,
+     0.5530551506575513
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.37961783163993407,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.3873656139781563,
+     0.4731850830801626
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.4776071288656113,
+     0.11834480540471076
+    ],
+    "inside": false
+   },
+   "branches": [
+    "phase noise",
+    "phase noise"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "case": "cb_c0.6_w0.2_nu0.342",
+   "src": "DOLFINx comparison",
+   "claim": [
+    0.4428,
+    0.6603
+   ],
+   "ref": [
+    0.3190914160895326,
+    0.6995233544193302
+   ],
+   "current": {
+    "safe": [
+     0.3323544730129028,
+     0.6800007840228858
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.3323544730129028,
+     0.6800007840228858
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.3323544730129028,
+     0.6800007840228858
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.3323544730129028,
+     0.6800007840228858
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "case": "cb_c0.6_w0.3_nu0.3",
+   "src": "DOLFINx comparison",
+   "claim": [
+    0.5693,
+    0.6469
+   ],
+   "ref": [
+    0.5261629515028703,
+    0.6826917116895875
+   ],
+   "current": {
+    "safe": [
+     0.5543142776018493,
+     0.6771506313778194
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.5543142776018493,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.5529213623163645,
+     0.6371842032328636
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.6213576966439427,
+     0.45750582031836506
+    ],
+    "inside": false
+   },
+   "branches": [
+    "phase noise",
+    "phase noise"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "case": "cb_c0.7_w0.3_nu0.3",
+   "src": "DOLFINx comparison",
+   "claim": [
+    0.5192,
+    0.6385
+   ],
+   "ref": [
+    0.45433808828204925,
+    0.6958673807657403
+   ],
+   "current": {
+    "safe": [
+     0.49844297227797213,
+     0.6824410343430832
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.49844297227797213,
+     0.6824410343430832
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.49844297227797213,
+     0.6824410343430832
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.49844297227797213,
+     0.6824410343430832
+    ],
+    "inside": true
+   },
+   "branches": [
+    "phase noise",
+    "phase noise"
+   ],
+   "monotone": [
+    false,
+    false
+   ],
+   "toward_claim": [
+    false,
+    false
+   ]
+  },
+  {
+   "case": "cb_c0.8_w0.3_nu0.3",
+   "src": "DOLFINx comparison",
+   "claim": [
+    0.5032,
+    0.5837
+   ],
+   "ref": [
+    0.4155733095096702,
+    0.6020004797244622
+   ],
+   "current": {
+    "safe": [
+     0.4383446822008791,
+     0.5987528863895122
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.4383446822008791,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.4380322944357503,
+     0.5844733680364002
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.5014098859289006,
+     0.516632287138038
+    ],
+    "inside": false
+   },
+   "branches": [
+    "phase noise",
+    "phase noise"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "case": "strut_bcc_R0.27_r0.06_nu0.342",
+   "src": "DOLFINx comparison",
+   "claim": [
+    0.48873537983769566,
+    0.5585547198145093
+   ],
+   "ref": [
+    0.34974479827679034,
+    0.7711743358689931
+   ],
+   "current": {
+    "safe": [
+     0.367719819208437,
+     0.6014606223017093
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.367719819208437,
+     0.6014606223017093
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.367719819208437,
+     0.6014606223017093
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.367719819208437,
+     0.6014606223017093
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "case": "thin_sl_c0.402_w0.061_nu0.3",
+   "src": "DOLFINx comparison",
+   "claim": [
+    0.23144197674803133,
+    0.630310064335064
+   ],
+   "ref": [
+    0.10906352410886651,
+    0.9706898544255638
+   ],
+   "current": {
+    "safe": [
+     0.12058332264574809,
+     0.9511721318024557
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.12058332264574809,
+     0.9511721318024557
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.11783629852587128,
+     0.9511721318024557
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.1402277949335768,
+     0.9511721318024557
+    ],
+    "inside": true
+   },
+   "branches": [
+    "phase noise",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "case": "tpms_schwarzp_d0.25_nu0.3",
+   "src": "DOLFINx comparison",
+   "claim": [
+    0.4821542675645598,
+    0.787663739130882
+   ],
+   "ref": [
+    0.46462310934383416,
+    0.8315460134632138
+   ],
+   "current": {
+    "safe": [
+     0.4798839383592626,
+     0.8278936223387547
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.4798839383592626,
+     0.8278936223387547
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.4798839383592626,
+     0.8278936223387547
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.4798839383592626,
+     0.8278936223387547
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "case": "thin_sl_c0.357_w0.109_nu0.3",
+   "src": "finite-cell comparison",
+   "claim": [
+    0.3915801274681585,
+    0.44515648293663895
+   ],
+   "ref": [
+    0.19184727336807103,
+    0.881185698674478
+   ],
+   "current": {
+    "safe": [
+     0.20246762777916202,
+     0.8227002446137643
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.20246762777916202,
+     0.8227002446137643
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.20246762777916202,
+     0.8227002446137643
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.20246762777916202,
+     0.8227002446137643
+    ],
+    "inside": true
+   },
+   "branches": [
+    "phase noise",
+    "phase noise"
+   ],
+   "monotone": [
+    false,
+    false
+   ],
+   "toward_claim": [
+    false,
+    false
+   ]
+  },
+  {
+   "case": "mount_PA12",
+   "src": "engineering certificate",
+   "claim": [
+    0.2955877693879852,
+    0.38426410020438073
+   ],
+   "ref": null,
+   "current": {
+    "safe": [
+     0.264338209864039,
+     0.6579059960900706
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.264338209864039,
+     0.6579059960900706
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.264338209864039,
+     0.6579059960900706
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.264338209864039,
+     0.6579059960900706
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "case": "filter_PA12",
+   "src": "engineering certificate",
+   "claim": [
+    0.44980747515562963,
+    0.5397689701867555
+   ],
+   "ref": null,
+   "current": {
+    "safe": [
+     0.21222000998228135,
+     0.8499623573242151
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.21222000998228135,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.21222000998228135,
+     0.5938096478136263
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.21222000998228135,
+     -0.47051425302299626
+    ],
+    "inside": false
+   },
+   "branches": [
+    "phase noise",
+    "phase noise"
+   ],
+   "monotone": [
+    false,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "case": "filter_316L",
+   "src": "engineering certificate",
+   "claim": [
+    0.11490027214441272,
+    0.13788032657329527
+   ],
+   "ref": null,
+   "current": {
+    "safe": [
+     0.10008583469219628,
+     0.5770940415675432
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.10008583469219628,
+     0.5770940415675432
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.09770531693259696,
+     0.5770940415675432
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.11649294365914857,
+     0.5770940415675432
+    ],
+    "inside": false
+   },
+   "branches": [
+    "phase noise",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  }
+ ],
+ "certified_gaps_summary": {
+  "current": {
+   "certified": 12,
+   "changed": [],
+   "changed_with_reference": []
+  },
+  "abstain_toward": {
+   "certified": 8,
+   "changed": [
+    "cb_c0.5_w0.2_nu0.3",
+    "cb_c0.6_w0.3_nu0.3",
+    "cb_c0.8_w0.3_nu0.3",
+    "filter_PA12"
+   ],
+   "changed_with_reference": [
+    "cb_c0.5_w0.2_nu0.3",
+    "cb_c0.6_w0.3_nu0.3",
+    "cb_c0.8_w0.3_nu0.3"
+   ]
+  },
+  "extrap_p1": {
+   "certified": 10,
+   "changed": [
+    "cb_c0.5_w0.2_nu0.3",
+    "cb_c0.6_w0.3_nu0.3"
+   ],
+   "changed_with_reference": [
+    "cb_c0.5_w0.2_nu0.3",
+    "cb_c0.6_w0.3_nu0.3"
+   ]
+  },
+  "extrap_p025": {
+   "certified": 7,
+   "changed": [
+    "cb_c0.5_w0.2_nu0.3",
+    "cb_c0.6_w0.3_nu0.3",
+    "cb_c0.8_w0.3_nu0.3",
+    "filter_PA12",
+    "filter_316L"
+   ],
+   "changed_with_reference": [
+    "cb_c0.5_w0.2_nu0.3",
+    "cb_c0.6_w0.3_nu0.3",
+    "cb_c0.8_w0.3_nu0.3"
+   ]
+  }
+ },
+ "noise_branch_edges": {
+  "n_edges": 24,
+  "noise": 14,
+  "noise_monotone": 9,
+  "noise_toward": 4,
+  "toward_cases": [
+   [
+    "cb_c0.5_w0.2_nu0.3",
+    "hi"
+   ],
+   [
+    "cb_c0.6_w0.3_nu0.3",
+    "hi"
+   ],
+   [
+    "cb_c0.8_w0.3_nu0.3",
+    "hi"
+   ],
+   [
+    "filter_PA12",
+    "hi"
+   ]
+  ]
+ },
+ "benchmark": [
+  {
+   "cert": "G06_061e4ce4d8792ba6.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     0.13739371850611878,
+     0.512675634299805
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     0.13739371850611878,
+     0.512675634299805
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.13739371850611878,
+     0.512675634299805
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.13739371850611878,
+     0.512675634299805
+    ],
+    "inside": false
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G06_0e77d51c82807ffc.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     0.129097959546127,
+     null
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     0.129097959546127,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.129097959546127,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.129097959546127,
+     null
+    ],
+    "inside": false
+   },
+   "branches": [
+    "order fit",
+    "none"
+   ],
+   "monotone": [
+    true,
+    false
+   ],
+   "toward_claim": [
+    false,
+    false
+   ]
+  },
+  {
+   "cert": "G06_4aaff06410fe7c7b.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.18051380216355994,
+     0.897955981166686
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.18051380216355994,
+     0.897955981166686
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.18051380216355994,
+     0.897955981166686
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.18051380216355994,
+     0.897955981166686
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G06_565ab7ca784548fc.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.1279716822164298,
+     0.8251746947668851
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.1279716822164298,
+     0.8251746947668851
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.1279716822164298,
+     0.8251746947668851
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.1279716822164298,
+     0.8251746947668851
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G06_c7769356c22ef7be.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     0.14201049861383125,
+     null
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     0.14201049861383125,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.14201049861383125,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.14201049861383125,
+     null
+    ],
+    "inside": false
+   },
+   "branches": [
+    "order fit",
+    "none"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G07_0e77d51c82807ffc.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     0.12337569615633641,
+     null
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     0.12337569615633641,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.12337569615633641,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.12337569615633641,
+     null
+    ],
+    "inside": false
+   },
+   "branches": [
+    "order fit",
+    "none"
+   ],
+   "monotone": [
+    true,
+    false
+   ],
+   "toward_claim": [
+    false,
+    false
+   ]
+  },
+  {
+   "cert": "G07_40d98d0c519c50a5.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.12058332264563844,
+     0.9511721318018553
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.12058332264563844,
+     0.9511721318018553
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.11783629852586248,
+     0.9511721318018553
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.14022779493481638,
+     0.9511721318018553
+    ],
+    "inside": true
+   },
+   "branches": [
+    "phase noise",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G07_4aaff06410fe7c7b.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     null,
+     0.8979979971996642
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     null,
+     0.8979979971996642
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     null,
+     0.8979979971996642
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     null,
+     0.8979979971996642
+    ],
+    "inside": false
+   },
+   "branches": [
+    "none",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G07_d32d92daa44f1dc6.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.15529049992009789,
+     0.7953702057365415
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.15529049992009789,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.16229575074119318,
+     0.3264113177442497
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.20573328214693928,
+     -1.5531392368046657
+    ],
+    "inside": false
+   },
+   "branches": [
+    "phase noise",
+    "phase noise"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G09_4a217ffea6134da2.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     0.19803062328757962,
+     0.19501939548851985
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     0.19803062328757962,
+     0.19501939548851985
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.19803062328757962,
+     0.19501939548851985
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.19803062328757962,
+     0.19501939548851985
+    ],
+    "inside": false
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G09_685e01f75e4df00d.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     null,
+     -0.31504413829492584
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     null,
+     -0.31504413829492584
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     null,
+     -0.31504413829492584
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     null,
+     -0.31504413829492584
+    ],
+    "inside": false
+   },
+   "branches": [
+    "none",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G09_95bad3524f09ea02.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.11026960620560819,
+     0.45545294455369645
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.11026960620560819,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.1098567398958475,
+     0.1755331365430852
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.12324017817249237,
+     -1.1174467454008015
+    ],
+    "inside": false
+   },
+   "branches": [
+    "phase noise",
+    "phase noise"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G09_f4d76e5929cd0b6b.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     null,
+     0.6225435105199928
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     null,
+     0.6225435105199928
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     null,
+     0.6225435105199928
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     null,
+     0.6225435105199928
+    ],
+    "inside": false
+   },
+   "branches": [
+    "none",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G10_40d98d0c519c50a5.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.12058332264574964,
+     0.9511721318024154
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.12058332264574964,
+     0.9511721318024154
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.11783629852587195,
+     0.9511721318024154
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.14022779493358067,
+     0.9511721318024154
+    ],
+    "inside": true
+   },
+   "branches": [
+    "phase noise",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G10_581732aa073c885f.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.12901005836287063,
+     0.7579490806829158
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.12901005836287063,
+     0.7579490806829158
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.12901005836287063,
+     0.7579490806829158
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.12901005836287063,
+     0.7579490806829158
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G10_de8d1d26815b79bc.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.11958221207027821,
+     0.9500629153768847
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.11958221207027821,
+     0.9500629153768847
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.11701177561316317,
+     0.9500629153768847
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.13933938856079064,
+     0.9500629153768847
+    ],
+    "inside": true
+   },
+   "branches": [
+    "phase noise",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G12_b11528fb78a208d2.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     0.11154504625512028,
+     0.4575326839963496
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     0.11154504625512028,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.11092849660356872,
+     0.1896407327053726
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.12378620341252608,
+     -1.0590444013465048
+    ],
+    "inside": false
+   },
+   "branches": [
+    "phase noise",
+    "phase noise"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G12_de8d1d26815b79bc.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.12541774065413555,
+     0.9573814598706301
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.12541774065413555,
+     0.9573814598706301
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.12367056115260845,
+     0.9573814598706301
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.15126917602098877,
+     0.9573814598706301
+    ],
+    "inside": true
+   },
+   "branches": [
+    "phase noise",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G14_0e77d51c82807ffc.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     0.12596941841100975,
+     null
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     0.12596941841100975,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.12596941841100975,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.12596941841100975,
+     null
+    ],
+    "inside": false
+   },
+   "branches": [
+    "order fit",
+    "none"
+   ],
+   "monotone": [
+    true,
+    false
+   ],
+   "toward_claim": [
+    false,
+    false
+   ]
+  },
+  {
+   "cert": "G14_6060dbca780679c9.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.12574567427565872,
+     0.9057804079115223
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.12574567427565872,
+     0.9057804079115223
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.12574567427565872,
+     0.9057804079115223
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.12574567427565872,
+     0.9057804079115223
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G15_00f03a71387fee8a.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.1714051887105105,
+     0.8251766562085472
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.1714051887105105,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.18069328574458388,
+     0.38481396636039167
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.2368023396811882,
+     -1.3673133937800284
+    ],
+    "inside": false
+   },
+   "branches": [
+    "phase noise",
+    "phase noise"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G15_0e77d51c82807ffc.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     0.12909795954731326,
+     null
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     0.12909795954731326,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.12909795954731326,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.12909795954731326,
+     null
+    ],
+    "inside": false
+   },
+   "branches": [
+    "order fit",
+    "none"
+   ],
+   "monotone": [
+    true,
+    false
+   ],
+   "toward_claim": [
+    false,
+    false
+   ]
+  },
+  {
+   "cert": "G15_4aaff06410fe7c7b.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.18051380216357718,
+     0.8979559811667359
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.18051380216357718,
+     0.8979559811667359
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.18051380216357718,
+     0.8979559811667359
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.18051380216357718,
+     0.8979559811667359
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G15_d2d9d4fa2c3ff7b6.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.43634272443983213,
+     0.8538171513777171
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.43634272443983213,
+     0.8538171513777171
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.43634272443983213,
+     0.8538171513777171
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.43634272443983213,
+     0.8538171513777171
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "G15_f20b0b6de0d3aebc.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.1289941585748805,
+     0.9905234296696117
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.1289941585748805,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.1289941585748805,
+     0.9609180765031484
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.1289941585748805,
+     0.8137319837224948
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "phase noise"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M04_d4c914cd75f0f89c.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     0.27013266847741524,
+     0.501799923691822
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     0.27013266847741524,
+     0.501799923691822
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.27013266847741524,
+     0.501799923691822
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.27013266847741524,
+     0.501799923691822
+    ],
+    "inside": false
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M05_0a3c0d085eb46efe.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     null,
+     null
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     null,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     null,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     null,
+     null
+    ],
+    "inside": false
+   },
+   "branches": [
+    "none",
+    "none"
+   ],
+   "monotone": [
+    false,
+    false
+   ],
+   "toward_claim": [
+    false,
+    false
+   ]
+  },
+  {
+   "cert": "M05_71e80d2570c318ee.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     0.25690546460356645,
+     null
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     0.25690546460356645,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.25690546460356645,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.25690546460356645,
+     null
+    ],
+    "inside": false
+   },
+   "branches": [
+    "order fit",
+    "none"
+   ],
+   "monotone": [
+    true,
+    false
+   ],
+   "toward_claim": [
+    false,
+    false
+   ]
+  },
+  {
+   "cert": "M05_8dc9a1fe3ba79ec2.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.247274954785357,
+     0.8445340513388567
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.247274954785357,
+     0.8445340513388567
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.247274954785357,
+     0.8445340513388567
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.247274954785357,
+     0.8445340513388567
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M06_56f3e05a5e714434.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     null,
+     null
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     null,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     null,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     null,
+     null
+    ],
+    "inside": false
+   },
+   "branches": [
+    "none",
+    "none"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M06_a3a3e4b727eee3a1.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.5408353590997096,
+     0.8327946158895897
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.5408353590997096,
+     0.8327946158895897
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.5408353590997096,
+     0.8327946158895897
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.5408353590997096,
+     0.8327946158895897
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M06_c08ec26eae5fb762.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.3603555314290653,
+     0.9282631651489095
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.3603555314290653,
+     0.9282631651489095
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.3603555314290653,
+     0.9282631651489095
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.3603555314290653,
+     0.9282631651489095
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M06_e2924fdaab01cb9f.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.35116072497538586,
+     0.9280667556283444
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.35116072497538586,
+     0.9280667556283444
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.35116072497538586,
+     0.9280667556283444
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.35116072497538586,
+     0.9280667556283444
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M06_f0130d50f82fcef3.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.37232464675847765,
+     0.6825489894536435
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.37232464675847765,
+     0.6825489894536435
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.37232464675847765,
+     0.6825489894536435
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.37232464675847765,
+     0.6825489894536435
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M09_380c4824d89ea3a9.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.5411867592686134,
+     0.8271389435730461
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.5411867592686134,
+     0.8271389435730461
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.5411867592686134,
+     0.8271389435730461
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.5411867592686134,
+     0.8271389435730461
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M09_534713dac8fa1d87.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.5393946307936687,
+     0.8289094195508449
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.5393946307936687,
+     0.8289094195508449
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.5393946307936687,
+     0.8289094195508449
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.5393946307936687,
+     0.8289094195508449
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M09_71a318e34b5650f5.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.5101592069733772,
+     0.8391168320605703
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.5101592069733772,
+     0.8391168320605703
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.5101592069733772,
+     0.8391168320605703
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.5101592069733772,
+     0.8391168320605703
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M11_2effc48ef52bbe43.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.33443350601482547,
+     0.8938479072258229
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.33443350601482547,
+     0.8938479072258229
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.33443350601482547,
+     0.8938479072258229
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.33443350601482547,
+     0.8938479072258229
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M11_779a54a26f1e4de4.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     0.25187442008052,
+     null
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     0.25187442008052,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.25187442008052,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.25187442008052,
+     null
+    ],
+    "inside": false
+   },
+   "branches": [
+    "order fit",
+    "none"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M11_7990ca6173b0fd78.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.22164050724278442,
+     0.6790045709006928
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.22164050724278442,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.22362919211251175,
+     0.47325554964932154
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.2598960268376288,
+     -0.45895724151666956
+    ],
+    "inside": false
+   },
+   "branches": [
+    "phase noise",
+    "phase noise"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M11_a3424277494bed56.json",
+   "cert_verdict": "certified",
+   "gap_verdict": "certified",
+   "current": {
+    "safe": [
+     0.22492772960301669,
+     0.7894728067466238
+    ],
+    "inside": true
+   },
+   "abstain_toward": {
+    "safe": [
+     0.22492772960301669,
+     0.7894728067466238
+    ],
+    "inside": true
+   },
+   "extrap_p1": {
+    "safe": [
+     0.22492772960301669,
+     0.7894728067466238
+    ],
+    "inside": true
+   },
+   "extrap_p025": {
+    "safe": [
+     0.22492772960301669,
+     0.7894728067466238
+    ],
+    "inside": true
+   },
+   "branches": [
+    "order fit",
+    "order fit"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  },
+  {
+   "cert": "M11_e5e09344839b1fa1.json",
+   "cert_verdict": "undetermined",
+   "gap_verdict": "undetermined",
+   "current": {
+    "safe": [
+     0.47459451557344606,
+     0.6483139549584778
+    ],
+    "inside": false
+   },
+   "abstain_toward": {
+    "safe": [
+     0.47459451557344606,
+     null
+    ],
+    "inside": false
+   },
+   "extrap_p1": {
+    "safe": [
+     0.4747006347790166,
+     0.5643533941261051
+    ],
+    "inside": false
+   },
+   "extrap_p025": {
+    "safe": [
+     0.6006942160367138,
+     0.17212568268918121
+    ],
+    "inside": false
+   },
+   "branches": [
+    "phase noise",
+    "phase noise"
+   ],
+   "monotone": [
+    true,
+    true
+   ],
+   "toward_claim": [
+    false,
+    true
+   ]
+  }
+ ],
+ "benchmark_summary": {
+  "n_three_resolution_gap_blocks": 42,
+  "certificates_certified": 25,
+  "stored_certified_implies_current_inside": true,
+  "certified_kept_current": 25,
+  "certified_kept_abstain_toward": 20,
+  "certified_kept_extrap_p1": 21,
+  "certified_kept_extrap_p025": 21,
+  "changed_current": [],
+  "changed_abstain_toward": [
+   "G07_d32d92daa44f1dc6.json",
+   "G09_95bad3524f09ea02.json",
+   "G15_00f03a71387fee8a.json",
+   "G15_f20b0b6de0d3aebc.json",
+   "M11_7990ca6173b0fd78.json"
+  ],
+  "changed_extrap_p1": [
+   "G07_d32d92daa44f1dc6.json",
+   "G09_95bad3524f09ea02.json",
+   "G15_00f03a71387fee8a.json",
+   "M11_7990ca6173b0fd78.json"
+  ],
+  "changed_extrap_p025": [
+   "G07_d32d92daa44f1dc6.json",
+   "G09_95bad3524f09ea02.json",
+   "G15_00f03a71387fee8a.json",
+   "M11_7990ca6173b0fd78.json"
+  ]
+ }
+}

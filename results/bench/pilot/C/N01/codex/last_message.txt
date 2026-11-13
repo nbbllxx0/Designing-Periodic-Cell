@@ -1,0 +1,1 @@
+No design released. Verdict: **NOT_FOUND_IN_FAMILIES**. The amm atlas and an additional 80-evaluation search found no supported 316L cell meeting both ≤12% solid volume and ≥16.2 GPa Young’s modulus along x, y, and z. This does not prove physical impossibility.

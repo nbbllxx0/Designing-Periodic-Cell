@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1b67d-1fc3-7de2-b612-e1c5f9dbe2c9"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"decision\":\"ask\",\"question\":\"Which solid material should the lattice use?\",\"options\":[{\"label\":\"PA12\",\"set\":{\"material\":\"PA12\"}},{\"label\":\"Ti6Al4V\",\"set\":{\"material\":\"Ti6Al4V\"}},{\"label\":\"316L\",\"set\":{\"material\":\"316L\"}},{\"label\":\"AlSi10Mg\",\"set\":{\"material\":\"AlSi10Mg\"}}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":12720,"cached_input_tokens":8448,"cache_write_input_tokens":0,"output_tokens":165,"reasoning_output_tokens":78}}

@@ -1,0 +1,474 @@
+2026-11-06 21:40:15 run: 234 jobs selected (run --tag e4 --phase 1)
+2026-11-06 21:40:15 start codex-B-r1-A13 (order 0, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 21:42:07 done  codex-B-r1-A13 status=done rc=0 wall=112.1s
+2026-11-06 21:42:07 start codex-D-r1-A13 (order 1, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 21:42:23 done  codex-D-r1-A13 status=done rc=0 wall=16.0s
+2026-11-06 21:42:23 start codex-C-r1-A13 (order 2, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 21:58:52 done  codex-C-r1-A13 status=done rc=0 wall=988.8s
+2026-11-06 21:58:52 start codex-C-r1-S11 (order 3, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:01:45 done  codex-C-r1-S11 status=done rc=0 wall=173.2s
+2026-11-06 22:01:45 start codex-B-r1-S11 (order 4, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:02:17 done  codex-B-r1-S11 status=done rc=0 wall=31.2s
+2026-11-06 22:02:17 start codex-D-r1-S11 (order 5, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:02:29 done  codex-D-r1-S11 status=done rc=0 wall=12.2s
+2026-11-06 22:02:29 start codex-B-r1-G08 (order 9, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:03:01 done  codex-B-r1-G08 status=done rc=0 wall=31.6s
+2026-11-06 22:03:01 start codex-D-r1-G08 (order 10, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:03:08 done  codex-D-r1-G08 status=done rc=0 wall=7.7s
+2026-11-06 22:03:08 start codex-C-r1-G08 (order 11, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:14:33 done  codex-C-r1-G08 status=done rc=0 wall=684.5s
+2026-11-06 22:14:33 start codex-B-r1-G04 (order 15, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:15:14 done  codex-B-r1-G04 status=done rc=0 wall=41.5s
+2026-11-06 22:15:14 start codex-D-r1-G04 (order 16, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:15:24 done  codex-D-r1-G04 status=done rc=0 wall=9.5s
+2026-11-06 22:15:24 start codex-C-r1-G04 (order 17, confirmatory, waited 0.1 s for the GPU)
+2026-11-06 22:21:11 done  codex-C-r1-G04 status=done rc=0 wall=347.4s
+2026-11-06 22:21:11 start codex-D-r1-A16 (order 18, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:21:32 done  codex-D-r1-A16 status=done rc=0 wall=20.2s
+2026-11-06 22:21:32 start codex-C-r1-A16 (order 19, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:29:04 done  codex-C-r1-A16 status=done rc=0 wall=452.5s
+2026-11-06 22:29:04 start codex-B-r1-A16 (order 20, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:31:12 done  codex-B-r1-A16 status=done rc=0 wall=128.2s
+2026-11-06 22:31:12 start codex-B-r1-G11 (order 21, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:33:05 done  codex-B-r1-G11 status=done rc=0 wall=112.7s
+2026-11-06 22:33:05 start codex-D-r1-G11 (order 22, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:33:13 done  codex-D-r1-G11 status=done rc=0 wall=7.8s
+2026-11-06 22:33:13 start codex-C-r1-G11 (order 23, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:39:27 done  codex-C-r1-G11 status=done rc=0 wall=374.4s
+2026-11-06 22:39:27 start codex-D-r1-A12 (order 24, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:39:49 done  codex-D-r1-A12 status=done rc=0 wall=21.5s
+2026-11-06 22:39:49 start codex-C-r1-A12 (order 25, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:46:34 done  codex-C-r1-A12 status=done rc=0 wall=405.1s
+2026-11-06 22:46:34 start codex-B-r1-A12 (order 26, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:49:34 done  codex-B-r1-A12 status=done rc=0 wall=179.8s
+2026-11-06 22:49:34 start codex-B-r1-N10 (order 30, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:50:08 done  codex-B-r1-N10 status=done rc=0 wall=33.9s
+2026-11-06 22:50:08 start codex-C-r1-N10 (order 31, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:52:04 done  codex-C-r1-N10 status=done rc=0 wall=116.5s
+2026-11-06 22:52:04 start codex-D-r1-N10 (order 32, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:52:23 done  codex-D-r1-N10 status=done rc=0 wall=19.0s
+2026-11-06 22:52:24 start codex-D-r1-N05 (order 39, confirmatory, waited 0.1 s for the GPU)
+2026-11-06 22:52:31 done  codex-D-r1-N05 status=done rc=0 wall=7.6s
+2026-11-06 22:52:31 start codex-C-r1-N05 (order 40, confirmatory, waited 0.1 s for the GPU)
+2026-11-06 22:54:12 done  codex-C-r1-N05 status=done rc=0 wall=101.0s
+2026-11-06 22:54:12 start codex-B-r1-N05 (order 41, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:55:44 done  codex-B-r1-N05 status=done rc=0 wall=91.8s
+2026-11-06 22:55:44 start codex-B-r1-S04 (order 45, confirmatory, waited 0.0 s for the GPU)
+2026-11-06 22:58:29 done  codex-B-r1-S04 status=done rc=0 wall=165.4s
+2026-11-06 22:58:29 start codex-C-r1-S04 (order 46, confirmatory, waited 0.1 s for the GPU)
+2026-11-06 23:18:41 done  codex-C-r1-S04 status=done rc=0 wall=1211.3s
+2026-11-06 23:18:41 start codex-D-r1-S04 (order 47, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 00:07:30 AMENDMENT A1: drift ['full_source', 'prereg'] accepted; changed files ['scripts/bench/e4.py']; harness 34193563196998ce
+2026-11-07 00:07:30 run: 234 jobs selected (run --tag e4 --phase 1 --amendment A1)
+2026-11-07 00:07:30 moved crashed attempt of codex-D-r1-S04 to attempts/codex-D-r1-S04_e4_20261107000730
+2026-11-07 00:07:30 start codex-D-r1-S04 (order 47, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 00:07:45 done  codex-D-r1-S04 status=done rc=0 wall=14.6s
+2026-11-07 00:07:45 start codex-D-r1-M06 (order 48, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 00:07:56 done  codex-D-r1-M06 status=done rc=0 wall=10.7s
+2026-11-07 00:07:56 start codex-C-r1-M06 (order 49, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 00:20:35 done  codex-C-r1-M06 status=done rc=0 wall=758.9s
+2026-11-07 00:20:35 start codex-B-r1-M06 (order 50, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 00:22:37 done  codex-B-r1-M06 status=done rc=0 wall=121.8s
+2026-11-07 00:22:37 start codex-B-r1-M11 (order 51, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 00:24:29 done  codex-B-r1-M11 status=done rc=0 wall=112.4s
+2026-11-07 00:24:29 start codex-D-r1-M11 (order 52, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 00:24:39 done  codex-D-r1-M11 status=done rc=0 wall=10.1s
+2026-11-07 00:24:39 start codex-C-r1-M11 (order 53, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 00:31:13 done  codex-C-r1-M11 status=done rc=0 wall=393.8s
+2026-11-07 00:31:13 start codex-D-r1-N04 (order 54, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 00:31:25 done  codex-D-r1-N04 status=done rc=0 wall=12.1s
+2026-11-07 00:31:25 start codex-B-r1-N04 (order 55, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 00:34:25 done  codex-B-r1-N04 status=done rc=0 wall=179.9s
+2026-11-07 00:34:25 start codex-C-r1-N04 (order 56, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 00:36:04 done  codex-C-r1-N04 status=done rc=0 wall=99.2s
+2026-11-07 00:36:04 start codex-B-r1-X13 (order 57, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 00:36:30 done  codex-B-r1-X13 status=done rc=0 wall=25.8s
+2026-11-07 00:36:30 start codex-C-r1-X13 (order 58, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 00:36:50 done  codex-C-r1-X13 status=done rc=0 wall=20.0s
+2026-11-07 00:36:50 start codex-D-r1-X13 (order 59, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 00:37:03 done  codex-D-r1-X13 status=done rc=0 wall=12.2s
+2026-11-07 00:37:03 start codex-C-r1-M08 (order 60, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 00:56:10 done  codex-C-r1-M08 status=done rc=0 wall=1147.2s
+2026-11-07 00:56:10 start codex-B-r1-M08 (order 61, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 00:58:20 done  codex-B-r1-M08 status=done rc=0 wall=130.2s
+2026-11-07 00:58:20 start codex-D-r1-M08 (order 62, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 00:58:32 done  codex-D-r1-M08 status=done rc=0 wall=11.6s
+2026-11-07 00:58:32 start codex-D-r1-M10 (order 63, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 00:58:42 done  codex-D-r1-M10 status=done rc=0 wall=10.4s
+2026-11-07 00:58:42 start codex-B-r1-M10 (order 64, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 01:02:29 done  codex-B-r1-M10 status=done rc=0 wall=227.4s
+2026-11-07 01:02:30 start codex-C-r1-M10 (order 65, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 01:25:57 done  codex-C-r1-M10 status=done rc=0 wall=1407.6s
+2026-11-07 01:25:57 start codex-C-r1-M05 (order 66, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 01:33:31 done  codex-C-r1-M05 status=done rc=0 wall=454.3s
+2026-11-07 01:33:32 start codex-D-r1-M05 (order 67, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 01:33:42 done  codex-D-r1-M05 status=done rc=0 wall=10.3s
+2026-11-07 01:33:42 start codex-B-r1-M05 (order 68, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 01:35:34 done  codex-B-r1-M05 status=done rc=0 wall=112.2s
+2026-11-07 01:35:34 start codex-B-r1-G13 (order 75, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 01:38:41 done  codex-B-r1-G13 status=done rc=0 wall=186.9s
+2026-11-07 01:38:41 start codex-D-r1-G13 (order 76, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 01:38:52 done  codex-D-r1-G13 status=done rc=0 wall=10.8s
+2026-11-07 01:38:52 start codex-C-r1-G13 (order 77, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 01:45:35 done  codex-C-r1-G13 status=done rc=0 wall=402.7s
+2026-11-07 01:45:35 start codex-C-r1-M04 (order 84, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:00:24 done  codex-C-r1-M04 status=done rc=0 wall=889.5s
+2026-11-07 02:00:24 start codex-B-r1-M04 (order 85, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:04:05 done  codex-B-r1-M04 status=done rc=0 wall=220.9s
+2026-11-07 02:04:05 start codex-D-r1-M04 (order 86, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 02:04:19 done  codex-D-r1-M04 status=done rc=0 wall=13.8s
+2026-11-07 02:04:19 start codex-C-r1-S10 (order 87, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 02:08:33 done  codex-C-r1-S10 status=done rc=0 wall=253.4s
+2026-11-07 02:08:33 start codex-B-r1-S10 (order 88, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:11:07 done  codex-B-r1-S10 status=done rc=0 wall=154.2s
+2026-11-07 02:11:07 start codex-D-r1-S10 (order 89, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:11:34 done  codex-D-r1-S10 status=done rc=0 wall=27.5s
+2026-11-07 02:11:34 start codex-D-r1-X05 (order 90, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:11:58 done  codex-D-r1-X05 status=done rc=0 wall=23.7s
+2026-11-07 02:11:58 start codex-C-r1-X05 (order 91, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:12:16 done  codex-C-r1-X05 status=done rc=0 wall=17.9s
+2026-11-07 02:12:16 start codex-B-r1-X05 (order 92, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 02:12:51 done  codex-B-r1-X05 status=done rc=0 wall=35.3s
+2026-11-07 02:12:52 start codex-D-r1-X14 (order 93, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 02:13:05 done  codex-D-r1-X14 status=done rc=0 wall=13.2s
+2026-11-07 02:13:05 start codex-B-r1-X14 (order 94, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 02:13:35 done  codex-B-r1-X14 status=done rc=0 wall=29.7s
+2026-11-07 02:13:35 start codex-C-r1-X14 (order 95, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:13:54 done  codex-C-r1-X14 status=done rc=0 wall=19.4s
+2026-11-07 02:13:54 start codex-C-r1-G10 (order 96, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:23:38 done  codex-C-r1-G10 status=done rc=0 wall=584.4s
+2026-11-07 02:23:38 start codex-B-r1-G10 (order 97, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:27:00 done  codex-B-r1-G10 status=done rc=0 wall=201.3s
+2026-11-07 02:27:00 start codex-D-r1-G10 (order 98, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:27:09 done  codex-D-r1-G10 status=done rc=0 wall=9.2s
+2026-11-07 02:27:09 start codex-D-r1-G14 (order 99, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:27:17 done  codex-D-r1-G14 status=done rc=0 wall=7.9s
+2026-11-07 02:27:17 start codex-C-r1-G14 (order 100, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:32:29 done  codex-C-r1-G14 status=done rc=0 wall=312.0s
+2026-11-07 02:32:29 start codex-B-r1-G14 (order 101, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:33:58 done  codex-B-r1-G14 status=done rc=0 wall=89.2s
+2026-11-07 02:33:58 start codex-D-r1-A19 (order 102, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 02:34:23 done  codex-D-r1-A19 status=done rc=0 wall=25.2s
+2026-11-07 02:34:24 start codex-B-r1-A19 (order 103, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:37:44 done  codex-B-r1-A19 status=done rc=0 wall=200.6s
+2026-11-07 02:37:44 start codex-C-r1-A19 (order 104, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 02:41:59 done  codex-C-r1-A19 status=done rc=0 wall=254.7s
+2026-11-07 02:41:59 start codex-D-r1-M14 (order 108, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:42:08 done  codex-D-r1-M14 status=done rc=0 wall=9.3s
+2026-11-07 02:42:08 start codex-B-r1-M14 (order 109, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 02:43:50 done  codex-B-r1-M14 status=done rc=0 wall=101.8s
+2026-11-07 02:43:50 start codex-C-r1-M14 (order 110, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:50:21 done  codex-C-r1-M14 status=done rc=0 wall=390.5s
+2026-11-07 02:50:21 start codex-D-r1-S08 (order 111, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 02:50:42 done  codex-D-r1-S08 status=done rc=0 wall=21.8s
+2026-11-07 02:50:42 start codex-C-r1-S08 (order 112, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:52:51 done  codex-C-r1-S08 status=done rc=0 wall=128.1s
+2026-11-07 02:52:51 start codex-B-r1-S08 (order 113, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:53:21 done  codex-B-r1-S08 status=done rc=0 wall=30.4s
+2026-11-07 02:53:21 start codex-D-r1-S13 (order 114, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:53:48 done  codex-D-r1-S13 status=done rc=0 wall=26.6s
+2026-11-07 02:53:48 start codex-C-r1-S13 (order 115, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:56:41 done  codex-C-r1-S13 status=done rc=0 wall=173.0s
+2026-11-07 02:56:41 start codex-B-r1-S13 (order 116, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 02:59:51 done  codex-B-r1-S13 status=done rc=0 wall=190.0s
+2026-11-07 02:59:51 start codex-B-r1-A21 (order 117, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 03:01:54 done  codex-B-r1-A21 status=done rc=0 wall=122.9s
+2026-11-07 03:01:54 start codex-D-r1-A21 (order 118, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 03:02:10 done  codex-D-r1-A21 status=done rc=0 wall=16.2s
+2026-11-07 03:02:10 start codex-C-r1-A21 (order 119, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 03:08:26 done  codex-C-r1-A21 status=done rc=0 wall=375.9s
+2026-11-07 03:08:26 start codex-C-r1-S07 (order 120, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 03:10:32 done  codex-C-r1-S07 status=done rc=0 wall=126.0s
+2026-11-07 03:10:32 start codex-B-r1-S07 (order 121, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 03:11:03 done  codex-B-r1-S07 status=done rc=0 wall=30.7s
+2026-11-07 03:11:03 start codex-D-r1-S07 (order 122, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 03:11:27 done  codex-D-r1-S07 status=done rc=0 wall=24.5s
+2026-11-07 03:11:27 start codex-C-r1-N09 (order 123, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 03:13:25 done  codex-C-r1-N09 status=done rc=0 wall=117.6s
+2026-11-07 03:13:25 start codex-B-r1-N09 (order 124, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 03:37:54 done  codex-B-r1-N09 status=done rc=0 wall=1468.6s
+2026-11-07 03:37:54 start codex-D-r1-N09 (order 125, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 03:38:08 done  codex-D-r1-N09 status=done rc=0 wall=14.8s
+2026-11-07 03:38:08 start codex-B-r1-A15 (order 132, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 03:42:14 done  codex-B-r1-A15 status=done rc=0 wall=245.4s
+2026-11-07 03:42:14 start codex-C-r1-A15 (order 133, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 04:03:28 done  codex-C-r1-A15 status=done rc=0 wall=1274.2s
+2026-11-07 04:03:28 start codex-D-r1-A15 (order 134, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:03:49 done  codex-D-r1-A15 status=done rc=0 wall=20.5s
+2026-11-07 04:03:49 start codex-D-r1-X08 (order 135, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 04:03:54 done  codex-D-r1-X08 status=done rc=0 wall=5.2s
+2026-11-07 04:03:54 start codex-C-r1-X08 (order 136, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:04:13 done  codex-C-r1-X08 status=done rc=0 wall=18.7s
+2026-11-07 04:04:13 start codex-B-r1-X08 (order 137, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:04:30 done  codex-B-r1-X08 status=done rc=0 wall=17.4s
+2026-11-07 04:04:30 start codex-B-r1-N07 (order 141, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:07:06 done  codex-B-r1-N07 status=done rc=0 wall=155.5s
+2026-11-07 04:07:06 start codex-C-r1-N07 (order 142, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:09:28 done  codex-C-r1-N07 status=done rc=0 wall=142.2s
+2026-11-07 04:09:28 start codex-D-r1-N07 (order 143, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:10:02 done  codex-D-r1-N07 status=done rc=0 wall=34.4s
+2026-11-07 04:10:02 start codex-D-r1-S19 (order 144, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:10:33 done  codex-D-r1-S19 status=done rc=0 wall=30.9s
+2026-11-07 04:10:33 start codex-B-r1-S19 (order 145, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 04:11:59 done  codex-B-r1-S19 status=done rc=0 wall=85.4s
+2026-11-07 04:11:59 start codex-C-r1-S19 (order 146, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:15:00 done  codex-C-r1-S19 status=done rc=0 wall=180.9s
+2026-11-07 04:15:00 start codex-D-r1-A14 (order 147, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:15:19 done  codex-D-r1-A14 status=done rc=0 wall=19.1s
+2026-11-07 04:15:19 start codex-B-r1-A14 (order 148, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:17:10 done  codex-B-r1-A14 status=done rc=0 wall=111.0s
+2026-11-07 04:17:10 start codex-C-r1-A14 (order 149, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:29:21 done  codex-C-r1-A14 status=done rc=0 wall=730.8s
+2026-11-07 04:29:21 start codex-D-r1-S17 (order 150, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:29:40 done  codex-D-r1-S17 status=done rc=0 wall=18.6s
+2026-11-07 04:29:40 start codex-B-r1-S17 (order 151, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:30:14 done  codex-B-r1-S17 status=done rc=0 wall=34.4s
+2026-11-07 04:30:14 start codex-C-r1-S17 (order 152, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:31:34 done  codex-C-r1-S17 status=done rc=0 wall=80.4s
+2026-11-07 04:31:34 start codex-D-r1-X12 (order 153, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:31:43 done  codex-D-r1-X12 status=done rc=0 wall=8.1s
+2026-11-07 04:31:43 start codex-C-r1-X12 (order 154, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:32:00 done  codex-C-r1-X12 status=done rc=0 wall=17.2s
+2026-11-07 04:32:00 start codex-B-r1-X12 (order 155, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:32:25 done  codex-B-r1-X12 status=done rc=0 wall=25.1s
+2026-11-07 04:32:25 start codex-C-r1-N06 (order 156, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:34:40 done  codex-C-r1-N06 status=done rc=0 wall=135.0s
+2026-11-07 04:34:40 start codex-D-r1-N06 (order 157, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 04:34:55 done  codex-D-r1-N06 status=done rc=0 wall=14.6s
+2026-11-07 04:34:55 start codex-B-r1-N06 (order 158, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 04:37:27 done  codex-B-r1-N06 status=done rc=0 wall=152.1s
+2026-11-07 04:37:27 start codex-D-r1-M13 (order 159, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 04:37:40 done  codex-D-r1-M13 status=done rc=0 wall=12.9s
+2026-11-07 04:37:40 start codex-C-r1-M13 (order 160, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 05:21:54 done  codex-C-r1-M13 status=done rc=0 wall=2653.9s
+2026-11-07 05:21:54 start codex-B-r1-M13 (order 161, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 05:29:38 done  codex-B-r1-M13 status=done rc=0 wall=463.8s
+2026-11-07 05:29:38 start codex-B-r1-N08 (order 165, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 05:31:28 done  codex-B-r1-N08 status=done rc=0 wall=110.2s
+2026-11-07 05:31:28 start codex-C-r1-N08 (order 166, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 05:32:46 done  codex-C-r1-N08 status=done rc=0 wall=77.8s
+2026-11-07 05:32:46 start codex-D-r1-N08 (order 167, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 05:32:57 done  codex-D-r1-N08 status=done rc=0 wall=11.5s
+2026-11-07 05:32:57 start codex-C-r1-S20 (order 168, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 05:35:19 done  codex-C-r1-S20 status=done rc=0 wall=141.5s
+2026-11-07 05:35:19 start codex-B-r1-S20 (order 169, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 05:36:07 done  codex-B-r1-S20 status=done rc=0 wall=47.9s
+2026-11-07 05:36:07 start codex-D-r1-S20 (order 170, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 05:36:21 done  codex-D-r1-S20 status=done rc=0 wall=14.1s
+2026-11-07 05:36:21 start codex-B-r1-M07 (order 171, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 05:39:33 done  codex-B-r1-M07 status=done rc=0 wall=191.6s
+2026-11-07 05:39:33 start codex-C-r1-M07 (order 172, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 05:48:06 done  codex-C-r1-M07 status=done rc=0 wall=513.2s
+2026-11-07 05:48:06 start codex-D-r1-M07 (order 173, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 05:48:20 done  codex-D-r1-M07 status=done rc=0 wall=13.9s
+2026-11-07 05:48:20 start codex-B-r1-X15 (order 180, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 05:48:50 done  codex-B-r1-X15 status=done rc=0 wall=30.6s
+2026-11-07 05:48:50 start codex-C-r1-X15 (order 181, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 05:49:15 done  codex-C-r1-X15 status=done rc=0 wall=24.2s
+2026-11-07 05:49:15 start codex-D-r1-X15 (order 182, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 05:49:44 done  codex-D-r1-X15 status=done rc=0 wall=29.4s
+2026-11-07 05:49:44 start codex-C-r1-X10 (order 183, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 05:50:08 done  codex-C-r1-X10 status=done rc=0 wall=24.3s
+2026-11-07 05:50:09 start codex-B-r1-X10 (order 184, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 05:50:41 done  codex-B-r1-X10 status=done rc=0 wall=32.9s
+2026-11-07 05:50:42 start codex-D-r1-X10 (order 185, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 05:51:05 done  codex-D-r1-X10 status=done rc=0 wall=23.2s
+2026-11-07 05:51:05 start codex-C-r1-G09 (order 186, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 05:59:23 done  codex-C-r1-G09 status=done rc=0 wall=497.7s
+2026-11-07 05:59:23 start codex-B-r1-G09 (order 187, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:00:09 done  codex-B-r1-G09 status=done rc=0 wall=46.7s
+2026-11-07 06:00:09 start codex-D-r1-G09 (order 188, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:00:20 done  codex-D-r1-G09 status=done rc=0 wall=10.3s
+2026-11-07 06:00:20 start codex-B-r1-A17 (order 189, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 06:03:19 done  codex-B-r1-A17 status=done rc=0 wall=179.6s
+2026-11-07 06:03:19 start codex-C-r1-A17 (order 190, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 06:04:55 done  codex-C-r1-A17 status=done rc=0 wall=95.9s
+2026-11-07 06:04:55 start codex-D-r1-A17 (order 191, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 06:05:17 done  codex-D-r1-A17 status=done rc=0 wall=21.5s
+2026-11-07 06:05:17 start codex-B-r1-A18 (order 192, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:05:55 done  codex-B-r1-A18 status=done rc=0 wall=38.4s
+2026-11-07 06:05:55 start codex-D-r1-A18 (order 193, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:06:32 done  codex-D-r1-A18 status=done rc=0 wall=36.2s
+2026-11-07 06:06:32 start codex-C-r1-A18 (order 194, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:08:47 done  codex-C-r1-A18 status=done rc=0 wall=135.8s
+2026-11-07 06:08:47 start codex-B-r1-S18 (order 195, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 06:12:14 done  codex-B-r1-S18 status=done rc=0 wall=206.1s
+2026-11-07 06:12:14 start codex-C-r1-S18 (order 196, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:15:03 done  codex-C-r1-S18 status=done rc=0 wall=169.3s
+2026-11-07 06:15:03 start codex-D-r1-S18 (order 197, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 06:15:26 done  codex-D-r1-S18 status=done rc=0 wall=23.1s
+2026-11-07 06:15:26 start codex-C-r1-A07 (order 201, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:35:45 done  codex-C-r1-A07 status=done rc=0 wall=1218.9s
+2026-11-07 06:35:45 start codex-B-r1-A07 (order 202, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 06:40:21 done  codex-B-r1-A07 status=done rc=0 wall=276.0s
+2026-11-07 06:40:21 start codex-D-r1-A07 (order 203, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:40:53 done  codex-D-r1-A07 status=done rc=0 wall=32.1s
+2026-11-07 06:40:53 start codex-D-r1-S06 (order 207, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 06:41:18 done  codex-D-r1-S06 status=done rc=0 wall=24.9s
+2026-11-07 06:41:18 start codex-B-r1-S06 (order 208, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:44:46 done  codex-B-r1-S06 status=done rc=0 wall=207.4s
+2026-11-07 06:44:46 start codex-C-r1-S06 (order 209, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 06:47:24 done  codex-C-r1-S06 status=done rc=0 wall=157.9s
+2026-11-07 06:47:24 start codex-C-r1-A08 (order 210, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 06:49:34 done  codex-C-r1-A08 status=done rc=0 wall=130.5s
+2026-11-07 06:49:34 start codex-B-r1-A08 (order 211, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:50:15 done  codex-B-r1-A08 status=done rc=0 wall=40.6s
+2026-11-07 06:50:15 start codex-D-r1-A08 (order 212, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:50:46 done  codex-D-r1-A08 status=done rc=0 wall=31.0s
+2026-11-07 06:50:46 start codex-C-r1-S09 (order 213, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 06:52:28 done  codex-C-r1-S09 status=done rc=0 wall=101.5s
+2026-11-07 06:52:28 start codex-D-r1-S09 (order 214, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:52:59 done  codex-D-r1-S09 status=done rc=0 wall=31.2s
+2026-11-07 06:52:59 start codex-B-r1-S09 (order 215, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:53:41 done  codex-B-r1-S09 status=done rc=0 wall=42.0s
+2026-11-07 06:53:41 start codex-D-r1-G05 (order 216, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:53:50 done  codex-D-r1-G05 status=done rc=0 wall=8.9s
+2026-11-07 06:53:50 start codex-B-r1-G05 (order 217, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 06:55:56 done  codex-B-r1-G05 status=done rc=0 wall=126.6s
+2026-11-07 06:55:56 start codex-C-r1-G05 (order 218, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 07:10:08 done  codex-C-r1-G05 status=done rc=0 wall=851.9s
+2026-11-07 07:10:08 start codex-B-r1-S15 (order 225, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 07:11:00 done  codex-B-r1-S15 status=done rc=0 wall=51.5s
+2026-11-07 07:11:00 start codex-D-r1-S15 (order 226, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 07:11:20 done  codex-D-r1-S15 status=done rc=0 wall=20.3s
+2026-11-07 07:11:20 start codex-C-r1-S15 (order 227, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 07:14:21 done  codex-C-r1-S15 status=done rc=0 wall=180.9s
+2026-11-07 07:14:21 start codex-B-r1-M15 (order 234, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 07:20:45 done  codex-B-r1-M15 status=done rc=0 wall=383.5s
+2026-11-07 07:20:45 start codex-C-r1-M15 (order 235, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 07:38:15 done  codex-C-r1-M15 status=done rc=0 wall=1050.3s
+2026-11-07 07:38:15 start codex-D-r1-M15 (order 236, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 07:38:27 done  codex-D-r1-M15 status=done rc=0 wall=11.5s
+2026-11-07 07:38:27 start codex-C-r1-A23 (order 237, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 07:47:13 done  codex-C-r1-A23 status=done rc=0 wall=526.8s
+2026-11-07 07:47:13 start codex-D-r1-A23 (order 238, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 07:47:33 done  codex-D-r1-A23 status=done rc=0 wall=19.3s
+2026-11-07 07:47:33 start codex-B-r1-A23 (order 239, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 07:48:16 done  codex-B-r1-A23 status=done rc=0 wall=43.2s
+2026-11-07 07:48:16 start codex-B-r1-S14 (order 240, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 07:50:55 done  codex-B-r1-S14 status=done rc=0 wall=158.5s
+2026-11-07 07:50:55 start codex-C-r1-S14 (order 241, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 07:56:10 done  codex-C-r1-S14 status=done rc=0 wall=315.0s
+2026-11-07 07:56:10 start codex-D-r1-S14 (order 242, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 07:56:30 done  codex-D-r1-S14 status=done rc=0 wall=20.3s
+2026-11-07 07:56:30 start codex-C-r1-G06 (order 243, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 08:09:00 done  codex-C-r1-G06 status=done rc=0 wall=749.7s
+2026-11-07 08:09:00 start codex-B-r1-G06 (order 244, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 08:12:07 done  codex-B-r1-G06 status=done rc=0 wall=187.5s
+2026-11-07 08:12:07 start codex-D-r1-G06 (order 245, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 08:12:16 done  codex-D-r1-G06 status=done rc=0 wall=8.9s
+2026-11-07 08:12:16 start codex-D-r1-A22 (order 249, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 08:12:34 done  codex-D-r1-A22 status=done rc=0 wall=17.9s
+2026-11-07 08:12:34 start codex-B-r1-A22 (order 250, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 08:14:14 done  codex-B-r1-A22 status=done rc=0 wall=99.7s
+2026-11-07 08:14:14 start codex-C-r1-A22 (order 251, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 08:24:08 done  codex-C-r1-A22 status=done rc=0 wall=593.6s
+2026-11-07 08:24:08 start codex-D-r1-M03 (order 252, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 08:24:27 done  codex-D-r1-M03 status=done rc=0 wall=19.7s
+2026-11-07 08:24:27 start codex-C-r1-M03 (order 253, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 08:39:16 done  codex-C-r1-M03 status=done rc=0 wall=888.4s
+2026-11-07 08:39:16 start codex-B-r1-M03 (order 254, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 08:44:04 done  codex-B-r1-M03 status=done rc=0 wall=288.3s
+2026-11-07 08:44:04 start codex-C-r1-A24 (order 255, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 08:56:13 done  codex-C-r1-A24 status=done rc=0 wall=728.6s
+2026-11-07 08:56:13 start codex-D-r1-A24 (order 256, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 08:56:33 done  codex-D-r1-A24 status=done rc=0 wall=20.3s
+2026-11-07 08:56:33 start codex-B-r1-A24 (order 257, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 08:58:53 done  codex-B-r1-A24 status=done rc=0 wall=139.9s
+2026-11-07 08:58:53 start codex-B-r1-G12 (order 258, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 08:59:30 done  codex-B-r1-G12 status=done rc=0 wall=36.8s
+2026-11-07 08:59:30 start codex-C-r1-G12 (order 259, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:05:23 done  codex-C-r1-G12 status=done rc=0 wall=352.7s
+2026-11-07 09:05:23 start codex-D-r1-G12 (order 260, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:05:33 done  codex-D-r1-G12 status=done rc=0 wall=10.3s
+2026-11-07 09:05:33 start codex-B-r1-X02 (order 261, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:05:58 done  codex-B-r1-X02 status=done rc=0 wall=24.7s
+2026-11-07 09:05:58 start codex-D-r1-X02 (order 262, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:06:13 done  codex-D-r1-X02 status=done rc=0 wall=15.7s
+2026-11-07 09:06:13 start codex-C-r1-X02 (order 263, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 09:06:34 done  codex-C-r1-X02 status=done rc=0 wall=20.1s
+2026-11-07 09:06:34 start codex-C-r1-M12 (order 264, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:14:06 done  codex-C-r1-M12 status=done rc=0 wall=452.0s
+2026-11-07 09:14:06 start codex-B-r1-M12 (order 265, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 09:18:05 done  codex-B-r1-M12 status=done rc=0 wall=239.6s
+2026-11-07 09:18:05 start codex-D-r1-M12 (order 266, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:18:20 done  codex-D-r1-M12 status=done rc=0 wall=14.7s
+2026-11-07 09:18:20 start codex-D-r1-X04 (order 267, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 09:18:32 done  codex-D-r1-X04 status=done rc=0 wall=12.2s
+2026-11-07 09:18:32 start codex-C-r1-X04 (order 268, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 09:18:53 done  codex-C-r1-X04 status=done rc=0 wall=20.3s
+2026-11-07 09:18:53 start codex-B-r1-X04 (order 269, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:19:19 done  codex-B-r1-X04 status=done rc=0 wall=26.1s
+2026-11-07 09:19:19 start codex-D-r1-X09 (order 270, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 09:19:54 done  codex-D-r1-X09 status=done rc=0 wall=35.4s
+2026-11-07 09:19:54 start codex-B-r1-X09 (order 271, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:20:19 done  codex-B-r1-X09 status=done rc=0 wall=24.4s
+2026-11-07 09:20:19 start codex-C-r1-X09 (order 272, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:20:41 done  codex-C-r1-X09 status=done rc=0 wall=21.8s
+2026-11-07 09:20:41 start codex-C-r1-A09 (order 273, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 09:26:37 done  codex-C-r1-A09 status=done rc=0 wall=355.8s
+2026-11-07 09:26:37 start codex-D-r1-A09 (order 274, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 09:26:53 done  codex-D-r1-A09 status=done rc=0 wall=16.1s
+2026-11-07 09:26:53 start codex-B-r1-A09 (order 275, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:27:32 done  codex-B-r1-A09 status=done rc=0 wall=39.6s
+2026-11-07 09:27:32 start codex-C-r1-X06 (order 276, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:27:52 done  codex-C-r1-X06 status=done rc=0 wall=19.5s
+2026-11-07 09:27:52 start codex-D-r1-X06 (order 277, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:28:14 done  codex-D-r1-X06 status=done rc=0 wall=22.2s
+2026-11-07 09:28:14 start codex-B-r1-X06 (order 278, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 09:28:43 done  codex-B-r1-X06 status=done rc=0 wall=29.1s
+2026-11-07 09:28:43 start codex-D-r1-A10 (order 282, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:29:00 done  codex-D-r1-A10 status=done rc=0 wall=16.8s
+2026-11-07 09:29:00 start codex-C-r1-A10 (order 283, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:47:45 done  codex-C-r1-A10 status=done rc=0 wall=1124.8s
+2026-11-07 09:47:45 start codex-B-r1-A10 (order 284, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:50:54 done  codex-B-r1-A10 status=done rc=0 wall=188.8s
+2026-11-07 09:50:54 start codex-C-r1-S16 (order 285, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:52:09 done  codex-C-r1-S16 status=done rc=0 wall=74.7s
+2026-11-07 09:52:09 start codex-B-r1-S16 (order 286, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:52:40 done  codex-B-r1-S16 status=done rc=0 wall=31.0s
+2026-11-07 09:52:40 start codex-D-r1-S16 (order 287, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:52:58 done  codex-D-r1-S16 status=done rc=0 wall=17.9s
+2026-11-07 09:52:58 start codex-D-r1-G07 (order 291, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 09:53:09 done  codex-D-r1-G07 status=done rc=0 wall=11.1s
+2026-11-07 09:53:09 start codex-B-r1-G07 (order 292, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 09:55:09 done  codex-B-r1-G07 status=done rc=0 wall=119.9s
+2026-11-07 09:55:09 start codex-C-r1-G07 (order 293, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 10:07:11 done  codex-C-r1-G07 status=done rc=0 wall=721.9s
+2026-11-07 10:07:11 start codex-D-r1-G15 (order 294, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 10:07:25 done  codex-D-r1-G15 status=done rc=0 wall=14.0s
+2026-11-07 10:07:25 start codex-C-r1-G15 (order 295, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 10:19:14 done  codex-C-r1-G15 status=done rc=0 wall=709.5s
+2026-11-07 10:19:14 start codex-B-r1-G15 (order 296, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 10:21:12 done  codex-B-r1-G15 status=done rc=0 wall=117.2s
+2026-11-07 10:21:12 start codex-C-r1-S05 (order 297, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 10:23:17 done  codex-C-r1-S05 status=done rc=0 wall=125.8s
+2026-11-07 10:23:17 start codex-B-r1-S05 (order 298, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 10:23:50 done  codex-B-r1-S05 status=done rc=0 wall=32.4s
+2026-11-07 10:23:50 start codex-D-r1-S05 (order 299, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 10:24:08 done  codex-D-r1-S05 status=done rc=0 wall=18.2s
+2026-11-07 10:24:08 start codex-B-r1-A20 (order 303, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 10:24:39 done  codex-B-r1-A20 status=done rc=0 wall=31.0s
+2026-11-07 10:24:39 start codex-C-r1-A20 (order 304, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 10:26:19 done  codex-C-r1-A20 status=done rc=0 wall=100.0s
+2026-11-07 10:26:19 start codex-D-r1-A20 (order 305, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 10:26:47 done  codex-D-r1-A20 status=done rc=0 wall=27.5s
+2026-11-07 10:26:47 start codex-B-r1-X11 (order 309, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 10:27:08 done  codex-B-r1-X11 status=done rc=0 wall=21.7s
+2026-11-07 10:27:08 start codex-D-r1-X11 (order 310, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 10:27:25 done  codex-D-r1-X11 status=done rc=0 wall=16.5s
+2026-11-07 10:27:25 start codex-C-r1-X11 (order 311, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 10:27:47 done  codex-C-r1-X11 status=done rc=0 wall=22.2s
+2026-11-07 10:27:47 start codex-D-r1-M09 (order 315, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 10:27:56 done  codex-D-r1-M09 status=done rc=0 wall=8.7s
+2026-11-07 10:27:56 start codex-B-r1-M09 (order 316, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 10:31:43 done  codex-B-r1-M09 status=done rc=0 wall=226.6s
+2026-11-07 10:31:43 start codex-C-r1-M09 (order 317, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 11:14:46 done  codex-C-r1-M09 status=done rc=0 wall=2583.8s
+2026-11-07 11:14:46 start codex-B-r1-S12 (order 318, confirmatory, waited 0.1 s for the GPU)
+2026-11-07 11:17:04 done  codex-B-r1-S12 status=done rc=0 wall=137.7s
+2026-11-07 11:17:04 start codex-C-r1-S12 (order 319, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 11:20:03 done  codex-C-r1-S12 status=done rc=0 wall=179.1s
+2026-11-07 11:20:03 start codex-D-r1-S12 (order 320, confirmatory, waited 0.0 s for the GPU)
+2026-11-07 11:20:31 done  codex-D-r1-S12 status=done rc=0 wall=27.6s
+2026-11-07 11:20:31 run finished: 205 jobs this call

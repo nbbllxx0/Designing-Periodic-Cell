@@ -1,0 +1,89 @@
+{
+ "rows": [
+  {
+   "scenario": "X_edge",
+   "check": "edge_certified",
+   "capability": "certify + release by clicks (Edge)",
+   "interface": "gui-edge",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "verdict certified; outcome card certified",
+   "expected_refusal": false,
+   "observed": "verdict certified, outcome certified_candidate, 214.5 s, rung [32, 48, 64]",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui_edge/e2e_live_20261108-090158.json"
+  },
+  {
+   "scenario": "X_edge",
+   "check": "edge_cancel_rollback",
+   "capability": "cancel a running certificate (Edge)",
+   "interface": "gui-edge",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "cancelled; seq and budget unchanged",
+   "expected_refusal": false,
+   "observed": "{\"status\": \"cancelled\", \"error\": \"certify cancelled by the user after 8 s; the call was rolled back (not logged)\", \"seconds\": 7.5, \"seq_before\": 9, \"seq_after\": 9, \"budget_certify_after\": 0}",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui_edge/e2e_live_20261108-090158.json"
+  },
+  {
+   "scenario": "X_edge",
+   "check": "edge_screen",
+   "capability": "screening by clicks (Edge)",
+   "interface": "gui-edge",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "screen passed",
+   "expected_refusal": false,
+   "observed": "{\"status\": \"done\", \"seconds\": 16.4, \"verdict\": \"screen passed\"}",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui_edge/e2e_live_20261108-090158.json"
+  },
+  {
+   "scenario": "X_edge",
+   "check": "edge_export",
+   "capability": "export + downloads (Edge)",
+   "interface": "gui-edge",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "outcome certified_candidate; downloads valid",
+   "expected_refusal": false,
+   "observed": "{\"export\": {\"status\": \"done\", \"seconds\": 17.6, \"name\": \"sc_bfeda9f7_8a6def\", \"outcome\": \"certified_candidate\", \"screening\": \"screen passed\", \"unit\": \"mm\"}, \"downloads\": {\"cell.stl\": {\"bytes\": 1084684, \"valid\": true}, \"report.json\": {\"bytes\": 11012, \"valid\": true}, \"tiled_3x3x3.stl\": {\"bytes\": 676628",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui_edge/e2e_live_20261108-090158.json"
+  },
+  {
+   "scenario": "X_edge",
+   "check": "edge_refusal_rejected",
+   "capability": "refusal without evidence (Edge)",
+   "interface": "gui-edge",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "rejected with the refusal-evidence message",
+   "expected_refusal": true,
+   "observed": "Submit #4 rejected by the refusal-evidence rule: refusal needs evidence: refuse with verdict PROVEN_INFEASIBLE must cite an evidence record held in this session for the current spec: a check_bounds re",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui_edge/e2e_live_20261108-090158.json"
+  },
+  {
+   "scenario": "X_edge",
+   "check": "edge_proven_infeasible",
+   "capability": "outcome proven_infeasible by clicks (Edge)",
+   "interface": "gui-edge",
+   "profile": "C",
+   "tool": "transport",
+   "expected": "accepted, cites the bound record",
+   "expected_refusal": false,
+   "observed": "{\"outcome\": \"proven_infeasible\", \"cites\": [[5, \"bound_violation\"]], \"submits\": [[4, false, \"refusal needs evidence: refuse with verdict PROVEN_INFEASIBL\"], [6, true, \"\"]]}",
+   "passed": true,
+   "failures": [],
+   "session": "results/verification/v2/sessions/gui_edge/e2e_live_20261108-090158.json"
+  }
+ ],
+ "finished": "2026-11-08 09:01:58"
+}

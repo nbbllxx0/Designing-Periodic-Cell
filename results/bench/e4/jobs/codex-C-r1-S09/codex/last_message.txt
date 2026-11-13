@@ -1,0 +1,1 @@
+Released a certified PA12 **cube-bars** unit cell with parameters \(c=0.397391\), \(w=0.320870\), relative to cell size. Its certified solid fraction is **≤24.93%** and axial Young’s modulus is **≥204.1 MPa** along x, y, and z, meeting both targets. SLS manufacturability was not evaluated.

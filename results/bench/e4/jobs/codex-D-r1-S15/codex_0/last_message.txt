@@ -1,0 +1,1 @@
+{"decision":"refuse","material":"PA12","cell_size":null,"targets":{"density_max":0.34,"E100_min":{"value":100,"unit":"MPa"},"G_min":{"value":63.5,"unit":"MPa"}},"verdict":"UNDETERMINED","note":"Without numerical homogenization, I cannot verify a design meeting both stiffness thresholds at the density limit or establish infeasibility within the allowed families."}

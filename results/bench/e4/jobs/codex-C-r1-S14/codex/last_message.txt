@@ -1,0 +1,1 @@
+Released a certified Ti6Al4V Schwarz P TPMS sheet unit cell with density parameter **0.3095**. Its certified solid fraction is **≤30.951%** and homogenized bulk modulus is **≥13.092 GPa**, meeting both limits. LPBF manufacturability was not evaluated; the design did not pass the geometric-offset robustness check.

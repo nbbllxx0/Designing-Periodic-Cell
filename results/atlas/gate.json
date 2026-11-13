@@ -1,0 +1,1722 @@
+{
+ "1_completeness": {
+  "atlas_nu0.3.jsonl": {
+   "per_kind": {
+    "gyroid": {
+     "grid": 56,
+     "done": 56,
+     "valid": 56,
+     "with_gap": 0
+    },
+    "schwarz_p": {
+     "grid": 56,
+     "done": 56,
+     "valid": 48,
+     "with_gap": 11
+    },
+    "diamond": {
+     "grid": 56,
+     "done": 56,
+     "valid": 54,
+     "with_gap": 0
+    },
+    "iwp": {
+     "grid": 56,
+     "done": 56,
+     "valid": 54,
+     "with_gap": 0
+    },
+    "sc": {
+     "grid": 465,
+     "done": 465,
+     "valid": 465,
+     "with_gap": 222
+    },
+    "bcc": {
+     "grid": 465,
+     "done": 465,
+     "valid": 465,
+     "with_gap": 192
+    },
+    "octet": {
+     "grid": 465,
+     "done": 465,
+     "valid": 465,
+     "with_gap": 0
+    },
+    "cube_bars": {
+     "grid": 554,
+     "done": 554,
+     "valid": 554,
+     "with_gap": 414
+    },
+    "sphere_ligaments": {
+     "grid": 549,
+     "done": 549,
+     "valid": 549,
+     "with_gap": 380
+    }
+   },
+   "complete": true
+  },
+  "atlas_nu0.342.jsonl": {
+   "per_kind": {
+    "gyroid": {
+     "grid": 56,
+     "done": 56,
+     "valid": 56,
+     "with_gap": 0
+    },
+    "schwarz_p": {
+     "grid": 56,
+     "done": 56,
+     "valid": 48,
+     "with_gap": 11
+    },
+    "diamond": {
+     "grid": 56,
+     "done": 56,
+     "valid": 54,
+     "with_gap": 0
+    },
+    "iwp": {
+     "grid": 56,
+     "done": 56,
+     "valid": 54,
+     "with_gap": 0
+    },
+    "sc": {
+     "grid": 465,
+     "done": 465,
+     "valid": 465,
+     "with_gap": 216
+    },
+    "bcc": {
+     "grid": 465,
+     "done": 465,
+     "valid": 465,
+     "with_gap": 189
+    },
+    "octet": {
+     "grid": 465,
+     "done": 465,
+     "valid": 465,
+     "with_gap": 0
+    },
+    "cube_bars": {
+     "grid": 554,
+     "done": 554,
+     "valid": 554,
+     "with_gap": 410
+    },
+    "sphere_ligaments": {
+     "grid": 549,
+     "done": 549,
+     "valid": 549,
+     "with_gap": 375
+    }
+   },
+   "complete": true
+  },
+  "atlas_nu0.39.jsonl": {
+   "per_kind": {
+    "gyroid": {
+     "grid": 56,
+     "done": 56,
+     "valid": 56,
+     "with_gap": 0
+    },
+    "schwarz_p": {
+     "grid": 56,
+     "done": 56,
+     "valid": 48,
+     "with_gap": 11
+    },
+    "diamond": {
+     "grid": 56,
+     "done": 56,
+     "valid": 54,
+     "with_gap": 0
+    },
+    "iwp": {
+     "grid": 56,
+     "done": 56,
+     "valid": 54,
+     "with_gap": 0
+    },
+    "sc": {
+     "grid": 465,
+     "done": 465,
+     "valid": 465,
+     "with_gap": 212
+    },
+    "bcc": {
+     "grid": 465,
+     "done": 465,
+     "valid": 465,
+     "with_gap": 180
+    },
+    "octet": {
+     "grid": 465,
+     "done": 465,
+     "valid": 465,
+     "with_gap": 0
+    },
+    "cube_bars": {
+     "grid": 554,
+     "done": 554,
+     "valid": 554,
+     "with_gap": 412
+    },
+    "sphere_ligaments": {
+     "grid": 549,
+     "done": 549,
+     "valid": 549,
+     "with_gap": 374
+    }
+   },
+   "complete": true
+  }
+ },
+ "2_oracle": {
+  "table": [
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.2,
+      "w": 0.2
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.0656352756137882
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "gyroid",
+     "params": {
+      "density": 0.5,
+      "mode": "sheet"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.02870209981318469
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.8,
+      "w": 0.1
+     }
+    },
+    "truth": "undetermined",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.27841794027505395
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.3,
+      "w": 0.15
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.22586278180869887
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.35,
+      "w": 0.15
+     }
+    },
+    "truth": "undetermined",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.42308929683266505
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "diamond",
+     "params": {
+      "density": 0.25,
+      "mode": "network"
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.004176310875377656
+   },
+   {
+    "spec": {
+     "family": "struts",
+     "kind": "octet",
+     "params": {
+      "r": 0.1,
+      "R": 0.22
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.037484434718308084
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.25,
+      "mode": "sheet"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.06784245894353232
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "iwp",
+     "params": {
+      "density": 0.5,
+      "mode": "network"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.011563479302430438
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.3,
+      "w": 0.25
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.030735201295947253
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.25,
+      "w": 0.2
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.011597180335463359
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.4,
+      "w": 0.2
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.05769966723221596
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "gyroid",
+     "params": {
+      "density": 0.35,
+      "mode": "network"
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.016743469160200225
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.7,
+      "w": 0.2
+     }
+    },
+    "truth": "false",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.33372035100150743
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.6,
+      "w": 0.2
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.33315130976663887
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "gyroid",
+     "params": {
+      "density": 0.35,
+      "mode": "sheet"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.035066301238782606
+   },
+   {
+    "spec": {
+     "family": "struts",
+     "kind": "bcc",
+     "params": {
+      "r": 0.1,
+      "R": 0.22
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.06750426574003518
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.25,
+      "w": 0.25
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.04533974173385215
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "iwp",
+     "params": {
+      "density": 0.25,
+      "mode": "network"
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.028357143543282292
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "iwp",
+     "params": {
+      "density": 0.15,
+      "mode": "network"
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.09293950859132134
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "gyroid",
+     "params": {
+      "density": 0.25,
+      "mode": "sheet"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.042252559534527716
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.15,
+      "mode": "sheet"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.04195212773006038
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "diamond",
+     "params": {
+      "density": 0.35,
+      "mode": "sheet"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.035440858465194625
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.35,
+      "mode": "network"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.03513398065383766
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.7,
+      "w": 0.15
+     }
+    },
+    "truth": "false",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.23914398852751115
+   },
+   {
+    "spec": {
+     "family": "struts",
+     "kind": "bcc",
+     "params": {
+      "r": 0.1,
+      "R": 0.0
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.09543394523652078
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "diamond",
+     "params": {
+      "density": 0.25,
+      "mode": "sheet"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.050919003038203084
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.3,
+      "w": 0.1
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.19056360021331237
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.7,
+      "w": 0.3
+     }
+    },
+    "truth": "false",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.43672372795758035
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "gyroid",
+     "params": {
+      "density": 0.15,
+      "mode": "sheet"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.015482070433089455
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.35,
+      "w": 0.1
+     }
+    },
+    "truth": "false",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.3340360487973529
+   },
+   {
+    "spec": {
+     "family": "struts",
+     "kind": "octet",
+     "params": {
+      "r": 0.1,
+      "R": 0.0
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.03970252967185131
+   },
+   {
+    "spec": {
+     "family": "struts",
+     "kind": "bcc",
+     "params": {
+      "r": 0.06,
+      "R": 0.22
+     }
+    },
+    "truth": "undetermined",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.31676081739767314
+   },
+   {
+    "spec": {
+     "family": "struts",
+     "kind": "sc",
+     "params": {
+      "r": 0.1,
+      "R": 0.22
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.02784530484914081
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.5,
+      "w": 0.3
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.023074555634581672
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "gyroid",
+     "params": {
+      "density": 0.25,
+      "mode": "network"
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.010376323582254068
+   },
+   {
+    "spec": {
+     "family": "struts",
+     "kind": "sc",
+     "params": {
+      "r": 0.1,
+      "R": 0.15
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.00783911768231927
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "iwp",
+     "params": {
+      "density": 0.35,
+      "mode": "sheet"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.035011831982973335
+   },
+   {
+    "spec": {
+     "family": "struts",
+     "kind": "bcc",
+     "params": {
+      "r": 0.1,
+      "R": 0.15
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.0949851303183619
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "iwp",
+     "params": {
+      "density": 0.35,
+      "mode": "network"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.03499897243353096
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "schwarz_p",
+     "params": {
+      "density": 0.25,
+      "mode": "network"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.5092400259500794
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "gyroid",
+     "params": {
+      "density": 0.5,
+      "mode": "network"
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.008116515754860162
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "iwp",
+     "params": {
+      "density": 0.25,
+      "mode": "sheet"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.035685030839124304
+   },
+   {
+    "spec": {
+     "family": "struts",
+     "kind": "octet",
+     "params": {
+      "r": 0.06,
+      "R": 0.0
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.032692061323435245
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.4,
+      "w": 0.2
+     }
+    },
+    "truth": "undetermined",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.5409889768826784
+   },
+   {
+    "spec": {
+     "family": "struts",
+     "kind": "octet",
+     "params": {
+      "r": 0.06,
+      "R": 0.15
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.01142120857156419
+   },
+   {
+    "spec": {
+     "family": "tpms",
+     "kind": "iwp",
+     "params": {
+      "density": 0.15,
+      "mode": "sheet"
+     }
+    },
+    "truth": "true",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.01585514362789169
+   },
+   {
+    "spec": {
+     "family": "struts",
+     "kind": "sc",
+     "params": {
+      "r": 0.06,
+      "R": 0.22
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.14381593855188254
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "sphere_ligaments",
+     "params": {
+      "c": 0.3,
+      "w": 0.2
+     }
+    },
+    "truth": "undetermined",
+    "verdict": "BORDERLINE",
+    "best_pess": -0.28818568431690195
+   },
+   {
+    "spec": {
+     "family": "resonator",
+     "kind": "cube_bars",
+     "params": {
+      "c": 0.4,
+      "w": 0.15
+     }
+    },
+    "truth": "true",
+    "verdict": "FEASIBLE",
+    "best_pess": 0.16249639172890612
+   }
+  ],
+  "inconsistent": [],
+  "counts": {
+   "true/BORDERLINE": 27,
+   "undetermined/BORDERLINE": 5,
+   "true/FEASIBLE": 14,
+   "false/BORDERLINE": 4
+  },
+  "seconds": 34.8
+ },
+ "3_search_true_claims": [
+  {
+   "source": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.3,
+     "w": 0.15
+    }
+   },
+   "targets": {
+    "density_max": 0.14186923376319516,
+    "E100_min": 0.02798458169426649,
+    "G_min": 0.0009333041992026941,
+    "nu100_min": 0.00895003020759939,
+    "nu100_max": 0.05199740180839933,
+    "gap": {
+     "f_lo": 0.2949876159613312,
+     "f_hi": 0.5822029420975283
+    }
+   },
+   "found": true,
+   "best": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.297391,
+     "w": 0.145217
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": 0.01614534519477108,
+   "slack_pess": -0.4768724410116654,
+   "slack_nominal": -0.07258715622548359,
+   "from_atlas": true,
+   "calibrated": true,
+   "arms": [
+    [
+     "sphere_ligaments",
+     null
+    ],
+    [
+     "sc",
+     null
+    ],
+    [
+     "cube_bars",
+     null
+    ]
+   ],
+   "seconds": 39.3
+  },
+  {
+   "source": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.6,
+     "w": 0.2
+    }
+   },
+   "targets": {
+    "density_max": 0.27649192610717377,
+    "E100_min": 0.05520369802209532,
+    "G_min": 0.003144219283131308,
+    "nu100_min": 0.03166821214818216,
+    "nu100_max": 0.07710697132167502,
+    "gap": {
+     "f_lo": 0.32727717685204594,
+     "f_hi": 0.6546664618870041
+    }
+   },
+   "found": true,
+   "best": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.591273,
+     "w": 0.193533
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": 0.08282311248069876,
+   "slack_pess": -0.568802962207219,
+   "slack_nominal": -0.035653673025987064,
+   "from_atlas": false,
+   "calibrated": true,
+   "arms": [
+    [
+     "cube_bars",
+     null
+    ],
+    [
+     "sphere_ligaments",
+     null
+    ],
+    [
+     "sc",
+     null
+    ]
+   ],
+   "seconds": 43.8
+  },
+  {
+   "source": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.3,
+     "w": 0.1
+    }
+   },
+   "targets": {
+    "density_max": 0.1285580620932081,
+    "E100_min": 0.013949299055016465,
+    "G_min": 0.00026219512118112113,
+    "nu100_min": -0.005344346247752763,
+    "nu100_max": 0.036198354147220634,
+    "gap": {
+     "f_lo": 0.20355752304829045,
+     "f_hi": 0.5297917059664403
+    }
+   },
+   "found": true,
+   "best": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.286582,
+     "w": 0.104773
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": 0.07883411722679644,
+   "slack_pess": -0.3001608881530164,
+   "slack_nominal": -0.074873538056783,
+   "from_atlas": false,
+   "calibrated": true,
+   "arms": [
+    [
+     "sphere_ligaments",
+     null
+    ],
+    [
+     "sc",
+     null
+    ],
+    [
+     "cube_bars",
+     null
+    ]
+   ],
+   "seconds": 47.8
+  },
+  {
+   "source": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.25,
+     "mode": "network"
+    }
+   },
+   "targets": {
+    "density_max": 0.2624900932283981,
+    "E100_min": 0.06733445791016682,
+    "G_min": 0.009624497578082081,
+    "nu100_min": 0.03297623336845327,
+    "nu100_max": 0.0785526789861852,
+    "gap": {
+     "f_lo": 0.4821542675645598,
+     "f_hi": 0.787663739130882
+    }
+   },
+   "found": false,
+   "best": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.249505,
+     "mode": "network"
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": -0.004636474261557857,
+   "slack_pess": -0.6661602942754165,
+   "slack_nominal": -0.06817686651372724,
+   "from_atlas": false,
+   "calibrated": true,
+   "arms": [
+    [
+     "schwarz_p",
+     "network"
+    ],
+    [
+     "sphere_ligaments",
+     null
+    ],
+    [
+     "cube_bars",
+     null
+    ]
+   ],
+   "seconds": 80.5
+  },
+  {
+   "source": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.2,
+     "w": 0.2
+    }
+   },
+   "targets": {
+    "density_max": 0.09721566654350573,
+    "E100_min": 0.035715786663551845,
+    "G_min": 0.000978804046099363,
+    "nu100_min": 0.028104160211682418,
+    "nu100_max": 0.07316775602343847
+   },
+   "found": true,
+   "best": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.205032,
+     "w": 0.201213
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": 0.026371156715295337,
+   "slack_pess": -0.1738128377929109,
+   "slack_nominal": 0.02640467962306731,
+   "from_atlas": false,
+   "calibrated": true,
+   "arms": [
+    [
+     "sphere_ligaments",
+     null
+    ],
+    [
+     "sc",
+     null
+    ],
+    [
+     "cube_bars",
+     null
+    ]
+   ],
+   "seconds": 45.7
+  },
+  {
+   "source": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.25,
+     "mode": "sheet"
+    }
+   },
+   "targets": {
+    "density_max": 0.26246894858564296,
+    "E100_min": 0.06000757606682547,
+    "G_min": 0.0495146283237363,
+    "nu100_min": 0.3352299120612271,
+    "nu100_max": 0.4126225343834615
+   },
+   "found": true,
+   "best": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.252401,
+     "mode": "sheet"
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": 0.038268925558792535,
+   "slack_pess": -0.10270422264255467,
+   "slack_nominal": 0.03853000862696337,
+   "from_atlas": false,
+   "calibrated": true,
+   "arms": [
+    [
+     "schwarz_p",
+     "sheet"
+    ],
+    [
+     "gyroid",
+     "sheet"
+    ],
+    [
+     "diamond",
+     "network"
+    ]
+   ],
+   "seconds": 115.8
+  },
+  {
+   "source": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.4,
+     "w": 0.2
+    }
+   },
+   "targets": {
+    "density_max": 0.14192032733922502,
+    "E100_min": 0.045607081331819115,
+    "G_min": 0.0016256296966802673,
+    "nu100_min": 0.03378110362029395,
+    "nu100_max": 0.07944227242243015
+   },
+   "found": true,
+   "best": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.208696,
+     "w": 0.242609
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": 0.12273444655965797,
+   "slack_pess": -0.11636767266729603,
+   "slack_nominal": 0.1265944900674783,
+   "from_atlas": true,
+   "calibrated": true,
+   "arms": [
+    [
+     "sphere_ligaments",
+     null
+    ],
+    [
+     "cube_bars",
+     null
+    ],
+    [
+     "sc",
+     null
+    ]
+   ],
+   "seconds": 38.9
+  },
+  {
+   "source": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.25,
+     "w": 0.25
+    }
+   },
+   "targets": {
+    "density_max": 0.1507206151817089,
+    "E100_min": 0.05761801496025067,
+    "G_min": 0.002735724562459624,
+    "nu100_min": 0.04269937911938773,
+    "nu100_max": 0.08929931376353381
+   },
+   "found": true,
+   "best": {
+    "family": "struts",
+    "kind": "sc",
+    "params": {
+     "r": 0.135652,
+     "R": 0.210909
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": 0.01559842874443889,
+   "slack_pess": -0.2722281880086343,
+   "slack_nominal": 0.02009952631315385,
+   "from_atlas": true,
+   "calibrated": true,
+   "arms": [
+    [
+     "sc",
+     null
+    ],
+    [
+     "cube_bars",
+     null
+    ],
+    [
+     "sphere_ligaments",
+     null
+    ]
+   ],
+   "seconds": 40.6
+  },
+  {
+   "source": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.15,
+     "mode": "sheet"
+    }
+   },
+   "targets": {
+    "density_max": 0.15746952238463263,
+    "E100_min": 0.026524549885299353,
+    "G_min": 0.027507393332145573,
+    "nu100_min": 0.3622147124645225,
+    "nu100_max": 0.44244784009236704
+   },
+   "found": true,
+   "best": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.150524,
+     "mode": "sheet"
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": 0.04028710490854451,
+   "slack_pess": -0.10351124158070346,
+   "slack_nominal": 0.04429244174919281,
+   "from_atlas": false,
+   "calibrated": true,
+   "arms": [
+    [
+     "schwarz_p",
+     "sheet"
+    ],
+    [
+     "gyroid",
+     "sheet"
+    ],
+    [
+     "octet",
+     null
+    ]
+   ],
+   "seconds": 92.2
+  },
+  {
+   "source": {
+    "family": "tpms",
+    "kind": "diamond",
+    "params": {
+     "density": 0.25,
+     "mode": "sheet"
+    }
+   },
+   "targets": {
+    "density_max": 0.26252753543784874,
+    "E100_min": 0.10815200492016772,
+    "G_min": 0.03286820848450612,
+    "nu100_min": 0.23900776657490702,
+    "nu100_max": 0.3062717420038446
+   },
+   "found": true,
+   "best": {
+    "family": "tpms",
+    "kind": "diamond",
+    "params": {
+     "density": 0.250545,
+     "mode": "sheet"
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": 0.04538549085701817,
+   "slack_pess": -0.08960100718561421,
+   "slack_nominal": 0.045644641976900734,
+   "from_atlas": false,
+   "calibrated": true,
+   "arms": [
+    [
+     "diamond",
+     "sheet"
+    ],
+    [
+     "iwp",
+     "sheet"
+    ],
+    [
+     "gyroid",
+     "sheet"
+    ]
+   ],
+   "seconds": 4953.4
+  },
+  {
+   "source": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.5,
+     "w": 0.3
+    }
+   },
+   "targets": {
+    "density_max": 0.2731605925968299,
+    "E100_min": 0.10830676837099437,
+    "G_min": 0.009774925956367898,
+    "nu100_min": 0.06964856145894305,
+    "nu100_max": 0.11908525213883178
+   },
+   "found": true,
+   "best": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.3301,
+     "w": 0.335902
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": 0.07396952216161447,
+   "slack_pess": -0.07903911743237178,
+   "slack_nominal": 0.07400140621529339,
+   "from_atlas": false,
+   "calibrated": true,
+   "arms": [
+    [
+     "sphere_ligaments",
+     null
+    ],
+    [
+     "cube_bars",
+     null
+    ],
+    [
+     "iwp",
+     "network"
+    ]
+   ],
+   "seconds": 88.0
+  },
+  {
+   "source": {
+    "family": "struts",
+    "kind": "bcc",
+    "params": {
+     "r": 0.1,
+     "R": 0.15
+    }
+   },
+   "targets": {
+    "density_max": 0.1876080058870701,
+    "E100_min": 0.006846976628183862,
+    "G_min": 0.025534881441650628,
+    "nu100_min": 0.4178008131844515,
+    "nu100_max": 0.5038851093091307
+   },
+   "found": true,
+   "best": {
+    "family": "struts",
+    "kind": "bcc",
+    "params": {
+     "r": 0.100528,
+     "R": 0.0
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": 0.03232318511932811,
+   "slack_pess": -0.22619899989121883,
+   "slack_nominal": 0.041454922930476264,
+   "from_atlas": false,
+   "calibrated": true,
+   "arms": [
+    [
+     "bcc",
+     null
+    ],
+    [
+     "schwarz_p",
+     "sheet"
+    ],
+    [
+     "diamond",
+     "network"
+    ]
+   ],
+   "seconds": 85.9
+  },
+  {
+   "source": {
+    "family": "struts",
+    "kind": "octet",
+    "params": {
+     "r": 0.06,
+     "R": 0.0
+    }
+   },
+   "targets": {
+    "density_max": 0.16543335155264235,
+    "E100_min": 0.025688132946291332,
+    "G_min": 0.017397610480468614,
+    "nu100_min": 0.29209690297953905,
+    "nu100_max": 0.3649492085563326
+   },
+   "found": true,
+   "best": {
+    "family": "tpms",
+    "kind": "gyroid",
+    "params": {
+     "density": 0.14,
+     "mode": "sheet"
+    }
+   },
+   "found_pessimistic": false,
+   "slack_expected": 0.10630364059507824,
+   "slack_pess": -0.021005343398241418,
+   "slack_nominal": 0.09509404740014762,
+   "from_atlas": true,
+   "calibrated": true,
+   "arms": [
+    [
+     "gyroid",
+     "sheet"
+    ],
+    [
+     "octet",
+     null
+    ],
+    [
+     "diamond",
+     "sheet"
+    ]
+   ],
+   "seconds": 105.1
+  },
+  {
+   "source": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.4,
+     "w": 0.15
+    }
+   },
+   "targets": {
+    "density_max": 0.10904034572447992,
+    "E100_min": 0.026541079092145724,
+    "G_min": 0.0005629052440925841,
+    "nu100_min": 0.015576702546769784,
+    "nu100_max": 0.0593216186043245
+   },
+   "found": true,
+   "best": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.208696,
+     "w": 0.181739
+    }
+   },
+   "found_pessimistic": true,
+   "slack_expected": 0.20299634645152856,
+   "slack_pess": 0.12602048331974,
+   "slack_nominal": 0.2184279604825556,
+   "from_atlas": true,
+   "calibrated": true,
+   "arms": [
+    [
+     "sphere_ligaments",
+     null
+    ],
+    [
+     "cube_bars",
+     null
+    ],
+    [
+     "sc",
+     null
+    ]
+   ],
+   "seconds": 39.9
+  }
+ ],
+ "4_beyond_envelope": [
+  {
+   "targets": {
+    "density_max": 0.15,
+    "E100_min": 0.08755925372669009
+   },
+   "oracle": "NOT_FOUND_IN_FAMILIES",
+   "search_found_optimistic": false,
+   "best_opt": -0.11830913554806732,
+   "best_nominal": -0.12379436898069955,
+   "seconds": 50.7
+  },
+  {
+   "targets": {
+    "density_max": 0.3,
+    "E100_min": 0.1964974662292915
+   },
+   "oracle": "NOT_FOUND_IN_FAMILIES",
+   "search_found_optimistic": false,
+   "best_opt": -0.1226339695734489,
+   "best_nominal": -0.12870594359378948,
+   "seconds": 115.6
+  },
+  {
+   "targets": {
+    "density_max": 0.45,
+    "E100_min": 0.32872003752734047
+   },
+   "oracle": "NOT_FOUND_IN_FAMILIES",
+   "search_found_optimistic": false,
+   "best_opt": -0.09084240610445371,
+   "best_nominal": -0.09084240610445371,
+   "seconds": 136.9
+  },
+  {
+   "targets": {
+    "gap": {
+     "f_lo": 0.2205698,
+     "f_hi": 1.2794302000000002
+    }
+   },
+   "oracle": "NOT_FOUND_IN_FAMILIES",
+   "search_found_optimistic": false,
+   "best_opt": -0.1629016000000002,
+   "best_nominal": -0.1629016000000002,
+   "seconds": 48.4
+  },
+  {
+   "targets": {
+    "gap": {
+     "f_lo": 0.4505697999999999,
+     "f_hi": 1.2494302000000002
+    }
+   },
+   "oracle": "NOT_FOUND_IN_FAMILIES",
+   "search_found_optimistic": false,
+   "best_opt": -0.01946037918242425,
+   "best_nominal": -0.3470260486650639,
+   "seconds": 38.1
+  }
+ ],
+ "5_search_then_certify": [
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.297391,
+     "w": 0.145217
+    }
+   },
+   "targets": {
+    "density_max": 0.14186923376319516,
+    "E100_min": 0.02798458169426649,
+    "G_min": 0.0009333041992026941,
+    "nu100_min": 0.00895003020759939,
+    "nu100_max": 0.05199740180839933,
+    "gap": {
+     "f_lo": 0.2949876159613312,
+     "f_hi": 0.5822029420975283
+    }
+   },
+   "slack_pess": -0.4768724410116654,
+   "passed": false,
+   "robust": false,
+   "static_passed": false,
+   "bloch_passed": false,
+   "reason": [
+    "E100_min: guarded lower E100=0.027585 vs 0.02798458169426649",
+    "G_min: guarded lower G=0.00084347 vs 0.0009333041992026941",
+    null
+   ],
+   "seconds": 752.6
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.591273,
+     "w": 0.193533
+    }
+   },
+   "targets": {
+    "density_max": 0.27649192610717377,
+    "E100_min": 0.05520369802209532,
+    "G_min": 0.003144219283131308,
+    "nu100_min": 0.03166821214818216,
+    "nu100_max": 0.07710697132167502,
+    "gap": {
+     "f_lo": 0.32727717685204594,
+     "f_hi": 0.6546664618870041
+    }
+   },
+   "slack_pess": -0.568802962207219,
+   "passed": true,
+   "robust": false,
+   "static_passed": true,
+   "bloch_passed": true,
+   "reason": [
+    null
+   ],
+   "seconds": 762.1
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.205032,
+     "w": 0.201213
+    }
+   },
+   "targets": {
+    "density_max": 0.09721566654350573,
+    "E100_min": 0.035715786663551845,
+    "G_min": 0.000978804046099363,
+    "nu100_min": 0.028104160211682418,
+    "nu100_max": 0.07316775602343847
+   },
+   "slack_pess": -0.1738128377929109,
+   "passed": true,
+   "robust": false,
+   "static_passed": true,
+   "bloch_passed": null,
+   "reason": [
+    null
+   ],
+   "seconds": 103.9
+  },
+  {
+   "spec": {
+    "family": "tpms",
+    "kind": "schwarz_p",
+    "params": {
+     "density": 0.252401,
+     "mode": "sheet"
+    }
+   },
+   "targets": {
+    "density_max": 0.26246894858564296,
+    "E100_min": 0.06000757606682547,
+    "G_min": 0.0495146283237363,
+    "nu100_min": 0.3352299120612271,
+    "nu100_max": 0.4126225343834615
+   },
+   "slack_pess": -0.10270422264255467,
+   "passed": true,
+   "robust": false,
+   "static_passed": true,
+   "bloch_passed": null,
+   "reason": [
+    null
+   ],
+   "seconds": 173.7
+  },
+  {
+   "spec": {
+    "family": "resonator",
+    "kind": "sphere_ligaments",
+    "params": {
+     "c": 0.208696,
+     "w": 0.242609
+    }
+   },
+   "targets": {
+    "density_max": 0.14192032733922502,
+    "E100_min": 0.045607081331819115,
+    "G_min": 0.0016256296966802673,
+    "nu100_min": 0.03378110362029395,
+    "nu100_max": 0.07944227242243015
+   },
+   "slack_pess": -0.11636767266729603,
+   "passed": true,
+   "robust": false,
+   "static_passed": true,
+   "bloch_passed": null,
+   "reason": [
+    null
+   ],
+   "seconds": 60.4
+  }
+ ]
+}

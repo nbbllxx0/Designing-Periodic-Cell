@@ -1,0 +1,72 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "316L"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 193000000000.0,
+    "atlas_available": true,
+    "material": "316L",
+    "nu": 0.3,
+    "rho_kg_m3": 8000.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "density_max": 0.3
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "density_max": 0.3
+    },
+    "targets": {
+     "density_max": 0.3
+    }
+   },
+   "seq": 2,
+   "tool": "set_target"
+  },
+  {
+   "args": {
+    "designs": [
+     {
+      "kind": "cube_bars",
+      "params": {
+       "c": 0.95,
+       "w": 0.2
+      }
+     }
+    ]
+   },
+   "error": "cube_bars.c = 0.95 outside the family box [0.3, 0.86]",
+   "ok": false,
+   "seq": 3,
+   "tool": "evaluate"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "evaluate",
+ "error": {
+  "error": "cube_bars.c = 0.95 outside the family box [0.3, 0.86]",
+  "tool": "evaluate"
+ },
+ "ok": false,
+ "profile": "C",
+ "result": {
+  "cannot_normalize_yet": [],
+  "normalized": {
+   "density_max": 0.3
+  },
+  "targets": {
+   "density_max": 0.3
+  }
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S05_invalid\\03-evaluate"
+}

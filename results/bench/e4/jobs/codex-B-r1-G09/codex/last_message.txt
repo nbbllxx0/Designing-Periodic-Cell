@@ -1,0 +1,1 @@
+Submitted **UNDETERMINED**; no design released. A 10 mm PA12 sphere-and-ligament candidate predicts a gap covering 28.3–31.3 kHz, but the available amm tools cannot certify it. Feasibility remains unresolved; SLS manufacturability was not evaluated.

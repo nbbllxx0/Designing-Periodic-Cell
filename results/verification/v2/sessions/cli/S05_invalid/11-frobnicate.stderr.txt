@@ -1,0 +1,3 @@
+usage: amm [-h] [--version]
+           {check-bounds,atlas-suggest,evaluate,certify,export,replay} ...
+amm: error: argument command: invalid choice: 'frobnicate' (choose from 'check-bounds', 'atlas-suggest', 'evaluate', 'certify', 'export', 'replay')

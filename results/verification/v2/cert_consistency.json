@@ -1,0 +1,57 @@
+{
+ "certificates": {
+  "mcp": {
+   "log": "results/verification/v2/sessions/mcp/S11_certified_static/session.jsonl",
+   "result_hash": "d47062dbaab89457",
+   "verdict": "certified",
+   "spec_hash": "c3816dab1e980508",
+   "E100_lower": 0.026979257409680327,
+   "cert_files": [
+    "c3816dab1e980508_c79d2f3892e37426.json"
+   ],
+   "cert_keys": [
+    "c79d2f3892e37426"
+   ]
+  },
+  "cli": {
+   "log": "results/verification/v2/sessions/cli/S12_cli/04-certify/session.jsonl",
+   "result_hash": "d47062dbaab89457",
+   "verdict": "certified",
+   "spec_hash": "c3816dab1e980508",
+   "E100_lower": 0.026979257409680327,
+   "cert_files": [
+    "c3816dab1e980508_c79d2f3892e37426.json"
+   ],
+   "cert_keys": null
+  },
+  "tutorial02": {
+   "log": "examples/outputs/02_session/session.jsonl",
+   "result_hash": "d47062dbaab89457",
+   "verdict": "certified",
+   "spec_hash": "c3816dab1e980508",
+   "E100_lower": 0.026979257409680327,
+   "cert_files": [
+    "c3816dab1e980508_c79d2f3892e37426.json"
+   ],
+   "cert_keys": null
+  },
+  "gui": {
+   "log": "results/verification/v2/sessions/gui/live-20261108-085518-d521/session.jsonl",
+   "result_hash": "d47062dbaab89457",
+   "verdict": "certified",
+   "spec_hash": "c3816dab1e980508",
+   "E100_lower": 0.026979257409680327,
+   "cert_files": [
+    "c3816dab1e980508_c79d2f3892e37426.json"
+   ],
+   "cert_keys": [
+    "c79d2f3892e37426"
+   ]
+  }
+ },
+ "identical_results_v2": true,
+ "identical_with_tutorial02": true,
+ "cert_file_names_v2": [
+  "c3816dab1e980508_c79d2f3892e37426.json"
+ ]
+}

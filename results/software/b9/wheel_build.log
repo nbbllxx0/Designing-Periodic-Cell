@@ -1,0 +1,14 @@
+Processing .\.
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: amm
+  Building wheel for amm (pyproject.toml): started
+  Building wheel for amm (pyproject.toml): finished with status 'done'
+  Created wheel for amm: filename=amm-0.2.0-py3-none-any.whl size=105184 sha256=e8a958dba3f099c352e2198fff09920fea3b1411b5f5c163f31929b3ffb89c93
+  Stored in directory: C:\Users\nbbll\AppData\Local\Temp\pip-ephem-wheel-cache-vup2w1cj\wheels\32\59\70\58098405eea9cd756ebaf11fb79e7a867684de77df3b565539
+Successfully built amm
+exit 0

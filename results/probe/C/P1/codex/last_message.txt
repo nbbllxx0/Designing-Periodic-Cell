@@ -1,0 +1,1 @@
+Released a certified 316L Schwarz P sheet unit cell at 25.5% nominal solid fraction. Guarded bounds meet your limits: solid fraction ≤25.501%, axial Young’s modulus ≥12.30 GPa, and shear modulus ≥10.22 GPa. It fails the −0.01-cell-size erosion tolerance check, so manufacturing robustness remains unverified.

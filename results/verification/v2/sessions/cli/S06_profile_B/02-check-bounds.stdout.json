@@ -1,0 +1,70 @@
+{
+ "calls": [
+  {
+   "args": {
+    "name": "Ti6Al4V"
+   },
+   "ok": true,
+   "result": {
+    "E_Pa": 113800000000.0,
+    "atlas_available": true,
+    "material": "Ti6Al4V",
+    "nu": 0.342,
+    "rho_kg_m3": 4430.0
+   },
+   "seq": 1,
+   "tool": "set_material"
+  },
+  {
+   "args": {
+    "E100_min": {
+     "unit": "E_s",
+     "value": 0.5
+    },
+    "density_max": 0.2
+   },
+   "ok": true,
+   "result": {
+    "cannot_normalize_yet": [],
+    "normalized": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    },
+    "targets": {
+     "E100_min": 0.5,
+     "density_max": 0.2
+    }
+   },
+   "seq": 2,
+   "tool": "set_target"
+  },
+  {
+   "args": {},
+   "error": "unknown tool 'check_bounds'",
+   "ok": false,
+   "seq": null,
+   "tool": "check_bounds"
+  }
+ ],
+ "cli": "amm-cli/1",
+ "command": "check-bounds",
+ "error": {
+  "error": "unknown tool 'check_bounds'",
+  "tool": "check_bounds"
+ },
+ "ok": false,
+ "profile": "B",
+ "result": {
+  "cannot_normalize_yet": [],
+  "normalized": {
+   "E100_min": 0.5,
+   "density_max": 0.2
+  },
+  "targets": {
+   "E100_min": 0.5,
+   "density_max": 0.2
+  }
+ },
+ "schema_version": "amm-tools/3",
+ "session": "C:\\AI\\AgenticMetamaterials\\results\\verification\\v2\\sessions\\cli\\S06_profile_B\\02-check-bounds"
+}

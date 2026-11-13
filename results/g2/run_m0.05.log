@@ -1,0 +1,51 @@
+{"kind": "schwarz_p", "params": {"density": 0.25, "mode": "network"}, "passed": true, "static": true, "bloch": true, "gap_claim": {"f_lo": 0.4821542675645598, "f_hi": 0.787663739130882}, "ref_s": 540.9, "cert_s": 276.3, "s": 817.1}
+{"kind": "schwarz_p", "params": {"density": 0.25, "mode": "network"}, "passed": true, "static": true, "bloch": true, "gap_claim": {"f_lo": 0.4821542675645598, "f_hi": 0.787663739130882}, "ref_s": 540.9, "cert_s": 276.3, "s": 0.0}
+{"kind": "diamond", "params": {"density": 0.25, "mode": "network"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 55.3, "cert_s": 8.8, "s": 64.0}
+{"kind": "gyroid", "params": {"density": 0.35, "mode": "network"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 126.1, "cert_s": 14.6, "s": 140.7}
+{"kind": "sc", "params": {"r": 0.06, "R": 0.22}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 13.7, "cert_s": 7.4, "s": 21.1}
+{"kind": "schwarz_p", "params": {"density": 0.25, "mode": "sheet"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 62.2, "cert_s": 11.1, "s": 73.3}
+{"kind": "iwp", "params": {"density": 0.5, "mode": "network"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 164.3, "cert_s": 18.9, "s": 183.2}
+{"kind": "bcc", "params": {"r": 0.06, "R": 0.22}, "passed": false, "static": true, "bloch": false, "gap_claim": {"f_lo": 0.4105863992961431, "f_hi": 0.4936143356649237}, "ref_s": 93.2, "cert_s": 112.6, "s": 205.9}
+{"kind": "iwp", "params": {"density": 0.25, "mode": "network"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 51.3, "cert_s": 9.1, "s": 60.4}
+{"kind": "gyroid", "params": {"density": 0.25, "mode": "sheet"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 75.2, "cert_s": 11.7, "s": 86.9}
+{"kind": "cube_bars", "params": {"c": 0.7, "w": 0.15}, "passed": false, "static": true, "bloch": false, "gap_claim": {"f_lo": 0.2043696143135894, "f_hi": 0.6148251616276627}, "ref_s": 432.4, "cert_s": 171.1, "s": 603.5}
+{"kind": "diamond", "params": {"density": 0.35, "mode": "sheet"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 116.0, "cert_s": 16.0, "s": 132.0}
+{"kind": "schwarz_p", "params": {"density": 0.15, "mode": "sheet"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 35.6, "cert_s": 7.9, "s": 43.5}
+{"kind": "cube_bars", "params": {"c": 0.7, "w": 0.2}, "passed": false, "static": true, "bloch": false, "gap_claim": {"f_lo": 0.2890608028693555, "f_hi": 0.6290591781198341}, "ref_s": 347.7, "cert_s": 173.8, "s": 521.5}
+{"kind": "diamond", "params": {"density": 0.25, "mode": "sheet"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 85.9, "cert_s": 12.7, "s": 98.6}
+{"kind": "iwp", "params": {"density": 0.15, "mode": "sheet"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 37.0, "cert_s": 7.9, "s": 44.9}
+{"kind": "cube_bars", "params": {"c": 0.4, "w": 0.15}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 16.9, "cert_s": 8.5, "s": 25.4}
+{"kind": "iwp", "params": {"density": 0.35, "mode": "network"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 79.2, "cert_s": 12.0, "s": 91.2}
+{"kind": "iwp", "params": {"density": 0.35, "mode": "sheet"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 102.6, "cert_s": 14.9, "s": 117.4}
+{"kind": "cube_bars", "params": {"c": 0.6, "w": 0.2}, "passed": true, "static": true, "bloch": true, "gap_claim": {"f_lo": 0.32727717685204594, "f_hi": 0.6546664618870041}, "ref_s": 179.8, "cert_s": 174.7, "s": 354.5}
+{"kind": "iwp", "params": {"density": 0.25, "mode": "sheet"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 63.2, "cert_s": 11.0, "s": 74.3}
+{"kind": "gyroid", "params": {"density": 0.25, "mode": "network"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 64.9, "cert_s": 10.0, "s": 74.8}
+{"kind": "cube_bars", "params": {"c": 0.8, "w": 0.1}, "passed": false, "static": true, "bloch": false, "gap_claim": {"f_lo": 0.1444442502043464, "f_hi": 0.5398476105573423}, "ref_s": 637.8, "cert_s": 200.3, "s": 838.1}
+{"kind": "schwarz_p", "params": {"density": 0.35, "mode": "network"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 148.8, "cert_s": 15.0, "s": 163.8}
+{"kind": "gyroid", "params": {"density": 0.5, "mode": "sheet"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 224.1, "cert_s": 23.7, "s": 247.8}
+{"kind": "cube_bars", "params": {"c": 0.7, "w": 0.3}, "passed": false, "static": true, "bloch": false, "gap_claim": {"f_lo": 0.41720581038381854, "f_hi": 0.6333244172215359}, "ref_s": 405.7, "cert_s": 204.7, "s": 610.4}
+{"kind": "iwp", "params": {"density": 0.15, "mode": "network"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 30.4, "cert_s": 6.7, "s": 37.0}
+{"kind": "gyroid", "params": {"density": 0.15, "mode": "sheet"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 41.8, "cert_s": 8.9, "s": 50.7}
+{"kind": "sphere_ligaments", "params": {"c": 0.35, "w": 0.1}, "passed": false, "static": true, "bloch": false, "gap_claim": {"f_lo": 0.17372964725977674, "f_hi": 0.6988854261010656}, "ref_s": 181.3, "cert_s": 72.9, "s": 254.3}
+{"kind": "gyroid", "params": {"density": 0.35, "mode": "sheet"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 110.7, "cert_s": 15.0, "s": 125.7}
+{"kind": "gyroid", "params": {"density": 0.5, "mode": "network"}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 285.1, "cert_s": 24.4, "s": 309.5}
+{"kind": "sphere_ligaments", "params": {"c": 0.4, "w": 0.2}, "passed": false, "static": true, "bloch": false, "gap_claim": {"f_lo": 0.37032883729164906, "f_hi": 0.8185918407255328}, "ref_s": 342.2, "cert_s": 133.4, "s": 475.6}
+{"kind": "octet", "params": {"r": 0.06, "R": 0.0}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 40.9, "cert_s": 10.1, "s": 51.1}
+{"kind": "bcc", "params": {"r": 0.1, "R": 0.22}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 43.2, "cert_s": 7.7, "s": 50.8}
+{"kind": "sphere_ligaments", "params": {"c": 0.3, "w": 0.15}, "passed": false, "static": true, "bloch": false, "gap_claim": {"f_lo": 0.2949876159613312, "f_hi": 0.5822029420975283}, "ref_s": 142.8, "cert_s": 124.8, "s": 267.6}
+{"kind": "octet", "params": {"r": 0.1, "R": 0.22}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 132.9, "cert_s": 18.9, "s": 151.8}
+{"kind": "sc", "params": {"r": 0.1, "R": 0.15}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 14.2, "cert_s": 3.8, "s": 18.0}
+{"kind": "sphere_ligaments", "params": {"c": 0.35, "w": 0.15}, "passed": false, "static": true, "bloch": false, "gap_claim": {"f_lo": 0.26730460123524263, "f_hi": 0.7688096954487224}, "ref_s": 173.9, "cert_s": 78.0, "s": 252.0}
+{"kind": "bcc", "params": {"r": 0.1, "R": 0.15}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 31.6, "cert_s": 17.1, "s": 48.7}
+{"kind": "bcc", "params": {"r": 0.1, "R": 0.0}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 27.3, "cert_s": 15.5, "s": 42.8}
+{"kind": "sphere_ligaments", "params": {"c": 0.3, "w": 0.2}, "passed": false, "static": true, "bloch": false, "gap_claim": {"f_lo": 0.38772409355852216, "f_hi": 0.5740518051594119}, "ref_s": 110.5, "cert_s": 54.7, "s": 165.2}
+{"kind": "octet", "params": {"r": 0.1, "R": 0.0}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 120.6, "cert_s": 17.8, "s": 138.4}
+{"kind": "octet", "params": {"r": 0.06, "R": 0.15}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 47.4, "cert_s": 11.2, "s": 58.7}
+{"kind": "sphere_ligaments", "params": {"c": 0.3, "w": 0.1}, "passed": false, "static": false, "bloch": false, "gap_claim": {"f_lo": 0.20355752304829045, "f_hi": 0.5297917059664403}, "ref_s": 92.9, "cert_s": 95.3, "s": 188.2}
+{"kind": "sc", "params": {"r": 0.1, "R": 0.22}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 17.7, "cert_s": 4.1, "s": 21.8}
+{"kind": "cube_bars", "params": {"c": 0.4, "w": 0.2}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 20.1, "cert_s": 12.2, "s": 32.3}
+{"kind": "sphere_ligaments", "params": {"c": 0.25, "w": 0.25}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 24.3, "cert_s": 5.1, "s": 29.4}
+{"kind": "sphere_ligaments", "params": {"c": 0.3, "w": 0.25}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 32.0, "cert_s": 6.0, "s": 38.0}
+{"kind": "sphere_ligaments", "params": {"c": 0.25, "w": 0.2}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 19.9, "cert_s": 4.2, "s": 24.1}
+{"kind": "sphere_ligaments", "params": {"c": 0.2, "w": 0.2}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 13.8, "cert_s": 4.0, "s": 17.8}
+{"kind": "cube_bars", "params": {"c": 0.5, "w": 0.3}, "passed": true, "static": true, "bloch": null, "gap_claim": null, "ref_s": 51.5, "cert_s": 7.9, "s": 59.5}

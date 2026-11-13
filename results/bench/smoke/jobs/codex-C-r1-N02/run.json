@@ -1,0 +1,23 @@
+{
+ "brief": "N02",
+ "arm": "C",
+ "profile": "C",
+ "provider": "codex",
+ "status": "timeout",
+ "returncode": -9,
+ "wall_s": 60.4,
+ "usage": {},
+ "final": "",
+ "model": "gpt-6.1-sol",
+ "effort": "high",
+ "cli": "codex-cli 0.165.0",
+ "stderr_tail": "\n[harness] timeout after 60 s: process tree killed",
+ "job": "codex-C-r1-N02",
+ "rep": 1,
+ "partition": "development",
+ "gpu_wait_s": 0.0,
+ "code": "90f3823f15cbeff4",
+ "checker": "f2e482d81382b400",
+ "full_source": "704b2d8369133043",
+ "briefs": "194701c05dce17d2"
+}

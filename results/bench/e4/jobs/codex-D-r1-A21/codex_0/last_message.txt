@@ -1,0 +1,1 @@
+{"decision":"ask","question":"What frequency unit applies to the complete 3D band-gap interval from 264 to 410?","options":[{"label":"Hz","set":{"gap":{"f_lo":264,"f_hi":410,"unit":"Hz"}}},{"label":"kHz","set":{"gap":{"f_lo":264,"f_hi":410,"unit":"kHz"}}},{"label":"MHz","set":{"gap":{"f_lo":264,"f_hi":410,"unit":"MHz"}}}]}

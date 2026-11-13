@@ -1,0 +1,107 @@
+{
+ "rule": "certify atlas suggestions 1-5 in order; release the first certified candidate with a robust as-built flag (erode and dilate 0.01a)",
+ "target": {
+  "E100_min_MPa": 70.4,
+  "gap_Hz": [
+   11500,
+   14950
+  ],
+  "material": "PA12",
+  "cell_mm": 20
+ },
+ "outcome": "numerically_undetermined",
+ "released": null,
+ "candidates": [
+  {
+   "rank": 1,
+   "design": {
+    "kind": "cube_bars",
+    "c": 0.616522,
+    "w": 0.151304
+   },
+   "verdict": "undetermined",
+   "reason": "E100 interval straddles target; gap claim in edge guard band",
+   "E100_MPa_lower": 67.2,
+   "eroded_E100_MPa": 55.0,
+   "dilate_passed": true,
+   "seconds": 1327.0,
+   "session": "session_design (stopped after this call)"
+  },
+  {
+   "rank": 2,
+   "design": {
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.592174,
+     "w": 0.164348
+    }
+   },
+   "verdict": "certified",
+   "reason": "certified; not robust",
+   "E100_MPa_lower": 74.3,
+   "E100_MPa_upper": 80.0,
+   "seconds": 615.9,
+   "session": "session_design_b",
+   "eroded_E100_MPa": 62.0,
+   "dilate_passed": false
+  },
+  {
+   "rank": 3,
+   "design": {
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.64087,
+     "w": 0.151304
+    }
+   },
+   "verdict": "undetermined",
+   "reason": "E100 interval straddles target",
+   "E100_MPa_lower": 69.3,
+   "E100_MPa_upper": 75.1,
+   "seconds": 1457.2,
+   "session": "session_design_b",
+   "eroded_E100_MPa": 56.9,
+   "dilate_passed": true
+  },
+  {
+   "rank": 4,
+   "design": {
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.616522,
+     "w": 0.164348
+    }
+   },
+   "verdict": "undetermined",
+   "reason": "gap claim in edge guard band",
+   "E100_MPa_lower": 80.0,
+   "E100_MPa_upper": 85.1,
+   "seconds": 558.5,
+   "session": "session_design_b",
+   "eroded_E100_MPa": 65.9,
+   "dilate_passed": false
+  },
+  {
+   "rank": 5,
+   "design": {
+    "kind": "cube_bars",
+    "params": {
+     "c": 0.592174,
+     "w": 0.151304
+    }
+   },
+   "verdict": "refuted",
+   "reason": "E100 upper bound below target",
+   "E100_MPa_lower": 65.2,
+   "E100_MPa_upper": 69.0,
+   "seconds": 898.6,
+   "session": "session_design_b",
+   "eroded_E100_MPa": 52.7,
+   "dilate_passed": true
+  }
+ ],
+ "certify_seconds_total": 4857.2,
+ "gpu_min_upper": 81.0,
+ "llm_calls": false,
+ "approval": "LS approve review:no-releasable-design 2026-11-08 (continuation)"
+}
