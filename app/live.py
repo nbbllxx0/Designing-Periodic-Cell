@@ -41,6 +41,14 @@ GPU_TOOLS = ("evaluate", "search", "certify", "as_built")
 # shared solver lock
 # ================================================================================================================
 def _pid_alive(pid: int) -> bool:
+    if os.name != "nt":  # POSIX: signal 0 tests for the process without touching it (tasklist is Windows only)
+        try:
+            os.kill(pid, 0)
+        except ProcessLookupError:
+            return False
+        except Exception:  # noqa: BLE001 -- e.g. PermissionError: the process exists
+            return True
+        return True
     try:
         out = subprocess.run(["tasklist", "/FI", f"PID eq {pid}", "/NH"], capture_output=True, text=True,
                              timeout=30).stdout
