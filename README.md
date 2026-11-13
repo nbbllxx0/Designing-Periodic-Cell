@@ -1,5 +1,9 @@
 # AMM: AgenticMetamaterials (Python package `amm`)
 
+[![CI](https://github.com/nbbllxx0/Designing-Periodic-Cell/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/nbbllxx0/Designing-Periodic-Cell/actions/workflows/ci.yml)
+
+CPU tests run on Windows and Ubuntu (Python 3.11) on every push; the first full green run is [run 43372641051](https://github.com/nbbllxx0/Designing-Periodic-Cell/actions/runs/43372641051).
+
 Certified design of periodic mechanical and phononic metamaterial unit cells, by script, by an LLM agent over MCP,
 or in a browser GUI.
 
